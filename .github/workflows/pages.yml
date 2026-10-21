@@ -2,7 +2,7 @@ name: Approved Pages Reader
 on:
   workflow_dispatch:
   push:
-    branches: [pages-approved]
+    branches: [main]
 permissions:
   contents: write
   pages: write
@@ -44,6 +44,46 @@ jobs:
             git commit -m 'Import reviewed 9Floor V2 source'
             git push origin "HEAD:${GITHUB_REF_NAME}"
           fi
+      - name: Apply reviewed preparation expansion once
+        run: |
+          python3 - <<'PYCODE'
+          from pathlib import Path
+          import hashlib, json, zipfile, subprocess, os
+          digest = '369d36ec1c7d5da53909971554cef54426d594b2eca87acf73f841d9d4439af2'
+          marker = Path('.preparation-expansion-v1')
+          if marker.exists():
+              if marker.read_text().strip() != digest:
+                  raise ValueError('Expansion marker mismatch')
+          else:
+              archive_path = Path('preparation-expansion.zip')
+              if hashlib.sha256(archive_path.read_bytes()).hexdigest() != digest:
+                  raise ValueError('Expansion archive checksum mismatch')
+              writes = []
+              with zipfile.ZipFile(archive_path) as archive:
+                  manifest = json.loads(archive.read('manifest.json'))
+                  for item in manifest['files']:
+                      target = Path(item['path'])
+                      if target.is_absolute() or '..' in target.parts or not target.parts or target.parts[0] in ('.github', '.git') or not target.resolve().is_relative_to(Path.cwd()):
+                          raise ValueError('Unsafe patch path')
+                      if item['before'] is None:
+                          if target.exists():
+                              raise ValueError('New file collision: ' + str(target))
+                      elif not target.exists() or hashlib.sha256(target.read_bytes()).hexdigest() != item['before']:
+                          raise ValueError('Source changed since review: ' + str(target))
+                      data = archive.read('files/' + item['path'])
+                      if hashlib.sha256(data).hexdigest() != item['after']:
+                          raise ValueError('Patched file checksum mismatch')
+                      writes.append((target, data))
+              for target, data in writes:
+                  target.parent.mkdir(parents=True, exist_ok=True)
+                  target.write_bytes(data)
+              marker.write_text(digest)
+              subprocess.run(['git', 'config', 'user.name', 'github-actions[bot]'], check=True)
+              subprocess.run(['git', 'config', 'user.email', '41898282+github-actions[bot]@users.noreply.github.com'], check=True)
+              subprocess.run(['git', 'add', '--', *[str(p) for p, _ in writes], str(marker)], check=True)
+              subprocess.run(['git', 'commit', '-m', 'Expand existing V2 with 12 preparation recipes and density tools'], check=True)
+              subprocess.run(['git', 'push', 'origin', 'HEAD:' + os.environ['GITHUB_REF_NAME']], check=True)
+          PYCODE
       - uses: actions/setup-node@v4
         with:
           node-version: 22
