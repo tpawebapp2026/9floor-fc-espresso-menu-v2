@@ -1,10 +1,10 @@
 import { BASE, asset } from "./platform";
 export async function registerUpdates(onReady: (activate: () => void) => void) {
   if (!("serviceWorker" in navigator) || import.meta.env.DEV) return;
-  let registration = await navigator.serviceWorker.register(asset("sw.js"), {
-    scope: BASE,
-    updateViaCache: "none",
-  });
+  let registration = await navigator.serviceWorker.register(
+    asset("sw.js") + "?v=" + encodeURIComponent(import.meta.env.VITE_APP_BUILD_ID),
+    { scope: BASE, updateViaCache: "none" },
+  );
   const observed = new WeakSet<ServiceWorkerRegistration>();
   const observe = (reg: ServiceWorkerRegistration) => {
     const ready = () => {
@@ -43,7 +43,7 @@ export async function registerUpdates(onReady: (activate: () => void) => void) {
       return;
     checking = true;
     try {
-      // A changing query revalidates the deployment manifest even on hosts without configurable cache headers.
+      // Revalidate even on hosts without configurable cache headers.
       const response = await fetch(
         asset("version.json") + "?check=" + Date.now(),
         { cache: "no-store" },
