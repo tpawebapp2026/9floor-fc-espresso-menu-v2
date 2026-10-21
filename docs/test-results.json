@@ -1,0 +1,81 @@
+{
+  "dateMyanmar": "2026-10-21",
+  "scope": "Local Linux headless Chromium, not physical iPhone/Android or hosted Vercel",
+  "unitTests": {
+    "passed": 20,
+    "apiMockTests": 10,
+    "note": "Supabase is mocked in API tests. Sharp decoding and encoding execute locally. No live DB/RLS assertion."
+  },
+  "browser": {
+    "passed": 7,
+    "failed": 0,
+    "skipped": 0,
+    "tests": [
+      {
+        "name": "every migrated menu opens the correct detail page",
+        "passed": true
+      },
+      {
+        "name": "mobile search, departments, international, favorites, recent and theme",
+        "passed": true
+      },
+      {
+        "name": "offline shell and recipes survive reload; newer sync wins",
+        "passed": true
+      },
+      {
+        "name": "admin fails closed without a configured database",
+        "passed": true
+      },
+      {
+        "name": "local service worker A/B update requests approval and keeps favorites",
+        "passed": true
+      },
+      {
+        "name": "layout screenshots and no horizontal overflow at common sizes",
+        "passed": true
+      },
+      {
+        "name": "new bundled seed upgrades cached offline recipes while old seed cannot undo it",
+        "passed": true
+      }
+    ]
+  },
+  "notExecuted": [
+    "Supabase SQL migration and RLS",
+    "Live admin login/edit/publish",
+    "Live image upload",
+    "Authenticated JSON restore",
+    "Vercel preview and remote deployment A/B",
+    "iPhone Safari and iOS Home Screen",
+    "Android Chrome and Android Home Screen"
+  ],
+  "catalogRecipes": 260,
+  "rootBrowser": {
+    "passed": 7,
+    "failed": 0,
+    "scope": "Local Chromium, not live GitHub Pages",
+    "tests": [
+      "every migrated menu opens the correct detail page",
+      "mobile search, departments, international, favorites, recent and theme",
+      "offline shell and recipes survive reload; newer sync wins",
+      "admin fails closed without a configured database",
+      "local service worker A/B update requests approval and keeps favorites",
+      "layout screenshots and no horizontal overflow at common sizes",
+      "new bundled seed upgrades cached offline recipes while old seed cannot undo it"
+    ]
+  },
+  "pagesBrowser": {
+    "passed": 4,
+    "failed": 0,
+    "scope": "Local Chromium, not live GitHub Pages",
+    "tests": [
+      "Pages reader serves all menus under its repository path with a scoped manifest",
+      "Pages deep recipe links reload online and offline without a server rewrite",
+      "Pages cache-busted recipe requests receive a newer seed and resist an older one",
+      "Pages discovers a changed deployment manifest and activates the new scoped worker"
+    ]
+  },
+  "browserTotal": 11,
+  "githubPagesPublication": "Pending browser sign-in/device verification; no live URL"
+}
