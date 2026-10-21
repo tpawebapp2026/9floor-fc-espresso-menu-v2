@@ -8,11 +8,11 @@ import {
 } from "../src/model";
 const original = JSON.parse(readFileSync("public/recipes.json", "utf8"));
 describe("V8 migration and import", () => {
-  it("validates 260 unique, navigable recipes and 28 categories", () => {
+  it("validates 272 unique, navigable recipes and 32 categories", () => {
     const data = CatalogSchema.parse(original);
-    expect(data.recipes).toHaveLength(260);
-    expect(data.categories).toHaveLength(28);
-    expect(new Set(data.recipes.map((r) => r.id)).size).toBe(260);
+    expect(data.recipes).toHaveLength(272);
+    expect(data.categories).toHaveLength(32);
+    expect(new Set(data.recipes.map((r) => r.id)).size).toBe(272);
     expect(
       data.recipes.every((r) => r.steps.length && r.ingredients.length),
     ).toBe(true);

@@ -10,7 +10,9 @@ https://tpawebapp2026.github.io/9floor-fc-espresso-menu-v2/
 
 ## မီနူးများ
 
-- စုစုပေါင်း 260 — Barista 161 / အအေးစုံ 99 / အမျိုးအစား 28။
+[အသစ်ထည့်သော Syrup / Sauce / Fruit Concentrate / Fruit Purée လမ်းညွှန်](docs/PREPARATIONS_MM.md)
+
+- စုစုပေါင်း 272 — Barista 161 / အအေးစုံ 99 / Preparation 12 / အမျိုးအစား 32။
 - V8 မှ 259 မီနူးကို ထိန်းသိမ်း၍ V9 ဖိုင်မှ Iced Cappuccino တစ်မျိုး ထည့်ထားသည်။ မူရင်းပါ စမ်းသပ်ဖျော်နည်း အဆင့်သတ်မှတ်ချက်ကို ဆက်ပြထားသည်။
 - နိုင်ငံတကာစတိုင် 12 နိုင်ငံအလိုက် မီနူးတူများကို ပြန်စုထားသည်။ ထပ်ပွား recipe ID မဖန်တီးထားပါ။
 - Search၊ ingredients၊ အဆင့်လိုက်ဖျော်နည်း၊ ခွက်အရေအတွက်၊ Favorites၊ Recently viewed၊ light/dark ပါသည်။
@@ -26,13 +28,13 @@ Deployment အသစ်ရရှိလျှင် app ဖွင့်ချိ�
 
 ## Deployment နှင့် ကန့်သတ်ချက်
 
-အသစ်သီးသန့် repo တွင် Pages → GitHub Actions ကို ဖွင့်ထားသည်။ .github/workflows/pages.yml သည် manual Run workflow သို့မဟုတ် pages-approved branch push မှ စတင်သည်။ Unit/API tests နှင့် Pages browser tests အောင်မြင်မှ deploy လုပ်သည်။ pages-approved branch ကို preview ထုတ်ရန် အသုံးပြုသည်။ Branch protection / reviewer approval enforcement ကို remote တွင် မသတ်မှတ်ရသေးပါ။ Production deployment အတွက် ပိုင်ရှင်၏ သီးခြားအတည်ပြုချက် လိုသည်။ Paid service မဖွင့်ထားပါ။
+အသစ်သီးသန့် repo တွင် Pages → GitHub Actions ကို ဖွင့်ထားသည်။ .github/workflows/pages.yml သည် manual Run workflow သို့မဟုတ် main branch push မှ စတင်သည်။ Unit/API tests နှင့် Pages browser tests အောင်မြင်မှ deploy လုပ်သည်။ GitHub Pages environment က ခွင့်ပြုထားသော main branch မှသာ preview ထုတ်သည်။ pages-approved မှ deploy စမ်းသပ်မှုကို environment rule က ပိတ်ခဲ့၍ security rule ကို မလျှော့ဘဲ main ကို သုံးထားသည်။ Branch protection / reviewer approval enforcement ကို remote တွင် မသတ်မှတ်ရသေးပါ။ Production deployment အတွက် ပိုင်ရှင်၏ သီးခြားအတည်ပြုချက် လိုသည်။ Paid service မဖွင့်ထားပါ။
 
 Static Pages တွင် server API မ run နိုင်၍ Admin login / edit / publish / photo upload / backup restore ကို live အသုံးမပြုနိုင်သေးပါ။ မီနူးပြင်ဆင်ချက်များကို source JSON ပြင်ပြီး deploy လုပ်ရသည်။ App အတွင်းမှ Publish လုပ်ရန် NEW Supabase project နှင့် server host ဆက်တင်ရမည်။ Backend source၊ SQL/RLS နှင့် image validation code ကို repo ထဲ ထိန်းသိမ်းထားသည်။
 
 ## စမ်းသပ်မှု
 
-Local unit/API tests 20၊ full-app Chromium browser tests 7၊ Pages browser tests 4 အောင်မြင်ထားသည်။ API tests တွင် mock Supabase သုံးသဖြင့် live DB/RLS စစ်ပြီးဟု မဆိုရ။ GitHub Actions မှ Pages builds / tests / deployments အောင်မြင်ပြီး remote A → B တွင် update အသိပေးချက်၊ activation/reload နှင့် Favorites ကျန်ရှိမှုကို စမ်းထားသည်။ အသိပေးချက် ထပ်ပေါ်မှုကို တွေ့ရှိ၍ worker URL ကို build version နှင့် တသမတ်တည်းဖြစ်အောင် ပြင်ထားသည်။ Physical iPhone / Android / Add to Home Screen tests၊ live Admin၊ DB permissions နှင့် production deployment တို့ ကျန်သည်။
+Unit/API tests 23 နှင့် မူရင်း recipe 260 ခု၏ field အားလုံးကို ထိန်းသိမ်းထားကြောင်း regression စမ်းသပ်ချက် ပါသည်။ တိုးချဲ့မှု၏ browser / CI test ရလဒ်ကို Actions run မှ စစ်ပါ။ API tests တွင် mock Supabase သုံးသဖြင့် live DB/RLS စစ်ပြီးဟု မဆိုရ။ GitHub Actions မှ Pages builds / tests / deployments အောင်မြင်ပြီး remote A → B တွင် update အသိပေးချက်၊ activation/reload နှင့် Favorites ကျန်ရှိမှုကို စမ်းထားသည်။ အသိပေးချက် ထပ်ပေါ်မှုကို တွေ့ရှိ၍ worker URL ကို build version နှင့် တသမတ်တည်းဖြစ်အောင် ပြင်ထားသည်။ Physical iPhone / Android / Add to Home Screen tests၊ live Admin၊ DB permissions နှင့် production deployment တို့ ကျန်သည်။
 
 ## Developer commands
 

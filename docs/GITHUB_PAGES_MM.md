@@ -1,6 +1,6 @@
 # GitHub Pages Recipe Reader
 
-ဤမိတ္တူသည် မီနူး 260 မျိုးကို ဖုန်း/ကွန်ပျူတာတွင် ကြည့်ရန် ရည်ရွယ်သော Pages reader ဖြစ်သည်။ GitHub Pages တွင် Node API မ run နိုင်၍ server-backed Admin ကို reader build တွင် မပြထားပါ။ Full Admin/Supabase source ကို ဆက်ထိန်းထားသည်။ Hosting ကို Cloudflare သို့ မပြောင်းထားပါ။
+ဤမိတ္တူသည် မီနူး 272 မျိုးကို ဖုန်း/ကွန်ပျူတာတွင် ကြည့်ရန် ရည်ရွယ်သော Pages reader ဖြစ်သည်။ GitHub Pages တွင် Node API မ run နိုင်၍ server-backed Admin ကို reader build တွင် မပြထားပါ။ Full Admin/Supabase source ကို ဆက်ထိန်းထားသည်။ Hosting ကို Cloudflare သို့ မပြောင်းထားပါ။
 
 ## တည်ဆောက်ပြီးသောအရာများ
 
@@ -14,7 +14,7 @@
 
 ## Approved deployment workflow
 
-`.github/workflows/pages.yml` သည် manual Run workflow သို့မဟုတ် `pages-approved` branch push မှသာ Pages တင်သည်။ Branch သို့ code တင်ခြင်းကို owner-approved change အဖြစ် ကိုင်တွယ်ရမည်။ Repo protection ကို remote setting မှ configure မပြီးသေးသဖြင့် protection အလိုအလျောက် ရှိပြီးဟု မယူဆရ။
+`.github/workflows/pages.yml` သည် manual Run workflow သို့မဟုတ် `main` branch push မှသာ Pages တင်သည်။ Branch သို့ code တင်ခြင်းကို owner-approved change အဖြစ် ကိုင်တွယ်ရမည်။ Repo protection ကို remote setting မှ configure မပြီးသေးသဖြင့် protection အလိုအလျောက် ရှိပြီးဟု မယူဆရ။
 
 workflow သည် dependency install၊ unit/API tests၊ Pages build နှင့် Pages browser tests ကို run ပြီးမှ upload/deploy လုပ်သည်။ Pages enablement ကို ကြိုးစားဖွင့်ပေးမည်ဖြစ်သော်လည်း token/organization policy က ခွင့်မပြုလျှင် repository Settings → Pages → GitHub Actions ကို အကောင့်ပိုင်ရှင်က configure ပေးရနိုင်သည်။
 
@@ -40,3 +40,8 @@ Root/full-app browser suite 7 ခု၊ Pages-specific browser suite 4 ခုန
 မီနူးပြင်ဆင်ချက်ကို JSON schema အတိုင်း source repo သို့ သိမ်းပြီး စမ်းသပ်မှုအောင်မြင်မှ approved branch / manual workflow ဖြင့် deploy လုပ်ပါ။ Deployment အောင်မြင်ပြီး တူညီသော Pages URL ကို online ဖုန်းတွင် ပြန်ဖွင့်မှ အသစ်ရယူနိုင်သည်။ Offline ဖုန်းသည် ပြန်ချိတ်မှ ရနိုင်သည်။
 
 ဤနည်းတွင် Owner က app အတွင်းမှ login ဝင်ပြီး recipe Publish လုပ်ခြင်း မပါဝင်ပါ။ အဲဒီအဆင့်အတွက် Full Admin/Supabase deployment ကို သီးခြားဆက်တင်ရန် လိုသည်။
+
+
+## Preparation expansion
+
+လက်ရှိ repo ကိုပင် ထပ်တိုးထားသည်။ မူရင်း 260 မီနူးကို မပြောင်းဘဲ Syrup / Sauce / Fruit Concentrate / Fruit Purée တစ်ကဏ္ဍ 3 မျိုးစီ ထပ်ထည့်သည်။ [အသုံးပြုနည်း](PREPARATIONS_MM.md) ကို ဖတ်ပါ။ ယခင် status စာသားများထက် root README နှင့် Actions run အမှန်တကယ်ရလဒ်ကို ဦးစားပေးပါ။ GitHub Pages environment က main ကိုသာ ခွင့်ပြု၍ အခြား branch deployment attempt တစ်ခု ပိတ်ခံခဲ့ရသည်။ Security rules ကို မလျှော့ဘဲ ခွင့်ပြုထားသော main မှသာ deploy လုပ်သည်။

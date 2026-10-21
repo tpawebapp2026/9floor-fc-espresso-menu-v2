@@ -174,7 +174,7 @@ test("new bundled seed upgrades cached offline recipes while old seed cannot und
   await page.goto("/");
   await expect(page.locator(".recipe-card")).toHaveCount(161);
   const updated = structuredClone(seed);
-  updated.seedVersion = 3;
+  updated.seedVersion = (seed.seedVersion ?? 0) + 1;
   updated.recipes[0].englishName = "Updated bundled recipe";
   await page.route("**/recipes.json", (r) => r.fulfill({ json: updated }));
   await page.evaluate(() => window.dispatchEvent(new Event("online")));

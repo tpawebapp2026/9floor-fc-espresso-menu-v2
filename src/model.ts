@@ -76,6 +76,9 @@ export function searchRecipes(recipes: Recipe[], query: string) {
 // Scale only ingredient quantities that are unambiguous metric measurements. Preserve original text otherwise.
 export function scaleQuantity(value: string, count: number) {
   if (count === 1) return value;
+  const dual = value.match(/^(\d+(?:\.\d+)?) g ≈ (\d+(?:\.\d+)?) ml$/);
+  if (dual)
+    return `${Math.round(Number(dual[1]) * count * 100) / 100} g ≈ ${Math.round(Number(dual[2]) * count * 100) / 100} ml`;
   const m = value.match(
     /^(\d+(?:\.\d+)?)(?:\s*[–-]\s*(\d+(?:\.\d+)?))?\s*(g|ml)(.*)$/i,
   );

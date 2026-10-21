@@ -10,6 +10,8 @@ import {
 import { fetchPublished, loadLocal, saveLocal, db } from "./data";
 import { registerUpdates } from "./pwa";
 import { countries, countryRecipes } from "./international";
+import { preparationGroups, isPreparation } from "./preparations";
+import DensityConverter from "./DensityConverter";
 import Admin from "./Admin";
 import "@fontsource/noto-sans-myanmar/myanmar-400.css";
 import "@fontsource/noto-sans-myanmar/myanmar-700.css";
@@ -176,19 +178,21 @@ function App() {
     : null;
   const source = catalog?.recipes || [];
   const currentRecipes =
-    view === "world"
-      ? country
-        ? countryRecipes(source, country)
-        : source.filter((r) =>
-            countries.some((c) => c.pattern.test(r.englishName)),
-          )
-      : view === "favorites"
-        ? source.filter((r) => fav.includes(r.id))
-        : view === "recent"
-          ? recent
-              .map((id) => source.find((r) => r.id === id))
-              .filter((r): r is Recipe => !!r)
-          : source.filter((r) => r.line === line);
+    view === "preparations"
+      ? source.filter(isPreparation)
+      : view === "world"
+        ? country
+          ? countryRecipes(source, country)
+          : source.filter((r) =>
+              countries.some((c) => c.pattern.test(r.englishName)),
+            )
+        : view === "favorites"
+          ? source.filter((r) => fav.includes(r.id))
+          : view === "recent"
+            ? recent
+                .map((id) => source.find((r) => r.id === id))
+                .filter((r): r is Recipe => !!r)
+            : source.filter((r) => r.line === line && !isPreparation(r));
   const results = searchRecipes(currentRecipes, query).filter(
     (r) => !category || r.categoryId === category,
   );
@@ -217,6 +221,12 @@ function App() {
             နိုင်ငံတကာစတိုင်
           </button>
           <button onClick={() => selectView("favorites")}>အကြိုက်ဆုံး ♡</button>
+          <button
+            className={view === "preparations" ? "active" : ""}
+            onClick={() => selectView("preparations")}
+          >
+            အခြေခံပြင်ဆင်မှု
+          </button>
         </nav>
         <button
           className="icon-button"
@@ -318,13 +328,15 @@ function App() {
             <div>
               <span className="eyebrow">YOUR RECIPE LIBRARY</span>
               <h2>
-                {view === "world"
-                  ? "နိုင်ငံတကာ နာမည်ကြီးစတိုင်များ"
-                  : view === "favorites"
-                    ? "အကြိုက်ဆုံး မီနူးများ"
-                    : view === "recent"
-                      ? "မကြာသေးမီက ကြည့်ထားသောမီနူးများ"
-                      : "ဒီနေ့ ဘာဖျော်မလဲ။"}
+                {view === "preparations"
+                  ? "ဖျော်ရည်၏ အခြေခံလက်ရာများ"
+                  : view === "world"
+                    ? "နိုင်ငံတကာ နာမည်ကြီးစတိုင်များ"
+                    : view === "favorites"
+                      ? "အကြိုက်ဆုံး မီနူးများ"
+                      : view === "recent"
+                        ? "မကြာသေးမီက ကြည့်ထားသောမီနူးများ"
+                        : "ဒီနေ့ ဘာဖျော်မလဲ။"}
               </h2>
             </div>
             <span className="muted">သင်ယူ · စမ်းသပ် · ဖန်တီး</span>
@@ -345,7 +357,11 @@ function App() {
                   <small>Espresso · Brew · Signature</small>
                 </span>
                 <span className="tab-count">
-                  {source.filter((r) => r.line === "barista").length}
+                  {
+                    source.filter(
+                      (r) => r.line === "barista" && !isPreparation(r),
+                    ).length
+                  }
                 </span>
               </button>
               <button
@@ -362,10 +378,50 @@ function App() {
                   <small>Tea · Soda · Smoothie · Milk</small>
                 </span>
                 <span className="tab-count">
-                  {source.filter((r) => r.line === "cold").length}
+                  {
+                    source.filter((r) => r.line === "cold" && !isPreparation(r))
+                      .length
+                  }
                 </span>
               </button>
             </div>
+          )}
+          {view === "preparations" && (
+            <>
+              <p className="muted">
+                Syrup · Sauce · Fruit Concentrate · Fruit Purée —
+                မူရင်းဖျော်ရည်များနှင့် သီးခြား။ အသစ်ရေးဆွဲထားသော စမ်းသပ် batch
+                များဖြစ်ပြီး ဆိုင်မရောင်းမီ အရသာနှင့် လုပ်ငန်းစဉ်ကို အတည်ပြုပါ။
+              </p>
+              <div className="preparation-groups">
+                <button
+                  className={!category ? "selected" : ""}
+                  onClick={() => {
+                    setCategory("");
+                    setQuery("");
+                  }}
+                >
+                  အားလုံး
+                </button>
+                {preparationGroups.map((g) => (
+                  <button
+                    key={g.id}
+                    className={category === g.id ? "selected" : ""}
+                    onClick={() => {
+                      setCategory(g.id);
+                      setQuery("");
+                    }}
+                  >
+                    <span aria-hidden="true">{g.icon}</span>
+                    <b>{g.name}</b>
+                    <small>
+                      {g.mm} ·{" "}
+                      {source.filter((r) => r.categoryId === g.id).length} မျိုး
+                    </small>
+                  </button>
+                ))}
+              </div>
+            </>
           )}
           {view === "world" && (
             <>
@@ -474,9 +530,11 @@ function App() {
                     {r.burmeseName && <p>{r.burmeseName}</p>}
                     <div className="card-bottom">
                       <span>
-                        {r.cupSizes.length
-                          ? r.cupSizes.map((s) => s + " oz").join(" · ")
-                          : "ခွက်အရွယ် မသတ်မှတ်ရသေး"}
+                        {isPreparation(r)
+                          ? "Batch recipe · g / ml"
+                          : r.cupSizes.length
+                            ? r.cupSizes.map((s) => s + " oz").join(" · ")
+                            : "ခွက်အရွယ် မသတ်မှတ်ရသေး"}
                       </span>
                       <span className="arrow">↗</span>
                     </div>
@@ -543,6 +601,9 @@ function App() {
         </main>
       )}
       <nav className="bottom-nav">
+        <button onClick={() => selectView("preparations")}>
+          ◈<span>အခြေခံ</span>
+        </button>
         <button onClick={() => selectView("menu")}>
           ☕<span>မီနူး</span>
         </button>
@@ -613,7 +674,9 @@ function RecipeDetail({
           <div className="notice">
             {r.verification === "owner-tested"
               ? "ပိုင်ရှင် စမ်းသပ်အတည်ပြုထားသည်"
-              : "မူရင်းဖိုင်မှ ကူးယူထားသော စမ်းသပ်ဖျော်နည်း။ ဆိုင်ရောင်းမီ စမ်းသပ်အတည်ပြုပါ။"}
+              : isPreparation(r)
+                ? "V2 အတွက် အသစ်ရေးဆွဲထားသော စမ်းသပ်ဖျော်နည်း။ လက်တွေ့ဖျော်စမ်းပြီးဟု မအတည်ပြုရသေးပါ။"
+                : "မူရင်းဖိုင်မှ ကူးယူထားသော စမ်းသပ်ဖျော်နည်း။ ဆိုင်ရောင်းမီ စမ်းသပ်အတည်ပြုပါ။"}
           </div>
           {egg && (
             <div className="notice safety">
@@ -644,9 +707,11 @@ function RecipeDetail({
             <div className="panel-heading">
               <h2>ပါဝင်ပစ္စည်းများ</h2>
               <label>
-                ခွက်အရေအတွက်{" "}
+                {isPreparation(r) ? "Batch အရေအတွက်" : "ခွက်အရေအတွက်"}{" "}
                 <select
-                  aria-label="ခွက်အရေအတွက်"
+                  aria-label={
+                    isPreparation(r) ? "Batch အရေအတွက်" : "ခွက်အရေအတွက်"
+                  }
                   value={servings}
                   onChange={(e) => setServings(Number(e.target.value))}
                 >
@@ -656,13 +721,21 @@ function RecipeDetail({
                 </select>
               </label>
             </div>
-            <p className="muted">
-              မူရင်းအရွယ်:{" "}
-              {r.cupSizes.length
-                ? r.cupSizes.map((s) => s + " oz").join(" / ")
-                : "မသတ်မှတ်ရသေး"}
-              ။ ခွက်အရွယ်အသစ်အတွက် အချိုး မခန့်မှန်းထားပါ။
-            </p>
+            {isPreparation(r) ? (
+              <p className="muted">
+                ပမာဏသည် batch တစ်ခုစာ။ g ကို အဓိကချိန်ပါ။ ≈ ml သည် အနီးစပ်ဆုံး၊
+                တိုင်းမထားသော အသီး/မှုန့်၏ ml ကို မခန့်မှန်းထားပါ။ Batch
+                အချောရည်အတွက် အောက်ပါ converter ဖြင့် တိုင်းတာပြောင်းနိုင်သည်။
+              </p>
+            ) : (
+              <p className="muted">
+                မူရင်းအရွယ်:{" "}
+                {r.cupSizes.length
+                  ? r.cupSizes.map((s) => s + " oz").join(" / ")
+                  : "မသတ်မှတ်ရသေး"}
+                ။ ခွက်အရွယ်အသစ်အတွက် အချိုး မခန့်မှန်းထားပါ။
+              </p>
+            )}
             {r.ingredients.map((i, n) => (
               <div className="ingredient" key={n}>
                 <span>{i.name}</span>
@@ -675,12 +748,19 @@ function RecipeDetail({
             ))}
             {servings > 1 && (
               <p className="notice">
-                တစ်ခွက်စာ ဖျော်နည်းအဆင့်များကို အောက်တွင် မူရင်းအတိုင်း
-                ပြထားသည်။ ခွက်တစ်ခွက်စီအလိုက် ဖျော်ပါ။ အထက်ပါပမာဏသည်
-                စုစုပေါင်းပြင်ဆင်ရန် ဖြစ်သည်။
+                {isPreparation(r) ? (
+                  "အောက်ပါအဆင့်များသည် batch တစ်ခုစာ ဖြစ်သည်။ အထက်ပါပမာဏသာ batch အရေအတွက်အလိုက် တိုးထားသည်။ အစပြုသူအတွက် batch တစ်ခုချင်း ပြုလုပ်ပါ။"
+                ) : (
+                  <>
+                    တစ်ခွက်စာ ဖျော်နည်းအဆင့်များကို အောက်တွင် မူရင်းအတိုင်း
+                    ပြထားသည်။ ခွက်တစ်ခွက်စီအလိုက် ဖျော်ပါ။ အထက်ပါပမာဏသည်
+                    စုစုပေါင်းပြင်ဆင်ရန် ဖြစ်သည်။
+                  </>
+                )}
               </p>
             )}
           </section>
+          {isPreparation(r) && <DensityConverter />}
           <section className="detail-panel">
             <div className="panel-heading">
               <h2>ဖျော်နည်း အဆင့်လိုက်</h2>
