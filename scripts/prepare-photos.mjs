@@ -92,6 +92,9 @@ const prep = {
 function select(r) {
   if (prep[r.id]) return prep[r.id];
   const n = r.englishName;
+  // Beverage identity takes precedence over country/style keywords.
+  if (/Matcha/.test(n))
+    return style(/^Hot/.test(n) ? "hot-matcha" : "iced-matcha");
   if (/Ube/.test(n)) return style("ube-latte");
   if (/Egg Coffee/.test(n)) return style("egg-coffee");
   if (/Affogato/.test(n)) return style("affogato");

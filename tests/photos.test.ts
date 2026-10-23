@@ -13,6 +13,10 @@ it("every existing recipe has a reviewed photo mapping and owner-uploaded images
     seed.recipes.map((r) => r.id).sort(),
   );
   for (const r of seed.recipes) expect(referencePhoto(r), r.id).not.toBeNull();
+  for (const r of seed.recipes.filter((r) => /Matcha/.test(r.englishName))) {
+    const mapping = photos.recipes[r.id as keyof typeof photos.recipes];
+    expect(mapping.photo, r.id).toBe(/^Hot/.test(r.englishName) ? "hot-matcha" : "iced-matcha");
+  }
   expect(
     referencePhoto({
       ...seed.recipes[0],
