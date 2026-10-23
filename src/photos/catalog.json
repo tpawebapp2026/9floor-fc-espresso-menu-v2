@@ -1,0 +1,2566 @@
+{
+  "schemaVersion": 1,
+  "reviewedAt": "2026-10-22",
+  "photos": {
+    "iced-latte": {
+      "title": "Iced Latte.jpg",
+      "author": "Dredre Lovee",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Iced_Latte.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "changes": "Resized and re-encoded as WebP. Display uses a crop; no generated content or ingredient edits.",
+      "sourceSha256": "86cb01c39bd9783586001356e19f70aa40e14eeb55d161408233e93c56071c17",
+      "small": {
+        "file": "photos/iced-latte-320-b9d646a9fe95.webp",
+        "width": 320,
+        "height": 319,
+        "bytes": 7598,
+        "sha256": "b9d646a9fe9524aeedd241ebdf23501aa95890582a993b7c02068b3345051d77"
+      },
+      "large": {
+        "file": "photos/iced-latte-800-7335ab34591c.webp",
+        "width": 800,
+        "height": 798,
+        "bytes": 37990,
+        "sha256": "7335ab34591c85ce98368662a3167df68f8a41be7306567ce004c73f610a9933"
+      }
+    },
+    "iced-americano": {
+      "title": "Iced Americano 1.jpg",
+      "author": "Challapramod",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Iced_Americano_1.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "changes": "Resized and re-encoded as WebP. Display uses a crop; no generated content or ingredient edits.",
+      "sourceSha256": "d0c80095557b6c8afc3e943fd006267ac9673852c4b41a7b1160c192b66b13b9",
+      "small": {
+        "file": "photos/iced-americano-320-65428a53c5f4.webp",
+        "width": 241,
+        "height": 320,
+        "bytes": 14754,
+        "sha256": "65428a53c5f40e131eaf94239bf789272e3cbc0740c1537de814e6912f97228d"
+      },
+      "large": {
+        "file": "photos/iced-americano-800-12d53cd7a922.webp",
+        "width": 500,
+        "height": 665,
+        "bytes": 68772,
+        "sha256": "12d53cd7a9226e2226f412ef5ca97b3e9616d48bdf773f9397dfb6082d62ac09"
+      }
+    },
+    "cold-brew": {
+      "title": "Iced cold brew coffee.jpg",
+      "author": "Roland Tanglao",
+      "license": "CC0 1.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Iced_cold_brew_coffee.jpg",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "changes": "Resized and re-encoded as WebP. Display uses a crop; no generated content or ingredient edits.",
+      "sourceSha256": "0d6e707f2c64ff8128caf00406fd042a6919829c22eba518b9d745c56d06a90a",
+      "small": {
+        "file": "photos/cold-brew-320-8e36d348526d.webp",
+        "width": 320,
+        "height": 213,
+        "bytes": 9348,
+        "sha256": "8e36d348526d23bdb9947b8f6f6f2967167fcda244345c86b76be218ba7eb865"
+      },
+      "large": {
+        "file": "photos/cold-brew-800-4ae10d602b4d.webp",
+        "width": 800,
+        "height": 533,
+        "bytes": 48410,
+        "sha256": "4ae10d602b4dc0d4658081aed02fd282f2341467fb2f714f392afcce641c976f"
+      }
+    },
+    "espresso": {
+      "title": "Espresso shot in a cappuccino cup.jpg",
+      "author": "massage-techniques",
+      "license": "CC BY 2.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Espresso_shot_in_a_cappuccino_cup.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+      "changes": "Resized and re-encoded as WebP. Display uses a crop; no generated content or ingredient edits.",
+      "sourceSha256": "ebf2379753dcc39cde63cbb05129de74198699832eb3c73f2ceb1d1f48faa457",
+      "small": {
+        "file": "photos/espresso-320-8a88a1da5d93.webp",
+        "width": 320,
+        "height": 240,
+        "bytes": 11986,
+        "sha256": "8a88a1da5d93b216b957b34fcd6fdfb517e5f388b0799848c848c1207955b0da"
+      },
+      "large": {
+        "file": "photos/espresso-800-4e7d24d9b893.webp",
+        "width": 800,
+        "height": 600,
+        "bytes": 78414,
+        "sha256": "4e7d24d9b893614d8f13b41c081bd67defeb95afe155802b597f984002992ef9"
+      }
+    },
+    "cappuccino": {
+      "title": "Cappuccino latte art 2006-04-14.jpg",
+      "author": "Lukas Kolbe (lukas2)",
+      "license": "CC BY-SA 2.5",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cappuccino_latte_art_2006-04-14.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5/",
+      "changes": "Resized and re-encoded as WebP. Display uses a crop; no generated content or ingredient edits.",
+      "sourceSha256": "5a2722146a7541a9511159810389fe4a5ecdf982472e19c906046f90a0966307",
+      "small": {
+        "file": "photos/cappuccino-320-35db92446fce.webp",
+        "width": 320,
+        "height": 189,
+        "bytes": 4294,
+        "sha256": "35db92446fce15c969183db962e17178430ebbfbdf3118e3abcfe41dc8030a8b"
+      },
+      "large": {
+        "file": "photos/cappuccino-800-4631af31737a.webp",
+        "width": 700,
+        "height": 414,
+        "bytes": 26762,
+        "sha256": "4631af31737ab1ab979b24f008dc6a6d633d04e16be4d82866587919864428ad"
+      }
+    },
+    "flat-white": {
+      "title": "Flatwhite.jpg",
+      "author": "Finbar Concaig",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Flatwhite.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "changes": "Resized and re-encoded as WebP. Display uses a crop; no generated content or ingredient edits.",
+      "sourceSha256": "c15d88682bd48fd24f5652e43d2fa23bfe5bdef5035cbfc4177ed1308beb13a3",
+      "small": {
+        "file": "photos/flat-white-320-f0f5c7b3ea7b.webp",
+        "width": 240,
+        "height": 320,
+        "bytes": 12794,
+        "sha256": "f0f5c7b3ea7bb3983cf37f6808b22b677918426f8c0d758f794414dc4f753ca1"
+      },
+      "large": {
+        "file": "photos/flat-white-800-c8963864874f.webp",
+        "width": 500,
+        "height": 667,
+        "bytes": 45314,
+        "sha256": "c8963864874f156acf8e180fc8a802c02ee66998cc84c72d33c73ecba036df61"
+      }
+    },
+    "iced-matcha": {
+      "title": "Iced green tea latte.jpg",
+      "author": "Saya1611",
+      "license": "CC0 1.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Iced_green_tea_latte.jpg",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "changes": "Resized and re-encoded as WebP. Display uses a crop; no generated content or ingredient edits.",
+      "sourceSha256": "0d2a257de4bd366d7ff8bfdceece0b3a4f68b1f104e13c1fd67665ee3f63d707",
+      "small": {
+        "file": "photos/iced-matcha-320-a55763a4076f.webp",
+        "width": 213,
+        "height": 320,
+        "bytes": 4484,
+        "sha256": "a55763a4076f4fd12a0232d9dbbd94892ebcc1040008aa4887f28b665c17f6f0"
+      },
+      "large": {
+        "file": "photos/iced-matcha-800-73f56e29cdcb.webp",
+        "width": 533,
+        "height": 800,
+        "bytes": 24142,
+        "sha256": "73f56e29cdcba6af31bea4cc9307b8fd79ef7b6d60749ab99c65a4ddb0dab899"
+      }
+    },
+    "hot-matcha": {
+      "title": "Hot Matcha Green Tea Latte (36622433756).jpg",
+      "author": "NuCastiel",
+      "license": "CC BY 2.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hot_Matcha_Green_Tea_Latte_(36622433756).jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+      "changes": "Resized and re-encoded as WebP. Display uses a crop; no generated content or ingredient edits.",
+      "sourceSha256": "6041606518ce587308d4d420f57920a642a1385e86e0dcc9d33cf2824d905194",
+      "small": {
+        "file": "photos/hot-matcha-320-90a2bf581c2e.webp",
+        "width": 240,
+        "height": 320,
+        "bytes": 6504,
+        "sha256": "90a2bf581c2e261f2da9e2bf07ddbc0cdbb8454e626e2d76f1b4977882b5b3f2"
+      },
+      "large": {
+        "file": "photos/hot-matcha-800-c3667ba716c0.webp",
+        "width": 600,
+        "height": 800,
+        "bytes": 34642,
+        "sha256": "c3667ba716c054b3796a6354d61e1092ef964d491c862584d393b461b3b5e645"
+      }
+    },
+    "thai-tea": {
+      "title": "Thai iced tea in a typical tall glass.jpg",
+      "author": "GrammarFascist",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Thai_iced_tea_in_a_typical_tall_glass.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "changes": "Resized and re-encoded as WebP. Display uses a crop; no generated content or ingredient edits.",
+      "sourceSha256": "03284892e69cf9ca605b36f0116fb072229cd451d0cc4645824a62bbf6b8bd3d",
+      "small": {
+        "file": "photos/thai-tea-320-034a3c99daa5.webp",
+        "width": 202,
+        "height": 320,
+        "bytes": 5888,
+        "sha256": "034a3c99daa528ad622d1c073243867b5bc82077553867d31db818a0a9a6a2ec"
+      },
+      "large": {
+        "file": "photos/thai-tea-800-1f99620632a6.webp",
+        "width": 500,
+        "height": 791,
+        "bytes": 61600,
+        "sha256": "1f99620632a65113a5efaa301133a0b1c9d97d3d48d5d1b75728fcfb1bf16831"
+      }
+    },
+    "chocolate-milk": {
+      "title": "Chocolate milk.JPG",
+      "author": "stevepb",
+      "license": "CC0 1.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chocolate_milk.JPG",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "changes": "Resized and re-encoded as WebP. Display uses a crop; no generated content or ingredient edits.",
+      "sourceSha256": "e2e0c15f440c452ef2988bc1e09e750f7f3bd65409c42a999f879e58fdf24bcd",
+      "small": {
+        "file": "photos/chocolate-milk-320-6b3e9c9879af.webp",
+        "width": 320,
+        "height": 213,
+        "bytes": 5272,
+        "sha256": "6b3e9c9879afdbd1c07cb5c6783ac4d4d638b83eb922cfbe46f495af3b6866ca"
+      },
+      "large": {
+        "file": "photos/chocolate-milk-800-752500d0e1fe.webp",
+        "width": 800,
+        "height": 533,
+        "bytes": 21248,
+        "sha256": "752500d0e1fe9bd43649710d1a02a9c81e0b951d801bbf0443428cb7e39e14ce"
+      }
+    },
+    "hot-chocolate": {
+      "title": "Hot chocolate with marshmallows.jpg",
+      "author": "PapiPijuan",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hot_chocolate_with_marshmallows.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "changes": "Resized and re-encoded as WebP. Display uses a crop; no generated content or ingredient edits.",
+      "sourceSha256": "70b850cff8d564838db4390829ba1bca9fa5250c649a3dbd6aedf8bf9a9f1a2d",
+      "small": {
+        "file": "photos/hot-chocolate-320-7fb9bae4cf55.webp",
+        "width": 240,
+        "height": 320,
+        "bytes": 7668,
+        "sha256": "7fb9bae4cf5563017ff2a28b60bb8cf1180efd23a490b176f2e663817d89fae0"
+      },
+      "large": {
+        "file": "photos/hot-chocolate-800-1efeb6e836c8.webp",
+        "width": 500,
+        "height": 667,
+        "bytes": 28418,
+        "sha256": "1efeb6e836c8c831b18f6481af204973fee00ea94a0bb4c794b6e7c1d0e44923"
+      }
+    },
+    "strawberry-smoothie": {
+      "title": "Strawberry smoothie 2.jpg",
+      "author": "Maffeth.opiana",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Strawberry_smoothie_2.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "changes": "Resized and re-encoded as WebP. Display uses a crop; no generated content or ingredient edits.",
+      "sourceSha256": "d8b6e4eaf4c36e482f1753ba7ab70e539c6d5e8a9a8e82e70b385bd109a9d982",
+      "small": {
+        "file": "photos/strawberry-smoothie-320-86bdb5f1b593.webp",
+        "width": 240,
+        "height": 320,
+        "bytes": 6208,
+        "sha256": "86bdb5f1b59381fabe02819d279674513947e9810630de6510d56744e02596c6"
+      },
+      "large": {
+        "file": "photos/strawberry-smoothie-800-a82e71d53923.webp",
+        "width": 600,
+        "height": 800,
+        "bytes": 24280,
+        "sha256": "a82e71d53923f099bf3d4cfe218e8202e0b7feea56fe4499aab720c01fc77c20"
+      }
+    },
+    "mango-smoothie": {
+      "title": "Mango Banana Smoothie.jpg",
+      "author": "Irma Sakul",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mango_Banana_Smoothie.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "changes": "Resized and re-encoded as WebP. Display uses a crop; no generated content or ingredient edits.",
+      "sourceSha256": "39002ba04bafb2a991bc7896a876c45eaa274a159df2997a67f82d6b1c622183",
+      "small": {
+        "file": "photos/mango-smoothie-320-31e7e25542b2.webp",
+        "width": 240,
+        "height": 320,
+        "bytes": 3834,
+        "sha256": "31e7e25542b20f057627e9cf6ed0433259e7672ae0c666eb15851c9461dc7bf4"
+      },
+      "large": {
+        "file": "photos/mango-smoothie-800-510d0bccec47.webp",
+        "width": 600,
+        "height": 800,
+        "bytes": 15006,
+        "sha256": "510d0bccec475983288c3fe02851009c1758ad307a0a20e562157d6cf2d6f782"
+      }
+    },
+    "peach-tea": {
+      "title": "Peach Ice Tea.jpg",
+      "author": "Rahul Nadgauda",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Peach_Ice_Tea.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "changes": "Resized and re-encoded as WebP. Display uses a crop; no generated content or ingredient edits.",
+      "sourceSha256": "ac909d6bc9e98a7c85a98f85f53d8bc7c59c5cf87e2920bf76dc5f91686c578f",
+      "small": {
+        "file": "photos/peach-tea-320-d3871b48241e.webp",
+        "width": 320,
+        "height": 320,
+        "bytes": 18678,
+        "sha256": "d3871b48241e36f1fb82429118a3647806f9c8d98bec70e614fbf68966c52bb3"
+      },
+      "large": {
+        "file": "photos/peach-tea-800-92a1a14271cc.webp",
+        "width": 800,
+        "height": 800,
+        "bytes": 110464,
+        "sha256": "92a1a14271ccb8953c6ce694900a3cb25e0ff0abfe374996ca3e8ed642161a4d"
+      }
+    },
+    "egg-coffee": {
+      "title": "Vietnamese Egg Coffee (8704422450).jpg",
+      "author": "Migle",
+      "license": "CC BY-SA 2.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Vietnamese_Egg_Coffee_(8704422450).jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "changes": "Resized and re-encoded as WebP. Display uses a crop; no generated content or ingredient edits.",
+      "sourceSha256": "abaa7981d83d1292603c6ba8341bc744161a56c55d1c628ccf4a15b3394259d2",
+      "small": {
+        "file": "photos/egg-coffee-320-6bc29bc2641c.webp",
+        "width": 213,
+        "height": 320,
+        "bytes": 7136,
+        "sha256": "6bc29bc2641c9040ed71fe88dd2ff3cb5c4443c89c82a4a2af67beb3ba81b708"
+      },
+      "large": {
+        "file": "photos/egg-coffee-800-5af63bce0c09.webp",
+        "width": 500,
+        "height": 750,
+        "bytes": 62108,
+        "sha256": "5af63bce0c09ee2b1626ef3dec3770e98d36d5acc7326339d876517c06c49bb9"
+      }
+    },
+    "dalgona": {
+      "title": "Dalgona coffee.jpg",
+      "author": "Kguirnela",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dalgona_coffee.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "changes": "Resized and re-encoded as WebP. Display uses a crop; no generated content or ingredient edits.",
+      "sourceSha256": "13aa6f3b7a3bc03605b41d520e7bf805643ec1c41dff6033db2b1992456bfab9",
+      "small": {
+        "file": "photos/dalgona-320-723dd67df1d4.webp",
+        "width": 288,
+        "height": 320,
+        "bytes": 6716,
+        "sha256": "723dd67df1d4651fe4e1180c17fd75dec3097b9b16dd2c952136d38da5b3ab8d"
+      },
+      "large": {
+        "file": "photos/dalgona-800-dd25f835d525.webp",
+        "width": 719,
+        "height": 800,
+        "bytes": 31476,
+        "sha256": "dd25f835d525dad2b1f956a5ca2244d67304e204d5fb5d934b91538ae0751be3"
+      }
+    },
+    "vietnamese-coffee": {
+      "title": "Vietnamese iced coffee - Jan 31, 2018.jpg",
+      "author": "Vinnie Cartabiano",
+      "license": "CC BY 2.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Vietnamese_iced_coffee_-_Jan_31,_2018.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+      "changes": "Resized and re-encoded as WebP. Display uses a crop; no generated content or ingredient edits.",
+      "sourceSha256": "522793890475140e2be186163338ac3df292124d9e80f4db13f4d475c41941f5",
+      "small": {
+        "file": "photos/vietnamese-coffee-320-512b2c8346f2.webp",
+        "width": 256,
+        "height": 320,
+        "bytes": 8580,
+        "sha256": "512b2c8346f2a29ddc39e67e95651ad6a1821083868c61b0252793d124189c89"
+      },
+      "large": {
+        "file": "photos/vietnamese-coffee-800-c288a7972327.webp",
+        "width": 500,
+        "height": 625,
+        "bytes": 53544,
+        "sha256": "c288a79723272c2900fe90c8b8060d19f89a6f69ce05d138259a8b6815207823"
+      }
+    },
+    "espresso-tonic": {
+      "title": "Espresso tonic.jpg",
+      "author": "Lajmmoore",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Espresso_tonic.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "changes": "Resized and re-encoded as WebP. Display uses a crop; no generated content or ingredient edits.",
+      "sourceSha256": "449d6f31a42729d3488d89241637b8f85d9c1b5124eebbc1ce102282aae68d28",
+      "small": {
+        "file": "photos/espresso-tonic-320-9a86001e86d5.webp",
+        "width": 241,
+        "height": 320,
+        "bytes": 7898,
+        "sha256": "9a86001e86d580ab912b038e5c1ecd1692fd08476117031ea910f723d21dc9b7"
+      },
+      "large": {
+        "file": "photos/espresso-tonic-800-8a3793833207.webp",
+        "width": 602,
+        "height": 800,
+        "bytes": 40676,
+        "sha256": "8a3793833207669664d45df6896e324b83c5c8fbe874e6aee998e2e735cc6ac2"
+      }
+    },
+    "affogato": {
+      "title": "Espresso Affogato.JPG",
+      "author": "UlrichAAB",
+      "license": "CC BY-SA 3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Espresso_Affogato.JPG",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "changes": "Resized and re-encoded as WebP. Display uses a crop; no generated content or ingredient edits.",
+      "sourceSha256": "1a1f3b142f07c5f0fabfdba27e7ae53987b13107b3ad31827c21f24f8d2e6a3f",
+      "small": {
+        "file": "photos/affogato-320-aa6de595cad1.webp",
+        "width": 313,
+        "height": 320,
+        "bytes": 8608,
+        "sha256": "aa6de595cad1430cbefbda51d51d1f29a0ddb4e1ca06b577dc9e14cbfb156935"
+      },
+      "large": {
+        "file": "photos/affogato-800-8f240a823a7c.webp",
+        "width": 784,
+        "height": 800,
+        "bytes": 42098,
+        "sha256": "8f240a823a7c5f336308215aa8b0c86142ce537b478c6e1eb7c1a5e6990cc3c0"
+      }
+    },
+    "coffee-frappe": {
+      "title": "Frappe - coffee milkshake with whipped cream and chocolate (KETO, LCHF, Low Carb, Gluten free, FIT) - 52774791604.jpg",
+      "author": "Ewelina Podrez-Siama",
+      "license": "CC BY 2.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Frappe_-_coffee_milkshake_with_whipped_cream_and_chocolate_(KETO,_LCHF,_Low_Carb,_Gluten_free,_FIT)_-_52774791604.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+      "changes": "Resized and re-encoded as WebP. Display uses a crop; no generated content or ingredient edits.",
+      "sourceSha256": "db78a9eebc6fe8d4e0898d5942297539e4d4dfa5f4592d9d66a7765d64bdfbaf",
+      "small": {
+        "file": "photos/coffee-frappe-320-4c2e3a637b2d.webp",
+        "width": 240,
+        "height": 320,
+        "bytes": 10864,
+        "sha256": "4c2e3a637b2d2a8db9061e4ccd8365252f283c0d6609fbe278dcbdb7614b8435"
+      },
+      "large": {
+        "file": "photos/coffee-frappe-800-b096440a6e14.webp",
+        "width": 500,
+        "height": 666,
+        "bytes": 44112,
+        "sha256": "b096440a6e14acc91a7c15314d3ad9c3ef01a5376f3ba37dca21605f812443a2"
+      }
+    },
+    "greek-frappe": {
+      "title": "Café frappé in glass.jpg",
+      "author": "Peter Marx",
+      "license": "CC BY-SA 3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Café_frappé_in_glass.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "changes": "Resized and re-encoded as WebP. Display uses a crop; no generated content or ingredient edits.",
+      "sourceSha256": "14ebdf418dc19d06619e05d8dd36a273565be603ab092123fb8fa5d38e1bc3ea",
+      "small": {
+        "file": "photos/greek-frappe-320-5e532ef3c1e9.webp",
+        "width": 240,
+        "height": 320,
+        "bytes": 2866,
+        "sha256": "5e532ef3c1e97737bb5b5b2a0a4d3c2e4ebf4943fd69794871377124daa8e321"
+      },
+      "large": {
+        "file": "photos/greek-frappe-800-8ff624678d79.webp",
+        "width": 600,
+        "height": 800,
+        "bytes": 19154,
+        "sha256": "8ff624678d79dd3a1de7346a0f28883af5880b28457532d2155ac6a89c28906a"
+      }
+    },
+    "sugar-syrup": {
+      "title": "Sugar Syrup.jpg",
+      "author": "DashNistha",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sugar_Syrup.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "changes": "Resized and re-encoded as WebP. Display uses a crop; no generated content or ingredient edits.",
+      "sourceSha256": "f3759a913e8d885264341d105ad120e7439a749942db6ad0382fac99fb4e8fc4",
+      "small": {
+        "file": "photos/sugar-syrup-320-db2ddac050ea.webp",
+        "width": 240,
+        "height": 320,
+        "bytes": 9166,
+        "sha256": "db2ddac050ea635e74bedc018651dd0d0a3536f9c2b72080cd0f1dc367c8015d"
+      },
+      "large": {
+        "file": "photos/sugar-syrup-800-7d455874b66a.webp",
+        "width": 500,
+        "height": 667,
+        "bytes": 43664,
+        "sha256": "7d455874b66a7c974d970b62820ba164edf324b519c7109a8773d660ff5d9584"
+      }
+    },
+    "caramel-sauce": {
+      "title": "Caramel Sauce - Caramel Syrup.jpg",
+      "author": "Rebecca Siegel",
+      "license": "CC BY 2.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Caramel_Sauce_-_Caramel_Syrup.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+      "changes": "Resized and re-encoded as WebP. Display uses a crop; no generated content or ingredient edits.",
+      "sourceSha256": "78fcfc257f10eba6cd7cc4ec5023857b02de43a8d5d4eba9f12031f96f7c43f3",
+      "small": {
+        "file": "photos/caramel-sauce-320-578279bdaff2.webp",
+        "width": 320,
+        "height": 240,
+        "bytes": 10146,
+        "sha256": "578279bdaff203a8a19def434999b24ef4f84118b98aa27aad41969523de6075"
+      },
+      "large": {
+        "file": "photos/caramel-sauce-800-080d7035fd74.webp",
+        "width": 800,
+        "height": 600,
+        "bytes": 84092,
+        "sha256": "080d7035fd7456d4edf03ba091bfa9b306209bffca99b0f15a6c76d8a1cc41cb"
+      }
+    },
+    "strawberry-puree": {
+      "title": "Strawberry puree (1).jpg",
+      "author": "Roozitaa",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Strawberry_puree_(1).jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "changes": "Resized and re-encoded as WebP. Display uses a crop; no generated content or ingredient edits.",
+      "sourceSha256": "ebc786ee1d9b52de7a571c886baf74897a803dcb8615255dcc5651a45ab89afb",
+      "small": {
+        "file": "photos/strawberry-puree-320-5e3d02fd1764.webp",
+        "width": 320,
+        "height": 213,
+        "bytes": 8676,
+        "sha256": "5e3d02fd17646ff5d6868bf33e5ecb61a1616a771ff21a11f6ed76ff5e169b68"
+      },
+      "large": {
+        "file": "photos/strawberry-puree-800-b8855ff6c43c.webp",
+        "width": 800,
+        "height": 533,
+        "bytes": 45016,
+        "sha256": "b8855ff6c43c9d9604873f290dcb49dec6fc0798941da7484407050a9c5d508f"
+      }
+    },
+    "mango-puree": {
+      "title": "Mango puree and poori.JPG",
+      "author": "Shobha Elizabeth John",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mango_puree_and_poori.JPG",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "changes": "Resized and re-encoded as WebP. Display uses a crop; no generated content or ingredient edits.",
+      "sourceSha256": "1055f58eeba786e95f1d0769cc90eb4e9064cb46a986701b010f265f721b7e73",
+      "small": {
+        "file": "photos/mango-puree-320-4411567ab9a6.webp",
+        "width": 320,
+        "height": 213,
+        "bytes": 5024,
+        "sha256": "4411567ab9a678383267b1d36e0e8a1c86dbace382dd69523edbf915d00ba8a6"
+      },
+      "large": {
+        "file": "photos/mango-puree-800-4bf33f7d3986.webp",
+        "width": 800,
+        "height": 533,
+        "bytes": 33968,
+        "sha256": "4bf33f7d3986e9b12d3d375995d51a4df4b961bc0de8eaad849326bd8f7fbc31"
+      }
+    },
+    "lemonade": {
+      "title": "Homemade Lemonade.jpg",
+      "author": "JJ Harrison (https://www.jjharrison.com.au/)",
+      "license": "CC BY-SA 2.5",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Homemade_Lemonade.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5/",
+      "changes": "Resized and re-encoded as WebP. Display uses a crop; no generated content or ingredient edits.",
+      "sourceSha256": "26de49f33f0873ac94ff769cf8b61e1ef43db73bf9b23a4e2c64f142f3c61e13",
+      "small": {
+        "file": "photos/lemonade-320-09bbf8e8d219.webp",
+        "width": 189,
+        "height": 320,
+        "bytes": 2778,
+        "sha256": "09bbf8e8d21963d3111344fcb15c91242216dfabb4ad1af717f83d84cf4afc68"
+      },
+      "large": {
+        "file": "photos/lemonade-800-8ad6d2462b1e.webp",
+        "width": 473,
+        "height": 800,
+        "bytes": 22076,
+        "sha256": "8ad6d2462b1eb264f18cf33a21b4bb80f03d4370edb7bed767a250145599046e"
+      }
+    },
+    "blue-lemonade": {
+      "title": "A glass of blue lemonade.jpg",
+      "author": "Queen Asali",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:A_glass_of_blue_lemonade.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "changes": "Resized and re-encoded as WebP. Display uses a crop; no generated content or ingredient edits.",
+      "sourceSha256": "37cf35b1a5c262d02c6dd84e669f648ec0ad2ee9f4a76f7918cadddd728a0ac1",
+      "small": {
+        "file": "photos/blue-lemonade-320-37305f1dc542.webp",
+        "width": 180,
+        "height": 320,
+        "bytes": 8592,
+        "sha256": "37305f1dc5429dd18b2bc89a6a2376e7d3a690626c37e55a06f05cc4feae8156"
+      },
+      "large": {
+        "file": "photos/blue-lemonade-800-c04c7761abdf.webp",
+        "width": 450,
+        "height": 800,
+        "bytes": 52166,
+        "sha256": "c04c7761abdfd54c4f5cfdca7fed5a0a67de3a99a1aa6fea784f1a8c6d27d606"
+      }
+    },
+    "strawberry-soda": {
+      "title": "Minuman Es Strawberry.jpg",
+      "author": "Listyan",
+      "license": "CC0 1.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Minuman_Es_Strawberry.jpg",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "changes": "Resized and re-encoded as WebP. Display uses a crop; no generated content or ingredient edits.",
+      "sourceSha256": "e7fd621f0391c7694ba6b23bb5fcc23c3203bc266e2b87e7b479c619bd516d25",
+      "small": {
+        "file": "photos/strawberry-soda-320-7c2556d9f455.webp",
+        "width": 180,
+        "height": 320,
+        "bytes": 13934,
+        "sha256": "7c2556d9f45539d988d206f00f5ac58653bd6f7355e1429603e2fa8b47f077a0"
+      },
+      "large": {
+        "file": "photos/strawberry-soda-800-c32ec20103de.webp",
+        "width": 450,
+        "height": 800,
+        "bytes": 71794,
+        "sha256": "c32ec20103def1761f8e16dea2c8021f7f59888f2bc4a326c0a094a0123f1dd3"
+      }
+    },
+    "fruit-tea": {
+      "title": "Fresh fruit tea.jpg",
+      "author": "Moli chen",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fresh_fruit_tea.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "changes": "Resized and re-encoded as WebP. Display uses a crop; no generated content or ingredient edits.",
+      "sourceSha256": "7700c701fbc10097fe315a1e8445d103df7907ad4df24625be4c754f835806a8",
+      "small": {
+        "file": "photos/fruit-tea-320-6f2776759656.webp",
+        "width": 252,
+        "height": 320,
+        "bytes": 9638,
+        "sha256": "6f2776759656a13b785943ea7479af10e12f5d14868dbc592497a1085d637cd9"
+      },
+      "large": {
+        "file": "photos/fruit-tea-800-dfc27b047267.webp",
+        "width": 500,
+        "height": 635,
+        "bytes": 38604,
+        "sha256": "dfc27b047267d1adc25b2d3a7ab707861391a51bb24e364e95d0696491b7722e"
+      }
+    },
+    "pour-over": {
+      "title": "Manual Brew V60.jpg",
+      "author": "Robijuniarta",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Manual_Brew_V60.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "changes": "Resized and re-encoded as WebP. Display uses a crop; no generated content or ingredient edits.",
+      "sourceSha256": "819068a2286b605a047599a62592f5d3f6b85a136c03e59308d60f9b5d71d75e",
+      "small": {
+        "file": "photos/pour-over-320-b6b83670fe80.webp",
+        "width": 213,
+        "height": 320,
+        "bytes": 7044,
+        "sha256": "b6b83670fe800cb36e94e865d7e41af89490cfff8646cdce5e62a56186b93002"
+      },
+      "large": {
+        "file": "photos/pour-over-800-80ae9d3357c6.webp",
+        "width": 500,
+        "height": 750,
+        "bytes": 35358,
+        "sha256": "80ae9d3357c6a0806363902982603f9369723e4d30a707fc3614ee2de651cc57"
+      }
+    },
+    "french-press": {
+      "title": "French press with coffee.jpg",
+      "author": "Corn cheese",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:French_press_with_coffee.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "changes": "Resized and re-encoded as WebP. Display uses a crop; no generated content or ingredient edits.",
+      "sourceSha256": "a7e9615f4b09fcbdae24182d674a62324e4a7079f17043b9330eb009b22f9ce7",
+      "small": {
+        "file": "photos/french-press-320-a79a32ac8d14.webp",
+        "width": 180,
+        "height": 320,
+        "bytes": 10176,
+        "sha256": "a79a32ac8d1477bad1e2b54753c210ea8cd2ae33998239ef1a7983ba06a7f10d"
+      },
+      "large": {
+        "file": "photos/french-press-800-cf89a595f03a.webp",
+        "width": 450,
+        "height": 800,
+        "bytes": 64154,
+        "sha256": "cf89a595f03a7776e12200e15b0bae132d0dd152e7a13854658ce2047979623b"
+      }
+    },
+    "rose-milk": {
+      "title": "Rosemilk.jpg",
+      "author": "Raksanand",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rosemilk.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "changes": "Resized and re-encoded as WebP. Display uses a crop; no generated content or ingredient edits.",
+      "sourceSha256": "8565efa15d32e8215f9243168b3384457c27e95209155a434033a0485fe96bfb",
+      "small": {
+        "file": "photos/rose-milk-320-cbfa10a6e1e7.webp",
+        "width": 256,
+        "height": 320,
+        "bytes": 4014,
+        "sha256": "cbfa10a6e1e7edae44cc3be27e4ec109679967023b0191efb97f54518b1efb1f"
+      },
+      "large": {
+        "file": "photos/rose-milk-800-98141b9367cd.webp",
+        "width": 500,
+        "height": 626,
+        "bytes": 19388,
+        "sha256": "98141b9367cda44780e77eaeb4baf0fe5feca2fe4eb0dd5d3d2cdfbe7b4747b2"
+      }
+    },
+    "taro-milk": {
+      "title": "Taro flavored milk tea.jpg",
+      "author": "Fumikas Sagisavas",
+      "license": "CC0 1.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Taro_flavored_milk_tea.jpg",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "changes": "Resized and re-encoded as WebP. Display uses a crop; no generated content or ingredient edits.",
+      "sourceSha256": "0050bf8c963385d665f8ca96d0159cb631ca22ec43fdc8c8de98946ee881aa8e",
+      "small": {
+        "file": "photos/taro-milk-320-c2cec7d97846.webp",
+        "width": 240,
+        "height": 320,
+        "bytes": 5244,
+        "sha256": "c2cec7d9784620f69135b44d82ac5cc1ff035049d2925064b47f8f36b52b8c22"
+      },
+      "large": {
+        "file": "photos/taro-milk-800-3ba7962cec03.webp",
+        "width": 500,
+        "height": 667,
+        "bytes": 19238,
+        "sha256": "3ba7962cec034b9839e7830687804d8153bd718350d2794107d417189b19e879"
+      }
+    },
+    "butterfly-pea": {
+      "title": "Butterfly pea tea with lemon juice.jpg",
+      "author": "Libera_knabino",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Butterfly_pea_tea_with_lemon_juice.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "changes": "Resized and re-encoded as WebP. Display uses a crop; no generated content or ingredient edits.",
+      "sourceSha256": "98e319b42505235667c26f2a4053617d0951e40a461fc4008a3ddb5cb841b8f3",
+      "small": {
+        "file": "photos/butterfly-pea-320-e377dd64f0a8.webp",
+        "width": 240,
+        "height": 320,
+        "bytes": 7330,
+        "sha256": "e377dd64f0a81569edb9197ebfac5730e6420b33163403eb2e42a3b65e2d9a38"
+      },
+      "large": {
+        "file": "photos/butterfly-pea-800-4574d48c86dd.webp",
+        "width": 500,
+        "height": 667,
+        "bytes": 27860,
+        "sha256": "4574d48c86dd61b08d56412d81cbf7929238914ba5a11cf1191696be842013eb"
+      }
+    },
+    "pineapple": {
+      "title": "Ananas flesh 4parts.jpg",
+      "author": "Garitzko",
+      "license": "Public domain",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ananas_flesh_4parts.jpg",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/File:Ananas_flesh_4parts.jpg",
+      "changes": "Resized and re-encoded as WebP. Display uses a crop; no generated content or ingredient edits.",
+      "sourceSha256": "e1e6339f14c7ffdb70b8c706fcd25cffa65fe74d3a5b800a20b891c78805ca5a",
+      "small": {
+        "file": "photos/pineapple-320-680deacfa734.webp",
+        "width": 320,
+        "height": 206,
+        "bytes": 6116,
+        "sha256": "680deacfa734454b8af913b7bc664b864ef6450c99354cd5d2585a41a9fa78c3"
+      },
+      "large": {
+        "file": "photos/pineapple-800-cbbdc2763559.webp",
+        "width": 800,
+        "height": 514,
+        "bytes": 30132,
+        "sha256": "cbbdc2763559cc4e3858209260900062b9d3cdb70c3718f94fc6be0c8a080c04"
+      }
+    },
+    "citrus": {
+      "title": "Lemon and lime.jpg",
+      "author": "Rhododendrites",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lemon_and_lime.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "changes": "Resized and re-encoded as WebP. Display uses a crop; no generated content or ingredient edits.",
+      "sourceSha256": "b3cc189fe0b2c4ace10bb1c651b8da1f20105e11fc77d23baedb854ea8e65d81",
+      "small": {
+        "file": "photos/citrus-320-f43d6e8e9323.webp",
+        "width": 320,
+        "height": 182,
+        "bytes": 3382,
+        "sha256": "f43d6e8e9323592ca8acf738b35b4d941d214822ec7ab3a3376802ac0294c850"
+      },
+      "large": {
+        "file": "photos/citrus-800-446ebe5f59c3.webp",
+        "width": 800,
+        "height": 455,
+        "bytes": 20066,
+        "sha256": "446ebe5f59c3945ffe2ad5bfe81d580fdee671c048ebd5311d7e6e177e373537"
+      }
+    },
+    "passion-fruit": {
+      "title": "Passion fruits - whole and halved.jpg",
+      "author": "Ivar Leidus",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Passion_fruits_-_whole_and_halved.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "changes": "Resized and re-encoded as WebP. Display uses a crop; no generated content or ingredient edits.",
+      "sourceSha256": "ceb773df3c3269c433869205c1ac8a39f1925f51d9cadb96c4b117b93e66ef89",
+      "small": {
+        "file": "photos/passion-fruit-320-5752991cb00e.webp",
+        "width": 320,
+        "height": 213,
+        "bytes": 6680,
+        "sha256": "5752991cb00eb183fcd8f86cc6926937d9d5b4fba5997650faa0883cf1124835"
+      },
+      "large": {
+        "file": "photos/passion-fruit-800-1026d8972a61.webp",
+        "width": 800,
+        "height": 533,
+        "bytes": 54492,
+        "sha256": "1026d8972a61357421f192a23111160950047c9d7f16f0c7fc07914e361193cf"
+      }
+    },
+    "lychee": {
+      "title": "Lychee fruits and seed.jpg",
+      "author": "Ivar Leidus",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lychee_fruits_and_seed.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "changes": "Resized and re-encoded as WebP. Display uses a crop; no generated content or ingredient edits.",
+      "sourceSha256": "3ccb48260898b86a88354a727354077205b53d9b3c97ea6b35105f9cdeda88a3",
+      "small": {
+        "file": "photos/lychee-320-f3c3786a683a.webp",
+        "width": 320,
+        "height": 213,
+        "bytes": 4984,
+        "sha256": "f3c3786a683a33bf6611cb2523f3d9c83f68a9a0b33c0ee0b016343d5f0215d8"
+      },
+      "large": {
+        "file": "photos/lychee-800-d5352a194517.webp",
+        "width": 800,
+        "height": 533,
+        "bytes": 32864,
+        "sha256": "d5352a194517bd68ab02a7aa9421a845805144964922212a70a3ab662089f52d"
+      }
+    },
+    "mango": {
+      "title": "Mango - single.jpg",
+      "author": "Ivar Leidus",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mango_-_single.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "changes": "Resized and re-encoded as WebP. Display uses a crop; no generated content or ingredient edits.",
+      "sourceSha256": "38150d51f64ec4f1a14a9b3919bfc073be6f360fc170c847169c17ba0aa6be04",
+      "small": {
+        "file": "photos/mango-320-91f759fbd0ec.webp",
+        "width": 320,
+        "height": 213,
+        "bytes": 3822,
+        "sha256": "91f759fbd0ec763f1362a004aa5c2004db4cb4e8a6488cc1643f334a0fd25b03"
+      },
+      "large": {
+        "file": "photos/mango-800-a8b628830441.webp",
+        "width": 800,
+        "height": 533,
+        "bytes": 29858,
+        "sha256": "a8b628830441bbc245fbd189e47eb6695c7d012ac9e13bc580a15c804e299625"
+      }
+    },
+    "watermelon": {
+      "title": "Watermelon (1).jpg",
+      "author": "Renee Comet / National Cancer Institute",
+      "license": "Public domain",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Watermelon_(1).jpg",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/File:Watermelon_(1).jpg",
+      "changes": "Resized and re-encoded as WebP. Display uses a crop; no generated content or ingredient edits.",
+      "sourceSha256": "c3f775b39b60afed44ae5b749d35a8a5c2f42c394952acfd49ad2dbc30b3c2cd",
+      "small": {
+        "file": "photos/watermelon-320-18acc0974ea3.webp",
+        "width": 320,
+        "height": 213,
+        "bytes": 3844,
+        "sha256": "18acc0974ea339d174923eb42e1482218a1dced846b1c1a49b016b9f638ed06f"
+      },
+      "large": {
+        "file": "photos/watermelon-800-d29e87b0ae22.webp",
+        "width": 800,
+        "height": 533,
+        "bytes": 29948,
+        "sha256": "d29e87b0ae22cc6ec7262fbff0ee208d6c6314759615574ad8bda662e37185b6"
+      }
+    },
+    "brown-sugar": {
+      "title": "Brown sugar.jpg",
+      "author": "EstherDje",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Brown_sugar.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "changes": "Resized and re-encoded as WebP. Display uses a crop; no generated content or ingredient edits.",
+      "sourceSha256": "1cfbfd27ea137bc3562db7c7a85287f8712959c452a46d894e850e29e8da9e09",
+      "small": {
+        "file": "photos/brown-sugar-320-bb0a8f7a0fe5.webp",
+        "width": 313,
+        "height": 320,
+        "bytes": 16888,
+        "sha256": "bb0a8f7a0fe5f83487da1ac0813bb8139191173ada89ae2427fc5558114b6f04"
+      },
+      "large": {
+        "file": "photos/brown-sugar-800-7744809df954.webp",
+        "width": 784,
+        "height": 800,
+        "bytes": 110558,
+        "sha256": "7744809df9540525a004133986ba3498dd740463eaa9c1dc05dd30b5dd334868"
+      }
+    },
+    "vanilla": {
+      "title": "Vanilla pods in a test tube.jpg",
+      "author": "Tanguy Ortolo",
+      "license": "CC BY-SA 3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Vanilla_pods_in_a_test_tube.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "changes": "Resized and re-encoded as WebP. Display uses a crop; no generated content or ingredient edits.",
+      "sourceSha256": "f4b9b99165fcdb68f3dec81833262b39318431f9e534ffe558a24363b498c1b5",
+      "small": {
+        "file": "photos/vanilla-320-9c2d52be88f1.webp",
+        "width": 202,
+        "height": 320,
+        "bytes": 2710,
+        "sha256": "9c2d52be88f1d1ad6b03fc730e2acc84a02f3f5463614fe3a8968a84208202e5"
+      },
+      "large": {
+        "file": "photos/vanilla-800-607ce7caecbf.webp",
+        "width": 500,
+        "height": 793,
+        "bytes": 20502,
+        "sha256": "607ce7caecbf3bc6334e2fe9eab35a30b2ab2f15115e4d7cbe74e0be2485179c"
+      }
+    },
+    "orange-juice": {
+      "title": "Orange juice 1 edit1.jpg",
+      "author": "USDA ARS; edited by Arad and Sting",
+      "license": "Public domain",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Orange_juice_1_edit1.jpg",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/File:Orange_juice_1_edit1.jpg",
+      "changes": "Resized and re-encoded as WebP. Display uses a crop; no generated content or ingredient edits.",
+      "sourceSha256": "e98f9571832de0d2274abf5c11c202bad53a335630dff0659082d57e24b70955",
+      "small": {
+        "file": "photos/orange-juice-320-e91396029f4e.webp",
+        "width": 225,
+        "height": 320,
+        "bytes": 6932,
+        "sha256": "e91396029f4e46f7ee2f3fe6d4eeb02c3e461f6c695b0d37773d26bafacb21b3"
+      },
+      "large": {
+        "file": "photos/orange-juice-800-91e16e7a3dc8.webp",
+        "width": 563,
+        "height": 800,
+        "bytes": 36486,
+        "sha256": "91e16e7a3dc8afa8069f79f7eefff4f016a0006fe540db4764f07c8fc7b39542"
+      }
+    },
+    "mojito": {
+      "title": "Virgin Mojito 01.jpg",
+      "author": "Pratishkhedekar",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Virgin_Mojito_01.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "changes": "Resized and re-encoded as WebP. Display uses a crop; no generated content or ingredient edits.",
+      "sourceSha256": "9bd455bfeb8c6a7ba809846a92a796bd9d9c0bdd7cc0fd9cd7775a3fe33d3b1d",
+      "small": {
+        "file": "photos/mojito-320-1b9be72f5710.webp",
+        "width": 320,
+        "height": 320,
+        "bytes": 19300,
+        "sha256": "1b9be72f5710edbb981058d4ab3c0e1a21f94414ffa1a3212438fde4217b4726"
+      },
+      "large": {
+        "file": "photos/mojito-800-15665eed95f5.webp",
+        "width": 800,
+        "height": 800,
+        "bytes": 105220,
+        "sha256": "15665eed95f5ab905c23d1d3b74fd95ccd63817c8717c78ac1119c91dd8dd6ee"
+      }
+    },
+    "sesame-milk": {
+      "title": "Xing Fu Tang black sesame milk tea.jpg",
+      "author": "BanjoZebra",
+      "license": "CC BY 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Xing_Fu_Tang_black_sesame_milk_tea.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "changes": "Resized and re-encoded as WebP. Display uses a crop; no generated content or ingredient edits.",
+      "sourceSha256": "8776ec3cc8843053ca9e249cd28cd0222d5243ed8845d50db1b0ab6059307c5e",
+      "small": {
+        "file": "photos/sesame-milk-320-a897459f4097.webp",
+        "width": 240,
+        "height": 320,
+        "bytes": 6262,
+        "sha256": "a897459f409716460f915c20b102808e836ad4cce6df77d38b4d538d6d8b79c6"
+      },
+      "large": {
+        "file": "photos/sesame-milk-800-47f9e9a416a9.webp",
+        "width": 600,
+        "height": 800,
+        "bytes": 33610,
+        "sha256": "47f9e9a416a94c96398d4c505a3698836a12273f1237fc772cc208d6ce868c86"
+      }
+    },
+    "chocolate-sauce": {
+      "title": "Vegan Chocolate Sauce (4276817667).jpg",
+      "author": "Veganbaking.net",
+      "license": "CC BY-SA 2.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Vegan_Chocolate_Sauce_(4276817667).jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "changes": "Resized and re-encoded as WebP. Display uses a crop; no generated content or ingredient edits.",
+      "sourceSha256": "85cc01bd27b8f49b7a6696d3c3d022c8019674eb1e81fc330ca4a733d799eec6",
+      "small": {
+        "file": "photos/chocolate-sauce-320-da6de8782e79.webp",
+        "width": 320,
+        "height": 240,
+        "bytes": 4176,
+        "sha256": "da6de8782e794c14177a26e0f2c8b3a03c325b438db5d66ae0f614f411f02927"
+      },
+      "large": {
+        "file": "photos/chocolate-sauce-800-9a4515a564cd.webp",
+        "width": 800,
+        "height": 600,
+        "bytes": 20776,
+        "sha256": "9a4515a564cdf8377562bfe6edcad3bcc86ec12178713d96d439b319fdeef20b"
+      }
+    },
+    "kiwi": {
+      "title": "Kiwi-fruit.jpg",
+      "author": "MaksimPinigin",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kiwi-fruit.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "changes": "Resized and re-encoded as WebP. Display uses a crop; no generated content or ingredient edits.",
+      "sourceSha256": "6ebf777a81ab94985cb26e023ef7bd3d940227fbdaa6095b7235bb86dc4595b6",
+      "small": {
+        "file": "photos/kiwi-320-f86678a5de2f.webp",
+        "width": 320,
+        "height": 180,
+        "bytes": 4666,
+        "sha256": "f86678a5de2fc665a42bdbe45af7f280a53f611966c3efaa8337548dd0361580"
+      },
+      "large": {
+        "file": "photos/kiwi-800-2604341e9c32.webp",
+        "width": 800,
+        "height": 450,
+        "bytes": 55538,
+        "sha256": "2604341e9c32bf35fdc48659f960949e6a6cc9ed561406b897bac8956cd86d17"
+      }
+    },
+    "hot-latte": {
+      "title": "Caffe Latte cup.jpg",
+      "author": "Maksym Kozlenko",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Caffe_Latte_cup.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "changes": "Resized and re-encoded as WebP. Display uses a crop; no generated content or ingredient edits.",
+      "sourceSha256": "18f5f5f2b28a122670f33cea566e5efcc50a6df9da7ce33d727ba60bc55ccdf8",
+      "small": {
+        "file": "photos/hot-latte-320-25fe7ebc7bd0.webp",
+        "width": 320,
+        "height": 290,
+        "bytes": 8456,
+        "sha256": "25fe7ebc7bd0a7af80d7cc64b41056c7d9da1dad834dfa0ffae1261fd6a0ebea"
+      },
+      "large": {
+        "file": "photos/hot-latte-800-0e0f33ec45c3.webp",
+        "width": 800,
+        "height": 726,
+        "bytes": 52902,
+        "sha256": "0e0f33ec45c338ce59e434110ee645e6cc704c653ad275b034ef659ca38539cf"
+      }
+    },
+    "turkish-coffee": {
+      "title": "Turkish coffee in a traditional design cup.jpg",
+      "author": "Garrett Ziegler",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Turkish_coffee_in_a_traditional_design_cup.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "changes": "Resized and re-encoded as WebP. Display uses a crop; no generated content or ingredient edits.",
+      "sourceSha256": "5578fc09c83eaffad94bb06e7f3f64cc43848af650e00040832e10b7ff9f5f5f",
+      "small": {
+        "file": "photos/turkish-coffee-320-41d197f9a78f.webp",
+        "width": 213,
+        "height": 320,
+        "bytes": 7846,
+        "sha256": "41d197f9a78f5435b28b7e716925a622703105d10589c5ac7ebae0c4551565b3"
+      },
+      "large": {
+        "file": "photos/turkish-coffee-800-0ca7e6c19794.webp",
+        "width": 533,
+        "height": 800,
+        "bytes": 31190,
+        "sha256": "0ca7e6c1979434926314e502e8af101fb16a013a1371ddcba00aaaf35dcea5e2"
+      }
+    },
+    "aeropress": {
+      "title": "AeroPress coffee making.jpg",
+      "author": "jaymiek",
+      "license": "CC BY-SA 3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:AeroPress_coffee_making.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "changes": "Resized and re-encoded as WebP. Display uses a crop; no generated content or ingredient edits.",
+      "sourceSha256": "e4d889e4d23b357cb01cbdbb2806afd5bf416ca0b8c68900dc3334d5075dd5a5",
+      "small": {
+        "file": "photos/aeropress-320-41f955ff0cb3.webp",
+        "width": 213,
+        "height": 320,
+        "bytes": 8920,
+        "sha256": "41f955ff0cb3888e255a519cdbf122af12d07e18b32a774f81b4aa6da7a685b8"
+      },
+      "large": {
+        "file": "photos/aeropress-800-af22894b0965.webp",
+        "width": 500,
+        "height": 752,
+        "bytes": 48844,
+        "sha256": "af22894b09652e25ac083e570d2995d504f3f4e370e7cb93e5abd8dc27cd3acc"
+      }
+    },
+    "peach": {
+      "title": "Peach fruit.jpg",
+      "author": "Prianxi",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Peach_fruit.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "changes": "Resized and re-encoded as WebP. Display uses a crop; no generated content or ingredient edits.",
+      "sourceSha256": "40b4a0d5888cac1a8deda911a650f831c6daa67a6945b42f8a6fabd2dd799cdf",
+      "small": {
+        "file": "photos/peach-320-45bf21105fa0.webp",
+        "width": 320,
+        "height": 213,
+        "bytes": 17872,
+        "sha256": "45bf21105fa019365d88c5e2a39c3df3d18418cc8f4a206ed14ce671d940357f"
+      },
+      "large": {
+        "file": "photos/peach-800-6af731f77fd0.webp",
+        "width": 800,
+        "height": 534,
+        "bytes": 93106,
+        "sha256": "6af731f77fd0c1e8469add1295e33dc5a3a4988ce98c3aafe0478d26b499687f"
+      }
+    },
+    "grapefruit": {
+      "title": "Grapefruits - whole-halved-segments.jpg",
+      "author": "Ivar Leidus",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Grapefruits_-_whole-halved-segments.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "changes": "Resized and re-encoded as WebP. Display uses a crop; no generated content or ingredient edits.",
+      "sourceSha256": "74bf47965a5423d3ea2732e8e8b7acfd079d328f5d3bbfc71a65b288a3f3a7f2",
+      "small": {
+        "file": "photos/grapefruit-320-a4a16dc7a8f8.webp",
+        "width": 320,
+        "height": 213,
+        "bytes": 5892,
+        "sha256": "a4a16dc7a8f8bfe490a3f4a636e6114182346327b4d4a739b0170c964b10ce23"
+      },
+      "large": {
+        "file": "photos/grapefruit-800-0166e3c2ad6b.webp",
+        "width": 800,
+        "height": 534,
+        "bytes": 39858,
+        "sha256": "0166e3c2ad6b8fde3c8b83088f8d36f6b94957574b36906150983a94c5310c5f"
+      }
+    },
+    "apple": {
+      "title": "Green apple.jpg",
+      "author": "Faustas L.",
+      "license": "Public domain",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Green_apple.jpg",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/File:Green_apple.jpg",
+      "changes": "Resized and re-encoded as WebP. Display uses a crop; no generated content or ingredient edits.",
+      "sourceSha256": "127bd3d39e715b405488f1c98f6dbecd54a8b2f8e96dc46ea186960c64f18aa0",
+      "small": {
+        "file": "photos/apple-320-ae8024114dd7.webp",
+        "width": 320,
+        "height": 240,
+        "bytes": 7884,
+        "sha256": "ae8024114dd7f0dcbdb3d1e4bca0106c9a36748b3365102aad5ed0957394e675"
+      },
+      "large": {
+        "file": "photos/apple-800-48f548e2db41.webp",
+        "width": 800,
+        "height": 600,
+        "bytes": 37676,
+        "sha256": "48f548e2db418bd58e378cc4c15deb88e86d57d7e91099c84214283f930ee3a3"
+      }
+    },
+    "yuzu": {
+      "title": "Yuzufruit.jpg",
+      "author": "Nagarazoku",
+      "license": "CC BY-SA 2.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Yuzufruit.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "changes": "Resized and re-encoded as WebP. Display uses a crop; no generated content or ingredient edits.",
+      "sourceSha256": "58cdfa144f21e8b767ca8bf8941b943e5a34ea6f501a7b00e9d0dddb1e12ad49",
+      "small": {
+        "file": "photos/yuzu-320-c9bc8cde925e.webp",
+        "width": 213,
+        "height": 320,
+        "bytes": 3502,
+        "sha256": "c9bc8cde925eda1ec71a3f0281df996597b0069f99f110229d5bc357469595ef"
+      },
+      "large": {
+        "file": "photos/yuzu-800-fd55b2f58a79.webp",
+        "width": 532,
+        "height": 800,
+        "bytes": 14922,
+        "sha256": "fd55b2f58a79cd72ed030f3b2fa47bb6d47b979bff389971ddcaa40068ee37b9"
+      }
+    },
+    "berries": {
+      "title": "Blueberries and raspberries in a plate.png",
+      "author": "epSos.de",
+      "license": "CC BY 2.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Blueberries_and_raspberries_in_a_plate.png",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+      "changes": "Resized and re-encoded as WebP. Display uses a crop; no generated content or ingredient edits.",
+      "sourceSha256": "5838086dfcd54a9f853be5ef463f81d518624dca04c6641afdc473f4575d2a07",
+      "small": {
+        "file": "photos/berries-320-45fba0fd0f2c.webp",
+        "width": 320,
+        "height": 218,
+        "bytes": 8466,
+        "sha256": "45fba0fd0f2c048e79cb3590c9e709e03a9a25d352697cba56ad55c6d136b49a"
+      },
+      "large": {
+        "file": "photos/berries-800-11d629569922.webp",
+        "width": 800,
+        "height": 546,
+        "bytes": 48676,
+        "sha256": "11d629569922d6aa5efca5a26729927564a6a71df8a4e2e29a7685f523a96426"
+      }
+    },
+    "banana-milk": {
+      "title": "Banana Milkshake with hundreds and thousands.jpg",
+      "author": "MyLifeStory",
+      "license": "CC BY 2.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Banana_Milkshake_with_hundreds_and_thousands.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+      "changes": "Resized and re-encoded as WebP. Display uses a crop; no generated content or ingredient edits.",
+      "sourceSha256": "5bf9da800de2fcc479f6e37bd8145dfd6168ad6234595d51c0c33121902a9e83",
+      "small": {
+        "file": "photos/banana-milk-320-9331141763fe.webp",
+        "width": 240,
+        "height": 320,
+        "bytes": 8718,
+        "sha256": "9331141763fe2f3c0a9182f289571668dce404d25c76104d390296eccc276bd4"
+      },
+      "large": {
+        "file": "photos/banana-milk-800-8745e766e05e.webp",
+        "width": 600,
+        "height": 800,
+        "bytes": 46116,
+        "sha256": "8745e766e05e0bd9005875579a88a787b907d880c96d2429ab518c001c84dd08"
+      }
+    },
+    "hibiscus": {
+      "title": "Hibiscus tea.jpg",
+      "author": "Emna Mizouni",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hibiscus_tea.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "changes": "Resized and re-encoded as WebP. Display uses a crop; no generated content or ingredient edits.",
+      "sourceSha256": "df86a5937b64e5ecc6ed65a8aeb0d810af4e7c6ea5684517dfa61cf0670ff87a",
+      "small": {
+        "file": "photos/hibiscus-320-7865dcf9d997.webp",
+        "width": 320,
+        "height": 288,
+        "bytes": 7570,
+        "sha256": "7865dcf9d997237ba679ad890a9c1b52f6e3931d6ad5cbcce3d1ea5091ad0aec"
+      },
+      "large": {
+        "file": "photos/hibiscus-800-c4ffb311e916.webp",
+        "width": 534,
+        "height": 480,
+        "bytes": 22702,
+        "sha256": "c4ffb311e91604862d641779c80634a98a39668d30b4d592fbbc7ab0f98a1b2d"
+      }
+    },
+    "cucumber": {
+      "title": "Cucumber Slices.JPG",
+      "author": "Pranavathiyani G",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cucumber_Slices.JPG",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "changes": "Resized and re-encoded as WebP. Display uses a crop; no generated content or ingredient edits.",
+      "sourceSha256": "49937b2c8193aa87c349e3178a51b6fdbed83bdf0e4f9441177e92cc9498cf58",
+      "small": {
+        "file": "photos/cucumber-320-abd609947d64.webp",
+        "width": 320,
+        "height": 199,
+        "bytes": 4396,
+        "sha256": "abd609947d6425a319e8a9c0118685cd7ba7d1a1f73e8328fee9743c6727edf5"
+      },
+      "large": {
+        "file": "photos/cucumber-800-113509bd52e1.webp",
+        "width": 800,
+        "height": 498,
+        "bytes": 21130,
+        "sha256": "113509bd52e162f2972e5a9115a4057e5009e4c4116b3e66788fed9c3dabf059"
+      }
+    },
+    "coconut": {
+      "title": "Half coconut.JPG",
+      "author": "Cocconocce",
+      "license": "CC BY-SA 3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Half_coconut.JPG",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "changes": "Resized and re-encoded as WebP. Display uses a crop; no generated content or ingredient edits.",
+      "sourceSha256": "a9e96ae3dfd608c189cfab0f7f7a7643ba31b157b4b7cfb6d97e78524bcb3fd1",
+      "small": {
+        "file": "photos/coconut-320-a20555fcef84.webp",
+        "width": 240,
+        "height": 320,
+        "bytes": 5586,
+        "sha256": "a20555fcef84007578b8576a721ea929314aff2e88cc65f432a1536704437624"
+      },
+      "large": {
+        "file": "photos/coconut-800-5d7d9a900973.webp",
+        "width": 600,
+        "height": 800,
+        "bytes": 31112,
+        "sha256": "5d7d9a900973d1080481902cacbbb6c173df0b92735fa46ce90d4bd0296cebf4"
+      }
+    },
+    "milk-tea": {
+      "title": "Milk tea and a glass of water.jpg",
+      "author": "Gaurav Dhwaj Khadka",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Milk_tea_and_a_glass_of_water.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "changes": "Resized and re-encoded as WebP. Display uses a crop; no generated content or ingredient edits.",
+      "sourceSha256": "d446fc0da8cfbc7851d0a2002ff97cb0b5d8f86eaf8a12c1c84aefbb33e856be",
+      "small": {
+        "file": "photos/milk-tea-320-5683be26ac19.webp",
+        "width": 240,
+        "height": 320,
+        "bytes": 12540,
+        "sha256": "5683be26ac190c1ce5d0a9ae2a2ee05cf4eee9faf6d8161febe418c4f80f4327"
+      },
+      "large": {
+        "file": "photos/milk-tea-800-9dead8d1c9e9.webp",
+        "width": 600,
+        "height": 800,
+        "bytes": 69276,
+        "sha256": "9dead8d1c9e9256b746ca31e419d89f0301613eb2e38b349a5947274aaa53433"
+      }
+    },
+    "ube-latte": {
+      "title": "George and Onnie's ube latte.jpg",
+      "author": "Josh Lim (Sky Harbor)",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:George_and_Onnie's_ube_latte.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "changes": "Resized and re-encoded as WebP. Display uses a crop; no generated content or ingredient edits.",
+      "sourceSha256": "2ed3ab0f7b0227bdca4e14752117f7c19171966dd05e7014b2146fe797c71741",
+      "small": {
+        "file": "photos/ube-latte-320-d684c04c9f83.webp",
+        "width": 320,
+        "height": 240,
+        "bytes": 8392,
+        "sha256": "d684c04c9f8314d1b28fc8822d3be77ee472c4cf9f666d4b805f4c770da6c939"
+      },
+      "large": {
+        "file": "photos/ube-latte-800-c37b921896df.webp",
+        "width": 800,
+        "height": 600,
+        "bytes": 58826,
+        "sha256": "c37b921896dfb90154995509669ecc5d06363aef6a6c04d73ab877561bf9ff77"
+      }
+    },
+    "oreo-milkshake": {
+      "title": "Oreo Milkshake.JPG",
+      "author": "Prerna Jaddwani",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Oreo_Milkshake.JPG",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "changes": "Resized and re-encoded as WebP. Display uses a crop; no generated content or ingredient edits.",
+      "sourceSha256": "ebe3d7a04356ef0339da588cdb5498433997d6372254f57d7eb2df3ca930ffca",
+      "small": {
+        "file": "photos/oreo-milkshake-320-9c6682dff233.webp",
+        "width": 320,
+        "height": 320,
+        "bytes": 6234,
+        "sha256": "9c6682dff2331e5ecbf9a0510d0c9c94159a21a2e4b5d3566dd41c173560434b"
+      },
+      "large": {
+        "file": "photos/oreo-milkshake-800-a7e9152c489c.webp",
+        "width": 800,
+        "height": 800,
+        "bytes": 28558,
+        "sha256": "a7e9152c489c44a777901da4215e0ac3123c52243616ce5dda9dd75fd66f31e4"
+      }
+    }
+  },
+  "recipes": {
+    "v8-01-01": {
+      "photo": "iced-americano",
+      "kind": "style"
+    },
+    "v8-01-02": {
+      "photo": "iced-americano",
+      "kind": "style"
+    },
+    "v8-01-03": {
+      "photo": "iced-americano",
+      "kind": "style"
+    },
+    "v8-01-04": {
+      "photo": "iced-americano",
+      "kind": "style"
+    },
+    "v8-01-05": {
+      "photo": "iced-americano",
+      "kind": "style"
+    },
+    "v8-01-06": {
+      "photo": "espresso-tonic",
+      "kind": "style"
+    },
+    "v8-01-07": {
+      "photo": "iced-latte",
+      "kind": "style"
+    },
+    "v8-01-08": {
+      "photo": "iced-americano",
+      "kind": "style"
+    },
+    "v8-01-09": {
+      "photo": "iced-latte",
+      "kind": "style"
+    },
+    "v9-iced-cappuccino": {
+      "photo": "iced-latte",
+      "kind": "style"
+    },
+    "v8-01-10": {
+      "photo": "iced-latte",
+      "kind": "style"
+    },
+    "v8-01-11": {
+      "photo": "iced-latte",
+      "kind": "style"
+    },
+    "v8-01-12": {
+      "photo": "iced-latte",
+      "kind": "style"
+    },
+    "v8-01-13": {
+      "photo": "iced-latte",
+      "kind": "style"
+    },
+    "v8-01-14": {
+      "photo": "iced-latte",
+      "kind": "style"
+    },
+    "v8-01-15": {
+      "photo": "iced-latte",
+      "kind": "style"
+    },
+    "v8-01-16": {
+      "photo": "iced-latte",
+      "kind": "style"
+    },
+    "v8-01-17": {
+      "photo": "iced-latte",
+      "kind": "style"
+    },
+    "v8-01-18": {
+      "photo": "iced-latte",
+      "kind": "style"
+    },
+    "v8-01-19": {
+      "photo": "iced-latte",
+      "kind": "style"
+    },
+    "v8-01-20": {
+      "photo": "iced-latte",
+      "kind": "style"
+    },
+    "v8-02-01": {
+      "photo": "espresso",
+      "kind": "style"
+    },
+    "v8-02-02": {
+      "photo": "espresso",
+      "kind": "style"
+    },
+    "v8-02-03": {
+      "photo": "espresso",
+      "kind": "style"
+    },
+    "v8-02-04": {
+      "photo": "espresso",
+      "kind": "style"
+    },
+    "v8-02-05": {
+      "photo": "hot-latte",
+      "kind": "style"
+    },
+    "v8-02-06": {
+      "photo": "cappuccino",
+      "kind": "style"
+    },
+    "v8-02-07": {
+      "photo": "flat-white",
+      "kind": "style"
+    },
+    "v8-02-08": {
+      "photo": "hot-latte",
+      "kind": "style"
+    },
+    "v8-02-09": {
+      "photo": "hot-latte",
+      "kind": "style"
+    },
+    "v8-02-10": {
+      "photo": "hot-latte",
+      "kind": "style"
+    },
+    "v8-02-11": {
+      "photo": "hot-latte",
+      "kind": "style"
+    },
+    "v8-02-12": {
+      "photo": "espresso",
+      "kind": "style"
+    },
+    "v8-03-01": {
+      "photo": "coffee-frappe",
+      "kind": "style"
+    },
+    "v8-03-02": {
+      "photo": "coffee-frappe",
+      "kind": "style"
+    },
+    "v8-03-03": {
+      "photo": "coffee-frappe",
+      "kind": "style"
+    },
+    "v8-03-04": {
+      "photo": "coffee-frappe",
+      "kind": "style"
+    },
+    "v8-03-05": {
+      "photo": "coffee-frappe",
+      "kind": "style"
+    },
+    "v8-04-01": {
+      "photo": "thai-tea",
+      "kind": "style"
+    },
+    "v8-04-02": {
+      "photo": "iced-matcha",
+      "kind": "style"
+    },
+    "v8-04-03": {
+      "photo": "iced-matcha",
+      "kind": "style"
+    },
+    "v8-04-04": {
+      "photo": "chocolate-milk",
+      "kind": "style"
+    },
+    "v8-04-05": {
+      "photo": "chocolate-milk",
+      "kind": "style"
+    },
+    "v8-04-06": {
+      "photo": "milk-tea",
+      "kind": "style"
+    },
+    "v8-04-07": {
+      "photo": "lemonade",
+      "kind": "style"
+    },
+    "v8-04-08": {
+      "photo": "peach-tea",
+      "kind": "style"
+    },
+    "v8-04-09": {
+      "photo": "lemonade",
+      "kind": "style"
+    },
+    "v8-04-10": {
+      "photo": "taro-milk",
+      "kind": "style"
+    },
+    "v8-04-11": {
+      "photo": "strawberry-smoothie",
+      "kind": "style"
+    },
+    "v8-04-12": {
+      "photo": "brown-sugar",
+      "kind": "ingredient"
+    },
+    "v8-04-13": {
+      "photo": "thai-tea",
+      "kind": "style"
+    },
+    "v8-04-14": {
+      "photo": "hot-matcha",
+      "kind": "style"
+    },
+    "v8-04-15": {
+      "photo": "hot-chocolate",
+      "kind": "style"
+    },
+    "v8-04-16": {
+      "photo": "hot-chocolate",
+      "kind": "style"
+    },
+    "v8-04-17": {
+      "photo": "lemonade",
+      "kind": "style"
+    },
+    "v8-04-18": {
+      "photo": "lemonade",
+      "kind": "style"
+    },
+    "v8-05-01": {
+      "photo": "strawberry-smoothie",
+      "kind": "style"
+    },
+    "v8-05-02": {
+      "photo": "mango-smoothie",
+      "kind": "style"
+    },
+    "v8-05-03": {
+      "photo": "banana-milk",
+      "kind": "style"
+    },
+    "v8-05-04": {
+      "photo": "berries",
+      "kind": "ingredient"
+    },
+    "v8-05-05": {
+      "photo": "berries",
+      "kind": "ingredient"
+    },
+    "v8-05-06": {
+      "photo": "mango-smoothie",
+      "kind": "style"
+    },
+    "v8-06-01": {
+      "photo": "chocolate-milk",
+      "kind": "style"
+    },
+    "v8-06-02": {
+      "photo": "iced-matcha",
+      "kind": "style"
+    },
+    "v8-06-03": {
+      "photo": "thai-tea",
+      "kind": "style"
+    },
+    "v8-06-04": {
+      "photo": "oreo-milkshake",
+      "kind": "style"
+    },
+    "v8-06-05": {
+      "photo": "banana-milk",
+      "kind": "style"
+    },
+    "v8-07-01": {
+      "photo": "strawberry-soda",
+      "kind": "style"
+    },
+    "v8-07-02": {
+      "photo": "blue-lemonade",
+      "kind": "style"
+    },
+    "v8-07-03": {
+      "photo": "passion-fruit",
+      "kind": "ingredient"
+    },
+    "v8-07-04": {
+      "photo": "lychee",
+      "kind": "ingredient"
+    },
+    "v8-07-05": {
+      "photo": "peach",
+      "kind": "ingredient"
+    },
+    "v8-07-06": {
+      "photo": "lemonade",
+      "kind": "style"
+    },
+    "v8-07-07": {
+      "photo": "yuzu",
+      "kind": "ingredient"
+    },
+    "v8-08-01": {
+      "photo": "lemonade",
+      "kind": "style"
+    },
+    "v8-08-02": {
+      "photo": "orange-juice",
+      "kind": "style"
+    },
+    "v8-08-03": {
+      "photo": "passion-fruit",
+      "kind": "ingredient"
+    },
+    "v8-08-04": {
+      "photo": "lychee",
+      "kind": "ingredient"
+    },
+    "v8-08-05": {
+      "photo": "peach",
+      "kind": "ingredient"
+    },
+    "v8-08-06": {
+      "photo": "lemonade",
+      "kind": "style"
+    },
+    "v8-09-01": {
+      "photo": "strawberry-smoothie",
+      "kind": "style"
+    },
+    "v8-09-02": {
+      "photo": "mango",
+      "kind": "ingredient"
+    },
+    "v8-09-03": {
+      "photo": "pineapple",
+      "kind": "ingredient"
+    },
+    "v8-09-04": {
+      "photo": "apple",
+      "kind": "ingredient"
+    },
+    "v8-09-05": {
+      "photo": "watermelon",
+      "kind": "ingredient"
+    },
+    "v8-09-06": {
+      "photo": "grapefruit",
+      "kind": "ingredient"
+    },
+    "v8-09-07": {
+      "photo": "kiwi",
+      "kind": "ingredient"
+    },
+    "v8-09-08": {
+      "photo": "hibiscus",
+      "kind": "style"
+    },
+    "v8-10-01": {
+      "photo": "apple",
+      "kind": "ingredient"
+    },
+    "v8-10-02": {
+      "photo": "mango",
+      "kind": "ingredient"
+    },
+    "v8-10-03": {
+      "photo": "pineapple",
+      "kind": "ingredient"
+    },
+    "v8-10-04": {
+      "photo": "watermelon",
+      "kind": "ingredient"
+    },
+    "v8-10-05": {
+      "photo": "berries",
+      "kind": "ingredient"
+    },
+    "v8-10-06": {
+      "photo": "berries",
+      "kind": "ingredient"
+    },
+    "v8-10-07": {
+      "photo": "grapefruit",
+      "kind": "ingredient"
+    },
+    "v8-10-08": {
+      "photo": "cucumber",
+      "kind": "ingredient"
+    },
+    "v8-11-01": {
+      "photo": "mojito",
+      "kind": "style"
+    },
+    "v8-11-02": {
+      "photo": "blue-lemonade",
+      "kind": "style"
+    },
+    "v8-11-03": {
+      "photo": "orange-juice",
+      "kind": "style"
+    },
+    "v8-11-04": {
+      "photo": "orange-juice",
+      "kind": "style"
+    },
+    "v8-11-05": {
+      "photo": "coconut",
+      "kind": "ingredient"
+    },
+    "v8-11-06": {
+      "photo": "strawberry-soda",
+      "kind": "style"
+    },
+    "v8-11-07": {
+      "photo": "passion-fruit",
+      "kind": "ingredient"
+    },
+    "v8-11-08": {
+      "photo": "lemonade",
+      "kind": "style"
+    },
+    "v8-12-01": {
+      "photo": "mango",
+      "kind": "ingredient"
+    },
+    "v8-12-02": {
+      "photo": "strawberry-smoothie",
+      "kind": "style"
+    },
+    "v8-12-03": {
+      "photo": "peach",
+      "kind": "ingredient"
+    },
+    "v8-12-04": {
+      "photo": "lychee",
+      "kind": "ingredient"
+    },
+    "v8-12-05": {
+      "photo": "banana-milk",
+      "kind": "style"
+    },
+    "v8-12-06": {
+      "photo": "coconut",
+      "kind": "ingredient"
+    },
+    "v8-12-07": {
+      "photo": "sesame-milk",
+      "kind": "style"
+    },
+    "v8-12-08": {
+      "photo": "rose-milk",
+      "kind": "style"
+    },
+    "v8-13-01": {
+      "photo": "butterfly-pea",
+      "kind": "style"
+    },
+    "v8-13-02": {
+      "photo": "yuzu",
+      "kind": "ingredient"
+    },
+    "v8-13-03": {
+      "photo": "lemonade",
+      "kind": "style"
+    },
+    "v8-13-04": {
+      "photo": "lemonade",
+      "kind": "style"
+    },
+    "v8-13-05": {
+      "photo": "coconut",
+      "kind": "ingredient"
+    },
+    "v8-13-06": {
+      "photo": "lemonade",
+      "kind": "style"
+    },
+    "v8-13-07": {
+      "photo": "lemonade",
+      "kind": "style"
+    },
+    "v8-13-08": {
+      "photo": "cucumber",
+      "kind": "ingredient"
+    },
+    "v8-14-01": {
+      "photo": "espresso",
+      "kind": "style"
+    },
+    "v8-14-02": {
+      "photo": "espresso",
+      "kind": "style"
+    },
+    "v8-14-03": {
+      "photo": "espresso",
+      "kind": "style"
+    },
+    "v8-14-04": {
+      "photo": "espresso",
+      "kind": "style"
+    },
+    "v8-14-05": {
+      "photo": "espresso",
+      "kind": "style"
+    },
+    "v8-14-06": {
+      "photo": "hot-latte",
+      "kind": "style"
+    },
+    "v8-14-07": {
+      "photo": "hot-latte",
+      "kind": "style"
+    },
+    "v8-14-08": {
+      "photo": "hot-latte",
+      "kind": "style"
+    },
+    "v8-14-09": {
+      "photo": "hot-latte",
+      "kind": "style"
+    },
+    "v8-14-10": {
+      "photo": "affogato",
+      "kind": "style"
+    },
+    "v8-15-01": {
+      "photo": "hot-latte",
+      "kind": "style"
+    },
+    "v8-15-02": {
+      "photo": "iced-latte",
+      "kind": "style"
+    },
+    "v8-15-03": {
+      "photo": "hot-latte",
+      "kind": "style"
+    },
+    "v8-15-04": {
+      "photo": "iced-latte",
+      "kind": "style"
+    },
+    "v8-15-05": {
+      "photo": "hot-latte",
+      "kind": "style"
+    },
+    "v8-15-06": {
+      "photo": "iced-latte",
+      "kind": "style"
+    },
+    "v8-15-07": {
+      "photo": "hot-latte",
+      "kind": "style"
+    },
+    "v8-15-08": {
+      "photo": "iced-latte",
+      "kind": "style"
+    },
+    "v8-15-09": {
+      "photo": "hot-latte",
+      "kind": "style"
+    },
+    "v8-15-10": {
+      "photo": "iced-latte",
+      "kind": "style"
+    },
+    "v8-16-01": {
+      "photo": "hot-latte",
+      "kind": "style"
+    },
+    "v8-16-02": {
+      "photo": "iced-latte",
+      "kind": "style"
+    },
+    "v8-16-03": {
+      "photo": "hot-latte",
+      "kind": "style"
+    },
+    "v8-16-04": {
+      "photo": "iced-latte",
+      "kind": "style"
+    },
+    "v8-16-05": {
+      "photo": "hot-latte",
+      "kind": "style"
+    },
+    "v8-16-06": {
+      "photo": "iced-latte",
+      "kind": "style"
+    },
+    "v8-16-07": {
+      "photo": "hot-latte",
+      "kind": "style"
+    },
+    "v8-16-08": {
+      "photo": "iced-latte",
+      "kind": "style"
+    },
+    "v8-16-09": {
+      "photo": "iced-latte",
+      "kind": "style"
+    },
+    "v8-16-10": {
+      "photo": "hot-latte",
+      "kind": "style"
+    },
+    "v8-17-01": {
+      "photo": "iced-americano",
+      "kind": "style"
+    },
+    "v8-17-02": {
+      "photo": "iced-americano",
+      "kind": "style"
+    },
+    "v8-17-03": {
+      "photo": "iced-americano",
+      "kind": "style"
+    },
+    "v8-17-04": {
+      "photo": "iced-americano",
+      "kind": "style"
+    },
+    "v8-17-05": {
+      "photo": "iced-americano",
+      "kind": "style"
+    },
+    "v8-17-06": {
+      "photo": "iced-americano",
+      "kind": "style"
+    },
+    "v8-17-07": {
+      "photo": "espresso-tonic",
+      "kind": "style"
+    },
+    "v8-17-08": {
+      "photo": "iced-americano",
+      "kind": "style"
+    },
+    "v8-17-09": {
+      "photo": "iced-americano",
+      "kind": "style"
+    },
+    "v8-17-10": {
+      "photo": "iced-americano",
+      "kind": "style"
+    },
+    "v8-18-01": {
+      "photo": "iced-americano",
+      "kind": "style"
+    },
+    "v8-18-02": {
+      "photo": "iced-americano",
+      "kind": "style"
+    },
+    "v8-18-03": {
+      "photo": "iced-americano",
+      "kind": "style"
+    },
+    "v8-18-04": {
+      "photo": "iced-americano",
+      "kind": "style"
+    },
+    "v8-18-05": {
+      "photo": "iced-americano",
+      "kind": "style"
+    },
+    "v8-18-06": {
+      "photo": "espresso-tonic",
+      "kind": "style"
+    },
+    "v8-18-07": {
+      "photo": "espresso-tonic",
+      "kind": "style"
+    },
+    "v8-18-08": {
+      "photo": "iced-americano",
+      "kind": "style"
+    },
+    "v8-18-09": {
+      "photo": "iced-americano",
+      "kind": "style"
+    },
+    "v8-18-10": {
+      "photo": "iced-americano",
+      "kind": "style"
+    },
+    "v8-19-01": {
+      "photo": "hot-latte",
+      "kind": "style"
+    },
+    "v8-19-02": {
+      "photo": "iced-latte",
+      "kind": "style"
+    },
+    "v8-19-03": {
+      "photo": "hot-latte",
+      "kind": "style"
+    },
+    "v8-19-04": {
+      "photo": "hot-latte",
+      "kind": "style"
+    },
+    "v8-19-05": {
+      "photo": "hot-latte",
+      "kind": "style"
+    },
+    "v8-19-06": {
+      "photo": "hot-latte",
+      "kind": "style"
+    },
+    "v8-19-07": {
+      "photo": "hot-latte",
+      "kind": "style"
+    },
+    "v8-19-08": {
+      "photo": "iced-latte",
+      "kind": "style"
+    },
+    "v8-19-09": {
+      "photo": "iced-latte",
+      "kind": "style"
+    },
+    "v8-19-10": {
+      "photo": "iced-latte",
+      "kind": "style"
+    },
+    "v8-20-01": {
+      "photo": "espresso-tonic",
+      "kind": "style"
+    },
+    "v8-20-02": {
+      "photo": "espresso-tonic",
+      "kind": "style"
+    },
+    "v8-20-03": {
+      "photo": "espresso-tonic",
+      "kind": "style"
+    },
+    "v8-20-04": {
+      "photo": "espresso-tonic",
+      "kind": "style"
+    },
+    "v8-20-05": {
+      "photo": "espresso-tonic",
+      "kind": "style"
+    },
+    "v8-20-06": {
+      "photo": "hot-latte",
+      "kind": "style"
+    },
+    "v8-20-07": {
+      "photo": "espresso-tonic",
+      "kind": "style"
+    },
+    "v8-20-08": {
+      "photo": "espresso-tonic",
+      "kind": "style"
+    },
+    "v8-20-09": {
+      "photo": "espresso-tonic",
+      "kind": "style"
+    },
+    "v8-20-10": {
+      "photo": "espresso-tonic",
+      "kind": "style"
+    },
+    "v8-21-01": {
+      "photo": "vietnamese-coffee",
+      "kind": "style"
+    },
+    "v8-21-02": {
+      "photo": "egg-coffee",
+      "kind": "style"
+    },
+    "v8-21-03": {
+      "photo": "iced-americano",
+      "kind": "style"
+    },
+    "v8-21-04": {
+      "photo": "iced-latte",
+      "kind": "style"
+    },
+    "v8-21-05": {
+      "photo": "iced-latte",
+      "kind": "style"
+    },
+    "v8-21-06": {
+      "photo": "espresso",
+      "kind": "style"
+    },
+    "v8-21-07": {
+      "photo": "dalgona",
+      "kind": "style"
+    },
+    "v8-21-08": {
+      "photo": "iced-latte",
+      "kind": "style"
+    },
+    "v8-21-09": {
+      "photo": "iced-latte",
+      "kind": "style"
+    },
+    "v8-21-10": {
+      "photo": "vietnamese-coffee",
+      "kind": "style"
+    },
+    "v8-22-01": {
+      "photo": "cold-brew",
+      "kind": "style"
+    },
+    "v8-22-02": {
+      "photo": "iced-latte",
+      "kind": "style"
+    },
+    "v8-22-03": {
+      "photo": "cold-brew",
+      "kind": "style"
+    },
+    "v8-22-04": {
+      "photo": "cold-brew",
+      "kind": "style"
+    },
+    "v8-22-05": {
+      "photo": "cold-brew",
+      "kind": "style"
+    },
+    "v8-22-06": {
+      "photo": "cold-brew",
+      "kind": "style"
+    },
+    "v8-22-07": {
+      "photo": "espresso-tonic",
+      "kind": "style"
+    },
+    "v8-22-08": {
+      "photo": "cold-brew",
+      "kind": "style"
+    },
+    "v8-22-09": {
+      "photo": "cold-brew",
+      "kind": "style"
+    },
+    "v8-22-10": {
+      "photo": "cold-brew",
+      "kind": "style"
+    },
+    "v8-23-01": {
+      "photo": "pour-over",
+      "kind": "style"
+    },
+    "v8-23-02": {
+      "photo": "pour-over",
+      "kind": "style"
+    },
+    "v8-23-03": {
+      "photo": "french-press",
+      "kind": "style"
+    },
+    "v8-23-04": {
+      "photo": "aeropress",
+      "kind": "style"
+    },
+    "v8-23-05": {
+      "photo": "espresso",
+      "kind": "style"
+    },
+    "v8-23-06": {
+      "photo": "hot-latte",
+      "kind": "style"
+    },
+    "v8-23-07": {
+      "photo": "pour-over",
+      "kind": "style"
+    },
+    "v8-23-08": {
+      "photo": "pour-over",
+      "kind": "style"
+    },
+    "v8-23-09": {
+      "photo": "french-press",
+      "kind": "style"
+    },
+    "v8-23-10": {
+      "photo": "pour-over",
+      "kind": "style"
+    },
+    "v8-24-01": {
+      "photo": "iced-americano",
+      "kind": "style"
+    },
+    "v8-24-02": {
+      "photo": "iced-americano",
+      "kind": "style"
+    },
+    "v8-24-03": {
+      "photo": "hot-latte",
+      "kind": "style"
+    },
+    "v8-24-04": {
+      "photo": "hot-latte",
+      "kind": "style"
+    },
+    "v8-24-05": {
+      "photo": "hot-latte",
+      "kind": "style"
+    },
+    "v8-24-06": {
+      "photo": "hot-latte",
+      "kind": "style"
+    },
+    "v8-24-07": {
+      "photo": "hot-latte",
+      "kind": "style"
+    },
+    "v8-24-08": {
+      "photo": "hot-latte",
+      "kind": "style"
+    },
+    "v8-25-01": {
+      "photo": "iced-americano",
+      "kind": "style"
+    },
+    "v8-25-02": {
+      "photo": "hot-latte",
+      "kind": "style"
+    },
+    "v8-25-03": {
+      "photo": "turkish-coffee",
+      "kind": "style"
+    },
+    "v8-25-04": {
+      "photo": "greek-frappe",
+      "kind": "style"
+    },
+    "v8-25-05": {
+      "photo": "iced-latte",
+      "kind": "style"
+    },
+    "v8-25-06": {
+      "photo": "hot-latte",
+      "kind": "style"
+    },
+    "v8-25-07": {
+      "photo": "iced-latte",
+      "kind": "style"
+    },
+    "v8-25-08": {
+      "photo": "hot-latte",
+      "kind": "style"
+    },
+    "v8-26-01": {
+      "photo": "milk-tea",
+      "kind": "style"
+    },
+    "v8-26-02": {
+      "photo": "milk-tea",
+      "kind": "style"
+    },
+    "v8-26-03": {
+      "photo": "milk-tea",
+      "kind": "style"
+    },
+    "v8-26-04": {
+      "photo": "milk-tea",
+      "kind": "style"
+    },
+    "v8-26-05": {
+      "photo": "milk-tea",
+      "kind": "style"
+    },
+    "v8-26-06": {
+      "photo": "milk-tea",
+      "kind": "style"
+    },
+    "v8-26-07": {
+      "photo": "sesame-milk",
+      "kind": "style"
+    },
+    "v8-26-08": {
+      "photo": "sesame-milk",
+      "kind": "style"
+    },
+    "v8-27-01": {
+      "photo": "fruit-tea",
+      "kind": "style"
+    },
+    "v8-27-02": {
+      "photo": "fruit-tea",
+      "kind": "style"
+    },
+    "v8-27-03": {
+      "photo": "lemonade",
+      "kind": "style"
+    },
+    "v8-27-04": {
+      "photo": "lemonade",
+      "kind": "style"
+    },
+    "v8-27-05": {
+      "photo": "lemonade",
+      "kind": "style"
+    },
+    "v8-27-06": {
+      "photo": "hibiscus",
+      "kind": "style"
+    },
+    "v8-27-07": {
+      "photo": "fruit-tea",
+      "kind": "style"
+    },
+    "v8-27-08": {
+      "photo": "iced-matcha",
+      "kind": "style"
+    },
+    "v8-28-01": {
+      "photo": "iced-latte",
+      "kind": "style"
+    },
+    "v8-28-02": {
+      "photo": "iced-latte",
+      "kind": "style"
+    },
+    "v8-28-03": {
+      "photo": "iced-latte",
+      "kind": "style"
+    },
+    "v8-28-04": {
+      "photo": "hot-latte",
+      "kind": "style"
+    },
+    "v8-28-05": {
+      "photo": "iced-latte",
+      "kind": "style"
+    },
+    "v8-28-06": {
+      "photo": "ube-latte",
+      "kind": "style"
+    },
+    "v8-28-07": {
+      "photo": "ube-latte",
+      "kind": "style"
+    },
+    "v8-28-08": {
+      "photo": "iced-matcha",
+      "kind": "style"
+    },
+    "prep-simple-syrup": {
+      "photo": "sugar-syrup",
+      "kind": "style"
+    },
+    "prep-brown-sugar-syrup": {
+      "photo": "brown-sugar",
+      "kind": "ingredient"
+    },
+    "prep-vanilla-bean-syrup": {
+      "photo": "vanilla",
+      "kind": "ingredient"
+    },
+    "prep-cocoa-sauce": {
+      "photo": "chocolate-sauce",
+      "kind": "style"
+    },
+    "prep-caramel-water-sauce": {
+      "photo": "caramel-sauce",
+      "kind": "style"
+    },
+    "prep-strawberry-sauce": {
+      "photo": "strawberry-puree",
+      "kind": "style"
+    },
+    "prep-lemon-cordial": {
+      "photo": "citrus",
+      "kind": "ingredient"
+    },
+    "prep-lime-cordial": {
+      "photo": "citrus",
+      "kind": "ingredient"
+    },
+    "prep-orange-cordial": {
+      "photo": "orange-juice",
+      "kind": "ingredient"
+    },
+    "prep-mango-puree": {
+      "photo": "mango-puree",
+      "kind": "style"
+    },
+    "prep-strawberry-puree": {
+      "photo": "strawberry-puree",
+      "kind": "style"
+    },
+    "prep-pineapple-puree": {
+      "photo": "pineapple",
+      "kind": "ingredient"
+    },
+    "matcha-thai-milk": {
+      "photo": "iced-matcha",
+      "kind": "style"
+    },
+    "matcha-korean-strawberry": {
+      "photo": "iced-matcha",
+      "kind": "style"
+    },
+    "matcha-vietnamese-coconut": {
+      "photo": "vietnamese-coffee",
+      "kind": "style"
+    },
+    "matcha-american-vanilla": {
+      "photo": "iced-matcha",
+      "kind": "style"
+    },
+    "matcha-taiwanese-brown-sugar": {
+      "photo": "iced-matcha",
+      "kind": "style"
+    },
+    "style-japanese-hojicha-frappe": {
+      "photo": "milk-tea",
+      "kind": "style"
+    },
+    "style-thai-coconut-tea": {
+      "photo": "milk-tea",
+      "kind": "style"
+    },
+    "style-italian-raspberry-float": {
+      "photo": "berries",
+      "kind": "ingredient"
+    },
+    "style-cuban-passion-mojito": {
+      "photo": "passion-fruit",
+      "kind": "ingredient"
+    },
+    "style-taiwanese-lychee-oolong": {
+      "photo": "lychee",
+      "kind": "ingredient"
+    },
+    "style-malaysian-teh-tarik": {
+      "photo": "milk-tea",
+      "kind": "style"
+    }
+  }
+}

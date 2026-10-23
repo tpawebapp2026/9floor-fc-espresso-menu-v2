@@ -1,0 +1,3808 @@
+{
+  "notice": "Source and generated instruction coverage only. No physical preparation or taste validation implied.",
+  "recipes": 283,
+  "withWarnings": 130,
+  "withMissingOriginalCup": 72,
+  "rows": [
+    {
+      "id": "v8-01-01",
+      "name": "Iced Americano",
+      "verification": "source-unverified",
+      "originalSteps": 10,
+      "detailedSteps": 13,
+      "method": "Espresso အလွှာလိုက် ပေါင်းခြင်း",
+      "originalCupSizes": [
+        16
+      ],
+      "proposedTrialCup": null,
+      "warnings": [
+        "မူရင်းပမာဏအချို့သည် အပိုင်းအခြားဖြစ်သည်။ ပထမစမ်းသပ်မှုတွင် ရေခဲကို အများဆုံးဘက်၊ အချိုကို အနည်းဆုံးဘက်မှ စပါ။ ရွေးထားသည့်တိကျသောပမာဏကို မှတ်တမ်းတင်ပြီး နောက်ခွက်များ၌ တူညီစွာသုံးပါ။ မူရင်းစာရင်း၏အပိုင်းအခြားကို မပြောင်းထားပါ။"
+      ]
+    },
+    {
+      "id": "v8-01-02",
+      "name": "Iced Honey Americano",
+      "verification": "source-unverified",
+      "originalSteps": 11,
+      "detailedSteps": 14,
+      "method": "Espresso အလွှာလိုက် ပေါင်းခြင်း",
+      "originalCupSizes": [
+        16
+      ],
+      "proposedTrialCup": null,
+      "warnings": [
+        "မူရင်းပမာဏအချို့သည် အပိုင်းအခြားဖြစ်သည်။ ပထမစမ်းသပ်မှုတွင် ရေခဲကို အများဆုံးဘက်၊ အချိုကို အနည်းဆုံးဘက်မှ စပါ။ ရွေးထားသည့်တိကျသောပမာဏကို မှတ်တမ်းတင်ပြီး နောက်ခွက်များ၌ တူညီစွာသုံးပါ။ မူရင်းစာရင်း၏အပိုင်းအခြားကို မပြောင်းထားပါ။"
+      ]
+    },
+    {
+      "id": "v8-01-03",
+      "name": "Iced Lemon Americano",
+      "verification": "source-unverified",
+      "originalSteps": 11,
+      "detailedSteps": 15,
+      "method": "Espresso အလွှာလိုက် ပေါင်းခြင်း",
+      "originalCupSizes": [
+        16
+      ],
+      "proposedTrialCup": null,
+      "warnings": [
+        "မူရင်းပမာဏအချို့သည် အပိုင်းအခြားဖြစ်သည်။ ပထမစမ်းသပ်မှုတွင် ရေခဲကို အများဆုံးဘက်၊ အချိုကို အနည်းဆုံးဘက်မှ စပါ။ ရွေးထားသည့်တိကျသောပမာဏကို မှတ်တမ်းတင်ပြီး နောက်ခွက်များ၌ တူညီစွာသုံးပါ။ မူရင်းစာရင်း၏အပိုင်းအခြားကို မပြောင်းထားပါ။"
+      ]
+    },
+    {
+      "id": "v8-01-04",
+      "name": "Iced Orange Americano",
+      "verification": "source-unverified",
+      "originalSteps": 10,
+      "detailedSteps": 13,
+      "method": "Espresso အလွှာလိုက် ပေါင်းခြင်း",
+      "originalCupSizes": [
+        16
+      ],
+      "proposedTrialCup": null,
+      "warnings": [
+        "မူရင်းပမာဏအချို့သည် အပိုင်းအခြားဖြစ်သည်။ ပထမစမ်းသပ်မှုတွင် ရေခဲကို အများဆုံးဘက်၊ အချိုကို အနည်းဆုံးဘက်မှ စပါ။ ရွေးထားသည့်တိကျသောပမာဏကို မှတ်တမ်းတင်ပြီး နောက်ခွက်များ၌ တူညီစွာသုံးပါ။ မူရင်းစာရင်း၏အပိုင်းအခြားကို မပြောင်းထားပါ။"
+      ]
+    },
+    {
+      "id": "v8-01-05",
+      "name": "Iced Coconut Americano",
+      "verification": "source-unverified",
+      "originalSteps": 10,
+      "detailedSteps": 13,
+      "method": "Espresso အလွှာလိုက် ပေါင်းခြင်း",
+      "originalCupSizes": [
+        16
+      ],
+      "proposedTrialCup": null,
+      "warnings": [
+        "မူရင်းပမာဏအချို့သည် အပိုင်းအခြားဖြစ်သည်။ ပထမစမ်းသပ်မှုတွင် ရေခဲကို အများဆုံးဘက်၊ အချိုကို အနည်းဆုံးဘက်မှ စပါ။ ရွေးထားသည့်တိကျသောပမာဏကို မှတ်တမ်းတင်ပြီး နောက်ခွက်များ၌ တူညီစွာသုံးပါ။ မူရင်းစာရင်း၏အပိုင်းအခြားကို မပြောင်းထားပါ။"
+      ]
+    },
+    {
+      "id": "v8-01-06",
+      "name": "Iced Tonic Espresso",
+      "verification": "source-unverified",
+      "originalSteps": 10,
+      "detailedSteps": 16,
+      "method": "ဆိုဒါ / Sparkling / Mocktail",
+      "originalCupSizes": [
+        16
+      ],
+      "proposedTrialCup": null,
+      "warnings": [
+        "မူရင်းပမာဏအချို့သည် အပိုင်းအခြားဖြစ်သည်။ ပထမစမ်းသပ်မှုတွင် ရေခဲကို အများဆုံးဘက်၊ အချိုကို အနည်းဆုံးဘက်မှ စပါ။ ရွေးထားသည့်တိကျသောပမာဏကို မှတ်တမ်းတင်ပြီး နောက်ခွက်များ၌ တူညီစွာသုံးပါ။ မူရင်းစာရင်း၏အပိုင်းအခြားကို မပြောင်းထားပါ။"
+      ]
+    },
+    {
+      "id": "v8-01-07",
+      "name": "Iced Yuzu Espresso",
+      "verification": "source-unverified",
+      "originalSteps": 11,
+      "detailedSteps": 14,
+      "method": "Espresso အလွှာလိုက် ပေါင်းခြင်း",
+      "originalCupSizes": [
+        16
+      ],
+      "proposedTrialCup": null,
+      "warnings": [
+        "မူရင်းပမာဏအချို့သည် အပိုင်းအခြားဖြစ်သည်။ ပထမစမ်းသပ်မှုတွင် ရေခဲကို အများဆုံးဘက်၊ အချိုကို အနည်းဆုံးဘက်မှ စပါ။ ရွေးထားသည့်တိကျသောပမာဏကို မှတ်တမ်းတင်ပြီး နောက်ခွက်များ၌ တူညီစွာသုံးပါ။ မူရင်းစာရင်း၏အပိုင်းအခြားကို မပြောင်းထားပါ။"
+      ]
+    },
+    {
+      "id": "v8-01-08",
+      "name": "Iced Peach Americano",
+      "verification": "source-unverified",
+      "originalSteps": 11,
+      "detailedSteps": 14,
+      "method": "Espresso အလွှာလိုက် ပေါင်းခြင်း",
+      "originalCupSizes": [
+        16
+      ],
+      "proposedTrialCup": null,
+      "warnings": [
+        "မူရင်းပမာဏအချို့သည် အပိုင်းအခြားဖြစ်သည်။ ပထမစမ်းသပ်မှုတွင် ရေခဲကို အများဆုံးဘက်၊ အချိုကို အနည်းဆုံးဘက်မှ စပါ။ ရွေးထားသည့်တိကျသောပမာဏကို မှတ်တမ်းတင်ပြီး နောက်ခွက်များ၌ တူညီစွာသုံးပါ။ မူရင်းစာရင်း၏အပိုင်းအခြားကို မပြောင်းထားပါ။"
+      ]
+    },
+    {
+      "id": "v8-01-09",
+      "name": "Iced Latte",
+      "verification": "source-unverified",
+      "originalSteps": 11,
+      "detailedSteps": 13,
+      "method": "Espresso အလွှာလိုက် ပေါင်းခြင်း",
+      "originalCupSizes": [
+        16
+      ],
+      "proposedTrialCup": null,
+      "warnings": [
+        "မူရင်းပမာဏအချို့သည် အပိုင်းအခြားဖြစ်သည်။ ပထမစမ်းသပ်မှုတွင် ရေခဲကို အများဆုံးဘက်၊ အချိုကို အနည်းဆုံးဘက်မှ စပါ။ ရွေးထားသည့်တိကျသောပမာဏကို မှတ်တမ်းတင်ပြီး နောက်ခွက်များ၌ တူညီစွာသုံးပါ။ မူရင်းစာရင်း၏အပိုင်းအခြားကို မပြောင်းထားပါ။"
+      ]
+    },
+    {
+      "id": "v9-iced-cappuccino",
+      "name": "Iced Cappuccino",
+      "verification": "source-unverified",
+      "originalSteps": 9,
+      "detailedSteps": 16,
+      "method": "Espresso အလွှာလိုက် ပေါင်းခြင်း",
+      "originalCupSizes": [
+        16
+      ],
+      "proposedTrialCup": null,
+      "warnings": [
+        "မူရင်းပမာဏအချို့သည် အပိုင်းအခြားဖြစ်သည်။ ပထမစမ်းသပ်မှုတွင် ရေခဲကို အများဆုံးဘက်၊ အချိုကို အနည်းဆုံးဘက်မှ စပါ။ ရွေးထားသည့်တိကျသောပမာဏကို မှတ်တမ်းတင်ပြီး နောက်ခွက်များ၌ တူညီစွာသုံးပါ။ မူရင်းစာရင်း၏အပိုင်းအခြားကို မပြောင်းထားပါ။"
+      ]
+    },
+    {
+      "id": "v8-01-10",
+      "name": "Iced Vanilla Latte",
+      "verification": "source-unverified",
+      "originalSteps": 12,
+      "detailedSteps": 14,
+      "method": "Espresso အလွှာလိုက် ပေါင်းခြင်း",
+      "originalCupSizes": [
+        16
+      ],
+      "proposedTrialCup": null,
+      "warnings": [
+        "မူရင်းပမာဏအချို့သည် အပိုင်းအခြားဖြစ်သည်။ ပထမစမ်းသပ်မှုတွင် ရေခဲကို အများဆုံးဘက်၊ အချိုကို အနည်းဆုံးဘက်မှ စပါ။ ရွေးထားသည့်တိကျသောပမာဏကို မှတ်တမ်းတင်ပြီး နောက်ခွက်များ၌ တူညီစွာသုံးပါ။ မူရင်းစာရင်း၏အပိုင်းအခြားကို မပြောင်းထားပါ။"
+      ]
+    },
+    {
+      "id": "v8-01-11",
+      "name": "Iced Caramel Latte",
+      "verification": "source-unverified",
+      "originalSteps": 12,
+      "detailedSteps": 14,
+      "method": "Espresso အလွှာလိုက် ပေါင်းခြင်း",
+      "originalCupSizes": [
+        16
+      ],
+      "proposedTrialCup": null,
+      "warnings": [
+        "မူရင်းပမာဏအချို့သည် အပိုင်းအခြားဖြစ်သည်။ ပထမစမ်းသပ်မှုတွင် ရေခဲကို အများဆုံးဘက်၊ အချိုကို အနည်းဆုံးဘက်မှ စပါ။ ရွေးထားသည့်တိကျသောပမာဏကို မှတ်တမ်းတင်ပြီး နောက်ခွက်များ၌ တူညီစွာသုံးပါ။ မူရင်းစာရင်း၏အပိုင်းအခြားကို မပြောင်းထားပါ။"
+      ]
+    },
+    {
+      "id": "v8-01-12",
+      "name": "Iced Hazelnut Latte",
+      "verification": "source-unverified",
+      "originalSteps": 12,
+      "detailedSteps": 14,
+      "method": "Espresso အလွှာလိုက် ပေါင်းခြင်း",
+      "originalCupSizes": [
+        16
+      ],
+      "proposedTrialCup": null,
+      "warnings": [
+        "မူရင်းပမာဏအချို့သည် အပိုင်းအခြားဖြစ်သည်။ ပထမစမ်းသပ်မှုတွင် ရေခဲကို အများဆုံးဘက်၊ အချိုကို အနည်းဆုံးဘက်မှ စပါ။ ရွေးထားသည့်တိကျသောပမာဏကို မှတ်တမ်းတင်ပြီး နောက်ခွက်များ၌ တူညီစွာသုံးပါ။ မူရင်းစာရင်း၏အပိုင်းအခြားကို မပြောင်းထားပါ။"
+      ]
+    },
+    {
+      "id": "v8-01-13",
+      "name": "Iced Mocha",
+      "verification": "source-unverified",
+      "originalSteps": 12,
+      "detailedSteps": 14,
+      "method": "Espresso အလွှာလိုက် ပေါင်းခြင်း",
+      "originalCupSizes": [
+        16
+      ],
+      "proposedTrialCup": null,
+      "warnings": [
+        "မူရင်းပမာဏအချို့သည် အပိုင်းအခြားဖြစ်သည်။ ပထမစမ်းသပ်မှုတွင် ရေခဲကို အများဆုံးဘက်၊ အချိုကို အနည်းဆုံးဘက်မှ စပါ။ ရွေးထားသည့်တိကျသောပမာဏကို မှတ်တမ်းတင်ပြီး နောက်ခွက်များ၌ တူညီစွာသုံးပါ။ မူရင်းစာရင်း၏အပိုင်းအခြားကို မပြောင်းထားပါ။"
+      ]
+    },
+    {
+      "id": "v8-01-14",
+      "name": "Iced White Mocha",
+      "verification": "source-unverified",
+      "originalSteps": 12,
+      "detailedSteps": 14,
+      "method": "Espresso အလွှာလိုက် ပေါင်းခြင်း",
+      "originalCupSizes": [
+        16
+      ],
+      "proposedTrialCup": null,
+      "warnings": [
+        "မူရင်းပမာဏအချို့သည် အပိုင်းအခြားဖြစ်သည်။ ပထမစမ်းသပ်မှုတွင် ရေခဲကို အများဆုံးဘက်၊ အချိုကို အနည်းဆုံးဘက်မှ စပါ။ ရွေးထားသည့်တိကျသောပမာဏကို မှတ်တမ်းတင်ပြီး နောက်ခွက်များ၌ တူညီစွာသုံးပါ။ မူရင်းစာရင်း၏အပိုင်းအခြားကို မပြောင်းထားပါ။"
+      ]
+    },
+    {
+      "id": "v8-01-15",
+      "name": "Iced Spanish Latte",
+      "verification": "source-unverified",
+      "originalSteps": 12,
+      "detailedSteps": 14,
+      "method": "Espresso အလွှာလိုက် ပေါင်းခြင်း",
+      "originalCupSizes": [
+        16
+      ],
+      "proposedTrialCup": null,
+      "warnings": [
+        "မူရင်းပမာဏအချို့သည် အပိုင်းအခြားဖြစ်သည်။ ပထမစမ်းသပ်မှုတွင် ရေခဲကို အများဆုံးဘက်၊ အချိုကို အနည်းဆုံးဘက်မှ စပါ။ ရွေးထားသည့်တိကျသောပမာဏကို မှတ်တမ်းတင်ပြီး နောက်ခွက်များ၌ တူညီစွာသုံးပါ။ မူရင်းစာရင်း၏အပိုင်းအခြားကို မပြောင်းထားပါ။"
+      ]
+    },
+    {
+      "id": "v8-01-16",
+      "name": "Iced Honey Latte",
+      "verification": "source-unverified",
+      "originalSteps": 12,
+      "detailedSteps": 14,
+      "method": "Espresso အလွှာလိုက် ပေါင်းခြင်း",
+      "originalCupSizes": [
+        16
+      ],
+      "proposedTrialCup": null,
+      "warnings": [
+        "မူရင်းပမာဏအချို့သည် အပိုင်းအခြားဖြစ်သည်။ ပထမစမ်းသပ်မှုတွင် ရေခဲကို အများဆုံးဘက်၊ အချိုကို အနည်းဆုံးဘက်မှ စပါ။ ရွေးထားသည့်တိကျသောပမာဏကို မှတ်တမ်းတင်ပြီး နောက်ခွက်များ၌ တူညီစွာသုံးပါ။ မူရင်းစာရင်း၏အပိုင်းအခြားကို မပြောင်းထားပါ။"
+      ]
+    },
+    {
+      "id": "v8-01-17",
+      "name": "Iced Brown Sugar Latte",
+      "verification": "source-unverified",
+      "originalSteps": 12,
+      "detailedSteps": 14,
+      "method": "Espresso အလွှာလိုက် ပေါင်းခြင်း",
+      "originalCupSizes": [
+        16
+      ],
+      "proposedTrialCup": null,
+      "warnings": [
+        "မူရင်းပမာဏအချို့သည် အပိုင်းအခြားဖြစ်သည်။ ပထမစမ်းသပ်မှုတွင် ရေခဲကို အများဆုံးဘက်၊ အချိုကို အနည်းဆုံးဘက်မှ စပါ။ ရွေးထားသည့်တိကျသောပမာဏကို မှတ်တမ်းတင်ပြီး နောက်ခွက်များ၌ တူညီစွာသုံးပါ။ မူရင်းစာရင်း၏အပိုင်းအခြားကို မပြောင်းထားပါ။"
+      ]
+    },
+    {
+      "id": "v8-01-18",
+      "name": "Iced Coconut Latte",
+      "verification": "source-unverified",
+      "originalSteps": 11,
+      "detailedSteps": 13,
+      "method": "Espresso အလွှာလိုက် ပေါင်းခြင်း",
+      "originalCupSizes": [
+        16
+      ],
+      "proposedTrialCup": null,
+      "warnings": [
+        "မူရင်းပမာဏအချို့သည် အပိုင်းအခြားဖြစ်သည်။ ပထမစမ်းသပ်မှုတွင် ရေခဲကို အများဆုံးဘက်၊ အချိုကို အနည်းဆုံးဘက်မှ စပါ။ ရွေးထားသည့်တိကျသောပမာဏကို မှတ်တမ်းတင်ပြီး နောက်ခွက်များ၌ တူညီစွာသုံးပါ။ မူရင်းစာရင်း၏အပိုင်းအခြားကို မပြောင်းထားပါ။"
+      ]
+    },
+    {
+      "id": "v8-01-19",
+      "name": "Iced Salted Caramel Latte",
+      "verification": "source-unverified",
+      "originalSteps": 12,
+      "detailedSteps": 14,
+      "method": "Espresso အလွှာလိုက် ပေါင်းခြင်း",
+      "originalCupSizes": [
+        16
+      ],
+      "proposedTrialCup": null,
+      "warnings": [
+        "မူရင်းပမာဏအချို့သည် အပိုင်းအခြားဖြစ်သည်။ ပထမစမ်းသပ်မှုတွင် ရေခဲကို အများဆုံးဘက်၊ အချိုကို အနည်းဆုံးဘက်မှ စပါ။ ရွေးထားသည့်တိကျသောပမာဏကို မှတ်တမ်းတင်ပြီး နောက်ခွက်များ၌ တူညီစွာသုံးပါ။ မူရင်းစာရင်း၏အပိုင်းအခြားကို မပြောင်းထားပါ။"
+      ]
+    },
+    {
+      "id": "v8-01-20",
+      "name": "Iced Cinnamon Latte",
+      "verification": "source-unverified",
+      "originalSteps": 12,
+      "detailedSteps": 14,
+      "method": "Espresso အလွှာလိုက် ပေါင်းခြင်း",
+      "originalCupSizes": [
+        16
+      ],
+      "proposedTrialCup": null,
+      "warnings": [
+        "မူရင်းပမာဏအချို့သည် အပိုင်းအခြားဖြစ်သည်။ ပထမစမ်းသပ်မှုတွင် ရေခဲကို အများဆုံးဘက်၊ အချိုကို အနည်းဆုံးဘက်မှ စပါ။ ရွေးထားသည့်တိကျသောပမာဏကို မှတ်တမ်းတင်ပြီး နောက်ခွက်များ၌ တူညီစွာသုံးပါ။ မူရင်းစာရင်း၏အပိုင်းအခြားကို မပြောင်းထားပါ။"
+      ]
+    },
+    {
+      "id": "v8-02-01",
+      "name": "Hot Espresso",
+      "verification": "source-unverified",
+      "originalSteps": 8,
+      "detailedSteps": 11,
+      "method": "Espresso နှင့် အပူနို့ / ရေ ပေါင်းခြင်း",
+      "originalCupSizes": [
+        12
+      ],
+      "proposedTrialCup": null,
+      "warnings": []
+    },
+    {
+      "id": "v8-02-02",
+      "name": "Hot Double Espresso",
+      "verification": "source-unverified",
+      "originalSteps": 8,
+      "detailedSteps": 11,
+      "method": "Espresso နှင့် အပူနို့ / ရေ ပေါင်းခြင်း",
+      "originalCupSizes": [
+        12
+      ],
+      "proposedTrialCup": null,
+      "warnings": []
+    },
+    {
+      "id": "v8-02-03",
+      "name": "Hot Americano",
+      "verification": "source-unverified",
+      "originalSteps": 9,
+      "detailedSteps": 12,
+      "method": "Espresso နှင့် အပူနို့ / ရေ ပေါင်းခြင်း",
+      "originalCupSizes": [
+        12
+      ],
+      "proposedTrialCup": null,
+      "warnings": []
+    },
+    {
+      "id": "v8-02-04",
+      "name": "Hot Long Black",
+      "verification": "source-unverified",
+      "originalSteps": 9,
+      "detailedSteps": 12,
+      "method": "Espresso နှင့် အပူနို့ / ရေ ပေါင်းခြင်း",
+      "originalCupSizes": [
+        12
+      ],
+      "proposedTrialCup": null,
+      "warnings": []
+    },
+    {
+      "id": "v8-02-05",
+      "name": "Hot Latte",
+      "verification": "source-unverified",
+      "originalSteps": 10,
+      "detailedSteps": 14,
+      "method": "Espresso နှင့် အပူနို့ / ရေ ပေါင်းခြင်း",
+      "originalCupSizes": [
+        12
+      ],
+      "proposedTrialCup": null,
+      "warnings": []
+    },
+    {
+      "id": "v8-02-06",
+      "name": "Hot Cappuccino",
+      "verification": "source-unverified",
+      "originalSteps": 10,
+      "detailedSteps": 14,
+      "method": "Espresso နှင့် အပူနို့ / ရေ ပေါင်းခြင်း",
+      "originalCupSizes": [
+        12
+      ],
+      "proposedTrialCup": null,
+      "warnings": []
+    },
+    {
+      "id": "v8-02-07",
+      "name": "Hot Flat White",
+      "verification": "source-unverified",
+      "originalSteps": 10,
+      "detailedSteps": 14,
+      "method": "Espresso နှင့် အပူနို့ / ရေ ပေါင်းခြင်း",
+      "originalCupSizes": [
+        12
+      ],
+      "proposedTrialCup": null,
+      "warnings": []
+    },
+    {
+      "id": "v8-02-08",
+      "name": "Hot Mocha",
+      "verification": "source-unverified",
+      "originalSteps": 11,
+      "detailedSteps": 15,
+      "method": "Espresso နှင့် အပူနို့ / ရေ ပေါင်းခြင်း",
+      "originalCupSizes": [
+        12
+      ],
+      "proposedTrialCup": null,
+      "warnings": []
+    },
+    {
+      "id": "v8-02-09",
+      "name": "Hot Vanilla Latte",
+      "verification": "source-unverified",
+      "originalSteps": 11,
+      "detailedSteps": 15,
+      "method": "Espresso နှင့် အပူနို့ / ရေ ပေါင်းခြင်း",
+      "originalCupSizes": [
+        12
+      ],
+      "proposedTrialCup": null,
+      "warnings": []
+    },
+    {
+      "id": "v8-02-10",
+      "name": "Hot Caramel Latte",
+      "verification": "source-unverified",
+      "originalSteps": 11,
+      "detailedSteps": 15,
+      "method": "Espresso နှင့် အပူနို့ / ရေ ပေါင်းခြင်း",
+      "originalCupSizes": [
+        12
+      ],
+      "proposedTrialCup": null,
+      "warnings": []
+    },
+    {
+      "id": "v8-02-11",
+      "name": "Hot Honey Latte",
+      "verification": "source-unverified",
+      "originalSteps": 11,
+      "detailedSteps": 15,
+      "method": "Espresso နှင့် အပူနို့ / ရေ ပေါင်းခြင်း",
+      "originalCupSizes": [
+        12
+      ],
+      "proposedTrialCup": null,
+      "warnings": []
+    },
+    {
+      "id": "v8-02-12",
+      "name": "Hot Macchiato",
+      "verification": "source-unverified",
+      "originalSteps": 10,
+      "detailedSteps": 14,
+      "method": "Espresso နှင့် အပူနို့ / ရေ ပေါင်းခြင်း",
+      "originalCupSizes": [
+        12
+      ],
+      "proposedTrialCup": null,
+      "warnings": []
+    },
+    {
+      "id": "v8-03-01",
+      "name": "Coffee Frappe",
+      "verification": "source-unverified",
+      "originalSteps": 10,
+      "detailedSteps": 18,
+      "method": "Blender ဖြင့် ဖျော်ရေခဲ / Smoothie",
+      "originalCupSizes": [
+        16
+      ],
+      "proposedTrialCup": null,
+      "warnings": []
+    },
+    {
+      "id": "v8-03-02",
+      "name": "Caramel Coffee Frappe",
+      "verification": "source-unverified",
+      "originalSteps": 11,
+      "detailedSteps": 19,
+      "method": "Blender ဖြင့် ဖျော်ရေခဲ / Smoothie",
+      "originalCupSizes": [
+        16
+      ],
+      "proposedTrialCup": null,
+      "warnings": []
+    },
+    {
+      "id": "v8-03-03",
+      "name": "Mocha Frappe",
+      "verification": "source-unverified",
+      "originalSteps": 11,
+      "detailedSteps": 19,
+      "method": "Blender ဖြင့် ဖျော်ရေခဲ / Smoothie",
+      "originalCupSizes": [
+        16
+      ],
+      "proposedTrialCup": null,
+      "warnings": []
+    },
+    {
+      "id": "v8-03-04",
+      "name": "Vanilla Coffee Frappe",
+      "verification": "source-unverified",
+      "originalSteps": 11,
+      "detailedSteps": 19,
+      "method": "Blender ဖြင့် ဖျော်ရေခဲ / Smoothie",
+      "originalCupSizes": [
+        16
+      ],
+      "proposedTrialCup": null,
+      "warnings": []
+    },
+    {
+      "id": "v8-03-05",
+      "name": "Hazelnut Coffee Frappe",
+      "verification": "source-unverified",
+      "originalSteps": 11,
+      "detailedSteps": 19,
+      "method": "Blender ဖြင့် ဖျော်ရေခဲ / Smoothie",
+      "originalCupSizes": [
+        16
+      ],
+      "proposedTrialCup": null,
+      "warnings": []
+    },
+    {
+      "id": "v8-04-01",
+      "name": "Iced Thai Milk Tea",
+      "verification": "source-unverified",
+      "originalSteps": 11,
+      "detailedSteps": 19,
+      "method": "လက်ဖက် / Cocoa / နို့ အခြေခံဖျော်ခြင်း",
+      "originalCupSizes": [
+        16
+      ],
+      "proposedTrialCup": null,
+      "warnings": [
+        "မူရင်းပမာဏအချို့သည် အပိုင်းအခြားဖြစ်သည်။ ပထမစမ်းသပ်မှုတွင် ရေခဲကို အများဆုံးဘက်၊ အချိုကို အနည်းဆုံးဘက်မှ စပါ။ ရွေးထားသည့်တိကျသောပမာဏကို မှတ်တမ်းတင်ပြီး နောက်ခွက်များ၌ တူညီစွာသုံးပါ။ မူရင်းစာရင်း၏အပိုင်းအခြားကို မပြောင်းထားပါ။",
+        "မူရင်းပါ ရွေးချယ်စရာပစ္စည်း / ပမာဏ မရှင်းလင်းမှုကို မီနူးအမည်နှင့် မူရင်းညွှန်ကြားချက်ဖြင့် စစ်ပါ။ မရှင်းလင်းသေးပါက ဆိုင်ရောင်း recipe အဖြစ် မအတည်ပြုပါနှင့်။"
+      ]
+    },
+    {
+      "id": "v8-04-02",
+      "name": "Iced Green Milk Tea",
+      "verification": "source-unverified",
+      "originalSteps": 11,
+      "detailedSteps": 19,
+      "method": "လက်ဖက် / Cocoa / နို့ အခြေခံဖျော်ခြင်း",
+      "originalCupSizes": [
+        16
+      ],
+      "proposedTrialCup": null,
+      "warnings": [
+        "မူရင်းပမာဏအချို့သည် အပိုင်းအခြားဖြစ်သည်။ ပထမစမ်းသပ်မှုတွင် ရေခဲကို အများဆုံးဘက်၊ အချိုကို အနည်းဆုံးဘက်မှ စပါ။ ရွေးထားသည့်တိကျသောပမာဏကို မှတ်တမ်းတင်ပြီး နောက်ခွက်များ၌ တူညီစွာသုံးပါ။ မူရင်းစာရင်း၏အပိုင်းအခြားကို မပြောင်းထားပါ။",
+        "မူရင်းပါ ရွေးချယ်စရာပစ္စည်း / ပမာဏ မရှင်းလင်းမှုကို မီနူးအမည်နှင့် မူရင်းညွှန်ကြားချက်ဖြင့် စစ်ပါ။ မရှင်းလင်းသေးပါက ဆိုင်ရောင်း recipe အဖြစ် မအတည်ပြုပါနှင့်။"
+      ]
+    },
+    {
+      "id": "v8-04-03",
+      "name": "Iced Matcha Latte",
+      "verification": "source-unverified",
+      "originalSteps": 11,
+      "detailedSteps": 15,
+      "method": "Matcha ကို အဖုမရှိအောင် ဖျော်ခြင်း",
+      "originalCupSizes": [
+        16
+      ],
+      "proposedTrialCup": null,
+      "warnings": [
+        "မူရင်းပမာဏအချို့သည် အပိုင်းအခြားဖြစ်သည်။ ပထမစမ်းသပ်မှုတွင် ရေခဲကို အများဆုံးဘက်၊ အချိုကို အနည်းဆုံးဘက်မှ စပါ။ ရွေးထားသည့်တိကျသောပမာဏကို မှတ်တမ်းတင်ပြီး နောက်ခွက်များ၌ တူညီစွာသုံးပါ။ မူရင်းစာရင်း၏အပိုင်းအခြားကို မပြောင်းထားပါ။",
+        "မူရင်းပါ ရွေးချယ်စရာပစ္စည်း / ပမာဏ မရှင်းလင်းမှုကို မီနူးအမည်နှင့် မူရင်းညွှန်ကြားချက်ဖြင့် စစ်ပါ။ မရှင်းလင်းသေးပါက ဆိုင်ရောင်း recipe အဖြစ် မအတည်ပြုပါနှင့်။"
+      ]
+    },
+    {
+      "id": "v8-04-04",
+      "name": "Iced Cocoa",
+      "verification": "source-unverified",
+      "originalSteps": 11,
+      "detailedSteps": 18,
+      "method": "လက်ဖက် / Cocoa / နို့ အခြေခံဖျော်ခြင်း",
+      "originalCupSizes": [
+        16
+      ],
+      "proposedTrialCup": null,
+      "warnings": [
+        "မူရင်းပမာဏအချို့သည် အပိုင်းအခြားဖြစ်သည်။ ပထမစမ်းသပ်မှုတွင် ရေခဲကို အများဆုံးဘက်၊ အချိုကို အနည်းဆုံးဘက်မှ စပါ။ ရွေးထားသည့်တိကျသောပမာဏကို မှတ်တမ်းတင်ပြီး နောက်ခွက်များ၌ တူညီစွာသုံးပါ။ မူရင်းစာရင်း၏အပိုင်းအခြားကို မပြောင်းထားပါ။",
+        "မူရင်းပါ ရွေးချယ်စရာပစ္စည်း / ပမာဏ မရှင်းလင်းမှုကို မီနူးအမည်နှင့် မူရင်းညွှန်ကြားချက်ဖြင့် စစ်ပါ။ မရှင်းလင်းသေးပါက ဆိုင်ရောင်း recipe အဖြစ် မအတည်ပြုပါနှင့်။"
+      ]
+    },
+    {
+      "id": "v8-04-05",
+      "name": "Iced Chocolate",
+      "verification": "source-unverified",
+      "originalSteps": 11,
+      "detailedSteps": 18,
+      "method": "လက်ဖက် / Cocoa / နို့ အခြေခံဖျော်ခြင်း",
+      "originalCupSizes": [
+        16
+      ],
+      "proposedTrialCup": null,
+      "warnings": [
+        "မူရင်းပမာဏအချို့သည် အပိုင်းအခြားဖြစ်သည်။ ပထမစမ်းသပ်မှုတွင် ရေခဲကို အများဆုံးဘက်၊ အချိုကို အနည်းဆုံးဘက်မှ စပါ။ ရွေးထားသည့်တိကျသောပမာဏကို မှတ်တမ်းတင်ပြီး နောက်ခွက်များ၌ တူညီစွာသုံးပါ။ မူရင်းစာရင်း၏အပိုင်းအခြားကို မပြောင်းထားပါ။",
+        "မူရင်းပါ ရွေးချယ်စရာပစ္စည်း / ပမာဏ မရှင်းလင်းမှုကို မီနူးအမည်နှင့် မူရင်းညွှန်ကြားချက်ဖြင့် စစ်ပါ။ မရှင်းလင်းသေးပါက ဆိုင်ရောင်း recipe အဖြစ် မအတည်ပြုပါနှင့်။"
+      ]
+    },
+    {
+      "id": "v8-04-06",
+      "name": "Iced Milk Tea",
+      "verification": "source-unverified",
+      "originalSteps": 11,
+      "detailedSteps": 19,
+      "method": "လက်ဖက် / Cocoa / နို့ အခြေခံဖျော်ခြင်း",
+      "originalCupSizes": [
+        16
+      ],
+      "proposedTrialCup": null,
+      "warnings": [
+        "မူရင်းပမာဏအချို့သည် အပိုင်းအခြားဖြစ်သည်။ ပထမစမ်းသပ်မှုတွင် ရေခဲကို အများဆုံးဘက်၊ အချိုကို အနည်းဆုံးဘက်မှ စပါ။ ရွေးထားသည့်တိကျသောပမာဏကို မှတ်တမ်းတင်ပြီး နောက်ခွက်များ၌ တူညီစွာသုံးပါ။ မူရင်းစာရင်း၏အပိုင်းအခြားကို မပြောင်းထားပါ။",
+        "မူရင်းပါ ရွေးချယ်စရာပစ္စည်း / ပမာဏ မရှင်းလင်းမှုကို မီနူးအမည်နှင့် မူရင်းညွှန်ကြားချက်ဖြင့် စစ်ပါ။ မရှင်းလင်းသေးပါက ဆိုင်ရောင်း recipe အဖြစ် မအတည်ပြုပါနှင့်။"
+      ]
+    },
+    {
+      "id": "v8-04-07",
+      "name": "Iced Lemon Tea",
+      "verification": "source-unverified",
+      "originalSteps": 12,
+      "detailedSteps": 21,
+      "method": "လက်ဖက် / Cocoa / နို့ အခြေခံဖျော်ခြင်း",
+      "originalCupSizes": [
+        16
+      ],
+      "proposedTrialCup": null,
+      "warnings": [
+        "မူရင်းပမာဏအချို့သည် အပိုင်းအခြားဖြစ်သည်။ ပထမစမ်းသပ်မှုတွင် ရေခဲကို အများဆုံးဘက်၊ အချိုကို အနည်းဆုံးဘက်မှ စပါ။ ရွေးထားသည့်တိကျသောပမာဏကို မှတ်တမ်းတင်ပြီး နောက်ခွက်များ၌ တူညီစွာသုံးပါ။ မူရင်းစာရင်း၏အပိုင်းအခြားကို မပြောင်းထားပါ။",
+        "မူရင်းပါ ရွေးချယ်စရာပစ္စည်း / ပမာဏ မရှင်းလင်းမှုကို မီနူးအမည်နှင့် မူရင်းညွှန်ကြားချက်ဖြင့် စစ်ပါ။ မရှင်းလင်းသေးပါက ဆိုင်ရောင်း recipe အဖြစ် မအတည်ပြုပါနှင့်။"
+      ]
+    },
+    {
+      "id": "v8-04-08",
+      "name": "Iced Peach Tea",
+      "verification": "source-unverified",
+      "originalSteps": 11,
+      "detailedSteps": 19,
+      "method": "လက်ဖက် / Cocoa / နို့ အခြေခံဖျော်ခြင်း",
+      "originalCupSizes": [
+        16
+      ],
+      "proposedTrialCup": null,
+      "warnings": [
+        "မူရင်းပမာဏအချို့သည် အပိုင်းအခြားဖြစ်သည်။ ပထမစမ်းသပ်မှုတွင် ရေခဲကို အများဆုံးဘက်၊ အချိုကို အနည်းဆုံးဘက်မှ စပါ။ ရွေးထားသည့်တိကျသောပမာဏကို မှတ်တမ်းတင်ပြီး နောက်ခွက်များ၌ တူညီစွာသုံးပါ။ မူရင်းစာရင်း၏အပိုင်းအခြားကို မပြောင်းထားပါ။",
+        "မူရင်းပါ ရွေးချယ်စရာပစ္စည်း / ပမာဏ မရှင်းလင်းမှုကို မီနူးအမည်နှင့် မူရင်းညွှန်ကြားချက်ဖြင့် စစ်ပါ။ မရှင်းလင်းသေးပါက ဆိုင်ရောင်း recipe အဖြစ် မအတည်ပြုပါနှင့်။"
+      ]
+    },
+    {
+      "id": "v8-04-09",
+      "name": "Iced Honey Lemon Tea",
+      "verification": "source-unverified",
+      "originalSteps": 12,
+      "detailedSteps": 21,
+      "method": "လက်ဖက် / Cocoa / နို့ အခြေခံဖျော်ခြင်း",
+      "originalCupSizes": [
+        16
+      ],
+      "proposedTrialCup": null,
+      "warnings": [
+        "မူရင်းပမာဏအချို့သည် အပိုင်းအခြားဖြစ်သည်။ ပထမစမ်းသပ်မှုတွင် ရေခဲကို အများဆုံးဘက်၊ အချိုကို အနည်းဆုံးဘက်မှ စပါ။ ရွေးထားသည့်တိကျသောပမာဏကို မှတ်တမ်းတင်ပြီး နောက်ခွက်များ၌ တူညီစွာသုံးပါ။ မူရင်းစာရင်း၏အပိုင်းအခြားကို မပြောင်းထားပါ။",
+        "မူရင်းပါ ရွေးချယ်စရာပစ္စည်း / ပမာဏ မရှင်းလင်းမှုကို မီနူးအမည်နှင့် မူရင်းညွှန်ကြားချက်ဖြင့် စစ်ပါ။ မရှင်းလင်းသေးပါက ဆိုင်ရောင်း recipe အဖြစ် မအတည်ပြုပါနှင့်။"
+      ]
+    },
+    {
+      "id": "v8-04-10",
+      "name": "Iced Taro Milk",
+      "verification": "source-unverified",
+      "originalSteps": 11,
+      "detailedSteps": 18,
+      "method": "လက်ဖက် / Cocoa / နို့ အခြေခံဖျော်ခြင်း",
+      "originalCupSizes": [
+        16
+      ],
+      "proposedTrialCup": null,
+      "warnings": [
+        "မူရင်းပမာဏအချို့သည် အပိုင်းအခြားဖြစ်သည်။ ပထမစမ်းသပ်မှုတွင် ရေခဲကို အများဆုံးဘက်၊ အချိုကို အနည်းဆုံးဘက်မှ စပါ။ ရွေးထားသည့်တိကျသောပမာဏကို မှတ်တမ်းတင်ပြီး နောက်ခွက်များ၌ တူညီစွာသုံးပါ။ မူရင်းစာရင်း၏အပိုင်းအခြားကို မပြောင်းထားပါ။",
+        "မူရင်းပါ ရွေးချယ်စရာပစ္စည်း / ပမာဏ မရှင်းလင်းမှုကို မီနူးအမည်နှင့် မူရင်းညွှန်ကြားချက်ဖြင့် စစ်ပါ။ မရှင်းလင်းသေးပါက ဆိုင်ရောင်း recipe အဖြစ် မအတည်ပြုပါနှင့်။"
+      ]
+    },
+    {
+      "id": "v8-04-11",
+      "name": "Iced Strawberry Milk",
+      "verification": "source-unverified",
+      "originalSteps": 10,
+      "detailedSteps": 16,
+      "method": "လက်ဖက် / Cocoa / နို့ အခြေခံဖျော်ခြင်း",
+      "originalCupSizes": [
+        16
+      ],
+      "proposedTrialCup": null,
+      "warnings": [
+        "မူရင်းပမာဏအချို့သည် အပိုင်းအခြားဖြစ်သည်။ ပထမစမ်းသပ်မှုတွင် ရေခဲကို အများဆုံးဘက်၊ အချိုကို အနည်းဆုံးဘက်မှ စပါ။ ရွေးထားသည့်တိကျသောပမာဏကို မှတ်တမ်းတင်ပြီး နောက်ခွက်များ၌ တူညီစွာသုံးပါ။ မူရင်းစာရင်း၏အပိုင်းအခြားကို မပြောင်းထားပါ။",
+        "မူရင်းပါ ရွေးချယ်စရာပစ္စည်း / ပမာဏ မရှင်းလင်းမှုကို မီနူးအမည်နှင့် မူရင်းညွှန်ကြားချက်ဖြင့် စစ်ပါ။ မရှင်းလင်းသေးပါက ဆိုင်ရောင်း recipe အဖြစ် မအတည်ပြုပါနှင့်။"
+      ]
+    },
+    {
+      "id": "v8-04-12",
+      "name": "Iced Brown Sugar Milk",
+      "verification": "source-unverified",
+      "originalSteps": 10,
+      "detailedSteps": 16,
+      "method": "လက်ဖက် / Cocoa / နို့ အခြေခံဖျော်ခြင်း",
+      "originalCupSizes": [
+        16
+      ],
+      "proposedTrialCup": null,
+      "warnings": [
+        "မူရင်းပမာဏအချို့သည် အပိုင်းအခြားဖြစ်သည်။ ပထမစမ်းသပ်မှုတွင် ရေခဲကို အများဆုံးဘက်၊ အချိုကို အနည်းဆုံးဘက်မှ စပါ။ ရွေးထားသည့်တိကျသောပမာဏကို မှတ်တမ်းတင်ပြီး နောက်ခွက်များ၌ တူညီစွာသုံးပါ။ မူရင်းစာရင်း၏အပိုင်းအခြားကို မပြောင်းထားပါ။",
+        "မူရင်းပါ ရွေးချယ်စရာပစ္စည်း / ပမာဏ မရှင်းလင်းမှုကို မီနူးအမည်နှင့် မူရင်းညွှန်ကြားချက်ဖြင့် စစ်ပါ။ မရှင်းလင်းသေးပါက ဆိုင်ရောင်း recipe အဖြစ် မအတည်ပြုပါနှင့်။"
+      ]
+    },
+    {
+      "id": "v8-04-13",
+      "name": "Hot Thai Milk Tea",
+      "verification": "source-unverified",
+      "originalSteps": 10,
+      "detailedSteps": 17,
+      "method": "လက်ဖက် / Cocoa / နို့ အခြေခံဖျော်ခြင်း",
+      "originalCupSizes": [
+        12
+      ],
+      "proposedTrialCup": null,
+      "warnings": [
+        "မူရင်းပါ ရွေးချယ်စရာပစ္စည်း / ပမာဏ မရှင်းလင်းမှုကို မီနူးအမည်နှင့် မူရင်းညွှန်ကြားချက်ဖြင့် စစ်ပါ။ မရှင်းလင်းသေးပါက ဆိုင်ရောင်း recipe အဖြစ် မအတည်ပြုပါနှင့်။"
+      ]
+    },
+    {
+      "id": "v8-04-14",
+      "name": "Hot Matcha Latte",
+      "verification": "source-unverified",
+      "originalSteps": 10,
+      "detailedSteps": 14,
+      "method": "Matcha ကို အဖုမရှိအောင် ဖျော်ခြင်း",
+      "originalCupSizes": [
+        12
+      ],
+      "proposedTrialCup": null,
+      "warnings": [
+        "မူရင်းပါ ရွေးချယ်စရာပစ္စည်း / ပမာဏ မရှင်းလင်းမှုကို မီနူးအမည်နှင့် မူရင်းညွှန်ကြားချက်ဖြင့် စစ်ပါ။ မရှင်းလင်းသေးပါက ဆိုင်ရောင်း recipe အဖြစ် မအတည်ပြုပါနှင့်။"
+      ]
+    },
+    {
+      "id": "v8-04-15",
+      "name": "Hot Cocoa",
+      "verification": "source-unverified",
+      "originalSteps": 10,
+      "detailedSteps": 16,
+      "method": "လက်ဖက် / Cocoa / နို့ အခြေခံဖျော်ခြင်း",
+      "originalCupSizes": [
+        12
+      ],
+      "proposedTrialCup": null,
+      "warnings": [
+        "မူရင်းပါ ရွေးချယ်စရာပစ္စည်း / ပမာဏ မရှင်းလင်းမှုကို မီနူးအမည်နှင့် မူရင်းညွှန်ကြားချက်ဖြင့် စစ်ပါ။ မရှင်းလင်းသေးပါက ဆိုင်ရောင်း recipe အဖြစ် မအတည်ပြုပါနှင့်။"
+      ]
+    },
+    {
+      "id": "v8-04-16",
+      "name": "Hot Chocolate",
+      "verification": "source-unverified",
+      "originalSteps": 10,
+      "detailedSteps": 16,
+      "method": "လက်ဖက် / Cocoa / နို့ အခြေခံဖျော်ခြင်း",
+      "originalCupSizes": [
+        12
+      ],
+      "proposedTrialCup": null,
+      "warnings": [
+        "မူရင်းပါ ရွေးချယ်စရာပစ္စည်း / ပမာဏ မရှင်းလင်းမှုကို မီနူးအမည်နှင့် မူရင်းညွှန်ကြားချက်ဖြင့် စစ်ပါ။ မရှင်းလင်းသေးပါက ဆိုင်ရောင်း recipe အဖြစ် မအတည်ပြုပါနှင့်။"
+      ]
+    },
+    {
+      "id": "v8-04-17",
+      "name": "Hot Lemon Tea",
+      "verification": "source-unverified",
+      "originalSteps": 11,
+      "detailedSteps": 19,
+      "method": "လက်ဖက် / Cocoa / နို့ အခြေခံဖျော်ခြင်း",
+      "originalCupSizes": [
+        12
+      ],
+      "proposedTrialCup": null,
+      "warnings": [
+        "မူရင်းပါ ရွေးချယ်စရာပစ္စည်း / ပမာဏ မရှင်းလင်းမှုကို မီနူးအမည်နှင့် မူရင်းညွှန်ကြားချက်ဖြင့် စစ်ပါ။ မရှင်းလင်းသေးပါက ဆိုင်ရောင်း recipe အဖြစ် မအတည်ပြုပါနှင့်။"
+      ]
+    },
+    {
+      "id": "v8-04-18",
+      "name": "Hot Honey Lemon",
+      "verification": "source-unverified",
+      "originalSteps": 11,
+      "detailedSteps": 19,
+      "method": "လက်ဖက် / Cocoa / နို့ အခြေခံဖျော်ခြင်း",
+      "originalCupSizes": [
+        12
+      ],
+      "proposedTrialCup": null,
+      "warnings": [
+        "မူရင်းပါ ရွေးချယ်စရာပစ္စည်း / ပမာဏ မရှင်းလင်းမှုကို မီနူးအမည်နှင့် မူရင်းညွှန်ကြားချက်ဖြင့် စစ်ပါ။ မရှင်းလင်းသေးပါက ဆိုင်ရောင်း recipe အဖြစ် မအတည်ပြုပါနှင့်။"
+      ]
+    },
+    {
+      "id": "v8-05-01",
+      "name": "Strawberry Smoothie",
+      "verification": "source-unverified",
+      "originalSteps": 11,
+      "detailedSteps": 15,
+      "method": "Blender ဖြင့် ဖျော်ရေခဲ / Smoothie",
+      "originalCupSizes": [
+        16
+      ],
+      "proposedTrialCup": null,
+      "warnings": [
+        "မူရင်းပမာဏအချို့သည် အပိုင်းအခြားဖြစ်သည်။ ပထမစမ်းသပ်မှုတွင် ရေခဲကို အများဆုံးဘက်၊ အချိုကို အနည်းဆုံးဘက်မှ စပါ။ ရွေးထားသည့်တိကျသောပမာဏကို မှတ်တမ်းတင်ပြီး နောက်ခွက်များ၌ တူညီစွာသုံးပါ။ မူရင်းစာရင်း၏အပိုင်းအခြားကို မပြောင်းထားပါ။",
+        "မူရင်းပါ ရွေးချယ်စရာပစ္စည်း / ပမာဏ မရှင်းလင်းမှုကို မီနူးအမည်နှင့် မူရင်းညွှန်ကြားချက်ဖြင့် စစ်ပါ။ မရှင်းလင်းသေးပါက ဆိုင်ရောင်း recipe အဖြစ် မအတည်ပြုပါနှင့်။"
+      ]
+    },
+    {
+      "id": "v8-05-02",
+      "name": "Mango Smoothie",
+      "verification": "source-unverified",
+      "originalSteps": 11,
+      "detailedSteps": 15,
+      "method": "Blender ဖြင့် ဖျော်ရေခဲ / Smoothie",
+      "originalCupSizes": [
+        16
+      ],
+      "proposedTrialCup": null,
+      "warnings": [
+        "မူရင်းပမာဏအချို့သည် အပိုင်းအခြားဖြစ်သည်။ ပထမစမ်းသပ်မှုတွင် ရေခဲကို အများဆုံးဘက်၊ အချိုကို အနည်းဆုံးဘက်မှ စပါ။ ရွေးထားသည့်တိကျသောပမာဏကို မှတ်တမ်းတင်ပြီး နောက်ခွက်များ၌ တူညီစွာသုံးပါ။ မူရင်းစာရင်း၏အပိုင်းအခြားကို မပြောင်းထားပါ။",
+        "မူရင်းပါ ရွေးချယ်စရာပစ္စည်း / ပမာဏ မရှင်းလင်းမှုကို မီနူးအမည်နှင့် မူရင်းညွှန်ကြားချက်ဖြင့် စစ်ပါ။ မရှင်းလင်းသေးပါက ဆိုင်ရောင်း recipe အဖြစ် မအတည်ပြုပါနှင့်။"
+      ]
+    },
+    {
+      "id": "v8-05-03",
+      "name": "Banana Smoothie",
+      "verification": "source-unverified",
+      "originalSteps": 11,
+      "detailedSteps": 15,
+      "method": "Blender ဖြင့် ဖျော်ရေခဲ / Smoothie",
+      "originalCupSizes": [
+        16
+      ],
+      "proposedTrialCup": null,
+      "warnings": [
+        "မူရင်းပမာဏအချို့သည် အပိုင်းအခြားဖြစ်သည်။ ပထမစမ်းသပ်မှုတွင် ရေခဲကို အများဆုံးဘက်၊ အချိုကို အနည်းဆုံးဘက်မှ စပါ။ ရွေးထားသည့်တိကျသောပမာဏကို မှတ်တမ်းတင်ပြီး နောက်ခွက်များ၌ တူညီစွာသုံးပါ။ မူရင်းစာရင်း၏အပိုင်းအခြားကို မပြောင်းထားပါ။",
+        "မူရင်းပါ ရွေးချယ်စရာပစ္စည်း / ပမာဏ မရှင်းလင်းမှုကို မီနူးအမည်နှင့် မူရင်းညွှန်ကြားချက်ဖြင့် စစ်ပါ။ မရှင်းလင်းသေးပါက ဆိုင်ရောင်း recipe အဖြစ် မအတည်ပြုပါနှင့်။"
+      ]
+    },
+    {
+      "id": "v8-05-04",
+      "name": "Mixed Berry Smoothie",
+      "verification": "source-unverified",
+      "originalSteps": 11,
+      "detailedSteps": 15,
+      "method": "Blender ဖြင့် ဖျော်ရေခဲ / Smoothie",
+      "originalCupSizes": [
+        16
+      ],
+      "proposedTrialCup": null,
+      "warnings": [
+        "မူရင်းပမာဏအချို့သည် အပိုင်းအခြားဖြစ်သည်။ ပထမစမ်းသပ်မှုတွင် ရေခဲကို အများဆုံးဘက်၊ အချိုကို အနည်းဆုံးဘက်မှ စပါ။ ရွေးထားသည့်တိကျသောပမာဏကို မှတ်တမ်းတင်ပြီး နောက်ခွက်များ၌ တူညီစွာသုံးပါ။ မူရင်းစာရင်း၏အပိုင်းအခြားကို မပြောင်းထားပါ။",
+        "မူရင်းပါ ရွေးချယ်စရာပစ္စည်း / ပမာဏ မရှင်းလင်းမှုကို မီနူးအမည်နှင့် မူရင်းညွှန်ကြားချက်ဖြင့် စစ်ပါ။ မရှင်းလင်းသေးပါက ဆိုင်ရောင်း recipe အဖြစ် မအတည်ပြုပါနှင့်။"
+      ]
+    },
+    {
+      "id": "v8-05-05",
+      "name": "Yogurt Berry Smoothie",
+      "verification": "source-unverified",
+      "originalSteps": 12,
+      "detailedSteps": 16,
+      "method": "Blender ဖြင့် ဖျော်ရေခဲ / Smoothie",
+      "originalCupSizes": [
+        16
+      ],
+      "proposedTrialCup": null,
+      "warnings": [
+        "မူရင်းပမာဏအချို့သည် အပိုင်းအခြားဖြစ်သည်။ ပထမစမ်းသပ်မှုတွင် ရေခဲကို အများဆုံးဘက်၊ အချိုကို အနည်းဆုံးဘက်မှ စပါ။ ရွေးထားသည့်တိကျသောပမာဏကို မှတ်တမ်းတင်ပြီး နောက်ခွက်များ၌ တူညီစွာသုံးပါ။ မူရင်းစာရင်း၏အပိုင်းအခြားကို မပြောင်းထားပါ။",
+        "မူရင်းပါ ရွေးချယ်စရာပစ္စည်း / ပမာဏ မရှင်းလင်းမှုကို မီနူးအမည်နှင့် မူရင်းညွှန်ကြားချက်ဖြင့် စစ်ပါ။ မရှင်းလင်းသေးပါက ဆိုင်ရောင်း recipe အဖြစ် မအတည်ပြုပါနှင့်။"
+      ]
+    },
+    {
+      "id": "v8-05-06",
+      "name": "Mango Yogurt Smoothie",
+      "verification": "source-unverified",
+      "originalSteps": 12,
+      "detailedSteps": 16,
+      "method": "Blender ဖြင့် ဖျော်ရေခဲ / Smoothie",
+      "originalCupSizes": [
+        16
+      ],
+      "proposedTrialCup": null,
+      "warnings": [
+        "မူရင်းပမာဏအချို့သည် အပိုင်းအခြားဖြစ်သည်။ ပထမစမ်းသပ်မှုတွင် ရေခဲကို အများဆုံးဘက်၊ အချိုကို အနည်းဆုံးဘက်မှ စပါ။ ရွေးထားသည့်တိကျသောပမာဏကို မှတ်တမ်းတင်ပြီး နောက်ခွက်များ၌ တူညီစွာသုံးပါ။ မူရင်းစာရင်း၏အပိုင်းအခြားကို မပြောင်းထားပါ။",
+        "မူရင်းပါ ရွေးချယ်စရာပစ္စည်း / ပမာဏ မရှင်းလင်းမှုကို မီနူးအမည်နှင့် မူရင်းညွှန်ကြားချက်ဖြင့် စစ်ပါ။ မရှင်းလင်းသေးပါက ဆိုင်ရောင်း recipe အဖြစ် မအတည်ပြုပါနှင့်။"
+      ]
+    },
+    {
+      "id": "v8-06-01",
+      "name": "Chocolate Frappe",
+      "verification": "source-unverified",
+      "originalSteps": 10,
+      "detailedSteps": 15,
+      "method": "Blender ဖြင့် ဖျော်ရေခဲ / Smoothie",
+      "originalCupSizes": [
+        16
+      ],
+      "proposedTrialCup": null,
+      "warnings": []
+    },
+    {
+      "id": "v8-06-02",
+      "name": "Matcha Frappe",
+      "verification": "source-unverified",
+      "originalSteps": 10,
+      "detailedSteps": 15,
+      "method": "Blender ဖြင့် ဖျော်ရေခဲ / Smoothie",
+      "originalCupSizes": [
+        16
+      ],
+      "proposedTrialCup": null,
+      "warnings": []
+    },
+    {
+      "id": "v8-06-03",
+      "name": "Thai Tea Frappe",
+      "verification": "source-unverified",
+      "originalSteps": 10,
+      "detailedSteps": 15,
+      "method": "Blender ဖြင့် ဖျော်ရေခဲ / Smoothie",
+      "originalCupSizes": [
+        16
+      ],
+      "proposedTrialCup": null,
+      "warnings": []
+    },
+    {
+      "id": "v8-06-04",
+      "name": "Oreo Milk Frappe",
+      "verification": "source-unverified",
+      "originalSteps": 10,
+      "detailedSteps": 15,
+      "method": "Blender ဖြင့် ဖျော်ရေခဲ / Smoothie",
+      "originalCupSizes": [
+        16
+      ],
+      "proposedTrialCup": null,
+      "warnings": []
+    },
+    {
+      "id": "v8-06-05",
+      "name": "Vanilla Milk Frappe",
+      "verification": "source-unverified",
+      "originalSteps": 10,
+      "detailedSteps": 15,
+      "method": "Blender ဖြင့် ဖျော်ရေခဲ / Smoothie",
+      "originalCupSizes": [
+        16
+      ],
+      "proposedTrialCup": null,
+      "warnings": []
+    },
+    {
+      "id": "v8-07-01",
+      "name": "Strawberry Soda",
+      "verification": "source-unverified",
+      "originalSteps": 10,
+      "detailedSteps": 12,
+      "method": "ဆိုဒါ / Sparkling / Mocktail",
+      "originalCupSizes": [
+        16
+      ],
+      "proposedTrialCup": null,
+      "warnings": [
+        "မူရင်းပမာဏအချို့သည် အပိုင်းအခြားဖြစ်သည်။ ပထမစမ်းသပ်မှုတွင် ရေခဲကို အများဆုံးဘက်၊ အချိုကို အနည်းဆုံးဘက်မှ စပါ။ ရွေးထားသည့်တိကျသောပမာဏကို မှတ်တမ်းတင်ပြီး နောက်ခွက်များ၌ တူညီစွာသုံးပါ။ မူရင်းစာရင်း၏အပိုင်းအခြားကို မပြောင်းထားပါ။"
+      ]
+    },
+    {
+      "id": "v8-07-02",
+      "name": "Blue Lemon Soda",
+      "verification": "source-unverified",
+      "originalSteps": 11,
+      "detailedSteps": 13,
+      "method": "ဆိုဒါ / Sparkling / Mocktail",
+      "originalCupSizes": [
+        16
+      ],
+      "proposedTrialCup": null,
+      "warnings": [
+        "မူရင်းပမာဏအချို့သည် အပိုင်းအခြားဖြစ်သည်။ ပထမစမ်းသပ်မှုတွင် ရေခဲကို အများဆုံးဘက်၊ အချိုကို အနည်းဆုံးဘက်မှ စပါ။ ရွေးထားသည့်တိကျသောပမာဏကို မှတ်တမ်းတင်ပြီး နောက်ခွက်များ၌ တူညီစွာသုံးပါ။ မူရင်းစာရင်း၏အပိုင်းအခြားကို မပြောင်းထားပါ။"
+      ]
+    },
+    {
+      "id": "v8-07-03",
+      "name": "Passion Fruit Soda",
+      "verification": "source-unverified",
+      "originalSteps": 10,
+      "detailedSteps": 12,
+      "method": "ဆိုဒါ / Sparkling / Mocktail",
+      "originalCupSizes": [
+        16
+      ],
+      "proposedTrialCup": null,
+      "warnings": [
+        "မူရင်းပမာဏအချို့သည် အပိုင်းအခြားဖြစ်သည်။ ပထမစမ်းသပ်မှုတွင် ရေခဲကို အများဆုံးဘက်၊ အချိုကို အနည်းဆုံးဘက်မှ စပါ။ ရွေးထားသည့်တိကျသောပမာဏကို မှတ်တမ်းတင်ပြီး နောက်ခွက်များ၌ တူညီစွာသုံးပါ။ မူရင်းစာရင်း၏အပိုင်းအခြားကို မပြောင်းထားပါ။"
+      ]
+    },
+    {
+      "id": "v8-07-04",
+      "name": "Lychee Soda",
+      "verification": "source-unverified",
+      "originalSteps": 10,
+      "detailedSteps": 12,
+      "method": "ဆိုဒါ / Sparkling / Mocktail",
+      "originalCupSizes": [
+        16
+      ],
+      "proposedTrialCup": null,
+      "warnings": [
+        "မူရင်းပမာဏအချို့သည် အပိုင်းအခြားဖြစ်သည်။ ပထမစမ်းသပ်မှုတွင် ရေခဲကို အများဆုံးဘက်၊ အချိုကို အနည်းဆုံးဘက်မှ စပါ။ ရွေးထားသည့်တိကျသောပမာဏကို မှတ်တမ်းတင်ပြီး နောက်ခွက်များ၌ တူညီစွာသုံးပါ။ မူရင်းစာရင်း၏အပိုင်းအခြားကို မပြောင်းထားပါ။"
+      ]
+    },
+    {
+      "id": "v8-07-05",
+      "name": "Peach Soda",
+      "verification": "source-unverified",
+      "originalSteps": 10,
+      "detailedSteps": 12,
+      "method": "ဆိုဒါ / Sparkling / Mocktail",
+      "originalCupSizes": [
+        16
+      ],
+      "proposedTrialCup": null,
+      "warnings": [
+        "မူရင်းပမာဏအချို့သည် အပိုင်းအခြားဖြစ်သည်။ ပထမစမ်းသပ်မှုတွင် ရေခဲကို အများဆုံးဘက်၊ အချိုကို အနည်းဆုံးဘက်မှ စပါ။ ရွေးထားသည့်တိကျသောပမာဏကို မှတ်တမ်းတင်ပြီး နောက်ခွက်များ၌ တူညီစွာသုံးပါ။ မူရင်းစာရင်း၏အပိုင်းအခြားကို မပြောင်းထားပါ။"
+      ]
+    },
+    {
+      "id": "v8-07-06",
+      "name": "Honey Lemon Soda",
+      "verification": "source-unverified",
+      "originalSteps": 11,
+      "detailedSteps": 13,
+      "method": "ဆိုဒါ / Sparkling / Mocktail",
+      "originalCupSizes": [
+        16
+      ],
+      "proposedTrialCup": null,
+      "warnings": [
+        "မူရင်းပမာဏအချို့သည် အပိုင်းအခြားဖြစ်သည်။ ပထမစမ်းသပ်မှုတွင် ရေခဲကို အများဆုံးဘက်၊ အချိုကို အနည်းဆုံးဘက်မှ စပါ။ ရွေးထားသည့်တိကျသောပမာဏကို မှတ်တမ်းတင်ပြီး နောက်ခွက်များ၌ တူညီစွာသုံးပါ။ မူရင်းစာရင်း၏အပိုင်းအခြားကို မပြောင်းထားပါ။"
+      ]
+    },
+    {
+      "id": "v8-07-07",
+      "name": "Yuzu Soda",
+      "verification": "source-unverified",
+      "originalSteps": 10,
+      "detailedSteps": 12,
+      "method": "ဆိုဒါ / Sparkling / Mocktail",
+      "originalCupSizes": [
+        16
+      ],
+      "proposedTrialCup": null,
+      "warnings": [
+        "မူရင်းပမာဏအချို့သည် အပိုင်းအခြားဖြစ်သည်။ ပထမစမ်းသပ်မှုတွင် ရေခဲကို အများဆုံးဘက်၊ အချိုကို အနည်းဆုံးဘက်မှ စပါ။ ရွေးထားသည့်တိကျသောပမာဏကို မှတ်တမ်းတင်ပြီး နောက်ခွက်များ၌ တူညီစွာသုံးပါ။ မူရင်းစာရင်း၏အပိုင်းအခြားကို မပြောင်းထားပါ။"
+      ]
+    },
+    {
+      "id": "v8-08-01",
+      "name": "Fresh Lemonade",
+      "verification": "source-unverified",
+      "originalSteps": 11,
+      "detailedSteps": 16,
+      "method": "နို့ / အသီး / အရည်အခြေခံ ရောဖျော်ခြင်း",
+      "originalCupSizes": [
+        16
+      ],
+      "proposedTrialCup": null,
+      "warnings": [
+        "မူရင်းပမာဏအချို့သည် အပိုင်းအခြားဖြစ်သည်။ ပထမစမ်းသပ်မှုတွင် ရေခဲကို အများဆုံးဘက်၊ အချိုကို အနည်းဆုံးဘက်မှ စပါ။ ရွေးထားသည့်တိကျသောပမာဏကို မှတ်တမ်းတင်ပြီး နောက်ခွက်များ၌ တူညီစွာသုံးပါ။ မူရင်းစာရင်း၏အပိုင်းအခြားကို မပြောင်းထားပါ။"
+      ]
+    },
+    {
+      "id": "v8-08-02",
+      "name": "Orange Cooler",
+      "verification": "source-unverified",
+      "originalSteps": 10,
+      "detailedSteps": 15,
+      "method": "နို့ / အသီး / အရည်အခြေခံ ရောဖျော်ခြင်း",
+      "originalCupSizes": [
+        16
+      ],
+      "proposedTrialCup": null,
+      "warnings": [
+        "မူရင်းပမာဏအချို့သည် အပိုင်းအခြားဖြစ်သည်။ ပထမစမ်းသပ်မှုတွင် ရေခဲကို အများဆုံးဘက်၊ အချိုကို အနည်းဆုံးဘက်မှ စပါ။ ရွေးထားသည့်တိကျသောပမာဏကို မှတ်တမ်းတင်ပြီး နောက်ခွက်များ၌ တူညီစွာသုံးပါ။ မူရင်းစာရင်း၏အပိုင်းအခြားကို မပြောင်းထားပါ။"
+      ]
+    },
+    {
+      "id": "v8-08-03",
+      "name": "Passion Fruit Cooler",
+      "verification": "source-unverified",
+      "originalSteps": 10,
+      "detailedSteps": 15,
+      "method": "နို့ / အသီး / အရည်အခြေခံ ရောဖျော်ခြင်း",
+      "originalCupSizes": [
+        16
+      ],
+      "proposedTrialCup": null,
+      "warnings": [
+        "မူရင်းပမာဏအချို့သည် အပိုင်းအခြားဖြစ်သည်။ ပထမစမ်းသပ်မှုတွင် ရေခဲကို အများဆုံးဘက်၊ အချိုကို အနည်းဆုံးဘက်မှ စပါ။ ရွေးထားသည့်တိကျသောပမာဏကို မှတ်တမ်းတင်ပြီး နောက်ခွက်များ၌ တူညီစွာသုံးပါ။ မူရင်းစာရင်း၏အပိုင်းအခြားကို မပြောင်းထားပါ။"
+      ]
+    },
+    {
+      "id": "v8-08-04",
+      "name": "Lychee Cooler",
+      "verification": "source-unverified",
+      "originalSteps": 10,
+      "detailedSteps": 15,
+      "method": "နို့ / အသီး / အရည်အခြေခံ ရောဖျော်ခြင်း",
+      "originalCupSizes": [
+        16
+      ],
+      "proposedTrialCup": null,
+      "warnings": [
+        "မူရင်းပမာဏအချို့သည် အပိုင်းအခြားဖြစ်သည်။ ပထမစမ်းသပ်မှုတွင် ရေခဲကို အများဆုံးဘက်၊ အချိုကို အနည်းဆုံးဘက်မှ စပါ။ ရွေးထားသည့်တိကျသောပမာဏကို မှတ်တမ်းတင်ပြီး နောက်ခွက်များ၌ တူညီစွာသုံးပါ။ မူရင်းစာရင်း၏အပိုင်းအခြားကို မပြောင်းထားပါ။"
+      ]
+    },
+    {
+      "id": "v8-08-05",
+      "name": "Peach Cooler",
+      "verification": "source-unverified",
+      "originalSteps": 10,
+      "detailedSteps": 15,
+      "method": "နို့ / အသီး / အရည်အခြေခံ ရောဖျော်ခြင်း",
+      "originalCupSizes": [
+        16
+      ],
+      "proposedTrialCup": null,
+      "warnings": [
+        "မူရင်းပမာဏအချို့သည် အပိုင်းအခြားဖြစ်သည်။ ပထမစမ်းသပ်မှုတွင် ရေခဲကို အများဆုံးဘက်၊ အချိုကို အနည်းဆုံးဘက်မှ စပါ။ ရွေးထားသည့်တိကျသောပမာဏကို မှတ်တမ်းတင်ပြီး နောက်ခွက်များ၌ တူညီစွာသုံးပါ။ မူရင်းစာရင်း၏အပိုင်းအခြားကို မပြောင်းထားပါ။"
+      ]
+    },
+    {
+      "id": "v8-08-06",
+      "name": "Honey Lemon Cooler",
+      "verification": "source-unverified",
+      "originalSteps": 11,
+      "detailedSteps": 16,
+      "method": "နို့ / အသီး / အရည်အခြေခံ ရောဖျော်ခြင်း",
+      "originalCupSizes": [
+        16
+      ],
+      "proposedTrialCup": null,
+      "warnings": [
+        "မူရင်းပမာဏအချို့သည် အပိုင်းအခြားဖြစ်သည်။ ပထမစမ်းသပ်မှုတွင် ရေခဲကို အများဆုံးဘက်၊ အချိုကို အနည်းဆုံးဘက်မှ စပါ။ ရွေးထားသည့်တိကျသောပမာဏကို မှတ်တမ်းတင်ပြီး နောက်ခွက်များ၌ တူညီစွာသုံးပါ။ မူရင်းစာရင်း၏အပိုင်းအခြားကို မပြောင်းထားပါ။"
+      ]
+    },
+    {
+      "id": "v8-09-01",
+      "name": "Strawberry Fruit Tea",
+      "verification": "source-unverified",
+      "originalSteps": 8,
+      "detailedSteps": 19,
+      "method": "လက်ဖက် / Cocoa / နို့ အခြေခံဖျော်ခြင်း",
+      "originalCupSizes": [
+        16
+      ],
+      "proposedTrialCup": null,
+      "warnings": []
+    },
+    {
+      "id": "v8-09-02",
+      "name": "Mango Fruit Tea",
+      "verification": "source-unverified",
+      "originalSteps": 8,
+      "detailedSteps": 19,
+      "method": "လက်ဖက် / Cocoa / နို့ အခြေခံဖျော်ခြင်း",
+      "originalCupSizes": [
+        16
+      ],
+      "proposedTrialCup": null,
+      "warnings": []
+    },
+    {
+      "id": "v8-09-03",
+      "name": "Pineapple Fruit Tea",
+      "verification": "source-unverified",
+      "originalSteps": 8,
+      "detailedSteps": 19,
+      "method": "လက်ဖက် / Cocoa / နို့ အခြေခံဖျော်ခြင်း",
+      "originalCupSizes": [
+        16
+      ],
+      "proposedTrialCup": null,
+      "warnings": []
+    },
+    {
+      "id": "v8-09-04",
+      "name": "Apple Green Tea",
+      "verification": "source-unverified",
+      "originalSteps": 8,
+      "detailedSteps": 19,
+      "method": "လက်ဖက် / Cocoa / နို့ အခြေခံဖျော်ခြင်း",
+      "originalCupSizes": [
+        16
+      ],
+      "proposedTrialCup": null,
+      "warnings": []
+    },
+    {
+      "id": "v8-09-05",
+      "name": "Watermelon Fruit Tea",
+      "verification": "source-unverified",
+      "originalSteps": 8,
+      "detailedSteps": 19,
+      "method": "လက်ဖက် / Cocoa / နို့ အခြေခံဖျော်ခြင်း",
+      "originalCupSizes": [
+        16
+      ],
+      "proposedTrialCup": null,
+      "warnings": []
+    },
+    {
+      "id": "v8-09-06",
+      "name": "Grapefruit Honey Tea",
+      "verification": "source-unverified",
+      "originalSteps": 7,
+      "detailedSteps": 18,
+      "method": "လက်ဖက် / Cocoa / နို့ အခြေခံဖျော်ခြင်း",
+      "originalCupSizes": [
+        16
+      ],
+      "proposedTrialCup": null,
+      "warnings": []
+    },
+    {
+      "id": "v8-09-07",
+      "name": "Kiwi Fruit Tea",
+      "verification": "source-unverified",
+      "originalSteps": 8,
+      "detailedSteps": 19,
+      "method": "လက်ဖက် / Cocoa / နို့ အခြေခံဖျော်ခြင်း",
+      "originalCupSizes": [
+        16
+      ],
+      "proposedTrialCup": null,
+      "warnings": []
+    },
+    {
+      "id": "v8-09-08",
+      "name": "Roselle Lemon Tea",
+      "verification": "source-unverified",
+      "originalSteps": 8,
+      "detailedSteps": 19,
+      "method": "လက်ဖက် / Cocoa / နို့ အခြေခံဖျော်ခြင်း",
+      "originalCupSizes": [
+        16
+      ],
+      "proposedTrialCup": null,
+      "warnings": []
+    },
+    {
+      "id": "v8-10-01",
+      "name": "Green Apple Soda",
+      "verification": "source-unverified",
+      "originalSteps": 6,
+      "detailedSteps": 13,
+      "method": "ဆိုဒါ / Sparkling / Mocktail",
+      "originalCupSizes": [
+        16
+      ],
+      "proposedTrialCup": null,
+      "warnings": []
+    },
+    {
+      "id": "v8-10-02",
+      "name": "Mango Soda",
+      "verification": "source-unverified",
+      "originalSteps": 6,
+      "detailedSteps": 13,
+      "method": "ဆိုဒါ / Sparkling / Mocktail",
+      "originalCupSizes": [
+        16
+      ],
+      "proposedTrialCup": null,
+      "warnings": []
+    },
+    {
+      "id": "v8-10-03",
+      "name": "Pineapple Soda",
+      "verification": "source-unverified",
+      "originalSteps": 6,
+      "detailedSteps": 13,
+      "method": "ဆိုဒါ / Sparkling / Mocktail",
+      "originalCupSizes": [
+        16
+      ],
+      "proposedTrialCup": null,
+      "warnings": []
+    },
+    {
+      "id": "v8-10-04",
+      "name": "Watermelon Soda",
+      "verification": "source-unverified",
+      "originalSteps": 6,
+      "detailedSteps": 13,
+      "method": "ဆိုဒါ / Sparkling / Mocktail",
+      "originalCupSizes": [
+        16
+      ],
+      "proposedTrialCup": null,
+      "warnings": []
+    },
+    {
+      "id": "v8-10-05",
+      "name": "Raspberry Soda",
+      "verification": "source-unverified",
+      "originalSteps": 6,
+      "detailedSteps": 13,
+      "method": "ဆိုဒါ / Sparkling / Mocktail",
+      "originalCupSizes": [
+        16
+      ],
+      "proposedTrialCup": null,
+      "warnings": []
+    },
+    {
+      "id": "v8-10-06",
+      "name": "Blueberry Soda",
+      "verification": "source-unverified",
+      "originalSteps": 6,
+      "detailedSteps": 13,
+      "method": "ဆိုဒါ / Sparkling / Mocktail",
+      "originalCupSizes": [
+        16
+      ],
+      "proposedTrialCup": null,
+      "warnings": []
+    },
+    {
+      "id": "v8-10-07",
+      "name": "Grapefruit Soda",
+      "verification": "source-unverified",
+      "originalSteps": 6,
+      "detailedSteps": 13,
+      "method": "ဆိုဒါ / Sparkling / Mocktail",
+      "originalCupSizes": [
+        16
+      ],
+      "proposedTrialCup": null,
+      "warnings": []
+    },
+    {
+      "id": "v8-10-08",
+      "name": "Cucumber Lime Soda",
+      "verification": "source-unverified",
+      "originalSteps": 7,
+      "detailedSteps": 14,
+      "method": "ဆိုဒါ / Sparkling / Mocktail",
+      "originalCupSizes": [
+        16
+      ],
+      "proposedTrialCup": null,
+      "warnings": []
+    },
+    {
+      "id": "v8-11-01",
+      "name": "Virgin Mojito",
+      "verification": "source-unverified",
+      "originalSteps": 7,
+      "detailedSteps": 15,
+      "method": "ဆိုဒါ / Sparkling / Mocktail",
+      "originalCupSizes": [
+        16
+      ],
+      "proposedTrialCup": null,
+      "warnings": []
+    },
+    {
+      "id": "v8-11-02",
+      "name": "Blue Lagoon Mocktail",
+      "verification": "source-unverified",
+      "originalSteps": 6,
+      "detailedSteps": 13,
+      "method": "ဆိုဒါ / Sparkling / Mocktail",
+      "originalCupSizes": [
+        16
+      ],
+      "proposedTrialCup": null,
+      "warnings": []
+    },
+    {
+      "id": "v8-11-03",
+      "name": "Sunrise Mocktail",
+      "verification": "source-unverified",
+      "originalSteps": 6,
+      "detailedSteps": 13,
+      "method": "ဆိုဒါ / Sparkling / Mocktail",
+      "originalCupSizes": [
+        16
+      ],
+      "proposedTrialCup": null,
+      "warnings": []
+    },
+    {
+      "id": "v8-11-04",
+      "name": "Tropical Punch",
+      "verification": "source-unverified",
+      "originalSteps": 8,
+      "detailedSteps": 17,
+      "method": "နို့ / အသီး / အရည်အခြေခံ ရောဖျော်ခြင်း",
+      "originalCupSizes": [
+        16
+      ],
+      "proposedTrialCup": null,
+      "warnings": []
+    },
+    {
+      "id": "v8-11-05",
+      "name": "Virgin Piña Colada",
+      "verification": "source-unverified",
+      "originalSteps": 7,
+      "detailedSteps": 15,
+      "method": "Blender ဖြင့် ဖျော်ရေခဲ / Smoothie",
+      "originalCupSizes": [
+        16
+      ],
+      "proposedTrialCup": null,
+      "warnings": []
+    },
+    {
+      "id": "v8-11-06",
+      "name": "Strawberry Mint Cooler",
+      "verification": "source-unverified",
+      "originalSteps": 7,
+      "detailedSteps": 15,
+      "method": "ဆိုဒါ / Sparkling / Mocktail",
+      "originalCupSizes": [
+        16
+      ],
+      "proposedTrialCup": null,
+      "warnings": []
+    },
+    {
+      "id": "v8-11-07",
+      "name": "Passion Sunrise",
+      "verification": "source-unverified",
+      "originalSteps": 7,
+      "detailedSteps": 14,
+      "method": "ဆိုဒါ / Sparkling / Mocktail",
+      "originalCupSizes": [
+        16
+      ],
+      "proposedTrialCup": null,
+      "warnings": []
+    },
+    {
+      "id": "v8-11-08",
+      "name": "Ginger Lime Fizz",
+      "verification": "source-unverified",
+      "originalSteps": 6,
+      "detailedSteps": 13,
+      "method": "ဆိုဒါ / Sparkling / Mocktail",
+      "originalCupSizes": [
+        16
+      ],
+      "proposedTrialCup": null,
+      "warnings": []
+    },
+    {
+      "id": "v8-12-01",
+      "name": "Mango Yogurt Drink",
+      "verification": "source-unverified",
+      "originalSteps": 8,
+      "detailedSteps": 16,
+      "method": "Blender ဖြင့် ဖျော်ရေခဲ / Smoothie",
+      "originalCupSizes": [
+        16
+      ],
+      "proposedTrialCup": null,
+      "warnings": []
+    },
+    {
+      "id": "v8-12-02",
+      "name": "Strawberry Yogurt Drink",
+      "verification": "source-unverified",
+      "originalSteps": 8,
+      "detailedSteps": 16,
+      "method": "Blender ဖြင့် ဖျော်ရေခဲ / Smoothie",
+      "originalCupSizes": [
+        16
+      ],
+      "proposedTrialCup": null,
+      "warnings": []
+    },
+    {
+      "id": "v8-12-03",
+      "name": "Peach Yogurt Drink",
+      "verification": "source-unverified",
+      "originalSteps": 8,
+      "detailedSteps": 16,
+      "method": "Blender ဖြင့် ဖျော်ရေခဲ / Smoothie",
+      "originalCupSizes": [
+        16
+      ],
+      "proposedTrialCup": null,
+      "warnings": []
+    },
+    {
+      "id": "v8-12-04",
+      "name": "Lychee Yogurt Drink",
+      "verification": "source-unverified",
+      "originalSteps": 7,
+      "detailedSteps": 15,
+      "method": "Blender ဖြင့် ဖျော်ရေခဲ / Smoothie",
+      "originalCupSizes": [
+        16
+      ],
+      "proposedTrialCup": null,
+      "warnings": []
+    },
+    {
+      "id": "v8-12-05",
+      "name": "Honey Banana Milk",
+      "verification": "source-unverified",
+      "originalSteps": 7,
+      "detailedSteps": 16,
+      "method": "နို့ / အသီး / အရည်အခြေခံ ရောဖျော်ခြင်း",
+      "originalCupSizes": [
+        16
+      ],
+      "proposedTrialCup": null,
+      "warnings": []
+    },
+    {
+      "id": "v8-12-06",
+      "name": "Pandan Coconut Milk",
+      "verification": "source-unverified",
+      "originalSteps": 7,
+      "detailedSteps": 16,
+      "method": "နို့ / အသီး / အရည်အခြေခံ ရောဖျော်ခြင်း",
+      "originalCupSizes": [
+        16
+      ],
+      "proposedTrialCup": null,
+      "warnings": []
+    },
+    {
+      "id": "v8-12-07",
+      "name": "Black Sesame Milk",
+      "verification": "source-unverified",
+      "originalSteps": 7,
+      "detailedSteps": 16,
+      "method": "နို့ / အသီး / အရည်အခြေခံ ရောဖျော်ခြင်း",
+      "originalCupSizes": [
+        16
+      ],
+      "proposedTrialCup": null,
+      "warnings": []
+    },
+    {
+      "id": "v8-12-08",
+      "name": "Rose Milk",
+      "verification": "source-unverified",
+      "originalSteps": 6,
+      "detailedSteps": 15,
+      "method": "နို့ / အသီး / အရည်အခြေခံ ရောဖျော်ခြင်း",
+      "originalCupSizes": [
+        16
+      ],
+      "proposedTrialCup": null,
+      "warnings": []
+    },
+    {
+      "id": "v8-13-01",
+      "name": "Butterfly Pea Lemonade",
+      "verification": "source-unverified",
+      "originalSteps": 8,
+      "detailedSteps": 17,
+      "method": "နို့ / အသီး / အရည်အခြေခံ ရောဖျော်ခြင်း",
+      "originalCupSizes": [
+        16
+      ],
+      "proposedTrialCup": null,
+      "warnings": []
+    },
+    {
+      "id": "v8-13-02",
+      "name": "Honey Yuzu Sparkler",
+      "verification": "source-unverified",
+      "originalSteps": 6,
+      "detailedSteps": 13,
+      "method": "ဆိုဒါ / Sparkling / Mocktail",
+      "originalCupSizes": [
+        16
+      ],
+      "proposedTrialCup": null,
+      "warnings": []
+    },
+    {
+      "id": "v8-13-03",
+      "name": "Salted Plum Soda",
+      "verification": "source-unverified",
+      "originalSteps": 7,
+      "detailedSteps": 14,
+      "method": "ဆိုဒါ / Sparkling / Mocktail",
+      "originalCupSizes": [
+        16
+      ],
+      "proposedTrialCup": null,
+      "warnings": []
+    },
+    {
+      "id": "v8-13-04",
+      "name": "Lemongrass Lime Cooler",
+      "verification": "source-unverified",
+      "originalSteps": 7,
+      "detailedSteps": 16,
+      "method": "နို့ / အသီး / အရည်အခြေခံ ရောဖျော်ခြင်း",
+      "originalCupSizes": [
+        16
+      ],
+      "proposedTrialCup": null,
+      "warnings": []
+    },
+    {
+      "id": "v8-13-05",
+      "name": "Coconut Lime Refresher",
+      "verification": "source-unverified",
+      "originalSteps": 7,
+      "detailedSteps": 16,
+      "method": "နို့ / အသီး / အရည်အခြေခံ ရောဖျော်ခြင်း",
+      "originalCupSizes": [
+        16
+      ],
+      "proposedTrialCup": null,
+      "warnings": []
+    },
+    {
+      "id": "v8-13-06",
+      "name": "Thai Basil Lemon Soda",
+      "verification": "source-unverified",
+      "originalSteps": 7,
+      "detailedSteps": 14,
+      "method": "ဆိုဒါ / Sparkling / Mocktail",
+      "originalCupSizes": [
+        16
+      ],
+      "proposedTrialCup": null,
+      "warnings": []
+    },
+    {
+      "id": "v8-13-07",
+      "name": "Tamarind Honey Cooler",
+      "verification": "source-unverified",
+      "originalSteps": 7,
+      "detailedSteps": 16,
+      "method": "နို့ / အသီး / အရည်အခြေခံ ရောဖျော်ခြင်း",
+      "originalCupSizes": [
+        16
+      ],
+      "proposedTrialCup": null,
+      "warnings": []
+    },
+    {
+      "id": "v8-13-08",
+      "name": "Cucumber Mint Refresher",
+      "verification": "source-unverified",
+      "originalSteps": 9,
+      "detailedSteps": 18,
+      "method": "နို့ / အသီး / အရည်အခြေခံ ရောဖျော်ခြင်း",
+      "originalCupSizes": [
+        16
+      ],
+      "proposedTrialCup": null,
+      "warnings": []
+    },
+    {
+      "id": "v8-14-01",
+      "name": "Ristretto",
+      "verification": "source-unverified",
+      "originalSteps": 3,
+      "detailedSteps": 11,
+      "method": "Espresso နှင့် အပူနို့ / ရေ ပေါင်းခြင်း",
+      "originalCupSizes": [],
+      "proposedTrialCup": 8,
+      "warnings": [
+        "မူရင်းတွင် ခွက်အရွယ် မသတ်မှတ်ထားပါ။ အောက်ပါခွက်သည် V2 အဆိုပြုစမ်းသပ်ခွက်သာဖြစ်သည်။ ပမာဏမပြောင်းဘဲ လက်တွေ့ဆံ့မှုကို စစ်ဆေးရန်လိုသည်။",
+        "မူရင်းပမာဏအချို့သည် အပိုင်းအခြားဖြစ်သည်။ ပထမစမ်းသပ်မှုတွင် ရေခဲကို အများဆုံးဘက်၊ အချိုကို အနည်းဆုံးဘက်မှ စပါ။ ရွေးထားသည့်တိကျသောပမာဏကို မှတ်တမ်းတင်ပြီး နောက်ခွက်များ၌ တူညီစွာသုံးပါ။ မူရင်းစာရင်း၏အပိုင်းအခြားကို မပြောင်းထားပါ။"
+      ]
+    },
+    {
+      "id": "v8-14-02",
+      "name": "Lungo",
+      "verification": "source-unverified",
+      "originalSteps": 3,
+      "detailedSteps": 11,
+      "method": "Espresso နှင့် အပူနို့ / ရေ ပေါင်းခြင်း",
+      "originalCupSizes": [],
+      "proposedTrialCup": 8,
+      "warnings": [
+        "မူရင်းတွင် ခွက်အရွယ် မသတ်မှတ်ထားပါ။ အောက်ပါခွက်သည် V2 အဆိုပြုစမ်းသပ်ခွက်သာဖြစ်သည်။ ပမာဏမပြောင်းဘဲ လက်တွေ့ဆံ့မှုကို စစ်ဆေးရန်လိုသည်။",
+        "မူရင်းပမာဏအချို့သည် အပိုင်းအခြားဖြစ်သည်။ ပထမစမ်းသပ်မှုတွင် ရေခဲကို အများဆုံးဘက်၊ အချိုကို အနည်းဆုံးဘက်မှ စပါ။ ရွေးထားသည့်တိကျသောပမာဏကို မှတ်တမ်းတင်ပြီး နောက်ခွက်များ၌ တူညီစွာသုံးပါ။ မူရင်းစာရင်း၏အပိုင်းအခြားကို မပြောင်းထားပါ။"
+      ]
+    },
+    {
+      "id": "v8-14-03",
+      "name": "Doppio Ristretto",
+      "verification": "source-unverified",
+      "originalSteps": 3,
+      "detailedSteps": 11,
+      "method": "Espresso နှင့် အပူနို့ / ရေ ပေါင်းခြင်း",
+      "originalCupSizes": [],
+      "proposedTrialCup": 8,
+      "warnings": [
+        "မူရင်းတွင် ခွက်အရွယ် မသတ်မှတ်ထားပါ။ အောက်ပါခွက်သည် V2 အဆိုပြုစမ်းသပ်ခွက်သာဖြစ်သည်။ ပမာဏမပြောင်းဘဲ လက်တွေ့ဆံ့မှုကို စစ်ဆေးရန်လိုသည်။",
+        "မူရင်းပမာဏအချို့သည် အပိုင်းအခြားဖြစ်သည်။ ပထမစမ်းသပ်မှုတွင် ရေခဲကို အများဆုံးဘက်၊ အချိုကို အနည်းဆုံးဘက်မှ စပါ။ ရွေးထားသည့်တိကျသောပမာဏကို မှတ်တမ်းတင်ပြီး နောက်ခွက်များ၌ တူညီစွာသုံးပါ။ မူရင်းစာရင်း၏အပိုင်းအခြားကို မပြောင်းထားပါ။"
+      ]
+    },
+    {
+      "id": "v8-14-04",
+      "name": "Espresso Con Panna",
+      "verification": "source-unverified",
+      "originalSteps": 4,
+      "detailedSteps": 16,
+      "method": "Espresso နှင့် အပူနို့ / ရေ ပေါင်းခြင်း",
+      "originalCupSizes": [],
+      "proposedTrialCup": 8,
+      "warnings": [
+        "မူရင်းတွင် ခွက်အရွယ် မသတ်မှတ်ထားပါ။ အောက်ပါခွက်သည် V2 အဆိုပြုစမ်းသပ်ခွက်သာဖြစ်သည်။ ပမာဏမပြောင်းဘဲ လက်တွေ့ဆံ့မှုကို စစ်ဆေးရန်လိုသည်။"
+      ]
+    },
+    {
+      "id": "v8-14-05",
+      "name": "Espresso Macchiato",
+      "verification": "source-unverified",
+      "originalSteps": 4,
+      "detailedSteps": 13,
+      "method": "Espresso နှင့် အပူနို့ / ရေ ပေါင်းခြင်း",
+      "originalCupSizes": [],
+      "proposedTrialCup": 8,
+      "warnings": [
+        "မူရင်းတွင် ခွက်အရွယ် မသတ်မှတ်ထားပါ။ အောက်ပါခွက်သည် V2 အဆိုပြုစမ်းသပ်ခွက်သာဖြစ်သည်။ ပမာဏမပြောင်းဘဲ လက်တွေ့ဆံ့မှုကို စစ်ဆေးရန်လိုသည်။",
+        "မူရင်းပမာဏအချို့သည် အပိုင်းအခြားဖြစ်သည်။ ပထမစမ်းသပ်မှုတွင် ရေခဲကို အများဆုံးဘက်၊ အချိုကို အနည်းဆုံးဘက်မှ စပါ။ ရွေးထားသည့်တိကျသောပမာဏကို မှတ်တမ်းတင်ပြီး နောက်ခွက်များ၌ တူညီစွာသုံးပါ။ မူရင်းစာရင်း၏အပိုင်းအခြားကို မပြောင်းထားပါ။"
+      ]
+    },
+    {
+      "id": "v8-14-06",
+      "name": "Cortado",
+      "verification": "source-unverified",
+      "originalSteps": 4,
+      "detailedSteps": 13,
+      "method": "Espresso နှင့် အပူနို့ / ရေ ပေါင်းခြင်း",
+      "originalCupSizes": [],
+      "proposedTrialCup": 8,
+      "warnings": [
+        "မူရင်းတွင် ခွက်အရွယ် မသတ်မှတ်ထားပါ။ အောက်ပါခွက်သည် V2 အဆိုပြုစမ်းသပ်ခွက်သာဖြစ်သည်။ ပမာဏမပြောင်းဘဲ လက်တွေ့ဆံ့မှုကို စစ်ဆေးရန်လိုသည်။"
+      ]
+    },
+    {
+      "id": "v8-14-07",
+      "name": "Piccolo Latte",
+      "verification": "source-unverified",
+      "originalSteps": 4,
+      "detailedSteps": 13,
+      "method": "Espresso နှင့် အပူနို့ / ရေ ပေါင်းခြင်း",
+      "originalCupSizes": [],
+      "proposedTrialCup": 8,
+      "warnings": [
+        "မူရင်းတွင် ခွက်အရွယ် မသတ်မှတ်ထားပါ။ အောက်ပါခွက်သည် V2 အဆိုပြုစမ်းသပ်ခွက်သာဖြစ်သည်။ ပမာဏမပြောင်းဘဲ လက်တွေ့ဆံ့မှုကို စစ်ဆေးရန်လိုသည်။"
+      ]
+    },
+    {
+      "id": "v8-14-08",
+      "name": "Gibraltar Coffee",
+      "verification": "source-unverified",
+      "originalSteps": 4,
+      "detailedSteps": 13,
+      "method": "Espresso နှင့် အပူနို့ / ရေ ပေါင်းခြင်း",
+      "originalCupSizes": [],
+      "proposedTrialCup": 8,
+      "warnings": [
+        "မူရင်းတွင် ခွက်အရွယ် မသတ်မှတ်ထားပါ။ အောက်ပါခွက်သည် V2 အဆိုပြုစမ်းသပ်ခွက်သာဖြစ်သည်။ ပမာဏမပြောင်းဘဲ လက်တွေ့ဆံ့မှုကို စစ်ဆေးရန်လိုသည်။"
+      ]
+    },
+    {
+      "id": "v8-14-09",
+      "name": "Café Breve",
+      "verification": "source-unverified",
+      "originalSteps": 4,
+      "detailedSteps": 11,
+      "method": "Espresso နှင့် အပူနို့ / ရေ ပေါင်းခြင်း",
+      "originalCupSizes": [],
+      "proposedTrialCup": 8,
+      "warnings": [
+        "မူရင်းတွင် ခွက်အရွယ် မသတ်မှတ်ထားပါ။ အောက်ပါခွက်သည် V2 အဆိုပြုစမ်းသပ်ခွက်သာဖြစ်သည်။ ပမာဏမပြောင်းဘဲ လက်တွေ့ဆံ့မှုကို စစ်ဆေးရန်လိုသည်။"
+      ]
+    },
+    {
+      "id": "v8-14-10",
+      "name": "Affogato",
+      "verification": "source-unverified",
+      "originalSteps": 4,
+      "detailedSteps": 16,
+      "method": "Espresso အလွှာလိုက် ပေါင်းခြင်း",
+      "originalCupSizes": [],
+      "proposedTrialCup": 16,
+      "warnings": [
+        "မူရင်းတွင် ခွက်အရွယ် မသတ်မှတ်ထားပါ။ အောက်ပါခွက်သည် V2 အဆိုပြုစမ်းသပ်ခွက်သာဖြစ်သည်။ ပမာဏမပြောင်းဘဲ လက်တွေ့ဆံ့မှုကို စစ်ဆေးရန်လိုသည်။",
+        "မူရင်းပမာဏအချို့သည် အပိုင်းအခြားဖြစ်သည်။ ပထမစမ်းသပ်မှုတွင် ရေခဲကို အများဆုံးဘက်၊ အချိုကို အနည်းဆုံးဘက်မှ စပါ။ ရွေးထားသည့်တိကျသောပမာဏကို မှတ်တမ်းတင်ပြီး နောက်ခွက်များ၌ တူညီစွာသုံးပါ။ မူရင်းစာရင်း၏အပိုင်းအခြားကို မပြောင်းထားပါ။"
+      ]
+    },
+    {
+      "id": "v8-15-01",
+      "name": "Jasmine Latte",
+      "verification": "source-unverified",
+      "originalSteps": 5,
+      "detailedSteps": 14,
+      "method": "Espresso နှင့် အပူနို့ / ရေ ပေါင်းခြင်း",
+      "originalCupSizes": [],
+      "proposedTrialCup": 8,
+      "warnings": [
+        "မူရင်းတွင် ခွက်အရွယ် မသတ်မှတ်ထားပါ။ အောက်ပါခွက်သည် V2 အဆိုပြုစမ်းသပ်ခွက်သာဖြစ်သည်။ ပမာဏမပြောင်းဘဲ လက်တွေ့ဆံ့မှုကို စစ်ဆေးရန်လိုသည်။"
+      ]
+    },
+    {
+      "id": "v8-15-02",
+      "name": "Iced Jasmine Latte",
+      "verification": "source-unverified",
+      "originalSteps": 5,
+      "detailedSteps": 13,
+      "method": "Espresso အလွှာလိုက် ပေါင်းခြင်း",
+      "originalCupSizes": [
+        16
+      ],
+      "proposedTrialCup": null,
+      "warnings": []
+    },
+    {
+      "id": "v8-15-03",
+      "name": "Rose Latte",
+      "verification": "source-unverified",
+      "originalSteps": 5,
+      "detailedSteps": 14,
+      "method": "Espresso နှင့် အပူနို့ / ရေ ပေါင်းခြင်း",
+      "originalCupSizes": [],
+      "proposedTrialCup": 8,
+      "warnings": [
+        "မူရင်းတွင် ခွက်အရွယ် မသတ်မှတ်ထားပါ။ အောက်ပါခွက်သည် V2 အဆိုပြုစမ်းသပ်ခွက်သာဖြစ်သည်။ ပမာဏမပြောင်းဘဲ လက်တွေ့ဆံ့မှုကို စစ်ဆေးရန်လိုသည်။"
+      ]
+    },
+    {
+      "id": "v8-15-04",
+      "name": "Iced Rose Latte",
+      "verification": "source-unverified",
+      "originalSteps": 5,
+      "detailedSteps": 13,
+      "method": "Espresso အလွှာလိုက် ပေါင်းခြင်း",
+      "originalCupSizes": [
+        16
+      ],
+      "proposedTrialCup": null,
+      "warnings": []
+    },
+    {
+      "id": "v8-15-05",
+      "name": "Lavender Latte",
+      "verification": "source-unverified",
+      "originalSteps": 5,
+      "detailedSteps": 14,
+      "method": "Espresso နှင့် အပူနို့ / ရေ ပေါင်းခြင်း",
+      "originalCupSizes": [],
+      "proposedTrialCup": 8,
+      "warnings": [
+        "မူရင်းတွင် ခွက်အရွယ် မသတ်မှတ်ထားပါ။ အောက်ပါခွက်သည် V2 အဆိုပြုစမ်းသပ်ခွက်သာဖြစ်သည်။ ပမာဏမပြောင်းဘဲ လက်တွေ့ဆံ့မှုကို စစ်ဆေးရန်လိုသည်။"
+      ]
+    },
+    {
+      "id": "v8-15-06",
+      "name": "Iced Lavender Latte",
+      "verification": "source-unverified",
+      "originalSteps": 5,
+      "detailedSteps": 13,
+      "method": "Espresso အလွှာလိုက် ပေါင်းခြင်း",
+      "originalCupSizes": [
+        16
+      ],
+      "proposedTrialCup": null,
+      "warnings": []
+    },
+    {
+      "id": "v8-15-07",
+      "name": "Pistachio Latte",
+      "verification": "source-unverified",
+      "originalSteps": 5,
+      "detailedSteps": 14,
+      "method": "Espresso နှင့် အပူနို့ / ရေ ပေါင်းခြင်း",
+      "originalCupSizes": [],
+      "proposedTrialCup": 8,
+      "warnings": [
+        "မူရင်းတွင် ခွက်အရွယ် မသတ်မှတ်ထားပါ။ အောက်ပါခွက်သည် V2 အဆိုပြုစမ်းသပ်ခွက်သာဖြစ်သည်။ ပမာဏမပြောင်းဘဲ လက်တွေ့ဆံ့မှုကို စစ်ဆေးရန်လိုသည်။"
+      ]
+    },
+    {
+      "id": "v8-15-08",
+      "name": "Iced Pistachio Latte",
+      "verification": "source-unverified",
+      "originalSteps": 5,
+      "detailedSteps": 13,
+      "method": "Espresso အလွှာလိုက် ပေါင်းခြင်း",
+      "originalCupSizes": [
+        16
+      ],
+      "proposedTrialCup": null,
+      "warnings": []
+    },
+    {
+      "id": "v8-15-09",
+      "name": "Cardamom Latte",
+      "verification": "source-unverified",
+      "originalSteps": 5,
+      "detailedSteps": 14,
+      "method": "Espresso နှင့် အပူနို့ / ရေ ပေါင်းခြင်း",
+      "originalCupSizes": [],
+      "proposedTrialCup": 8,
+      "warnings": [
+        "မူရင်းတွင် ခွက်အရွယ် မသတ်မှတ်ထားပါ။ အောက်ပါခွက်သည် V2 အဆိုပြုစမ်းသပ်ခွက်သာဖြစ်သည်။ ပမာဏမပြောင်းဘဲ လက်တွေ့ဆံ့မှုကို စစ်ဆေးရန်လိုသည်။"
+      ]
+    },
+    {
+      "id": "v8-15-10",
+      "name": "Iced Maple Latte",
+      "verification": "source-unverified",
+      "originalSteps": 5,
+      "detailedSteps": 13,
+      "method": "Espresso အလွှာလိုက် ပေါင်းခြင်း",
+      "originalCupSizes": [
+        16
+      ],
+      "proposedTrialCup": null,
+      "warnings": []
+    },
+    {
+      "id": "v8-16-01",
+      "name": "Oat Milk Latte",
+      "verification": "source-unverified",
+      "originalSteps": 5,
+      "detailedSteps": 13,
+      "method": "Espresso နှင့် အပူနို့ / ရေ ပေါင်းခြင်း",
+      "originalCupSizes": [],
+      "proposedTrialCup": 8,
+      "warnings": [
+        "မူရင်းတွင် ခွက်အရွယ် မသတ်မှတ်ထားပါ။ အောက်ပါခွက်သည် V2 အဆိုပြုစမ်းသပ်ခွက်သာဖြစ်သည်။ ပမာဏမပြောင်းဘဲ လက်တွေ့ဆံ့မှုကို စစ်ဆေးရန်လိုသည်။"
+      ]
+    },
+    {
+      "id": "v8-16-02",
+      "name": "Iced Oat Milk Latte",
+      "verification": "source-unverified",
+      "originalSteps": 5,
+      "detailedSteps": 12,
+      "method": "Espresso အလွှာလိုက် ပေါင်းခြင်း",
+      "originalCupSizes": [
+        16
+      ],
+      "proposedTrialCup": null,
+      "warnings": []
+    },
+    {
+      "id": "v8-16-03",
+      "name": "Almond Milk Latte",
+      "verification": "source-unverified",
+      "originalSteps": 5,
+      "detailedSteps": 13,
+      "method": "Espresso နှင့် အပူနို့ / ရေ ပေါင်းခြင်း",
+      "originalCupSizes": [],
+      "proposedTrialCup": 8,
+      "warnings": [
+        "မူရင်းတွင် ခွက်အရွယ် မသတ်မှတ်ထားပါ။ အောက်ပါခွက်သည် V2 အဆိုပြုစမ်းသပ်ခွက်သာဖြစ်သည်။ ပမာဏမပြောင်းဘဲ လက်တွေ့ဆံ့မှုကို စစ်ဆေးရန်လိုသည်။"
+      ]
+    },
+    {
+      "id": "v8-16-04",
+      "name": "Iced Almond Milk Latte",
+      "verification": "source-unverified",
+      "originalSteps": 5,
+      "detailedSteps": 12,
+      "method": "Espresso အလွှာလိုက် ပေါင်းခြင်း",
+      "originalCupSizes": [
+        16
+      ],
+      "proposedTrialCup": null,
+      "warnings": []
+    },
+    {
+      "id": "v8-16-05",
+      "name": "Soy Milk Latte",
+      "verification": "source-unverified",
+      "originalSteps": 5,
+      "detailedSteps": 13,
+      "method": "Espresso နှင့် အပူနို့ / ရေ ပေါင်းခြင်း",
+      "originalCupSizes": [],
+      "proposedTrialCup": 8,
+      "warnings": [
+        "မူရင်းတွင် ခွက်အရွယ် မသတ်မှတ်ထားပါ။ အောက်ပါခွက်သည် V2 အဆိုပြုစမ်းသပ်ခွက်သာဖြစ်သည်။ ပမာဏမပြောင်းဘဲ လက်တွေ့ဆံ့မှုကို စစ်ဆေးရန်လိုသည်။"
+      ]
+    },
+    {
+      "id": "v8-16-06",
+      "name": "Iced Soy Milk Latte",
+      "verification": "source-unverified",
+      "originalSteps": 5,
+      "detailedSteps": 12,
+      "method": "Espresso အလွှာလိုက် ပေါင်းခြင်း",
+      "originalCupSizes": [
+        16
+      ],
+      "proposedTrialCup": null,
+      "warnings": []
+    },
+    {
+      "id": "v8-16-07",
+      "name": "Coconut Milk Flat White",
+      "verification": "source-unverified",
+      "originalSteps": 5,
+      "detailedSteps": 13,
+      "method": "Espresso နှင့် အပူနို့ / ရေ ပေါင်းခြင်း",
+      "originalCupSizes": [],
+      "proposedTrialCup": 8,
+      "warnings": [
+        "မူရင်းတွင် ခွက်အရွယ် မသတ်မှတ်ထားပါ။ အောက်ပါခွက်သည် V2 အဆိုပြုစမ်းသပ်ခွက်သာဖြစ်သည်။ ပမာဏမပြောင်းဘဲ လက်တွေ့ဆံ့မှုကို စစ်ဆေးရန်လိုသည်။"
+      ]
+    },
+    {
+      "id": "v8-16-08",
+      "name": "Iced Oat Vanilla Latte",
+      "verification": "source-unverified",
+      "originalSteps": 5,
+      "detailedSteps": 13,
+      "method": "Espresso အလွှာလိုက် ပေါင်းခြင်း",
+      "originalCupSizes": [
+        16
+      ],
+      "proposedTrialCup": null,
+      "warnings": []
+    },
+    {
+      "id": "v8-16-09",
+      "name": "Iced Almond Mocha",
+      "verification": "source-unverified",
+      "originalSteps": 5,
+      "detailedSteps": 13,
+      "method": "Espresso အလွှာလိုက် ပေါင်းခြင်း",
+      "originalCupSizes": [
+        16
+      ],
+      "proposedTrialCup": null,
+      "warnings": []
+    },
+    {
+      "id": "v8-16-10",
+      "name": "Oat Brown Sugar Shaken Espresso",
+      "verification": "source-unverified",
+      "originalSteps": 4,
+      "detailedSteps": 13,
+      "method": "Espresso အလွှာလိုက် ပေါင်းခြင်း",
+      "originalCupSizes": [
+        16
+      ],
+      "proposedTrialCup": null,
+      "warnings": []
+    },
+    {
+      "id": "v8-17-01",
+      "name": "Cold Long Black",
+      "verification": "source-unverified",
+      "originalSteps": 5,
+      "detailedSteps": 12,
+      "method": "Espresso အလွှာလိုက် ပေါင်းခြင်း",
+      "originalCupSizes": [
+        16
+      ],
+      "proposedTrialCup": null,
+      "warnings": []
+    },
+    {
+      "id": "v8-17-02",
+      "name": "Iced Ristretto Black",
+      "verification": "source-unverified",
+      "originalSteps": 5,
+      "detailedSteps": 12,
+      "method": "Espresso အလွှာလိုက် ပေါင်းခြင်း",
+      "originalCupSizes": [
+        16
+      ],
+      "proposedTrialCup": null,
+      "warnings": []
+    },
+    {
+      "id": "v8-17-03",
+      "name": "Honey Cold Long Black",
+      "verification": "source-unverified",
+      "originalSteps": 5,
+      "detailedSteps": 13,
+      "method": "Espresso အလွှာလိုက် ပေါင်းခြင်း",
+      "originalCupSizes": [
+        16
+      ],
+      "proposedTrialCup": null,
+      "warnings": []
+    },
+    {
+      "id": "v8-17-04",
+      "name": "Ginger Black Coffee",
+      "verification": "source-unverified",
+      "originalSteps": 4,
+      "detailedSteps": 12,
+      "method": "Espresso နှင့် အပူနို့ / ရေ ပေါင်းခြင်း",
+      "originalCupSizes": [],
+      "proposedTrialCup": 8,
+      "warnings": [
+        "မူရင်းတွင် ခွက်အရွယ် မသတ်မှတ်ထားပါ။ အောက်ပါခွက်သည် V2 အဆိုပြုစမ်းသပ်ခွက်သာဖြစ်သည်။ ပမာဏမပြောင်းဘဲ လက်တွေ့ဆံ့မှုကို စစ်ဆေးရန်လိုသည်။"
+      ]
+    },
+    {
+      "id": "v8-17-05",
+      "name": "Cinnamon Black Coffee",
+      "verification": "source-unverified",
+      "originalSteps": 4,
+      "detailedSteps": 12,
+      "method": "Espresso နှင့် အပူနို့ / ရေ ပေါင်းခြင်း",
+      "originalCupSizes": [],
+      "proposedTrialCup": 8,
+      "warnings": [
+        "မူရင်းတွင် ခွက်အရွယ် မသတ်မှတ်ထားပါ။ အောက်ပါခွက်သည် V2 အဆိုပြုစမ်းသပ်ခွက်သာဖြစ်သည်။ ပမာဏမပြောင်းဘဲ လက်တွေ့ဆံ့မှုကို စစ်ဆေးရန်လိုသည်။"
+      ]
+    },
+    {
+      "id": "v8-17-06",
+      "name": "Iced Mint Black Coffee",
+      "verification": "source-unverified",
+      "originalSteps": 5,
+      "detailedSteps": 13,
+      "method": "Espresso အလွှာလိုက် ပေါင်းခြင်း",
+      "originalCupSizes": [
+        16
+      ],
+      "proposedTrialCup": null,
+      "warnings": []
+    },
+    {
+      "id": "v8-17-07",
+      "name": "Sparkling Long Black",
+      "verification": "source-unverified",
+      "originalSteps": 5,
+      "detailedSteps": 15,
+      "method": "ဆိုဒါ / Sparkling / Mocktail",
+      "originalCupSizes": [
+        16
+      ],
+      "proposedTrialCup": null,
+      "warnings": []
+    },
+    {
+      "id": "v8-17-08",
+      "name": "Iced Maple Black Coffee",
+      "verification": "source-unverified",
+      "originalSteps": 5,
+      "detailedSteps": 13,
+      "method": "Espresso အလွှာလိုက် ပေါင်းခြင်း",
+      "originalCupSizes": [
+        16
+      ],
+      "proposedTrialCup": null,
+      "warnings": []
+    },
+    {
+      "id": "v8-17-09",
+      "name": "Grapefruit Black Coffee",
+      "verification": "source-unverified",
+      "originalSteps": 5,
+      "detailedSteps": 13,
+      "method": "Espresso အလွှာလိုက် ပေါင်းခြင်း",
+      "originalCupSizes": [
+        16
+      ],
+      "proposedTrialCup": null,
+      "warnings": []
+    },
+    {
+      "id": "v8-17-10",
+      "name": "Honey Lime Long Black",
+      "verification": "source-unverified",
+      "originalSteps": 5,
+      "detailedSteps": 14,
+      "method": "Espresso အလွှာလိုက် ပေါင်းခြင်း",
+      "originalCupSizes": [
+        16
+      ],
+      "proposedTrialCup": null,
+      "warnings": []
+    },
+    {
+      "id": "v8-18-01",
+      "name": "Pineapple Espresso",
+      "verification": "source-unverified",
+      "originalSteps": 5,
+      "detailedSteps": 12,
+      "method": "Espresso အလွှာလိုက် ပေါင်းခြင်း",
+      "originalCupSizes": [
+        16
+      ],
+      "proposedTrialCup": null,
+      "warnings": []
+    },
+    {
+      "id": "v8-18-02",
+      "name": "Mango Espresso",
+      "verification": "source-unverified",
+      "originalSteps": 5,
+      "detailedSteps": 13,
+      "method": "Espresso အလွှာလိုက် ပေါင်းခြင်း",
+      "originalCupSizes": [
+        16
+      ],
+      "proposedTrialCup": null,
+      "warnings": []
+    },
+    {
+      "id": "v8-18-03",
+      "name": "Strawberry Espresso",
+      "verification": "source-unverified",
+      "originalSteps": 5,
+      "detailedSteps": 13,
+      "method": "Espresso အလွှာလိုက် ပေါင်းခြင်း",
+      "originalCupSizes": [
+        16
+      ],
+      "proposedTrialCup": null,
+      "warnings": []
+    },
+    {
+      "id": "v8-18-04",
+      "name": "Apple Espresso",
+      "verification": "source-unverified",
+      "originalSteps": 5,
+      "detailedSteps": 12,
+      "method": "Espresso အလွှာလိုက် ပေါင်းခြင်း",
+      "originalCupSizes": [
+        16
+      ],
+      "proposedTrialCup": null,
+      "warnings": []
+    },
+    {
+      "id": "v8-18-05",
+      "name": "Watermelon Espresso",
+      "verification": "source-unverified",
+      "originalSteps": 5,
+      "detailedSteps": 12,
+      "method": "Espresso အလွှာလိုက် ပေါင်းခြင်း",
+      "originalCupSizes": [
+        16
+      ],
+      "proposedTrialCup": null,
+      "warnings": []
+    },
+    {
+      "id": "v8-18-06",
+      "name": "Grapefruit Espresso Tonic",
+      "verification": "source-unverified",
+      "originalSteps": 5,
+      "detailedSteps": 16,
+      "method": "ဆိုဒါ / Sparkling / Mocktail",
+      "originalCupSizes": [
+        16
+      ],
+      "proposedTrialCup": null,
+      "warnings": []
+    },
+    {
+      "id": "v8-18-07",
+      "name": "Lychee Espresso Tonic",
+      "verification": "source-unverified",
+      "originalSteps": 5,
+      "detailedSteps": 16,
+      "method": "ဆိုဒါ / Sparkling / Mocktail",
+      "originalCupSizes": [
+        16
+      ],
+      "proposedTrialCup": null,
+      "warnings": []
+    },
+    {
+      "id": "v8-18-08",
+      "name": "Passion Fruit Espresso",
+      "verification": "source-unverified",
+      "originalSteps": 5,
+      "detailedSteps": 14,
+      "method": "Espresso အလွှာလိုက် ပေါင်းခြင်း",
+      "originalCupSizes": [
+        16
+      ],
+      "proposedTrialCup": null,
+      "warnings": []
+    },
+    {
+      "id": "v8-18-09",
+      "name": "Mandarin Espresso",
+      "verification": "source-unverified",
+      "originalSteps": 5,
+      "detailedSteps": 12,
+      "method": "Espresso အလွှာလိုက် ပေါင်းခြင်း",
+      "originalCupSizes": [
+        16
+      ],
+      "proposedTrialCup": null,
+      "warnings": []
+    },
+    {
+      "id": "v8-18-10",
+      "name": "Lemon Basil Espresso",
+      "verification": "source-unverified",
+      "originalSteps": 5,
+      "detailedSteps": 15,
+      "method": "Espresso အလွှာလိုက် ပေါင်းခြင်း",
+      "originalCupSizes": [
+        16
+      ],
+      "proposedTrialCup": null,
+      "warnings": []
+    },
+    {
+      "id": "v8-19-01",
+      "name": "Einspänner Coffee",
+      "verification": "source-unverified",
+      "originalSteps": 5,
+      "detailedSteps": 13,
+      "method": "Espresso နှင့် အပူနို့ / ရေ ပေါင်းခြင်း",
+      "originalCupSizes": [],
+      "proposedTrialCup": 8,
+      "warnings": [
+        "မူရင်းတွင် ခွက်အရွယ် မသတ်မှတ်ထားပါ။ အောက်ပါခွက်သည် V2 အဆိုပြုစမ်းသပ်ခွက်သာဖြစ်သည်။ ပမာဏမပြောင်းဘဲ လက်တွေ့ဆံ့မှုကို စစ်ဆေးရန်လိုသည်။"
+      ]
+    },
+    {
+      "id": "v8-19-02",
+      "name": "Iced Einspänner",
+      "verification": "source-unverified",
+      "originalSteps": 5,
+      "detailedSteps": 14,
+      "method": "Espresso အလွှာလိုက် ပေါင်းခြင်း",
+      "originalCupSizes": [
+        16
+      ],
+      "proposedTrialCup": null,
+      "warnings": []
+    },
+    {
+      "id": "v8-19-03",
+      "name": "Tiramisu Latte",
+      "verification": "source-unverified",
+      "originalSteps": 5,
+      "detailedSteps": 14,
+      "method": "Espresso အလွှာလိုက် ပေါင်းခြင်း",
+      "originalCupSizes": [
+        16
+      ],
+      "proposedTrialCup": null,
+      "warnings": []
+    },
+    {
+      "id": "v8-19-04",
+      "name": "Crème Brûlée Latte",
+      "verification": "source-unverified",
+      "originalSteps": 5,
+      "detailedSteps": 14,
+      "method": "Espresso အလွှာလိုက် ပေါင်းခြင်း",
+      "originalCupSizes": [
+        16
+      ],
+      "proposedTrialCup": null,
+      "warnings": []
+    },
+    {
+      "id": "v8-19-05",
+      "name": "Biscoff Latte",
+      "verification": "source-unverified",
+      "originalSteps": 5,
+      "detailedSteps": 13,
+      "method": "Espresso အလွှာလိုက် ပေါင်းခြင်း",
+      "originalCupSizes": [
+        16
+      ],
+      "proposedTrialCup": null,
+      "warnings": []
+    },
+    {
+      "id": "v8-19-06",
+      "name": "Nutella Latte",
+      "verification": "source-unverified",
+      "originalSteps": 5,
+      "detailedSteps": 13,
+      "method": "Espresso အလွှာလိုက် ပေါင်းခြင်း",
+      "originalCupSizes": [
+        16
+      ],
+      "proposedTrialCup": null,
+      "warnings": []
+    },
+    {
+      "id": "v8-19-07",
+      "name": "White Chocolate Pistachio Latte",
+      "verification": "source-unverified",
+      "originalSteps": 5,
+      "detailedSteps": 14,
+      "method": "Espresso အလွှာလိုက် ပေါင်းခြင်း",
+      "originalCupSizes": [
+        16
+      ],
+      "proposedTrialCup": null,
+      "warnings": []
+    },
+    {
+      "id": "v8-19-08",
+      "name": "Salted Honey Cream Coffee",
+      "verification": "source-unverified",
+      "originalSteps": 5,
+      "detailedSteps": 14,
+      "method": "Espresso အလွှာလိုက် ပေါင်းခြင်း",
+      "originalCupSizes": [
+        16
+      ],
+      "proposedTrialCup": null,
+      "warnings": []
+    },
+    {
+      "id": "v8-19-09",
+      "name": "Vanilla Bean Cream Cold Coffee",
+      "verification": "source-unverified",
+      "originalSteps": 5,
+      "detailedSteps": 14,
+      "method": "Espresso အလွှာလိုက် ပေါင်းခြင်း",
+      "originalCupSizes": [
+        16
+      ],
+      "proposedTrialCup": null,
+      "warnings": []
+    },
+    {
+      "id": "v8-19-10",
+      "name": "Coconut Cream Espresso",
+      "verification": "source-unverified",
+      "originalSteps": 5,
+      "detailedSteps": 14,
+      "method": "Espresso အလွှာလိုက် ပေါင်းခြင်း",
+      "originalCupSizes": [
+        16
+      ],
+      "proposedTrialCup": null,
+      "warnings": []
+    },
+    {
+      "id": "v8-20-01",
+      "name": "Classic Espresso Tonic",
+      "verification": "source-unverified",
+      "originalSteps": 5,
+      "detailedSteps": 15,
+      "method": "ဆိုဒါ / Sparkling / Mocktail",
+      "originalCupSizes": [
+        16
+      ],
+      "proposedTrialCup": null,
+      "warnings": []
+    },
+    {
+      "id": "v8-20-02",
+      "name": "Lemon Espresso Tonic",
+      "verification": "source-unverified",
+      "originalSteps": 5,
+      "detailedSteps": 16,
+      "method": "ဆိုဒါ / Sparkling / Mocktail",
+      "originalCupSizes": [
+        16
+      ],
+      "proposedTrialCup": null,
+      "warnings": []
+    },
+    {
+      "id": "v8-20-03",
+      "name": "Orange Espresso Tonic",
+      "verification": "source-unverified",
+      "originalSteps": 5,
+      "detailedSteps": 16,
+      "method": "ဆိုဒါ / Sparkling / Mocktail",
+      "originalCupSizes": [
+        16
+      ],
+      "proposedTrialCup": null,
+      "warnings": []
+    },
+    {
+      "id": "v8-20-04",
+      "name": "Rosemary Espresso Tonic",
+      "verification": "source-unverified",
+      "originalSteps": 5,
+      "detailedSteps": 16,
+      "method": "ဆိုဒါ / Sparkling / Mocktail",
+      "originalCupSizes": [
+        16
+      ],
+      "proposedTrialCup": null,
+      "warnings": []
+    },
+    {
+      "id": "v8-20-05",
+      "name": "Peach Espresso Tonic",
+      "verification": "source-unverified",
+      "originalSteps": 5,
+      "detailedSteps": 16,
+      "method": "ဆိုဒါ / Sparkling / Mocktail",
+      "originalCupSizes": [
+        16
+      ],
+      "proposedTrialCup": null,
+      "warnings": []
+    },
+    {
+      "id": "v8-20-06",
+      "name": "Ginger Ale Espresso",
+      "verification": "source-unverified",
+      "originalSteps": 5,
+      "detailedSteps": 12,
+      "method": "Espresso အလွှာလိုက် ပေါင်းခြင်း",
+      "originalCupSizes": [
+        16
+      ],
+      "proposedTrialCup": null,
+      "warnings": []
+    },
+    {
+      "id": "v8-20-07",
+      "name": "Cherry Coffee Soda",
+      "verification": "source-unverified",
+      "originalSteps": 5,
+      "detailedSteps": 16,
+      "method": "ဆိုဒါ / Sparkling / Mocktail",
+      "originalCupSizes": [
+        16
+      ],
+      "proposedTrialCup": null,
+      "warnings": []
+    },
+    {
+      "id": "v8-20-08",
+      "name": "Blackcurrant Espresso Fizz",
+      "verification": "source-unverified",
+      "originalSteps": 5,
+      "detailedSteps": 16,
+      "method": "ဆိုဒါ / Sparkling / Mocktail",
+      "originalCupSizes": [
+        16
+      ],
+      "proposedTrialCup": null,
+      "warnings": []
+    },
+    {
+      "id": "v8-20-09",
+      "name": "Pomegranate Coffee Spritz",
+      "verification": "source-unverified",
+      "originalSteps": 5,
+      "detailedSteps": 16,
+      "method": "ဆိုဒါ / Sparkling / Mocktail",
+      "originalCupSizes": [
+        16
+      ],
+      "proposedTrialCup": null,
+      "warnings": []
+    },
+    {
+      "id": "v8-20-10",
+      "name": "Lime Mint Espresso Soda",
+      "verification": "source-unverified",
+      "originalSteps": 5,
+      "detailedSteps": 18,
+      "method": "ဆိုဒါ / Sparkling / Mocktail",
+      "originalCupSizes": [
+        16
+      ],
+      "proposedTrialCup": null,
+      "warnings": []
+    },
+    {
+      "id": "v8-21-01",
+      "name": "Vietnamese Iced Coffee",
+      "verification": "source-unverified",
+      "originalSteps": 4,
+      "detailedSteps": 12,
+      "method": "Espresso အလွှာလိုက် ပေါင်းခြင်း",
+      "originalCupSizes": [
+        16
+      ],
+      "proposedTrialCup": null,
+      "warnings": []
+    },
+    {
+      "id": "v8-21-02",
+      "name": "Vietnamese Egg Coffee",
+      "verification": "source-unverified",
+      "originalSteps": 5,
+      "detailedSteps": 13,
+      "method": "Pasteurized Egg Cream Coffee",
+      "originalCupSizes": [],
+      "proposedTrialCup": 8,
+      "warnings": [
+        "မူရင်းတွင် ခွက်အရွယ် မသတ်မှတ်ထားပါ။ အောက်ပါခွက်သည် V2 အဆိုပြုစမ်းသပ်ခွက်သာဖြစ်သည်။ ပမာဏမပြောင်းဘဲ လက်တွေ့ဆံ့မှုကို စစ်ဆေးရန်လိုသည်။",
+        "Pasteurized ကြက်ဥအနှစ် / egg product ကိုသာ သုံးပါ။ ရိုးရိုးအစိမ်းဥကို မသုံးပါနှင့်။ ပူသောကော်ဖီလောင်းရုံဖြင့် ပိုးသတ်ပြီးဟု မယူဆပါနှင့်။ Pasteurized မရပါက ဤမီနူးကို မရောင်းပါနှင့်။"
+      ]
+    },
+    {
+      "id": "v8-21-03",
+      "name": "Thai Oliang Coffee",
+      "verification": "source-unverified",
+      "originalSteps": 4,
+      "detailedSteps": 15,
+      "method": "နို့ / အသီး / အရည်အခြေခံ ရောဖျော်ခြင်း",
+      "originalCupSizes": [
+        16
+      ],
+      "proposedTrialCup": null,
+      "warnings": []
+    },
+    {
+      "id": "v8-21-04",
+      "name": "Thai Es Yen",
+      "verification": "source-unverified",
+      "originalSteps": 4,
+      "detailedSteps": 13,
+      "method": "Espresso အလွှာလိုက် ပေါင်းခြင်း",
+      "originalCupSizes": [
+        16
+      ],
+      "proposedTrialCup": null,
+      "warnings": []
+    },
+    {
+      "id": "v8-21-05",
+      "name": "Kopi Susu Gula Aren",
+      "verification": "source-unverified",
+      "originalSteps": 4,
+      "detailedSteps": 13,
+      "method": "Espresso အလွှာလိုက် ပေါင်းခြင်း",
+      "originalCupSizes": [
+        16
+      ],
+      "proposedTrialCup": null,
+      "warnings": []
+    },
+    {
+      "id": "v8-21-06",
+      "name": "Kopi Tubruk",
+      "verification": "source-unverified",
+      "originalSteps": 4,
+      "detailedSteps": 14,
+      "method": "သီးသန့် Brew နည်း",
+      "originalCupSizes": [],
+      "proposedTrialCup": 8,
+      "warnings": [
+        "မူရင်းတွင် ခွက်အရွယ် မသတ်မှတ်ထားပါ။ အောက်ပါခွက်သည် V2 အဆိုပြုစမ်းသပ်ခွက်သာဖြစ်သည်။ ပမာဏမပြောင်းဘဲ လက်တွေ့ဆံ့မှုကို စစ်ဆေးရန်လိုသည်။"
+      ]
+    },
+    {
+      "id": "v8-21-07",
+      "name": "Dalgona Coffee",
+      "verification": "source-unverified",
+      "originalSteps": 4,
+      "detailedSteps": 14,
+      "method": "Dalgona အမြှုပ်ခတ်ခြင်း",
+      "originalCupSizes": [
+        16
+      ],
+      "proposedTrialCup": null,
+      "warnings": []
+    },
+    {
+      "id": "v8-21-08",
+      "name": "Korean Iced Cream Latte",
+      "verification": "source-unverified",
+      "originalSteps": 5,
+      "detailedSteps": 13,
+      "method": "Espresso အလွှာလိုက် ပေါင်းခြင်း",
+      "originalCupSizes": [
+        16
+      ],
+      "proposedTrialCup": null,
+      "warnings": []
+    },
+    {
+      "id": "v8-21-09",
+      "name": "Dirty Coffee",
+      "verification": "source-unverified",
+      "originalSteps": 3,
+      "detailedSteps": 11,
+      "method": "အလွန်အေးသောနို့ပေါ် Espresso တိုက်ရိုက်ထုတ်ခြင်း",
+      "originalCupSizes": [],
+      "proposedTrialCup": 16,
+      "warnings": [
+        "မူရင်းတွင် ခွက်အရွယ် မသတ်မှတ်ထားပါ။ အောက်ပါခွက်သည် V2 အဆိုပြုစမ်းသပ်ခွက်သာဖြစ်သည်။ ပမာဏမပြောင်းဘဲ လက်တွေ့ဆံ့မှုကို စစ်ဆေးရန်လိုသည်။"
+      ]
+    },
+    {
+      "id": "v8-21-10",
+      "name": "Coconut Vietnamese Coffee",
+      "verification": "source-unverified",
+      "originalSteps": 4,
+      "detailedSteps": 13,
+      "method": "Espresso အလွှာလိုက် ပေါင်းခြင်း",
+      "originalCupSizes": [
+        16
+      ],
+      "proposedTrialCup": null,
+      "warnings": []
+    },
+    {
+      "id": "v8-22-01",
+      "name": "Classic Cold Brew",
+      "verification": "source-unverified",
+      "originalSteps": 5,
+      "detailedSteps": 12,
+      "method": "Cold Brew အခြေခံရည် အသုံးပြုခြင်း",
+      "originalCupSizes": [
+        16
+      ],
+      "proposedTrialCup": null,
+      "warnings": []
+    },
+    {
+      "id": "v8-22-02",
+      "name": "Cold Brew Latte",
+      "verification": "source-unverified",
+      "originalSteps": 5,
+      "detailedSteps": 12,
+      "method": "Cold Brew အခြေခံရည် အသုံးပြုခြင်း",
+      "originalCupSizes": [
+        16
+      ],
+      "proposedTrialCup": null,
+      "warnings": []
+    },
+    {
+      "id": "v8-22-03",
+      "name": "Vanilla Cold Brew",
+      "verification": "source-unverified",
+      "originalSteps": 5,
+      "detailedSteps": 13,
+      "method": "Cold Brew အခြေခံရည် အသုံးပြုခြင်း",
+      "originalCupSizes": [
+        16
+      ],
+      "proposedTrialCup": null,
+      "warnings": []
+    },
+    {
+      "id": "v8-22-04",
+      "name": "Honey Cold Brew",
+      "verification": "source-unverified",
+      "originalSteps": 5,
+      "detailedSteps": 13,
+      "method": "Cold Brew အခြေခံရည် အသုံးပြုခြင်း",
+      "originalCupSizes": [
+        16
+      ],
+      "proposedTrialCup": null,
+      "warnings": []
+    },
+    {
+      "id": "v8-22-05",
+      "name": "Coconut Cold Brew",
+      "verification": "source-unverified",
+      "originalSteps": 5,
+      "detailedSteps": 12,
+      "method": "Cold Brew အခြေခံရည် အသုံးပြုခြင်း",
+      "originalCupSizes": [
+        16
+      ],
+      "proposedTrialCup": null,
+      "warnings": []
+    },
+    {
+      "id": "v8-22-06",
+      "name": "Orange Cold Brew",
+      "verification": "source-unverified",
+      "originalSteps": 5,
+      "detailedSteps": 12,
+      "method": "Cold Brew အခြေခံရည် အသုံးပြုခြင်း",
+      "originalCupSizes": [
+        16
+      ],
+      "proposedTrialCup": null,
+      "warnings": []
+    },
+    {
+      "id": "v8-22-07",
+      "name": "Cold Brew Tonic",
+      "verification": "source-unverified",
+      "originalSteps": 5,
+      "detailedSteps": 13,
+      "method": "Cold Brew အခြေခံရည် အသုံးပြုခြင်း",
+      "originalCupSizes": [
+        16
+      ],
+      "proposedTrialCup": null,
+      "warnings": []
+    },
+    {
+      "id": "v8-22-08",
+      "name": "Salted Caramel Cold Brew",
+      "verification": "source-unverified",
+      "originalSteps": 5,
+      "detailedSteps": 13,
+      "method": "Cold Brew အခြေခံရည် အသုံးပြုခြင်း",
+      "originalCupSizes": [
+        16
+      ],
+      "proposedTrialCup": null,
+      "warnings": []
+    },
+    {
+      "id": "v8-22-09",
+      "name": "Cold Brew With Vanilla Cold Foam",
+      "verification": "source-unverified",
+      "originalSteps": 5,
+      "detailedSteps": 14,
+      "method": "Cold Brew အခြေခံရည် အသုံးပြုခြင်း",
+      "originalCupSizes": [
+        16
+      ],
+      "proposedTrialCup": null,
+      "warnings": []
+    },
+    {
+      "id": "v8-22-10",
+      "name": "Nitro-Style Cold Brew (No Nitrogen)",
+      "verification": "source-unverified",
+      "originalSteps": 5,
+      "detailedSteps": 12,
+      "method": "Cold Brew အခြေခံရည် အသုံးပြုခြင်း",
+      "originalCupSizes": [
+        16
+      ],
+      "proposedTrialCup": null,
+      "warnings": []
+    },
+    {
+      "id": "v8-23-01",
+      "name": "V60 Pour Over",
+      "verification": "source-unverified",
+      "originalSteps": 5,
+      "detailedSteps": 15,
+      "method": "သီးသန့် Brew နည်း",
+      "originalCupSizes": [],
+      "proposedTrialCup": 12,
+      "warnings": [
+        "မူရင်းတွင် ခွက်အရွယ် မသတ်မှတ်ထားပါ။ အောက်ပါခွက်သည် V2 အဆိုပြုစမ်းသပ်ခွက်သာဖြစ်သည်။ ပမာဏမပြောင်းဘဲ လက်တွေ့ဆံ့မှုကို စစ်ဆေးရန်လိုသည်။"
+      ]
+    },
+    {
+      "id": "v8-23-02",
+      "name": "Iced V60 Japanese Style",
+      "verification": "source-unverified",
+      "originalSteps": 4,
+      "detailedSteps": 15,
+      "method": "သီးသန့် Brew နည်း",
+      "originalCupSizes": [
+        16
+      ],
+      "proposedTrialCup": null,
+      "warnings": []
+    },
+    {
+      "id": "v8-23-03",
+      "name": "French Press Coffee",
+      "verification": "source-unverified",
+      "originalSteps": 4,
+      "detailedSteps": 14,
+      "method": "သီးသန့် Brew နည်း",
+      "originalCupSizes": [],
+      "proposedTrialCup": 12,
+      "warnings": [
+        "မူရင်းတွင် ခွက်အရွယ် မသတ်မှတ်ထားပါ။ အောက်ပါခွက်သည် V2 အဆိုပြုစမ်းသပ်ခွက်သာဖြစ်သည်။ ပမာဏမပြောင်းဘဲ လက်တွေ့ဆံ့မှုကို စစ်ဆေးရန်လိုသည်။"
+      ]
+    },
+    {
+      "id": "v8-23-04",
+      "name": "AeroPress Coffee",
+      "verification": "source-unverified",
+      "originalSteps": 3,
+      "detailedSteps": 13,
+      "method": "သီးသန့် Brew နည်း",
+      "originalCupSizes": [],
+      "proposedTrialCup": 8,
+      "warnings": [
+        "မူရင်းတွင် ခွက်အရွယ် မသတ်မှတ်ထားပါ။ အောက်ပါခွက်သည် V2 အဆိုပြုစမ်းသပ်ခွက်သာဖြစ်သည်။ ပမာဏမပြောင်းဘဲ လက်တွေ့ဆံ့မှုကို စစ်ဆေးရန်လိုသည်။"
+      ]
+    },
+    {
+      "id": "v8-23-05",
+      "name": "Moka Pot Coffee",
+      "verification": "source-unverified",
+      "originalSteps": 4,
+      "detailedSteps": 13,
+      "method": "သီးသန့် Brew နည်း",
+      "originalCupSizes": [],
+      "proposedTrialCup": 16,
+      "warnings": [
+        "မူရင်းတွင် ခွက်အရွယ် မသတ်မှတ်ထားပါ။ အောက်ပါခွက်သည် V2 အဆိုပြုစမ်းသပ်ခွက်သာဖြစ်သည်။ ပမာဏမပြောင်းဘဲ လက်တွေ့ဆံ့မှုကို စစ်ဆေးရန်လိုသည်။",
+        "မူရင်းပါ ရွေးချယ်စရာပစ္စည်း / ပမာဏ မရှင်းလင်းမှုကို မီနူးအမည်နှင့် မူရင်းညွှန်ကြားချက်ဖြင့် စစ်ပါ။ မရှင်းလင်းသေးပါက ဆိုင်ရောင်း recipe အဖြစ် မအတည်ပြုပါနှင့်။"
+      ]
+    },
+    {
+      "id": "v8-23-06",
+      "name": "Café au Lait",
+      "verification": "source-unverified",
+      "originalSteps": 3,
+      "detailedSteps": 14,
+      "method": "နို့ / အသီး / အရည်အခြေခံ ရောဖျော်ခြင်း",
+      "originalCupSizes": [],
+      "proposedTrialCup": 12,
+      "warnings": [
+        "မူရင်းတွင် ခွက်အရွယ် မသတ်မှတ်ထားပါ။ အောက်ပါခွက်သည် V2 အဆိုပြုစမ်းသပ်ခွက်သာဖြစ်သည်။ ပမာဏမပြောင်းဘဲ လက်တွေ့ဆံ့မှုကို စစ်ဆေးရန်လိုသည်။"
+      ]
+    },
+    {
+      "id": "v8-23-07",
+      "name": "Iced Filter Coffee",
+      "verification": "source-unverified",
+      "originalSteps": 3,
+      "detailedSteps": 13,
+      "method": "သီးသန့် Brew နည်း",
+      "originalCupSizes": [
+        16
+      ],
+      "proposedTrialCup": null,
+      "warnings": []
+    },
+    {
+      "id": "v8-23-08",
+      "name": "Honey V60",
+      "verification": "source-unverified",
+      "originalSteps": 5,
+      "detailedSteps": 16,
+      "method": "သီးသန့် Brew နည်း",
+      "originalCupSizes": [],
+      "proposedTrialCup": 12,
+      "warnings": [
+        "မူရင်းတွင် ခွက်အရွယ် မသတ်မှတ်ထားပါ။ အောက်ပါခွက်သည် V2 အဆိုပြုစမ်းသပ်ခွက်သာဖြစ်သည်။ ပမာဏမပြောင်းဘဲ လက်တွေ့ဆံ့မှုကို စစ်ဆေးရန်လိုသည်။"
+      ]
+    },
+    {
+      "id": "v8-23-09",
+      "name": "Cinnamon French Press",
+      "verification": "source-unverified",
+      "originalSteps": 4,
+      "detailedSteps": 15,
+      "method": "သီးသန့် Brew နည်း",
+      "originalCupSizes": [],
+      "proposedTrialCup": 12,
+      "warnings": [
+        "မူရင်းတွင် ခွက်အရွယ် မသတ်မှတ်ထားပါ။ အောက်ပါခွက်သည် V2 အဆိုပြုစမ်းသပ်ခွက်သာဖြစ်သည်။ ပမာဏမပြောင်းဘဲ လက်တွေ့ဆံ့မှုကို စစ်ဆေးရန်လိုသည်။"
+      ]
+    },
+    {
+      "id": "v8-23-10",
+      "name": "Cold Drip Coffee",
+      "verification": "source-unverified",
+      "originalSteps": 3,
+      "detailedSteps": 13,
+      "method": "သီးသန့် Brew နည်း",
+      "originalCupSizes": [
+        16
+      ],
+      "proposedTrialCup": null,
+      "warnings": []
+    },
+    {
+      "id": "v8-24-01",
+      "name": "Shakerato",
+      "verification": "source-unverified",
+      "originalSteps": 3,
+      "detailedSteps": 13,
+      "method": "အအေး Espresso ခတ်ခြင်း",
+      "originalCupSizes": [],
+      "proposedTrialCup": 16,
+      "warnings": [
+        "မူရင်းတွင် ခွက်အရွယ် မသတ်မှတ်ထားပါ။ အောက်ပါခွက်သည် V2 အဆိုပြုစမ်းသပ်ခွက်သာဖြစ်သည်။ ပမာဏမပြောင်းဘဲ လက်တွေ့ဆံ့မှုကို စစ်ဆေးရန်လိုသည်။"
+      ]
+    },
+    {
+      "id": "v8-24-02",
+      "name": "Freddo Espresso",
+      "verification": "source-unverified",
+      "originalSteps": 3,
+      "detailedSteps": 13,
+      "method": "အအေး Espresso ခတ်ခြင်း",
+      "originalCupSizes": [],
+      "proposedTrialCup": 16,
+      "warnings": [
+        "မူရင်းတွင် ခွက်အရွယ် မသတ်မှတ်ထားပါ။ အောက်ပါခွက်သည် V2 အဆိုပြုစမ်းသပ်ခွက်သာဖြစ်သည်။ ပမာဏမပြောင်းဘဲ လက်တွေ့ဆံ့မှုကို စစ်ဆေးရန်လိုသည်။",
+        "မူရင်းပမာဏအချို့သည် အပိုင်းအခြားဖြစ်သည်။ ပထမစမ်းသပ်မှုတွင် ရေခဲကို အများဆုံးဘက်၊ အချိုကို အနည်းဆုံးဘက်မှ စပါ။ ရွေးထားသည့်တိကျသောပမာဏကို မှတ်တမ်းတင်ပြီး နောက်ခွက်များ၌ တူညီစွာသုံးပါ။ မူရင်းစာရင်း၏အပိုင်းအခြားကို မပြောင်းထားပါ။"
+      ]
+    },
+    {
+      "id": "v8-24-03",
+      "name": "Freddo Cappuccino",
+      "verification": "source-unverified",
+      "originalSteps": 3,
+      "detailedSteps": 13,
+      "method": "အအေး Espresso ခတ်ခြင်း",
+      "originalCupSizes": [],
+      "proposedTrialCup": 16,
+      "warnings": [
+        "မူရင်းတွင် ခွက်အရွယ် မသတ်မှတ်ထားပါ။ အောက်ပါခွက်သည် V2 အဆိုပြုစမ်းသပ်ခွက်သာဖြစ်သည်။ ပမာဏမပြောင်းဘဲ လက်တွေ့ဆံ့မှုကို စစ်ဆေးရန်လိုသည်။"
+      ]
+    },
+    {
+      "id": "v8-24-04",
+      "name": "Espresso Romano",
+      "verification": "source-unverified",
+      "originalSteps": 3,
+      "detailedSteps": 14,
+      "method": "Espresso နှင့် အပူနို့ / ရေ ပေါင်းခြင်း",
+      "originalCupSizes": [],
+      "proposedTrialCup": 8,
+      "warnings": [
+        "မူရင်းတွင် ခွက်အရွယ် မသတ်မှတ်ထားပါ။ အောက်ပါခွက်သည် V2 အဆိုပြုစမ်းသပ်ခွက်သာဖြစ်သည်။ ပမာဏမပြောင်းဘဲ လက်တွေ့ဆံ့မှုကို စစ်ဆေးရန်လိုသည်။",
+        "မူရင်းပါ ရွေးချယ်စရာပစ္စည်း / ပမာဏ မရှင်းလင်းမှုကို မီနူးအမည်နှင့် မူရင်းညွှန်ကြားချက်ဖြင့် စစ်ပါ။ မရှင်းလင်းသေးပါက ဆိုင်ရောင်း recipe အဖြစ် မအတည်ပြုပါနှင့်။"
+      ]
+    },
+    {
+      "id": "v8-24-05",
+      "name": "Café Bombón",
+      "verification": "source-unverified",
+      "originalSteps": 3,
+      "detailedSteps": 14,
+      "method": "Espresso နှင့် အပူနို့ / ရေ ပေါင်းခြင်း",
+      "originalCupSizes": [],
+      "proposedTrialCup": 8,
+      "warnings": [
+        "မူရင်းတွင် ခွက်အရွယ် မသတ်မှတ်ထားပါ။ အောက်ပါခွက်သည် V2 အဆိုပြုစမ်းသပ်ခွက်သာဖြစ်သည်။ ပမာဏမပြောင်းဘဲ လက်တွေ့ဆံ့မှုကို စစ်ဆေးရန်လိုသည်။"
+      ]
+    },
+    {
+      "id": "v8-24-06",
+      "name": "Bicerin",
+      "verification": "source-unverified",
+      "originalSteps": 3,
+      "detailedSteps": 19,
+      "method": "Espresso နှင့် အပူနို့ / ရေ ပေါင်းခြင်း",
+      "originalCupSizes": [],
+      "proposedTrialCup": 8,
+      "warnings": [
+        "မူရင်းတွင် ခွက်အရွယ် မသတ်မှတ်ထားပါ။ အောက်ပါခွက်သည် V2 အဆိုပြုစမ်းသပ်ခွက်သာဖြစ်သည်။ ပမာဏမပြောင်းဘဲ လက်တွေ့ဆံ့မှုကို စစ်ဆေးရန်လိုသည်။"
+      ]
+    },
+    {
+      "id": "v8-24-07",
+      "name": "Marocchino",
+      "verification": "source-unverified",
+      "originalSteps": 3,
+      "detailedSteps": 17,
+      "method": "Espresso နှင့် အပူနို့ / ရေ ပေါင်းခြင်း",
+      "originalCupSizes": [],
+      "proposedTrialCup": 8,
+      "warnings": [
+        "မူရင်းတွင် ခွက်အရွယ် မသတ်မှတ်ထားပါ။ အောက်ပါခွက်သည် V2 အဆိုပြုစမ်းသပ်ခွက်သာဖြစ်သည်။ ပမာဏမပြောင်းဘဲ လက်တွေ့ဆံ့မှုကို စစ်ဆေးရန်လိုသည်။"
+      ]
+    },
+    {
+      "id": "v8-24-08",
+      "name": "Café Noisette",
+      "verification": "source-unverified",
+      "originalSteps": 3,
+      "detailedSteps": 13,
+      "method": "Espresso နှင့် အပူနို့ / ရေ ပေါင်းခြင်း",
+      "originalCupSizes": [],
+      "proposedTrialCup": 8,
+      "warnings": [
+        "မူရင်းတွင် ခွက်အရွယ် မသတ်မှတ်ထားပါ။ အောက်ပါခွက်သည် V2 အဆိုပြုစမ်းသပ်ခွက်သာဖြစ်သည်။ ပမာဏမပြောင်းဘဲ လက်တွေ့ဆံ့မှုကို စစ်ဆေးရန်လိုသည်။"
+      ]
+    },
+    {
+      "id": "v8-25-01",
+      "name": "Mazagran Iced Coffee",
+      "verification": "source-unverified",
+      "originalSteps": 3,
+      "detailedSteps": 16,
+      "method": "နို့ / အသီး / အရည်အခြေခံ ရောဖျော်ခြင်း",
+      "originalCupSizes": [],
+      "proposedTrialCup": 16,
+      "warnings": [
+        "မူရင်းတွင် ခွက်အရွယ် မသတ်မှတ်ထားပါ။ အောက်ပါခွက်သည် V2 အဆိုပြုစမ်းသပ်ခွက်သာဖြစ်သည်။ ပမာဏမပြောင်းဘဲ လက်တွေ့ဆံ့မှုကို စစ်ဆေးရန်လိုသည်။"
+      ]
+    },
+    {
+      "id": "v8-25-02",
+      "name": "Café de Olla",
+      "verification": "source-unverified",
+      "originalSteps": 3,
+      "detailedSteps": 14,
+      "method": "သီးသန့် Brew နည်း",
+      "originalCupSizes": [],
+      "proposedTrialCup": 12,
+      "warnings": [
+        "မူရင်းတွင် ခွက်အရွယ် မသတ်မှတ်ထားပါ။ အောက်ပါခွက်သည် V2 အဆိုပြုစမ်းသပ်ခွက်သာဖြစ်သည်။ ပမာဏမပြောင်းဘဲ လက်တွေ့ဆံ့မှုကို စစ်ဆေးရန်လိုသည်။"
+      ]
+    },
+    {
+      "id": "v8-25-03",
+      "name": "Turkish Coffee",
+      "verification": "source-unverified",
+      "originalSteps": 3,
+      "detailedSteps": 11,
+      "method": "Cezve ဖြင့် Turkish Coffee",
+      "originalCupSizes": [],
+      "proposedTrialCup": 8,
+      "warnings": [
+        "မူရင်းတွင် ခွက်အရွယ် မသတ်မှတ်ထားပါ။ အောက်ပါခွက်သည် V2 အဆိုပြုစမ်းသပ်ခွက်သာဖြစ်သည်။ ပမာဏမပြောင်းဘဲ လက်တွေ့ဆံ့မှုကို စစ်ဆေးရန်လိုသည်။",
+        "မူရင်းပမာဏအချို့သည် အပိုင်းအခြားဖြစ်သည်။ ပထမစမ်းသပ်မှုတွင် ရေခဲကို အများဆုံးဘက်၊ အချိုကို အနည်းဆုံးဘက်မှ စပါ။ ရွေးထားသည့်တိကျသောပမာဏကို မှတ်တမ်းတင်ပြီး နောက်ခွက်များ၌ တူညီစွာသုံးပါ။ မူရင်းစာရင်း၏အပိုင်းအခြားကို မပြောင်းထားပါ။"
+      ]
+    },
+    {
+      "id": "v8-25-04",
+      "name": "Greek Frappé",
+      "verification": "source-unverified",
+      "originalSteps": 3,
+      "detailedSteps": 16,
+      "method": "Blender ဖြင့် ဖျော်ရေခဲ / Smoothie",
+      "originalCupSizes": [],
+      "proposedTrialCup": 16,
+      "warnings": [
+        "မူရင်းတွင် ခွက်အရွယ် မသတ်မှတ်ထားပါ။ အောက်ပါခွက်သည် V2 အဆိုပြုစမ်းသပ်ခွက်သာဖြစ်သည်။ ပမာဏမပြောင်းဘဲ လက်တွေ့ဆံ့မှုကို စစ်ဆေးရန်လိုသည်။"
+      ]
+    },
+    {
+      "id": "v8-25-05",
+      "name": "New Orleans Chicory Iced Coffee",
+      "verification": "source-unverified",
+      "originalSteps": 3,
+      "detailedSteps": 16,
+      "method": "နို့ / အသီး / အရည်အခြေခံ ရောဖျော်ခြင်း",
+      "originalCupSizes": [],
+      "proposedTrialCup": 16,
+      "warnings": [
+        "မူရင်းတွင် ခွက်အရွယ် မသတ်မှတ်ထားပါ။ အောက်ပါခွက်သည် V2 အဆိုပြုစမ်းသပ်ခွက်သာဖြစ်သည်။ ပမာဏမပြောင်းဘဲ လက်တွေ့ဆံ့မှုကို စစ်ဆေးရန်လိုသည်။"
+      ]
+    },
+    {
+      "id": "v8-25-06",
+      "name": "Café Cubano",
+      "verification": "source-unverified",
+      "originalSteps": 3,
+      "detailedSteps": 11,
+      "method": "Cubano သကြားအမြှုပ်",
+      "originalCupSizes": [],
+      "proposedTrialCup": 8,
+      "warnings": [
+        "မူရင်းတွင် ခွက်အရွယ် မသတ်မှတ်ထားပါ။ အောက်ပါခွက်သည် V2 အဆိုပြုစမ်းသပ်ခွက်သာဖြစ်သည်။ ပမာဏမပြောင်းဘဲ လက်တွေ့ဆံ့မှုကို စစ်ဆေးရန်လိုသည်။"
+      ]
+    },
+    {
+      "id": "v8-25-07",
+      "name": "Iced Café Cubano",
+      "verification": "source-unverified",
+      "originalSteps": 3,
+      "detailedSteps": 10,
+      "method": "Cubano သကြားအမြှုပ်",
+      "originalCupSizes": [],
+      "proposedTrialCup": 16,
+      "warnings": [
+        "မူရင်းတွင် ခွက်အရွယ် မသတ်မှတ်ထားပါ။ အောက်ပါခွက်သည် V2 အဆိုပြုစမ်းသပ်ခွက်သာဖြစ်သည်။ ပမာဏမပြောင်းဘဲ လက်တွေ့ဆံ့မှုကို စစ်ဆေးရန်လိုသည်။"
+      ]
+    },
+    {
+      "id": "v8-25-08",
+      "name": "Kopi Cham",
+      "verification": "source-unverified",
+      "originalSteps": 3,
+      "detailedSteps": 16,
+      "method": "နို့ / အသီး / အရည်အခြေခံ ရောဖျော်ခြင်း",
+      "originalCupSizes": [],
+      "proposedTrialCup": 16,
+      "warnings": [
+        "မူရင်းတွင် ခွက်အရွယ် မသတ်မှတ်ထားပါ။ အောက်ပါခွက်သည် V2 အဆိုပြုစမ်းသပ်ခွက်သာဖြစ်သည်။ ပမာဏမပြောင်းဘဲ လက်တွေ့ဆံ့မှုကို စစ်ဆေးရန်လိုသည်။"
+      ]
+    },
+    {
+      "id": "v8-26-01",
+      "name": "Iced Hojicha Latte",
+      "verification": "source-unverified",
+      "originalSteps": 3,
+      "detailedSteps": 16,
+      "method": "လက်ဖက် / Cocoa / နို့ အခြေခံဖျော်ခြင်း",
+      "originalCupSizes": [],
+      "proposedTrialCup": 16,
+      "warnings": [
+        "မူရင်းတွင် ခွက်အရွယ် မသတ်မှတ်ထားပါ။ အောက်ပါခွက်သည် V2 အဆိုပြုစမ်းသပ်ခွက်သာဖြစ်သည်။ ပမာဏမပြောင်းဘဲ လက်တွေ့ဆံ့မှုကို စစ်ဆေးရန်လိုသည်။"
+      ]
+    },
+    {
+      "id": "v8-26-02",
+      "name": "Hot Hojicha Latte",
+      "verification": "source-unverified",
+      "originalSteps": 3,
+      "detailedSteps": 15,
+      "method": "လက်ဖက် / Cocoa / နို့ အခြေခံဖျော်ခြင်း",
+      "originalCupSizes": [],
+      "proposedTrialCup": 8,
+      "warnings": [
+        "မူရင်းတွင် ခွက်အရွယ် မသတ်မှတ်ထားပါ။ အောက်ပါခွက်သည် V2 အဆိုပြုစမ်းသပ်ခွက်သာဖြစ်သည်။ ပမာဏမပြောင်းဘဲ လက်တွေ့ဆံ့မှုကို စစ်ဆေးရန်လိုသည်။"
+      ]
+    },
+    {
+      "id": "v8-26-03",
+      "name": "Iced Genmaicha Latte",
+      "verification": "source-unverified",
+      "originalSteps": 3,
+      "detailedSteps": 16,
+      "method": "လက်ဖက် / Cocoa / နို့ အခြေခံဖျော်ခြင်း",
+      "originalCupSizes": [],
+      "proposedTrialCup": 16,
+      "warnings": [
+        "မူရင်းတွင် ခွက်အရွယ် မသတ်မှတ်ထားပါ။ အောက်ပါခွက်သည် V2 အဆိုပြုစမ်းသပ်ခွက်သာဖြစ်သည်။ ပမာဏမပြောင်းဘဲ လက်တွေ့ဆံ့မှုကို စစ်ဆေးရန်လိုသည်။"
+      ]
+    },
+    {
+      "id": "v8-26-04",
+      "name": "Iced Earl Grey Milk Tea",
+      "verification": "source-unverified",
+      "originalSteps": 3,
+      "detailedSteps": 16,
+      "method": "လက်ဖက် / Cocoa / နို့ အခြေခံဖျော်ခြင်း",
+      "originalCupSizes": [],
+      "proposedTrialCup": 16,
+      "warnings": [
+        "မူရင်းတွင် ခွက်အရွယ် မသတ်မှတ်ထားပါ။ အောက်ပါခွက်သည် V2 အဆိုပြုစမ်းသပ်ခွက်သာဖြစ်သည်။ ပမာဏမပြောင်းဘဲ လက်တွေ့ဆံ့မှုကို စစ်ဆေးရန်လိုသည်။"
+      ]
+    },
+    {
+      "id": "v8-26-05",
+      "name": "London Fog Latte",
+      "verification": "source-unverified",
+      "originalSteps": 3,
+      "detailedSteps": 15,
+      "method": "လက်ဖက် / Cocoa / နို့ အခြေခံဖျော်ခြင်း",
+      "originalCupSizes": [],
+      "proposedTrialCup": 8,
+      "warnings": [
+        "မူရင်းတွင် ခွက်အရွယ် မသတ်မှတ်ထားပါ။ အောက်ပါခွက်သည် V2 အဆိုပြုစမ်းသပ်ခွက်သာဖြစ်သည်။ ပမာဏမပြောင်းဘဲ လက်တွေ့ဆံ့မှုကို စစ်ဆေးရန်လိုသည်။"
+      ]
+    },
+    {
+      "id": "v8-26-06",
+      "name": "Iced London Fog",
+      "verification": "source-unverified",
+      "originalSteps": 3,
+      "detailedSteps": 16,
+      "method": "လက်ဖက် / Cocoa / နို့ အခြေခံဖျော်ခြင်း",
+      "originalCupSizes": [],
+      "proposedTrialCup": 16,
+      "warnings": [
+        "မူရင်းတွင် ခွက်အရွယ် မသတ်မှတ်ထားပါ။ အောက်ပါခွက်သည် V2 အဆိုပြုစမ်းသပ်ခွက်သာဖြစ်သည်။ ပမာဏမပြောင်းဘဲ လက်တွေ့ဆံ့မှုကို စစ်ဆေးရန်လိုသည်။"
+      ]
+    },
+    {
+      "id": "v8-26-07",
+      "name": "Black Sesame Latte",
+      "verification": "source-unverified",
+      "originalSteps": 3,
+      "detailedSteps": 14,
+      "method": "လက်ဖက် / Cocoa / နို့ အခြေခံဖျော်ခြင်း",
+      "originalCupSizes": [],
+      "proposedTrialCup": 8,
+      "warnings": [
+        "မူရင်းတွင် ခွက်အရွယ် မသတ်မှတ်ထားပါ။ အောက်ပါခွက်သည် V2 အဆိုပြုစမ်းသပ်ခွက်သာဖြစ်သည်။ ပမာဏမပြောင်းဘဲ လက်တွေ့ဆံ့မှုကို စစ်ဆေးရန်လိုသည်။"
+      ]
+    },
+    {
+      "id": "v8-26-08",
+      "name": "Iced Black Sesame Latte",
+      "verification": "source-unverified",
+      "originalSteps": 3,
+      "detailedSteps": 15,
+      "method": "လက်ဖက် / Cocoa / နို့ အခြေခံဖျော်ခြင်း",
+      "originalCupSizes": [],
+      "proposedTrialCup": 16,
+      "warnings": [
+        "မူရင်းတွင် ခွက်အရွယ် မသတ်မှတ်ထားပါ။ အောက်ပါခွက်သည် V2 အဆိုပြုစမ်းသပ်ခွက်သာဖြစ်သည်။ ပမာဏမပြောင်းဘဲ လက်တွေ့ဆံ့မှုကို စစ်ဆေးရန်လိုသည်။"
+      ]
+    },
+    {
+      "id": "v8-27-01",
+      "name": "Cascara Iced Tea",
+      "verification": "source-unverified",
+      "originalSteps": 3,
+      "detailedSteps": 17,
+      "method": "လက်ဖက် / Cocoa / နို့ အခြေခံဖျော်ခြင်း",
+      "originalCupSizes": [],
+      "proposedTrialCup": 16,
+      "warnings": [
+        "မူရင်းတွင် ခွက်အရွယ် မသတ်မှတ်ထားပါ။ အောက်ပါခွက်သည် V2 အဆိုပြုစမ်းသပ်ခွက်သာဖြစ်သည်။ ပမာဏမပြောင်းဘဲ လက်တွေ့ဆံ့မှုကို စစ်ဆေးရန်လိုသည်။"
+      ]
+    },
+    {
+      "id": "v8-27-02",
+      "name": "Cascara Sparkling Cooler",
+      "verification": "source-unverified",
+      "originalSteps": 3,
+      "detailedSteps": 13,
+      "method": "ဆိုဒါ / Sparkling / Mocktail",
+      "originalCupSizes": [],
+      "proposedTrialCup": 16,
+      "warnings": [
+        "မူရင်းတွင် ခွက်အရွယ် မသတ်မှတ်ထားပါ။ အောက်ပါခွက်သည် V2 အဆိုပြုစမ်းသပ်ခွက်သာဖြစ်သည်။ ပမာဏမပြောင်းဘဲ လက်တွေ့ဆံ့မှုကို စစ်ဆေးရန်လိုသည်။"
+      ]
+    },
+    {
+      "id": "v8-27-03",
+      "name": "Espresso Ginger Beer",
+      "verification": "source-unverified",
+      "originalSteps": 3,
+      "detailedSteps": 16,
+      "method": "ဆိုဒါ / Sparkling / Mocktail",
+      "originalCupSizes": [],
+      "proposedTrialCup": 16,
+      "warnings": [
+        "မူရင်းတွင် ခွက်အရွယ် မသတ်မှတ်ထားပါ။ အောက်ပါခွက်သည် V2 အဆိုပြုစမ်းသပ်ခွက်သာဖြစ်သည်။ ပမာဏမပြောင်းဘဲ လက်တွေ့ဆံ့မှုကို စစ်ဆေးရန်လိုသည်။"
+      ]
+    },
+    {
+      "id": "v8-27-04",
+      "name": "Tamarind Espresso Soda",
+      "verification": "source-unverified",
+      "originalSteps": 3,
+      "detailedSteps": 17,
+      "method": "ဆိုဒါ / Sparkling / Mocktail",
+      "originalCupSizes": [],
+      "proposedTrialCup": 16,
+      "warnings": [
+        "မူရင်းတွင် ခွက်အရွယ် မသတ်မှတ်ထားပါ။ အောက်ပါခွက်သည် V2 အဆိုပြုစမ်းသပ်ခွက်သာဖြစ်သည်။ ပမာဏမပြောင်းဘဲ လက်တွေ့ဆံ့မှုကို စစ်ဆေးရန်လိုသည်။"
+      ]
+    },
+    {
+      "id": "v8-27-05",
+      "name": "Honey Pomelo Refresher",
+      "verification": "source-unverified",
+      "originalSteps": 3,
+      "detailedSteps": 16,
+      "method": "နို့ / အသီး / အရည်အခြေခံ ရောဖျော်ခြင်း",
+      "originalCupSizes": [],
+      "proposedTrialCup": 16,
+      "warnings": [
+        "မူရင်းတွင် ခွက်အရွယ် မသတ်မှတ်ထားပါ။ အောက်ပါခွက်သည် V2 အဆိုပြုစမ်းသပ်ခွက်သာဖြစ်သည်။ ပမာဏမပြောင်းဘဲ လက်တွေ့ဆံ့မှုကို စစ်ဆေးရန်လိုသည်။"
+      ]
+    },
+    {
+      "id": "v8-27-06",
+      "name": "Iced Hibiscus Tea",
+      "verification": "source-unverified",
+      "originalSteps": 3,
+      "detailedSteps": 15,
+      "method": "လက်ဖက် / Cocoa / နို့ အခြေခံဖျော်ခြင်း",
+      "originalCupSizes": [],
+      "proposedTrialCup": 16,
+      "warnings": [
+        "မူရင်းတွင် ခွက်အရွယ် မသတ်မှတ်ထားပါ။ အောက်ပါခွက်သည် V2 အဆိုပြုစမ်းသပ်ခွက်သာဖြစ်သည်။ ပမာဏမပြောင်းဘဲ လက်တွေ့ဆံ့မှုကို စစ်ဆေးရန်လိုသည်။"
+      ]
+    },
+    {
+      "id": "v8-27-07",
+      "name": "Iced Chamomile Honey",
+      "verification": "source-unverified",
+      "originalSteps": 3,
+      "detailedSteps": 15,
+      "method": "လက်ဖက် / Cocoa / နို့ အခြေခံဖျော်ခြင်း",
+      "originalCupSizes": [],
+      "proposedTrialCup": 16,
+      "warnings": [
+        "မူရင်းတွင် ခွက်အရွယ် မသတ်မှတ်ထားပါ။ အောက်ပါခွက်သည် V2 အဆိုပြုစမ်းသပ်ခွက်သာဖြစ်သည်။ ပမာဏမပြောင်းဘဲ လက်တွေ့ဆံ့မှုကို စစ်ဆေးရန်လိုသည်။"
+      ]
+    },
+    {
+      "id": "v8-27-08",
+      "name": "Yuzu Matcha Sparkler",
+      "verification": "source-unverified",
+      "originalSteps": 3,
+      "detailedSteps": 15,
+      "method": "ဆိုဒါ / Sparkling / Mocktail",
+      "originalCupSizes": [],
+      "proposedTrialCup": 16,
+      "warnings": [
+        "မူရင်းတွင် ခွက်အရွယ် မသတ်မှတ်ထားပါ။ အောက်ပါခွက်သည် V2 အဆိုပြုစမ်းသပ်ခွက်သာဖြစ်သည်။ ပမာဏမပြောင်းဘဲ လက်တွေ့ဆံ့မှုကို စစ်ဆေးရန်လိုသည်။"
+      ]
+    },
+    {
+      "id": "v8-28-01",
+      "name": "Iced Saffron Latte",
+      "verification": "source-unverified",
+      "originalSteps": 3,
+      "detailedSteps": 15,
+      "method": "Espresso အလွှာလိုက် ပေါင်းခြင်း",
+      "originalCupSizes": [],
+      "proposedTrialCup": 16,
+      "warnings": [
+        "မူရင်းတွင် ခွက်အရွယ် မသတ်မှတ်ထားပါ။ အောက်ပါခွက်သည် V2 အဆိုပြုစမ်းသပ်ခွက်သာဖြစ်သည်။ ပမာဏမပြောင်းဘဲ လက်တွေ့ဆံ့မှုကို စစ်ဆေးရန်လိုသည်။",
+        "မူရင်းပမာဏအချို့သည် အပိုင်းအခြားဖြစ်သည်။ ပထမစမ်းသပ်မှုတွင် ရေခဲကို အများဆုံးဘက်၊ အချိုကို အနည်းဆုံးဘက်မှ စပါ။ ရွေးထားသည့်တိကျသောပမာဏကို မှတ်တမ်းတင်ပြီး နောက်ခွက်များ၌ တူညီစွာသုံးပါ။ မူရင်းစာရင်း၏အပိုင်းအခြားကို မပြောင်းထားပါ။"
+      ]
+    },
+    {
+      "id": "v8-28-02",
+      "name": "Honey Cardamom Iced Latte",
+      "verification": "source-unverified",
+      "originalSteps": 3,
+      "detailedSteps": 14,
+      "method": "Espresso အလွှာလိုက် ပေါင်းခြင်း",
+      "originalCupSizes": [],
+      "proposedTrialCup": 16,
+      "warnings": [
+        "မူရင်းတွင် ခွက်အရွယ် မသတ်မှတ်ထားပါ။ အောက်ပါခွက်သည် V2 အဆိုပြုစမ်းသပ်ခွက်သာဖြစ်သည်။ ပမာဏမပြောင်းဘဲ လက်တွေ့ဆံ့မှုကို စစ်ဆေးရန်လိုသည်။"
+      ]
+    },
+    {
+      "id": "v8-28-03",
+      "name": "Iced Gingerbread Latte",
+      "verification": "source-unverified",
+      "originalSteps": 3,
+      "detailedSteps": 13,
+      "method": "Espresso အလွှာလိုက် ပေါင်းခြင်း",
+      "originalCupSizes": [],
+      "proposedTrialCup": 16,
+      "warnings": [
+        "မူရင်းတွင် ခွက်အရွယ် မသတ်မှတ်ထားပါ။ အောက်ပါခွက်သည် V2 အဆိုပြုစမ်းသပ်ခွက်သာဖြစ်သည်။ ပမာဏမပြောင်းဘဲ လက်တွေ့ဆံ့မှုကို စစ်ဆေးရန်လိုသည်။"
+      ]
+    },
+    {
+      "id": "v8-28-04",
+      "name": "Pumpkin Spice Latte",
+      "verification": "source-unverified",
+      "originalSteps": 3,
+      "detailedSteps": 16,
+      "method": "Espresso နှင့် အပူနို့ / ရေ ပေါင်းခြင်း",
+      "originalCupSizes": [],
+      "proposedTrialCup": 8,
+      "warnings": [
+        "မူရင်းတွင် ခွက်အရွယ် မသတ်မှတ်ထားပါ။ အောက်ပါခွက်သည် V2 အဆိုပြုစမ်းသပ်ခွက်သာဖြစ်သည်။ ပမာဏမပြောင်းဘဲ လက်တွေ့ဆံ့မှုကို စစ်ဆေးရန်လိုသည်။"
+      ]
+    },
+    {
+      "id": "v8-28-05",
+      "name": "Iced Pumpkin Spice Latte",
+      "verification": "source-unverified",
+      "originalSteps": 3,
+      "detailedSteps": 15,
+      "method": "Espresso အလွှာလိုက် ပေါင်းခြင်း",
+      "originalCupSizes": [],
+      "proposedTrialCup": 16,
+      "warnings": [
+        "မူရင်းတွင် ခွက်အရွယ် မသတ်မှတ်ထားပါ။ အောက်ပါခွက်သည် V2 အဆိုပြုစမ်းသပ်ခွက်သာဖြစ်သည်။ ပမာဏမပြောင်းဘဲ လက်တွေ့ဆံ့မှုကို စစ်ဆေးရန်လိုသည်။"
+      ]
+    },
+    {
+      "id": "v8-28-06",
+      "name": "Iced Ube Latte",
+      "verification": "source-unverified",
+      "originalSteps": 3,
+      "detailedSteps": 16,
+      "method": "နို့ / အသီး / အရည်အခြေခံ ရောဖျော်ခြင်း",
+      "originalCupSizes": [],
+      "proposedTrialCup": 16,
+      "warnings": [
+        "မူရင်းတွင် ခွက်အရွယ် မသတ်မှတ်ထားပါ။ အောက်ပါခွက်သည် V2 အဆိုပြုစမ်းသပ်ခွက်သာဖြစ်သည်။ ပမာဏမပြောင်းဘဲ လက်တွေ့ဆံ့မှုကို စစ်ဆေးရန်လိုသည်။"
+      ]
+    },
+    {
+      "id": "v8-28-07",
+      "name": "Iced Ube Espresso Latte",
+      "verification": "source-unverified",
+      "originalSteps": 3,
+      "detailedSteps": 14,
+      "method": "Espresso အလွှာလိုက် ပေါင်းခြင်း",
+      "originalCupSizes": [],
+      "proposedTrialCup": 16,
+      "warnings": [
+        "မူရင်းတွင် ခွက်အရွယ် မသတ်မှတ်ထားပါ။ အောက်ပါခွက်သည် V2 အဆိုပြုစမ်းသပ်ခွက်သာဖြစ်သည်။ ပမာဏမပြောင်းဘဲ လက်တွေ့ဆံ့မှုကို စစ်ဆေးရန်လိုသည်။"
+      ]
+    },
+    {
+      "id": "v8-28-08",
+      "name": "Iced Dalgona Matcha",
+      "verification": "source-unverified",
+      "originalSteps": 3,
+      "detailedSteps": 16,
+      "method": "Dalgona အမြှုပ်ခတ်ခြင်း",
+      "originalCupSizes": [],
+      "proposedTrialCup": 16,
+      "warnings": [
+        "မူရင်းတွင် ခွက်အရွယ် မသတ်မှတ်ထားပါ။ အောက်ပါခွက်သည် V2 အဆိုပြုစမ်းသပ်ခွက်သာဖြစ်သည်။ ပမာဏမပြောင်းဘဲ လက်တွေ့ဆံ့မှုကို စစ်ဆေးရန်လိုသည်။"
+      ]
+    },
+    {
+      "id": "prep-simple-syrup",
+      "name": "Simple Syrup 1:1 (by weight)",
+      "verification": "source-unverified",
+      "originalSteps": 10,
+      "detailedSteps": 10,
+      "method": "အသေးစိတ် စမ်းသပ်ဖျော်နည်း",
+      "originalCupSizes": [],
+      "proposedTrialCup": null,
+      "warnings": []
+    },
+    {
+      "id": "prep-brown-sugar-syrup",
+      "name": "Brown Sugar Syrup Base",
+      "verification": "source-unverified",
+      "originalSteps": 10,
+      "detailedSteps": 10,
+      "method": "အသေးစိတ် စမ်းသပ်ဖျော်နည်း",
+      "originalCupSizes": [],
+      "proposedTrialCup": null,
+      "warnings": []
+    },
+    {
+      "id": "prep-vanilla-bean-syrup",
+      "name": "Vanilla Bean Syrup Base",
+      "verification": "source-unverified",
+      "originalSteps": 10,
+      "detailedSteps": 10,
+      "method": "အသေးစိတ် စမ်းသပ်ဖျော်နည်း",
+      "originalCupSizes": [],
+      "proposedTrialCup": null,
+      "warnings": []
+    },
+    {
+      "id": "prep-cocoa-sauce",
+      "name": "Cocoa Chocolate Sauce Base",
+      "verification": "source-unverified",
+      "originalSteps": 10,
+      "detailedSteps": 10,
+      "method": "အသေးစိတ် စမ်းသပ်ဖျော်နည်း",
+      "originalCupSizes": [],
+      "proposedTrialCup": null,
+      "warnings": []
+    },
+    {
+      "id": "prep-caramel-water-sauce",
+      "name": "Caramel Water Sauce Base",
+      "verification": "source-unverified",
+      "originalSteps": 11,
+      "detailedSteps": 11,
+      "method": "အသေးစိတ် စမ်းသပ်ဖျော်နည်း",
+      "originalCupSizes": [],
+      "proposedTrialCup": null,
+      "warnings": []
+    },
+    {
+      "id": "prep-strawberry-sauce",
+      "name": "Strawberry Dessert Sauce Base",
+      "verification": "source-unverified",
+      "originalSteps": 10,
+      "detailedSteps": 10,
+      "method": "အသေးစိတ် စမ်းသပ်ဖျော်နည်း",
+      "originalCupSizes": [],
+      "proposedTrialCup": null,
+      "warnings": []
+    },
+    {
+      "id": "prep-lemon-cordial",
+      "name": "Lemon Cordial Concentrate Base",
+      "verification": "source-unverified",
+      "originalSteps": 11,
+      "detailedSteps": 11,
+      "method": "အသေးစိတ် စမ်းသပ်ဖျော်နည်း",
+      "originalCupSizes": [],
+      "proposedTrialCup": null,
+      "warnings": []
+    },
+    {
+      "id": "prep-lime-cordial",
+      "name": "Lime Cordial Concentrate Base",
+      "verification": "source-unverified",
+      "originalSteps": 11,
+      "detailedSteps": 11,
+      "method": "အသေးစိတ် စမ်းသပ်ဖျော်နည်း",
+      "originalCupSizes": [],
+      "proposedTrialCup": null,
+      "warnings": []
+    },
+    {
+      "id": "prep-orange-cordial",
+      "name": "Orange Cordial Concentrate Base",
+      "verification": "source-unverified",
+      "originalSteps": 11,
+      "detailedSteps": 11,
+      "method": "အသေးစိတ် စမ်းသပ်ဖျော်နည်း",
+      "originalCupSizes": [],
+      "proposedTrialCup": null,
+      "warnings": []
+    },
+    {
+      "id": "prep-mango-puree",
+      "name": "Mango Purée Base",
+      "verification": "source-unverified",
+      "originalSteps": 12,
+      "detailedSteps": 12,
+      "method": "အသေးစိတ် စမ်းသပ်ဖျော်နည်း",
+      "originalCupSizes": [],
+      "proposedTrialCup": null,
+      "warnings": []
+    },
+    {
+      "id": "prep-strawberry-puree",
+      "name": "Strawberry Purée Base",
+      "verification": "source-unverified",
+      "originalSteps": 12,
+      "detailedSteps": 12,
+      "method": "အသေးစိတ် စမ်းသပ်ဖျော်နည်း",
+      "originalCupSizes": [],
+      "proposedTrialCup": null,
+      "warnings": []
+    },
+    {
+      "id": "prep-pineapple-puree",
+      "name": "Pineapple Purée Base",
+      "verification": "source-unverified",
+      "originalSteps": 12,
+      "detailedSteps": 12,
+      "method": "အသေးစိတ် စမ်းသပ်ဖျော်နည်း",
+      "originalCupSizes": [],
+      "proposedTrialCup": null,
+      "warnings": []
+    },
+    {
+      "id": "matcha-thai-milk",
+      "name": "Thai-Style Matcha Milk",
+      "verification": "source-unverified",
+      "originalSteps": 11,
+      "detailedSteps": 11,
+      "method": "အသေးစိတ် စမ်းသပ်ဖျော်နည်း",
+      "originalCupSizes": [
+        16
+      ],
+      "proposedTrialCup": null,
+      "warnings": []
+    },
+    {
+      "id": "matcha-korean-strawberry",
+      "name": "Korean-Style Strawberry Matcha Latte",
+      "verification": "source-unverified",
+      "originalSteps": 11,
+      "detailedSteps": 11,
+      "method": "အသေးစိတ် စမ်းသပ်ဖျော်နည်း",
+      "originalCupSizes": [
+        16
+      ],
+      "proposedTrialCup": null,
+      "warnings": []
+    },
+    {
+      "id": "matcha-vietnamese-coconut",
+      "name": "Vietnamese-Style Coconut Matcha",
+      "verification": "source-unverified",
+      "originalSteps": 11,
+      "detailedSteps": 11,
+      "method": "အသေးစိတ် စမ်းသပ်ဖျော်နည်း",
+      "originalCupSizes": [
+        16
+      ],
+      "proposedTrialCup": null,
+      "warnings": []
+    },
+    {
+      "id": "matcha-american-vanilla",
+      "name": "American-Style Vanilla Matcha Latte",
+      "verification": "source-unverified",
+      "originalSteps": 11,
+      "detailedSteps": 11,
+      "method": "အသေးစိတ် စမ်းသပ်ဖျော်နည်း",
+      "originalCupSizes": [
+        16
+      ],
+      "proposedTrialCup": null,
+      "warnings": []
+    },
+    {
+      "id": "matcha-taiwanese-brown-sugar",
+      "name": "Taiwanese-Style Brown Sugar Matcha Latte",
+      "verification": "source-unverified",
+      "originalSteps": 11,
+      "detailedSteps": 11,
+      "method": "အသေးစိတ် စမ်းသပ်ဖျော်နည်း",
+      "originalCupSizes": [
+        16
+      ],
+      "proposedTrialCup": null,
+      "warnings": []
+    },
+    {
+      "id": "style-japanese-hojicha-frappe",
+      "name": "Japanese-Style Hojicha Frappé",
+      "verification": "source-unverified",
+      "originalSteps": 11,
+      "detailedSteps": 11,
+      "method": "အသေးစိတ် စမ်းသပ်ဖျော်နည်း",
+      "originalCupSizes": [
+        16
+      ],
+      "proposedTrialCup": null,
+      "warnings": []
+    },
+    {
+      "id": "style-thai-coconut-tea",
+      "name": "Thai-Style Coconut Milk Tea",
+      "verification": "source-unverified",
+      "originalSteps": 11,
+      "detailedSteps": 11,
+      "method": "အသေးစိတ် စမ်းသပ်ဖျော်နည်း",
+      "originalCupSizes": [
+        16
+      ],
+      "proposedTrialCup": null,
+      "warnings": []
+    },
+    {
+      "id": "style-italian-raspberry-float",
+      "name": "Italian-Style Raspberry Cream Soda Float",
+      "verification": "source-unverified",
+      "originalSteps": 10,
+      "detailedSteps": 10,
+      "method": "အသေးစိတ် စမ်းသပ်ဖျော်နည်း",
+      "originalCupSizes": [
+        16
+      ],
+      "proposedTrialCup": null,
+      "warnings": []
+    },
+    {
+      "id": "style-cuban-passion-mojito",
+      "name": "Virgin Passion Fruit Mojito",
+      "verification": "source-unverified",
+      "originalSteps": 10,
+      "detailedSteps": 10,
+      "method": "အသေးစိတ် စမ်းသပ်ဖျော်နည်း",
+      "originalCupSizes": [
+        16
+      ],
+      "proposedTrialCup": null,
+      "warnings": []
+    },
+    {
+      "id": "style-taiwanese-lychee-oolong",
+      "name": "Taiwanese-Style Lychee Oolong Tea",
+      "verification": "source-unverified",
+      "originalSteps": 10,
+      "detailedSteps": 10,
+      "method": "အသေးစိတ် စမ်းသပ်ဖျော်နည်း",
+      "originalCupSizes": [
+        16
+      ],
+      "proposedTrialCup": null,
+      "warnings": []
+    },
+    {
+      "id": "style-malaysian-teh-tarik",
+      "name": "Malaysian-Style Teh Tarik",
+      "verification": "source-unverified",
+      "originalSteps": 10,
+      "detailedSteps": 10,
+      "method": "အသေးစိတ် စမ်းသပ်ဖျော်နည်း",
+      "originalCupSizes": [
+        8
+      ],
+      "proposedTrialCup": null,
+      "warnings": []
+    }
+  ]
+}

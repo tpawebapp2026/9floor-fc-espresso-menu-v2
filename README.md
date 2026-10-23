@@ -12,11 +12,21 @@ https://tpawebapp2026.github.io/9floor-fc-espresso-menu-v2/
 
 [အသစ်ထည့်သော Syrup / Sauce / Fruit Concentrate / Fruit Purée လမ်းညွှန်](docs/PREPARATIONS_MM.md)
 
-- စုစုပေါင်း 272 — Barista 161 / အအေးစုံ 99 / Preparation 12 / အမျိုးအစား 32။
+- စုစုပေါင်း 283 — Barista 161 / အအေးစုံ 110 / Preparation 12 / အမျိုးအစား 34။
 - V8 မှ 259 မီနူးကို ထိန်းသိမ်း၍ V9 ဖိုင်မှ Iced Cappuccino တစ်မျိုး ထည့်ထားသည်။ မူရင်းပါ စမ်းသပ်ဖျော်နည်း အဆင့်သတ်မှတ်ချက်ကို ဆက်ပြထားသည်။
-- နိုင်ငံတကာစတိုင် 12 နိုင်ငံအလိုက် မီနူးတူများကို ပြန်စုထားသည်။ ထပ်ပွား recipe ID မဖန်တီးထားပါ။
+- နိုင်ငံတကာစတိုင် 16 နိုင်ငံအလိုက် မီနူးတူများကို ပြန်စုထားသည်။ ထပ်ပွား recipe ID မဖန်တီးထားပါ။
 - Search၊ ingredients၊ အဆင့်လိုက်ဖျော်နည်း၊ ခွက်အရေအတွက်၊ Favorites၊ Recently viewed၊ light/dark ပါသည်။
-- ဓာတ်ပုံအစစ်များ အတည်ပြုရန် ကျန်သည်။ Illustration များကို ဓာတ်ပုံအစစ်ဟု မဖော်ပြထားပါ။ မသိသောပမာဏနှင့် ခွက်အရွယ် မခန့်မှန်းထားပါ။
+- လူတကယ်ရိုက်ထားသော ကိုးကားဓာတ်ပုံ 62 ပုံကို မီနူး 283 ခုနှင့် ချိတ်ထားသည်။ တစ်မီနူးတစ်ပုံ သီးခြားဖျော်ပြီးရိုက်ထားခြင်း မဟုတ်ပါ။ အမျိုးအစားတူပုံနှင့် ပါဝင်ပစ္စည်းပုံကို ရှင်းလင်းစွာ ခွဲပြထားသည်။ မူရင်းမပါသော ခွက်အရွယ်ကို စမ်းသပ်အဆိုပြုချက်ဟု သီးခြားပြထားသည်။
+
+## စတိုင်နှင့် ဖျော်နည်း တိုးချဲ့မှု
+
+[အသေးစိတ်ပြင်ဆင်ချက်နှင့် ကန့်သတ်ချက်](docs/STYLES_AND_PROCEDURES_MM.md)
+
+- Matcha 10 မျိုးကို သီးခြားခလုတ်မှ နိုင်ငံစတိုင် 6 မျိုးအလိုက် ကြည့်နိုင်သည်။
+- စတိုင်စုံ ခလုတ်နှင့် recipe တစ်ခုချင်း၏ ဆက်စပ်စတိုင်လင့်ခ်များသည် ရှိပြီးသား ID ကိုသာ ဖွင့်သည်။
+- မူရင်း 272 recipe records အားလုံးကို hash ဖြင့် ထိန်းသိမ်းထားကြောင်း စစ်သည်။ အသစ် 11 မျိုးသည် ဆိုင်လက်တွေ့မစမ်းရသေးသော အဆိုပြုဖော်မြူလာများသာ ဖြစ်သည်။
+- V2 လမ်းညွှန်တွင် ချိန်ခြင်း၊ အစဉ်၊ ပစ္စည်းအလိုက်အပူချိန်၊ whisk/blend နှင့် သန့်ရှင်းရေး ပါသည်။ မူရင်းဖျော်နည်းကို ခေါက်ဖွင့်ဖတ်နိုင်သည်။ ပျောက်နေသောပမာဏကို အတည်ပြုပြီးဟု မဖော်ပြပါ။
+- g ↔ ml calculator ကို မီနူးအားလုံးတွင် ခေါက်ဖွင့်နိုင်သည်။ မိမိအသုံးပြုသောပစ္စည်း၏ sample သိပ်သည်းဆဖြင့်တွက်ပြီး powder / မသိသော syrup အတွက် 1:1 မတီထွင်ပါ။
 
 ## ဖုန်းတွင် အသုံးပြုရန်
 
@@ -34,7 +44,7 @@ Static Pages တွင် server API မ run နိုင်၍ Admin login / ed
 
 ## စမ်းသပ်မှု
 
-Unit/API tests 23 နှင့် မူရင်း recipe 260 ခု၏ field အားလုံးကို ထိန်းသိမ်းထားကြောင်း regression စမ်းသပ်ချက် ပါသည်။ တိုးချဲ့မှု၏ browser / CI test ရလဒ်ကို Actions run မှ စစ်ပါ။ API tests တွင် mock Supabase သုံးသဖြင့် live DB/RLS စစ်ပြီးဟု မဆိုရ။ GitHub Actions မှ Pages builds / tests / deployments အောင်မြင်ပြီး remote A → B တွင် update အသိပေးချက်၊ activation/reload နှင့် Favorites ကျန်ရှိမှုကို စမ်းထားသည်။ အသိပေးချက် ထပ်ပေါ်မှုကို တွေ့ရှိ၍ worker URL ကို build version နှင့် တသမတ်တည်းဖြစ်အောင် ပြင်ထားသည်။ Physical iPhone / Android / Add to Home Screen tests၊ live Admin၊ DB permissions နှင့် production deployment တို့ ကျန်သည်။
+Unit/API tests 27 နှင့် မူရင်း recipe 260 ခု၏ field အားလုံးကို ထိန်းသိမ်းထားကြောင်း regression စမ်းသပ်ချက် ပါသည်။ တိုးချဲ့မှု၏ browser / CI test ရလဒ်ကို Actions run မှ စစ်ပါ။ API tests တွင် mock Supabase သုံးသဖြင့် live DB/RLS စစ်ပြီးဟု မဆိုရ။ GitHub Actions မှ Pages builds / tests / deployments အောင်မြင်ပြီး remote A → B တွင် update အသိပေးချက်၊ activation/reload နှင့် Favorites ကျန်ရှိမှုကို စမ်းထားသည်။ အသိပေးချက် ထပ်ပေါ်မှုကို တွေ့ရှိ၍ worker URL ကို build version နှင့် တသမတ်တည်းဖြစ်အောင် ပြင်ထားသည်။ Physical iPhone / Android / Add to Home Screen tests၊ live Admin၊ DB permissions နှင့် production deployment တို့ ကျန်သည်။
 
 ## Developer commands
 
@@ -52,3 +62,12 @@ public/recipes.json သည် dataset ဖြစ်သည်။ migration_source/
 - [Migration audit](docs/migration-audit.json)
 
 အစောပိုင်း docs များရှိ deployment မတင်ရသေးဟူသော status စာသားများအတွက် အပေါ်ပါ README ၏ လက်ရှိအခြေအနေကို ဦးစားပေးဖတ်ပါ။ Full backend လမ်းညွှန်များသည် နောက်ထပ် deployment လိုအပ်သောအပိုင်း ဖြစ်သည်။
+
+
+## ပုံအစစ်နှင့် ဖုန်းမီနူး တိုးချဲ့မှု
+
+ဖုန်းဒေါင်လိုက်တွင် အပေါ်ခလုတ် 4 ခုလုံး နှစ်တန်းပြသည်။ နိုင်ငံတကာစတိုင်မှ အစုံ / Barista / အအေးစုံ ရွေးနိုင်ပြီး အအေးမီနူး 99 မျိုးကို 6 စတိုင် ခွဲထားသည်။ မူရင်း recipe ID၊ နံပါတ်၊ ပမာဏနှင့် Favorites storage key မပြောင်းပါ။ Photos ကို တူညီသော hosting မှ WebP / content hash ဖိုင်များဖြင့် ပေးသည်။ မီနူးအသေးစိတ်တွင် ပုံရှင်နှင့် လိုင်စင်ပါသည်။
+
+[အသုံးပြုပုံနှင့် ကန့်သတ်ချက်](docs/PHOTOS_AND_WORLD_MM.md) · [ဓာတ်ပုံရင်းမြစ်](docs/photos/CREDITS.md)
+
+Local validation: unit/API 27; Pages Chromium 9. Physical iPhone/Android/A2HS နှင့် live backend tests ကျန်သည်။ Preview သို့ deployment အောင်မြင်ခြင်းကို Actions run မှ အတည်ပြုပါ။

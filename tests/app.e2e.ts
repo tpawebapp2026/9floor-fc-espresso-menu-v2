@@ -1,3 +1,4 @@
+import { getProcedure } from "../src/procedure";
 import { test, expect } from "@playwright/test";
 import { readFileSync } from "node:fs";
 const seed = JSON.parse(readFileSync("public/recipes.json", "utf8"));
@@ -12,7 +13,9 @@ test("every migrated menu opens the correct detail page", async ({ page }) => {
     await expect(page.locator(".ingredient")).toHaveCount(
       recipe.ingredients.length,
     );
-    await expect(page.locator(".step")).toHaveCount(recipe.steps.length);
+    await expect(page.locator(".step")).toHaveCount(
+      getProcedure(recipe).steps.length,
+    );
   }
 });
 test("mobile search, departments, international, favorites, recent and theme", async ({
@@ -34,13 +37,13 @@ test("mobile search, departments, international, favorites, recent and theme", a
   await page.getByRole("button", { name: "← မီနူးများသို့ ပြန်ရန်" }).click();
   await page.getByRole("searchbox").fill("");
   await page.getByRole("button", { name: /အအေးစုံလိုင်း/ }).click();
-  await expect(page.locator(".recipe-card")).toHaveCount(99);
+  await expect(page.locator(".recipe-card")).toHaveCount(110);
   await page
     .locator(".bottom-nav")
     .getByRole("button", { name: "နိုင်ငံတကာ" })
     .click();
   await page.getByRole("button", { name: /🇻🇳/ }).click();
-  await expect(page.locator(".recipe-card")).toHaveCount(3);
+  await expect(page.locator(".recipe-card")).toHaveCount(4);
   await page
     .locator(".bottom-nav")
     .getByRole("button", { name: "အကြိုက်ဆုံး" })

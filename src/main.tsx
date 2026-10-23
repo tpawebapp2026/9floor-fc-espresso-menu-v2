@@ -9,14 +9,22 @@ import {
 } from "./model";
 import { fetchPublished, loadLocal, saveLocal, db } from "./data";
 import { registerUpdates } from "./pwa";
-import { countries, countryRecipes } from "./international";
+import { countries, coldStyles, internationalRecipes } from "./international";
 import { preparationGroups, isPreparation } from "./preparations";
 import DensityConverter from "./DensityConverter";
+import RecipePhoto, { PhotoCredit } from "./RecipePhoto";
+import {
+  getProcedure,
+  relatedStyles,
+  familyNames,
+  recipeFamily,
+} from "./procedure";
+import { isMatcha, matchaStyles, matchaStyle } from "./matcha";
 import Admin from "./Admin";
 import "@fontsource/noto-sans-myanmar/myanmar-400.css";
 import "@fontsource/noto-sans-myanmar/myanmar-700.css";
 import "./style.css";
-import { STATIC_READER, readRoute, routeURL } from "./platform";
+import { STATIC_READER, readRoute, routeURL, asset } from "./platform";
 function stored<T>(key: string, fallback: T): T {
   try {
     return JSON.parse(localStorage.getItem(key) || "null") ?? fallback;
@@ -38,6 +46,9 @@ function App() {
     [query, setQuery] = useState(""),
     [category, setCategory] = useState(""),
     [country, setCountry] = useState(""),
+    [worldLine, setWorldLine] = useState(""),
+    [worldStyle, setWorldStyle] = useState(""),
+    [matchaCountry, setMatchaCountry] = useState(""),
     [view, setView] = useState("menu"),
     [path, setPath] = useState(readRoute()),
     [fav, setFav] = useState<string[]>(() => stored("9floor-v2-favorites", [])),
@@ -171,6 +182,9 @@ function App() {
     setQuery("");
     setCategory("");
     setCountry("");
+    setWorldLine("");
+    setWorldStyle("");
+    setMatchaCountry("");
     navigate("/");
   };
   const selected = path.startsWith("/recipe/")
@@ -178,21 +192,29 @@ function App() {
     : null;
   const source = catalog?.recipes || [];
   const currentRecipes =
-    view === "preparations"
-      ? source.filter(isPreparation)
-      : view === "world"
-        ? country
-          ? countryRecipes(source, country)
-          : source.filter((r) =>
-              countries.some((c) => c.pattern.test(r.englishName)),
+    view === "styles"
+      ? source
+      : view === "preparations"
+        ? source.filter(isPreparation)
+        : view === "matcha"
+          ? source.filter(
+              (r) =>
+                isMatcha(r) &&
+                (!matchaCountry || matchaStyle(r)?.id === matchaCountry),
             )
-        : view === "favorites"
-          ? source.filter((r) => fav.includes(r.id))
-          : view === "recent"
-            ? recent
-                .map((id) => source.find((r) => r.id === id))
-                .filter((r): r is Recipe => !!r)
-            : source.filter((r) => r.line === line && !isPreparation(r));
+          : view === "world"
+            ? internationalRecipes(source, worldLine, country, worldStyle)
+            : view === "favorites"
+              ? source.filter((r) => fav.includes(r.id))
+              : view === "recent"
+                ? recent
+                    .map((id) => source.find((r) => r.id === id))
+                    .filter((r): r is Recipe => !!r)
+                : source.filter(
+                    (r) =>
+                      !isPreparation(r) &&
+                      (query.trim() ? true : r.line === line),
+                  );
   const results = searchRecipes(currentRecipes, query).filter(
     (r) => !category || r.categoryId === category,
   );
@@ -207,7 +229,7 @@ function App() {
             9FLOOR FC<small>ESPRESSO MENU · V2</small>
           </span>
         </button>
-        <nav className="desktop-nav">
+        <nav className="desktop-nav" aria-label="အဓိကမီနူး">
           <button
             className={view === "menu" ? "active" : ""}
             onClick={() => selectView("menu")}
@@ -270,6 +292,8 @@ function App() {
         <RecipeDetail
           key={selected.id}
           recipe={selected}
+          related={relatedStyles(selected, source)}
+          open={(id) => navigate("/recipe/" + id)}
           favorite={fav.includes(selected.id)}
           toggle={() => toggle(selected.id)}
           back={() => navigate("/")}
@@ -328,63 +352,163 @@ function App() {
             <div>
               <span className="eyebrow">YOUR RECIPE LIBRARY</span>
               <h2>
-                {view === "preparations"
-                  ? "ဖျော်ရည်၏ အခြေခံလက်ရာများ"
-                  : view === "world"
-                    ? "နိုင်ငံတကာ နာမည်ကြီးစတိုင်များ"
-                    : view === "favorites"
-                      ? "အကြိုက်ဆုံး မီနူးများ"
-                      : view === "recent"
-                        ? "မကြာသေးမီက ကြည့်ထားသောမီနူးများ"
-                        : "ဒီနေ့ ဘာဖျော်မလဲ။"}
+                {view === "styles"
+                  ? "အမျိုးအစားအလိုက် စတိုင်စုံ"
+                  : view === "matcha"
+                    ? "Matcha — နိုင်ငံတကာစတိုင်များ"
+                    : view === "preparations"
+                      ? "ဖျော်ရည်၏ အခြေခံလက်ရာများ"
+                      : view === "world"
+                        ? "နိုင်ငံတကာ နာမည်ကြီးစတိုင်များ"
+                        : view === "favorites"
+                          ? "အကြိုက်ဆုံး မီနူးများ"
+                          : view === "recent"
+                            ? "မကြာသေးမီက ကြည့်ထားသောမီနူးများ"
+                            : "ဒီနေ့ ဘာဖျော်မလဲ။"}
               </h2>
             </div>
             <span className="muted">သင်ယူ · စမ်းသပ် · ဖန်တီး</span>
           </div>
           {view === "menu" && (
-            <div className="line-tabs">
+            <>
+              <div className="line-tabs">
+                <button
+                  className={line === "barista" ? "selected" : ""}
+                  onClick={() => {
+                    setLine("barista");
+                    setCategory("");
+                    setQuery("");
+                  }}
+                >
+                  <span className="tab-icon">☕</span>
+                  <span>
+                    <b>Barista ကော်ဖီလိုင်း</b>
+                    <small>Espresso · Brew · Signature</small>
+                  </span>
+                  <span className="tab-count">
+                    {
+                      source.filter(
+                        (r) => r.line === "barista" && !isPreparation(r),
+                      ).length
+                    }
+                  </span>
+                </button>
+                <button
+                  className={line === "cold" ? "selected cold" : ""}
+                  onClick={() => {
+                    setLine("cold");
+                    setCategory("");
+                    setQuery("");
+                  }}
+                >
+                  <span className="tab-icon">◒</span>
+                  <span>
+                    <b>အအေးစုံလိုင်း</b>
+                    <small>Tea · Soda · Smoothie · Milk</small>
+                  </span>
+                  <span className="tab-count">
+                    {
+                      source.filter(
+                        (r) => r.line === "cold" && !isPreparation(r),
+                      ).length
+                    }
+                  </span>
+                </button>
+              </div>
               <button
-                className={line === "barista" ? "selected" : ""}
-                onClick={() => {
-                  setLine("barista");
-                  setCategory("");
-                  setQuery("");
-                }}
+                className="matcha-shortcut"
+                onClick={() => selectView("matcha")}
               >
-                <span className="tab-icon">☕</span>
-                <span>
-                  <b>Barista ကော်ဖီလိုင်း</b>
-                  <small>Espresso · Brew · Signature</small>
-                </span>
-                <span className="tab-count">
-                  {
-                    source.filter(
-                      (r) => r.line === "barista" && !isPreparation(r),
-                    ).length
-                  }
-                </span>
+                🍵 Matcha သီးသန့်ကြည့်ရန် · {source.filter(isMatcha).length}{" "}
+                မျိုး <span>ထိုင်းနှင့် နိုင်ငံတကာစတိုင်များ ↗</span>
               </button>
               <button
-                className={line === "cold" ? "selected cold" : ""}
-                onClick={() => {
-                  setLine("cold");
-                  setCategory("");
-                  setQuery("");
-                }}
+                className="matcha-shortcut"
+                onClick={() => selectView("styles")}
               >
-                <span className="tab-icon">◒</span>
-                <span>
-                  <b>အအေးစုံလိုင်း</b>
-                  <small>Tea · Soda · Smoothie · Milk</small>
-                </span>
-                <span className="tab-count">
-                  {
-                    source.filter((r) => r.line === "cold" && !isPreparation(r))
-                      .length
-                  }
-                </span>
+                အမျိုးအစားအားလုံး၏ စတိုင်စုံ ကြည့်ရန် ↗
               </button>
+              {query.trim() && (
+                <p className="muted search-scope">
+                  ကော်ဖီနှင့် အအေးစုံ နှစ်လိုင်းလုံးမှ ရှာဖွေထားသည်။
+                </p>
+              )}
+            </>
+          )}
+          {view === "styles" && (
+            <div className="matcha-styles" aria-label="စတိုင်အုပ်စုများ">
+              {Object.entries(familyNames).map(([id, name]) => (
+                <button
+                  key={id}
+                  onClick={() => {
+                    setQuery("");
+                    setCategory("");
+                    document.getElementById("family-" + id)?.scrollIntoView();
+                  }}
+                >
+                  {name}
+                  <small>
+                    {source.filter((r) => recipeFamily(r) === id).length} မျိုး
+                  </small>
+                </button>
+              ))}
             </div>
+          )}
+          {view === "styles" &&
+            Object.entries(familyNames).map(([id, name]) => (
+              <details className="detail-panel" id={"family-" + id} key={id}>
+                <summary>{name}</summary>
+                <div className="related-styles">
+                  {source
+                    .filter((r) => recipeFamily(r) === id)
+                    .map((r) => (
+                      <button
+                        key={r.id}
+                        onClick={() => navigate("/recipe/" + r.id)}
+                      >
+                        {r.menuNumber || ""} {r.englishName}
+                      </button>
+                    ))}
+                </div>
+              </details>
+            ))}
+          {view === "matcha" && (
+            <>
+              <p className="muted">
+                Pure matcha နှင့် premix ကို ပမာဏတူ အစားမထိုးပါနှင့်။
+                နိုင်ငံအမည်များသည် စတိုင်ရည်ညွှန်းချက်ဖြစ်ပြီး အသစ်များကို
+                ဆိုင်မရောင်းမီ အရသာစမ်းပါ။
+              </p>
+              <div className="matcha-styles" aria-label="Matcha စတိုင်ရွေးရန်">
+                <button
+                  className={!matchaCountry ? "selected" : ""}
+                  onClick={() => {
+                    setMatchaCountry("");
+                    setCategory("");
+                    setQuery("");
+                  }}
+                >
+                  စတိုင်အားလုံး
+                </button>
+                {matchaStyles.map((s) => (
+                  <button
+                    key={s.id}
+                    className={matchaCountry === s.id ? "selected" : ""}
+                    onClick={() => {
+                      setMatchaCountry(s.id);
+                      setCategory("");
+                      setQuery("");
+                    }}
+                  >
+                    {s.flag} {s.name}
+                    <small>
+                      {source.filter((r) => matchaStyle(r)?.id === s.id).length}{" "}
+                      မျိုး
+                    </small>
+                  </button>
+                ))}
+              </div>
+            </>
           )}
           {view === "preparations" && (
             <>
@@ -426,25 +550,107 @@ function App() {
           {view === "world" && (
             <>
               <p className="muted">
-                မူရင်းမီနူးများမှ နိုင်ငံစတိုင်အလိုက် ပြန်လည်စုစည်းထားသည်။
+                လက်ရှိကော်ဖီနှင့် အအေးမီနူးများကို ပြန်လည်စုစည်းထားသည်။
+                နိုင်ငံအမည်များသည် စတိုင်ရည်ညွှန်းချက်ဖြစ်ပြီး
                 ဒေသမူရင်းစစ်မှန်မှုကို အတည်ပြုထားခြင်း မရှိသေးပါ။
               </p>
+              <div
+                className="world-lines"
+                aria-label="နိုင်ငံတကာ မီနူးလိုင်းရွေးရန်"
+              >
+                {[
+                  ["", "အစုံ"],
+                  ["barista", "Barista ကော်ဖီ"],
+                  ["cold", "အအေးစုံ"],
+                ].map(([value, label]) => (
+                  <button
+                    key={value}
+                    aria-pressed={worldLine === value}
+                    onClick={() => {
+                      setWorldLine(value);
+                      setWorldStyle("");
+                      setCountry("");
+                      setCategory("");
+                      setQuery("");
+                    }}
+                  >
+                    {label}
+                    <small>
+                      {internationalRecipes(source, value).length} မီနူး
+                    </small>
+                  </button>
+                ))}
+              </div>
+              {worldLine === "cold" && (
+                <div
+                  className="cold-style-grid"
+                  aria-label="နိုင်ငံတကာ အအေးစတိုင်များ"
+                >
+                  <button
+                    className={!worldStyle ? "selected" : ""}
+                    onClick={() => {
+                      setWorldStyle("");
+                      setCountry("");
+                      setCategory("");
+                      setQuery("");
+                    }}
+                  >
+                    အအေးစုံ အားလုံး ·{" "}
+                    {internationalRecipes(source, "cold").length}
+                  </button>
+                  {coldStyles.map((s) => (
+                    <button
+                      key={s.id}
+                      className={worldStyle === s.id ? "selected" : ""}
+                      onClick={() => {
+                        setWorldStyle(s.id);
+                        setCountry("");
+                        setCategory("");
+                        setQuery("");
+                      }}
+                    >
+                      <b>{s.name}</b>
+                      <span>{s.mm}</span>
+                      <small>
+                        {internationalRecipes(source, "cold", "", s.id).length}{" "}
+                        မီနူး
+                      </small>
+                    </button>
+                  ))}
+                </div>
+              )}
               <div className="country-grid">
                 <button
                   className={!country ? "selected" : ""}
-                  onClick={() => setCountry("")}
+                  onClick={() => {
+                    setCountry("");
+                    setWorldStyle("");
+                    setCategory("");
+                    setQuery("");
+                  }}
                 >
                   🌐 အားလုံး
                 </button>
                 {countries.map((c) => (
                   <button
                     key={c.name}
+                    disabled={
+                      !internationalRecipes(source, worldLine, c.name).length
+                    }
                     className={country === c.name ? "selected" : ""}
-                    onClick={() => setCountry(c.name)}
+                    onClick={() => {
+                      setCountry(c.name);
+                      setWorldStyle("");
+                      setCategory("");
+                      setQuery("");
+                    }}
                   >
                     <span>{c.flag}</span>
                     <b>{c.name}</b>
-                    <small>{countryRecipes(source, c.name).length} မီနူး</small>
+                    <small>
+                      {internationalRecipes(source, worldLine, c.name).length}{" "}
+                      မီနူး
+                    </small>
                   </button>
                 ))}
               </div>
@@ -502,18 +708,7 @@ function App() {
                   aria-label={`${r.englishName} ဖျော်နည်းကြည့်ရန်`}
                 >
                   <div className={"card-image " + r.line}>
-                    {r.image ? (
-                      <img src={r.image} alt={r.englishName} loading="lazy" />
-                    ) : (
-                      <>
-                        <span className="illustration" aria-hidden="true">
-                          {r.line === "barista" ? "☕" : "◒"}
-                        </span>
-                        <span className="photo-label">
-                          ဓာတ်ပုံအတည်ပြုရန် ကျန်ရှိ
-                        </span>
-                      </>
-                    )}
+                    <RecipePhoto recipe={r} />
                     <span className="number">
                       {r.menuNumber || r.id.toUpperCase()}
                     </span>
@@ -595,12 +790,19 @@ function App() {
             </div>
             <small>
               မူရင်းဖိုင်ပါ ဖျော်နည်းများ၏ အတည်ပြုအဆင့်ကို မီနူးတစ်ခုချင်းစီတွင်
-              ကြည့်ပါ။ အော့ဖ်လိုင်းဖုန်းများ အင်တာနက်ပြန်ရမှ Update ရနိုင်ပါသည်။
+              ကြည့်ပါ။ အော့ဖ်လိုင်းဖုန်းများ အင်တာနက်ပြန်ရမှ Update ရနိုင်ပါသည်။{" "}
+              <a
+                href={asset("photo-credits.html")}
+                target="_blank"
+                rel="noreferrer"
+              >
+                ဓာတ်ပုံရှင်များနှင့် အသုံးပြုခွင့်
+              </a>
             </small>
           </footer>
         </main>
       )}
-      <nav className="bottom-nav">
+      <nav className="bottom-nav" aria-label="အမြန်မီနူး">
         <button onClick={() => selectView("preparations")}>
           ◈<span>အခြေခံ</span>
         </button>
@@ -626,13 +828,18 @@ function RecipeDetail({
   toggle,
   back,
   categoryName,
+  related,
+  open,
 }: {
   recipe: Recipe;
   favorite: boolean;
   toggle: () => void;
   back: () => void;
   categoryName: string;
+  related: Recipe[];
+  open: (id: string) => void;
 }) {
+  const procedure = getProcedure(r);
   const [servings, setServings] = useState(1);
   const [checks, setChecks] = useState<number[]>([]);
   const egg = /egg|ကြက်ဥ/i.test(
@@ -662,15 +869,9 @@ function RecipeDetail({
       <div className="detail-layout">
         <div>
           <div className="detail-photo">
-            {r.image ? (
-              <img alt={r.englishName} src={r.image} />
-            ) : (
-              <div className="no-photo">
-                <span>☕</span>
-                <p>ဓာတ်ပုံအစစ်ကို အတည်ပြုမပြီးသေးပါ။</p>
-              </div>
-            )}
+            <RecipePhoto recipe={r} detail />
           </div>
+          <PhotoCredit recipe={r} />
           <div className="notice">
             {r.verification === "owner-tested"
               ? "ပိုင်ရှင် စမ်းသပ်အတည်ပြုထားသည်"
@@ -760,15 +961,32 @@ function RecipeDetail({
               </p>
             )}
           </section>
-          {isPreparation(r) && <DensityConverter />}
+          {isPreparation(r) ? (
+            <DensityConverter />
+          ) : (
+            <details className="detail-panel">
+              <summary>မိမိပစ္စည်း၏ သိပ်သည်းဆဖြင့် g ↔ ml တွက်ရန်</summary>
+              <DensityConverter />
+            </details>
+          )}
           <section className="detail-panel">
             <div className="panel-heading">
               <h2>ဖျော်နည်း အဆင့်လိုက်</h2>
               <small>
-                {checks.length}/{r.steps.length}
+                {checks.length}/{procedure.steps.length}
               </small>
             </div>
-            {r.steps.map((s, i) => (
+            <p className="muted">
+              V2 လိုက်ဖျော်လမ်းညွှန် · {procedure.method}။ မူရင်းပမာဏကို
+              ထိန်းထားပြီး လုပ်ငန်းအဆင့်များ ဖြည့်ထားသည်။ အချိန်နှင့်
+              အပူချိန်အဆိုပြုချက်များကို ဆိုင်တွင် စမ်းသပ်အတည်ပြုရန် လိုသည်။
+            </p>
+            {procedure.warnings.map((w, i) => (
+              <p className="notice" key={i}>
+                {w}
+              </p>
+            ))}
+            {procedure.steps.map((s, i) => (
               <label
                 className={"step " + (checks.includes(i) ? "done" : "")}
                 key={i}
@@ -793,6 +1011,26 @@ function RecipeDetail({
             <button className="text-button" onClick={() => setChecks([])}>
               အဆင့်များ ပြန်စရန် ↻
             </button>
+            <details className="original-procedure">
+              <summary>မူရင်း ဖျော်နည်းကို ဖတ်ရန်</summary>
+              <ol>
+                {r.steps.map((s, i) => (
+                  <li key={i}>{s.replace(/^\d+\.\s*/, "")}</li>
+                ))}
+              </ol>
+            </details>
+            <details className="related-procedure">
+              <summary>
+                {familyNames[recipeFamily(r)]} · ဆက်စပ် {related.length} မျိုး
+              </summary>
+              <div className="related-styles">
+                {related.map((item) => (
+                  <button key={item.id} onClick={() => open(item.id)}>
+                    {item.menuNumber || ""} {item.englishName}
+                  </button>
+                ))}
+              </div>
+            </details>
           </section>
         </div>
       </div>

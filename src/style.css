@@ -645,6 +645,7 @@ footer > small {
   margin-bottom: 100px;
 }
 .detail-photo {
+  position: relative;
   border-radius: 18px;
   overflow: hidden;
   background: var(--cream);
@@ -653,6 +654,8 @@ footer > small {
   place-content: center;
 }
 .detail-photo img {
+  position: absolute;
+  inset: 0;
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -662,6 +665,39 @@ footer > small {
   color: var(--muted);
   padding: 20px;
   font-size: 12px;
+}
+.reference-photo-label {
+  position: absolute;
+  left: 8px;
+  bottom: 8px;
+  max-width: calc(100% - 16px);
+  padding: 3px 7px;
+  background: #fbf9f0ed;
+  color: #193d32;
+  border-radius: 6px;
+  font-size: 9px;
+  line-height: 1.8;
+}
+.photo-unavailable {
+  padding: 20px;
+  color: var(--muted);
+  font-size: 12px;
+  text-align: center;
+}
+.photo-credit {
+  font-size: 11px;
+  line-height: 1.9;
+  color: var(--muted);
+  padding: 14px 3px;
+  overflow-wrap: anywhere;
+}
+.photo-credit p {
+  margin: 6px 0;
+}
+.photo-credit a,
+footer a {
+  color: var(--green);
+  text-decoration: underline;
 }
 .no-photo > span {
   font-size: 70px;
@@ -1324,15 +1360,119 @@ select,
   font-weight: 700;
   overflow-wrap: anywhere;
 }
+.world-lines {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 10px;
+  margin: 18px 0;
+}
+.matcha-shortcut {
+  width: 100%;
+  padding: 15px;
+  margin: 0 0 18px;
+  border: 1px solid var(--green);
+  border-radius: 12px;
+  background: var(--surface);
+  color: var(--green);
+  text-align: left;
+  font-weight: 700;
+}
+.matcha-shortcut span { display: block; font-size: 11px; font-weight: 400; margin-top: 5px; }
+.matcha-styles { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 8px; margin: 18px 0; }
+.matcha-styles button { padding: 13px 8px; border: 1px solid var(--line); border-radius: 10px; background: var(--surface); min-width: 0; overflow-wrap: anywhere; font-size: 12px; }
+.matcha-styles button:first-child { grid-column: 1 / -1; }
+.matcha-styles .selected { border-color: var(--green); box-shadow: inset 0 -2px var(--gold); }
+.matcha-styles small { display: block; color: var(--muted); margin-top: 5px; }
+@media (max-width: 600px) { .matcha-styles { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+.world-lines button,
+.cold-style-grid button {
+  min-width: 0;
+  padding: 14px 10px;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  background: var(--surface);
+  overflow-wrap: anywhere;
+}
+.world-lines small,
+.cold-style-grid span,
+.cold-style-grid small {
+  display: block;
+  font-size: 11px;
+  color: var(--muted);
+  margin-top: 6px;
+}
+.world-lines button[aria-pressed="true"],
+.cold-style-grid .selected {
+  border-color: var(--green);
+  box-shadow: inset 0 -2px var(--gold);
+}
+.cold-style-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 10px;
+  margin-bottom: 20px;
+}
+.cold-style-grid > button:first-child {
+  grid-column: 1 / -1;
+}
+.country-grid button:disabled {
+  opacity: 0.4;
+  cursor: default;
+}
+@media (max-width: 600px) {
+  .cold-style-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .world-lines button {
+    font-size: 12px;
+  }
+}
 .ingredient b {
   overflow-wrap: anywhere;
 }
 @media (max-width: 900px) {
+  .topbar {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 44px;
+    gap: 14px 12px;
+  }
+  .topbar > .icon-button {
+    grid-column: 2;
+    grid-row: 1;
+  }
+  .desktop-nav {
+    grid-column: 1 / -1;
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 8px;
+    margin: 0;
+    width: 100%;
+  }
+  .desktop-nav button {
+    min-width: 0;
+    min-height: 48px;
+    padding: 8px 6px;
+    font-size: 12px;
+    line-height: 1.8;
+    white-space: normal;
+    overflow-wrap: anywhere;
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-radius: 10px;
+  }
+  .desktop-nav .active {
+    background: var(--bg);
+    border: 1px solid var(--green);
+    box-shadow: inset 0 -2px var(--gold);
+  }
   .bottom-nav {
     grid-template-columns: repeat(5, minmax(0, 1fr));
   }
 }
 @media (max-width: 600px) {
+  .desktop-nav {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
   .preparation-groups {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
@@ -1346,3 +1486,5 @@ select,
     font-size: 10px;
   }
 }
+
+.related-styles{display:flex;flex-wrap:wrap;gap:8px;margin:16px 0}.related-styles button{padding:10px;text-align:left;max-width:100%;overflow-wrap:anywhere}.original-procedure,.related-procedure{margin-top:20px}summary{cursor:pointer;padding:12px 0;font-weight:600}.original-procedure li{margin:12px 0}
