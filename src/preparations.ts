@@ -12,7 +12,10 @@ export const preparationGroups = [
   { id: "prep-puree", name: "Fruit Purée", mm: "အသီးအနှစ်", icon: "✦" },
 ] as const;
 export function isPreparation(recipe: Pick<Recipe, "categoryId">) {
-  return preparationGroups.some((group) => group.id === recipe.categoryId);
+  return (
+    recipe.categoryId === "prep-foam" ||
+    preparationGroups.some((group) => group.id === recipe.categoryId)
+  );
 }
 export function densityFromSample(massG: number, volumeMl: number) {
   const density = massG / volumeMl;

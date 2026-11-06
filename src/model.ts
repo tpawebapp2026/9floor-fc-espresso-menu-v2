@@ -65,14 +65,7 @@ export const CatalogSchema = z
   });
 export type Recipe = z.infer<typeof RecipeSchema>;
 export type Catalog = z.infer<typeof CatalogSchema>;
-export function searchRecipes(recipes: Recipe[], query: string) {
-  const q = query.toLocaleLowerCase().trim();
-  return recipes.filter((r) =>
-    [r.englishName, r.burmeseName, r.menuNumber, r.id].some((s) =>
-      s?.toLocaleLowerCase().includes(q),
-    ),
-  );
-}
+export { searchRecipes } from "./search";
 // Scale only ingredient quantities that are unambiguous metric measurements. Preserve original text otherwise.
 export function scaleQuantity(value: string, count: number) {
   if (count === 1) return value;

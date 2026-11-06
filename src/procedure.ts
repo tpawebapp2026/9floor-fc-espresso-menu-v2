@@ -61,6 +61,17 @@ export function relatedStyles(recipe: Recipe, all: Recipe[]) {
 }
 
 export function getProcedure(r: Recipe) {
+  if (r.id.startsWith("upgrade-"))
+    return {
+      method:
+        r.categoryId === "prep-foam"
+          ? "Cold foam preparation"
+          : "Professional Trial",
+      steps: r.steps,
+      warnings: [
+        "ဖျော်စမ်းမထားသေးသော trial recipe ဖြစ်သည်။ Brand label၊ အရသာနှင့် ခွက်ဆံ့ပမာဏကို စမ်းသပ်ပါ။",
+      ],
+    };
   const n = r.englishName;
   const ice = r.ingredients.filter(iceRow),
     soda = r.ingredients.filter(carbonated),
