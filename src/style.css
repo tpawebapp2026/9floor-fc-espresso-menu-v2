@@ -1654,3 +1654,27 @@ summary {
     font-size: 12px;
   }
 }
+
+/* Keep the beginner mixing path readable on a phone. */
+#recipe-steps .step { font-size: 16px; line-height: 2; padding: 16px 12px; align-items: start; }
+.clear-intro { font-weight: 700; }
+.brewing-words, .detailed-procedure { margin: 18px 0; padding: 14px; background: var(--surface); border: 1px solid var(--line); border-radius: 12px; }
+.brewing-words summary, .detailed-procedure summary { cursor: pointer; font-weight: 700; line-height: 1.9; }
+.brewing-words dt { margin-top: 16px; font-weight: 700; }
+.brewing-words dd { margin: 6px 0 0; line-height: 2; }
+.detailed-procedure li { margin-bottom: 14px; line-height: 2; }
+
+.guide-step-copy { display: grid; gap: 10px; min-width: 0; }
+.guide-step-copy > strong { font-size: 17px; color: var(--green); }
+.guide-step-copy > small { display: block; font-size: 14px; line-height: 1.9; padding: 10px 12px; border-left: 3px solid var(--gold); background: var(--surface); }
+.guide-method, .guide-status { font-weight: 700; line-height: 1.9; }
+.guide-blocker { border-left: 4px solid #a64c22; }
+.guide-taste-target { margin: 24px 0; padding: 18px; border: 1px solid var(--line); border-radius: 14px; }
+.guide-taste-target li { margin: 10px 0; line-height: 2; }
+
+.liquid-choice { margin: 20px 0; padding: 16px; border: 2px solid var(--green); border-radius: 14px; }
+.liquid-choice legend { font-weight: 700; padding: 0 8px; }
+.liquid-choice p { line-height: 2; }
+.liquid-choice > div { display: flex; flex-wrap: wrap; gap: 12px; }
+.liquid-choice button { padding: 12px 18px; border: 1px solid var(--green); border-radius: 10px; min-height: 48px; }
+.liquid-choice button[aria-pressed="true"] { background: var(--green); color: var(--bg); }

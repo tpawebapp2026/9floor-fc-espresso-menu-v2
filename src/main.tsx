@@ -14,14 +14,12 @@ import { preparationGroups, isPreparation } from "./preparations";
 import DensityConverter from "./DensityConverter";
 import RecipePhoto, { PhotoCredit } from "./RecipePhoto";
 import RecipeQuality from "./RecipeQuality";
-import {
-  getProcedure,
-  relatedStyles,
-  familyNames,
-  recipeFamily,
-} from "./procedure";
+import { relatedStyles, familyNames, recipeFamily } from "./procedure";
 import { isMatcha, matchaStyles, matchaStyle } from "./matcha";
 import Admin from "./Admin";
+import { brewingWords } from "./clearProcedure";
+import { buildFieldGuide, guideSources } from "./fieldGuide";
+import type { LiquidChoice } from "./guideInputs";
 import "@fontsource/noto-sans-myanmar/myanmar-400.css";
 import "@fontsource/noto-sans-myanmar/myanmar-700.css";
 import "./style.css";
@@ -860,7 +858,10 @@ function RecipeDetail({
   related: Recipe[];
   open: (id: string) => void;
 }) {
-  const procedure = getProcedure(r);
+  const [liquidChoice, setLiquidChoice] = useState<LiquidChoice>();
+  const fieldGuide = buildFieldGuide(r, liquidChoice);
+  const clearSteps =
+    fieldGuide.liquidChoiceRequired && !liquidChoice ? [] : fieldGuide.steps;
   const [servings, setServings] = useState(1);
   const [checks, setChecks] = useState<number[]>([]);
   const egg = /egg|ကြက်ဥ/i.test(
@@ -931,8 +932,8 @@ function RecipeDetail({
               </p>
             </div>
           )}
-          <section className="detail-panel">
-            <h3>မှတ်ချက်များ</h3>
+          <details className="detail-panel">
+            <summary>မူရင်းမှတ်ချက်များနှင့် Recipe ဗားရှင်း</summary>
             {r.notes.map((n, i) => (
               <p key={i}>{n}</p>
             ))}
@@ -942,7 +943,7 @@ function RecipeDetail({
                 ? new Date(r.updatedAt).toLocaleDateString()
                 : "မူရင်းပြင်ဆင်ရက် မပါရှိ"}
             </small>
-          </section>
+          </details>
         </div>
         <div>
           <section className="detail-panel" id="recipe-ingredients">
@@ -978,7 +979,7 @@ function RecipeDetail({
                 ။ ခွက်အရွယ်အသစ်အတွက် အချိုး မခန့်မှန်းထားပါ။
               </p>
             )}
-            {r.ingredients.map((i, n) => (
+            {fieldGuide.effectiveRecipe.ingredients.map((i, n) => (
               <div className="ingredient" key={n}>
                 <span>{i.name}</span>
                 <b>
@@ -1014,20 +1015,85 @@ function RecipeDetail({
             <div className="panel-heading">
               <h2>ဖျော်နည်း အဆင့်လိုက်</h2>
               <small>
-                {checks.length}/{procedure.steps.length}
+                {fieldGuide.liquidChoiceRequired && !liquidChoice
+                  ? "ဖျော်မည့်ပုံစံ အရင်ရွေးပါ"
+                  : `${checks.length}/${clearSteps.length}`}
               </small>
             </div>
-            <p className="muted">
-              V2 လိုက်ဖျော်လမ်းညွှန် · {procedure.method}။ မူရင်းပမာဏကို
-              ထိန်းထားပြီး လုပ်ငန်းအဆင့်များ ဖြည့်ထားသည်။ အချိန်နှင့်
-              အပူချိန်အဆိုပြုချက်များကို ဆိုင်တွင် စမ်းသပ်အတည်ပြုရန် လိုသည်။
+            <p className="guide-method">
+              {fieldGuide.method} · {fieldGuide.mode}
             </p>
-            {procedure.warnings.map((w, i) => (
-              <p className="notice" key={i}>
-                {w}
+            <p className="guide-status">{fieldGuide.status}</p>
+            {fieldGuide.issues
+              .filter((x) => x.level === "blocker")
+              .map((x, i) => (
+                <p className="notice guide-blocker" key={i}>
+                  <b>အရင်အတည်ပြုရန် — </b>
+                  {x.message}
+                </p>
+              ))}
+            <p className="clear-intro">
+              တစ်ဆင့်ပြီးမှ နောက်တစ်ဆင့်လုပ်ပါ။ လုပ်ပြီးတဲ့အဆင့်ကို အမှန်ခြစ်ပါ။
+            </p>
+            <p className="notice">
+              {isPreparation(r)
+                ? "အောက်ပါပမာဏတွေက အခြေခံရည် တစ်ဘူးစာပါ။"
+                : "အောက်ပါအဆင့်တွေက မူရင်း တစ်ခွက်စာပါ။"}{" "}
+              ခွက်အရေအတွက် တိုးရွေးထားရင် အပေါ်က ပါဝင်ပစ္စည်းစုစုပေါင်းကို
+              ခွက်အလိုက် ခွဲသုံးပါ။
+            </p>
+            {/egg|ကြက်ဥ/i.test(r.ingredients.map((i) => i.name).join(" ")) && (
+              <p className="notice">
+                ပိုးသတ်ထားသော (Pasteurized) ကြက်ဥကိုသာ သုံးပါ။ မရရှိလျှင်
+                မဖျော်ပါနှင့်။
               </p>
-            ))}
-            {procedure.steps.map((s, i) => (
+            )}
+            <details className="brewing-words">
+              <summary>စကားလုံးတွေ မသိသေးရင် ဒီမှာနှိပ်ဖတ်ပါ</summary>
+              <dl>
+                {brewingWords.map(([word, meaning]) => (
+                  <React.Fragment key={word}>
+                    <dt>{word}</dt>
+                    <dd>{meaning}</dd>
+                  </React.Fragment>
+                ))}
+              </dl>
+            </details>
+            {fieldGuide.liquidChoiceRequired && (
+              <fieldset className="liquid-choice">
+                <legend>ဒီခွက်ကို ဘယ်ပုံစံဖျော်မလဲ။</legend>
+                <p>
+                  နို့ / ရေ နှစ်မျိုးထဲက တစ်မျိုးသာ ရွေးပါ။ နှစ်မျိုးလုံးကို
+                  စာရင်းပါပမာဏစီ မထည့်ပါနှင့်။
+                </p>
+                <div>
+                  {(["milk", "water"] as const).map((value) => (
+                    <button
+                      type="button"
+                      aria-pressed={liquidChoice === value}
+                      key={value}
+                      onClick={() => {
+                        setLiquidChoice(value);
+                        setChecks([]);
+                      }}
+                    >
+                      {value === "milk"
+                        ? "နို့ဖြင့် ဖျော်မည်"
+                        : "ရေဖြင့် ဖျော်မည်"}
+                    </button>
+                  ))}
+                </div>
+              </fieldset>
+            )}
+            {r.ingredients.some((i) => /\d\s*[–-]\s*\d/.test(i.quantity)) && (
+              <p className="notice">
+                စာရင်းမှာ အပိုင်းအခြားပါသော ပမာဏရှိပါတယ်။ ဥပမာ 150–180 g ဆိုရင်
+                အဲဒီအတွင်းက တစ်ပမာဏကို အရင်ရွေးပြီး ခွက်တိုင်းမှာ
+                တူညီစွာချိန်ပါ။ အမြင့်ဆုံးပမာဏကို အလိုအလျောက်
+                မပေါင်းထည့်ပါနှင့်။
+              </p>
+            )}
+            {clearSteps.map((s, i) => (
               <label
                 className={"step " + (checks.includes(i) ? "done" : "")}
                 key={i}
@@ -1046,12 +1112,61 @@ function RecipeDetail({
                 <span className="step-num">
                   {String(i + 1).padStart(2, "0")}
                 </span>
-                <span>{s.replace(/^\d+\.\s*/, "")}</span>
+                <span className="guide-step-copy">
+                  <strong>{s.title}</strong>
+                  <span>{s.action}</span>
+                  <small>
+                    <b>စစ်ကြည့်ပါ — </b>
+                    {s.check}
+                  </small>
+                </span>
               </label>
             ))}
             <button className="text-button" onClick={() => setChecks([])}>
               အဆင့်များ ပြန်စရန် ↻
             </button>
+            <section className="guide-taste-target">
+              <h3>ဒီမီနူးမှာ ရသင့်တဲ့အရသာ / အနေအထား</h3>
+              <p className="muted">
+                ခန့်မှန်းပစ်မှတ်သာ ဖြစ်သည်။ ဆိုင်တွင် ဖျော်စမ်းတိုင်းတာထားသော
+                ရလဒ်မဟုတ်ပါ။
+              </p>
+              <ul>
+                {fieldGuide.expected.map((x, i) => (
+                  <li key={i}>{x}</li>
+                ))}
+              </ul>
+              <h3>အရသာ မကိုက်ရင် ပြန်စစ်ရန်</h3>
+              <ul>
+                {fieldGuide.adjustments.map((x, i) => (
+                  <li key={i}>{x}</li>
+                ))}
+              </ul>
+            </section>
+            <details className="detailed-procedure">
+              <summary>
+                စမ်းသပ်ရန်ကျန်သည့်အချက်နှင့် နည်းစနစ်ကိုးကားချက်
+              </summary>
+              <p>{fieldGuide.standard}</p>
+              {fieldGuide.issues
+                .filter((x) => x.level === "trial")
+                .map((x, i) => (
+                  <p key={i}>{x.message}</p>
+                ))}
+              <ul>
+                {fieldGuide.sourceKeys.map((k) => (
+                  <li key={k}>
+                    <a
+                      href={guideSources[k].url}
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      {guideSources[k].label}
+                    </a>
+                  </li>
+                ))}
+              </ul>
+            </details>
             <details className="original-procedure">
               <summary>မူရင်း ဖျော်နည်းကို ဖတ်ရန်</summary>
               <ol>
@@ -1073,7 +1188,10 @@ function RecipeDetail({
               </div>
             </details>
           </section>
-          <RecipeQuality recipe={r} servings={servings} />
+          <RecipeQuality
+            recipe={fieldGuide.effectiveRecipe}
+            servings={servings}
+          />
         </div>
       </div>
     </main>
