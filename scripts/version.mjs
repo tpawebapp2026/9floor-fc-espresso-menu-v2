@@ -9,6 +9,9 @@ const precache = [
   base + "manifest.webmanifest",
   base + "icon-192.png",
   base + "icon-512.png",
+  base + "branding/9floor-coffee-v1.webp",
+  base + "branding/9floor-coffee-icon-192-v1.png",
+  base + "branding/9floor-coffee-icon-512-v1.png",
   ...assets,
 ];
 const manifest = JSON.parse(
@@ -19,7 +22,7 @@ manifest.scope = base;
 manifest.start_url = base;
 manifest.icons = manifest.icons.map((i) => ({
   ...i,
-  src: base + i.src.split("/").pop(),
+  src: base + i.src.replace(/^\/+/, ""),
 }));
 await writeFile("dist/manifest.webmanifest", JSON.stringify(manifest));
 if (process.env.VITE_STATIC_READER === "true") {
