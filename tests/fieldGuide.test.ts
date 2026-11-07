@@ -40,7 +40,6 @@ it("gives all 307 menus actions, completion checks, source distinctions and comp
 it("makes missing or conflicting formulas visible instead of inventing quantities", () => {
   for (const name of [
     "Moka Pot Coffee",
-    "Thai Oliang Coffee",
     "Doppio Ristretto",
     "Iced Ristretto Black",
   ])
@@ -176,4 +175,31 @@ it("never treats mojito mint as tea leaves requiring steeping", () => {
         s.title === "အနံ့ပစ္စည်း ပြင်ပါ",
     ),
   ).toBe(true);
+});
+
+it("derives Oliang water only from the original explicit step and never assumes finished yield", () => {
+  const r = structuredClone(find("Thai Oliang Coffee"));
+  const before = JSON.stringify(r);
+  const g = buildFieldGuide(r);
+  expect(g.issues.some((i) => i.level === "blocker")).toBe(false);
+  const instructions = g.steps.map((s) => s.action + s.check).join(" ");
+  expect(instructions).toContain("ရေနွေး 220 ml");
+  expect(instructions).toContain("ထွက်လာသောကော်ဖီရည် 220 ml ရမည်ဟု မဆိုလိုပါ");
+  expect(
+    g.steps.findIndex((s) => s.title === "ရေကို စိမ့်လောင်းပါ"),
+  ).toBeLessThan(g.steps.findIndex((s) => s.title === "ရေခဲထည့်ပါ"));
+  expect(JSON.stringify(r)).toBe(before);
+  r.steps = r.steps.map((s) => s.replace("220 ml", "မသိ ml"));
+  const incomplete = buildFieldGuide(r);
+  expect(incomplete.issues.some((i) => i.level === "blocker")).toBe(true);
+  expect(incomplete.steps.some((s) => s.action.includes("ရေနွေး 220 ml"))).toBe(
+    false,
+  );
+});
+it("keeps London Fog timing conditional and distinguishes brand guidance from the app formula", () => {
+  const g = guide("Iced London Fog");
+  expect(g.sourceKeys).toContain("earlGrey");
+  expect(g.issues.some((i) => i.level === "blocker")).toBe(true);
+  expect(actions("Iced London Fog")).toContain("2–3 မိနစ်");
+  expect(g.steps.map((s) => s.check).join(" ")).toContain("5 g / 90 ml");
 });

@@ -306,3 +306,19 @@ test("all six smoothies require one liquid choice, update ingredients and reset 
     ).toBe(true);
   }
 });
+
+test("source-derived Oliang water and conditional Earl Grey guidance stay legible on mobile", async ({ page }) => {
+  await page.setViewportSize({ width: 390, height: 844 });
+  await page.goto("/recipe/v8-21-03");
+  await expect(page.locator(".ingredient")).toHaveCount(3);
+  await expect(page.locator("#recipe-steps")).toContainText("ရေနွေး 220 ml ခန့်");
+  await expect(page.locator("#recipe-steps")).toContainText("ထွက်လာသောကော်ဖီရည် 220 ml ရမည်ဟု မဆိုလိုပါ");
+  await expect(page.locator(".guide-blocker")).toHaveCount(0);
+  await expect(page.locator(".step").filter({ hasText: "သကြား 15 g" })).toHaveCount(1);
+  expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);
+  await page.goto("/recipe/v8-26-06");
+  await expect(page.locator("#recipe-steps")).toContainText("Twinings Earl Grey 125 g");
+  await expect(page.locator("#recipe-steps")).toContainText("5 g / 90 ml");
+  await expect(page.locator(".guide-blocker")).toContainText("Tea နှပ်ချိန်");
+  expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);
+});

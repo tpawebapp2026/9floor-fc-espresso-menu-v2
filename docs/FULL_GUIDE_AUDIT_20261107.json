@@ -2,7 +2,7 @@
   "sourceSHA256": "6c0e62bd3a4998a117f2b4ca08dad0c05f970133fe83392d269f9ac9ee66f93d",
   "records": 307,
   "ingredientCount": 1216,
-  "blockers": 8,
+  "blockers": 7,
   "sourceResolvedMenus": 16,
   "liquidChoiceMenus": 6,
   "tasteTested": 0,
@@ -17,7 +17,7 @@
     "မှုန့်ကို အရင်ဖျော်ခြင်း": 8,
     "Affogato": 1,
     "Pasteurized egg cream ကော်ဖီ": 1,
-    "Oliang အနှစ်နှပ်ခြင်း — ရေပမာဏ အတည်ပြုရန်": 1,
+    "Oliang — အဝတ်စစ်ဖြင့် စိမ့်ဖျော်ခြင်း": 1,
     "ကော်ဖီနှပ်/ပြုတ်နည်း": 2,
     "Instant coffee အမြှုပ်ခတ်နည်း": 3,
     "Dirty Coffee — မမွှေသောက်သော အလွှာကော်ဖီ": 1,
@@ -5555,19 +5555,19 @@
       "id": "v8-21-03",
       "number": "21-03",
       "name": "Thai Oliang Coffee",
-      "method": "Oliang အနှစ်နှပ်ခြင်း — ရေပမာဏ အတည်ပြုရန်",
-      "steps": 6,
-      "status": "ဖော်မြူလာအချက်အလက် အရင်အတည်ပြုရန်",
+      "method": "Oliang — အဝတ်စစ်ဖြင့် စိမ့်ဖျော်ခြင်း",
+      "steps": 10,
+      "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
       "liquidChoiceRequired": false,
       "sourceResolutions": [],
       "issues": [
         {
-          "level": "blocker",
-          "message": "မူရင်းအဆင့်တွင် နှပ်ရေ 220 ml ခန့်ဟု ရေးထားသော်လည်း ingredients စာရင်းတွင် မပါပါ။ ဒီကွာဟချက်ကို အတည်ပြုပြီးမှ ဆက်ဖျော်ပါ။"
+          "level": "trial",
+          "message": "အနှစ်/မှုန့်၏ အချိုပါဝင်မှုနှင့် dilution အချိုးက brand အလိုက် ကွာသည်။ မိမိသုံးမည့် label နှင့် အရသာကို စမ်းသပ်ရမည်။"
         },
         {
           "level": "trial",
-          "message": "အနှစ်/မှုန့်၏ အချိုပါဝင်မှုနှင့် dilution အချိုးက brand အလိုက် ကွာသည်။ မိမိသုံးမည့် label နှင့် အရသာကို စမ်းသပ်ရမည်။"
+          "message": "Oliang ရေ 220 ml ခန့်ကို မူရင်းအဆင့် 1 မှ ရှင်းပြထားသည်။ Brand နှပ်နည်းနှင့် ထွက်ရည်ပမာဏကို စမ်းသပ်ရန် ကျန်သည်။ Ingredients ဇယားကို ပြောင်းမထားပါ။"
         }
       ],
       "sources": [
@@ -6997,7 +6997,7 @@
       "number": null,
       "name": "Iced London Fog",
       "method": "အရွက်နှပ်ပြီး ရောဖျော်ခြင်း",
-      "steps": 11,
+      "steps": 12,
       "status": "ဖော်မြူလာအချက်အလက် အရင်အတည်ပြုရန်",
       "liquidChoiceRequired": false,
       "sourceResolutions": [],
@@ -7017,7 +7017,8 @@
       ],
       "sources": [
         "sca",
-        "cold"
+        "cold",
+        "earlGrey"
       ],
       "ingredients": 5,
       "accounted": 5,
