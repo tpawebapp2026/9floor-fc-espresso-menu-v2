@@ -21,7 +21,7 @@ test("international cold menus expose six styles, existing country links and cor
     .locator(".world-lines")
     .getByRole("button", { name: /အအေးစုံ/ })
     .click();
-  await expect(page.locator(".recipe-card")).toHaveCount(110);
+  await expect(page.locator(".recipe-card")).toHaveCount(127);
   const styles = page.locator(".cold-style-grid button");
   await expect(styles).toHaveCount(7);
   for (let i = 1; i < 7; i++) {
@@ -85,6 +85,8 @@ test("locally hosted reference photographs load, carry credits and survive an of
     fullPage: false,
   });
 });
+test.describe('photo fault injection without worker interception',()=>{
+test.use({serviceWorkers:'block'});
 test("unavailable photographs show a clear text fallback without a cartoon or broken image", async ({
   page,
 }) => {
@@ -94,6 +96,7 @@ test("unavailable photographs show a clear text fallback without a cartoon or br
   await page.goto("./#/recipe/v8-01-01");
   await expect(page.locator(".detail-photo .photo-unavailable")).toBeVisible();
   await expect(page.locator(".detail-photo img")).toHaveCount(0);
+});
 });
 test("portrait and tablet headers keep all four full navigation labels visible and usable", async ({
   page,
@@ -146,9 +149,9 @@ test("Pages reader serves all menus under its repository path with a scoped mani
 }) => {
   await page.setViewportSize({ width: 390, height: 844 });
   await page.goto("./");
-  await expect(page.locator(".recipe-card")).toHaveCount(161);
+  await expect(page.locator(".recipe-card")).toHaveCount(166);
   await page.getByRole("button", { name: /အအေးစုံလိုင်း/ }).click();
-  await expect(page.locator(".recipe-card")).toHaveCount(110);
+  await expect(page.locator(".recipe-card")).toHaveCount(127);
   await expect(
     page.getByRole("button", { name: /စီမံခန့်ခွဲသူ ဝင်ရန်/ }),
   ).toHaveCount(0);
@@ -189,6 +192,8 @@ test("Pages deep recipe links reload online and offline without a server rewrite
   );
   await expect(page.locator(".step")).toHaveCount(16);
 });
+test.describe('network revision injection without worker interception',()=>{
+test.use({serviceWorkers:'block'});
 test("Pages cache-busted recipe requests receive a newer seed and resist an older one", async ({
   page,
 }) => {
@@ -197,7 +202,7 @@ test("Pages cache-busted recipe requests receive a newer seed and resist an olde
   updated.seedVersion += 100;
   updated.recipes[0].englishName = "Pages updated recipe";
   await page.goto("./");
-  await expect(page.locator(".recipe-card")).toHaveCount(161);
+  await expect(page.locator(".recipe-card")).toHaveCount(166);
   await page.route("**/recipes.json?check=*", (r) =>
     r.fulfill({ json: updated }),
   );
@@ -212,6 +217,7 @@ test("Pages cache-busted recipe requests receive a newer seed and resist an olde
     "Pages updated recipe",
   );
 });
+});
 test("Pages discovers a changed deployment manifest and activates the new scoped worker", async ({
   page,
 }) => {
@@ -219,10 +225,10 @@ test("Pages discovers a changed deployment manifest and activates the new scoped
     manifest = await readFile("dist/version.json", "utf8");
   try {
     await page.goto("./");
-    await expect(page.locator(".recipe-card")).toHaveCount(161);
+    await expect(page.locator(".recipe-card")).toHaveCount(166);
     await page.evaluate(() => navigator.serviceWorker.ready);
     await page.reload();
-    await expect(page.locator(".recipe-card")).toHaveCount(161);
+    await expect(page.locator(".recipe-card")).toHaveCount(166);
     await page.locator(".favorite").first().click();
     const version = "pages-test-" + Date.now();
     await writeFile(
@@ -255,13 +261,13 @@ test("all four preparation groups open the correct new recipes and preserve favo
 }) => {
   await page.setViewportSize({ width: 390, height: 844 });
   await page.goto("./");
-  await expect(page.locator(".recipe-card")).toHaveCount(161);
+  await expect(page.locator(".recipe-card")).toHaveCount(166);
   await page.locator(".favorite").first().click();
   await page
     .locator(".bottom-nav")
     .getByRole("button", { name: /အခြေခံ/ })
     .click();
-  await expect(page.locator(".recipe-card")).toHaveCount(12);
+  await expect(page.locator(".recipe-card")).toHaveCount(14);
   await page.screenshot({
     path: "/tmp/9floor-preparations-mobile.png",
     fullPage: true,
@@ -334,9 +340,10 @@ test("mobile Matcha discovery, country style filters and detailed related recipe
   await page.setViewportSize({ width: 390, height: 844 });
   await page.goto("./");
   await page.getByRole("searchbox").fill("Matcha");
-  await expect(page.locator(".recipe-card")).toHaveCount(10);
+  await expect(page.locator(".recipe-card")).toHaveCount(21);
+  await page.getByRole('button',{name:'ရှာထားသောစာ ဖျက်ရန်'}).click();
   await page.getByRole("button", { name: /Matcha သီးသန့်ကြည့်ရန်/ }).click();
-  await expect(page.locator(".recipe-card")).toHaveCount(10);
+  await expect(page.locator(".recipe-card")).toHaveCount(14);
   await page
     .locator(".matcha-styles")
     .getByRole("button", { name: /ထိုင်း/ })

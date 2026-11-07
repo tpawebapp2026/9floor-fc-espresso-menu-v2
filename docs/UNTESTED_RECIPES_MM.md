@@ -1,0 +1,311 @@
+# ဖျော်စမ်းရန်စာရင်း — 2026-11-07
+
+ဤ update တွင် မည်သည့် recipe ကိုမှ လက်တွေ့ဖျော်စမ်းမထားပါ။ အောက်ပါ source-unverified များကို ဆိုင်မရောင်းမီ စမ်းသပ်ရန်လိုသည်။
+
+- v8-01-01 — Iced Americano — g ပြန်တိုင်းရန်: သောက်ရေသန့် အေး၊ ရေခဲ
+- v8-01-02 — Iced Honey Americano — g ပြန်တိုင်းရန်: သောက်ရေသန့် အေး၊ ပျားရည်၊ ရေခဲ
+- v8-01-03 — Iced Lemon Americano — g ပြန်တိုင်းရန်: သောက်ရေသန့် အေး၊ သံပုရာရည်၊ သကြားရည်၊ ရေခဲ
+- v8-01-04 — Iced Orange Americano — g ပြန်တိုင်းရန်: လိမ္မော်ရည် (100% juice)၊ ရေခဲ
+- v8-01-05 — Iced Coconut Americano — g ပြန်တိုင်းရန်: အုန်းရည်၊ ရေခဲ
+- v8-01-06 — Iced Tonic Espresso — g ပြန်တိုင်းရန်: Tonic Water၊ ရေခဲ
+- v8-01-07 — Iced Yuzu Espresso — g ပြန်တိုင်းရန်: သောက်ရေသန့် အေး၊ Yuzu Syrup၊ ရေခဲ
+- v8-01-08 — Iced Peach Americano — g ပြန်တိုင်းရန်: သောက်ရေသန့် အေး၊ Peach Syrup၊ ရေခဲ
+- v8-01-09 — Iced Latte — g ပြန်တိုင်းရန်: နို့အေး (pasteurized)၊ ရေခဲ
+- v9-iced-cappuccino — Iced Cappuccino — g ပြန်တိုင်းရန်: နို့အေး (အောက်ခံ)၊ Cold Foam အတွက် နို့အေး၊ သကြားရည် (ရွေးချယ်နိုင်)
+- v8-01-10 — Iced Vanilla Latte — g ပြန်တိုင်းရန်: နို့အေး (pasteurized)၊ Vanilla Syrup၊ ရေခဲ
+- v8-01-11 — Iced Caramel Latte — g ပြန်တိုင်းရန်: နို့အေး (pasteurized)၊ Caramel Syrup၊ ရေခဲ
+- v8-01-12 — Iced Hazelnut Latte — g ပြန်တိုင်းရန်: နို့အေး (pasteurized)၊ Hazelnut Syrup၊ ရေခဲ
+- v8-01-13 — Iced Mocha — g ပြန်တိုင်းရန်: နို့အေး (pasteurized)၊ Chocolate Sauce၊ ရေခဲ
+- v8-01-14 — Iced White Mocha — g ပြန်တိုင်းရန်: နို့အေး (pasteurized)၊ White Chocolate Sauce၊ ရေခဲ
+- v8-01-15 — Iced Spanish Latte — g ပြန်တိုင်းရန်: နို့အေး (pasteurized)၊ နို့ဆီ၊ ရေခဲ
+- v8-01-16 — Iced Honey Latte — g ပြန်တိုင်းရန်: နို့အေး (pasteurized)၊ ပျားရည်၊ ရေခဲ
+- v8-01-17 — Iced Brown Sugar Latte — g ပြန်တိုင်းရန်: နို့အေး (pasteurized)၊ Brown Sugar Syrup၊ ရေခဲ
+- v8-01-18 — Iced Coconut Latte — g ပြန်တိုင်းရန်: အုန်းနို့၊ ရေခဲ
+- v8-01-19 — Iced Salted Caramel Latte — g ပြန်တိုင်းရန်: နို့အေး (pasteurized)၊ Salted Caramel Syrup၊ ရေခဲ
+- v8-01-20 — Iced Cinnamon Latte — g ပြန်တိုင်းရန်: နို့အေး (pasteurized)၊ ရေခဲ
+- v8-02-01 — Hot Espresso
+- v8-02-02 — Hot Double Espresso
+- v8-02-03 — Hot Americano — g ပြန်တိုင်းရန်: ရေနွေး (သောက်ရေသန့်)
+- v8-02-04 — Hot Long Black — g ပြန်တိုင်းရန်: ရေနွေး (သောက်ရေသန့်)
+- v8-02-05 — Hot Latte — g ပြန်တိုင်းရန်: အအေးထိန်းထားသော နို့
+- v8-02-06 — Hot Cappuccino — g ပြန်တိုင်းရန်: အအေးထိန်းထားသော နို့
+- v8-02-07 — Hot Flat White — g ပြန်တိုင်းရန်: အအေးထိန်းထားသော နို့
+- v8-02-08 — Hot Mocha — g ပြန်တိုင်းရန်: အအေးထိန်းထားသော နို့၊ Chocolate Sauce
+- v8-02-09 — Hot Vanilla Latte — g ပြန်တိုင်းရန်: အအေးထိန်းထားသော နို့၊ Vanilla Syrup
+- v8-02-10 — Hot Caramel Latte — g ပြန်တိုင်းရန်: အအေးထိန်းထားသော နို့၊ Caramel Syrup
+- v8-02-11 — Hot Honey Latte — g ပြန်တိုင်းရန်: အအေးထိန်းထားသော နို့၊ ပျားရည်
+- v8-02-12 — Hot Macchiato — g ပြန်တိုင်းရန်: အအေးထိန်းထားသော နို့
+- v8-03-01 — Coffee Frappe — g ပြန်တိုင်းရန်: နို့အေး၊ သကြားရည်
+- v8-03-02 — Caramel Coffee Frappe — g ပြန်တိုင်းရန်: နို့အေး၊ သကြားရည်၊ Caramel Syrup
+- v8-03-03 — Mocha Frappe — g ပြန်တိုင်းရန်: နို့အေး၊ သကြားရည်၊ Chocolate Sauce
+- v8-03-04 — Vanilla Coffee Frappe — g ပြန်တိုင်းရန်: နို့အေး၊ သကြားရည်၊ Vanilla Syrup
+- v8-03-05 — Hazelnut Coffee Frappe — g ပြန်တိုင်းရန်: နို့အေး၊ သကြားရည်၊ Hazelnut Syrup
+- v8-04-01 — Iced Thai Milk Tea — g ပြန်တိုင်းရန်: နို့ဆီ၊ ရေနွေး၊ နို့အေး / ရေအေး၊ ရေခဲ
+- v8-04-02 — Iced Green Milk Tea — g ပြန်တိုင်းရန်: နို့ဆီ၊ ရေနွေး၊ နို့အေး / ရေအေး၊ ရေခဲ
+- v8-04-03 — Iced Matcha Latte — g ပြန်တိုင်းရန်: သကြားရည်၊ ရေနွေး၊ နို့အေး / ရေအေး၊ ရေခဲ
+- v8-04-04 — Iced Cocoa — g ပြန်တိုင်းရန်: သကြားရည်၊ ရေနွေး၊ နို့အေး / ရေအေး၊ ရေခဲ
+- v8-04-05 — Iced Chocolate — g ပြန်တိုင်းရန်: သကြားရည်၊ ရေနွေး၊ နို့အေး / ရေအေး၊ ရေခဲ
+- v8-04-06 — Iced Milk Tea — g ပြန်တိုင်းရန်: နို့ဆီ၊ ရေနွေး၊ နို့အေး / ရေအေး၊ ရေခဲ
+- v8-04-07 — Iced Lemon Tea — g ပြန်တိုင်းရန်: သံပုရာရည်၊ သကြားရည်၊ ရေနွေး၊ နို့အေး / ရေအေး၊ ရေခဲ
+- v8-04-08 — Iced Peach Tea — g ပြန်တိုင်းရန်: Peach Syrup၊ ရေနွေး၊ နို့အေး / ရေအေး၊ ရေခဲ
+- v8-04-09 — Iced Honey Lemon Tea — g ပြန်တိုင်းရန်: ပျားရည်၊ သံပုရာရည်၊ ရေနွေး၊ နို့အေး / ရေအေး၊ ရေခဲ
+- v8-04-10 — Iced Taro Milk — g ပြန်တိုင်းရန်: သကြားရည်၊ ရေနွေး၊ နို့အေး / ရေအေး၊ ရေခဲ
+- v8-04-11 — Iced Strawberry Milk — g ပြန်တိုင်းရန်: Strawberry Syrup၊ ရေနွေး၊ နို့အေး / ရေအေး၊ ရေခဲ
+- v8-04-12 — Iced Brown Sugar Milk — g ပြန်တိုင်းရန်: Brown Sugar Syrup၊ ရေနွေး၊ နို့အေး / ရေအေး၊ ရေခဲ
+- v8-04-13 — Hot Thai Milk Tea — g ပြန်တိုင်းရန်: နို့ဆီ၊ ရေနွေး၊ နို့ (နို့လက်ဖက်ရည်/Matcha/Cocoa)
+- v8-04-14 — Hot Matcha Latte — g ပြန်တိုင်းရန်: သကြားရည်၊ ရေနွေး၊ နို့ (နို့လက်ဖက်ရည်/Matcha/Cocoa)
+- v8-04-15 — Hot Cocoa — g ပြန်တိုင်းရန်: သကြားရည်၊ ရေနွေး၊ နို့ (နို့လက်ဖက်ရည်/Matcha/Cocoa)
+- v8-04-16 — Hot Chocolate — g ပြန်တိုင်းရန်: သကြားရည်၊ ရေနွေး၊ နို့ (နို့လက်ဖက်ရည်/Matcha/Cocoa)
+- v8-04-17 — Hot Lemon Tea — g ပြန်တိုင်းရန်: သံပုရာရည်၊ သကြားရည်၊ ရေနွေး၊ နို့ (နို့လက်ဖက်ရည်/Matcha/Cocoa)
+- v8-04-18 — Hot Honey Lemon — g ပြန်တိုင်းရန်: ပျားရည်၊ သံပုရာရည်၊ ရေနွေး၊ နို့ (နို့လက်ဖက်ရည်/Matcha/Cocoa)
+- v8-05-01 — Strawberry Smoothie — g ပြန်တိုင်းရန်: နို့အေး / သောက်ရေသန့်၊ သကြားရည် (စမ်းသပ်ပမာဏ)
+- v8-05-02 — Mango Smoothie — g ပြန်တိုင်းရန်: နို့အေး / သောက်ရေသန့်၊ သကြားရည် (စမ်းသပ်ပမာဏ)
+- v8-05-03 — Banana Smoothie — g ပြန်တိုင်းရန်: နို့အေး / သောက်ရေသန့်၊ သကြားရည် (စမ်းသပ်ပမာဏ)
+- v8-05-04 — Mixed Berry Smoothie — g ပြန်တိုင်းရန်: နို့အေး / သောက်ရေသန့်၊ သကြားရည် (စမ်းသပ်ပမာဏ)
+- v8-05-05 — Yogurt Berry Smoothie — g ပြန်တိုင်းရန်: နို့အေး / သောက်ရေသန့်၊ သကြားရည် (စမ်းသပ်ပမာဏ)
+- v8-05-06 — Mango Yogurt Smoothie — g ပြန်တိုင်းရန်: နို့အေး / သောက်ရေသန့်၊ သကြားရည် (စမ်းသပ်ပမာဏ)
+- v8-06-01 — Chocolate Frappe — g ပြန်တိုင်းရန်: နို့အေး၊ သကြားရည် (စမ်းသပ်ပမာဏ)
+- v8-06-02 — Matcha Frappe — g ပြန်တိုင်းရန်: နို့အေး၊ သကြားရည် (စမ်းသပ်ပမာဏ)
+- v8-06-03 — Thai Tea Frappe — g ပြန်တိုင်းရန်: Thai Tea အနှစ်၊ နို့အေး၊ သကြားရည် (စမ်းသပ်ပမာဏ)
+- v8-06-04 — Oreo Milk Frappe — g ပြန်တိုင်းရန်: Oreo Biscuit၊ နို့အေး၊ သကြားရည် (စမ်းသပ်ပမာဏ)
+- v8-06-05 — Vanilla Milk Frappe — g ပြန်တိုင်းရန်: Vanilla Syrup၊ နို့အေး၊ သကြားရည် (စမ်းသပ်ပမာဏ)
+- v8-07-01 — Strawberry Soda — g ပြန်တိုင်းရန်: Strawberry Syrup၊ Soda Water၊ ရေခဲ
+- v8-07-02 — Blue Lemon Soda — g ပြန်တိုင်းရန်: Blue Curaçao (အရက်မပါသော Syrup)၊ သံပုရာရည်၊ Soda Water၊ ရေခဲ
+- v8-07-03 — Passion Fruit Soda — g ပြန်တိုင်းရန်: Passion Fruit Syrup၊ Soda Water၊ ရေခဲ
+- v8-07-04 — Lychee Soda — g ပြန်တိုင်းရန်: Lychee Syrup၊ Soda Water၊ ရေခဲ
+- v8-07-05 — Peach Soda — g ပြန်တိုင်းရန်: Peach Syrup၊ Soda Water၊ ရေခဲ
+- v8-07-06 — Honey Lemon Soda — g ပြန်တိုင်းရန်: ပျားရည်၊ သံပုရာရည်၊ Soda Water၊ ရေခဲ
+- v8-07-07 — Yuzu Soda — g ပြန်တိုင်းရန်: Yuzu Syrup၊ Soda Water၊ ရေခဲ
+- v8-08-01 — Fresh Lemonade — g ပြန်တိုင်းရန်: သံပုရာရည်၊ သကြားရည်၊ သောက်ရေသန့်အေး၊ ရေခဲ
+- v8-08-02 — Orange Cooler — g ပြန်တိုင်းရန်: လိမ္မော်ရည်၊ သောက်ရေသန့်အေး၊ ရေခဲ
+- v8-08-03 — Passion Fruit Cooler — g ပြန်တိုင်းရန်: Passion Fruit Syrup၊ သောက်ရေသန့်အေး၊ ရေခဲ
+- v8-08-04 — Lychee Cooler — g ပြန်တိုင်းရန်: Lychee Syrup၊ သောက်ရေသန့်အေး၊ ရေခဲ
+- v8-08-05 — Peach Cooler — g ပြန်တိုင်းရန်: Peach Syrup၊ သောက်ရေသန့်အေး၊ ရေခဲ
+- v8-08-06 — Honey Lemon Cooler — g ပြန်တိုင်းရန်: ပျားရည်၊ သံပုရာရည်၊ သောက်ရေသန့်အေး၊ ရေခဲ
+- v8-09-01 — Strawberry Fruit Tea — g ပြန်တိုင်းရန်: လက်ဖက်ရည်အနက်အေး၊ Strawberry Syrup၊ သံပုရာရည်၊ ရေအေး
+- v8-09-02 — Mango Fruit Tea — g ပြန်တိုင်းရန်: လက်ဖက်ရည်စိမ်းအေး၊ သံပုရာရည်၊ ရေအေး
+- v8-09-03 — Pineapple Fruit Tea — g ပြန်တိုင်းရန်: လက်ဖက်ရည်စိမ်းအေး၊ နာနတ်သီးရည်၊ သံပုရာရည်၊ သကြားရည်
+- v8-09-04 — Apple Green Tea — g ပြန်တိုင်းရန်: လက်ဖက်ရည်စိမ်းအေး၊ Green Apple Syrup၊ သံပုရာရည်၊ ရေအေး
+- v8-09-05 — Watermelon Fruit Tea — g ပြန်တိုင်းရန်: လက်ဖက်ရည်စိမ်းအေး၊ ဖရဲသီးရည်စစ်၊ သံပုရာရည်၊ သကြားရည်
+- v8-09-06 — Grapefruit Honey Tea — g ပြန်တိုင်းရန်: လက်ဖက်ရည်စိမ်းအေး၊ Grapefruit Juice၊ ပျားရည်
+- v8-09-07 — Kiwi Fruit Tea — g ပြန်တိုင်းရန်: လက်ဖက်ရည်စိမ်းအေး၊ သံပုရာရည်၊ သကြားရည်
+- v8-09-08 — Roselle Lemon Tea — g ပြန်တိုင်းရန်: ချဉ်ပေါင်ဖူး (Roselle) ရေနွေးကြမ်းအေး၊ သံပုရာရည်၊ သကြားရည်၊ ရေအေး
+- v8-10-01 — Green Apple Soda — g ပြန်တိုင်းရန်: Green Apple Syrup၊ သံပုရာရည်၊ Soda Water
+- v8-10-02 — Mango Soda — g ပြန်တိုင်းရန်: Mango Syrup၊ သံပုရာရည်၊ Soda Water
+- v8-10-03 — Pineapple Soda — g ပြန်တိုင်းရန်: Pineapple Syrup၊ သံပုရာရည်၊ Soda Water
+- v8-10-04 — Watermelon Soda — g ပြန်တိုင်းရန်: Watermelon Syrup၊ သံပုရာရည်၊ Soda Water
+- v8-10-05 — Raspberry Soda — g ပြန်တိုင်းရန်: Raspberry Syrup၊ သံပုရာရည်၊ Soda Water
+- v8-10-06 — Blueberry Soda — g ပြန်တိုင်းရန်: Blueberry Syrup၊ သံပုရာရည်၊ Soda Water
+- v8-10-07 — Grapefruit Soda — g ပြန်တိုင်းရန်: Grapefruit Juice၊ သကြားရည်၊ Soda Water
+- v8-10-08 — Cucumber Lime Soda — g ပြန်တိုင်းရန်: သခွားသီးရည်စစ်၊ သံပုရာရည်၊ သကြားရည်၊ Soda Water
+- v8-11-01 — Virgin Mojito — g ပြန်တိုင်းရန်: ပူဒီနာရွက်၊ သံပုရာရည်၊ သကြားရည်၊ Soda Water
+- v8-11-02 — Blue Lagoon Mocktail — g ပြန်တိုင်းရန်: Blue Curaçao Syrup (non-alcoholic)၊ သံပုရာရည်၊ Soda Water
+- v8-11-03 — Sunrise Mocktail — g ပြန်တိုင်းရန်: လိမ္မော်ရည်၊ Grenadine Syrup (non-alcoholic)၊ Soda Water
+- v8-11-04 — Tropical Punch — g ပြန်တိုင်းရန်: နာနတ်သီးရည်၊ လိမ္မော်ရည်၊ သံပုရာရည်
+- v8-11-05 — Virgin Piña Colada — g ပြန်တိုင်းရန်: နာနတ်သီးရည်၊ အုန်းနို့၊ သကြားရည်
+- v8-11-06 — Strawberry Mint Cooler — g ပြန်တိုင်းရန်: ပူဒီနာရွက်၊ သံပုရာရည်၊ Soda Water
+- v8-11-07 — Passion Sunrise — g ပြန်တိုင်းရန်: လိမ္မော်ရည်၊ Grenadine Syrup (non-alcoholic)၊ Soda Water
+- v8-11-08 — Ginger Lime Fizz — g ပြန်တိုင်းရန်: Ginger Syrup၊ သံပုရာရည်၊ Soda Water
+- v8-12-01 — Mango Yogurt Drink — g ပြန်တိုင်းရန်: ဒိန်ချဉ်အရည်၊ နို့အေး၊ သကြားရည်
+- v8-12-02 — Strawberry Yogurt Drink — g ပြန်တိုင်းရန်: ဒိန်ချဉ်အရည်၊ နို့အေး၊ သကြားရည်
+- v8-12-03 — Peach Yogurt Drink — g ပြန်တိုင်းရန်: ဒိန်ချဉ်အရည်၊ နို့အေး၊ သကြားရည်
+- v8-12-04 — Lychee Yogurt Drink — g ပြန်တိုင်းရန်: ဒိန်ချဉ်အရည်၊ Lychee Syrup၊ နို့အေး
+- v8-12-05 — Honey Banana Milk — g ပြန်တိုင်းရန်: နို့အေး၊ ပျားရည်
+- v8-12-06 — Pandan Coconut Milk — g ပြန်တိုင်းရန်: နို့အေး၊ အုန်းနို့၊ Pandan Syrup
+- v8-12-07 — Black Sesame Milk — g ပြန်တိုင်းရန်: နို့အေး၊ သကြားရည်
+- v8-12-08 — Rose Milk — g ပြန်တိုင်းရန်: နို့အေး၊ Rose Syrup
+- v8-13-01 — Butterfly Pea Lemonade — g ပြန်တိုင်းရန်: ပဲပြာပန်းရည်အေး၊ သံပုရာရည်၊ သကြားရည်၊ ရေအေး
+- v8-13-02 — Honey Yuzu Sparkler — g ပြန်တိုင်းရန်: Yuzu Juice၊ ပျားရည်၊ Soda Water
+- v8-13-03 — Salted Plum Soda — g ပြန်တိုင်းရန်: ဇီးဆားရည် (Salted Plum Concentrate)၊ သံပုရာရည်၊ သကြားရည်၊ Soda Water
+- v8-13-04 — Lemongrass Lime Cooler — g ပြန်တိုင်းရန်: စပါးလင်ပြုတ်ရည်အေး၊ သံပုရာရည်၊ သကြားရည်
+- v8-13-05 — Coconut Lime Refresher — g ပြန်တိုင်းရန်: အုန်းရည်၊ သံပုရာရည်၊ ပျားရည်
+- v8-13-06 — Thai Basil Lemon Soda — g ပြန်တိုင်းရန်: ပင်စိမ်းရွက်၊ သံပုရာရည်၊ သကြားရည်၊ Soda Water
+- v8-13-07 — Tamarind Honey Cooler — g ပြန်တိုင်းရန်: မန်ကျည်းရည်စစ်၊ ပျားရည်၊ ရေအေး
+- v8-13-08 — Cucumber Mint Refresher — g ပြန်တိုင်းရန်: သခွားသီးရည်စစ်၊ ပူဒီနာရွက်၊ သံပုရာရည်၊ သကြားရည်၊ ရေအေး
+- 14-01 — Ristretto — g ပြန်တိုင်းရန်: ထုတ်ယူရမည့် ကော်ဖီရည်
+- 14-02 — Lungo — g ပြန်တိုင်းရန်: ထုတ်ယူရမည့် ကော်ဖီရည်
+- 14-03 — Doppio Ristretto — g ပြန်တိုင်းရန်: ထုတ်ယူရမည့် ကော်ဖီရည်
+- 14-04 — Espresso Con Panna — g ပြန်တိုင်းရန်: Whipped cream
+- 14-05 — Espresso Macchiato — g ပြန်တိုင်းရန်: နို့အမြှုပ်
+- 14-06 — Cortado — g ပြန်တိုင်းရန်: နို့ပူ microfoam
+- 14-07 — Piccolo Latte — g ပြန်တိုင်းရန်: နို့ပူ microfoam
+- 14-08 — Gibraltar Coffee — g ပြန်တိုင်းရန်: နို့ပူ microfoam
+- 14-09 — Café Breve — g ပြန်တိုင်းရန်: Half-and-half cream
+- 14-10 — Affogato — g ပြန်တိုင်းရန်: Vanilla ice cream
+- 15-01 — Jasmine Latte — g ပြန်တိုင်းရန်: နို့၊ စံပယ်ရည်
+- 15-02 — Iced Jasmine Latte — g ပြန်တိုင်းရန်: နို့၊ စံပယ်ရည်
+- 15-03 — Rose Latte — g ပြန်တိုင်းရန်: နို့၊ နှင်းဆီ syrup
+- 15-04 — Iced Rose Latte — g ပြန်တိုင်းရန်: နို့၊ နှင်းဆီ syrup
+- 15-05 — Lavender Latte — g ပြန်တိုင်းရန်: နို့၊ Lavender syrup
+- 15-06 — Iced Lavender Latte — g ပြန်တိုင်းရန်: နို့၊ Lavender syrup
+- 15-07 — Pistachio Latte — g ပြန်တိုင်းရန်: နို့၊ Pistachio syrup
+- 15-08 — Iced Pistachio Latte — g ပြန်တိုင်းရန်: နို့၊ Pistachio syrup
+- 15-09 — Cardamom Latte — g ပြန်တိုင်းရန်: နို့၊ ဖာလာမှုန့်
+- 15-10 — Iced Maple Latte — g ပြန်တိုင်းရန်: နို့၊ Maple syrup
+- 16-01 — Oat Milk Latte — g ပြန်တိုင်းရန်: Barista oat milk
+- 16-02 — Iced Oat Milk Latte — g ပြန်တိုင်းရန်: Barista oat milk
+- 16-03 — Almond Milk Latte — g ပြန်တိုင်းရန်: Unsweetened almond milk
+- 16-04 — Iced Almond Milk Latte — g ပြန်တိုင်းရန်: Unsweetened almond milk
+- 16-05 — Soy Milk Latte — g ပြန်တိုင်းရန်: Soy milk
+- 16-06 — Iced Soy Milk Latte — g ပြန်တိုင်းရန်: Soy milk
+- 16-07 — Coconut Milk Flat White — g ပြန်တိုင်းရန်: Coconut barista milk
+- 16-08 — Iced Oat Vanilla Latte — g ပြန်တိုင်းရန်: Barista oat milk၊ Vanilla syrup
+- 16-09 — Iced Almond Mocha — g ပြန်တိုင်းရန်: Almond milk၊ Chocolate sauce
+- 16-10 — Oat Brown Sugar Shaken Espresso — g ပြန်တိုင်းရန်: Oat milk 90 ml၊ Brown sugar syrup
+- 17-01 — Cold Long Black — g ပြန်တိုင်းရန်: ရေအေး
+- 17-02 — Iced Ristretto Black — g ပြန်တိုင်းရန်: ရေအေး
+- 17-03 — Honey Cold Long Black — g ပြန်တိုင်းရန်: ပျားရည်၊ ရေအေး
+- 17-04 — Ginger Black Coffee — g ပြန်တိုင်းရန်: ဂျင်းရည်၊ ရေပူ
+- 17-05 — Cinnamon Black Coffee — g ပြန်တိုင်းရန်: သစ်ကြံပိုးမှုန့်၊ ရေပူ
+- 17-06 — Iced Mint Black Coffee — g ပြန်တိုင်းရန်: Mint syrup၊ ရေအေး
+- 17-07 — Sparkling Long Black — g ပြန်တိုင်းရန်: Soda water
+- 17-08 — Iced Maple Black Coffee — g ပြန်တိုင်းရန်: Maple syrup၊ ရေအေး
+- 17-09 — Grapefruit Black Coffee — g ပြန်တိုင်းရန်: Grapefruit juice၊ ရေအေး
+- 17-10 — Honey Lime Long Black — g ပြန်တိုင်းရန်: ပျားရည်၊ သံပုရာရည်၊ ရေအေး
+- 18-01 — Pineapple Espresso — g ပြန်တိုင်းရန်: နာနတ်သီးရည်
+- 18-02 — Mango Espresso — g ပြန်တိုင်းရန်: သရက်သီးရည်၊ ရေအေး
+- 18-03 — Strawberry Espresso — g ပြန်တိုင်းရန်: စတော်ဘယ်ရီ puree၊ ရေအေး
+- 18-04 — Apple Espresso — g ပြန်တိုင်းရန်: ပန်းသီးရည်
+- 18-05 — Watermelon Espresso — g ပြန်တိုင်းရန်: ဖရဲသီးရည်
+- 18-06 — Grapefruit Espresso Tonic — g ပြန်တိုင်းရန်: Grapefruit juice၊ Tonic water
+- 18-07 — Lychee Espresso Tonic — g ပြန်တိုင်းရန်: Lychee juice၊ Tonic water
+- 18-08 — Passion Fruit Espresso — g ပြန်တိုင်းရန်: Passion fruit puree၊ သကြားရည်၊ ရေအေး
+- 18-09 — Mandarin Espresso — g ပြန်တိုင်းရန်: Mandarin juice
+- 18-10 — Lemon Basil Espresso — g ပြန်တိုင်းရန်: သံပုရာရည်၊ ပင်စိမ်းရွက်၊ သကြားရည်၊ ရေအေး
+- 19-01 — Einspänner Coffee — g ပြန်တိုင်းရန်: ရေပူ၊ Whipping cream
+- 19-02 — Iced Einspänner — g ပြန်တိုင်းရန်: နို့အေး၊ Whipping cream
+- 19-03 — Tiramisu Latte — g ပြန်တိုင်းရန်: နို့အေး
+- 19-04 — Crème Brûlée Latte — g ပြန်တိုင်းရန်: နို့အေး၊ Caramel syrup၊ Custard cream
+- 19-05 — Biscoff Latte — g ပြန်တိုင်းရန်: နို့အေး
+- 19-06 — Nutella Latte — g ပြန်တိုင်းရန်: နို့အေး
+- 19-07 — White Chocolate Pistachio Latte — g ပြန်တိုင်းရန်: နို့အေး၊ White chocolate sauce၊ Pistachio syrup
+- 19-08 — Salted Honey Cream Coffee — g ပြန်တိုင်းရန်: နို့အေး၊ ပျားရည်၊ Salted cream
+- 19-09 — Vanilla Bean Cream Cold Coffee — g ပြန်တိုင်းရန်: နို့အေး၊ Vanilla bean syrup၊ Cream
+- 19-10 — Coconut Cream Espresso — g ပြန်တိုင်းရန်: နို့အေး၊ Coconut cream၊ သကြားရည်
+- 20-01 — Classic Espresso Tonic — g ပြန်တိုင်းရန်: Tonic water
+- 20-02 — Lemon Espresso Tonic — g ပြန်တိုင်းရန်: Tonic water၊ သံပုရာရည်
+- 20-03 — Orange Espresso Tonic — g ပြန်တိုင်းရန်: Tonic water၊ လိမ္မော်ရည်
+- 20-04 — Rosemary Espresso Tonic — g ပြန်တိုင်းရန်: Tonic water၊ Rosemary
+- 20-05 — Peach Espresso Tonic — g ပြန်တိုင်းရန်: Tonic water၊ Peach syrup
+- 20-06 — Ginger Ale Espresso — g ပြန်တိုင်းရန်: Ginger ale
+- 20-07 — Cherry Coffee Soda — g ပြန်တိုင်းရန်: Soda water၊ Cherry syrup
+- 20-08 — Blackcurrant Espresso Fizz — g ပြန်တိုင်းရန်: Soda water၊ Blackcurrant syrup
+- 20-09 — Pomegranate Coffee Spritz — g ပြန်တိုင်းရန်: Soda water၊ Pomegranate juice
+- 20-10 — Lime Mint Espresso Soda — g ပြန်တိုင်းရန်: Soda water၊ Lime juice၊ Mint
+- 21-01 — Vietnamese Iced Coffee — g ပြန်တိုင်းရန်: နို့ဆီ
+- 21-02 — Vietnamese Egg Coffee — g ပြန်တိုင်းရန်: ကြက်ဥအနှစ်၊ နို့ဆီ
+- 21-03 — Thai Oliang Coffee
+- 21-04 — Thai Es Yen — g ပြန်တိုင်းရန်: နို့ဆီ၊ နို့စိမ်း
+- 21-05 — Kopi Susu Gula Aren — g ပြန်တိုင်းရန်: Palm sugar syrup၊ နို့
+- 21-06 — Kopi Tubruk — g ပြန်တိုင်းရန်: ရေပူ
+- 21-07 — Dalgona Coffee — g ပြန်တိုင်းရန်: ရေပူ၊ နို့
+- 21-08 — Korean Iced Cream Latte — g ပြန်တိုင်းရန်: နို့အေး၊ Vanilla cream
+- 21-09 — Dirty Coffee — g ပြန်တိုင်းရန်: အေးစက်နေသောနို့
+- 21-10 — Coconut Vietnamese Coffee — g ပြန်တိုင်းရန်: နို့ဆီ၊ အုန်းနို့
+- 22-01 — Classic Cold Brew — g ပြန်တိုင်းရန်: Cold brew concentrate၊ ရေအေး
+- 22-02 — Cold Brew Latte — g ပြန်တိုင်းရန်: Cold brew concentrate၊ နို့
+- 22-03 — Vanilla Cold Brew — g ပြန်တိုင်းရန်: Cold brew concentrate၊ Vanilla syrup၊ ရေအေး
+- 22-04 — Honey Cold Brew — g ပြန်တိုင်းရန်: Cold brew concentrate၊ ပျားရည်၊ ရေအေး
+- 22-05 — Coconut Cold Brew — g ပြန်တိုင်းရန်: Cold brew concentrate၊ အုန်းရည်
+- 22-06 — Orange Cold Brew — g ပြန်တိုင်းရန်: Cold brew concentrate၊ လိမ္မော်ရည်
+- 22-07 — Cold Brew Tonic — g ပြန်တိုင်းရန်: Cold brew concentrate၊ Tonic water
+- 22-08 — Salted Caramel Cold Brew — g ပြန်တိုင်းရန်: Cold brew concentrate၊ နို့၊ Salted caramel syrup
+- 22-09 — Cold Brew With Vanilla Cold Foam — g ပြန်တိုင်းရန်: Cold brew concentrate၊ ရေအေး၊ Vanilla cold foam
+- 22-10 — Nitro-Style Cold Brew (No Nitrogen) — g ပြန်တိုင်းရန်: Cold brew concentrate၊ ရေအေး
+- 23-01 — V60 Pour Over
+- 23-02 — Iced V60 Japanese Style
+- 23-03 — French Press Coffee
+- 23-04 — AeroPress Coffee
+- 23-05 — Moka Pot Coffee — g ပြန်တိုင်းရန်: Moka pot အရွယ်အစားအလိုက် ကော်ဖီ/ရေ
+- 23-06 — Café au Lait — g ပြန်တိုင်းရန်: Brewed coffee၊ နို့ပူ
+- 23-07 — Iced Filter Coffee — g ပြန်တိုင်းရန်: Filter coffee
+- 23-08 — Honey V60 — g ပြန်တိုင်းရန်: ပျားရည်
+- 23-09 — Cinnamon French Press — g ပြန်တိုင်းရန်: သစ်ကြံပိုး
+- 23-10 — Cold Drip Coffee — g ပြန်တိုင်းရန်: Cold drip concentrate၊ ရေအေး
+- v8-24-01 — Shakerato — g ပြန်တိုင်းရန်: သကြားရည်
+- v8-24-02 — Freddo Espresso — g ပြန်တိုင်းရန်: သကြားရည် (optional)
+- v8-24-03 — Freddo Cappuccino — g ပြန်တိုင်းရန်: နို့အေး
+- v8-24-04 — Espresso Romano — g ပြန်တိုင်းရန်: သံပရာ/လီမွန်အခွံ
+- v8-24-05 — Café Bombón — g ပြန်တိုင်းရန်: နို့ဆီချို
+- v8-24-06 — Bicerin — g ပြန်တိုင်းရန်: Chocolate sauce၊ နို့အပူ
+- v8-24-07 — Marocchino — g ပြန်တိုင်းရန်: နို့အမြှုပ်
+- v8-24-08 — Café Noisette — g ပြန်တိုင်းရန်: နို့အပူ
+- v8-25-01 — Mazagran Iced Coffee — g ပြန်တိုင်းရန်: Black coffee အေး၊ လီမွန်ရည်၊ သကြားရည်
+- v8-25-02 — Café de Olla — g ပြန်တိုင်းရန်: ရေ၊ သစ်ကြံပိုး
+- v8-25-03 — Turkish Coffee — g ပြန်တိုင်းရန်: ရေ၊ သကြား (optional)
+- v8-25-04 — Greek Frappé — g ပြန်တိုင်းရန်: ရေ၊ ရေအေး
+- v8-25-05 — New Orleans Chicory Iced Coffee — g ပြန်တိုင်းရန်: Chicory coffee concentrate၊ နို့အေး၊ သကြားရည်
+- v8-25-06 — Café Cubano
+- v8-25-07 — Iced Café Cubano — g ပြန်တိုင်းရန်: ရေအေး
+- v8-25-08 — Kopi Cham — g ပြန်တိုင်းရန်: Black coffee၊ လက်ဖက်ရည်ပြင်း၊ နို့ဆီချို
+- v8-26-01 — Iced Hojicha Latte — g ပြန်တိုင်းရန်: ရေနွေး၊ နို့အေး၊ သကြားရည်
+- v8-26-02 — Hot Hojicha Latte — g ပြန်တိုင်းရန်: ရေနွေး၊ နို့အပူ၊ သကြားရည်
+- v8-26-03 — Iced Genmaicha Latte — g ပြန်တိုင်းရန်: ရေနွေး၊ နို့အေး၊ သကြားရည်
+- v8-26-04 — Iced Earl Grey Milk Tea — g ပြန်တိုင်းရန်: ရေနွေး၊ နို့အေး၊ သကြားရည်
+- v8-26-05 — London Fog Latte — g ပြန်တိုင်းရန်: ရေနွေး၊ နို့အပူ၊ Vanilla syrup
+- v8-26-06 — Iced London Fog — g ပြန်တိုင်းရန်: ရေနွေး၊ နို့အေး၊ Vanilla syrup
+- v8-26-07 — Black Sesame Latte — g ပြန်တိုင်းရန်: နို့အပူ၊ ပျားရည်
+- v8-26-08 — Iced Black Sesame Latte — g ပြန်တိုင်းရန်: နို့အေး၊ သကြားရည်
+- v8-27-01 — Cascara Iced Tea — g ပြန်တိုင်းရန်: ရေနွေး၊ လီမွန်ရည်၊ သကြားရည်
+- v8-27-02 — Cascara Sparkling Cooler — g ပြန်တိုင်းရန်: Cascara tea အေး၊ Soda water၊ လီမွန်ရည်
+- v8-27-03 — Espresso Ginger Beer — g ပြန်တိုင်းရန်: Alcohol-free ginger beer၊ လီမွန်ရည်
+- v8-27-04 — Tamarind Espresso Soda — g ပြန်တိုင်းရန်: မန်ကျည်းအနှစ်ရည်၊ သကြားရည်၊ Soda water
+- v8-27-05 — Honey Pomelo Refresher — g ပြန်တိုင်းရန်: ကျွဲကောရည်၊ ပျားရည်၊ ရေအေး
+- v8-27-06 — Iced Hibiscus Tea — g ပြန်တိုင်းရန်: ရေနွေး၊ သကြားရည်
+- v8-27-07 — Iced Chamomile Honey — g ပြန်တိုင်းရန်: ရေနွေး၊ ပျားရည်
+- v8-27-08 — Yuzu Matcha Sparkler — g ပြန်တိုင်းရန်: ရေ၊ Yuzu juice၊ သကြားရည်၊ Soda water
+- v8-28-01 — Iced Saffron Latte — g ပြန်တိုင်းရန်: နို့အေး၊ Saffron အနည်းငယ်၊ ရေနွေး၊ ပျားရည်
+- v8-28-02 — Honey Cardamom Iced Latte — g ပြန်တိုင်းရန်: နို့အေး၊ ပျားရည်
+- v8-28-03 — Iced Gingerbread Latte — g ပြန်တိုင်းရန်: နို့အေး၊ Gingerbread syrup
+- v8-28-04 — Pumpkin Spice Latte — g ပြန်တိုင်းရန်: နို့အပူ၊ သကြားရည်
+- v8-28-05 — Iced Pumpkin Spice Latte — g ပြန်တိုင်းရန်: နို့အေး၊ သကြားရည်
+- v8-28-06 — Iced Ube Latte — g ပြန်တိုင်းရန်: နို့အေး၊ သကြားရည်
+- v8-28-07 — Iced Ube Espresso Latte — g ပြန်တိုင်းရန်: နို့အေး၊ သကြားရည်
+- v8-28-08 — Iced Dalgona Matcha — g ပြန်တိုင်းရန်: ရေနွေး၊ နို့အေး၊ ရေ
+- SYR-01 — Simple Syrup 1:1 (by weight)
+- SYR-02 — Brown Sugar Syrup Base
+- SYR-03 — Vanilla Bean Syrup Base
+- SAU-01 — Cocoa Chocolate Sauce Base
+- SAU-02 — Caramel Water Sauce Base
+- SAU-03 — Strawberry Dessert Sauce Base
+- CON-01 — Lemon Cordial Concentrate Base
+- CON-02 — Lime Cordial Concentrate Base
+- CON-03 — Orange Cordial Concentrate Base
+- PUR-01 — Mango Purée Base
+- PUR-02 — Strawberry Purée Base
+- PUR-03 — Pineapple Purée Base
+- MAT-01 — Thai-Style Matcha Milk — g ပြန်တိုင်းရန်: ရေနွေး 75–80°C၊ နို့စိမ်း evaporated milk၊ အအေးထိန်းထားသော နို့လတ်
+- MAT-02 — Korean-Style Strawberry Matcha Latte — g ပြန်တိုင်းရန်: ရေနွေး 75–80°C၊ အအေးထိန်းထားသော နို့လတ်
+- MAT-03 — Vietnamese-Style Coconut Matcha — g ပြန်တိုင်းရန်: ရေနွေး 75–80°C၊ အချိုမပါ coconut milk၊ အအေးထိန်းထားသော နို့လတ်
+- MAT-04 — American-Style Vanilla Matcha Latte — g ပြန်တိုင်းရန်: ရေနွေး 75–80°C၊ အအေးထိန်းထားသော နို့လတ်
+- MAT-05 — Taiwanese-Style Brown Sugar Matcha Latte — g ပြန်တိုင်းရန်: ရေနွေး 75–80°C၊ အအေးထိန်းထားသော နို့လတ်
+- STY-01 — Japanese-Style Hojicha Frappé — g ပြန်တိုင်းရန်: ရေနွေး 75–80°C၊ နို့အေး
+- STY-02 — Thai-Style Coconut Milk Tea — g ပြန်တိုင်းရန်: နှပ်ရန် ရေနွေး 90–95°C၊ အချိုမပါ coconut milk၊ နို့အေး
+- STY-03 — Italian-Style Raspberry Cream Soda Float — g ပြန်တိုင်းရန်: အရက်မပါ Raspberry syrup၊ အေးထားသော ဆိုဒါရေ
+- STY-04 — Virgin Passion Fruit Mojito — g ပြန်တိုင်းရန်: သံပရာရည်သန့်၊ အေးထားသော ဆိုဒါရေ
+- STY-05 — Taiwanese-Style Lychee Oolong Tea — g ပြန်တိုင်းရန်: နှပ်ရန်ရေနွေး 85–90°C
+- STY-06 — Malaysian-Style Teh Tarik — g ပြန်တိုင်းရန်: နှပ်ရန်ရေနွေး 90–95°C၊ နို့စိမ်း evaporated milk
+- NEW-01 — Iced Oreo Latte
+- NEW-02 — Chocolate Oreo Mocha
+- NEW-03 — Caramel Oreo Latte
+- NEW-04 — Vanilla Cold Foam Latte
+- NEW-05 — Chocolate Cream Espresso
+- NEW-06 — Taro Oreo Milk
+- NEW-07 — Taro Matcha Latte
+- NEW-08 — Mixed Berry Matcha Latte
+- NEW-09 — Matcha Oreo Latte
+- NEW-10 — Strawberry Matcha Cream
+- NEW-11 — Vanilla Taro Milk
+- NEW-12 — Passion Lychee Soda
+- NEW-13 — Strawberry Lychee Soda
+- NEW-14 — Mixed Berry Soda
+- NEW-15 — Blue Passion Soda
+- NEW-16 — Blue Lychee Soda
+- NEW-17 — Strawberry Passion Soda
+- NEW-18 — Mixed Berry Lychee Soda
+- NEW-19 — Iced Chocolate Oreo Milk
+- NEW-20 — Vanilla Oreo Milk
+- NEW-21 — Strawberry Cream Milk
+- NEW-22 — Mixed Berry Cream Milk
+- CF-01 — Vanilla Cold Foam Base
+- CF-02 — Chocolate Cold Foam Base

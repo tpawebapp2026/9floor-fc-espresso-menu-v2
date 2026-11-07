@@ -6,15 +6,16 @@ import {
   internationalRecipes,
 } from "../src/international";
 import { CatalogSchema } from "../src/model";
+import { isPreparation } from '../src/preparations';
 const seed = CatalogSchema.parse(
   JSON.parse(readFileSync("public/recipes.json", "utf8")),
 );
 it("international discovery includes every existing cold menu once without preparations or new recipe records", () => {
   const cold = internationalRecipes(seed.recipes, "cold");
-  expect(cold).toHaveLength(110);
+  expect(cold).toHaveLength(127);
   expect(cold.map((r) => r.id).sort()).toEqual(
     seed.recipes
-      .filter((r) => r.line === "cold")
+      .filter((r) => r.line === "cold" && !isPreparation(r))
       .map((r) => r.id)
       .sort(),
   );

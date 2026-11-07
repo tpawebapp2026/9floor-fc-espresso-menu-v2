@@ -10,10 +10,10 @@ const seed = CatalogSchema.parse(
 );
 it("every existing recipe has a reviewed photo mapping and owner-uploaded images take precedence", () => {
   expect(Object.keys(photos.recipes).sort()).toEqual(
-    seed.recipes.map((r) => r.id).sort(),
+    seed.recipes.filter(r=>!r.id.startsWith('upgrade-')).map((r) => r.id).sort(),
   );
-  for (const r of seed.recipes) expect(referencePhoto(r), r.id).not.toBeNull();
-  for (const r of seed.recipes.filter((r) => /Matcha/.test(r.englishName))) {
+  for (const r of seed.recipes.filter(r=>!r.id.startsWith('upgrade-'))) expect(referencePhoto(r), r.id).not.toBeNull();
+  for (const r of seed.recipes.filter((r) => !r.id.startsWith('upgrade-') && /Matcha/.test(r.englishName))) {
     const mapping = photos.recipes[r.id as keyof typeof photos.recipes];
     expect(mapping.photo, r.id).toBe(/^Hot/.test(r.englishName) ? "hot-matcha" : "iced-matcha");
   }

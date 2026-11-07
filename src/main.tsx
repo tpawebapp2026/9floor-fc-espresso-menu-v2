@@ -13,6 +13,7 @@ import { countries, coldStyles, internationalRecipes } from "./international";
 import { preparationGroups, isPreparation } from "./preparations";
 import DensityConverter from "./DensityConverter";
 import RecipePhoto, { PhotoCredit } from "./RecipePhoto";
+import RecipeQuality from "./RecipeQuality";
 import {
   getProcedure,
   relatedStyles,
@@ -215,9 +216,9 @@ function App() {
                       !isPreparation(r) &&
                       (query.trim() ? true : r.line === line),
                   );
-  const results = searchRecipes(currentRecipes, query).filter(
-    (r) => !category || r.categoryId === category,
-  );
+  const results = query.trim()
+    ? searchRecipes(source, query, catalog?.categories)
+    : currentRecipes.filter((r) => !category || r.categoryId === category);
   return (
     <>
       <header className="topbar">
@@ -308,7 +309,35 @@ function App() {
           <button onClick={() => navigate("/")}>မီနူးများသို့</button>
         </main>
       ) : (
-        <main>
+        <main className={query.trim() ? "searching" : ""}>
+          <section className="top-search" aria-label="မီနူးအားလုံး ရှာရန်">
+            <label className="search">
+              <span aria-hidden="true">⌕</span>
+              <input
+                type="search"
+                aria-label="မီနူးရှာရန်"
+                placeholder="မီနူးအမည်၊ ပါဝင်ပစ္စည်း၊ အရသာ ရှာရန်…"
+                value={query}
+                onChange={(e) => setQuery(e.target.value)}
+              />
+              {query && (
+                <button
+                  type="button"
+                  className="clear-search"
+                  aria-label="ရှာထားသောစာ ဖျက်ရန်"
+                  onClick={() => setQuery("")}
+                >
+                  ×
+                </button>
+              )}
+            </label>
+            {query.trim() && (
+              <p role="status">
+                အမျိုးအစားနှင့် စာမျက်နှာအားလုံးမှ {results.length} မီနူး
+                တွေ့ရှိသည်။
+              </p>
+            )}
+          </section>
           <section className="hero">
             <div className="hero-copy">
               <span className="eyebrow">BREW WITH CONFIDENCE</span>
@@ -657,16 +686,6 @@ function App() {
             </>
           )}
           <div className="search-row">
-            <label className="search">
-              <span>⌕</span>
-              <input
-                type="search"
-                aria-label="မီနူးရှာရန်"
-                placeholder="မီနူးအမည် / နံပါတ်ဖြင့် ရှာမယ်…"
-                value={query}
-                onChange={(e) => setQuery(e.target.value)}
-              />
-            </label>
             <select
               aria-label="အမျိုးအစား ရွေးရန်"
               value={category}
@@ -866,6 +885,26 @@ function RecipeDetail({
           {favorite ? "♥" : "♡"}
         </button>
       </div>
+      <nav className="recipe-jumps" aria-label="ဖျော်နည်းအပိုင်း ရွေးရန်">
+        {[
+          ["recipe-ingredients", "ပါဝင်ပစ္စည်း"],
+          ["recipe-steps", "ဖျော်နည်း"],
+          ["recipe-flavor", "အရသာ"],
+          ["recipe-adjustments", "အရသာညှိရန်"],
+          ["recipe-qc", "အရည်အသွေး"],
+        ].map(([id, label]) => (
+          <button
+            key={id}
+            onClick={() =>
+              document
+                .getElementById(id)
+                ?.scrollIntoView({ behavior: "smooth", block: "start" })
+            }
+          >
+            {label}
+          </button>
+        ))}
+      </nav>
       <div className="detail-layout">
         <div>
           <div className="detail-photo">
@@ -904,7 +943,7 @@ function RecipeDetail({
           </section>
         </div>
         <div>
-          <section className="detail-panel">
+          <section className="detail-panel" id="recipe-ingredients">
             <div className="panel-heading">
               <h2>ပါဝင်ပစ္စည်းများ</h2>
               <label>
@@ -969,7 +1008,7 @@ function RecipeDetail({
               <DensityConverter />
             </details>
           )}
-          <section className="detail-panel">
+          <section className="detail-panel" id="recipe-steps">
             <div className="panel-heading">
               <h2>ဖျော်နည်း အဆင့်လိုက်</h2>
               <small>
@@ -1032,6 +1071,7 @@ function RecipeDetail({
               </div>
             </details>
           </section>
+          <RecipeQuality recipe={r} servings={servings} />
         </div>
       </div>
     </main>
