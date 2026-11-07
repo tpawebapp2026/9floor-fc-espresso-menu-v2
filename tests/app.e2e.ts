@@ -1,4 +1,4 @@
-import { getClearProcedure } from "../src/clearProcedure";
+import { buildFieldGuide } from "../src/fieldGuide";
 import { test, expect } from "@playwright/test";
 import { readFileSync } from "node:fs";
 const seed = JSON.parse(readFileSync("public/recipes.json", "utf8"));
@@ -62,7 +62,7 @@ test("every migrated menu opens the correct detail page", async ({ page }) => {
       recipe.ingredients.length,
     );
     await expect(page.locator(".step")).toHaveCount(
-      getClearProcedure(recipe).length,
+      buildFieldGuide(recipe).steps.length,
     );
   }
 });
@@ -238,4 +238,30 @@ test("new bundled seed upgrades cached offline recipes while old seed cannot und
   await expect(page.locator(".detail-heading h1")).toHaveText(
     "Updated bundled recipe",
   );
+});
+test("professional guide shows action and completion checks, glossary and visible formula blockers", async ({
+  page,
+}, testInfo) => {
+  await page.setViewportSize({ width: 390, height: 900 });
+  await page.goto("/recipe/upgrade-iced-oreo-latte");
+  const jump = page.getByRole("navigation", {
+    name: "ဖျော်နည်းအပိုင်း ရွေးရန်",
+  });
+  await jump.getByRole("button", { name: "ဖျော်နည်း", exact: true }).click();
+  await expect(page.locator("#recipe-steps .step").first()).toContainText(
+    "စစ်ကြည့်ပါ",
+  );
+  await page.locator("#recipe-steps .step input").first().check();
+  await expect(
+    page.locator("#recipe-steps .panel-heading small"),
+  ).toContainText("1/");
+  await page.locator(".brewing-words summary").click();
+  await expect(page.locator(".brewing-words")).toContainText("0 g");
+  await page.locator(".brewing-words summary").click();
+  await page.locator("#recipe-steps .step").nth(2).scrollIntoViewIfNeeded();
+  await page.screenshot({
+    path: testInfo.outputPath("professional-steps-mobile.png"),
+  });
+  await page.goto("/recipe/v8-23-05");
+  await expect(page.locator(".guide-blocker").first()).toContainText("ပမာဏမပါ");
 });

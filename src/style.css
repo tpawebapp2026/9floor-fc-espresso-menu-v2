@@ -1663,3 +1663,11 @@ summary {
 .brewing-words dt { margin-top: 16px; font-weight: 700; }
 .brewing-words dd { margin: 6px 0 0; line-height: 2; }
 .detailed-procedure li { margin-bottom: 14px; line-height: 2; }
+
+.guide-step-copy { display: grid; gap: 10px; min-width: 0; }
+.guide-step-copy > strong { font-size: 17px; color: var(--green); }
+.guide-step-copy > small { display: block; font-size: 14px; line-height: 1.9; padding: 10px 12px; border-left: 3px solid var(--gold); background: var(--surface); }
+.guide-method, .guide-status { font-weight: 700; line-height: 1.9; }
+.guide-blocker { border-left: 4px solid #a64c22; }
+.guide-taste-target { margin: 24px 0; padding: 18px; border: 1px solid var(--line); border-radius: 14px; }
+.guide-taste-target li { margin: 10px 0; line-height: 2; }

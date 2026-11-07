@@ -14,15 +14,11 @@ import { preparationGroups, isPreparation } from "./preparations";
 import DensityConverter from "./DensityConverter";
 import RecipePhoto, { PhotoCredit } from "./RecipePhoto";
 import RecipeQuality from "./RecipeQuality";
-import {
-  getProcedure,
-  relatedStyles,
-  familyNames,
-  recipeFamily,
-} from "./procedure";
+import { relatedStyles, familyNames, recipeFamily } from "./procedure";
 import { isMatcha, matchaStyles, matchaStyle } from "./matcha";
 import Admin from "./Admin";
-import { getClearProcedure, brewingWords } from "./clearProcedure";
+import { brewingWords } from "./clearProcedure";
+import { buildFieldGuide, guideSources } from "./fieldGuide";
 import "@fontsource/noto-sans-myanmar/myanmar-400.css";
 import "@fontsource/noto-sans-myanmar/myanmar-700.css";
 import "./style.css";
@@ -861,8 +857,8 @@ function RecipeDetail({
   related: Recipe[];
   open: (id: string) => void;
 }) {
-  const procedure = getProcedure(r);
-  const clearSteps = getClearProcedure(r);
+  const fieldGuide = buildFieldGuide(r);
+  const clearSteps = fieldGuide.steps;
   const [servings, setServings] = useState(1);
   const [checks, setChecks] = useState<number[]>([]);
   const egg = /egg|ကြက်ဥ/i.test(
@@ -933,8 +929,8 @@ function RecipeDetail({
               </p>
             </div>
           )}
-          <section className="detail-panel">
-            <h3>မှတ်ချက်များ</h3>
+          <details className="detail-panel">
+            <summary>မူရင်းမှတ်ချက်များနှင့် Recipe ဗားရှင်း</summary>
             {r.notes.map((n, i) => (
               <p key={i}>{n}</p>
             ))}
@@ -944,7 +940,7 @@ function RecipeDetail({
                 ? new Date(r.updatedAt).toLocaleDateString()
                 : "မူရင်းပြင်ဆင်ရက် မပါရှိ"}
             </small>
-          </section>
+          </details>
         </div>
         <div>
           <section className="detail-panel" id="recipe-ingredients">
@@ -1019,6 +1015,18 @@ function RecipeDetail({
                 {checks.length}/{clearSteps.length}
               </small>
             </div>
+            <p className="guide-method">
+              {fieldGuide.method} · {fieldGuide.mode}
+            </p>
+            <p className="guide-status">{fieldGuide.status}</p>
+            {fieldGuide.issues
+              .filter((x) => x.level === "blocker")
+              .map((x, i) => (
+                <p className="notice guide-blocker" key={i}>
+                  <b>အရင်အတည်ပြုရန် — </b>
+                  {x.message}
+                </p>
+              ))}
             <p className="clear-intro">
               တစ်ဆင့်ပြီးမှ နောက်တစ်ဆင့်လုပ်ပါ။ လုပ်ပြီးတဲ့အဆင့်ကို အမှန်ခြစ်ပါ။
             </p>
@@ -1065,27 +1073,60 @@ function RecipeDetail({
                 <span className="step-num">
                   {String(i + 1).padStart(2, "0")}
                 </span>
-                <span>{s.replace(/^\d+\.\s*/, "")}</span>
+                <span className="guide-step-copy">
+                  <strong>{s.title}</strong>
+                  <span>{s.action}</span>
+                  <small>
+                    <b>စစ်ကြည့်ပါ — </b>
+                    {s.check}
+                  </small>
+                </span>
               </label>
             ))}
             <button className="text-button" onClick={() => setChecks([])}>
               အဆင့်များ ပြန်စရန် ↻
             </button>
-            <details className="detailed-procedure">
-              <summary>အသေးစိတ် နည်းစနစ်နှင့် စမ်းသပ်မှတ်ချက်များ</summary>
-              <p>
-                {procedure.method} · စမ်းသပ်အတည်ပြုရန် လိုသောအချက်များကို စစ်ပါ။
+            <section className="guide-taste-target">
+              <h3>ဒီမီနူးမှာ ရသင့်တဲ့အရသာ / အနေအထား</h3>
+              <p className="muted">
+                ခန့်မှန်းပစ်မှတ်သာ ဖြစ်သည်။ ဆိုင်တွင် ဖျော်စမ်းတိုင်းတာထားသော
+                ရလဒ်မဟုတ်ပါ။
               </p>
-              {procedure.warnings.map((w, i) => (
-                <p className="notice" key={i}>
-                  {w}
-                </p>
-              ))}
-              <ol>
-                {procedure.steps.map((s, i) => (
-                  <li key={i}>{s}</li>
+              <ul>
+                {fieldGuide.expected.map((x, i) => (
+                  <li key={i}>{x}</li>
                 ))}
-              </ol>
+              </ul>
+              <h3>အရသာ မကိုက်ရင် ပြန်စစ်ရန်</h3>
+              <ul>
+                {fieldGuide.adjustments.map((x, i) => (
+                  <li key={i}>{x}</li>
+                ))}
+              </ul>
+            </section>
+            <details className="detailed-procedure">
+              <summary>
+                စမ်းသပ်ရန်ကျန်သည့်အချက်နှင့် နည်းစနစ်ကိုးကားချက်
+              </summary>
+              <p>{fieldGuide.standard}</p>
+              {fieldGuide.issues
+                .filter((x) => x.level === "trial")
+                .map((x, i) => (
+                  <p key={i}>{x.message}</p>
+                ))}
+              <ul>
+                {fieldGuide.sourceKeys.map((k) => (
+                  <li key={k}>
+                    <a
+                      href={guideSources[k].url}
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      {guideSources[k].label}
+                    </a>
+                  </li>
+                ))}
+              </ul>
             </details>
             <details className="original-procedure">
               <summary>မူရင်း ဖျော်နည်းကို ဖတ်ရန်</summary>
