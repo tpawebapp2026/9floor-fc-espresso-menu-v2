@@ -1543,6 +1543,24 @@ summary {
   margin: 12px 0;
 }
 /* November recipe quality / global discovery */
+.recipe-jumps {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 14px 0 24px;
+}
+.recipe-jumps button {
+  padding: 10px 14px;
+  border: 1px solid var(--border, #ddd);
+  border-radius: 30px;
+  background: transparent;
+  color: inherit;
+  font: inherit;
+  cursor: pointer;
+}
+.detail [id^="recipe-"] {
+  scroll-margin-top: 180px;
+}
 .searching
   > :not(.top-search):not(.list-meta):not(.recipe-grid):not(.empty):not(
     .notice

@@ -102,7 +102,7 @@ export default function RecipeQuality({
           ထပ်မပေါင်းပါ။ ရေခဲသည် total ထဲ ပါဝင်သည်။
         </p>
       </section>
-      <section className="detail-panel">
+      <section className="detail-panel" id="recipe-flavor">
         <h2>Flavor Profile — အရသာညွှန်းကိန်း</h2>
         <p className="notice">
           ပါဝင်ပစ္စည်းပေါ်အခြေခံသော ခန့်မှန်းအရသာညွှန်းကိန်း 1–5 ဖြစ်သည်။
@@ -130,7 +130,7 @@ export default function RecipeQuality({
           {q.expected}။ လက်တွေ့ brand နှင့် dilution အလိုက် စမ်းသပ်ရန်လိုသည်။
         </p>
       </section>
-      <section className="detail-panel">
+      <section className="detail-panel" id="recipe-adjustments">
         <h2>Taste Adjustment — အရသာပြန်ညှိရန်</h2>
         <ol>
           {q.adjustments.map((x) => (
@@ -142,7 +142,7 @@ export default function RecipeQuality({
           recipe ပေါ် အလိုအလျောက်မသိမ်းပါ။
         </p>
       </section>
-      <section className="detail-panel">
+      <section className="detail-panel" id="recipe-qc">
         <h2>Quality Control — ဆိုင်မရောင်းမီ စစ်ရန်</h2>
         <p>
           <b>Serving temperature — </b>

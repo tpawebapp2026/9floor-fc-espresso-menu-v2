@@ -33,6 +33,11 @@ test("global top search ignores category and department, preserves query on back
   await expect(page.locator(".detail-photo .photo-unavailable")).toContainText(
     "ပုံအစစ်",
   );
+  await page
+    .getByRole("navigation", { name: "ဖျော်နည်းအပိုင်း ရွေးရန်" })
+    .getByRole("button", { name: "ဖျော်နည်း", exact: true })
+    .click();
+  await expect(page.locator("#recipe-steps h2")).toBeInViewport();
   await page.getByRole("button", { name: "← မီနူးများသို့ ပြန်ရန်" }).click();
   await expect(search).toHaveValue("NEW-01");
   await page.getByRole("button", { name: "ရှာထားသောစာ ဖျက်ရန်" }).click();

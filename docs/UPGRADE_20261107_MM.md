@@ -26,6 +26,8 @@ Favorites keys၊ recent၊ IndexedDB identity၊ service-worker update flow န
 
 ## ပြင်ဆင်မှတ်တမ်း
 
+Recipe detail တွင် ပါဝင်ပစ္စည်းနောက် ဖျော်နည်းအဆင့်များကို အရင်ပြပြီး quality guidance ကို အောက်တွင်ထားသည်။ အပေါ်က shortcut ခလုတ်များဖြင့် ပါဝင်ပစ္စည်း၊ ဖျော်နည်း၊ အရသာ၊ အရသာညှိရန်နှင့် QC သို့ တိုက်ရိုက်သွားနိုင်သည်။
+
 မူလ recipe 283 ၏ ingredients/steps/menu numbers/images/categories ကို ပြင်ဆင်ထားခြင်းမရှိ။ ဤ update မှ quality module က source data ကိုဖတ်၍ guidance နှင့် unresolved audit findings ကို သီးခြားပြခြင်းဖြစ်သည်။ မူရင်း tested formula ကို ပြောင်းလိုလျှင် actual trial record / owner approval ပြုလုပ်ပြီး recipe version တိုးရန်။
 
 Production branch `backend-preview-setup` နှင့် `main` ကို ယခုအဆင့်တွင် မပြောင်းပါ။ `menu-quality-upgrade-20261107` development branch တွင်သာ ပြင်ဆင်၍ PR/preview စမ်းသပ်ပြီးမှ သီးခြား Production အတည်ပြုချက်တောင်းရန်။ Supabase Admin/database ချိတ်ဆက်မှု ယခင်ကျန်ရှိသောအပိုင်းသည် ဤ menu upgrade ဖြင့် အလိုအလျောက် မပြီးစီးပါ။

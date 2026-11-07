@@ -885,6 +885,26 @@ function RecipeDetail({
           {favorite ? "♥" : "♡"}
         </button>
       </div>
+      <nav className="recipe-jumps" aria-label="ဖျော်နည်းအပိုင်း ရွေးရန်">
+        {[
+          ["recipe-ingredients", "ပါဝင်ပစ္စည်း"],
+          ["recipe-steps", "ဖျော်နည်း"],
+          ["recipe-flavor", "အရသာ"],
+          ["recipe-adjustments", "အရသာညှိရန်"],
+          ["recipe-qc", "အရည်အသွေး"],
+        ].map(([id, label]) => (
+          <button
+            key={id}
+            onClick={() =>
+              document
+                .getElementById(id)
+                ?.scrollIntoView({ behavior: "smooth", block: "start" })
+            }
+          >
+            {label}
+          </button>
+        ))}
+      </nav>
       <div className="detail-layout">
         <div>
           <div className="detail-photo">
@@ -923,7 +943,7 @@ function RecipeDetail({
           </section>
         </div>
         <div>
-          <section className="detail-panel">
+          <section className="detail-panel" id="recipe-ingredients">
             <div className="panel-heading">
               <h2>ပါဝင်ပစ္စည်းများ</h2>
               <label>
@@ -988,8 +1008,7 @@ function RecipeDetail({
               <DensityConverter />
             </details>
           )}
-          <RecipeQuality recipe={r} servings={servings} />
-          <section className="detail-panel">
+          <section className="detail-panel" id="recipe-steps">
             <div className="panel-heading">
               <h2>ဖျော်နည်း အဆင့်လိုက်</h2>
               <small>
@@ -1052,6 +1071,7 @@ function RecipeDetail({
               </div>
             </details>
           </section>
+          <RecipeQuality recipe={r} servings={servings} />
         </div>
       </div>
     </main>
