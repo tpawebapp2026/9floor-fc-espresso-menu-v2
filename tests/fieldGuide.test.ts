@@ -43,7 +43,6 @@ it("makes missing or conflicting formulas visible instead of inventing quantitie
     "Thai Oliang Coffee",
     "Doppio Ristretto",
     "Iced Ristretto Black",
-    "Iced Lemon Tea",
   ])
     expect(
       guide(name).issues.some((i) => i.level === "blocker"),
@@ -123,4 +122,58 @@ it("fails visibly rather than crashing when an imported expansion formula no lon
   const g = buildFieldGuide(r);
   expect(g.issues.some((i) => /မကိုက်တော့/.test(i.message))).toBe(true);
   expect(g.usedIngredientIndexes).toEqual(r.ingredients.map((_, i) => i));
+});
+
+it("uses source-written milk/water branches for all 16 tea and milk menus without changing the source", () => {
+  const selected = catalog.recipes.filter((r) =>
+    /^v8-04-(?:0[1-9]|1[0-6])$/.test(r.id),
+  );
+  expect(selected).toHaveLength(16);
+  for (const r of selected) {
+    const old = JSON.stringify(r);
+    const g = buildFieldGuide(r);
+    expect(g.inputResolutions, r.id).toHaveLength(1);
+    expect(g.inputResolutions[0].resolved.quantity).toBe("120 ml");
+    expect(
+      g.issues.some((i) => i.level === "blocker"),
+      r.id,
+    ).toBe(false);
+    expect(JSON.stringify(r)).toBe(old);
+  }
+  for (const name of [
+    "Iced Lemon Tea",
+    "Iced Peach Tea",
+    "Iced Honey Lemon Tea",
+  ]) {
+    expect(guide(name).inputResolutions[0].resolved.name).toBe("ရေအေး");
+  }
+});
+it("offers both original 80 ml smoothie alternatives with no combined 160 ml liquid", () => {
+  for (const r of catalog.recipes.filter((r) => /^v8-05-0[1-6]$/.test(r.id))) {
+    expect(buildFieldGuide(r).liquidChoiceRequired).toBe(true);
+    for (const choice of ["milk", "water"] as const) {
+      const g = buildFieldGuide(r, choice);
+      const row = g.inputResolutions[0].resolved;
+      expect(row.quantity).toBe("80 ml");
+      expect(row.name).toBe(choice === "milk" ? "နို့အေး" : "သောက်ရေသန့်အေး");
+      expect(g.issues.some((i) => i.level === "blocker")).toBe(false);
+    }
+  }
+});
+it("never treats mojito mint as tea leaves requiring steeping", () => {
+  const g = guide("Virgin Passion Fruit Mojito");
+  expect(g.issues.some((i) => /နှပ်ချိန်/.test(i.message))).toBe(false);
+  expect(
+    g.steps.some(
+      (s) =>
+        s.title === "နှပ်ရန် ရေထည့်ပါ" || s.title === "အချိန်မှတ်ပြီး စစ်ပါ",
+    ),
+  ).toBe(false);
+  expect(
+    g.steps.some(
+      (s) =>
+        s.action.includes("Mint အရွက်သန့် (ပင်စည်ဖယ်) 2 g") &&
+        s.title === "အနံ့ပစ္စည်း ပြင်ပါ",
+    ),
+  ).toBe(true);
 });

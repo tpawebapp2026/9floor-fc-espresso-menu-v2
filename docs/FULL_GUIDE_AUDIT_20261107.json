@@ -2,7 +2,9 @@
   "sourceSHA256": "6c0e62bd3a4998a117f2b4ca08dad0c05f970133fe83392d269f9ac9ee66f93d",
   "records": 307,
   "ingredientCount": 1216,
-  "blockers": 31,
+  "blockers": 8,
+  "sourceResolvedMenus": 16,
+  "liquidChoiceMenus": 6,
   "tasteTested": 0,
   "methods": {
     "အအေးရောဖျော်ခြင်း": 113,
@@ -39,6 +41,8 @@
       "method": "အအေးရောဖျော်ခြင်း",
       "steps": 9,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "trial",
@@ -69,6 +73,8 @@
       "method": "အအေးရောဖျော်ခြင်း",
       "steps": 10,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "trial",
@@ -99,6 +105,8 @@
       "method": "အအေးရောဖျော်ခြင်း",
       "steps": 11,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "trial",
@@ -129,6 +137,8 @@
       "method": "အအေးရောဖျော်ခြင်း",
       "steps": 9,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "trial",
@@ -159,6 +169,8 @@
       "method": "အအေးရောဖျော်ခြင်း",
       "steps": 9,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "trial",
@@ -189,6 +201,8 @@
       "method": "ဆိုဒါရောဖျော်နည်း",
       "steps": 8,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "trial",
@@ -219,6 +233,8 @@
       "method": "အအေးရောဖျော်ခြင်း",
       "steps": 10,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "trial",
@@ -249,6 +265,8 @@
       "method": "အအေးရောဖျော်ခြင်း",
       "steps": 10,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "trial",
@@ -279,6 +297,8 @@
       "method": "အအေးရောဖျော်ခြင်း",
       "steps": 9,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "trial",
@@ -309,6 +329,8 @@
       "method": "Iced Cappuccino — အောက်ခံနို့နှင့်အမြှုပ် သီးခြား",
       "steps": 11,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "trial",
@@ -343,6 +365,8 @@
       "method": "အအေးရောဖျော်ခြင်း",
       "steps": 10,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "trial",
@@ -373,6 +397,8 @@
       "method": "အအေးရောဖျော်ခြင်း",
       "steps": 10,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "trial",
@@ -403,6 +429,8 @@
       "method": "အအေးရောဖျော်ခြင်း",
       "steps": 10,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "trial",
@@ -433,6 +461,8 @@
       "method": "အအေးရောဖျော်ခြင်း",
       "steps": 10,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "trial",
@@ -463,6 +493,8 @@
       "method": "အအေးရောဖျော်ခြင်း",
       "steps": 10,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "trial",
@@ -493,6 +525,8 @@
       "method": "အအေးရောဖျော်ခြင်း",
       "steps": 10,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "trial",
@@ -523,6 +557,8 @@
       "method": "အအေးရောဖျော်ခြင်း",
       "steps": 10,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "trial",
@@ -553,6 +589,8 @@
       "method": "အအေးရောဖျော်ခြင်း",
       "steps": 10,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "trial",
@@ -583,6 +621,8 @@
       "method": "အအေးရောဖျော်ခြင်း",
       "steps": 9,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "trial",
@@ -613,6 +653,8 @@
       "method": "အအေးရောဖျော်ခြင်း",
       "steps": 10,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "trial",
@@ -643,6 +685,8 @@
       "method": "အအေးရောဖျော်ခြင်း",
       "steps": 10,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "trial",
@@ -673,6 +717,8 @@
       "method": "အပူရောဖျော်ခြင်း",
       "steps": 6,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "trial",
@@ -695,6 +741,8 @@
       "method": "အပူရောဖျော်ခြင်း",
       "steps": 6,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "trial",
@@ -717,6 +765,8 @@
       "method": "အပူရောဖျော်ခြင်း",
       "steps": 8,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "trial",
@@ -743,6 +793,8 @@
       "method": "အပူရောဖျော်ခြင်း",
       "steps": 8,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "trial",
@@ -769,6 +821,8 @@
       "method": "အပူရောဖျော်ခြင်း",
       "steps": 13,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "trial",
@@ -795,6 +849,8 @@
       "method": "အပူရောဖျော်ခြင်း",
       "steps": 13,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "trial",
@@ -821,6 +877,8 @@
       "method": "အပူရောဖျော်ခြင်း",
       "steps": 13,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "trial",
@@ -847,6 +905,8 @@
       "method": "အပူရောဖျော်ခြင်း",
       "steps": 14,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "trial",
@@ -873,6 +933,8 @@
       "method": "အပူရောဖျော်ခြင်း",
       "steps": 14,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "trial",
@@ -899,6 +961,8 @@
       "method": "အပူရောဖျော်ခြင်း",
       "steps": 14,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "trial",
@@ -925,6 +989,8 @@
       "method": "အပူရောဖျော်ခြင်း",
       "steps": 14,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "trial",
@@ -951,6 +1017,8 @@
       "method": "အပူရောဖျော်ခြင်း",
       "steps": 13,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "trial",
@@ -977,6 +1045,8 @@
       "method": "Blender ဖြင့် ကြိတ်ဖျော်ခြင်း",
       "steps": 11,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "trial",
@@ -1003,6 +1073,8 @@
       "method": "Blender ဖြင့် ကြိတ်ဖျော်ခြင်း",
       "steps": 12,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "trial",
@@ -1029,6 +1101,8 @@
       "method": "Blender ဖြင့် ကြိတ်ဖျော်ခြင်း",
       "steps": 12,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "trial",
@@ -1055,6 +1129,8 @@
       "method": "Blender ဖြင့် ကြိတ်ဖျော်ခြင်း",
       "steps": 12,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "trial",
@@ -1081,6 +1157,8 @@
       "method": "Blender ဖြင့် ကြိတ်ဖျော်ခြင်း",
       "steps": 12,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "trial",
@@ -1105,24 +1183,31 @@
       "number": null,
       "name": "Iced Thai Milk Tea",
       "method": "အရွက်နှပ်ပြီး ရောဖျော်ခြင်း",
-      "steps": 11,
-      "status": "ဖော်မြူလာအချက်အလက် အရင်အတည်ပြုရန်",
-      "issues": [
+      "steps": 12,
+      "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [
         {
-          "level": "trial",
-          "message": "နို့အေး / ရေအေး 120 ml (Menu အလိုက်) — မရွေးရသေးသော အစားထိုး/အပိုင်း/အလေးချိန်ကို မှတ်တမ်းတင်ရန် လိုသည်။"
-        },
+          "index": 3,
+          "original": {
+            "name": "နို့အေး / ရေအေး",
+            "quantity": "120 ml (Menu အလိုက်)"
+          },
+          "resolved": {
+            "name": "နို့အေး",
+            "quantity": "120 ml"
+          },
+          "basis": "မူရင်းအဆင့်က နို့ပါသောမီနူးတွင် နို့အေး 120 ml သုံးရန် ရေးထားသည်။"
+        }
+      ],
+      "issues": [
         {
           "level": "trial",
           "message": "ရေခဲ 150–180 g — တစ်ပမာဏကို ခွက်မဖျော်မီ ရွေးချယ်မှတ်သားပြီး အဲဒီပမာဏကိုပဲ သုံးပါ။"
         },
         {
-          "level": "blocker",
-          "message": "မူရင်းက နို့/ရေ ရွေးချယ်မှု မရှင်းပါ။ နို့နှင့်လီမွန်ကို မခန့်မှန်းရောပါနှင့်။ အသုံးပြုမည့်အရည်ကို အတည်ပြုမှ စမ်းဖျော်ပါ။"
-        },
-        {
           "level": "trial",
-          "message": "g စုစုပေါင်း အတိအကျရရန် တိုင်းတာရန်ကျန်: နို့ဆီ၊ ရေနွေး၊ နို့အေး / ရေအေး၊ ရေခဲ။ ml ကို g အဖြစ် မတူညီဟုယူဆထားသည်။"
+          "message": "g စုစုပေါင်း အတိအကျရရန် တိုင်းတာရန်ကျန်: နို့ဆီ၊ ရေနွေး၊ နို့အေး၊ ရေခဲ။ ml ကို g အဖြစ် မတူညီဟုယူဆထားသည်။"
         }
       ],
       "sources": [
@@ -1138,24 +1223,31 @@
       "number": null,
       "name": "Iced Green Milk Tea",
       "method": "အရွက်နှပ်ပြီး ရောဖျော်ခြင်း",
-      "steps": 11,
-      "status": "ဖော်မြူလာအချက်အလက် အရင်အတည်ပြုရန်",
-      "issues": [
+      "steps": 12,
+      "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [
         {
-          "level": "trial",
-          "message": "နို့အေး / ရေအေး 120 ml (Menu အလိုက်) — မရွေးရသေးသော အစားထိုး/အပိုင်း/အလေးချိန်ကို မှတ်တမ်းတင်ရန် လိုသည်။"
-        },
+          "index": 3,
+          "original": {
+            "name": "နို့အေး / ရေအေး",
+            "quantity": "120 ml (Menu အလိုက်)"
+          },
+          "resolved": {
+            "name": "နို့အေး",
+            "quantity": "120 ml"
+          },
+          "basis": "မူရင်းအဆင့်က နို့ပါသောမီနူးတွင် နို့အေး 120 ml သုံးရန် ရေးထားသည်။"
+        }
+      ],
+      "issues": [
         {
           "level": "trial",
           "message": "ရေခဲ 150–180 g — တစ်ပမာဏကို ခွက်မဖျော်မီ ရွေးချယ်မှတ်သားပြီး အဲဒီပမာဏကိုပဲ သုံးပါ။"
         },
         {
-          "level": "blocker",
-          "message": "မူရင်းက နို့/ရေ ရွေးချယ်မှု မရှင်းပါ။ နို့နှင့်လီမွန်ကို မခန့်မှန်းရောပါနှင့်။ အသုံးပြုမည့်အရည်ကို အတည်ပြုမှ စမ်းဖျော်ပါ။"
-        },
-        {
           "level": "trial",
-          "message": "g စုစုပေါင်း အတိအကျရရန် တိုင်းတာရန်ကျန်: နို့ဆီ၊ ရေနွေး၊ နို့အေး / ရေအေး၊ ရေခဲ။ ml ကို g အဖြစ် မတူညီဟုယူဆထားသည်။"
+          "message": "g စုစုပေါင်း အတိအကျရရန် တိုင်းတာရန်ကျန်: နို့ဆီ၊ ရေနွေး၊ နို့အေး၊ ရေခဲ။ ml ကို g အဖြစ် မတူညီဟုယူဆထားသည်။"
         }
       ],
       "sources": [
@@ -1171,20 +1263,27 @@
       "number": null,
       "name": "Iced Matcha Latte",
       "method": "Matcha/မှုန့်ကို အရင်ဖျော်ခြင်း",
-      "steps": 10,
-      "status": "ဖော်မြူလာအချက်အလက် အရင်အတည်ပြုရန်",
+      "steps": 11,
+      "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [
+        {
+          "index": 3,
+          "original": {
+            "name": "နို့အေး / ရေအေး",
+            "quantity": "120 ml (Menu အလိုက်)"
+          },
+          "resolved": {
+            "name": "နို့အေး",
+            "quantity": "120 ml"
+          },
+          "basis": "မူရင်းအဆင့်က နို့ပါသောမီနူးတွင် နို့အေး 120 ml သုံးရန် ရေးထားသည်။"
+        }
+      ],
       "issues": [
         {
           "level": "trial",
-          "message": "နို့အေး / ရေအေး 120 ml (Menu အလိုက်) — မရွေးရသေးသော အစားထိုး/အပိုင်း/အလေးချိန်ကို မှတ်တမ်းတင်ရန် လိုသည်။"
-        },
-        {
-          "level": "trial",
           "message": "ရေခဲ 150–180 g — တစ်ပမာဏကို ခွက်မဖျော်မီ ရွေးချယ်မှတ်သားပြီး အဲဒီပမာဏကိုပဲ သုံးပါ။"
-        },
-        {
-          "level": "blocker",
-          "message": "မူရင်းက နို့/ရေ ရွေးချယ်မှု မရှင်းပါ။ နို့နှင့်လီမွန်ကို မခန့်မှန်းရောပါနှင့်။ အသုံးပြုမည့်အရည်ကို အတည်ပြုမှ စမ်းဖျော်ပါ။"
         },
         {
           "level": "trial",
@@ -1192,7 +1291,7 @@
         },
         {
           "level": "trial",
-          "message": "g စုစုပေါင်း အတိအကျရရန် တိုင်းတာရန်ကျန်: သကြားရည်၊ ရေနွေး၊ နို့အေး / ရေအေး၊ ရေခဲ။ ml ကို g အဖြစ် မတူညီဟုယူဆထားသည်။"
+          "message": "g စုစုပေါင်း အတိအကျရရန် တိုင်းတာရန်ကျန်: သကြားရည်၊ ရေနွေး၊ နို့အေး၊ ရေခဲ။ ml ကို g အဖြစ် မတူညီဟုယူဆထားသည်။"
         }
       ],
       "sources": [
@@ -1209,20 +1308,27 @@
       "number": null,
       "name": "Iced Cocoa",
       "method": "မှုန့်ကို အရင်ဖျော်ခြင်း",
-      "steps": 10,
-      "status": "ဖော်မြူလာအချက်အလက် အရင်အတည်ပြုရန်",
+      "steps": 11,
+      "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [
+        {
+          "index": 3,
+          "original": {
+            "name": "နို့အေး / ရေအေး",
+            "quantity": "120 ml (Menu အလိုက်)"
+          },
+          "resolved": {
+            "name": "နို့အေး",
+            "quantity": "120 ml"
+          },
+          "basis": "မူရင်းအဆင့်က နို့ပါသောမီနူးတွင် နို့အေး 120 ml သုံးရန် ရေးထားသည်။"
+        }
+      ],
       "issues": [
         {
           "level": "trial",
-          "message": "နို့အေး / ရေအေး 120 ml (Menu အလိုက်) — မရွေးရသေးသော အစားထိုး/အပိုင်း/အလေးချိန်ကို မှတ်တမ်းတင်ရန် လိုသည်။"
-        },
-        {
-          "level": "trial",
           "message": "ရေခဲ 150–180 g — တစ်ပမာဏကို ခွက်မဖျော်မီ ရွေးချယ်မှတ်သားပြီး အဲဒီပမာဏကိုပဲ သုံးပါ။"
-        },
-        {
-          "level": "blocker",
-          "message": "မူရင်းက နို့/ရေ ရွေးချယ်မှု မရှင်းပါ။ နို့နှင့်လီမွန်ကို မခန့်မှန်းရောပါနှင့်။ အသုံးပြုမည့်အရည်ကို အတည်ပြုမှ စမ်းဖျော်ပါ။"
         },
         {
           "level": "trial",
@@ -1230,7 +1336,7 @@
         },
         {
           "level": "trial",
-          "message": "g စုစုပေါင်း အတိအကျရရန် တိုင်းတာရန်ကျန်: သကြားရည်၊ ရေနွေး၊ နို့အေး / ရေအေး၊ ရေခဲ။ ml ကို g အဖြစ် မတူညီဟုယူဆထားသည်။"
+          "message": "g စုစုပေါင်း အတိအကျရရန် တိုင်းတာရန်ကျန်: သကြားရည်၊ ရေနွေး၊ နို့အေး၊ ရေခဲ။ ml ကို g အဖြစ် မတူညီဟုယူဆထားသည်။"
         }
       ],
       "sources": [
@@ -1246,20 +1352,27 @@
       "number": null,
       "name": "Iced Chocolate",
       "method": "မှုန့်ကို အရင်ဖျော်ခြင်း",
-      "steps": 10,
-      "status": "ဖော်မြူလာအချက်အလက် အရင်အတည်ပြုရန်",
+      "steps": 11,
+      "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [
+        {
+          "index": 3,
+          "original": {
+            "name": "နို့အေး / ရေအေး",
+            "quantity": "120 ml (Menu အလိုက်)"
+          },
+          "resolved": {
+            "name": "နို့အေး",
+            "quantity": "120 ml"
+          },
+          "basis": "မူရင်းအဆင့်က နို့ပါသောမီနူးတွင် နို့အေး 120 ml သုံးရန် ရေးထားသည်။"
+        }
+      ],
       "issues": [
         {
           "level": "trial",
-          "message": "နို့အေး / ရေအေး 120 ml (Menu အလိုက်) — မရွေးရသေးသော အစားထိုး/အပိုင်း/အလေးချိန်ကို မှတ်တမ်းတင်ရန် လိုသည်။"
-        },
-        {
-          "level": "trial",
           "message": "ရေခဲ 150–180 g — တစ်ပမာဏကို ခွက်မဖျော်မီ ရွေးချယ်မှတ်သားပြီး အဲဒီပမာဏကိုပဲ သုံးပါ။"
-        },
-        {
-          "level": "blocker",
-          "message": "မူရင်းက နို့/ရေ ရွေးချယ်မှု မရှင်းပါ။ နို့နှင့်လီမွန်ကို မခန့်မှန်းရောပါနှင့်။ အသုံးပြုမည့်အရည်ကို အတည်ပြုမှ စမ်းဖျော်ပါ။"
         },
         {
           "level": "trial",
@@ -1267,7 +1380,7 @@
         },
         {
           "level": "trial",
-          "message": "g စုစုပေါင်း အတိအကျရရန် တိုင်းတာရန်ကျန်: သကြားရည်၊ ရေနွေး၊ နို့အေး / ရေအေး၊ ရေခဲ။ ml ကို g အဖြစ် မတူညီဟုယူဆထားသည်။"
+          "message": "g စုစုပေါင်း အတိအကျရရန် တိုင်းတာရန်ကျန်: သကြားရည်၊ ရေနွေး၊ နို့အေး၊ ရေခဲ။ ml ကို g အဖြစ် မတူညီဟုယူဆထားသည်။"
         }
       ],
       "sources": [
@@ -1283,24 +1396,31 @@
       "number": null,
       "name": "Iced Milk Tea",
       "method": "အရွက်နှပ်ပြီး ရောဖျော်ခြင်း",
-      "steps": 11,
-      "status": "ဖော်မြူလာအချက်အလက် အရင်အတည်ပြုရန်",
-      "issues": [
+      "steps": 12,
+      "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [
         {
-          "level": "trial",
-          "message": "နို့အေး / ရေအေး 120 ml (Menu အလိုက်) — မရွေးရသေးသော အစားထိုး/အပိုင်း/အလေးချိန်ကို မှတ်တမ်းတင်ရန် လိုသည်။"
-        },
+          "index": 3,
+          "original": {
+            "name": "နို့အေး / ရေအေး",
+            "quantity": "120 ml (Menu အလိုက်)"
+          },
+          "resolved": {
+            "name": "နို့အေး",
+            "quantity": "120 ml"
+          },
+          "basis": "မူရင်းအဆင့်က နို့ပါသောမီနူးတွင် နို့အေး 120 ml သုံးရန် ရေးထားသည်။"
+        }
+      ],
+      "issues": [
         {
           "level": "trial",
           "message": "ရေခဲ 150–180 g — တစ်ပမာဏကို ခွက်မဖျော်မီ ရွေးချယ်မှတ်သားပြီး အဲဒီပမာဏကိုပဲ သုံးပါ။"
         },
         {
-          "level": "blocker",
-          "message": "မူရင်းက နို့/ရေ ရွေးချယ်မှု မရှင်းပါ။ နို့နှင့်လီမွန်ကို မခန့်မှန်းရောပါနှင့်။ အသုံးပြုမည့်အရည်ကို အတည်ပြုမှ စမ်းဖျော်ပါ။"
-        },
-        {
           "level": "trial",
-          "message": "g စုစုပေါင်း အတိအကျရရန် တိုင်းတာရန်ကျန်: နို့ဆီ၊ ရေနွေး၊ နို့အေး / ရေအေး၊ ရေခဲ။ ml ကို g အဖြစ် မတူညီဟုယူဆထားသည်။"
+          "message": "g စုစုပေါင်း အတိအကျရရန် တိုင်းတာရန်ကျန်: နို့ဆီ၊ ရေနွေး၊ နို့အေး၊ ရေခဲ။ ml ကို g အဖြစ် မတူညီဟုယူဆထားသည်။"
         }
       ],
       "sources": [
@@ -1316,24 +1436,31 @@
       "number": null,
       "name": "Iced Lemon Tea",
       "method": "အရွက်နှပ်ပြီး ရောဖျော်ခြင်း",
-      "steps": 12,
-      "status": "ဖော်မြူလာအချက်အလက် အရင်အတည်ပြုရန်",
-      "issues": [
+      "steps": 13,
+      "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [
         {
-          "level": "trial",
-          "message": "နို့အေး / ရေအေး 120 ml (Menu အလိုက်) — မရွေးရသေးသော အစားထိုး/အပိုင်း/အလေးချိန်ကို မှတ်တမ်းတင်ရန် လိုသည်။"
-        },
+          "index": 4,
+          "original": {
+            "name": "နို့အေး / ရေအေး",
+            "quantity": "120 ml (Menu အလိုက်)"
+          },
+          "resolved": {
+            "name": "ရေအေး",
+            "quantity": "120 ml"
+          },
+          "basis": "မူရင်းအဆင့်က Lemon/Peach Tea တွင် ရေအေး 120 ml သုံးရန် ရေးထားသည်။"
+        }
+      ],
+      "issues": [
         {
           "level": "trial",
           "message": "ရေခဲ 150–180 g — တစ်ပမာဏကို ခွက်မဖျော်မီ ရွေးချယ်မှတ်သားပြီး အဲဒီပမာဏကိုပဲ သုံးပါ။"
         },
         {
-          "level": "blocker",
-          "message": "မူရင်းက နို့/ရေ ရွေးချယ်မှု မရှင်းပါ။ နို့နှင့်လီမွန်ကို မခန့်မှန်းရောပါနှင့်။ အသုံးပြုမည့်အရည်ကို အတည်ပြုမှ စမ်းဖျော်ပါ။"
-        },
-        {
           "level": "trial",
-          "message": "g စုစုပေါင်း အတိအကျရရန် တိုင်းတာရန်ကျန်: သံပုရာရည်၊ သကြားရည်၊ ရေနွေး၊ နို့အေး / ရေအေး၊ ရေခဲ။ ml ကို g အဖြစ် မတူညီဟုယူဆထားသည်။"
+          "message": "g စုစုပေါင်း အတိအကျရရန် တိုင်းတာရန်ကျန်: သံပုရာရည်၊ သကြားရည်၊ ရေနွေး၊ ရေအေး၊ ရေခဲ။ ml ကို g အဖြစ် မတူညီဟုယူဆထားသည်။"
         }
       ],
       "sources": [
@@ -1349,24 +1476,31 @@
       "number": null,
       "name": "Iced Peach Tea",
       "method": "အရွက်နှပ်ပြီး ရောဖျော်ခြင်း",
-      "steps": 11,
-      "status": "ဖော်မြူလာအချက်အလက် အရင်အတည်ပြုရန်",
-      "issues": [
+      "steps": 12,
+      "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [
         {
-          "level": "trial",
-          "message": "နို့အေး / ရေအေး 120 ml (Menu အလိုက်) — မရွေးရသေးသော အစားထိုး/အပိုင်း/အလေးချိန်ကို မှတ်တမ်းတင်ရန် လိုသည်။"
-        },
+          "index": 3,
+          "original": {
+            "name": "နို့အေး / ရေအေး",
+            "quantity": "120 ml (Menu အလိုက်)"
+          },
+          "resolved": {
+            "name": "ရေအေး",
+            "quantity": "120 ml"
+          },
+          "basis": "မူရင်းအဆင့်က Lemon/Peach Tea တွင် ရေအေး 120 ml သုံးရန် ရေးထားသည်။"
+        }
+      ],
+      "issues": [
         {
           "level": "trial",
           "message": "ရေခဲ 150–180 g — တစ်ပမာဏကို ခွက်မဖျော်မီ ရွေးချယ်မှတ်သားပြီး အဲဒီပမာဏကိုပဲ သုံးပါ။"
         },
         {
-          "level": "blocker",
-          "message": "မူရင်းက နို့/ရေ ရွေးချယ်မှု မရှင်းပါ။ နို့နှင့်လီမွန်ကို မခန့်မှန်းရောပါနှင့်။ အသုံးပြုမည့်အရည်ကို အတည်ပြုမှ စမ်းဖျော်ပါ။"
-        },
-        {
           "level": "trial",
-          "message": "g စုစုပေါင်း အတိအကျရရန် တိုင်းတာရန်ကျန်: Peach Syrup၊ ရေနွေး၊ နို့အေး / ရေအေး၊ ရေခဲ။ ml ကို g အဖြစ် မတူညီဟုယူဆထားသည်။"
+          "message": "g စုစုပေါင်း အတိအကျရရန် တိုင်းတာရန်ကျန်: Peach Syrup၊ ရေနွေး၊ ရေအေး၊ ရေခဲ။ ml ကို g အဖြစ် မတူညီဟုယူဆထားသည်။"
         }
       ],
       "sources": [
@@ -1382,24 +1516,31 @@
       "number": null,
       "name": "Iced Honey Lemon Tea",
       "method": "အရွက်နှပ်ပြီး ရောဖျော်ခြင်း",
-      "steps": 12,
-      "status": "ဖော်မြူလာအချက်အလက် အရင်အတည်ပြုရန်",
-      "issues": [
+      "steps": 13,
+      "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [
         {
-          "level": "trial",
-          "message": "နို့အေး / ရေအေး 120 ml (Menu အလိုက်) — မရွေးရသေးသော အစားထိုး/အပိုင်း/အလေးချိန်ကို မှတ်တမ်းတင်ရန် လိုသည်။"
-        },
+          "index": 4,
+          "original": {
+            "name": "နို့အေး / ရေအေး",
+            "quantity": "120 ml (Menu အလိုက်)"
+          },
+          "resolved": {
+            "name": "ရေအေး",
+            "quantity": "120 ml"
+          },
+          "basis": "မူရင်းအဆင့်က Lemon/Peach Tea တွင် ရေအေး 120 ml သုံးရန် ရေးထားသည်။"
+        }
+      ],
+      "issues": [
         {
           "level": "trial",
           "message": "ရေခဲ 150–180 g — တစ်ပမာဏကို ခွက်မဖျော်မီ ရွေးချယ်မှတ်သားပြီး အဲဒီပမာဏကိုပဲ သုံးပါ။"
         },
         {
-          "level": "blocker",
-          "message": "မူရင်းက နို့/ရေ ရွေးချယ်မှု မရှင်းပါ။ နို့နှင့်လီမွန်ကို မခန့်မှန်းရောပါနှင့်။ အသုံးပြုမည့်အရည်ကို အတည်ပြုမှ စမ်းဖျော်ပါ။"
-        },
-        {
           "level": "trial",
-          "message": "g စုစုပေါင်း အတိအကျရရန် တိုင်းတာရန်ကျန်: ပျားရည်၊ သံပုရာရည်၊ ရေနွေး၊ နို့အေး / ရေအေး၊ ရေခဲ။ ml ကို g အဖြစ် မတူညီဟုယူဆထားသည်။"
+          "message": "g စုစုပေါင်း အတိအကျရရန် တိုင်းတာရန်ကျန်: ပျားရည်၊ သံပုရာရည်၊ ရေနွေး၊ ရေအေး၊ ရေခဲ။ ml ကို g အဖြစ် မတူညီဟုယူဆထားသည်။"
         }
       ],
       "sources": [
@@ -1415,20 +1556,27 @@
       "number": null,
       "name": "Iced Taro Milk",
       "method": "မှုန့်ကို အရင်ဖျော်ခြင်း",
-      "steps": 10,
-      "status": "ဖော်မြူလာအချက်အလက် အရင်အတည်ပြုရန်",
+      "steps": 11,
+      "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [
+        {
+          "index": 3,
+          "original": {
+            "name": "နို့အေး / ရေအေး",
+            "quantity": "120 ml (Menu အလိုက်)"
+          },
+          "resolved": {
+            "name": "နို့အေး",
+            "quantity": "120 ml"
+          },
+          "basis": "မူရင်းအဆင့်က နို့ပါသောမီနူးတွင် နို့အေး 120 ml သုံးရန် ရေးထားသည်။"
+        }
+      ],
       "issues": [
         {
           "level": "trial",
-          "message": "နို့အေး / ရေအေး 120 ml (Menu အလိုက်) — မရွေးရသေးသော အစားထိုး/အပိုင်း/အလေးချိန်ကို မှတ်တမ်းတင်ရန် လိုသည်။"
-        },
-        {
-          "level": "trial",
           "message": "ရေခဲ 150–180 g — တစ်ပမာဏကို ခွက်မဖျော်မီ ရွေးချယ်မှတ်သားပြီး အဲဒီပမာဏကိုပဲ သုံးပါ။"
-        },
-        {
-          "level": "blocker",
-          "message": "မူရင်းက နို့/ရေ ရွေးချယ်မှု မရှင်းပါ။ နို့နှင့်လီမွန်ကို မခန့်မှန်းရောပါနှင့်။ အသုံးပြုမည့်အရည်ကို အတည်ပြုမှ စမ်းဖျော်ပါ။"
         },
         {
           "level": "trial",
@@ -1436,7 +1584,7 @@
         },
         {
           "level": "trial",
-          "message": "g စုစုပေါင်း အတိအကျရရန် တိုင်းတာရန်ကျန်: သကြားရည်၊ ရေနွေး၊ နို့အေး / ရေအေး၊ ရေခဲ။ ml ကို g အဖြစ် မတူညီဟုယူဆထားသည်။"
+          "message": "g စုစုပေါင်း အတိအကျရရန် တိုင်းတာရန်ကျန်: သကြားရည်၊ ရေနွေး၊ နို့အေး၊ ရေခဲ။ ml ကို g အဖြစ် မတူညီဟုယူဆထားသည်။"
         }
       ],
       "sources": [
@@ -1452,24 +1600,31 @@
       "number": null,
       "name": "Iced Strawberry Milk",
       "method": "အအေးရောဖျော်ခြင်း",
-      "steps": 8,
-      "status": "ဖော်မြူလာအချက်အလက် အရင်အတည်ပြုရန်",
-      "issues": [
+      "steps": 9,
+      "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [
         {
-          "level": "trial",
-          "message": "နို့အေး / ရေအေး 120 ml (Menu အလိုက်) — မရွေးရသေးသော အစားထိုး/အပိုင်း/အလေးချိန်ကို မှတ်တမ်းတင်ရန် လိုသည်။"
-        },
+          "index": 2,
+          "original": {
+            "name": "နို့အေး / ရေအေး",
+            "quantity": "120 ml (Menu အလိုက်)"
+          },
+          "resolved": {
+            "name": "နို့အေး",
+            "quantity": "120 ml"
+          },
+          "basis": "မူရင်းအဆင့်က နို့ပါသောမီနူးတွင် နို့အေး 120 ml သုံးရန် ရေးထားသည်။"
+        }
+      ],
+      "issues": [
         {
           "level": "trial",
           "message": "ရေခဲ 150–180 g — တစ်ပမာဏကို ခွက်မဖျော်မီ ရွေးချယ်မှတ်သားပြီး အဲဒီပမာဏကိုပဲ သုံးပါ။"
         },
         {
-          "level": "blocker",
-          "message": "မူရင်းက နို့/ရေ ရွေးချယ်မှု မရှင်းပါ။ နို့နှင့်လီမွန်ကို မခန့်မှန်းရောပါနှင့်။ အသုံးပြုမည့်အရည်ကို အတည်ပြုမှ စမ်းဖျော်ပါ။"
-        },
-        {
           "level": "trial",
-          "message": "g စုစုပေါင်း အတိအကျရရန် တိုင်းတာရန်ကျန်: Strawberry Syrup၊ ရေနွေး၊ နို့အေး / ရေအေး၊ ရေခဲ။ ml ကို g အဖြစ် မတူညီဟုယူဆထားသည်။"
+          "message": "g စုစုပေါင်း အတိအကျရရန် တိုင်းတာရန်ကျန်: Strawberry Syrup၊ ရေနွေး၊ နို့အေး၊ ရေခဲ။ ml ကို g အဖြစ် မတူညီဟုယူဆထားသည်။"
         }
       ],
       "sources": [
@@ -1485,24 +1640,31 @@
       "number": null,
       "name": "Iced Brown Sugar Milk",
       "method": "အအေးရောဖျော်ခြင်း",
-      "steps": 8,
-      "status": "ဖော်မြူလာအချက်အလက် အရင်အတည်ပြုရန်",
-      "issues": [
+      "steps": 9,
+      "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [
         {
-          "level": "trial",
-          "message": "နို့အေး / ရေအေး 120 ml (Menu အလိုက်) — မရွေးရသေးသော အစားထိုး/အပိုင်း/အလေးချိန်ကို မှတ်တမ်းတင်ရန် လိုသည်။"
-        },
+          "index": 2,
+          "original": {
+            "name": "နို့အေး / ရေအေး",
+            "quantity": "120 ml (Menu အလိုက်)"
+          },
+          "resolved": {
+            "name": "နို့အေး",
+            "quantity": "120 ml"
+          },
+          "basis": "မူရင်းအဆင့်က နို့ပါသောမီနူးတွင် နို့အေး 120 ml သုံးရန် ရေးထားသည်။"
+        }
+      ],
+      "issues": [
         {
           "level": "trial",
           "message": "ရေခဲ 150–180 g — တစ်ပမာဏကို ခွက်မဖျော်မီ ရွေးချယ်မှတ်သားပြီး အဲဒီပမာဏကိုပဲ သုံးပါ။"
         },
         {
-          "level": "blocker",
-          "message": "မူရင်းက နို့/ရေ ရွေးချယ်မှု မရှင်းပါ။ နို့နှင့်လီမွန်ကို မခန့်မှန်းရောပါနှင့်။ အသုံးပြုမည့်အရည်ကို အတည်ပြုမှ စမ်းဖျော်ပါ။"
-        },
-        {
           "level": "trial",
-          "message": "g စုစုပေါင်း အတိအကျရရန် တိုင်းတာရန်ကျန်: Brown Sugar Syrup၊ ရေနွေး၊ နို့အေး / ရေအေး၊ ရေခဲ။ ml ကို g အဖြစ် မတူညီဟုယူဆထားသည်။"
+          "message": "g စုစုပေါင်း အတိအကျရရန် တိုင်းတာရန်ကျန်: Brown Sugar Syrup၊ ရေနွေး၊ နို့အေး၊ ရေခဲ။ ml ကို g အဖြစ် မတူညီဟုယူဆထားသည်။"
         }
       ],
       "sources": [
@@ -1518,29 +1680,33 @@
       "number": null,
       "name": "Hot Thai Milk Tea",
       "method": "အရွက်နှပ်ပြီး ရောဖျော်ခြင်း",
-      "steps": 9,
-      "status": "ဖော်မြူလာအချက်အလက် အရင်အတည်ပြုရန်",
+      "steps": 14,
+      "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [
+        {
+          "index": 3,
+          "original": {
+            "name": "နို့ (နို့လက်ဖက်ရည်/Matcha/Cocoa)",
+            "quantity": "120 ml (လိုအပ်သော Menu များ)"
+          },
+          "resolved": {
+            "name": "နို့ (အပူဖောက်ရန်)",
+            "quantity": "120 ml"
+          },
+          "basis": "မူရင်းအဆင့်က နို့ပါသောမီနူးတွင် နို့ 120 ml ကို သီးခြားအပူပေးရန် ရေးထားသည်။"
+        }
+      ],
       "issues": [
         {
           "level": "trial",
-          "message": "နို့ (နို့လက်ဖက်ရည်/Matcha/Cocoa) 120 ml (လိုအပ်သော Menu များ) — မရွေးရသေးသော အစားထိုး/အပိုင်း/အလေးချိန်ကို မှတ်တမ်းတင်ရန် လိုသည်။"
-        },
-        {
-          "level": "blocker",
-          "message": "မူရင်းက နို့/ရေ ရွေးချယ်မှု မရှင်းပါ။ နို့နှင့်လီမွန်ကို မခန့်မှန်းရောပါနှင့်။ အသုံးပြုမည့်အရည်ကို အတည်ပြုမှ စမ်းဖျော်ပါ။"
-        },
-        {
-          "level": "trial",
-          "message": "အသင့် base ၏ မူရင်းဖျော်အချိုးကို အတည်ပြုရန်လိုသည်။ အရည်အားပြင်းမှု မသိဘဲ နောက်ထပ်ရေဖြည့် မညှိပါနှင့်။"
-        },
-        {
-          "level": "trial",
-          "message": "g စုစုပေါင်း အတိအကျရရန် တိုင်းတာရန်ကျန်: နို့ဆီ၊ ရေနွေး၊ နို့ (နို့လက်ဖက်ရည်/Matcha/Cocoa)။ ml ကို g အဖြစ် မတူညီဟုယူဆထားသည်။"
+          "message": "g စုစုပေါင်း အတိအကျရရန် တိုင်းတာရန်ကျန်: နို့ဆီ၊ ရေနွေး၊ နို့ (အပူဖောက်ရန်)။ ml ကို g အဖြစ် မတူညီဟုယူဆထားသည်။"
         }
       ],
       "sources": [
         "sca",
-        "cold"
+        "cold",
+        "espresso"
       ],
       "ingredients": 4,
       "accounted": 4,
@@ -1551,34 +1717,38 @@
       "number": null,
       "name": "Hot Matcha Latte",
       "method": "Matcha/မှုန့်ကို အရင်ဖျော်ခြင်း",
-      "steps": 9,
-      "status": "ဖော်မြူလာအချက်အလက် အရင်အတည်ပြုရန်",
+      "steps": 14,
+      "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [
+        {
+          "index": 3,
+          "original": {
+            "name": "နို့ (နို့လက်ဖက်ရည်/Matcha/Cocoa)",
+            "quantity": "120 ml (လိုအပ်သော Menu များ)"
+          },
+          "resolved": {
+            "name": "နို့ (အပူဖောက်ရန်)",
+            "quantity": "120 ml"
+          },
+          "basis": "မူရင်းအဆင့်က နို့ပါသောမီနူးတွင် နို့ 120 ml ကို သီးခြားအပူပေးရန် ရေးထားသည်။"
+        }
+      ],
       "issues": [
-        {
-          "level": "trial",
-          "message": "နို့ (နို့လက်ဖက်ရည်/Matcha/Cocoa) 120 ml (လိုအပ်သော Menu များ) — မရွေးရသေးသော အစားထိုး/အပိုင်း/အလေးချိန်ကို မှတ်တမ်းတင်ရန် လိုသည်။"
-        },
-        {
-          "level": "blocker",
-          "message": "မူရင်းက နို့/ရေ ရွေးချယ်မှု မရှင်းပါ။ နို့နှင့်လီမွန်ကို မခန့်မှန်းရောပါနှင့်။ အသုံးပြုမည့်အရည်ကို အတည်ပြုမှ စမ်းဖျော်ပါ။"
-        },
         {
           "level": "trial",
           "message": "အနှစ်/မှုန့်၏ အချိုပါဝင်မှုနှင့် dilution အချိုးက brand အလိုက် ကွာသည်။ မိမိသုံးမည့် label နှင့် အရသာကို စမ်းသပ်ရမည်။"
         },
         {
           "level": "trial",
-          "message": "အသင့် base ၏ မူရင်းဖျော်အချိုးကို အတည်ပြုရန်လိုသည်။ အရည်အားပြင်းမှု မသိဘဲ နောက်ထပ်ရေဖြည့် မညှိပါနှင့်။"
-        },
-        {
-          "level": "trial",
-          "message": "g စုစုပေါင်း အတိအကျရရန် တိုင်းတာရန်ကျန်: သကြားရည်၊ ရေနွေး၊ နို့ (နို့လက်ဖက်ရည်/Matcha/Cocoa)။ ml ကို g အဖြစ် မတူညီဟုယူဆထားသည်။"
+          "message": "g စုစုပေါင်း အတိအကျရရန် တိုင်းတာရန်ကျန်: သကြားရည်၊ ရေနွေး၊ နို့ (အပူဖောက်ရန်)။ ml ကို g အဖြစ် မတူညီဟုယူဆထားသည်။"
         }
       ],
       "sources": [
         "sca",
         "cold",
-        "matcha"
+        "matcha",
+        "espresso"
       ],
       "ingredients": 4,
       "accounted": 4,
@@ -1589,33 +1759,37 @@
       "number": null,
       "name": "Hot Cocoa",
       "method": "မှုန့်ကို အရင်ဖျော်ခြင်း",
-      "steps": 9,
-      "status": "ဖော်မြူလာအချက်အလက် အရင်အတည်ပြုရန်",
+      "steps": 14,
+      "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [
+        {
+          "index": 3,
+          "original": {
+            "name": "နို့ (နို့လက်ဖက်ရည်/Matcha/Cocoa)",
+            "quantity": "120 ml (လိုအပ်သော Menu များ)"
+          },
+          "resolved": {
+            "name": "နို့ (အပူဖောက်ရန်)",
+            "quantity": "120 ml"
+          },
+          "basis": "မူရင်းအဆင့်က နို့ပါသောမီနူးတွင် နို့ 120 ml ကို သီးခြားအပူပေးရန် ရေးထားသည်။"
+        }
+      ],
       "issues": [
-        {
-          "level": "trial",
-          "message": "နို့ (နို့လက်ဖက်ရည်/Matcha/Cocoa) 120 ml (လိုအပ်သော Menu များ) — မရွေးရသေးသော အစားထိုး/အပိုင်း/အလေးချိန်ကို မှတ်တမ်းတင်ရန် လိုသည်။"
-        },
-        {
-          "level": "blocker",
-          "message": "မူရင်းက နို့/ရေ ရွေးချယ်မှု မရှင်းပါ။ နို့နှင့်လီမွန်ကို မခန့်မှန်းရောပါနှင့်။ အသုံးပြုမည့်အရည်ကို အတည်ပြုမှ စမ်းဖျော်ပါ။"
-        },
         {
           "level": "trial",
           "message": "အနှစ်/မှုန့်၏ အချိုပါဝင်မှုနှင့် dilution အချိုးက brand အလိုက် ကွာသည်။ မိမိသုံးမည့် label နှင့် အရသာကို စမ်းသပ်ရမည်။"
         },
         {
           "level": "trial",
-          "message": "အသင့် base ၏ မူရင်းဖျော်အချိုးကို အတည်ပြုရန်လိုသည်။ အရည်အားပြင်းမှု မသိဘဲ နောက်ထပ်ရေဖြည့် မညှိပါနှင့်။"
-        },
-        {
-          "level": "trial",
-          "message": "g စုစုပေါင်း အတိအကျရရန် တိုင်းတာရန်ကျန်: သကြားရည်၊ ရေနွေး၊ နို့ (နို့လက်ဖက်ရည်/Matcha/Cocoa)။ ml ကို g အဖြစ် မတူညီဟုယူဆထားသည်။"
+          "message": "g စုစုပေါင်း အတိအကျရရန် တိုင်းတာရန်ကျန်: သကြားရည်၊ ရေနွေး၊ နို့ (အပူဖောက်ရန်)။ ml ကို g အဖြစ် မတူညီဟုယူဆထားသည်။"
         }
       ],
       "sources": [
         "sca",
-        "cold"
+        "cold",
+        "espresso"
       ],
       "ingredients": 4,
       "accounted": 4,
@@ -1626,33 +1800,37 @@
       "number": null,
       "name": "Hot Chocolate",
       "method": "မှုန့်ကို အရင်ဖျော်ခြင်း",
-      "steps": 9,
-      "status": "ဖော်မြူလာအချက်အလက် အရင်အတည်ပြုရန်",
+      "steps": 14,
+      "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [
+        {
+          "index": 3,
+          "original": {
+            "name": "နို့ (နို့လက်ဖက်ရည်/Matcha/Cocoa)",
+            "quantity": "120 ml (လိုအပ်သော Menu များ)"
+          },
+          "resolved": {
+            "name": "နို့ (အပူဖောက်ရန်)",
+            "quantity": "120 ml"
+          },
+          "basis": "မူရင်းအဆင့်က နို့ပါသောမီနူးတွင် နို့ 120 ml ကို သီးခြားအပူပေးရန် ရေးထားသည်။"
+        }
+      ],
       "issues": [
-        {
-          "level": "trial",
-          "message": "နို့ (နို့လက်ဖက်ရည်/Matcha/Cocoa) 120 ml (လိုအပ်သော Menu များ) — မရွေးရသေးသော အစားထိုး/အပိုင်း/အလေးချိန်ကို မှတ်တမ်းတင်ရန် လိုသည်။"
-        },
-        {
-          "level": "blocker",
-          "message": "မူရင်းက နို့/ရေ ရွေးချယ်မှု မရှင်းပါ။ နို့နှင့်လီမွန်ကို မခန့်မှန်းရောပါနှင့်။ အသုံးပြုမည့်အရည်ကို အတည်ပြုမှ စမ်းဖျော်ပါ။"
-        },
         {
           "level": "trial",
           "message": "အနှစ်/မှုန့်၏ အချိုပါဝင်မှုနှင့် dilution အချိုးက brand အလိုက် ကွာသည်။ မိမိသုံးမည့် label နှင့် အရသာကို စမ်းသပ်ရမည်။"
         },
         {
           "level": "trial",
-          "message": "အသင့် base ၏ မူရင်းဖျော်အချိုးကို အတည်ပြုရန်လိုသည်။ အရည်အားပြင်းမှု မသိဘဲ နောက်ထပ်ရေဖြည့် မညှိပါနှင့်။"
-        },
-        {
-          "level": "trial",
-          "message": "g စုစုပေါင်း အတိအကျရရန် တိုင်းတာရန်ကျန်: သကြားရည်၊ ရေနွေး၊ နို့ (နို့လက်ဖက်ရည်/Matcha/Cocoa)။ ml ကို g အဖြစ် မတူညီဟုယူဆထားသည်။"
+          "message": "g စုစုပေါင်း အတိအကျရရန် တိုင်းတာရန်ကျန်: သကြားရည်၊ ရေနွေး၊ နို့ (အပူဖောက်ရန်)။ ml ကို g အဖြစ် မတူညီဟုယူဆထားသည်။"
         }
       ],
       "sources": [
         "sca",
-        "cold"
+        "cold",
+        "espresso"
       ],
       "ingredients": 4,
       "accounted": 4,
@@ -1665,6 +1843,8 @@
       "method": "အရွက်နှပ်ပြီး ရောဖျော်ခြင်း",
       "steps": 10,
       "status": "ဖော်မြူလာအချက်အလက် အရင်အတည်ပြုရန်",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "trial",
@@ -1672,7 +1852,7 @@
         },
         {
           "level": "blocker",
-          "message": "မူရင်းက နို့/ရေ ရွေးချယ်မှု မရှင်းပါ။ နို့နှင့်လီမွန်ကို မခန့်မှန်းရောပါနှင့်။ အသုံးပြုမည့်အရည်ကို အတည်ပြုမှ စမ်းဖျော်ပါ။"
+          "message": "မူရင်းအဆင့်က နို့မထည့်ဘဲ ရေနွေးဖြည့်ရန် ရေးထားသည်။ သို့သော် ဖြည့်ရမည့် ရေနွေး ml မဖော်ပြထားပါ။ နို့မီနူးအတွက်ရေးထားသော 120 ml ကို ရေပမာဏဟု မခန့်မှန်းပါနှင့်။ ဖြည့်ရေပမာဏကို အရင်အတည်ပြုပါ။"
         },
         {
           "level": "trial",
@@ -1698,6 +1878,8 @@
       "method": "အရွက်နှပ်ပြီး ရောဖျော်ခြင်း",
       "steps": 10,
       "status": "ဖော်မြူလာအချက်အလက် အရင်အတည်ပြုရန်",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "trial",
@@ -1705,7 +1887,7 @@
         },
         {
           "level": "blocker",
-          "message": "မူရင်းက နို့/ရေ ရွေးချယ်မှု မရှင်းပါ။ နို့နှင့်လီမွန်ကို မခန့်မှန်းရောပါနှင့်။ အသုံးပြုမည့်အရည်ကို အတည်ပြုမှ စမ်းဖျော်ပါ။"
+          "message": "မူရင်းအဆင့်က နို့မထည့်ဘဲ ရေနွေးဖြည့်ရန် ရေးထားသည်။ သို့သော် ဖြည့်ရမည့် ရေနွေး ml မဖော်ပြထားပါ။ နို့မီနူးအတွက်ရေးထားသော 120 ml ကို ရေပမာဏဟု မခန့်မှန်းပါနှင့်။ ဖြည့်ရေပမာဏကို အရင်အတည်ပြုပါ။"
         },
         {
           "level": "trial",
@@ -1730,7 +1912,9 @@
       "name": "Strawberry Smoothie",
       "method": "Blender ဖြင့် ကြိတ်ဖျော်ခြင်း",
       "steps": 9,
-      "status": "ဖော်မြူလာအချက်အလက် အရင်အတည်ပြုရန်",
+      "status": "ဒီခွက်အတွက် နို့ / ရေ တစ်မျိုး ရွေးပါ",
+      "liquidChoiceRequired": true,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "trial",
@@ -1739,10 +1923,6 @@
         {
           "level": "trial",
           "message": "သကြားရည် (စမ်းသပ်ပမာဏ) 10–15 ml — တစ်ပမာဏကို ခွက်မဖျော်မီ ရွေးချယ်မှတ်သားပြီး အဲဒီပမာဏကိုပဲ သုံးပါ။"
-        },
-        {
-          "level": "blocker",
-          "message": "မူရင်းက နို့/ရေ ရွေးချယ်မှု မရှင်းပါ။ နို့နှင့်လီမွန်ကို မခန့်မှန်းရောပါနှင့်။ အသုံးပြုမည့်အရည်ကို အတည်ပြုမှ စမ်းဖျော်ပါ။"
         },
         {
           "level": "trial",
@@ -1763,7 +1943,9 @@
       "name": "Mango Smoothie",
       "method": "Blender ဖြင့် ကြိတ်ဖျော်ခြင်း",
       "steps": 9,
-      "status": "ဖော်မြူလာအချက်အလက် အရင်အတည်ပြုရန်",
+      "status": "ဒီခွက်အတွက် နို့ / ရေ တစ်မျိုး ရွေးပါ",
+      "liquidChoiceRequired": true,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "trial",
@@ -1772,10 +1954,6 @@
         {
           "level": "trial",
           "message": "သကြားရည် (စမ်းသပ်ပမာဏ) 10–15 ml — တစ်ပမာဏကို ခွက်မဖျော်မီ ရွေးချယ်မှတ်သားပြီး အဲဒီပမာဏကိုပဲ သုံးပါ။"
-        },
-        {
-          "level": "blocker",
-          "message": "မူရင်းက နို့/ရေ ရွေးချယ်မှု မရှင်းပါ။ နို့နှင့်လီမွန်ကို မခန့်မှန်းရောပါနှင့်။ အသုံးပြုမည့်အရည်ကို အတည်ပြုမှ စမ်းဖျော်ပါ။"
         },
         {
           "level": "trial",
@@ -1796,7 +1974,9 @@
       "name": "Banana Smoothie",
       "method": "Blender ဖြင့် ကြိတ်ဖျော်ခြင်း",
       "steps": 9,
-      "status": "ဖော်မြူလာအချက်အလက် အရင်အတည်ပြုရန်",
+      "status": "ဒီခွက်အတွက် နို့ / ရေ တစ်မျိုး ရွေးပါ",
+      "liquidChoiceRequired": true,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "trial",
@@ -1805,10 +1985,6 @@
         {
           "level": "trial",
           "message": "သကြားရည် (စမ်းသပ်ပမာဏ) 10–15 ml — တစ်ပမာဏကို ခွက်မဖျော်မီ ရွေးချယ်မှတ်သားပြီး အဲဒီပမာဏကိုပဲ သုံးပါ။"
-        },
-        {
-          "level": "blocker",
-          "message": "မူရင်းက နို့/ရေ ရွေးချယ်မှု မရှင်းပါ။ နို့နှင့်လီမွန်ကို မခန့်မှန်းရောပါနှင့်။ အသုံးပြုမည့်အရည်ကို အတည်ပြုမှ စမ်းဖျော်ပါ။"
         },
         {
           "level": "trial",
@@ -1829,7 +2005,9 @@
       "name": "Mixed Berry Smoothie",
       "method": "Blender ဖြင့် ကြိတ်ဖျော်ခြင်း",
       "steps": 9,
-      "status": "ဖော်မြူလာအချက်အလက် အရင်အတည်ပြုရန်",
+      "status": "ဒီခွက်အတွက် နို့ / ရေ တစ်မျိုး ရွေးပါ",
+      "liquidChoiceRequired": true,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "trial",
@@ -1838,10 +2016,6 @@
         {
           "level": "trial",
           "message": "သကြားရည် (စမ်းသပ်ပမာဏ) 10–15 ml — တစ်ပမာဏကို ခွက်မဖျော်မီ ရွေးချယ်မှတ်သားပြီး အဲဒီပမာဏကိုပဲ သုံးပါ။"
-        },
-        {
-          "level": "blocker",
-          "message": "မူရင်းက နို့/ရေ ရွေးချယ်မှု မရှင်းပါ။ နို့နှင့်လီမွန်ကို မခန့်မှန်းရောပါနှင့်။ အသုံးပြုမည့်အရည်ကို အတည်ပြုမှ စမ်းဖျော်ပါ။"
         },
         {
           "level": "trial",
@@ -1862,7 +2036,9 @@
       "name": "Yogurt Berry Smoothie",
       "method": "Blender ဖြင့် ကြိတ်ဖျော်ခြင်း",
       "steps": 10,
-      "status": "ဖော်မြူလာအချက်အလက် အရင်အတည်ပြုရန်",
+      "status": "ဒီခွက်အတွက် နို့ / ရေ တစ်မျိုး ရွေးပါ",
+      "liquidChoiceRequired": true,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "trial",
@@ -1871,10 +2047,6 @@
         {
           "level": "trial",
           "message": "သကြားရည် (စမ်းသပ်ပမာဏ) 10–15 ml — တစ်ပမာဏကို ခွက်မဖျော်မီ ရွေးချယ်မှတ်သားပြီး အဲဒီပမာဏကိုပဲ သုံးပါ။"
-        },
-        {
-          "level": "blocker",
-          "message": "မူရင်းက နို့/ရေ ရွေးချယ်မှု မရှင်းပါ။ နို့နှင့်လီမွန်ကို မခန့်မှန်းရောပါနှင့်။ အသုံးပြုမည့်အရည်ကို အတည်ပြုမှ စမ်းဖျော်ပါ။"
         },
         {
           "level": "trial",
@@ -1895,7 +2067,9 @@
       "name": "Mango Yogurt Smoothie",
       "method": "Blender ဖြင့် ကြိတ်ဖျော်ခြင်း",
       "steps": 10,
-      "status": "ဖော်မြူလာအချက်အလက် အရင်အတည်ပြုရန်",
+      "status": "ဒီခွက်အတွက် နို့ / ရေ တစ်မျိုး ရွေးပါ",
+      "liquidChoiceRequired": true,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "trial",
@@ -1904,10 +2078,6 @@
         {
           "level": "trial",
           "message": "သကြားရည် (စမ်းသပ်ပမာဏ) 10–15 ml — တစ်ပမာဏကို ခွက်မဖျော်မီ ရွေးချယ်မှတ်သားပြီး အဲဒီပမာဏကိုပဲ သုံးပါ။"
-        },
-        {
-          "level": "blocker",
-          "message": "မူရင်းက နို့/ရေ ရွေးချယ်မှု မရှင်းပါ။ နို့နှင့်လီမွန်ကို မခန့်မှန်းရောပါနှင့်။ အသုံးပြုမည့်အရည်ကို အတည်ပြုမှ စမ်းဖျော်ပါ။"
         },
         {
           "level": "trial",
@@ -1929,6 +2099,8 @@
       "method": "Blender ဖြင့် ကြိတ်ဖျော်ခြင်း",
       "steps": 9,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "trial",
@@ -1954,6 +2126,8 @@
       "method": "Blender ဖြင့် ကြိတ်ဖျော်ခြင်း",
       "steps": 9,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "trial",
@@ -1979,6 +2153,8 @@
       "method": "Blender ဖြင့် ကြိတ်ဖျော်ခြင်း",
       "steps": 9,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "trial",
@@ -2004,6 +2180,8 @@
       "method": "Blender ဖြင့် ကြိတ်ဖျော်ခြင်း",
       "steps": 9,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "trial",
@@ -2029,6 +2207,8 @@
       "method": "Blender ဖြင့် ကြိတ်ဖျော်ခြင်း",
       "steps": 9,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "trial",
@@ -2050,6 +2230,8 @@
       "method": "ဆိုဒါရောဖျော်နည်း",
       "steps": 7,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "trial",
@@ -2075,6 +2257,8 @@
       "method": "ဆိုဒါရောဖျော်နည်း",
       "steps": 8,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "trial",
@@ -2100,6 +2284,8 @@
       "method": "ဆိုဒါရောဖျော်နည်း",
       "steps": 7,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "trial",
@@ -2125,6 +2311,8 @@
       "method": "ဆိုဒါရောဖျော်နည်း",
       "steps": 7,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "trial",
@@ -2150,6 +2338,8 @@
       "method": "ဆိုဒါရောဖျော်နည်း",
       "steps": 7,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "trial",
@@ -2175,6 +2365,8 @@
       "method": "ဆိုဒါရောဖျော်နည်း",
       "steps": 8,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "trial",
@@ -2200,6 +2392,8 @@
       "method": "ဆိုဒါရောဖျော်နည်း",
       "steps": 7,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "trial",
@@ -2225,6 +2419,8 @@
       "method": "အအေးရောဖျော်ခြင်း",
       "steps": 8,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "trial",
@@ -2250,6 +2446,8 @@
       "method": "အအေးရောဖျော်ခြင်း",
       "steps": 7,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "trial",
@@ -2275,6 +2473,8 @@
       "method": "အအေးရောဖျော်ခြင်း",
       "steps": 7,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "trial",
@@ -2300,6 +2500,8 @@
       "method": "အအေးရောဖျော်ခြင်း",
       "steps": 7,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "trial",
@@ -2325,6 +2527,8 @@
       "method": "အအေးရောဖျော်ခြင်း",
       "steps": 7,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "trial",
@@ -2350,6 +2554,8 @@
       "method": "အအေးရောဖျော်ခြင်း",
       "steps": 8,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "trial",
@@ -2375,6 +2581,8 @@
       "method": "အအေးရောဖျော်ခြင်း",
       "steps": 9,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "trial",
@@ -2400,6 +2608,8 @@
       "method": "အအေးရောဖျော်ခြင်း",
       "steps": 9,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "trial",
@@ -2429,6 +2639,8 @@
       "method": "အအေးရောဖျော်ခြင်း",
       "steps": 9,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "trial",
@@ -2454,6 +2666,8 @@
       "method": "အအေးရောဖျော်ခြင်း",
       "steps": 9,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "trial",
@@ -2479,6 +2693,8 @@
       "method": "အအေးရောဖျော်ခြင်း",
       "steps": 9,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "trial",
@@ -2504,6 +2720,8 @@
       "method": "အအေးရောဖျော်ခြင်း",
       "steps": 8,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "trial",
@@ -2529,6 +2747,8 @@
       "method": "အအေးရောဖျော်ခြင်း",
       "steps": 9,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "trial",
@@ -2558,6 +2778,8 @@
       "method": "အအေးရောဖျော်ခြင်း",
       "steps": 9,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "trial",
@@ -2583,6 +2805,8 @@
       "method": "ဆိုဒါရောဖျော်နည်း",
       "steps": 8,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "trial",
@@ -2604,6 +2828,8 @@
       "method": "ဆိုဒါရောဖျော်နည်း",
       "steps": 8,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "trial",
@@ -2625,6 +2851,8 @@
       "method": "ဆိုဒါရောဖျော်နည်း",
       "steps": 8,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "trial",
@@ -2646,6 +2874,8 @@
       "method": "ဆိုဒါရောဖျော်နည်း",
       "steps": 8,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "trial",
@@ -2667,6 +2897,8 @@
       "method": "ဆိုဒါရောဖျော်နည်း",
       "steps": 8,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "trial",
@@ -2688,6 +2920,8 @@
       "method": "ဆိုဒါရောဖျော်နည်း",
       "steps": 8,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "trial",
@@ -2709,6 +2943,8 @@
       "method": "ဆိုဒါရောဖျော်နည်း",
       "steps": 8,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "trial",
@@ -2730,6 +2966,8 @@
       "method": "ဆိုဒါရောဖျော်နည်း",
       "steps": 9,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "trial",
@@ -2751,6 +2989,8 @@
       "method": "ဆိုဒါရောဖျော်နည်း",
       "steps": 9,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "trial",
@@ -2776,6 +3016,8 @@
       "method": "ဆိုဒါရောဖျော်နည်း",
       "steps": 8,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "trial",
@@ -2797,6 +3039,8 @@
       "method": "ဆိုဒါရောဖျော်နည်း",
       "steps": 8,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "trial",
@@ -2818,6 +3062,8 @@
       "method": "အအေးရောဖျော်ခြင်း",
       "steps": 9,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "trial",
@@ -2843,6 +3089,8 @@
       "method": "Blender ဖြင့် ကြိတ်ဖျော်ခြင်း",
       "steps": 9,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "trial",
@@ -2864,6 +3112,8 @@
       "method": "ဆိုဒါရောဖျော်နည်း",
       "steps": 9,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "trial",
@@ -2893,6 +3143,8 @@
       "method": "ဆိုဒါရောဖျော်နည်း",
       "steps": 9,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "trial",
@@ -2918,6 +3170,8 @@
       "method": "ဆိုဒါရောဖျော်နည်း",
       "steps": 8,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "trial",
@@ -2939,6 +3193,8 @@
       "method": "အအေးရောဖျော်ခြင်း",
       "steps": 9,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "trial",
@@ -2964,6 +3220,8 @@
       "method": "အအေးရောဖျော်ခြင်း",
       "steps": 9,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "trial",
@@ -2989,6 +3247,8 @@
       "method": "အအေးရောဖျော်ခြင်း",
       "steps": 9,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "trial",
@@ -3014,6 +3274,8 @@
       "method": "အအေးရောဖျော်ခြင်း",
       "steps": 8,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "trial",
@@ -3035,6 +3297,8 @@
       "method": "Blender ဖြင့် ကြိတ်ဖျော်ခြင်း",
       "steps": 9,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "trial",
@@ -3056,6 +3320,8 @@
       "method": "အအေးရောဖျော်ခြင်း",
       "steps": 8,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "trial",
@@ -3077,6 +3343,8 @@
       "method": "မှုန့်ကို အရင်ဖျော်ခြင်း",
       "steps": 10,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "trial",
@@ -3102,6 +3370,8 @@
       "method": "အအေးရောဖျော်ခြင်း",
       "steps": 7,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "trial",
@@ -3123,6 +3393,8 @@
       "method": "အအေးရောဖျော်ခြင်း",
       "steps": 9,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "trial",
@@ -3148,6 +3420,8 @@
       "method": "ဆိုဒါရောဖျော်နည်း",
       "steps": 8,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "trial",
@@ -3169,6 +3443,8 @@
       "method": "ဆိုဒါရောဖျော်နည်း",
       "steps": 9,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "trial",
@@ -3194,6 +3470,8 @@
       "method": "အအေးရောဖျော်ခြင်း",
       "steps": 8,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "trial",
@@ -3215,6 +3493,8 @@
       "method": "အအေးရောဖျော်ခြင်း",
       "steps": 8,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "trial",
@@ -3236,6 +3516,8 @@
       "method": "ဆိုဒါရောဖျော်နည်း",
       "steps": 9,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "trial",
@@ -3261,6 +3543,8 @@
       "method": "အအေးရောဖျော်ခြင်း",
       "steps": 8,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "trial",
@@ -3282,6 +3566,8 @@
       "method": "အအေးရောဖျော်ခြင်း",
       "steps": 10,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "trial",
@@ -3307,6 +3593,8 @@
       "method": "အပူရောဖျော်ခြင်း",
       "steps": 6,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "trial",
@@ -3337,6 +3625,8 @@
       "method": "အပူရောဖျော်ခြင်း",
       "steps": 6,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "trial",
@@ -3367,6 +3657,8 @@
       "method": "အပူရောဖျော်ခြင်း",
       "steps": 6,
       "status": "ဖော်မြူလာအချက်အလက် အရင်အတည်ပြုရန်",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "trial",
@@ -3405,6 +3697,8 @@
       "method": "အပူရောဖျော်ခြင်း",
       "steps": 7,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "trial",
@@ -3435,6 +3729,8 @@
       "method": "အပူရောဖျော်ခြင်း",
       "steps": 7,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "trial",
@@ -3469,6 +3765,8 @@
       "method": "အပူရောဖျော်ခြင်း",
       "steps": 7,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "trial",
@@ -3499,6 +3797,8 @@
       "method": "အပူရောဖျော်ခြင်း",
       "steps": 7,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "trial",
@@ -3529,6 +3829,8 @@
       "method": "အပူရောဖျော်ခြင်း",
       "steps": 7,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "trial",
@@ -3559,6 +3861,8 @@
       "method": "အပူရောဖျော်ခြင်း",
       "steps": 13,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "trial",
@@ -3589,6 +3893,8 @@
       "method": "Affogato",
       "steps": 7,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "trial",
@@ -3627,6 +3933,8 @@
       "method": "အပူရောဖျော်ခြင်း",
       "steps": 14,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "trial",
@@ -3653,6 +3961,8 @@
       "method": "အအေးရောဖျော်ခြင်း",
       "steps": 10,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "trial",
@@ -3675,6 +3985,8 @@
       "method": "အပူရောဖျော်ခြင်း",
       "steps": 14,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "trial",
@@ -3701,6 +4013,8 @@
       "method": "အအေးရောဖျော်ခြင်း",
       "steps": 10,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "trial",
@@ -3723,6 +4037,8 @@
       "method": "အပူရောဖျော်ခြင်း",
       "steps": 14,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "trial",
@@ -3749,6 +4065,8 @@
       "method": "အအေးရောဖျော်ခြင်း",
       "steps": 10,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "trial",
@@ -3771,6 +4089,8 @@
       "method": "အပူရောဖျော်ခြင်း",
       "steps": 14,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "trial",
@@ -3797,6 +4117,8 @@
       "method": "အအေးရောဖျော်ခြင်း",
       "steps": 10,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "trial",
@@ -3819,6 +4141,8 @@
       "method": "အပူရောဖျော်ခြင်း",
       "steps": 14,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "trial",
@@ -3853,6 +4177,8 @@
       "method": "အအေးရောဖျော်ခြင်း",
       "steps": 10,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "trial",
@@ -3875,6 +4201,8 @@
       "method": "အပူရောဖျော်ခြင်း",
       "steps": 13,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "trial",
@@ -3901,6 +4229,8 @@
       "method": "အအေးရောဖျော်ခြင်း",
       "steps": 9,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "trial",
@@ -3923,6 +4253,8 @@
       "method": "အပူရောဖျော်ခြင်း",
       "steps": 13,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "trial",
@@ -3949,6 +4281,8 @@
       "method": "အအေးရောဖျော်ခြင်း",
       "steps": 9,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "trial",
@@ -3971,6 +4305,8 @@
       "method": "အပူရောဖျော်ခြင်း",
       "steps": 13,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "trial",
@@ -3997,6 +4333,8 @@
       "method": "အအေးရောဖျော်ခြင်း",
       "steps": 9,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "trial",
@@ -4019,6 +4357,8 @@
       "method": "အပူရောဖျော်ခြင်း",
       "steps": 13,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "trial",
@@ -4045,6 +4385,8 @@
       "method": "အအေးရောဖျော်ခြင်း",
       "steps": 10,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "trial",
@@ -4067,6 +4409,8 @@
       "method": "အအေးရောဖျော်ခြင်း",
       "steps": 10,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "trial",
@@ -4089,6 +4433,8 @@
       "method": "အအေးရောဖျော်ခြင်း",
       "steps": 11,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "trial",
@@ -4111,6 +4457,8 @@
       "method": "အအေးရောဖျော်ခြင်း",
       "steps": 9,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "trial",
@@ -4133,6 +4481,8 @@
       "method": "အအေးရောဖျော်ခြင်း",
       "steps": 9,
       "status": "ဖော်မြူလာအချက်အလက် အရင်အတည်ပြုရန်",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "blocker",
@@ -4159,6 +4509,8 @@
       "method": "အအေးရောဖျော်ခြင်း",
       "steps": 10,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "trial",
@@ -4181,6 +4533,8 @@
       "method": "အပူရောဖျော်ခြင်း",
       "steps": 9,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "trial",
@@ -4207,6 +4561,8 @@
       "method": "အပူရောဖျော်ခြင်း",
       "steps": 9,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "trial",
@@ -4241,6 +4597,8 @@
       "method": "အအေးရောဖျော်ခြင်း",
       "steps": 10,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "trial",
@@ -4263,6 +4621,8 @@
       "method": "ဆိုဒါရောဖျော်နည်း",
       "steps": 8,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "trial",
@@ -4285,6 +4645,8 @@
       "method": "အအေးရောဖျော်ခြင်း",
       "steps": 10,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "trial",
@@ -4307,6 +4669,8 @@
       "method": "အအေးရောဖျော်ခြင်း",
       "steps": 10,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "trial",
@@ -4329,6 +4693,8 @@
       "method": "အအေးရောဖျော်ခြင်း",
       "steps": 11,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "trial",
@@ -4351,6 +4717,8 @@
       "method": "အအေးရောဖျော်ခြင်း",
       "steps": 9,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "trial",
@@ -4373,6 +4741,8 @@
       "method": "အအေးရောဖျော်ခြင်း",
       "steps": 10,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "trial",
@@ -4395,6 +4765,8 @@
       "method": "အအေးရောဖျော်ခြင်း",
       "steps": 10,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "trial",
@@ -4421,6 +4793,8 @@
       "method": "အအေးရောဖျော်ခြင်း",
       "steps": 9,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "trial",
@@ -4443,6 +4817,8 @@
       "method": "အအေးရောဖျော်ခြင်း",
       "steps": 9,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "trial",
@@ -4465,6 +4841,8 @@
       "method": "ဆိုဒါရောဖျော်နည်း",
       "steps": 10,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "trial",
@@ -4487,6 +4865,8 @@
       "method": "ဆိုဒါရောဖျော်နည်း",
       "steps": 10,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "trial",
@@ -4509,6 +4889,8 @@
       "method": "အအေးရောဖျော်ခြင်း",
       "steps": 11,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "trial",
@@ -4535,6 +4917,8 @@
       "method": "အအေးရောဖျော်ခြင်း",
       "steps": 9,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "trial",
@@ -4557,6 +4941,8 @@
       "method": "အအေးရောဖျော်ခြင်း",
       "steps": 12,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "trial",
@@ -4583,6 +4969,8 @@
       "method": "အပူရောဖျော်ခြင်း",
       "steps": 11,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "trial",
@@ -4613,6 +5001,8 @@
       "method": "အအေးရောဖျော်ခြင်း",
       "steps": 12,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "trial",
@@ -4639,6 +5029,8 @@
       "method": "အအေးရောဖျော်ခြင်း",
       "steps": 11,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "trial",
@@ -4669,6 +5061,8 @@
       "method": "အအေးရောဖျော်ခြင်း",
       "steps": 11,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "trial",
@@ -4695,6 +5089,8 @@
       "method": "အအေးရောဖျော်ခြင်း",
       "steps": 10,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "trial",
@@ -4717,6 +5113,8 @@
       "method": "အအေးရောဖျော်ခြင်း",
       "steps": 10,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "trial",
@@ -4739,6 +5137,8 @@
       "method": "အအေးရောဖျော်ခြင်း",
       "steps": 11,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "trial",
@@ -4761,6 +5161,8 @@
       "method": "အအေးရောဖျော်ခြင်း",
       "steps": 11,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "trial",
@@ -4787,6 +5189,8 @@
       "method": "အအေးရောဖျော်ခြင်း",
       "steps": 11,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "trial",
@@ -4813,6 +5217,8 @@
       "method": "အအေးရောဖျော်ခြင်း",
       "steps": 11,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "trial",
@@ -4839,6 +5245,8 @@
       "method": "ဆိုဒါရောဖျော်နည်း",
       "steps": 8,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "trial",
@@ -4861,6 +5269,8 @@
       "method": "ဆိုဒါရောဖျော်နည်း",
       "steps": 10,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "trial",
@@ -4883,6 +5293,8 @@
       "method": "ဆိုဒါရောဖျော်နည်း",
       "steps": 10,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "trial",
@@ -4905,6 +5317,8 @@
       "method": "ဆိုဒါရောဖျော်နည်း",
       "steps": 9,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "trial",
@@ -4931,6 +5345,8 @@
       "method": "ဆိုဒါရောဖျော်နည်း",
       "steps": 10,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "trial",
@@ -4953,6 +5369,8 @@
       "method": "ဆိုဒါရောဖျော်နည်း",
       "steps": 8,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "trial",
@@ -4975,6 +5393,8 @@
       "method": "ဆိုဒါရောဖျော်နည်း",
       "steps": 10,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "trial",
@@ -4997,6 +5417,8 @@
       "method": "ဆိုဒါရောဖျော်နည်း",
       "steps": 10,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "trial",
@@ -5019,6 +5441,8 @@
       "method": "ဆိုဒါရောဖျော်နည်း",
       "steps": 10,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "trial",
@@ -5041,6 +5465,8 @@
       "method": "ဆိုဒါရောဖျော်နည်း",
       "steps": 11,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "trial",
@@ -5067,6 +5493,8 @@
       "method": "အအေးရောဖျော်ခြင်း",
       "steps": 9,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "trial",
@@ -5089,6 +5517,8 @@
       "method": "Pasteurized egg cream ကော်ဖီ",
       "steps": 9,
       "status": "ဖော်မြူလာအချက်အလက် အရင်အတည်ပြုရန်",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "trial",
@@ -5128,6 +5558,8 @@
       "method": "Oliang အနှစ်နှပ်ခြင်း — ရေပမာဏ အတည်ပြုရန်",
       "steps": 6,
       "status": "ဖော်မြူလာအချက်အလက် အရင်အတည်ပြုရန်",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "blocker",
@@ -5153,6 +5585,8 @@
       "method": "အအေးရောဖျော်ခြင်း",
       "steps": 10,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "trial",
@@ -5175,6 +5609,8 @@
       "method": "အအေးရောဖျော်ခြင်း",
       "steps": 10,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "trial",
@@ -5197,6 +5633,8 @@
       "method": "ကော်ဖီနှပ်/ပြုတ်နည်း",
       "steps": 9,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "trial",
@@ -5226,6 +5664,8 @@
       "method": "Instant coffee အမြှုပ်ခတ်နည်း",
       "steps": 10,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "trial",
@@ -5247,6 +5687,8 @@
       "method": "အအေးရောဖျော်ခြင်း",
       "steps": 10,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "trial",
@@ -5273,6 +5715,8 @@
       "method": "Dirty Coffee — မမွှေသောက်သော အလွှာကော်ဖီ",
       "steps": 7,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "trial",
@@ -5299,6 +5743,8 @@
       "method": "အအေးရောဖျော်ခြင်း",
       "steps": 10,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "trial",
@@ -5321,6 +5767,8 @@
       "method": "အအေးရောဖျော်ခြင်း",
       "steps": 7,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "trial",
@@ -5350,6 +5798,8 @@
       "method": "အအေးရောဖျော်ခြင်း",
       "steps": 7,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "trial",
@@ -5379,6 +5829,8 @@
       "method": "အအေးရောဖျော်ခြင်း",
       "steps": 8,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "trial",
@@ -5408,6 +5860,8 @@
       "method": "အအေးရောဖျော်ခြင်း",
       "steps": 8,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "trial",
@@ -5437,6 +5891,8 @@
       "method": "အအေးရောဖျော်ခြင်း",
       "steps": 7,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "trial",
@@ -5466,6 +5922,8 @@
       "method": "အအေးရောဖျော်ခြင်း",
       "steps": 7,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "trial",
@@ -5495,6 +5953,8 @@
       "method": "ဆိုဒါရောဖျော်နည်း",
       "steps": 7,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "trial",
@@ -5524,6 +5984,8 @@
       "method": "အအေးရောဖျော်ခြင်း",
       "steps": 8,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "trial",
@@ -5553,6 +6015,8 @@
       "method": "အအေးရောဖျော်ခြင်း",
       "steps": 8,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "trial",
@@ -5586,6 +6050,8 @@
       "method": "အအေးရောဖျော်ခြင်း",
       "steps": 7,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "trial",
@@ -5615,6 +6081,8 @@
       "method": "V60 ရေစစ်ဖျော်နည်း",
       "steps": 9,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "trial",
@@ -5637,6 +6105,8 @@
       "method": "V60 ရေစစ်ဖျော်နည်း",
       "steps": 10,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [],
       "sources": [
         "sca",
@@ -5654,6 +6124,8 @@
       "method": "French Press နှပ်ဖျော်နည်း",
       "steps": 10,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "trial",
@@ -5679,6 +6151,8 @@
       "method": "AeroPress upright နည်း",
       "steps": 9,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "trial",
@@ -5705,6 +6179,8 @@
       "method": "Moka Pot",
       "steps": 6,
       "status": "ဖော်မြူလာအချက်အလက် အရင်အတည်ပြုရန်",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "blocker",
@@ -5739,6 +6215,8 @@
       "method": "အပူရောဖျော်ခြင်း",
       "steps": 5,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "trial",
@@ -5768,6 +6246,8 @@
       "method": "အအေးရောဖျော်ခြင်း",
       "steps": 6,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "trial",
@@ -5793,6 +6273,8 @@
       "method": "V60 ရေစစ်ဖျော်နည်း",
       "steps": 10,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "trial",
@@ -5819,6 +6301,8 @@
       "method": "French Press နှပ်ဖျော်နည်း",
       "steps": 11,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "trial",
@@ -5852,6 +6336,8 @@
       "method": "အအေးရောဖျော်ခြင်း",
       "steps": 7,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "trial",
@@ -5881,6 +6367,8 @@
       "method": "အအေးရောဖျော်ခြင်း",
       "steps": 10,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "trial",
@@ -5907,6 +6395,8 @@
       "method": "အအေးရောဖျော်ခြင်း",
       "steps": 10,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "trial",
@@ -5937,6 +6427,8 @@
       "method": "Freddo Cappuccino အအေးနို့အမြှုပ်",
       "steps": 9,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "trial",
@@ -5963,6 +6455,8 @@
       "method": "အပူရောဖျော်ခြင်း",
       "steps": 7,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "trial",
@@ -5993,6 +6487,8 @@
       "method": "Café Bombón အလွှာဖျော်နည်း",
       "steps": 7,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "trial",
@@ -6019,6 +6515,8 @@
       "method": "Bicerin အလွှာဖျော်နည်း",
       "steps": 9,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "trial",
@@ -6049,6 +6547,8 @@
       "method": "အပူရောဖျော်ခြင်း",
       "steps": 9,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "trial",
@@ -6083,6 +6583,8 @@
       "method": "အပူရောဖျော်ခြင်း",
       "steps": 8,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "trial",
@@ -6109,6 +6611,8 @@
       "method": "အအေးရောဖျော်ခြင်း",
       "steps": 8,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "trial",
@@ -6138,6 +6642,8 @@
       "method": "ကော်ဖီနှပ်/ပြုတ်နည်း",
       "steps": 10,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "trial",
@@ -6167,6 +6673,8 @@
       "method": "Turkish Cezve",
       "steps": 9,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "trial",
@@ -6200,6 +6708,8 @@
       "method": "Instant coffee အမြှုပ်ခတ်နည်း",
       "steps": 10,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "trial",
@@ -6225,6 +6735,8 @@
       "method": "အအေးရောဖျော်ခြင်း",
       "steps": 8,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "trial",
@@ -6258,6 +6770,8 @@
       "method": "Café Cubano",
       "steps": 7,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "trial",
@@ -6280,6 +6794,8 @@
       "method": "အအေးရောဖျော်ခြင်း",
       "steps": 7,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "trial",
@@ -6309,6 +6825,8 @@
       "method": "အအေးရောဖျော်ခြင်း",
       "steps": 8,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "trial",
@@ -6338,6 +6856,8 @@
       "method": "မှုန့်ကို အရင်ဖျော်ခြင်း",
       "steps": 10,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "trial",
@@ -6367,6 +6887,8 @@
       "method": "မှုန့်ကို အရင်ဖျော်ခြင်း",
       "steps": 8,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "trial",
@@ -6396,6 +6918,8 @@
       "method": "အရွက်နှပ်ပြီး ရောဖျော်ခြင်း",
       "steps": 11,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "trial",
@@ -6421,6 +6945,8 @@
       "method": "အရွက်နှပ်ပြီး ရောဖျော်ခြင်း",
       "steps": 11,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "trial",
@@ -6446,6 +6972,8 @@
       "method": "အရွက်နှပ်ပြီး ရောဖျော်ခြင်း",
       "steps": 8,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "trial",
@@ -6471,6 +6999,8 @@
       "method": "အရွက်နှပ်ပြီး ရောဖျော်ခြင်း",
       "steps": 11,
       "status": "ဖော်မြူလာအချက်အလက် အရင်အတည်ပြုရန်",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "trial",
@@ -6500,6 +7030,8 @@
       "method": "အပူရောဖျော်ခြင်း",
       "steps": 6,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "trial",
@@ -6525,6 +7057,8 @@
       "method": "အအေးရောဖျော်ခြင်း",
       "steps": 8,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "trial",
@@ -6550,6 +7084,8 @@
       "method": "အရွက်နှပ်ပြီး ရောဖျော်ခြင်း",
       "steps": 11,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "trial",
@@ -6575,6 +7111,8 @@
       "method": "ဆိုဒါရောဖျော်နည်း",
       "steps": 8,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "trial",
@@ -6604,6 +7142,8 @@
       "method": "ဆိုဒါရောဖျော်နည်း",
       "steps": 10,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "trial",
@@ -6630,6 +7170,8 @@
       "method": "ဆိုဒါရောဖျော်နည်း",
       "steps": 11,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "trial",
@@ -6660,6 +7202,8 @@
       "method": "အအေးရောဖျော်ခြင်း",
       "steps": 8,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "trial",
@@ -6685,6 +7229,8 @@
       "method": "အရွက်နှပ်ပြီး ရောဖျော်ခြင်း",
       "steps": 10,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "trial",
@@ -6710,6 +7256,8 @@
       "method": "အရွက်နှပ်ပြီး ရောဖျော်ခြင်း",
       "steps": 10,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "trial",
@@ -6735,6 +7283,8 @@
       "method": "ဆိုဒါရောဖျော်နည်း",
       "steps": 11,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "trial",
@@ -6765,6 +7315,8 @@
       "method": "အအေးရောဖျော်ခြင်း",
       "steps": 13,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "trial",
@@ -6799,6 +7351,8 @@
       "method": "အအေးရောဖျော်ခြင်း",
       "steps": 11,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "trial",
@@ -6829,6 +7383,8 @@
       "method": "အအေးရောဖျော်ခြင်း",
       "steps": 10,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "trial",
@@ -6855,6 +7411,8 @@
       "method": "အပူရောဖျော်ခြင်း",
       "steps": 11,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "trial",
@@ -6885,6 +7443,8 @@
       "method": "အအေးရောဖျော်ခြင်း",
       "steps": 12,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "trial",
@@ -6915,6 +7475,8 @@
       "method": "အအေးရောဖျော်ခြင်း",
       "steps": 8,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "trial",
@@ -6940,6 +7502,8 @@
       "method": "အအေးရောဖျော်ခြင်း",
       "steps": 11,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "trial",
@@ -6966,6 +7530,8 @@
       "method": "Instant coffee အမြှုပ်ခတ်နည်း",
       "steps": 12,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "trial",
@@ -6995,6 +7561,8 @@
       "method": "အခြေခံရည် / အမြှုပ် တစ်ဘူးပြင်ဆင်ခြင်း",
       "steps": 29,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [],
       "sources": [
         "sca",
@@ -7011,6 +7579,8 @@
       "method": "အခြေခံရည် / အမြှုပ် တစ်ဘူးပြင်ဆင်ခြင်း",
       "steps": 27,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [],
       "sources": [
         "sca",
@@ -7027,6 +7597,8 @@
       "method": "အခြေခံရည် / အမြှုပ် တစ်ဘူးပြင်ဆင်ခြင်း",
       "steps": 27,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [],
       "sources": [
         "sca",
@@ -7043,6 +7615,8 @@
       "method": "အခြေခံရည် / အမြှုပ် တစ်ဘူးပြင်ဆင်ခြင်း",
       "steps": 26,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "trial",
@@ -7064,6 +7638,8 @@
       "method": "အခြေခံရည် / အမြှုပ် တစ်ဘူးပြင်ဆင်ခြင်း",
       "steps": 31,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [],
       "sources": [
         "sca",
@@ -7080,6 +7656,8 @@
       "method": "အခြေခံရည် / အမြှုပ် တစ်ဘူးပြင်ဆင်ခြင်း",
       "steps": 27,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [],
       "sources": [
         "sca",
@@ -7096,6 +7674,8 @@
       "method": "အခြေခံရည် / အမြှုပ် တစ်ဘူးပြင်ဆင်ခြင်း",
       "steps": 32,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [],
       "sources": [
         "sca",
@@ -7112,6 +7692,8 @@
       "method": "အခြေခံရည် / အမြှုပ် တစ်ဘူးပြင်ဆင်ခြင်း",
       "steps": 32,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [],
       "sources": [
         "sca",
@@ -7128,6 +7710,8 @@
       "method": "အခြေခံရည် / အမြှုပ် တစ်ဘူးပြင်ဆင်ခြင်း",
       "steps": 32,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [],
       "sources": [
         "sca",
@@ -7144,6 +7728,8 @@
       "method": "အခြေခံရည် / အမြှုပ် တစ်ဘူးပြင်ဆင်ခြင်း",
       "steps": 30,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [],
       "sources": [
         "sca",
@@ -7160,6 +7746,8 @@
       "method": "အခြေခံရည် / အမြှုပ် တစ်ဘူးပြင်ဆင်ခြင်း",
       "steps": 31,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [],
       "sources": [
         "sca",
@@ -7176,6 +7764,8 @@
       "method": "အခြေခံရည် / အမြှုပ် တစ်ဘူးပြင်ဆင်ခြင်း",
       "steps": 31,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [],
       "sources": [
         "sca",
@@ -7192,6 +7782,8 @@
       "method": "Matcha/မှုန့်ကို အရင်ဖျော်ခြင်း",
       "steps": 11,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "trial",
@@ -7218,6 +7810,8 @@
       "method": "Matcha/မှုန့်ကို အရင်ဖျော်ခြင်း",
       "steps": 10,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "trial",
@@ -7244,6 +7838,8 @@
       "method": "Matcha/မှုန့်ကို အရင်ဖျော်ခြင်း",
       "steps": 11,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "trial",
@@ -7270,6 +7866,8 @@
       "method": "Matcha/မှုန့်ကို အရင်ဖျော်ခြင်း",
       "steps": 10,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "trial",
@@ -7296,6 +7894,8 @@
       "method": "Matcha/မှုန့်ကို အရင်ဖျော်ခြင်း",
       "steps": 10,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "trial",
@@ -7322,6 +7922,8 @@
       "method": "Blender ဖြင့် ကြိတ်ဖျော်ခြင်း",
       "steps": 10,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "trial",
@@ -7347,6 +7949,8 @@
       "method": "အအေးရောဖျော်ခြင်း",
       "steps": 10,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "trial",
@@ -7368,6 +7972,8 @@
       "method": "ဆိုဒါရောဖျော်နည်း",
       "steps": 8,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "trial",
@@ -7391,16 +7997,14 @@
       "number": "STY-04",
       "name": "Virgin Passion Fruit Mojito",
       "method": "ဆိုဒါရောဖျော်နည်း",
-      "steps": 12,
-      "status": "ဖော်မြူလာအချက်အလက် အရင်အတည်ပြုရန်",
+      "steps": 10,
+      "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "trial",
           "message": "အနှစ်/မှုန့်၏ အချိုပါဝင်မှုနှင့် dilution အချိုးက brand အလိုက် ကွာသည်။ မိမိသုံးမည့် label နှင့် အရသာကို စမ်းသပ်ရမည်။"
-        },
-        {
-          "level": "blocker",
-          "message": "Tea နှပ်ချိန် အတိအကျမပါပါ။ Brand label သို့မဟုတ် ဆိုင်စမ်းသပ်ချက်ဖြင့် အတည်ပြုရန် ကျန်သည်။"
         },
         {
           "level": "trial",
@@ -7422,6 +8026,8 @@
       "method": "အရွက်နှပ်ပြီး ရောဖျော်ခြင်း",
       "steps": 11,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "trial",
@@ -7443,6 +8049,8 @@
       "method": "အရွက်နှပ်ပြီး ရောဖျော်ခြင်း",
       "steps": 13,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "trial",
@@ -7465,6 +8073,8 @@
       "method": "မီနူးအလိုက် သီးသန့် ရောစပ်ခြင်း",
       "steps": 13,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "trial",
@@ -7486,6 +8096,8 @@
       "method": "မီနူးအလိုက် သီးသန့် ရောစပ်ခြင်း",
       "steps": 14,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "trial",
@@ -7507,6 +8119,8 @@
       "method": "မီနူးအလိုက် သီးသန့် ရောစပ်ခြင်း",
       "steps": 14,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "trial",
@@ -7528,6 +8142,8 @@
       "method": "မီနူးအလိုက် သီးသန့် ရောစပ်ခြင်း",
       "steps": 13,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "trial",
@@ -7549,6 +8165,8 @@
       "method": "မီနူးအလိုက် သီးသန့် ရောစပ်ခြင်း",
       "steps": 13,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "trial",
@@ -7570,6 +8188,8 @@
       "method": "မီနူးအလိုက် သီးသန့် ရောစပ်ခြင်း",
       "steps": 13,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "trial",
@@ -7595,6 +8215,8 @@
       "method": "မီနူးအလိုက် သီးသန့် ရောစပ်ခြင်း",
       "steps": 15,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "trial",
@@ -7616,6 +8238,8 @@
       "method": "မီနူးအလိုက် သီးသန့် ရောစပ်ခြင်း",
       "steps": 14,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "trial",
@@ -7637,6 +8261,8 @@
       "method": "မီနူးအလိုက် သီးသန့် ရောစပ်ခြင်း",
       "steps": 14,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "trial",
@@ -7662,6 +8288,8 @@
       "method": "မီနူးအလိုက် သီးသန့် ရောစပ်ခြင်း",
       "steps": 14,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "trial",
@@ -7687,6 +8315,8 @@
       "method": "မီနူးအလိုက် သီးသန့် ရောစပ်ခြင်း",
       "steps": 12,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "trial",
@@ -7708,6 +8338,8 @@
       "method": "မီနူးအလိုက် သီးသန့် ရောစပ်ခြင်း",
       "steps": 10,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "trial",
@@ -7729,6 +8361,8 @@
       "method": "မီနူးအလိုက် သီးသန့် ရောစပ်ခြင်း",
       "steps": 10,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "trial",
@@ -7750,6 +8384,8 @@
       "method": "မီနူးအလိုက် သီးသန့် ရောစပ်ခြင်း",
       "steps": 9,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "trial",
@@ -7771,6 +8407,8 @@
       "method": "မီနူးအလိုက် သီးသန့် ရောစပ်ခြင်း",
       "steps": 11,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "trial",
@@ -7792,6 +8430,8 @@
       "method": "မီနူးအလိုက် သီးသန့် ရောစပ်ခြင်း",
       "steps": 11,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "trial",
@@ -7813,6 +8453,8 @@
       "method": "မီနူးအလိုက် သီးသန့် ရောစပ်ခြင်း",
       "steps": 10,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "trial",
@@ -7834,6 +8476,8 @@
       "method": "မီနူးအလိုက် သီးသန့် ရောစပ်ခြင်း",
       "steps": 10,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "trial",
@@ -7855,6 +8499,8 @@
       "method": "မီနူးအလိုက် သီးသန့် ရောစပ်ခြင်း",
       "steps": 11,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "trial",
@@ -7876,6 +8522,8 @@
       "method": "မီနူးအလိုက် သီးသန့် ရောစပ်ခြင်း",
       "steps": 11,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "trial",
@@ -7897,6 +8545,8 @@
       "method": "မီနူးအလိုက် သီးသန့် ရောစပ်ခြင်း",
       "steps": 10,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "trial",
@@ -7922,6 +8572,8 @@
       "method": "မီနူးအလိုက် သီးသန့် ရောစပ်ခြင်း",
       "steps": 10,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [
         {
           "level": "trial",
@@ -7947,6 +8599,8 @@
       "method": "အခြေခံရည် / အမြှုပ် တစ်ဘူးပြင်ဆင်ခြင်း",
       "steps": 16,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [],
       "sources": [
         "sca",
@@ -7963,6 +8617,8 @@
       "method": "အခြေခံရည် / အမြှုပ် တစ်ဘူးပြင်ဆင်ခြင်း",
       "steps": 16,
       "status": "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
+      "liquidChoiceRequired": false,
+      "sourceResolutions": [],
       "issues": [],
       "sources": [
         "sca",

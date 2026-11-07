@@ -19,6 +19,7 @@ import { isMatcha, matchaStyles, matchaStyle } from "./matcha";
 import Admin from "./Admin";
 import { brewingWords } from "./clearProcedure";
 import { buildFieldGuide, guideSources } from "./fieldGuide";
+import type { LiquidChoice } from "./guideInputs";
 import "@fontsource/noto-sans-myanmar/myanmar-400.css";
 import "@fontsource/noto-sans-myanmar/myanmar-700.css";
 import "./style.css";
@@ -857,8 +858,10 @@ function RecipeDetail({
   related: Recipe[];
   open: (id: string) => void;
 }) {
-  const fieldGuide = buildFieldGuide(r);
-  const clearSteps = fieldGuide.steps;
+  const [liquidChoice, setLiquidChoice] = useState<LiquidChoice>();
+  const fieldGuide = buildFieldGuide(r, liquidChoice);
+  const clearSteps =
+    fieldGuide.liquidChoiceRequired && !liquidChoice ? [] : fieldGuide.steps;
   const [servings, setServings] = useState(1);
   const [checks, setChecks] = useState<number[]>([]);
   const egg = /egg|ကြက်ဥ/i.test(
@@ -976,7 +979,7 @@ function RecipeDetail({
                 ။ ခွက်အရွယ်အသစ်အတွက် အချိုး မခန့်မှန်းထားပါ။
               </p>
             )}
-            {r.ingredients.map((i, n) => (
+            {fieldGuide.effectiveRecipe.ingredients.map((i, n) => (
               <div className="ingredient" key={n}>
                 <span>{i.name}</span>
                 <b>
@@ -1012,7 +1015,9 @@ function RecipeDetail({
             <div className="panel-heading">
               <h2>ဖျော်နည်း အဆင့်လိုက်</h2>
               <small>
-                {checks.length}/{clearSteps.length}
+                {fieldGuide.liquidChoiceRequired && !liquidChoice
+                  ? "ဖျော်မည့်ပုံစံ အရင်ရွေးပါ"
+                  : `${checks.length}/${clearSteps.length}`}
               </small>
             </div>
             <p className="guide-method">
@@ -1054,6 +1059,40 @@ function RecipeDetail({
                 ))}
               </dl>
             </details>
+            {fieldGuide.liquidChoiceRequired && (
+              <fieldset className="liquid-choice">
+                <legend>ဒီခွက်ကို ဘယ်ပုံစံဖျော်မလဲ။</legend>
+                <p>
+                  နို့ / ရေ နှစ်မျိုးထဲက တစ်မျိုးသာ ရွေးပါ။ နှစ်မျိုးလုံးကို
+                  စာရင်းပါပမာဏစီ မထည့်ပါနှင့်။
+                </p>
+                <div>
+                  {(["milk", "water"] as const).map((value) => (
+                    <button
+                      type="button"
+                      aria-pressed={liquidChoice === value}
+                      key={value}
+                      onClick={() => {
+                        setLiquidChoice(value);
+                        setChecks([]);
+                      }}
+                    >
+                      {value === "milk"
+                        ? "နို့ဖြင့် ဖျော်မည်"
+                        : "ရေဖြင့် ဖျော်မည်"}
+                    </button>
+                  ))}
+                </div>
+              </fieldset>
+            )}
+            {r.ingredients.some((i) => /\d\s*[–-]\s*\d/.test(i.quantity)) && (
+              <p className="notice">
+                စာရင်းမှာ အပိုင်းအခြားပါသော ပမာဏရှိပါတယ်။ ဥပမာ 150–180 g ဆိုရင်
+                အဲဒီအတွင်းက တစ်ပမာဏကို အရင်ရွေးပြီး ခွက်တိုင်းမှာ
+                တူညီစွာချိန်ပါ။ အမြင့်ဆုံးပမာဏကို အလိုအလျောက်
+                မပေါင်းထည့်ပါနှင့်။
+              </p>
+            )}
             {clearSteps.map((s, i) => (
               <label
                 className={"step " + (checks.includes(i) ? "done" : "")}
@@ -1149,7 +1188,10 @@ function RecipeDetail({
               </div>
             </details>
           </section>
-          <RecipeQuality recipe={r} servings={servings} />
+          <RecipeQuality
+            recipe={fieldGuide.effectiveRecipe}
+            servings={servings}
+          />
         </div>
       </div>
     </main>

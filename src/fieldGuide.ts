@@ -2,6 +2,7 @@ import type { Recipe } from "./model";
 import { getClearProcedure, shortSteps } from "./clearProcedure";
 import { isPreparation } from "./preparations";
 import { massAudit } from "./quality";
+import { resolveGuideInputs, type LiquidChoice } from "./guideInputs";
 
 type Row = Recipe["ingredients"][number];
 export type GuideStep = {
@@ -61,8 +62,9 @@ const isSoda = (i: Row) =>
 const isWater = (i: Row) =>
   !isSoda(i) && /^(ရေ(?:ပူ|အေး|နွေး|သန့်|$)|သောက်ရေ)/.test(i.name);
 const isLeaf = (i: Row) =>
-  !/ရည်|powder|မှုန့်|အနှစ်|အေး|syrup/i.test(i.name) &&
-  /tea|အရွက်|cascara|hibiscus|chamomile/i.test(i.name);
+  !/ရည်|powder|မှုန့်|အနှစ်|အေး|syrup|mint|ပူဒီနာ|ပင်စိမ်း|rosemary/i.test(
+    i.name,
+  ) && /tea|အရွက်|cascara|hibiscus|chamomile/i.test(i.name);
 const isMatcha = (i: Row) =>
   /matcha/i.test(i.name) && /powder|မှုန့်/i.test(i.name);
 const isPowder = (i: Row) =>
@@ -99,7 +101,7 @@ const isWholeFruit = (i: Row) =>
   !/ရည်|purée|puree|paste|syrup|အနှစ်/i.test(i.name) &&
   /သီး|Mixed Berry/i.test(i.name);
 
-export function buildFieldGuide(r: Recipe) {
+function buildGuideCore(r: Recipe) {
   const rows = r.ingredients,
     n = r.englishName;
   const steps: GuideStep[] = [],
@@ -165,7 +167,9 @@ export function buildFieldGuide(r: Recipe) {
     )
   )
     block(
-      "မူရင်းက နို့/ရေ ရွေးချယ်မှု မရှင်းပါ။ နို့နှင့်လီမွန်ကို မခန့်မှန်းရောပါနှင့်။ အသုံးပြုမည့်အရည်ကို အတည်ပြုမှ စမ်းဖျော်ပါ။",
+      /Hot Lemon Tea|Hot Honey Lemon/.test(n)
+        ? "မူရင်းအဆင့်က နို့မထည့်ဘဲ ရေနွေးဖြည့်ရန် ရေးထားသည်။ သို့သော် ဖြည့်ရမည့် ရေနွေး ml မဖော်ပြထားပါ။ နို့မီနူးအတွက်ရေးထားသော 120 ml ကို ရေပမာဏဟု မခန့်မှန်းပါနှင့်။ ဖြည့်ရေပမာဏကို အရင်အတည်ပြုပါ။"
+        : "မူရင်းက နို့/ရေ ရွေးချယ်မှု မရှင်းပါ။ နို့နှင့်လီမွန်ကို မခန့်မှန်းရောပါနှင့်။ အသုံးပြုမည့်အရည်ကို အတည်ပြုမှ စမ်းဖျော်ပါ။",
     );
   if (n === "Doppio Ristretto")
     block(
@@ -1060,5 +1064,32 @@ export function buildFieldGuide(r: Recipe) {
       : "Professional Trial — လက်တွေ့အရသာ မစမ်းသပ်ရသေး",
     standard:
       "နည်းစနစ်ကိုးကားထားခြင်းသာ ဖြစ်သည်။ ဤမီနူး၏ အချိုးနှင့်အရသာကို SCA အသိအမှတ်ပြုစံဟု မဆိုလိုပါ။",
+  };
+}
+
+export function buildFieldGuide(r: Recipe, choice?: LiquidChoice) {
+  const input = resolveGuideInputs(r, choice);
+  const guide = buildGuideCore(input.recipe);
+  if (input.liquidChoiceRequired && !choice) {
+    guide.issues = guide.issues.filter(
+      (i) =>
+        i.message !==
+        "မူရင်းက နို့/ရေ ရွေးချယ်မှု မရှင်းပါ။ နို့နှင့်လီမွန်ကို မခန့်မှန်းရောပါနှင့်။ အသုံးပြုမည့်အရည်ကို အတည်ပြုမှ စမ်းဖျော်ပါ။",
+    );
+    guide.status = "ဒီခွက်အတွက် နို့ / ရေ တစ်မျိုး ရွေးပါ";
+  }
+  for (const resolution of input.resolutions)
+    guide.steps.unshift({
+      title: "မူရင်းရွေးချယ်မှုကို ရှင်းထားသည်",
+      action: `မူရင်းစာရင်း — ${text(resolution.original)}။ ဤခွက်တွင် ${text(resolution.resolved)} ကိုသာ သုံးပါ။`,
+      check: resolution.basis,
+      ingredientIndexes: [],
+    });
+  return {
+    ...guide,
+    effectiveRecipe: input.recipe,
+    inputResolutions: input.resolutions,
+    liquidChoiceRequired: input.liquidChoiceRequired,
+    liquidChoice: input.choice,
   };
 }

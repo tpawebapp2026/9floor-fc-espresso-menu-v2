@@ -61,8 +61,14 @@ test("every migrated menu opens the correct detail page", async ({ page }) => {
     await expect(page.locator(".ingredient")).toHaveCount(
       recipe.ingredients.length,
     );
+    const guide = buildFieldGuide(recipe);
+    if (guide.liquidChoiceRequired)
+      await page
+        .getByRole("button", { name: "နို့ဖြင့် ဖျော်မည်", exact: true })
+        .click();
     await expect(page.locator(".step")).toHaveCount(
-      buildFieldGuide(recipe).steps.length,
+      buildFieldGuide(recipe, guide.liquidChoiceRequired ? "milk" : undefined)
+        .steps.length,
     );
   }
 });
@@ -264,4 +270,39 @@ test("professional guide shows action and completion checks, glossary and visibl
   });
   await page.goto("/recipe/v8-23-05");
   await expect(page.locator(".guide-blocker").first()).toContainText("ပမာဏမပါ");
+});
+test("all six smoothies require one liquid choice, update ingredients and reset step checks on switching", async ({
+  page,
+}) => {
+  await page.setViewportSize({ width: 390, height: 900 });
+  for (const r of seed.recipes.filter((r: { id: string }) =>
+    /^v8-05-0[1-6]$/.test(r.id),
+  )) {
+    await page.goto("/recipe/" + r.id);
+    await expect(page.locator(".step")).toHaveCount(0);
+    await page
+      .getByRole("button", { name: "ရေဖြင့် ဖျော်မည်", exact: true })
+      .click();
+    await expect(
+      page.locator(".ingredient").filter({ hasText: "သောက်ရေသန့်အေး" }),
+    ).toContainText("80 ml");
+    await page.locator(".step input").first().check();
+    await expect(
+      page.locator("#recipe-steps .panel-heading small"),
+    ).toContainText("1/");
+    await page
+      .getByRole("button", { name: "နို့ဖြင့် ဖျော်မည်", exact: true })
+      .click();
+    await expect(
+      page.locator(".ingredient").filter({ hasText: "နို့အေး" }),
+    ).toContainText("80 ml");
+    await expect(
+      page.locator("#recipe-steps .panel-heading small"),
+    ).toContainText("0/");
+    expect(
+      await page.evaluate(
+        () => document.documentElement.scrollWidth <= innerWidth,
+      ),
+    ).toBe(true);
+  }
 });

@@ -13,6 +13,8 @@ const records = data.recipes.map((r) => {
     method: g.method,
     steps: g.steps.length,
     status: g.status,
+    liquidChoiceRequired: g.liquidChoiceRequired,
+    sourceResolutions: g.inputResolutions,
     issues: g.issues,
     sources: g.sourceKeys,
     ingredients: r.ingredients.length,
@@ -28,6 +30,8 @@ const result = {
   ingredientCount: records.reduce((a, r) => a + r.ingredients, 0),
   blockers: records.filter((r) => r.issues.some((i) => i.level === "blocker"))
     .length,
+  sourceResolvedMenus: records.filter((r) => r.sourceResolutions.length).length,
+  liquidChoiceMenus: records.filter((r) => r.liquidChoiceRequired).length,
   tasteTested: 0,
   methods: Object.fromEntries(
     [...new Set(records.map((r) => r.method))].map((m) => [
@@ -48,3 +52,33 @@ console.log(
     .filter((r) => r.unresolvedSteps.length)
     .map((r) => ({ name: r.name, unresolved: r.unresolvedSteps })),
 );
+
+const review = [
+  "# 307 မီနူး လိုက်ဖျော်လမ်းညွှန် စစ်ဆေးချက်",
+  "",
+  "မူရင်း 307 မီနူးနှင့် ပစ္စည်းစာရင်း 1,216 တန်း မပြောင်းထားပါ။ လုပ်ဆောင်ရန်၊ စစ်ကြည့်ရန်၊ ခန့်မှန်းအရသာပစ်မှတ်နှင့် မူရင်းနည်းစနစ်ကို ပြထားသည်။",
+  "",
+  `အရင် audit 31 မျိုးကို မူရင်းအဆင့်အပြည့်ဖြင့် ပြန်စစ်ထားသည်။ မီနူး ${result.sourceResolvedMenus} မျိုး၏ နို့/ရေရွေးချယ်မှုကို မူရင်းစာသားအရ ရှင်းပြထားသည်။ Smoothie ${result.liquidChoiceMenus} မျိုးတွင် နို့ သို့မဟုတ် ရေ တစ်မျိုးရွေး၍ ဖျော်နိုင်သည်။ Mint ကို လက်ဖက်ခြောက်အဖြစ် မှားခွဲထားခြင်းကို ပြင်ထားသည်။`,
+  "",
+  `အရင်အတည်ပြုရန် လိုသော မီနူး ${result.blockers} မျိုး ကျန်သည်။ 307 မျိုးလုံး အရသာစမ်းသပ်ပြီးဟု မဆိုလိုပါ။`,
+  "",
+  "| မီနူး | အရင်အတည်ပြုရန် |",
+  "|---|---|",
+];
+for (const r of records) {
+  const blockers = r.issues.filter((i) => i.level === "blocker");
+  if (blockers.length)
+    review.push(
+      `| ${r.name} | ${blockers
+        .map((i) => i.message)
+        .join(" ")
+        .replaceAll("|", " / ")} |`,
+    );
+}
+review.push(
+  "",
+  "SCA standards စာရင်းကို မီနူးအားလုံး၏အရသာအချိုးအဖြစ် မသုံးထားပါ။ ဆိုင်သုံး 16 g → 32 g / 25–30 s သည် စတင်စမ်းသပ် baseline ဖြစ်သည်။ Brand၊ density၊ grind နှင့် အရသာကို လက်တွေ့စမ်းပြီးမှ ဆိုင်စံဖော်မြူလာအဖြစ် သတ်မှတ်ပါ။",
+  "",
+  "ရွေးထားသောနို့/ရေသည် ယခုဖွင့်ထားသောခွက်အတွက်သာဖြစ်ပြီး မူရင်း JSON ကို မပြောင်းပါ။ Favorites နှင့် menu IDs မပြောင်းပါ။",
+);
+writeFileSync("docs/FULL_GUIDE_REVIEW_MM.md", review.join("\n") + "\n");
