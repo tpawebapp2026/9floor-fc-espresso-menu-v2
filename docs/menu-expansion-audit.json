@@ -1,0 +1,152 @@
+{
+  "originalCount": 283,
+  "originalSha256": "a658bb5ef0dfb771f89bf09a6ac276216f506a85e3e4708fc87b945fedfe2c59",
+  "requests": [
+    {
+      "name": "Iced Oreo Latte",
+      "action": "added",
+      "id": "upgrade-iced-oreo-latte",
+      "menuNumber": "NEW-01"
+    },
+    {
+      "name": "Chocolate Oreo Mocha",
+      "action": "added",
+      "id": "upgrade-chocolate-oreo-mocha",
+      "menuNumber": "NEW-02"
+    },
+    {
+      "name": "Caramel Oreo Latte",
+      "action": "added",
+      "id": "upgrade-caramel-oreo-latte",
+      "menuNumber": "NEW-03"
+    },
+    {
+      "name": "Vanilla Cold Foam Latte",
+      "action": "added",
+      "id": "upgrade-vanilla-cold-foam-latte",
+      "menuNumber": "NEW-04"
+    },
+    {
+      "name": "Chocolate Cream Espresso",
+      "action": "added",
+      "id": "upgrade-chocolate-cream-espresso",
+      "menuNumber": "NEW-05"
+    },
+    {
+      "name": "Taro Oreo Milk",
+      "action": "added",
+      "id": "upgrade-taro-oreo-milk",
+      "menuNumber": "NEW-06"
+    },
+    {
+      "name": "Taro Matcha Latte",
+      "action": "added",
+      "id": "upgrade-taro-matcha-latte",
+      "menuNumber": "NEW-07"
+    },
+    {
+      "name": "Mixed Berry Matcha Latte",
+      "action": "added",
+      "id": "upgrade-mixed-berry-matcha-latte",
+      "menuNumber": "NEW-08"
+    },
+    {
+      "name": "Matcha Oreo Latte",
+      "action": "added",
+      "id": "upgrade-matcha-oreo-latte",
+      "menuNumber": "NEW-09"
+    },
+    {
+      "name": "Strawberry Matcha Cream",
+      "action": "added",
+      "id": "upgrade-strawberry-matcha-cream",
+      "menuNumber": "NEW-10"
+    },
+    {
+      "name": "Vanilla Taro Milk",
+      "action": "added",
+      "id": "upgrade-vanilla-taro-milk",
+      "menuNumber": "NEW-11"
+    },
+    {
+      "name": "Passion Lychee Soda",
+      "action": "added",
+      "id": "upgrade-passion-lychee-soda",
+      "menuNumber": "NEW-12"
+    },
+    {
+      "name": "Strawberry Lychee Soda",
+      "action": "added",
+      "id": "upgrade-strawberry-lychee-soda",
+      "menuNumber": "NEW-13"
+    },
+    {
+      "name": "Mixed Berry Soda",
+      "action": "added",
+      "id": "upgrade-mixed-berry-soda",
+      "menuNumber": "NEW-14"
+    },
+    {
+      "name": "Blue Passion Soda",
+      "action": "added",
+      "id": "upgrade-blue-passion-soda",
+      "menuNumber": "NEW-15"
+    },
+    {
+      "name": "Blue Lychee Soda",
+      "action": "added",
+      "id": "upgrade-blue-lychee-soda",
+      "menuNumber": "NEW-16"
+    },
+    {
+      "name": "Strawberry Passion Soda",
+      "action": "added",
+      "id": "upgrade-strawberry-passion-soda",
+      "menuNumber": "NEW-17"
+    },
+    {
+      "name": "Mixed Berry Lychee Soda",
+      "action": "added",
+      "id": "upgrade-mixed-berry-lychee-soda",
+      "menuNumber": "NEW-18"
+    },
+    {
+      "name": "Iced Chocolate Oreo Milk",
+      "action": "added",
+      "id": "upgrade-iced-chocolate-oreo-milk",
+      "menuNumber": "NEW-19"
+    },
+    {
+      "name": "Vanilla Oreo Milk",
+      "action": "added",
+      "id": "upgrade-vanilla-oreo-milk",
+      "menuNumber": "NEW-20"
+    },
+    {
+      "name": "Strawberry Cream Milk",
+      "action": "added",
+      "id": "upgrade-strawberry-cream-milk",
+      "menuNumber": "NEW-21"
+    },
+    {
+      "name": "Mixed Berry Cream Milk",
+      "action": "added",
+      "id": "upgrade-mixed-berry-cream-milk",
+      "menuNumber": "NEW-22"
+    },
+    {
+      "name": "Vanilla Cold Foam Base",
+      "action": "added",
+      "id": "upgrade-vanilla-cold-foam-base",
+      "menuNumber": "CF-01"
+    },
+    {
+      "name": "Chocolate Cold Foam Base",
+      "action": "added",
+      "id": "upgrade-chocolate-cold-foam-base",
+      "menuNumber": "CF-02"
+    }
+  ],
+  "newCount": 24,
+  "finalCount": 307
+}

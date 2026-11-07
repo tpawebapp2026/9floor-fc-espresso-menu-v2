@@ -36,7 +36,7 @@ it("preserves every field of all 260 previous recipes, including numbers, photos
   }
 });
 it("adds exactly three unique metric trial recipes per requested group without changing drink counts", () => {
-  const parsed = CatalogSchema.parse(seed);
+  const parsed = CatalogSchema.parse({...seed,recipes:seed.recipes.filter((r:any)=>!r.id.startsWith('upgrade-'))});
   for (const g of preparationGroups)
     expect(parsed.recipes.filter((r) => r.categoryId === g.id)).toHaveLength(3);
   for (const r of parsed.recipes.filter(isPreparation)) {

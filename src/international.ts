@@ -106,13 +106,14 @@ export const coldStyles = [
       "category-26",
       "category-28",
       "matcha-styles",
+      "upgrade-matcha-taro",
     ],
   },
   {
     id: "soda",
     name: "Soda Bar",
     mm: "Italian Soda နှင့် သစ်သီးဆိုဒါ",
-    categories: ["category-07", "category-10"],
+    categories: ["category-07", "category-10", "upgrade-soda"],
   },
   {
     id: "mocktail",
@@ -130,7 +131,7 @@ export const coldStyles = [
     id: "milk",
     name: "Yogurt & Milk",
     mm: "ဒိန်ချဉ်နှင့် နို့ဖျော်ရည်",
-    categories: ["category-12"],
+    categories: ["category-12", "upgrade-milk"],
   },
   {
     id: "refresher",

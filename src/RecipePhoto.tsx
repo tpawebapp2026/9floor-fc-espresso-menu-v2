@@ -33,7 +33,7 @@ export default function RecipePhoto({
         role="img"
         aria-label={`${recipe.englishName} ဓာတ်ပုံမရရှိပါ`}
       >
-        ဓာတ်ပုံ မရရှိပါ။ အင်တာနက်ပြန်ရချိန် ပြန်ဖွင့်ပါ။
+        {recipe.id.startsWith('upgrade-') ? 'ဤမီနူးအတွက် ပုံအစစ် မရရှိသေးပါ။ ဖျော်ပြီးပုံ ထည့်ရန်ကျန်သည်။' : 'ဓာတ်ပုံ မရရှိပါ။ အင်တာနက်ပြန်ရချိန် ပြန်ဖွင့်ပါ။'}
       </div>
     );
   const p = reference?.photo;

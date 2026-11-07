@@ -1,5 +1,11 @@
 import type { Recipe } from "./model";
 export const matchaStyles = [
+  {
+    id: "shop-trial",
+    country: "ဆိုင်စမ်းသပ်",
+    flag: "🧪",
+    name: "9 FLOOR Trial — နိုင်ငံမအတည်ပြုရသေး",
+  },
   { id: "japanese", country: "ဂျပန်", flag: "🇯🇵", name: "ဂျပန်စတိုင်" },
   { id: "thai", country: "ထိုင်း", flag: "🇹🇭", name: "ထိုင်းစတိုင်" },
   { id: "korean", country: "ကိုရီးယား", flag: "🇰🇷", name: "ကိုရီးယားစတိုင်" },
@@ -12,6 +18,7 @@ export function isMatcha(recipe: Recipe) {
 }
 export function matchaStyle(recipe: Recipe) {
   if (!isMatcha(recipe)) return null;
+  if (recipe.id.startsWith("upgrade-")) return matchaStyles[0];
   const id =
     matchaStyles.find((s) => recipe.id.startsWith("matcha-" + s.id + "-"))
       ?.id || (/Dalgona/i.test(recipe.englishName) ? "korean" : "japanese");

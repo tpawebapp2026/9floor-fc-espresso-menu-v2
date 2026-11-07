@@ -1,0 +1,89 @@
+[build]
+  command = "npm run build && npx tsc -p tsconfig.server.json"
+  publish = "dist"
+
+[build.environment]
+  NODE_VERSION = "22"
+  VITE_BASE_PATH = "/"
+  VITE_STATIC_READER = "false"
+
+[functions]
+  directory = "netlify/functions"
+  node_bundler = "esbuild"
+  external_node_modules = ["sharp"]
+
+[[redirects]]
+  from = "/api/admin"
+  to = "/.netlify/functions/admin"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/api/image"
+  to = "/.netlify/functions/image"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/admin"
+  to = "/index.html"
+  status = 200
+
+[[redirects]]
+  from = "/recipe/*"
+  to = "/index.html"
+  status = 200
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+    X-Frame-Options = "DENY"
+    Permissions-Policy = "camera=(), microphone=(), geolocation=()"
+    Content-Security-Policy = "default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' https: blob: data:; connect-src 'self' https://*.supabase.co wss://*.supabase.co; object-src 'none'; base-uri 'self'; frame-ancestors 'none'"
+
+[[headers]]
+  for = "/"
+  [headers.values]
+    Cache-Control = "no-cache, max-age=0, must-revalidate"
+
+[[headers]]
+  for = "/index.html"
+  [headers.values]
+    Cache-Control = "no-cache, max-age=0, must-revalidate"
+
+[[headers]]
+  for = "/sw.js"
+  [headers.values]
+    Cache-Control = "no-cache, max-age=0, must-revalidate"
+
+[[headers]]
+  for = "/version.json"
+  [headers.values]
+    Cache-Control = "no-cache, max-age=0, must-revalidate"
+
+[[headers]]
+  for = "/recipes.json"
+  [headers.values]
+    Cache-Control = "no-cache, max-age=0, must-revalidate"
+
+[[headers]]
+  for = "/admin"
+  [headers.values]
+    Cache-Control = "no-cache, max-age=0, must-revalidate"
+
+[[headers]]
+  for = "/recipe/*"
+  [headers.values]
+    Cache-Control = "no-cache, max-age=0, must-revalidate"
+
+[[headers]]
+  for = "/assets/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/photos/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"

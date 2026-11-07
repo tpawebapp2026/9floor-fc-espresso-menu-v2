@@ -1,13 +1,15 @@
-# Vercel / Supabase တင်သွင်းခြင်းနှင့် ထိန်းသိမ်းခြင်း
+# လက်ရှိ V2 ၏ Backend တင်သွင်းခြင်းနှင့် ထိန်းသိမ်းခြင်း
 
 ## လက်ရှိအဆင့်
 
-Source နှင့် local build အဆင့်ဖြစ်သည်။ GitHub repository၊ Supabase project၊ Vercel preview တို့ မဖန်တီးရသေး။ Production မတင်ရသေးပါ။ မည်သည့် existing project ကိုမျှ မချိတ်ဆက်ပါနှင့်။
+လက်ရှိ repository သည် `tpawebapp2026/9floor-fc-espresso-menu-v2` ဖြစ်သည်။ GitHub ချိတ်ဆက်မှုနှင့် Pages Recipe Reader preview တင်ပြီးဖြစ်၍ မီနူး 283 / အမျိုးအစား 34 ရှိသည်။ Repository / application အသစ် ထပ်မဖန်တီးပါနှင့်။ ဆက်လုပ်နေသောအပိုင်းသည် လက်ရှိ app ၏ Admin၊ database နှင့် image upload backend ဖြစ်သည်။ Supabase နှင့် server hosting အကောင့်ချိတ်ဆက်မှု မပြီးသေးသဖြင့် live Admin အောင်မြင်ပြီးဟု မဆိုရ။ Production အတည်ပြုချက် မရသေးပါ။
 
-## သီးခြား project အသစ်များ
+စရိတ်သက်သာသော Netlify preview အတွက် [သီးခြားလမ်းညွှန်](BACKEND_PREVIEW_MM.md) ကို ဖတ်ပါ။ Sites / Cloudflare ကို မသုံးရ။ အောက်ပါ Vercel ဆိုင်ရာအဆင့်များသည် ရွေးချယ်စရာသာ ဖြစ်ပြီး Vercel Hobby ကို စီးပွားရေးသုံးအတွက် မသုံးရ။ အခပေး plan ကို ပိုင်ရှင်၏ အတည်ပြုချက်မရှိဘဲ မဖွင့်ရ။
 
-1. GitHub တွင် `9floor-fc-espresso-menu-v2` ဆိုသော empty repository အသစ် ဖန်တီးပါ။ အမည်ယူပြီးသားရှိလျှင် suffix ထည့်ပါ။ Existing app repo မသုံးပါနှင့်။
-2. Supabase တွင် V2 အတွက် project အသစ် ဖန်တီးပါ။ Paid plan/စရိတ်ကို ပိုင်ရှင်နှင့် စစ်ဆေးပြီးမှ activate လုပ်ပါ။
+## လက်ရှိ V2 အတွက် သီးသန့် backend
+
+1. ရှိပြီးသား `tpawebapp2026/9floor-fc-espresso-menu-v2` repository ကိုသာ သုံးပါ။ မူရင်း V1 နှင့် အခြား repositories ကို မပြောင်းရ။
+2. Supabase account ချိတ်ပြီး V2 အတွက် သီးသန့် backend ရှိမရှိ အရင်စစ်ပါ။ ရှိပြီးသား unrelated database မသုံးရ။ V2 database မရှိသေးလျှင် သီးသန့် resource ဖန်တီးခြင်းသာ လိုပြီး application ကို အစက ပြန်မတည်ဆောက်ရ။ Paid plan/စရိတ်ကို ပိုင်ရှင်နှင့် စစ်ဆေးပြီးမှ activate လုပ်ပါ။
 3. `supabase/migrations/001_initial.sql` ကို project အသစ်တွင်သာ run ပါ။ Migration သည် ပထမအကြိမ်အတွက် ဖြစ်၍ existing schema ပေါ် အတင်းထပ်မသုံးပါနှင့်။
 4. Supabase Auth တွင် owner account ဖန်တီးပါ။ Public sign-up ကို ပိတ်ပါ။ owner UUID ကို private.admin_users ထဲ SQL ဖြင့် ထည့်ပါ။ User-editable metadata ကို admin permission အဖြစ် မသုံးပါနှင့်။
 5. Auth rate limits / password policy ကို configure လုပ်ပါ။ Password ကို Chat ထဲ မပို့ပါနှင့်။ Secure account connection/provider console မှ သာ ထည့်ပါ။
@@ -35,7 +37,7 @@ Vite dev/preview သည် Vercel API functions ကို မ run ပေးပ�
 
 ## GitHub နှင့် approved code deployment
 
-Local source ကို repo အသစ်တွင်သာ push ပါ။ New repo တွင် preview အတွက် development branch နှင့် code review အတွက် PR ကို သုံးပါ။ မူရင်း repo အမည်/remote ကို မသုံးပါနှင့်။
+လက်ရှိ V2 repository ထဲတွင်သာ source ပြင်ပါ။ Backend preview ကို branch / PR ဖြင့် သီးခြားစမ်းပြီး လက်ရှိ Pages reader URL ကို မထိခိုက်စေရ။ GitHub Pages သည် Node APIs ကို မလုပ်ဆောင်နိုင်သဖြင့် backend branch ကို source တင်ရုံနှင့် Admin live မဖြစ်ပါ။
 
 Production approval မရမချင်း production branch သို့ merge မလုပ်ပါနှင့်။ Vercel import လုပ်ခြင်း၏ ပထမ deployment သည် production ဖြစ်နိုင်သောကြောင့် default import flow ကို preview ဟု မယူဆပါနှင့်။ ပထမအဆင့်တွင် new Vercel project ကို production deployment မပြုဘဲ ဖန်တီး၍ `vercel deploy` preview target ဖြင့်သာ တင်ပါ။ `--prod` မသုံးပါနှင့်။
 
@@ -57,8 +59,8 @@ GitHub Actions workflow ထည့်ထားသည်။ TypeScript client/serv
 - Sign-in လုပ်ထားသော်လည်း admin မဟုတ်သူက publish/upload မလုပ်နိုင်ခြင်း။
 - Admin password login၊ expired JWT၊ draft save/load၊ image upload၊ restore စမ်းခြင်း။
 - Concurrent publish conflict သည် အဟောင်းကို မဖုံးခြင်း။
-- မီနူး 260 ခုနှင့် ပမာဏများကို မူရင်း/ပိုင်ရှင်နှင့် ပြန်စစ်ခြင်း။
-- Photo rights နှင့် recipe-photo match စစ်ခြင်း။ လက်ရှိ placeholder များကို အစစ်ဟု မသတ်မှတ်ရ။
+- မီနူး 283 ခုနှင့် ပမာဏများကို စစ်ခြင်း၊ မူရင်း 272 ခု မပြောင်းကြောင်း preservation tests စစ်ခြင်း၊ အသစ် 11 ခုကို ပိုင်ရှင်က လက်တွေ့ဖျော်စမ်းခြင်း။
+- Photo rights နှင့် recipe-photo match စစ်ခြင်း။ လက်ရှိဓာတ်ပုံ 62 ပုံသည် အမျိုးအစားတူ / ပါဝင်ပစ္စည်း ကိုးကားပုံများသာဖြစ်ပြီး exact recipe ကို ဆိုင်တွင်ဖျော်ရိုက်ထားသောပုံ ဟု မဆိုရ။
 - iPhone Safari / Home Screen၊ Android Chrome / Home Screen အစစ်ဖြင့် စမ်းခြင်း။
 - Deployment A → B အမှန်တကယ် တင်၍ waiting SW notification / accept / reload / offline ကို စမ်းခြင်း။
 - စရိတ်နှင့် plan commercial-use terms စစ်ခြင်း။

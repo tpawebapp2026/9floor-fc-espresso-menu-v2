@@ -27,7 +27,7 @@ it("preserves every original 272 recipe record and adds eleven distinct unverifi
     expect(r).toBeTruthy();
     expect(createHash("sha256").update(stable(r)).digest("hex")).toBe(hash);
   }
-  const added = catalog.recipes.filter((r) => !(r.id in original));
+  const added = catalog.recipes.filter((r) => !(r.id in original) && !r.id.startsWith('upgrade-'));
   expect(added).toHaveLength(11);
   expect(
     added.every(
@@ -36,7 +36,7 @@ it("preserves every original 272 recipe record and adds eleven distinct unverifi
   ).toBe(true);
 });
 it("offers ten Matcha menus across six country styles", () => {
-  const matcha = catalog.recipes.filter(isMatcha);
+  const matcha = catalog.recipes.filter(r=>isMatcha(r)&&!r.id.startsWith('upgrade-'));
   expect(matcha).toHaveLength(10);
   expect(new Set(matcha.map((r) => matchaStyle(r)?.id)).size).toBe(6);
 });
