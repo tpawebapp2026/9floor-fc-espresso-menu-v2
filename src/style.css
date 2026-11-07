@@ -114,23 +114,24 @@ img {
   color: var(--muted);
   font-weight: 500;
 }
-.brand-icon {
-  border: 1px solid var(--green);
-  border-radius: 50%;
-  width: 48px;
-  height: 48px;
-  display: grid;
-  place-content: center;
-  position: relative;
-  font-family: Georgia;
-  font-size: 28px;
-  line-height: 1;
+.brand-logo {
+  width: 56px;
+  height: 56px;
+  object-fit: contain;
+  border-radius: 12px;
+  background: #fff;
+  flex-shrink: 0;
 }
-.brand-icon span {
-  position: absolute;
-  font-size: 15px;
-  right: 9px;
-  bottom: 8px;
+.hero-brand {
+  display: grid;
+  place-items: center;
+  padding: 28px;
+}
+.hero-brand img {
+  width: min(100%, 300px);
+  height: auto;
+  border-radius: 24px;
+  box-shadow: 0 18px 45px #061f2733;
 }
 .desktop-nav {
   display: flex;
@@ -965,12 +966,20 @@ dialog::backdrop {
     justify-content: space-between;
   }
   .brand {
-    font-size: 17px;
+    font-size: 15px;
+    letter-spacing: 1px;
+    min-width: 0;
   }
-  .brand-icon {
+  .brand-logo {
     width: 40px;
     height: 40px;
-    font-size: 25px;
+  }
+  .hero-brand {
+    padding: 0 24px 24px;
+  }
+  .hero-brand img {
+    width: 160px;
+    border-radius: 18px;
   }
   .brand small {
     font-size: 8px;

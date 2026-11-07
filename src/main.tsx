@@ -223,11 +223,15 @@ function App() {
     <>
       <header className="topbar">
         <button className="brand" onClick={() => selectView("menu")}>
-          <span className="brand-icon">
-            9<span>F</span>
-          </span>
+          <img
+            className="brand-logo"
+            src={asset("branding/9floor-coffee-v1.webp")}
+            alt="9 FLOOR COFFEE"
+            width="56"
+            height="56"
+          />
           <span>
-            9FLOOR FC<small>ESPRESSO MENU · V2</small>
+            9 FLOOR COFFEE<small>ESPRESSO MENU · V2</small>
           </span>
         </button>
         <nav className="desktop-nav" aria-label="အဓိကမီနူး">
@@ -365,16 +369,14 @@ function App() {
                 </span>
               </div>
             </div>
-            <div className="hero-art" aria-hidden="true">
-              <div className="orbit" />
-              <div className="beans">✦</div>
-              <div className="cup-art">
-                <span>9F</span>
-                <i />
-              </div>
-              <div className="art-caption">
-                THE DAILY RITUAL<span>16g · 32g · 25–30 sec</span>
-              </div>
+            <div className="hero-brand">
+              <img
+                src={asset("branding/9floor-coffee-v1.webp")}
+                alt="9 FLOOR COFFEE ဆိုင်လိုဂို"
+                width="640"
+                height="640"
+                fetchPriority="high"
+              />
             </div>
           </section>
           <div className="section-intro">
