@@ -1654,3 +1654,12 @@ summary {
     font-size: 12px;
   }
 }
+
+/* Keep the beginner mixing path readable on a phone. */
+#recipe-steps .step { font-size: 16px; line-height: 2; padding: 16px 12px; align-items: start; }
+.clear-intro { font-weight: 700; }
+.brewing-words, .detailed-procedure { margin: 18px 0; padding: 14px; background: var(--surface); border: 1px solid var(--line); border-radius: 12px; }
+.brewing-words summary, .detailed-procedure summary { cursor: pointer; font-weight: 700; line-height: 1.9; }
+.brewing-words dt { margin-top: 16px; font-weight: 700; }
+.brewing-words dd { margin: 6px 0 0; line-height: 2; }
+.detailed-procedure li { margin-bottom: 14px; line-height: 2; }

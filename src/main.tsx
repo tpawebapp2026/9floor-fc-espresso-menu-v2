@@ -22,6 +22,7 @@ import {
 } from "./procedure";
 import { isMatcha, matchaStyles, matchaStyle } from "./matcha";
 import Admin from "./Admin";
+import { getClearProcedure, brewingWords } from "./clearProcedure";
 import "@fontsource/noto-sans-myanmar/myanmar-400.css";
 import "@fontsource/noto-sans-myanmar/myanmar-700.css";
 import "./style.css";
@@ -861,6 +862,7 @@ function RecipeDetail({
   open: (id: string) => void;
 }) {
   const procedure = getProcedure(r);
+  const clearSteps = getClearProcedure(r);
   const [servings, setServings] = useState(1);
   const [checks, setChecks] = useState<number[]>([]);
   const egg = /egg|ကြက်ဥ/i.test(
@@ -1014,20 +1016,37 @@ function RecipeDetail({
             <div className="panel-heading">
               <h2>ဖျော်နည်း အဆင့်လိုက်</h2>
               <small>
-                {checks.length}/{procedure.steps.length}
+                {checks.length}/{clearSteps.length}
               </small>
             </div>
-            <p className="muted">
-              V2 လိုက်ဖျော်လမ်းညွှန် · {procedure.method}။ မူရင်းပမာဏကို
-              ထိန်းထားပြီး လုပ်ငန်းအဆင့်များ ဖြည့်ထားသည်။ အချိန်နှင့်
-              အပူချိန်အဆိုပြုချက်များကို ဆိုင်တွင် စမ်းသပ်အတည်ပြုရန် လိုသည်။
+            <p className="clear-intro">
+              တစ်ဆင့်ပြီးမှ နောက်တစ်ဆင့်လုပ်ပါ။ လုပ်ပြီးတဲ့အဆင့်ကို အမှန်ခြစ်ပါ။
             </p>
-            {procedure.warnings.map((w, i) => (
-              <p className="notice" key={i}>
-                {w}
+            <p className="notice">
+              {isPreparation(r)
+                ? "အောက်ပါပမာဏတွေက အခြေခံရည် တစ်ဘူးစာပါ။"
+                : "အောက်ပါအဆင့်တွေက မူရင်း တစ်ခွက်စာပါ။"}{" "}
+              ခွက်အရေအတွက် တိုးရွေးထားရင် အပေါ်က ပါဝင်ပစ္စည်းစုစုပေါင်းကို
+              ခွက်အလိုက် ခွဲသုံးပါ။
+            </p>
+            {/egg|ကြက်ဥ/i.test(r.ingredients.map((i) => i.name).join(" ")) && (
+              <p className="notice">
+                ပိုးသတ်ထားသော (Pasteurized) ကြက်ဥကိုသာ သုံးပါ။ မရရှိလျှင်
+                မဖျော်ပါနှင့်။
               </p>
-            ))}
-            {procedure.steps.map((s, i) => (
+            )}
+            <details className="brewing-words">
+              <summary>စကားလုံးတွေ မသိသေးရင် ဒီမှာနှိပ်ဖတ်ပါ</summary>
+              <dl>
+                {brewingWords.map(([word, meaning]) => (
+                  <React.Fragment key={word}>
+                    <dt>{word}</dt>
+                    <dd>{meaning}</dd>
+                  </React.Fragment>
+                ))}
+              </dl>
+            </details>
+            {clearSteps.map((s, i) => (
               <label
                 className={"step " + (checks.includes(i) ? "done" : "")}
                 key={i}
@@ -1052,6 +1071,22 @@ function RecipeDetail({
             <button className="text-button" onClick={() => setChecks([])}>
               အဆင့်များ ပြန်စရန် ↻
             </button>
+            <details className="detailed-procedure">
+              <summary>အသေးစိတ် နည်းစနစ်နှင့် စမ်းသပ်မှတ်ချက်များ</summary>
+              <p>
+                {procedure.method} · စမ်းသပ်အတည်ပြုရန် လိုသောအချက်များကို စစ်ပါ။
+              </p>
+              {procedure.warnings.map((w, i) => (
+                <p className="notice" key={i}>
+                  {w}
+                </p>
+              ))}
+              <ol>
+                {procedure.steps.map((s, i) => (
+                  <li key={i}>{s}</li>
+                ))}
+              </ol>
+            </details>
             <details className="original-procedure">
               <summary>မူရင်း ဖျော်နည်းကို ဖတ်ရန်</summary>
               <ol>

@@ -1,4 +1,4 @@
-import { getProcedure } from "../src/procedure";
+import { getClearProcedure } from "../src/clearProcedure";
 import { test, expect } from "@playwright/test";
 import { readFileSync } from "node:fs";
 const seed = JSON.parse(readFileSync("public/recipes.json", "utf8"));
@@ -62,7 +62,7 @@ test("every migrated menu opens the correct detail page", async ({ page }) => {
       recipe.ingredients.length,
     );
     await expect(page.locator(".step")).toHaveCount(
-      getProcedure(recipe).steps.length,
+      getClearProcedure(recipe).length,
     );
   }
 });
