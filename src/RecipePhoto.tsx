@@ -1,6 +1,7 @@
 import { useState } from "react";
 import type { Recipe } from "./model";
 import { asset } from "./platform";
+import { posterImageForName } from "./posterPhotos";
 import catalog from "./photos/catalog.json";
 type Photo = (typeof catalog.photos)[keyof typeof catalog.photos];
 type Mapping = { photo: string; kind: string };
@@ -20,9 +21,9 @@ export default function RecipePhoto({
   recipe: Recipe;
   detail?: boolean;
 }) {
-  const reference = referencePhoto(recipe);
-  const source =
-    recipe.image || (reference && asset(reference.photo.large.file));
+  const poster = posterImageForName(recipe.englishName);
+  const reference = poster ? null : referencePhoto(recipe);
+  const source = poster || recipe.image || (reference && asset(reference.photo.large.file));
   const [failed, setFailed] = useState<string | null>(null);
   const label =
     reference?.kind === "ingredient" ? "ပါဝင်ပစ္စည်းပုံ" : "ကိုးကားဓာတ်ပုံ";
@@ -62,11 +63,13 @@ export default function RecipePhoto({
         height={p?.large.height}
         onError={() => setFailed(source)}
       />
+      {poster && <span className="reference-photo-label">9 FLOOR Menu Album ပုံ (ဒီဇိုင်းနမူနာ)</span>}
       {reference && <span className="reference-photo-label">{label}</span>}
     </>
   );
 }
 export function PhotoCredit({ recipe }: { recipe: Recipe }) {
+  if (posterImageForName(recipe.englishName)) return <aside className="photo-credit">9 FLOOR COFFEE Menu Album ထဲမှ ပုံကို မီနူးအမည်နှင့် ချိတ်ထားပါသည်။ Poster ဒီဇိုင်းနမူနာဖြစ်ပြီး ဖျော်ပြီးသော အစစ်ဓာတ်ပုံမဟုတ်ပါ။</aside>;
   const reference = referencePhoto(recipe);
   if (!reference) return null;
   const { photo, kind } = reference;
