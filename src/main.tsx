@@ -219,7 +219,7 @@ function App() {
                       (query.trim() ? true : r.line === line),
                   );
   const results = searchRecipes(currentRecipes, query).filter(
-    (r) => !category || r.categoryId === category,
+    (r) => !category || r.categoryId === category || (category === "poster-cream" && ["Chocolate Oreo Cream", "Taro Oreo Milk"].includes(r.englishName)),
   );
   return (
     <>
