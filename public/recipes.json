@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "revision": 0,
+  "revision": 1,
   "categories": [
     {
       "id": "category-01",
@@ -137,6 +137,34 @@
     {
       "id": "international-cold-styles",
       "name": "နိုင်ငံတကာ Tea / Soda / Mocktail အထူးစတိုင်များ"
+    },
+    {
+      "id": "poster-signature",
+      "name": "9 FLOOR Signature Coffee — အထူးကော်ဖီ"
+    },
+    {
+      "id": "poster-cream",
+      "name": "9 FLOOR Cream & Milk — ခရင်မ်နှင့်နို့"
+    },
+    {
+      "id": "poster-chocolate",
+      "name": "9 FLOOR Chocolate & Cocoa — ချောကလက်"
+    },
+    {
+      "id": "poster-matcha",
+      "name": "9 FLOOR Matcha & Taro — မတ်ချာနှင့်တာရို"
+    },
+    {
+      "id": "poster-fruit",
+      "name": "9 FLOOR Fruit Soda — သစ်သီးဆိုဒါ"
+    },
+    {
+      "id": "poster-milk",
+      "name": "9 FLOOR Specialty Milk — နို့အအေး"
+    },
+    {
+      "id": "poster-hot",
+      "name": "9 FLOOR Hot Drinks — အပူ"
     }
   ],
   "recipes": [
@@ -20988,6 +21016,3104 @@
         "ပျစ်ရည်ကို ပေးမည့်ခွက်ထဲ တိုက်ရိုက်ချိန်ထည့်ပါ။ ပါဝင်ပစ္စည်းအားလုံးကို ကြိုတင်ချိန်ပြင်ပြီး စုစုပေါင်းပမာဏ မကျော်စေရ။",
         "နို့ပစ္စည်း၊ ဖွင့်ပြီး sauce နှင့် သစ်သီးများကို အအေးထိန်းထား၍ ဖျော်ပြီးချက်ချင်း ပေးပါ။ ကျန်ပြီးသားဖျော်ရည်ကို နောက်အော်ဒါတွင် ပြန်မသုံးပါနှင့်။"
       ]
+    },
+    {
+      "id": "9f-poster-001",
+      "menuNumber": "9F-001",
+      "sourceTitle": "Caramel Macchiato",
+      "englishName": "Caramel Macchiato",
+      "burmeseName": null,
+      "categoryId": "poster-signature",
+      "line": "barista",
+      "image": null,
+      "cupSizes": [
+        16
+      ],
+      "ingredients": [
+        {
+          "name": "Espresso အတွက် ကော်ဖီမှုန့်",
+          "quantity": "16 g"
+        },
+        {
+          "name": "Espresso",
+          "quantity": "32 g"
+        },
+        {
+          "name": "Fresh Milk",
+          "quantity": "140 g"
+        },
+        {
+          "name": "Caramel Syrup",
+          "quantity": "15 g"
+        },
+        {
+          "name": "Ice",
+          "quantity": "170 g"
+        }
+      ],
+      "sourceIngredients": [
+        {
+          "name": "Espresso အတွက် ကော်ဖီမှုန့်",
+          "quantity": "16 g"
+        },
+        {
+          "name": "Espresso",
+          "quantity": "32 g"
+        },
+        {
+          "name": "Fresh Milk",
+          "quantity": "140 g"
+        },
+        {
+          "name": "Caramel Syrup",
+          "quantity": "15 g"
+        },
+        {
+          "name": "Ice",
+          "quantity": "170 g"
+        }
+      ],
+      "steps": [
+        "1. 16 g coffee in → Espresso 32 g out ထုတ်ယူပါ။",
+        "2. 16 oz ခွက်ထဲ ဖော်ပြထားသော Syrup နှင့် နို့ကို အရင်ရောပါ။",
+        "3. ရေခဲကို ချိန်ထည့်ပြီး Espresso 32 g ကို ဖြည်းဖြည်းလောင်းပါ။",
+        "4. Topping ကို နောက်ဆုံးတင်ပြီး အရသာစစ်ပါ။"
+      ],
+      "notes": [
+        "9 FLOOR COFFEE Menu Album • လက်တွေ့မစမ်းရသေးသော စမ်းသပ်ဖော်မြူလာ။",
+        "Poster မှဖြတ်ထုတ်ထားသော ပုံသည် ဒီဇိုင်းနမူနာဖြစ်ပြီး ဖျော်ပြီးသားအရည်၏ အတည်ပြုပုံမဟုတ်ပါ။",
+        "Whipping Cream / Powder / Concentrate အမျိုးအစားနှင့် အချိုပြင်းအားကို Label အရ အတည်ပြုပါ။ နို့နှင့် Cream ကို 4°C သို့မဟုတ် အောက်တွင်ထားပါ။",
+        "စမ်းသပ်ရောင်းဈေး 16 oz: ฿55–75 (ကုန်ကျစရိတ် မတွက်ရသေး)"
+      ],
+      "espressoDose": "16 g",
+      "espressoYield": "32 g",
+      "iceQuantity": "170 g",
+      "milkQuantity": "140 g",
+      "waterQuantity": null,
+      "sweetnessLevel": null,
+      "version": 1,
+      "updatedAt": null,
+      "verification": "source-unverified"
+    },
+    {
+      "id": "9f-poster-002",
+      "menuNumber": "9F-002",
+      "sourceTitle": "Classic Chocolate",
+      "englishName": "Classic Chocolate",
+      "burmeseName": null,
+      "categoryId": "poster-chocolate",
+      "line": "cold",
+      "image": null,
+      "cupSizes": [
+        16
+      ],
+      "ingredients": [
+        {
+          "name": "Diamond Chocolate Instant Drink Powder",
+          "quantity": "25 g"
+        },
+        {
+          "name": "ရေနွေးနွေး",
+          "quantity": "35 g"
+        },
+        {
+          "name": "Fresh Milk",
+          "quantity": "140 g"
+        },
+        {
+          "name": "Ice",
+          "quantity": "170 g"
+        }
+      ],
+      "sourceIngredients": [
+        {
+          "name": "Diamond Chocolate Instant Drink Powder",
+          "quantity": "25 g"
+        },
+        {
+          "name": "ရေနွေးနွေး",
+          "quantity": "35 g"
+        },
+        {
+          "name": "Fresh Milk",
+          "quantity": "140 g"
+        },
+        {
+          "name": "Ice",
+          "quantity": "170 g"
+        }
+      ],
+      "steps": [
+        "1. Chocolate / Cocoa Powder ကို ရေနွေးနွေး 35 g ဖြင့် အဖုမကျန်အောင် အရင်ဖျော်ပါ။",
+        "2. နို့ကို ထည့်ပြီး ရောမွှေပါ။",
+        "3. အအေးဆိုလျှင် 16 oz ခွက်ထဲ ရေခဲ 170 g ထည့်ပါ။ အပူဆိုလျှင် နို့ကို 55–65°C အထိ အပူပေးပါ။",
+        "4. အချိုပါဝင်မှု Powder Brand အလိုက် ကွာနိုင်သည်။ အချိုလိုမှ Syrup ထပ်ထည့်ပါ။"
+      ],
+      "notes": [
+        "9 FLOOR COFFEE Menu Album • လက်တွေ့မစမ်းရသေးသော စမ်းသပ်ဖော်မြူလာ။",
+        "Poster မှဖြတ်ထုတ်ထားသော ပုံသည် ဒီဇိုင်းနမူနာဖြစ်ပြီး ဖျော်ပြီးသားအရည်၏ အတည်ပြုပုံမဟုတ်ပါ။",
+        "Whipping Cream / Powder / Concentrate အမျိုးအစားနှင့် အချိုပြင်းအားကို Label အရ အတည်ပြုပါ။ နို့နှင့် Cream ကို 4°C သို့မဟုတ် အောက်တွင်ထားပါ။",
+        "စမ်းသပ်ရောင်းဈေး 16 oz: ฿55–75 (ကုန်ကျစရိတ် မတွက်ရသေး)"
+      ],
+      "espressoDose": null,
+      "espressoYield": null,
+      "iceQuantity": "170 g",
+      "milkQuantity": "140 g",
+      "waterQuantity": null,
+      "sweetnessLevel": null,
+      "version": 1,
+      "updatedAt": null,
+      "verification": "source-unverified"
+    },
+    {
+      "id": "9f-poster-003",
+      "menuNumber": "9F-003",
+      "sourceTitle": "Dark Cocoa",
+      "englishName": "Dark Cocoa",
+      "burmeseName": null,
+      "categoryId": "poster-chocolate",
+      "line": "cold",
+      "image": null,
+      "cupSizes": [
+        16
+      ],
+      "ingredients": [
+        {
+          "name": "Dutch Cocoa Powder",
+          "quantity": "12 g"
+        },
+        {
+          "name": "ရေနွေးနွေး",
+          "quantity": "35 g"
+        },
+        {
+          "name": "Fresh Milk",
+          "quantity": "140 g"
+        },
+        {
+          "name": "Ice",
+          "quantity": "170 g"
+        }
+      ],
+      "sourceIngredients": [
+        {
+          "name": "Dutch Cocoa Powder",
+          "quantity": "12 g"
+        },
+        {
+          "name": "ရေနွေးနွေး",
+          "quantity": "35 g"
+        },
+        {
+          "name": "Fresh Milk",
+          "quantity": "140 g"
+        },
+        {
+          "name": "Ice",
+          "quantity": "170 g"
+        }
+      ],
+      "steps": [
+        "1. Chocolate / Cocoa Powder ကို ရေနွေးနွေး 35 g ဖြင့် အဖုမကျန်အောင် အရင်ဖျော်ပါ။",
+        "2. နို့ကို ထည့်ပြီး ရောမွှေပါ။",
+        "3. အအေးဆိုလျှင် 16 oz ခွက်ထဲ ရေခဲ 170 g ထည့်ပါ။ အပူဆိုလျှင် နို့ကို 55–65°C အထိ အပူပေးပါ။",
+        "4. အချိုပါဝင်မှု Powder Brand အလိုက် ကွာနိုင်သည်။ အချိုလိုမှ Syrup ထပ်ထည့်ပါ။"
+      ],
+      "notes": [
+        "9 FLOOR COFFEE Menu Album • လက်တွေ့မစမ်းရသေးသော စမ်းသပ်ဖော်မြူလာ။",
+        "Poster မှဖြတ်ထုတ်ထားသော ပုံသည် ဒီဇိုင်းနမူနာဖြစ်ပြီး ဖျော်ပြီးသားအရည်၏ အတည်ပြုပုံမဟုတ်ပါ။",
+        "Whipping Cream / Powder / Concentrate အမျိုးအစားနှင့် အချိုပြင်းအားကို Label အရ အတည်ပြုပါ။ နို့နှင့် Cream ကို 4°C သို့မဟုတ် အောက်တွင်ထားပါ။",
+        "စမ်းသပ်ရောင်းဈေး 16 oz: ฿55–75 (ကုန်ကျစရိတ် မတွက်ရသေး)"
+      ],
+      "espressoDose": null,
+      "espressoYield": null,
+      "iceQuantity": "170 g",
+      "milkQuantity": "140 g",
+      "waterQuantity": null,
+      "sweetnessLevel": null,
+      "version": 1,
+      "updatedAt": null,
+      "verification": "source-unverified"
+    },
+    {
+      "id": "9f-poster-004",
+      "menuNumber": "9F-004",
+      "sourceTitle": "Chocolate Oreo",
+      "englishName": "Chocolate Oreo",
+      "burmeseName": null,
+      "categoryId": "poster-chocolate",
+      "line": "cold",
+      "image": null,
+      "cupSizes": [
+        16
+      ],
+      "ingredients": [
+        {
+          "name": "Diamond Chocolate Instant Drink Powder",
+          "quantity": "25 g"
+        },
+        {
+          "name": "ရေနွေးနွေး",
+          "quantity": "35 g"
+        },
+        {
+          "name": "Fresh Milk",
+          "quantity": "140 g"
+        },
+        {
+          "name": "Ice",
+          "quantity": "170 g"
+        },
+        {
+          "name": "Oreo Original",
+          "quantity": "2 ချပ်"
+        }
+      ],
+      "sourceIngredients": [
+        {
+          "name": "Diamond Chocolate Instant Drink Powder",
+          "quantity": "25 g"
+        },
+        {
+          "name": "ရေနွေးနွေး",
+          "quantity": "35 g"
+        },
+        {
+          "name": "Fresh Milk",
+          "quantity": "140 g"
+        },
+        {
+          "name": "Ice",
+          "quantity": "170 g"
+        },
+        {
+          "name": "Oreo Original",
+          "quantity": "2 ချပ်"
+        }
+      ],
+      "steps": [
+        "1. Chocolate / Cocoa Powder ကို ရေနွေးနွေး 35 g ဖြင့် အဖုမကျန်အောင် အရင်ဖျော်ပါ။",
+        "2. နို့ကို ထည့်ပြီး ရောမွှေပါ။",
+        "3. အအေးဆိုလျှင် 16 oz ခွက်ထဲ ရေခဲ 170 g ထည့်ပါ။ အပူဆိုလျှင် နို့ကို 55–65°C အထိ အပူပေးပါ။",
+        "4. အချိုပါဝင်မှု Powder Brand အလိုက် ကွာနိုင်သည်။ အချိုလိုမှ Syrup ထပ်ထည့်ပါ။",
+        "5. Oreo အတုံး 2 ချပ်ကို အပေါ်မှ တင်ပါ။"
+      ],
+      "notes": [
+        "9 FLOOR COFFEE Menu Album • လက်တွေ့မစမ်းရသေးသော စမ်းသပ်ဖော်မြူလာ။",
+        "Poster မှဖြတ်ထုတ်ထားသော ပုံသည် ဒီဇိုင်းနမူနာဖြစ်ပြီး ဖျော်ပြီးသားအရည်၏ အတည်ပြုပုံမဟုတ်ပါ။",
+        "Whipping Cream / Powder / Concentrate အမျိုးအစားနှင့် အချိုပြင်းအားကို Label အရ အတည်ပြုပါ။ နို့နှင့် Cream ကို 4°C သို့မဟုတ် အောက်တွင်ထားပါ။",
+        "စမ်းသပ်ရောင်းဈေး 16 oz: ฿55–75 (ကုန်ကျစရိတ် မတွက်ရသေး)"
+      ],
+      "espressoDose": null,
+      "espressoYield": null,
+      "iceQuantity": "170 g",
+      "milkQuantity": "140 g",
+      "waterQuantity": null,
+      "sweetnessLevel": null,
+      "version": 1,
+      "updatedAt": null,
+      "verification": "source-unverified"
+    },
+    {
+      "id": "9f-poster-005",
+      "menuNumber": "9F-005",
+      "sourceTitle": "Matcha Cream",
+      "englishName": "Matcha Cream",
+      "burmeseName": null,
+      "categoryId": "poster-matcha",
+      "line": "cold",
+      "image": null,
+      "cupSizes": [
+        16
+      ],
+      "ingredients": [
+        {
+          "name": "Matcha Powder",
+          "quantity": "3 g"
+        },
+        {
+          "name": "ရေနွေး 70–80°C",
+          "quantity": "35 g"
+        },
+        {
+          "name": "Fresh Milk",
+          "quantity": "140 g"
+        },
+        {
+          "name": "Ice",
+          "quantity": "170 g"
+        },
+        {
+          "name": "Whipping Cream (အမျိုးအစား/အချိုပါမှု စစ်ရန်)",
+          "quantity": "35 g"
+        }
+      ],
+      "sourceIngredients": [
+        {
+          "name": "Matcha Powder",
+          "quantity": "3 g"
+        },
+        {
+          "name": "ရေနွေး 70–80°C",
+          "quantity": "35 g"
+        },
+        {
+          "name": "Fresh Milk",
+          "quantity": "140 g"
+        },
+        {
+          "name": "Ice",
+          "quantity": "170 g"
+        },
+        {
+          "name": "Whipping Cream (အမျိုးအစား/အချိုပါမှု စစ်ရန်)",
+          "quantity": "35 g"
+        }
+      ],
+      "steps": [
+        "1. Matcha 3 g ကို ရေနွေး 70–80°C 35 g ဖြင့် အဖုမကျန်အောင် Frother/Whisk ဖြင့် မွှေပါ။",
+        "2. 16 oz ခွက်ထဲ နို့ 140 g နှင့် ရေခဲ 170 g ထည့်ပါ။",
+        "3. Fruit/Taro ပါလျှင် သီးသန့်အနည်းငယ်ဖျော်ပြီး အလွှာလိုက်ထည့်ပါ။ အသီးအက်ဆစ်ကြောင့် နို့ခဲနိုင်သည်ကို စမ်းစစ်ပါ။",
+        "4. Matcha ကို အပေါ်မှ ဖြည်းဖြည်းလောင်းပါ။",
+        "5. Oreo/Cream ပါလျှင် အပေါ်မှတင်ပါ။"
+      ],
+      "notes": [
+        "9 FLOOR COFFEE Menu Album • လက်တွေ့မစမ်းရသေးသော စမ်းသပ်ဖော်မြူလာ။",
+        "Poster မှဖြတ်ထုတ်ထားသော ပုံသည် ဒီဇိုင်းနမူနာဖြစ်ပြီး ဖျော်ပြီးသားအရည်၏ အတည်ပြုပုံမဟုတ်ပါ။",
+        "Whipping Cream / Powder / Concentrate အမျိုးအစားနှင့် အချိုပြင်းအားကို Label အရ အတည်ပြုပါ။ နို့နှင့် Cream ကို 4°C သို့မဟုတ် အောက်တွင်ထားပါ။",
+        "စမ်းသပ်ရောင်းဈေး 16 oz: ฿55–75 (ကုန်ကျစရိတ် မတွက်ရသေး)"
+      ],
+      "espressoDose": null,
+      "espressoYield": null,
+      "iceQuantity": "170 g",
+      "milkQuantity": "140 g",
+      "waterQuantity": null,
+      "sweetnessLevel": null,
+      "version": 1,
+      "updatedAt": null,
+      "verification": "source-unverified"
+    },
+    {
+      "id": "9f-poster-006",
+      "menuNumber": "9F-006",
+      "sourceTitle": "Matcha Oreo",
+      "englishName": "Matcha Oreo",
+      "burmeseName": null,
+      "categoryId": "poster-matcha",
+      "line": "cold",
+      "image": null,
+      "cupSizes": [
+        16
+      ],
+      "ingredients": [
+        {
+          "name": "Matcha Powder",
+          "quantity": "3 g"
+        },
+        {
+          "name": "ရေနွေး 70–80°C",
+          "quantity": "35 g"
+        },
+        {
+          "name": "Fresh Milk",
+          "quantity": "140 g"
+        },
+        {
+          "name": "Ice",
+          "quantity": "170 g"
+        },
+        {
+          "name": "Oreo Original",
+          "quantity": "2 ချပ်"
+        }
+      ],
+      "sourceIngredients": [
+        {
+          "name": "Matcha Powder",
+          "quantity": "3 g"
+        },
+        {
+          "name": "ရေနွေး 70–80°C",
+          "quantity": "35 g"
+        },
+        {
+          "name": "Fresh Milk",
+          "quantity": "140 g"
+        },
+        {
+          "name": "Ice",
+          "quantity": "170 g"
+        },
+        {
+          "name": "Oreo Original",
+          "quantity": "2 ချပ်"
+        }
+      ],
+      "steps": [
+        "1. Matcha 3 g ကို ရေနွေး 70–80°C 35 g ဖြင့် အဖုမကျန်အောင် Frother/Whisk ဖြင့် မွှေပါ။",
+        "2. 16 oz ခွက်ထဲ နို့ 140 g နှင့် ရေခဲ 170 g ထည့်ပါ။",
+        "3. Fruit/Taro ပါလျှင် သီးသန့်အနည်းငယ်ဖျော်ပြီး အလွှာလိုက်ထည့်ပါ။ အသီးအက်ဆစ်ကြောင့် နို့ခဲနိုင်သည်ကို စမ်းစစ်ပါ။",
+        "4. Matcha ကို အပေါ်မှ ဖြည်းဖြည်းလောင်းပါ။",
+        "5. Oreo/Cream ပါလျှင် အပေါ်မှတင်ပါ။"
+      ],
+      "notes": [
+        "9 FLOOR COFFEE Menu Album • လက်တွေ့မစမ်းရသေးသော စမ်းသပ်ဖော်မြူလာ။",
+        "Poster မှဖြတ်ထုတ်ထားသော ပုံသည် ဒီဇိုင်းနမူနာဖြစ်ပြီး ဖျော်ပြီးသားအရည်၏ အတည်ပြုပုံမဟုတ်ပါ။",
+        "Whipping Cream / Powder / Concentrate အမျိုးအစားနှင့် အချိုပြင်းအားကို Label အရ အတည်ပြုပါ။ နို့နှင့် Cream ကို 4°C သို့မဟုတ် အောက်တွင်ထားပါ။",
+        "စမ်းသပ်ရောင်းဈေး 16 oz: ฿55–75 (ကုန်ကျစရိတ် မတွက်ရသေး)"
+      ],
+      "espressoDose": null,
+      "espressoYield": null,
+      "iceQuantity": "170 g",
+      "milkQuantity": "140 g",
+      "waterQuantity": null,
+      "sweetnessLevel": null,
+      "version": 1,
+      "updatedAt": null,
+      "verification": "source-unverified"
+    },
+    {
+      "id": "9f-poster-007",
+      "menuNumber": "9F-007",
+      "sourceTitle": "Taro Latte",
+      "englishName": "Taro Latte",
+      "burmeseName": null,
+      "categoryId": "poster-matcha",
+      "line": "cold",
+      "image": null,
+      "cupSizes": [
+        16
+      ],
+      "ingredients": [
+        {
+          "name": "Taro Powder",
+          "quantity": "25 g"
+        },
+        {
+          "name": "ရေနွေးနွေး",
+          "quantity": "35 g"
+        },
+        {
+          "name": "Fresh Milk",
+          "quantity": "135 g"
+        },
+        {
+          "name": "Ice",
+          "quantity": "170 g"
+        }
+      ],
+      "sourceIngredients": [
+        {
+          "name": "Taro Powder",
+          "quantity": "25 g"
+        },
+        {
+          "name": "ရေနွေးနွေး",
+          "quantity": "35 g"
+        },
+        {
+          "name": "Fresh Milk",
+          "quantity": "135 g"
+        },
+        {
+          "name": "Ice",
+          "quantity": "170 g"
+        }
+      ],
+      "steps": [
+        "1. Taro Powder 25 g ကို ရေနွေးနွေး 35 g ဖြင့် အဖုမကျန်အောင် ဖျော်ပါ။",
+        "2. နို့ကို ထည့်၍ မွှေပါ။",
+        "3. အအေးဆိုလျှင် ရေခဲ 170 g ထည့်ပါ။ အပူဆိုလျှင် နို့ကို 55–65°C အထိ အပူပေးပါ။",
+        "4. Cream/Oreo ပါလျှင် အအေးဖျော်ရည်အပေါ်မှ တင်ပါ။ Powder ၏ အချိုပါဝင်မှုကို စစ်ပါ။"
+      ],
+      "notes": [
+        "9 FLOOR COFFEE Menu Album • လက်တွေ့မစမ်းရသေးသော စမ်းသပ်ဖော်မြူလာ။",
+        "Poster မှဖြတ်ထုတ်ထားသော ပုံသည် ဒီဇိုင်းနမူနာဖြစ်ပြီး ဖျော်ပြီးသားအရည်၏ အတည်ပြုပုံမဟုတ်ပါ။",
+        "Whipping Cream / Powder / Concentrate အမျိုးအစားနှင့် အချိုပြင်းအားကို Label အရ အတည်ပြုပါ။ နို့နှင့် Cream ကို 4°C သို့မဟုတ် အောက်တွင်ထားပါ။",
+        "စမ်းသပ်ရောင်းဈေး 16 oz: ฿55–75 (ကုန်ကျစရိတ် မတွက်ရသေး)"
+      ],
+      "espressoDose": null,
+      "espressoYield": null,
+      "iceQuantity": "170 g",
+      "milkQuantity": "135 g",
+      "waterQuantity": null,
+      "sweetnessLevel": null,
+      "version": 1,
+      "updatedAt": null,
+      "verification": "source-unverified"
+    },
+    {
+      "id": "9f-poster-008",
+      "menuNumber": "9F-008",
+      "sourceTitle": "Taro Cream",
+      "englishName": "Taro Cream",
+      "burmeseName": null,
+      "categoryId": "poster-matcha",
+      "line": "cold",
+      "image": null,
+      "cupSizes": [
+        16
+      ],
+      "ingredients": [
+        {
+          "name": "Taro Powder",
+          "quantity": "25 g"
+        },
+        {
+          "name": "ရေနွေးနွေး",
+          "quantity": "35 g"
+        },
+        {
+          "name": "Fresh Milk",
+          "quantity": "135 g"
+        },
+        {
+          "name": "Ice",
+          "quantity": "170 g"
+        },
+        {
+          "name": "Whipping Cream (အမျိုးအစား/အချိုပါမှု စစ်ရန်)",
+          "quantity": "35 g"
+        }
+      ],
+      "sourceIngredients": [
+        {
+          "name": "Taro Powder",
+          "quantity": "25 g"
+        },
+        {
+          "name": "ရေနွေးနွေး",
+          "quantity": "35 g"
+        },
+        {
+          "name": "Fresh Milk",
+          "quantity": "135 g"
+        },
+        {
+          "name": "Ice",
+          "quantity": "170 g"
+        },
+        {
+          "name": "Whipping Cream (အမျိုးအစား/အချိုပါမှု စစ်ရန်)",
+          "quantity": "35 g"
+        }
+      ],
+      "steps": [
+        "1. Taro Powder 25 g ကို ရေနွေးနွေး 35 g ဖြင့် အဖုမကျန်အောင် ဖျော်ပါ။",
+        "2. နို့ကို ထည့်၍ မွှေပါ။",
+        "3. အအေးဆိုလျှင် ရေခဲ 170 g ထည့်ပါ။ အပူဆိုလျှင် နို့ကို 55–65°C အထိ အပူပေးပါ။",
+        "4. Cream/Oreo ပါလျှင် အအေးဖျော်ရည်အပေါ်မှ တင်ပါ။ Powder ၏ အချိုပါဝင်မှုကို စစ်ပါ။"
+      ],
+      "notes": [
+        "9 FLOOR COFFEE Menu Album • လက်တွေ့မစမ်းရသေးသော စမ်းသပ်ဖော်မြူလာ။",
+        "Poster မှဖြတ်ထုတ်ထားသော ပုံသည် ဒီဇိုင်းနမူနာဖြစ်ပြီး ဖျော်ပြီးသားအရည်၏ အတည်ပြုပုံမဟုတ်ပါ။",
+        "Whipping Cream / Powder / Concentrate အမျိုးအစားနှင့် အချိုပြင်းအားကို Label အရ အတည်ပြုပါ။ နို့နှင့် Cream ကို 4°C သို့မဟုတ် အောက်တွင်ထားပါ။",
+        "စမ်းသပ်ရောင်းဈေး 16 oz: ฿55–75 (ကုန်ကျစရိတ် မတွက်ရသေး)"
+      ],
+      "espressoDose": null,
+      "espressoYield": null,
+      "iceQuantity": "170 g",
+      "milkQuantity": "135 g",
+      "waterQuantity": null,
+      "sweetnessLevel": null,
+      "version": 1,
+      "updatedAt": null,
+      "verification": "source-unverified"
+    },
+    {
+      "id": "9f-poster-009",
+      "menuNumber": "9F-009",
+      "sourceTitle": "Taro Oreo",
+      "englishName": "Taro Oreo",
+      "burmeseName": null,
+      "categoryId": "poster-matcha",
+      "line": "cold",
+      "image": null,
+      "cupSizes": [
+        16
+      ],
+      "ingredients": [
+        {
+          "name": "Taro Powder",
+          "quantity": "25 g"
+        },
+        {
+          "name": "ရေနွေးနွေး",
+          "quantity": "35 g"
+        },
+        {
+          "name": "Fresh Milk",
+          "quantity": "135 g"
+        },
+        {
+          "name": "Ice",
+          "quantity": "170 g"
+        },
+        {
+          "name": "Oreo Original",
+          "quantity": "2 ချပ်"
+        }
+      ],
+      "sourceIngredients": [
+        {
+          "name": "Taro Powder",
+          "quantity": "25 g"
+        },
+        {
+          "name": "ရေနွေးနွေး",
+          "quantity": "35 g"
+        },
+        {
+          "name": "Fresh Milk",
+          "quantity": "135 g"
+        },
+        {
+          "name": "Ice",
+          "quantity": "170 g"
+        },
+        {
+          "name": "Oreo Original",
+          "quantity": "2 ချပ်"
+        }
+      ],
+      "steps": [
+        "1. Taro Powder 25 g ကို ရေနွေးနွေး 35 g ဖြင့် အဖုမကျန်အောင် ဖျော်ပါ။",
+        "2. နို့ကို ထည့်၍ မွှေပါ။",
+        "3. အအေးဆိုလျှင် ရေခဲ 170 g ထည့်ပါ။ အပူဆိုလျှင် နို့ကို 55–65°C အထိ အပူပေးပါ။",
+        "4. Cream/Oreo ပါလျှင် အအေးဖျော်ရည်အပေါ်မှ တင်ပါ။ Powder ၏ အချိုပါဝင်မှုကို စစ်ပါ။"
+      ],
+      "notes": [
+        "9 FLOOR COFFEE Menu Album • လက်တွေ့မစမ်းရသေးသော စမ်းသပ်ဖော်မြူလာ။",
+        "Poster မှဖြတ်ထုတ်ထားသော ပုံသည် ဒီဇိုင်းနမူနာဖြစ်ပြီး ဖျော်ပြီးသားအရည်၏ အတည်ပြုပုံမဟုတ်ပါ။",
+        "Whipping Cream / Powder / Concentrate အမျိုးအစားနှင့် အချိုပြင်းအားကို Label အရ အတည်ပြုပါ။ နို့နှင့် Cream ကို 4°C သို့မဟုတ် အောက်တွင်ထားပါ။",
+        "စမ်းသပ်ရောင်းဈေး 16 oz: ฿55–75 (ကုန်ကျစရိတ် မတွက်ရသေး)"
+      ],
+      "espressoDose": null,
+      "espressoYield": null,
+      "iceQuantity": "170 g",
+      "milkQuantity": "135 g",
+      "waterQuantity": null,
+      "sweetnessLevel": null,
+      "version": 1,
+      "updatedAt": null,
+      "verification": "source-unverified"
+    },
+    {
+      "id": "9f-poster-010",
+      "menuNumber": "9F-010",
+      "sourceTitle": "Mixed Berry Soda",
+      "englishName": "Mixed Berry Soda",
+      "burmeseName": null,
+      "categoryId": "poster-fruit",
+      "line": "cold",
+      "image": null,
+      "cupSizes": [
+        16
+      ],
+      "ingredients": [
+        {
+          "name": "Mixed Berry Purée",
+          "quantity": "25 g"
+        },
+        {
+          "name": "Soda Water",
+          "quantity": "140 g"
+        },
+        {
+          "name": "Ice",
+          "quantity": "180 g"
+        }
+      ],
+      "sourceIngredients": [
+        {
+          "name": "Mixed Berry Purée",
+          "quantity": "25 g"
+        },
+        {
+          "name": "Soda Water",
+          "quantity": "140 g"
+        },
+        {
+          "name": "Ice",
+          "quantity": "180 g"
+        }
+      ],
+      "steps": [
+        "1. 16 oz ခွက်ထဲ Fruit Concentrate / Purée ကို သတ်မှတ်ပမာဏအတိုင်း ချိန်ထည့်ပါ။",
+        "2. ရေခဲ 180 g ထည့်ပြီး Soda Water 140 g ကို ဖြည်းဖြည်းလောင်းပါ။",
+        "3. Soda အမြှုပ်မပျောက်အောင် ဇွန်းဖြင့် တစ်ချက်နှစ်ချက်သာ မွှေပါ။",
+        "4. Concentrate အချိုပြင်းအားအလိုက် 5 g စီ ချိန်ညှိပြီး ဆိုင်ရောင်းမီ စမ်းသပ်ပါ။"
+      ],
+      "notes": [
+        "9 FLOOR COFFEE Menu Album • လက်တွေ့မစမ်းရသေးသော စမ်းသပ်ဖော်မြူလာ။",
+        "Poster မှဖြတ်ထုတ်ထားသော ပုံသည် ဒီဇိုင်းနမူနာဖြစ်ပြီး ဖျော်ပြီးသားအရည်၏ အတည်ပြုပုံမဟုတ်ပါ။",
+        "Whipping Cream / Powder / Concentrate အမျိုးအစားနှင့် အချိုပြင်းအားကို Label အရ အတည်ပြုပါ။ နို့နှင့် Cream ကို 4°C သို့မဟုတ် အောက်တွင်ထားပါ။",
+        "စမ်းသပ်ရောင်းဈေး 16 oz: ฿55–75 (ကုန်ကျစရိတ် မတွက်ရသေး)"
+      ],
+      "espressoDose": null,
+      "espressoYield": null,
+      "iceQuantity": "180 g",
+      "milkQuantity": null,
+      "waterQuantity": null,
+      "sweetnessLevel": null,
+      "version": 1,
+      "updatedAt": null,
+      "verification": "source-unverified"
+    },
+    {
+      "id": "9f-poster-011",
+      "menuNumber": "9F-011",
+      "sourceTitle": "Vanilla Milk",
+      "englishName": "Vanilla Milk",
+      "burmeseName": null,
+      "categoryId": "poster-milk",
+      "line": "cold",
+      "image": null,
+      "cupSizes": [
+        16
+      ],
+      "ingredients": [
+        {
+          "name": "Vanilla Syrup",
+          "quantity": "15 g"
+        },
+        {
+          "name": "Fresh Milk",
+          "quantity": "160 g"
+        },
+        {
+          "name": "Ice",
+          "quantity": "170 g"
+        }
+      ],
+      "sourceIngredients": [
+        {
+          "name": "Vanilla Syrup",
+          "quantity": "15 g"
+        },
+        {
+          "name": "Fresh Milk",
+          "quantity": "160 g"
+        },
+        {
+          "name": "Ice",
+          "quantity": "170 g"
+        }
+      ],
+      "steps": [
+        "1. Syrup 15 g ကို ခွက်ထဲထည့်ပါ။",
+        "2. နို့ကို ထည့်ပြီး ရောမွှေပါ။",
+        "3. အအေးဆို ရေခဲ 170 g ထည့်ပါ။ အပူဆို နို့ကို 55–65°C အထိ အပူပေးပါ။",
+        "4. အချိုအရသာကို မြည်းစမ်းချိန်ညှိပါ။"
+      ],
+      "notes": [
+        "9 FLOOR COFFEE Menu Album • လက်တွေ့မစမ်းရသေးသော စမ်းသပ်ဖော်မြူလာ။",
+        "Poster မှဖြတ်ထုတ်ထားသော ပုံသည် ဒီဇိုင်းနမူနာဖြစ်ပြီး ဖျော်ပြီးသားအရည်၏ အတည်ပြုပုံမဟုတ်ပါ။",
+        "Whipping Cream / Powder / Concentrate အမျိုးအစားနှင့် အချိုပြင်းအားကို Label အရ အတည်ပြုပါ။ နို့နှင့် Cream ကို 4°C သို့မဟုတ် အောက်တွင်ထားပါ။",
+        "စမ်းသပ်ရောင်းဈေး 16 oz: ฿55–75 (ကုန်ကျစရိတ် မတွက်ရသေး)"
+      ],
+      "espressoDose": null,
+      "espressoYield": null,
+      "iceQuantity": "170 g",
+      "milkQuantity": "160 g",
+      "waterQuantity": null,
+      "sweetnessLevel": null,
+      "version": 1,
+      "updatedAt": null,
+      "verification": "source-unverified"
+    },
+    {
+      "id": "9f-poster-012",
+      "menuNumber": "9F-012",
+      "sourceTitle": "Caramel Milk",
+      "englishName": "Caramel Milk",
+      "burmeseName": null,
+      "categoryId": "poster-milk",
+      "line": "cold",
+      "image": null,
+      "cupSizes": [
+        16
+      ],
+      "ingredients": [
+        {
+          "name": "Caramel Syrup",
+          "quantity": "15 g"
+        },
+        {
+          "name": "Fresh Milk",
+          "quantity": "160 g"
+        },
+        {
+          "name": "Ice",
+          "quantity": "170 g"
+        }
+      ],
+      "sourceIngredients": [
+        {
+          "name": "Caramel Syrup",
+          "quantity": "15 g"
+        },
+        {
+          "name": "Fresh Milk",
+          "quantity": "160 g"
+        },
+        {
+          "name": "Ice",
+          "quantity": "170 g"
+        }
+      ],
+      "steps": [
+        "1. Syrup 15 g ကို ခွက်ထဲထည့်ပါ။",
+        "2. နို့ကို ထည့်ပြီး ရောမွှေပါ။",
+        "3. အအေးဆို ရေခဲ 170 g ထည့်ပါ။ အပူဆို နို့ကို 55–65°C အထိ အပူပေးပါ။",
+        "4. အချိုအရသာကို မြည်းစမ်းချိန်ညှိပါ။"
+      ],
+      "notes": [
+        "9 FLOOR COFFEE Menu Album • လက်တွေ့မစမ်းရသေးသော စမ်းသပ်ဖော်မြူလာ။",
+        "Poster မှဖြတ်ထုတ်ထားသော ပုံသည် ဒီဇိုင်းနမူနာဖြစ်ပြီး ဖျော်ပြီးသားအရည်၏ အတည်ပြုပုံမဟုတ်ပါ။",
+        "Whipping Cream / Powder / Concentrate အမျိုးအစားနှင့် အချိုပြင်းအားကို Label အရ အတည်ပြုပါ။ နို့နှင့် Cream ကို 4°C သို့မဟုတ် အောက်တွင်ထားပါ။",
+        "စမ်းသပ်ရောင်းဈေး 16 oz: ฿55–75 (ကုန်ကျစရိတ် မတွက်ရသေး)"
+      ],
+      "espressoDose": null,
+      "espressoYield": null,
+      "iceQuantity": "170 g",
+      "milkQuantity": "160 g",
+      "waterQuantity": null,
+      "sweetnessLevel": null,
+      "version": 1,
+      "updatedAt": null,
+      "verification": "source-unverified"
+    },
+    {
+      "id": "9f-poster-013",
+      "menuNumber": "9F-013",
+      "sourceTitle": "Honey Milk",
+      "englishName": "Honey Milk",
+      "burmeseName": null,
+      "categoryId": "poster-milk",
+      "line": "cold",
+      "image": null,
+      "cupSizes": [
+        16
+      ],
+      "ingredients": [
+        {
+          "name": "Honey",
+          "quantity": "20 g"
+        },
+        {
+          "name": "ရေနွေးနွေး",
+          "quantity": "20 g"
+        },
+        {
+          "name": "Fresh Milk",
+          "quantity": "160 g"
+        },
+        {
+          "name": "Ice",
+          "quantity": "170 g"
+        }
+      ],
+      "sourceIngredients": [
+        {
+          "name": "Honey",
+          "quantity": "20 g"
+        },
+        {
+          "name": "ရေနွေးနွေး",
+          "quantity": "20 g"
+        },
+        {
+          "name": "Fresh Milk",
+          "quantity": "160 g"
+        },
+        {
+          "name": "Ice",
+          "quantity": "170 g"
+        }
+      ],
+      "steps": [
+        "1. Honey 20 g ကို ရေနွေးနွေး 20 g ဖြင့် ပျော်အောင်အရင်ဖျော်ပါ။",
+        "2. နို့ကို ထည့်ပြီး ရောမွှေပါ။",
+        "3. အအေးဆို ရေခဲ 170 g ထည့်ပါ။ အပူဆို နို့ကို 55–65°C အထိ အပူပေးပါ။",
+        "4. အချိုအရသာကို မြည်းစမ်းချိန်ညှိပါ။"
+      ],
+      "notes": [
+        "9 FLOOR COFFEE Menu Album • လက်တွေ့မစမ်းရသေးသော စမ်းသပ်ဖော်မြူလာ။",
+        "Poster မှဖြတ်ထုတ်ထားသော ပုံသည် ဒီဇိုင်းနမူနာဖြစ်ပြီး ဖျော်ပြီးသားအရည်၏ အတည်ပြုပုံမဟုတ်ပါ။",
+        "Whipping Cream / Powder / Concentrate အမျိုးအစားနှင့် အချိုပြင်းအားကို Label အရ အတည်ပြုပါ။ နို့နှင့် Cream ကို 4°C သို့မဟုတ် အောက်တွင်ထားပါ။",
+        "စမ်းသပ်ရောင်းဈေး 16 oz: ฿55–75 (ကုန်ကျစရိတ် မတွက်ရသေး)"
+      ],
+      "espressoDose": null,
+      "espressoYield": null,
+      "iceQuantity": "170 g",
+      "milkQuantity": "160 g",
+      "waterQuantity": null,
+      "sweetnessLevel": null,
+      "version": 1,
+      "updatedAt": null,
+      "verification": "source-unverified"
+    },
+    {
+      "id": "9f-poster-014",
+      "menuNumber": "9F-014",
+      "sourceTitle": "Ice Milk",
+      "englishName": "Ice Milk",
+      "burmeseName": null,
+      "categoryId": "poster-milk",
+      "line": "cold",
+      "image": null,
+      "cupSizes": [
+        16
+      ],
+      "ingredients": [
+        {
+          "name": "Diamond Ice Milk Instant Powder",
+          "quantity": "25 g"
+        },
+        {
+          "name": "ရေနွေးနွေး",
+          "quantity": "35 g"
+        },
+        {
+          "name": "Fresh Milk",
+          "quantity": "140 g"
+        },
+        {
+          "name": "Ice",
+          "quantity": "170 g"
+        }
+      ],
+      "sourceIngredients": [
+        {
+          "name": "Diamond Ice Milk Instant Powder",
+          "quantity": "25 g"
+        },
+        {
+          "name": "ရေနွေးနွေး",
+          "quantity": "35 g"
+        },
+        {
+          "name": "Fresh Milk",
+          "quantity": "140 g"
+        },
+        {
+          "name": "Ice",
+          "quantity": "170 g"
+        }
+      ],
+      "steps": [
+        "1. Ice Milk Instant Powder 25 g ကို ရေနွေးနွေး 35 g ဖြင့် ပျော်အောင်ဖျော်ပါ။",
+        "2. နို့ 140 g ထည့်ပြီး ရောမွှေပါ။",
+        "3. 16 oz ခွက်ထဲ ရေခဲ 170 g ထည့်၍ လောင်းပါ။",
+        "4. Powder ကို နို့မှုန့်သန့်ဟု မယူဆဘဲ Label အတိုင်း အချိုနှင့်ပမာဏကို ချိန်ပါ။"
+      ],
+      "notes": [
+        "9 FLOOR COFFEE Menu Album • လက်တွေ့မစမ်းရသေးသော စမ်းသပ်ဖော်မြူလာ။",
+        "Poster မှဖြတ်ထုတ်ထားသော ပုံသည် ဒီဇိုင်းနမူနာဖြစ်ပြီး ဖျော်ပြီးသားအရည်၏ အတည်ပြုပုံမဟုတ်ပါ။",
+        "Whipping Cream / Powder / Concentrate အမျိုးအစားနှင့် အချိုပြင်းအားကို Label အရ အတည်ပြုပါ။ နို့နှင့် Cream ကို 4°C သို့မဟုတ် အောက်တွင်ထားပါ။",
+        "စမ်းသပ်ရောင်းဈေး 16 oz: ฿55–75 (ကုန်ကျစရိတ် မတွက်ရသေး)"
+      ],
+      "espressoDose": null,
+      "espressoYield": null,
+      "iceQuantity": "170 g",
+      "milkQuantity": "140 g",
+      "waterQuantity": null,
+      "sweetnessLevel": null,
+      "version": 1,
+      "updatedAt": null,
+      "verification": "source-unverified"
+    },
+    {
+      "id": "9f-poster-015",
+      "menuNumber": "9F-015",
+      "sourceTitle": "Iced Sea Salt Latte",
+      "englishName": "Iced Sea Salt Latte",
+      "burmeseName": null,
+      "categoryId": "poster-signature",
+      "line": "barista",
+      "image": null,
+      "cupSizes": [
+        16
+      ],
+      "ingredients": [
+        {
+          "name": "Espresso အတွက် ကော်ဖီမှုန့်",
+          "quantity": "16 g"
+        },
+        {
+          "name": "Espresso",
+          "quantity": "32 g"
+        },
+        {
+          "name": "Fresh Milk",
+          "quantity": "130 g"
+        },
+        {
+          "name": "Vanilla Syrup",
+          "quantity": "15 g"
+        },
+        {
+          "name": "Ice",
+          "quantity": "170 g"
+        },
+        {
+          "name": "Whipping Cream (Foam)",
+          "quantity": "40 g"
+        },
+        {
+          "name": "Fresh Milk (Foam)",
+          "quantity": "15 g"
+        },
+        {
+          "name": "Vanilla Syrup (Foam)",
+          "quantity": "5 g"
+        },
+        {
+          "name": "အိမ်သုံးဆား",
+          "quantity": "0.2 g"
+        }
+      ],
+      "sourceIngredients": [
+        {
+          "name": "Espresso အတွက် ကော်ဖီမှုန့်",
+          "quantity": "16 g"
+        },
+        {
+          "name": "Espresso",
+          "quantity": "32 g"
+        },
+        {
+          "name": "Fresh Milk",
+          "quantity": "130 g"
+        },
+        {
+          "name": "Vanilla Syrup",
+          "quantity": "15 g"
+        },
+        {
+          "name": "Ice",
+          "quantity": "170 g"
+        },
+        {
+          "name": "Whipping Cream (Foam)",
+          "quantity": "40 g"
+        },
+        {
+          "name": "Fresh Milk (Foam)",
+          "quantity": "15 g"
+        },
+        {
+          "name": "Vanilla Syrup (Foam)",
+          "quantity": "5 g"
+        },
+        {
+          "name": "အိမ်သုံးဆား",
+          "quantity": "0.2 g"
+        }
+      ],
+      "steps": [
+        "1. အေးထားသော Whipping Cream 40 g၊ နို့ 15 g၊ Vanilla Syrup 5 g၊ ဆား 0.2 g ကို Handheld Frother ဖြင့် Cold Foam ဖြစ်အောင် မွှေပါ။",
+        "2. 16 oz ခွက်ထဲ Vanilla Syrup 15 g၊ နို့ 130 g ကို ရောပြီး ရေခဲ 170 g ထည့်ပါ။",
+        "3. Espresso 16 g in → 32 g out ထုတ်ယူ၍ ဖြည်းဖြည်းလောင်းပါ။",
+        "4. အပေါ်ဆုံးတွင် Sea Salt Foam တင်ပါ။ ဆားအလွန်မများစေရ။"
+      ],
+      "notes": [
+        "9 FLOOR COFFEE Menu Album • လက်တွေ့မစမ်းရသေးသော စမ်းသပ်ဖော်မြူလာ။",
+        "Poster မှဖြတ်ထုတ်ထားသော ပုံသည် ဒီဇိုင်းနမူနာဖြစ်ပြီး ဖျော်ပြီးသားအရည်၏ အတည်ပြုပုံမဟုတ်ပါ။",
+        "Whipping Cream / Powder / Concentrate အမျိုးအစားနှင့် အချိုပြင်းအားကို Label အရ အတည်ပြုပါ။ နို့နှင့် Cream ကို 4°C သို့မဟုတ် အောက်တွင်ထားပါ။",
+        "စမ်းသပ်ရောင်းဈေး 16 oz: ฿55–75 (ကုန်ကျစရိတ် မတွက်ရသေး)"
+      ],
+      "espressoDose": "16 g",
+      "espressoYield": "32 g",
+      "iceQuantity": "170 g",
+      "milkQuantity": "130 g",
+      "waterQuantity": null,
+      "sweetnessLevel": null,
+      "version": 1,
+      "updatedAt": null,
+      "verification": "source-unverified"
+    },
+    {
+      "id": "9f-poster-016",
+      "menuNumber": "9F-016",
+      "sourceTitle": "Dalgona Honey Latte",
+      "englishName": "Dalgona Honey Latte",
+      "burmeseName": null,
+      "categoryId": "poster-signature",
+      "line": "barista",
+      "image": null,
+      "cupSizes": [
+        16
+      ],
+      "ingredients": [
+        {
+          "name": "Instant Coffee",
+          "quantity": "8 g"
+        },
+        {
+          "name": "Sugar Syrup (1:1 အချိုးအတည်ပြုပြီးမှ)",
+          "quantity": "32 g"
+        },
+        {
+          "name": "Honey",
+          "quantity": "15 g"
+        },
+        {
+          "name": "ရေနွေးနွေး",
+          "quantity": "15 g"
+        },
+        {
+          "name": "Fresh Milk",
+          "quantity": "150 g"
+        },
+        {
+          "name": "Ice",
+          "quantity": "170 g"
+        }
+      ],
+      "sourceIngredients": [
+        {
+          "name": "Instant Coffee",
+          "quantity": "8 g"
+        },
+        {
+          "name": "Sugar Syrup (1:1 အချိုးအတည်ပြုပြီးမှ)",
+          "quantity": "32 g"
+        },
+        {
+          "name": "Honey",
+          "quantity": "15 g"
+        },
+        {
+          "name": "ရေနွေးနွေး",
+          "quantity": "15 g"
+        },
+        {
+          "name": "Fresh Milk",
+          "quantity": "150 g"
+        },
+        {
+          "name": "Ice",
+          "quantity": "170 g"
+        }
+      ],
+      "steps": [
+        "1. ပျားရည် 15 g ကို ရေနွေးနွေး 15 g နှင့် ပျော်အောင်မွှေပါ။",
+        "2. Instant Coffee 8 g နှင့် 1:1 Sugar Syrup 32 g ကို Handheld Frother ဖြင့် Foam တက်အောင်မွှေပါ။ သကြားရည်ဖြင့် Foam တည်ငြိမ်မှု ကွာနိုင်သည်။",
+        "3. 16 oz ခွက်ထဲ Honey Syrup၊ နို့ 150 g၊ ရေခဲ 170 g ထည့်ပါ။",
+        "4. Dalgona Foam ကို အပေါ်တင်ပါ။"
+      ],
+      "notes": [
+        "9 FLOOR COFFEE Menu Album • လက်တွေ့မစမ်းရသေးသော စမ်းသပ်ဖော်မြူလာ။",
+        "Poster မှဖြတ်ထုတ်ထားသော ပုံသည် ဒီဇိုင်းနမူနာဖြစ်ပြီး ဖျော်ပြီးသားအရည်၏ အတည်ပြုပုံမဟုတ်ပါ။",
+        "Whipping Cream / Powder / Concentrate အမျိုးအစားနှင့် အချိုပြင်းအားကို Label အရ အတည်ပြုပါ။ နို့နှင့် Cream ကို 4°C သို့မဟုတ် အောက်တွင်ထားပါ။",
+        "စမ်းသပ်ရောင်းဈေး 16 oz: ฿55–75 (ကုန်ကျစရိတ် မတွက်ရသေး)"
+      ],
+      "espressoDose": null,
+      "espressoYield": null,
+      "iceQuantity": "170 g",
+      "milkQuantity": "150 g",
+      "waterQuantity": null,
+      "sweetnessLevel": null,
+      "version": 1,
+      "updatedAt": null,
+      "verification": "source-unverified"
+    },
+    {
+      "id": "9f-poster-017",
+      "menuNumber": "9F-017",
+      "sourceTitle": "Iced Oreo Latte",
+      "englishName": "Iced Oreo Latte",
+      "burmeseName": null,
+      "categoryId": "poster-signature",
+      "line": "barista",
+      "image": null,
+      "cupSizes": [
+        16
+      ],
+      "ingredients": [
+        {
+          "name": "Espresso အတွက် ကော်ဖီမှုန့်",
+          "quantity": "16 g"
+        },
+        {
+          "name": "Espresso",
+          "quantity": "32 g"
+        },
+        {
+          "name": "Fresh Milk",
+          "quantity": "140 g"
+        },
+        {
+          "name": "Vanilla Syrup",
+          "quantity": "15 g"
+        },
+        {
+          "name": "Ice",
+          "quantity": "170 g"
+        },
+        {
+          "name": "Oreo Original",
+          "quantity": "2 ချပ်"
+        }
+      ],
+      "sourceIngredients": [
+        {
+          "name": "Espresso အတွက် ကော်ဖီမှုန့်",
+          "quantity": "16 g"
+        },
+        {
+          "name": "Espresso",
+          "quantity": "32 g"
+        },
+        {
+          "name": "Fresh Milk",
+          "quantity": "140 g"
+        },
+        {
+          "name": "Vanilla Syrup",
+          "quantity": "15 g"
+        },
+        {
+          "name": "Ice",
+          "quantity": "170 g"
+        },
+        {
+          "name": "Oreo Original",
+          "quantity": "2 ချပ်"
+        }
+      ],
+      "steps": [
+        "1. 16 g coffee in → Espresso 32 g out ထုတ်ယူပါ။",
+        "2. 16 oz ခွက်ထဲ ဖော်ပြထားသော Syrup နှင့် နို့ကို အရင်ရောပါ။",
+        "3. ရေခဲကို ချိန်ထည့်ပြီး Espresso 32 g ကို ဖြည်းဖြည်းလောင်းပါ။",
+        "4. Topping ကို နောက်ဆုံးတင်ပြီး အရသာစစ်ပါ။",
+        "5. Oreo ကို ချိုးပြီး အပေါ်မှဖြူးပါ။ Blender မလိုပါ။"
+      ],
+      "notes": [
+        "9 FLOOR COFFEE Menu Album • လက်တွေ့မစမ်းရသေးသော စမ်းသပ်ဖော်မြူလာ။",
+        "Poster မှဖြတ်ထုတ်ထားသော ပုံသည် ဒီဇိုင်းနမူနာဖြစ်ပြီး ဖျော်ပြီးသားအရည်၏ အတည်ပြုပုံမဟုတ်ပါ။",
+        "Whipping Cream / Powder / Concentrate အမျိုးအစားနှင့် အချိုပြင်းအားကို Label အရ အတည်ပြုပါ။ နို့နှင့် Cream ကို 4°C သို့မဟုတ် အောက်တွင်ထားပါ။",
+        "စမ်းသပ်ရောင်းဈေး 16 oz: ฿55–75 (ကုန်ကျစရိတ် မတွက်ရသေး)"
+      ],
+      "espressoDose": "16 g",
+      "espressoYield": "32 g",
+      "iceQuantity": "170 g",
+      "milkQuantity": "140 g",
+      "waterQuantity": null,
+      "sweetnessLevel": null,
+      "version": 1,
+      "updatedAt": null,
+      "verification": "source-unverified"
+    },
+    {
+      "id": "9f-poster-018",
+      "menuNumber": "9F-018",
+      "sourceTitle": "Caramel Oreo Latte",
+      "englishName": "Caramel Oreo Latte",
+      "burmeseName": null,
+      "categoryId": "poster-signature",
+      "line": "barista",
+      "image": null,
+      "cupSizes": [
+        16
+      ],
+      "ingredients": [
+        {
+          "name": "Espresso အတွက် ကော်ဖီမှုန့်",
+          "quantity": "16 g"
+        },
+        {
+          "name": "Espresso",
+          "quantity": "32 g"
+        },
+        {
+          "name": "Fresh Milk",
+          "quantity": "140 g"
+        },
+        {
+          "name": "Caramel Syrup",
+          "quantity": "15 g"
+        },
+        {
+          "name": "Ice",
+          "quantity": "170 g"
+        },
+        {
+          "name": "Oreo Original",
+          "quantity": "2 ချပ်"
+        }
+      ],
+      "sourceIngredients": [
+        {
+          "name": "Espresso အတွက် ကော်ဖီမှုန့်",
+          "quantity": "16 g"
+        },
+        {
+          "name": "Espresso",
+          "quantity": "32 g"
+        },
+        {
+          "name": "Fresh Milk",
+          "quantity": "140 g"
+        },
+        {
+          "name": "Caramel Syrup",
+          "quantity": "15 g"
+        },
+        {
+          "name": "Ice",
+          "quantity": "170 g"
+        },
+        {
+          "name": "Oreo Original",
+          "quantity": "2 ချပ်"
+        }
+      ],
+      "steps": [
+        "1. 16 g coffee in → Espresso 32 g out ထုတ်ယူပါ။",
+        "2. 16 oz ခွက်ထဲ ဖော်ပြထားသော Syrup နှင့် နို့ကို အရင်ရောပါ။",
+        "3. ရေခဲကို ချိန်ထည့်ပြီး Espresso 32 g ကို ဖြည်းဖြည်းလောင်းပါ။",
+        "4. Topping ကို နောက်ဆုံးတင်ပြီး အရသာစစ်ပါ။",
+        "5. Oreo ကို ချိုးပြီး အပေါ်မှဖြူးပါ။ Blender မလိုပါ။"
+      ],
+      "notes": [
+        "9 FLOOR COFFEE Menu Album • လက်တွေ့မစမ်းရသေးသော စမ်းသပ်ဖော်မြူလာ။",
+        "Poster မှဖြတ်ထုတ်ထားသော ပုံသည် ဒီဇိုင်းနမူနာဖြစ်ပြီး ဖျော်ပြီးသားအရည်၏ အတည်ပြုပုံမဟုတ်ပါ။",
+        "Whipping Cream / Powder / Concentrate အမျိုးအစားနှင့် အချိုပြင်းအားကို Label အရ အတည်ပြုပါ။ နို့နှင့် Cream ကို 4°C သို့မဟုတ် အောက်တွင်ထားပါ။",
+        "စမ်းသပ်ရောင်းဈေး 16 oz: ฿55–75 (ကုန်ကျစရိတ် မတွက်ရသေး)"
+      ],
+      "espressoDose": "16 g",
+      "espressoYield": "32 g",
+      "iceQuantity": "170 g",
+      "milkQuantity": "140 g",
+      "waterQuantity": null,
+      "sweetnessLevel": null,
+      "version": 1,
+      "updatedAt": null,
+      "verification": "source-unverified"
+    },
+    {
+      "id": "9f-poster-019",
+      "menuNumber": "9F-019",
+      "sourceTitle": "Vanilla Cold Foam Latte",
+      "englishName": "Vanilla Cold Foam Latte",
+      "burmeseName": null,
+      "categoryId": "poster-signature",
+      "line": "barista",
+      "image": null,
+      "cupSizes": [
+        16
+      ],
+      "ingredients": [
+        {
+          "name": "Espresso အတွက် ကော်ဖီမှုန့်",
+          "quantity": "16 g"
+        },
+        {
+          "name": "Espresso",
+          "quantity": "32 g"
+        },
+        {
+          "name": "Fresh Milk",
+          "quantity": "140 g"
+        },
+        {
+          "name": "Vanilla Syrup",
+          "quantity": "10 g"
+        },
+        {
+          "name": "Ice",
+          "quantity": "170 g"
+        },
+        {
+          "name": "Whipping Cream (Foam)",
+          "quantity": "35 g"
+        },
+        {
+          "name": "Fresh Milk (Foam)",
+          "quantity": "15 g"
+        },
+        {
+          "name": "Vanilla Syrup (Foam)",
+          "quantity": "5 g"
+        }
+      ],
+      "sourceIngredients": [
+        {
+          "name": "Espresso အတွက် ကော်ဖီမှုန့်",
+          "quantity": "16 g"
+        },
+        {
+          "name": "Espresso",
+          "quantity": "32 g"
+        },
+        {
+          "name": "Fresh Milk",
+          "quantity": "140 g"
+        },
+        {
+          "name": "Vanilla Syrup",
+          "quantity": "10 g"
+        },
+        {
+          "name": "Ice",
+          "quantity": "170 g"
+        },
+        {
+          "name": "Whipping Cream (Foam)",
+          "quantity": "35 g"
+        },
+        {
+          "name": "Fresh Milk (Foam)",
+          "quantity": "15 g"
+        },
+        {
+          "name": "Vanilla Syrup (Foam)",
+          "quantity": "5 g"
+        }
+      ],
+      "steps": [
+        "1. Whipping Cream 35 g၊ နို့ 15 g၊ Vanilla Syrup 5 g ကို အေးနေစဉ် Frother ဖြင့် အနည်းငယ်ပျစ်အောင် မွှေပါ။",
+        "2. 16 oz ခွက်ထဲ Vanilla Syrup 10 g၊ နို့ 140 g နှင့် ရေခဲ 170 g ထည့်ပါ။",
+        "3. Espresso 16 g in → 32 g out ထုတ်ပြီး လောင်းပါ။",
+        "4. Vanilla Cold Foam ကို အပေါ်ဆုံးတင်ပါ။"
+      ],
+      "notes": [
+        "9 FLOOR COFFEE Menu Album • လက်တွေ့မစမ်းရသေးသော စမ်းသပ်ဖော်မြူလာ။",
+        "Poster မှဖြတ်ထုတ်ထားသော ပုံသည် ဒီဇိုင်းနမူနာဖြစ်ပြီး ဖျော်ပြီးသားအရည်၏ အတည်ပြုပုံမဟုတ်ပါ။",
+        "Whipping Cream / Powder / Concentrate အမျိုးအစားနှင့် အချိုပြင်းအားကို Label အရ အတည်ပြုပါ။ နို့နှင့် Cream ကို 4°C သို့မဟုတ် အောက်တွင်ထားပါ။",
+        "စမ်းသပ်ရောင်းဈေး 16 oz: ฿55–75 (ကုန်ကျစရိတ် မတွက်ရသေး)"
+      ],
+      "espressoDose": "16 g",
+      "espressoYield": "32 g",
+      "iceQuantity": "170 g",
+      "milkQuantity": "140 g",
+      "waterQuantity": null,
+      "sweetnessLevel": null,
+      "version": 1,
+      "updatedAt": null,
+      "verification": "source-unverified"
+    },
+    {
+      "id": "9f-poster-020",
+      "menuNumber": "9F-020",
+      "sourceTitle": "Honey Lemon Espresso",
+      "englishName": "Honey Lemon Espresso",
+      "burmeseName": null,
+      "categoryId": "poster-signature",
+      "line": "barista",
+      "image": null,
+      "cupSizes": [
+        16
+      ],
+      "ingredients": [
+        {
+          "name": "Espresso အတွက် ကော်ဖီမှုန့်",
+          "quantity": "16 g"
+        },
+        {
+          "name": "Espresso",
+          "quantity": "32 g"
+        },
+        {
+          "name": "Honey",
+          "quantity": "20 g"
+        },
+        {
+          "name": "ရေနွေးနွေး",
+          "quantity": "20 g"
+        },
+        {
+          "name": "Lemon/Lime Juice",
+          "quantity": "15 g"
+        },
+        {
+          "name": "သောက်ရေသန့်အေး",
+          "quantity": "100 g"
+        },
+        {
+          "name": "Ice",
+          "quantity": "180 g"
+        }
+      ],
+      "sourceIngredients": [
+        {
+          "name": "Espresso အတွက် ကော်ဖီမှုန့်",
+          "quantity": "16 g"
+        },
+        {
+          "name": "Espresso",
+          "quantity": "32 g"
+        },
+        {
+          "name": "Honey",
+          "quantity": "20 g"
+        },
+        {
+          "name": "ရေနွေးနွေး",
+          "quantity": "20 g"
+        },
+        {
+          "name": "Lemon/Lime Juice",
+          "quantity": "15 g"
+        },
+        {
+          "name": "သောက်ရေသန့်အေး",
+          "quantity": "100 g"
+        },
+        {
+          "name": "Ice",
+          "quantity": "180 g"
+        }
+      ],
+      "steps": [
+        "1. Honey 20 g ကို ရေနွေးနွေး 20 g ထဲ ပျော်အောင်မွှေပါ။",
+        "2. Lemon/Lime Juice 15 g၊ ရေအေး 100 g ထည့်ပါ။",
+        "3. 16 oz ခွက်ထဲ ရေခဲ 180 g ထည့်၍ Honey Lemon Base လောင်းပါ။",
+        "4. Espresso 16 g in → 32 g out ထုတ်ယူ၍ အပေါ်မှ ဖြည်းဖြည်းလောင်းပါ။"
+      ],
+      "notes": [
+        "9 FLOOR COFFEE Menu Album • လက်တွေ့မစမ်းရသေးသော စမ်းသပ်ဖော်မြူလာ။",
+        "Poster မှဖြတ်ထုတ်ထားသော ပုံသည် ဒီဇိုင်းနမူနာဖြစ်ပြီး ဖျော်ပြီးသားအရည်၏ အတည်ပြုပုံမဟုတ်ပါ။",
+        "Whipping Cream / Powder / Concentrate အမျိုးအစားနှင့် အချိုပြင်းအားကို Label အရ အတည်ပြုပါ။ နို့နှင့် Cream ကို 4°C သို့မဟုတ် အောက်တွင်ထားပါ။",
+        "စမ်းသပ်ရောင်းဈေး 16 oz: ฿55–75 (ကုန်ကျစရိတ် မတွက်ရသေး)"
+      ],
+      "espressoDose": "16 g",
+      "espressoYield": "32 g",
+      "iceQuantity": "180 g",
+      "milkQuantity": null,
+      "waterQuantity": null,
+      "sweetnessLevel": null,
+      "version": 1,
+      "updatedAt": null,
+      "verification": "source-unverified"
+    },
+    {
+      "id": "9f-poster-021",
+      "menuNumber": "9F-021",
+      "sourceTitle": "Iced Chocolate Latte",
+      "englishName": "Iced Chocolate Latte",
+      "burmeseName": null,
+      "categoryId": "poster-chocolate",
+      "line": "barista",
+      "image": null,
+      "cupSizes": [
+        16
+      ],
+      "ingredients": [
+        {
+          "name": "Espresso အတွက် ကော်ဖီမှုန့်",
+          "quantity": "16 g"
+        },
+        {
+          "name": "Espresso",
+          "quantity": "32 g"
+        },
+        {
+          "name": "Diamond Chocolate Instant Drink Powder",
+          "quantity": "15 g"
+        },
+        {
+          "name": "ရေနွေးနွေး",
+          "quantity": "25 g"
+        },
+        {
+          "name": "Fresh Milk",
+          "quantity": "130 g"
+        },
+        {
+          "name": "Ice",
+          "quantity": "170 g"
+        }
+      ],
+      "sourceIngredients": [
+        {
+          "name": "Espresso အတွက် ကော်ဖီမှုန့်",
+          "quantity": "16 g"
+        },
+        {
+          "name": "Espresso",
+          "quantity": "32 g"
+        },
+        {
+          "name": "Diamond Chocolate Instant Drink Powder",
+          "quantity": "15 g"
+        },
+        {
+          "name": "ရေနွေးနွေး",
+          "quantity": "25 g"
+        },
+        {
+          "name": "Fresh Milk",
+          "quantity": "130 g"
+        },
+        {
+          "name": "Ice",
+          "quantity": "170 g"
+        }
+      ],
+      "steps": [
+        "1. Chocolate Powder 15 g ကို ရေနွေးနွေး 25 g နှင့် အရင်ဖျော်ပါ။",
+        "2. 16 oz ခွက်ထဲ နို့ 130 g၊ Chocolate Base နှင့် ရေခဲ 170 g ထည့်ပါ။",
+        "3. Espresso 16 g in → 32 g out ထုတ်ယူပြီး လောင်းပါ။",
+        "4. Chocolate Powder အချိုပြင်းအားကို စမ်းသပ်ချိန်ညှိပါ။"
+      ],
+      "notes": [
+        "9 FLOOR COFFEE Menu Album • လက်တွေ့မစမ်းရသေးသော စမ်းသပ်ဖော်မြူလာ။",
+        "Poster မှဖြတ်ထုတ်ထားသော ပုံသည် ဒီဇိုင်းနမူနာဖြစ်ပြီး ဖျော်ပြီးသားအရည်၏ အတည်ပြုပုံမဟုတ်ပါ။",
+        "Whipping Cream / Powder / Concentrate အမျိုးအစားနှင့် အချိုပြင်းအားကို Label အရ အတည်ပြုပါ။ နို့နှင့် Cream ကို 4°C သို့မဟုတ် အောက်တွင်ထားပါ။",
+        "စမ်းသပ်ရောင်းဈေး 16 oz: ฿55–75 (ကုန်ကျစရိတ် မတွက်ရသေး)"
+      ],
+      "espressoDose": "16 g",
+      "espressoYield": "32 g",
+      "iceQuantity": "170 g",
+      "milkQuantity": "130 g",
+      "waterQuantity": null,
+      "sweetnessLevel": null,
+      "version": 1,
+      "updatedAt": null,
+      "verification": "source-unverified"
+    },
+    {
+      "id": "9f-poster-022",
+      "menuNumber": "9F-022",
+      "sourceTitle": "Chocolate Cold Foam",
+      "englishName": "Chocolate Cold Foam",
+      "burmeseName": null,
+      "categoryId": "poster-chocolate",
+      "line": "cold",
+      "image": null,
+      "cupSizes": [
+        16
+      ],
+      "ingredients": [
+        {
+          "name": "Fresh Milk",
+          "quantity": "145 g"
+        },
+        {
+          "name": "Chocolate Topping Sauce",
+          "quantity": "20 g"
+        },
+        {
+          "name": "Ice",
+          "quantity": "170 g"
+        },
+        {
+          "name": "Whipping Cream (Foam)",
+          "quantity": "35 g"
+        },
+        {
+          "name": "Fresh Milk (Foam)",
+          "quantity": "15 g"
+        },
+        {
+          "name": "Dutch Cocoa Powder (Foam)",
+          "quantity": "4 g"
+        }
+      ],
+      "sourceIngredients": [
+        {
+          "name": "Fresh Milk",
+          "quantity": "145 g"
+        },
+        {
+          "name": "Chocolate Topping Sauce",
+          "quantity": "20 g"
+        },
+        {
+          "name": "Ice",
+          "quantity": "170 g"
+        },
+        {
+          "name": "Whipping Cream (Foam)",
+          "quantity": "35 g"
+        },
+        {
+          "name": "Fresh Milk (Foam)",
+          "quantity": "15 g"
+        },
+        {
+          "name": "Dutch Cocoa Powder (Foam)",
+          "quantity": "4 g"
+        }
+      ],
+      "steps": [
+        "1. Cocoa 4 g ကို နို့ 15 g အနည်းငယ်နှင့် အရင်ဖျော်ပါ။ Whipping Cream 35 g ထည့်ပြီး Frother ဖြင့် Foam ပျစ်အောင်မွှေပါ။",
+        "2. 16 oz ခွက်ထဲ Chocolate Sauce 20 g နှင့် နို့ 145 g ကို မွှေပါ။",
+        "3. ရေခဲ 170 g ထည့်ပါ။",
+        "4. Chocolate Foam ကို အပေါ်တင်ပါ။"
+      ],
+      "notes": [
+        "9 FLOOR COFFEE Menu Album • လက်တွေ့မစမ်းရသေးသော စမ်းသပ်ဖော်မြူလာ။",
+        "Poster မှဖြတ်ထုတ်ထားသော ပုံသည် ဒီဇိုင်းနမူနာဖြစ်ပြီး ဖျော်ပြီးသားအရည်၏ အတည်ပြုပုံမဟုတ်ပါ။",
+        "Whipping Cream / Powder / Concentrate အမျိုးအစားနှင့် အချိုပြင်းအားကို Label အရ အတည်ပြုပါ။ နို့နှင့် Cream ကို 4°C သို့မဟုတ် အောက်တွင်ထားပါ။",
+        "စမ်းသပ်ရောင်းဈေး 16 oz: ฿55–75 (ကုန်ကျစရိတ် မတွက်ရသေး)"
+      ],
+      "espressoDose": null,
+      "espressoYield": null,
+      "iceQuantity": "170 g",
+      "milkQuantity": "145 g",
+      "waterQuantity": null,
+      "sweetnessLevel": null,
+      "version": 1,
+      "updatedAt": null,
+      "verification": "source-unverified"
+    },
+    {
+      "id": "9f-poster-023",
+      "menuNumber": "9F-023",
+      "sourceTitle": "Strawberry Matcha Latte",
+      "englishName": "Strawberry Matcha Latte",
+      "burmeseName": null,
+      "categoryId": "poster-matcha",
+      "line": "cold",
+      "image": null,
+      "cupSizes": [
+        16
+      ],
+      "ingredients": [
+        {
+          "name": "Matcha Powder",
+          "quantity": "3 g"
+        },
+        {
+          "name": "ရေနွေး 70–80°C",
+          "quantity": "35 g"
+        },
+        {
+          "name": "Fresh Milk",
+          "quantity": "140 g"
+        },
+        {
+          "name": "Ice",
+          "quantity": "170 g"
+        },
+        {
+          "name": "Strawberry Concentrate",
+          "quantity": "15 g"
+        }
+      ],
+      "sourceIngredients": [
+        {
+          "name": "Matcha Powder",
+          "quantity": "3 g"
+        },
+        {
+          "name": "ရေနွေး 70–80°C",
+          "quantity": "35 g"
+        },
+        {
+          "name": "Fresh Milk",
+          "quantity": "140 g"
+        },
+        {
+          "name": "Ice",
+          "quantity": "170 g"
+        },
+        {
+          "name": "Strawberry Concentrate",
+          "quantity": "15 g"
+        }
+      ],
+      "steps": [
+        "1. Matcha 3 g ကို ရေနွေး 70–80°C 35 g ဖြင့် အဖုမကျန်အောင် Frother/Whisk ဖြင့် မွှေပါ။",
+        "2. 16 oz ခွက်ထဲ နို့ 140 g နှင့် ရေခဲ 170 g ထည့်ပါ။",
+        "3. Fruit/Taro ပါလျှင် သီးသန့်အနည်းငယ်ဖျော်ပြီး အလွှာလိုက်ထည့်ပါ။ အသီးအက်ဆစ်ကြောင့် နို့ခဲနိုင်သည်ကို စမ်းစစ်ပါ။",
+        "4. Matcha ကို အပေါ်မှ ဖြည်းဖြည်းလောင်းပါ။",
+        "5. Oreo/Cream ပါလျှင် အပေါ်မှတင်ပါ။"
+      ],
+      "notes": [
+        "9 FLOOR COFFEE Menu Album • လက်တွေ့မစမ်းရသေးသော စမ်းသပ်ဖော်မြူလာ။",
+        "Poster မှဖြတ်ထုတ်ထားသော ပုံသည် ဒီဇိုင်းနမူနာဖြစ်ပြီး ဖျော်ပြီးသားအရည်၏ အတည်ပြုပုံမဟုတ်ပါ။",
+        "Whipping Cream / Powder / Concentrate အမျိုးအစားနှင့် အချိုပြင်းအားကို Label အရ အတည်ပြုပါ။ နို့နှင့် Cream ကို 4°C သို့မဟုတ် အောက်တွင်ထားပါ။",
+        "စမ်းသပ်ရောင်းဈေး 16 oz: ฿55–75 (ကုန်ကျစရိတ် မတွက်ရသေး)"
+      ],
+      "espressoDose": null,
+      "espressoYield": null,
+      "iceQuantity": "170 g",
+      "milkQuantity": "140 g",
+      "waterQuantity": null,
+      "sweetnessLevel": null,
+      "version": 1,
+      "updatedAt": null,
+      "verification": "source-unverified"
+    },
+    {
+      "id": "9f-poster-024",
+      "menuNumber": "9F-024",
+      "sourceTitle": "Mixed Berry Matcha Latte",
+      "englishName": "Mixed Berry Matcha Latte",
+      "burmeseName": null,
+      "categoryId": "poster-matcha",
+      "line": "cold",
+      "image": null,
+      "cupSizes": [
+        16
+      ],
+      "ingredients": [
+        {
+          "name": "Matcha Powder",
+          "quantity": "3 g"
+        },
+        {
+          "name": "ရေနွေး 70–80°C",
+          "quantity": "35 g"
+        },
+        {
+          "name": "Fresh Milk",
+          "quantity": "140 g"
+        },
+        {
+          "name": "Ice",
+          "quantity": "170 g"
+        },
+        {
+          "name": "Mixed Berry Purée",
+          "quantity": "20 g"
+        }
+      ],
+      "sourceIngredients": [
+        {
+          "name": "Matcha Powder",
+          "quantity": "3 g"
+        },
+        {
+          "name": "ရေနွေး 70–80°C",
+          "quantity": "35 g"
+        },
+        {
+          "name": "Fresh Milk",
+          "quantity": "140 g"
+        },
+        {
+          "name": "Ice",
+          "quantity": "170 g"
+        },
+        {
+          "name": "Mixed Berry Purée",
+          "quantity": "20 g"
+        }
+      ],
+      "steps": [
+        "1. Matcha 3 g ကို ရေနွေး 70–80°C 35 g ဖြင့် အဖုမကျန်အောင် Frother/Whisk ဖြင့် မွှေပါ။",
+        "2. 16 oz ခွက်ထဲ နို့ 140 g နှင့် ရေခဲ 170 g ထည့်ပါ။",
+        "3. Fruit/Taro ပါလျှင် သီးသန့်အနည်းငယ်ဖျော်ပြီး အလွှာလိုက်ထည့်ပါ။ အသီးအက်ဆစ်ကြောင့် နို့ခဲနိုင်သည်ကို စမ်းစစ်ပါ။",
+        "4. Matcha ကို အပေါ်မှ ဖြည်းဖြည်းလောင်းပါ။",
+        "5. Oreo/Cream ပါလျှင် အပေါ်မှတင်ပါ။"
+      ],
+      "notes": [
+        "9 FLOOR COFFEE Menu Album • လက်တွေ့မစမ်းရသေးသော စမ်းသပ်ဖော်မြူလာ။",
+        "Poster မှဖြတ်ထုတ်ထားသော ပုံသည် ဒီဇိုင်းနမူနာဖြစ်ပြီး ဖျော်ပြီးသားအရည်၏ အတည်ပြုပုံမဟုတ်ပါ။",
+        "Whipping Cream / Powder / Concentrate အမျိုးအစားနှင့် အချိုပြင်းအားကို Label အရ အတည်ပြုပါ။ နို့နှင့် Cream ကို 4°C သို့မဟုတ် အောက်တွင်ထားပါ။",
+        "စမ်းသပ်ရောင်းဈေး 16 oz: ฿55–75 (ကုန်ကျစရိတ် မတွက်ရသေး)"
+      ],
+      "espressoDose": null,
+      "espressoYield": null,
+      "iceQuantity": "170 g",
+      "milkQuantity": "140 g",
+      "waterQuantity": null,
+      "sweetnessLevel": null,
+      "version": 1,
+      "updatedAt": null,
+      "verification": "source-unverified"
+    },
+    {
+      "id": "9f-poster-025",
+      "menuNumber": "9F-025",
+      "sourceTitle": "Taro Matcha Latte",
+      "englishName": "Taro Matcha Latte",
+      "burmeseName": null,
+      "categoryId": "poster-matcha",
+      "line": "cold",
+      "image": null,
+      "cupSizes": [
+        16
+      ],
+      "ingredients": [
+        {
+          "name": "Matcha Powder",
+          "quantity": "3 g"
+        },
+        {
+          "name": "ရေနွေး 70–80°C",
+          "quantity": "35 g"
+        },
+        {
+          "name": "Fresh Milk",
+          "quantity": "140 g"
+        },
+        {
+          "name": "Ice",
+          "quantity": "170 g"
+        },
+        {
+          "name": "Taro Powder",
+          "quantity": "15 g"
+        }
+      ],
+      "sourceIngredients": [
+        {
+          "name": "Matcha Powder",
+          "quantity": "3 g"
+        },
+        {
+          "name": "ရေနွေး 70–80°C",
+          "quantity": "35 g"
+        },
+        {
+          "name": "Fresh Milk",
+          "quantity": "140 g"
+        },
+        {
+          "name": "Ice",
+          "quantity": "170 g"
+        },
+        {
+          "name": "Taro Powder",
+          "quantity": "15 g"
+        }
+      ],
+      "steps": [
+        "1. Matcha 3 g ကို ရေနွေး 70–80°C 35 g ဖြင့် အဖုမကျန်အောင် Frother/Whisk ဖြင့် မွှေပါ။",
+        "2. 16 oz ခွက်ထဲ နို့ 140 g နှင့် ရေခဲ 170 g ထည့်ပါ။",
+        "3. Fruit/Taro ပါလျှင် သီးသန့်အနည်းငယ်ဖျော်ပြီး အလွှာလိုက်ထည့်ပါ။ အသီးအက်ဆစ်ကြောင့် နို့ခဲနိုင်သည်ကို စမ်းစစ်ပါ။",
+        "4. Matcha ကို အပေါ်မှ ဖြည်းဖြည်းလောင်းပါ။",
+        "5. Oreo/Cream ပါလျှင် အပေါ်မှတင်ပါ။"
+      ],
+      "notes": [
+        "9 FLOOR COFFEE Menu Album • လက်တွေ့မစမ်းရသေးသော စမ်းသပ်ဖော်မြူလာ။",
+        "Poster မှဖြတ်ထုတ်ထားသော ပုံသည် ဒီဇိုင်းနမူနာဖြစ်ပြီး ဖျော်ပြီးသားအရည်၏ အတည်ပြုပုံမဟုတ်ပါ။",
+        "Whipping Cream / Powder / Concentrate အမျိုးအစားနှင့် အချိုပြင်းအားကို Label အရ အတည်ပြုပါ။ နို့နှင့် Cream ကို 4°C သို့မဟုတ် အောက်တွင်ထားပါ။",
+        "စမ်းသပ်ရောင်းဈေး 16 oz: ฿55–75 (ကုန်ကျစရိတ် မတွက်ရသေး)"
+      ],
+      "espressoDose": null,
+      "espressoYield": null,
+      "iceQuantity": "170 g",
+      "milkQuantity": "140 g",
+      "waterQuantity": null,
+      "sweetnessLevel": null,
+      "version": 1,
+      "updatedAt": null,
+      "verification": "source-unverified"
+    },
+    {
+      "id": "9f-poster-026",
+      "menuNumber": "9F-026",
+      "sourceTitle": "Passion Lychee Soda",
+      "englishName": "Passion Lychee Soda",
+      "burmeseName": null,
+      "categoryId": "poster-fruit",
+      "line": "cold",
+      "image": null,
+      "cupSizes": [
+        16
+      ],
+      "ingredients": [
+        {
+          "name": "Passion Fruit Concentrate",
+          "quantity": "15 g"
+        },
+        {
+          "name": "Lychee Concentrate",
+          "quantity": "15 g"
+        },
+        {
+          "name": "Soda Water",
+          "quantity": "140 g"
+        },
+        {
+          "name": "Ice",
+          "quantity": "180 g"
+        }
+      ],
+      "sourceIngredients": [
+        {
+          "name": "Passion Fruit Concentrate",
+          "quantity": "15 g"
+        },
+        {
+          "name": "Lychee Concentrate",
+          "quantity": "15 g"
+        },
+        {
+          "name": "Soda Water",
+          "quantity": "140 g"
+        },
+        {
+          "name": "Ice",
+          "quantity": "180 g"
+        }
+      ],
+      "steps": [
+        "1. 16 oz ခွက်ထဲ Fruit Concentrate / Purée ကို သတ်မှတ်ပမာဏအတိုင်း ချိန်ထည့်ပါ။",
+        "2. ရေခဲ 180 g ထည့်ပြီး Soda Water 140 g ကို ဖြည်းဖြည်းလောင်းပါ။",
+        "3. Soda အမြှုပ်မပျောက်အောင် ဇွန်းဖြင့် တစ်ချက်နှစ်ချက်သာ မွှေပါ။",
+        "4. Concentrate အချိုပြင်းအားအလိုက် 5 g စီ ချိန်ညှိပြီး ဆိုင်ရောင်းမီ စမ်းသပ်ပါ။"
+      ],
+      "notes": [
+        "9 FLOOR COFFEE Menu Album • လက်တွေ့မစမ်းရသေးသော စမ်းသပ်ဖော်မြူလာ။",
+        "Poster မှဖြတ်ထုတ်ထားသော ပုံသည် ဒီဇိုင်းနမူနာဖြစ်ပြီး ဖျော်ပြီးသားအရည်၏ အတည်ပြုပုံမဟုတ်ပါ။",
+        "Whipping Cream / Powder / Concentrate အမျိုးအစားနှင့် အချိုပြင်းအားကို Label အရ အတည်ပြုပါ။ နို့နှင့် Cream ကို 4°C သို့မဟုတ် အောက်တွင်ထားပါ။",
+        "စမ်းသပ်ရောင်းဈေး 16 oz: ฿55–75 (ကုန်ကျစရိတ် မတွက်ရသေး)"
+      ],
+      "espressoDose": null,
+      "espressoYield": null,
+      "iceQuantity": "180 g",
+      "milkQuantity": null,
+      "waterQuantity": null,
+      "sweetnessLevel": null,
+      "version": 1,
+      "updatedAt": null,
+      "verification": "source-unverified"
+    },
+    {
+      "id": "9f-poster-027",
+      "menuNumber": "9F-027",
+      "sourceTitle": "Strawberry Lychee Soda",
+      "englishName": "Strawberry Lychee Soda",
+      "burmeseName": null,
+      "categoryId": "poster-fruit",
+      "line": "cold",
+      "image": null,
+      "cupSizes": [
+        16
+      ],
+      "ingredients": [
+        {
+          "name": "Lychee Concentrate",
+          "quantity": "15 g"
+        },
+        {
+          "name": "Strawberry Concentrate",
+          "quantity": "15 g"
+        },
+        {
+          "name": "Soda Water",
+          "quantity": "140 g"
+        },
+        {
+          "name": "Ice",
+          "quantity": "180 g"
+        }
+      ],
+      "sourceIngredients": [
+        {
+          "name": "Lychee Concentrate",
+          "quantity": "15 g"
+        },
+        {
+          "name": "Strawberry Concentrate",
+          "quantity": "15 g"
+        },
+        {
+          "name": "Soda Water",
+          "quantity": "140 g"
+        },
+        {
+          "name": "Ice",
+          "quantity": "180 g"
+        }
+      ],
+      "steps": [
+        "1. 16 oz ခွက်ထဲ Fruit Concentrate / Purée ကို သတ်မှတ်ပမာဏအတိုင်း ချိန်ထည့်ပါ။",
+        "2. ရေခဲ 180 g ထည့်ပြီး Soda Water 140 g ကို ဖြည်းဖြည်းလောင်းပါ။",
+        "3. Soda အမြှုပ်မပျောက်အောင် ဇွန်းဖြင့် တစ်ချက်နှစ်ချက်သာ မွှေပါ။",
+        "4. Concentrate အချိုပြင်းအားအလိုက် 5 g စီ ချိန်ညှိပြီး ဆိုင်ရောင်းမီ စမ်းသပ်ပါ။"
+      ],
+      "notes": [
+        "9 FLOOR COFFEE Menu Album • လက်တွေ့မစမ်းရသေးသော စမ်းသပ်ဖော်မြူလာ။",
+        "Poster မှဖြတ်ထုတ်ထားသော ပုံသည် ဒီဇိုင်းနမူနာဖြစ်ပြီး ဖျော်ပြီးသားအရည်၏ အတည်ပြုပုံမဟုတ်ပါ။",
+        "Whipping Cream / Powder / Concentrate အမျိုးအစားနှင့် အချိုပြင်းအားကို Label အရ အတည်ပြုပါ။ နို့နှင့် Cream ကို 4°C သို့မဟုတ် အောက်တွင်ထားပါ။",
+        "စမ်းသပ်ရောင်းဈေး 16 oz: ฿55–75 (ကုန်ကျစရိတ် မတွက်ရသေး)"
+      ],
+      "espressoDose": null,
+      "espressoYield": null,
+      "iceQuantity": "180 g",
+      "milkQuantity": null,
+      "waterQuantity": null,
+      "sweetnessLevel": null,
+      "version": 1,
+      "updatedAt": null,
+      "verification": "source-unverified"
+    },
+    {
+      "id": "9f-poster-028",
+      "menuNumber": "9F-028",
+      "sourceTitle": "Mixed Berry Lychee Soda",
+      "englishName": "Mixed Berry Lychee Soda",
+      "burmeseName": null,
+      "categoryId": "poster-fruit",
+      "line": "cold",
+      "image": null,
+      "cupSizes": [
+        16
+      ],
+      "ingredients": [
+        {
+          "name": "Lychee Concentrate",
+          "quantity": "15 g"
+        },
+        {
+          "name": "Mixed Berry Purée",
+          "quantity": "15 g"
+        },
+        {
+          "name": "Soda Water",
+          "quantity": "140 g"
+        },
+        {
+          "name": "Ice",
+          "quantity": "180 g"
+        }
+      ],
+      "sourceIngredients": [
+        {
+          "name": "Lychee Concentrate",
+          "quantity": "15 g"
+        },
+        {
+          "name": "Mixed Berry Purée",
+          "quantity": "15 g"
+        },
+        {
+          "name": "Soda Water",
+          "quantity": "140 g"
+        },
+        {
+          "name": "Ice",
+          "quantity": "180 g"
+        }
+      ],
+      "steps": [
+        "1. 16 oz ခွက်ထဲ Fruit Concentrate / Purée ကို သတ်မှတ်ပမာဏအတိုင်း ချိန်ထည့်ပါ။",
+        "2. ရေခဲ 180 g ထည့်ပြီး Soda Water 140 g ကို ဖြည်းဖြည်းလောင်းပါ။",
+        "3. Soda အမြှုပ်မပျောက်အောင် ဇွန်းဖြင့် တစ်ချက်နှစ်ချက်သာ မွှေပါ။",
+        "4. Concentrate အချိုပြင်းအားအလိုက် 5 g စီ ချိန်ညှိပြီး ဆိုင်ရောင်းမီ စမ်းသပ်ပါ။"
+      ],
+      "notes": [
+        "9 FLOOR COFFEE Menu Album • လက်တွေ့မစမ်းရသေးသော စမ်းသပ်ဖော်မြူလာ။",
+        "Poster မှဖြတ်ထုတ်ထားသော ပုံသည် ဒီဇိုင်းနမူနာဖြစ်ပြီး ဖျော်ပြီးသားအရည်၏ အတည်ပြုပုံမဟုတ်ပါ။",
+        "Whipping Cream / Powder / Concentrate အမျိုးအစားနှင့် အချိုပြင်းအားကို Label အရ အတည်ပြုပါ။ နို့နှင့် Cream ကို 4°C သို့မဟုတ် အောက်တွင်ထားပါ။",
+        "စမ်းသပ်ရောင်းဈေး 16 oz: ฿55–75 (ကုန်ကျစရိတ် မတွက်ရသေး)"
+      ],
+      "espressoDose": null,
+      "espressoYield": null,
+      "iceQuantity": "180 g",
+      "milkQuantity": null,
+      "waterQuantity": null,
+      "sweetnessLevel": null,
+      "version": 1,
+      "updatedAt": null,
+      "verification": "source-unverified"
+    },
+    {
+      "id": "9f-poster-029",
+      "menuNumber": "9F-029",
+      "sourceTitle": "Strawberry Passion Soda",
+      "englishName": "Strawberry Passion Soda",
+      "burmeseName": null,
+      "categoryId": "poster-fruit",
+      "line": "cold",
+      "image": null,
+      "cupSizes": [
+        16
+      ],
+      "ingredients": [
+        {
+          "name": "Passion Fruit Concentrate",
+          "quantity": "15 g"
+        },
+        {
+          "name": "Strawberry Concentrate",
+          "quantity": "15 g"
+        },
+        {
+          "name": "Soda Water",
+          "quantity": "140 g"
+        },
+        {
+          "name": "Ice",
+          "quantity": "180 g"
+        }
+      ],
+      "sourceIngredients": [
+        {
+          "name": "Passion Fruit Concentrate",
+          "quantity": "15 g"
+        },
+        {
+          "name": "Strawberry Concentrate",
+          "quantity": "15 g"
+        },
+        {
+          "name": "Soda Water",
+          "quantity": "140 g"
+        },
+        {
+          "name": "Ice",
+          "quantity": "180 g"
+        }
+      ],
+      "steps": [
+        "1. 16 oz ခွက်ထဲ Fruit Concentrate / Purée ကို သတ်မှတ်ပမာဏအတိုင်း ချိန်ထည့်ပါ။",
+        "2. ရေခဲ 180 g ထည့်ပြီး Soda Water 140 g ကို ဖြည်းဖြည်းလောင်းပါ။",
+        "3. Soda အမြှုပ်မပျောက်အောင် ဇွန်းဖြင့် တစ်ချက်နှစ်ချက်သာ မွှေပါ။",
+        "4. Concentrate အချိုပြင်းအားအလိုက် 5 g စီ ချိန်ညှိပြီး ဆိုင်ရောင်းမီ စမ်းသပ်ပါ။"
+      ],
+      "notes": [
+        "9 FLOOR COFFEE Menu Album • လက်တွေ့မစမ်းရသေးသော စမ်းသပ်ဖော်မြူလာ။",
+        "Poster မှဖြတ်ထုတ်ထားသော ပုံသည် ဒီဇိုင်းနမူနာဖြစ်ပြီး ဖျော်ပြီးသားအရည်၏ အတည်ပြုပုံမဟုတ်ပါ။",
+        "Whipping Cream / Powder / Concentrate အမျိုးအစားနှင့် အချိုပြင်းအားကို Label အရ အတည်ပြုပါ။ နို့နှင့် Cream ကို 4°C သို့မဟုတ် အောက်တွင်ထားပါ။",
+        "စမ်းသပ်ရောင်းဈေး 16 oz: ฿55–75 (ကုန်ကျစရိတ် မတွက်ရသေး)"
+      ],
+      "espressoDose": null,
+      "espressoYield": null,
+      "iceQuantity": "180 g",
+      "milkQuantity": null,
+      "waterQuantity": null,
+      "sweetnessLevel": null,
+      "version": 1,
+      "updatedAt": null,
+      "verification": "source-unverified"
+    },
+    {
+      "id": "9f-poster-030",
+      "menuNumber": "9F-030",
+      "sourceTitle": "Blue Passion Soda",
+      "englishName": "Blue Passion Soda",
+      "burmeseName": null,
+      "categoryId": "poster-fruit",
+      "line": "cold",
+      "image": null,
+      "cupSizes": [
+        16
+      ],
+      "ingredients": [
+        {
+          "name": "Passion Fruit Concentrate",
+          "quantity": "15 g"
+        },
+        {
+          "name": "Blue Syrup / Concentrate",
+          "quantity": "15 g"
+        },
+        {
+          "name": "Soda Water",
+          "quantity": "140 g"
+        },
+        {
+          "name": "Ice",
+          "quantity": "180 g"
+        }
+      ],
+      "sourceIngredients": [
+        {
+          "name": "Passion Fruit Concentrate",
+          "quantity": "15 g"
+        },
+        {
+          "name": "Blue Syrup / Concentrate",
+          "quantity": "15 g"
+        },
+        {
+          "name": "Soda Water",
+          "quantity": "140 g"
+        },
+        {
+          "name": "Ice",
+          "quantity": "180 g"
+        }
+      ],
+      "steps": [
+        "1. 16 oz ခွက်ထဲ Fruit Concentrate / Purée ကို သတ်မှတ်ပမာဏအတိုင်း ချိန်ထည့်ပါ။",
+        "2. ရေခဲ 180 g ထည့်ပြီး Soda Water 140 g ကို ဖြည်းဖြည်းလောင်းပါ။",
+        "3. Soda အမြှုပ်မပျောက်အောင် ဇွန်းဖြင့် တစ်ချက်နှစ်ချက်သာ မွှေပါ။",
+        "4. Concentrate အချိုပြင်းအားအလိုက် 5 g စီ ချိန်ညှိပြီး ဆိုင်ရောင်းမီ စမ်းသပ်ပါ။"
+      ],
+      "notes": [
+        "9 FLOOR COFFEE Menu Album • လက်တွေ့မစမ်းရသေးသော စမ်းသပ်ဖော်မြူလာ။",
+        "Poster မှဖြတ်ထုတ်ထားသော ပုံသည် ဒီဇိုင်းနမူနာဖြစ်ပြီး ဖျော်ပြီးသားအရည်၏ အတည်ပြုပုံမဟုတ်ပါ။",
+        "Whipping Cream / Powder / Concentrate အမျိုးအစားနှင့် အချိုပြင်းအားကို Label အရ အတည်ပြုပါ။ နို့နှင့် Cream ကို 4°C သို့မဟုတ် အောက်တွင်ထားပါ။",
+        "စမ်းသပ်ရောင်းဈေး 16 oz: ฿55–75 (ကုန်ကျစရိတ် မတွက်ရသေး)"
+      ],
+      "espressoDose": null,
+      "espressoYield": null,
+      "iceQuantity": "180 g",
+      "milkQuantity": null,
+      "waterQuantity": null,
+      "sweetnessLevel": null,
+      "version": 1,
+      "updatedAt": null,
+      "verification": "source-unverified"
+    },
+    {
+      "id": "9f-poster-031",
+      "menuNumber": "9F-031",
+      "sourceTitle": "Blue Lychee Soda",
+      "englishName": "Blue Lychee Soda",
+      "burmeseName": null,
+      "categoryId": "poster-fruit",
+      "line": "cold",
+      "image": null,
+      "cupSizes": [
+        16
+      ],
+      "ingredients": [
+        {
+          "name": "Lychee Concentrate",
+          "quantity": "15 g"
+        },
+        {
+          "name": "Blue Syrup / Concentrate",
+          "quantity": "15 g"
+        },
+        {
+          "name": "Soda Water",
+          "quantity": "140 g"
+        },
+        {
+          "name": "Ice",
+          "quantity": "180 g"
+        }
+      ],
+      "sourceIngredients": [
+        {
+          "name": "Lychee Concentrate",
+          "quantity": "15 g"
+        },
+        {
+          "name": "Blue Syrup / Concentrate",
+          "quantity": "15 g"
+        },
+        {
+          "name": "Soda Water",
+          "quantity": "140 g"
+        },
+        {
+          "name": "Ice",
+          "quantity": "180 g"
+        }
+      ],
+      "steps": [
+        "1. 16 oz ခွက်ထဲ Fruit Concentrate / Purée ကို သတ်မှတ်ပမာဏအတိုင်း ချိန်ထည့်ပါ။",
+        "2. ရေခဲ 180 g ထည့်ပြီး Soda Water 140 g ကို ဖြည်းဖြည်းလောင်းပါ။",
+        "3. Soda အမြှုပ်မပျောက်အောင် ဇွန်းဖြင့် တစ်ချက်နှစ်ချက်သာ မွှေပါ။",
+        "4. Concentrate အချိုပြင်းအားအလိုက် 5 g စီ ချိန်ညှိပြီး ဆိုင်ရောင်းမီ စမ်းသပ်ပါ။"
+      ],
+      "notes": [
+        "9 FLOOR COFFEE Menu Album • လက်တွေ့မစမ်းရသေးသော စမ်းသပ်ဖော်မြူလာ။",
+        "Poster မှဖြတ်ထုတ်ထားသော ပုံသည် ဒီဇိုင်းနမူနာဖြစ်ပြီး ဖျော်ပြီးသားအရည်၏ အတည်ပြုပုံမဟုတ်ပါ။",
+        "Whipping Cream / Powder / Concentrate အမျိုးအစားနှင့် အချိုပြင်းအားကို Label အရ အတည်ပြုပါ။ နို့နှင့် Cream ကို 4°C သို့မဟုတ် အောက်တွင်ထားပါ။",
+        "စမ်းသပ်ရောင်းဈေး 16 oz: ฿55–75 (ကုန်ကျစရိတ် မတွက်ရသေး)"
+      ],
+      "espressoDose": null,
+      "espressoYield": null,
+      "iceQuantity": "180 g",
+      "milkQuantity": null,
+      "waterQuantity": null,
+      "sweetnessLevel": null,
+      "version": 1,
+      "updatedAt": null,
+      "verification": "source-unverified"
+    },
+    {
+      "id": "9f-poster-032",
+      "menuNumber": "9F-032",
+      "sourceTitle": "Vanilla Oreo Milk",
+      "englishName": "Vanilla Oreo Milk",
+      "burmeseName": null,
+      "categoryId": "poster-cream",
+      "line": "cold",
+      "image": null,
+      "cupSizes": [
+        16
+      ],
+      "ingredients": [
+        {
+          "name": "Fresh Milk",
+          "quantity": "150 g"
+        },
+        {
+          "name": "Vanilla Syrup",
+          "quantity": "15 g"
+        },
+        {
+          "name": "Ice",
+          "quantity": "170 g"
+        },
+        {
+          "name": "Whipping Cream (အမျိုးအစား/အချိုပါမှု စစ်ရန်)",
+          "quantity": "35 g"
+        },
+        {
+          "name": "Oreo Original",
+          "quantity": "2 ချပ်"
+        }
+      ],
+      "sourceIngredients": [
+        {
+          "name": "Fresh Milk",
+          "quantity": "150 g"
+        },
+        {
+          "name": "Vanilla Syrup",
+          "quantity": "15 g"
+        },
+        {
+          "name": "Ice",
+          "quantity": "170 g"
+        },
+        {
+          "name": "Whipping Cream (အမျိုးအစား/အချိုပါမှု စစ်ရန်)",
+          "quantity": "35 g"
+        },
+        {
+          "name": "Oreo Original",
+          "quantity": "2 ချပ်"
+        }
+      ],
+      "steps": [
+        "1. Whipping Cream ကို အေးထားပြီး Cream အမျိုးအစားအလိုက် လောင်းလို့ရသည့်ပျစ်မှုအထိ Frother ဖြင့်မွှေပါ။",
+        "2. 16 oz ခွက်ထဲ နို့ 150 g နှင့် ရေခဲ 170 g ထည့်ပါ။",
+        "3. Fruit Concentrate/Purée ပါလျှင် နို့နှင့်မခဲကြောင်း အရင်စမ်းပြီးမှ သီးခြားအလွှာအဖြစ် ထည့်ပါ။",
+        "4. Syrup/Sauce ပါလျှင် ထည့်မွှေပြီး Cream ကို အပေါ်တင်ပါ။",
+        "5. Oreo ပါလျှင် ချိုးပြီး အပေါ်မှဖြူးပါ။"
+      ],
+      "notes": [
+        "9 FLOOR COFFEE Menu Album • လက်တွေ့မစမ်းရသေးသော စမ်းသပ်ဖော်မြူလာ။",
+        "Poster မှဖြတ်ထုတ်ထားသော ပုံသည် ဒီဇိုင်းနမူနာဖြစ်ပြီး ဖျော်ပြီးသားအရည်၏ အတည်ပြုပုံမဟုတ်ပါ။",
+        "Whipping Cream / Powder / Concentrate အမျိုးအစားနှင့် အချိုပြင်းအားကို Label အရ အတည်ပြုပါ။ နို့နှင့် Cream ကို 4°C သို့မဟုတ် အောက်တွင်ထားပါ။",
+        "စမ်းသပ်ရောင်းဈေး 16 oz: ฿55–75 (ကုန်ကျစရိတ် မတွက်ရသေး)"
+      ],
+      "espressoDose": null,
+      "espressoYield": null,
+      "iceQuantity": "170 g",
+      "milkQuantity": "150 g",
+      "waterQuantity": null,
+      "sweetnessLevel": null,
+      "version": 1,
+      "updatedAt": null,
+      "verification": "source-unverified"
+    },
+    {
+      "id": "9f-poster-033",
+      "menuNumber": "9F-033",
+      "sourceTitle": "Strawberry Cream Milk",
+      "englishName": "Strawberry Cream Milk",
+      "burmeseName": null,
+      "categoryId": "poster-cream",
+      "line": "cold",
+      "image": null,
+      "cupSizes": [
+        16
+      ],
+      "ingredients": [
+        {
+          "name": "Fresh Milk",
+          "quantity": "150 g"
+        },
+        {
+          "name": "Strawberry Concentrate",
+          "quantity": "20 g"
+        },
+        {
+          "name": "Ice",
+          "quantity": "170 g"
+        },
+        {
+          "name": "Whipping Cream (အမျိုးအစား/အချိုပါမှု စစ်ရန်)",
+          "quantity": "35 g"
+        }
+      ],
+      "sourceIngredients": [
+        {
+          "name": "Fresh Milk",
+          "quantity": "150 g"
+        },
+        {
+          "name": "Strawberry Concentrate",
+          "quantity": "20 g"
+        },
+        {
+          "name": "Ice",
+          "quantity": "170 g"
+        },
+        {
+          "name": "Whipping Cream (အမျိုးအစား/အချိုပါမှု စစ်ရန်)",
+          "quantity": "35 g"
+        }
+      ],
+      "steps": [
+        "1. Whipping Cream ကို အေးထားပြီး Cream အမျိုးအစားအလိုက် လောင်းလို့ရသည့်ပျစ်မှုအထိ Frother ဖြင့်မွှေပါ။",
+        "2. 16 oz ခွက်ထဲ နို့ 150 g နှင့် ရေခဲ 170 g ထည့်ပါ။",
+        "3. Fruit Concentrate/Purée ပါလျှင် နို့နှင့်မခဲကြောင်း အရင်စမ်းပြီးမှ သီးခြားအလွှာအဖြစ် ထည့်ပါ။",
+        "4. Syrup/Sauce ပါလျှင် ထည့်မွှေပြီး Cream ကို အပေါ်တင်ပါ။",
+        "5. Oreo ပါလျှင် ချိုးပြီး အပေါ်မှဖြူးပါ။"
+      ],
+      "notes": [
+        "9 FLOOR COFFEE Menu Album • လက်တွေ့မစမ်းရသေးသော စမ်းသပ်ဖော်မြူလာ။",
+        "Poster မှဖြတ်ထုတ်ထားသော ပုံသည် ဒီဇိုင်းနမူနာဖြစ်ပြီး ဖျော်ပြီးသားအရည်၏ အတည်ပြုပုံမဟုတ်ပါ။",
+        "Whipping Cream / Powder / Concentrate အမျိုးအစားနှင့် အချိုပြင်းအားကို Label အရ အတည်ပြုပါ။ နို့နှင့် Cream ကို 4°C သို့မဟုတ် အောက်တွင်ထားပါ။",
+        "စမ်းသပ်ရောင်းဈေး 16 oz: ฿55–75 (ကုန်ကျစရိတ် မတွက်ရသေး)"
+      ],
+      "espressoDose": null,
+      "espressoYield": null,
+      "iceQuantity": "170 g",
+      "milkQuantity": "150 g",
+      "waterQuantity": null,
+      "sweetnessLevel": null,
+      "version": 1,
+      "updatedAt": null,
+      "verification": "source-unverified"
+    },
+    {
+      "id": "9f-poster-034",
+      "menuNumber": "9F-034",
+      "sourceTitle": "Mixed Berry Cream Milk",
+      "englishName": "Mixed Berry Cream Milk",
+      "burmeseName": null,
+      "categoryId": "poster-cream",
+      "line": "cold",
+      "image": null,
+      "cupSizes": [
+        16
+      ],
+      "ingredients": [
+        {
+          "name": "Fresh Milk",
+          "quantity": "150 g"
+        },
+        {
+          "name": "Mixed Berry Purée",
+          "quantity": "20 g"
+        },
+        {
+          "name": "Ice",
+          "quantity": "170 g"
+        },
+        {
+          "name": "Whipping Cream (အမျိုးအစား/အချိုပါမှု စစ်ရန်)",
+          "quantity": "35 g"
+        }
+      ],
+      "sourceIngredients": [
+        {
+          "name": "Fresh Milk",
+          "quantity": "150 g"
+        },
+        {
+          "name": "Mixed Berry Purée",
+          "quantity": "20 g"
+        },
+        {
+          "name": "Ice",
+          "quantity": "170 g"
+        },
+        {
+          "name": "Whipping Cream (အမျိုးအစား/အချိုပါမှု စစ်ရန်)",
+          "quantity": "35 g"
+        }
+      ],
+      "steps": [
+        "1. Whipping Cream ကို အေးထားပြီး Cream အမျိုးအစားအလိုက် လောင်းလို့ရသည့်ပျစ်မှုအထိ Frother ဖြင့်မွှေပါ။",
+        "2. 16 oz ခွက်ထဲ နို့ 150 g နှင့် ရေခဲ 170 g ထည့်ပါ။",
+        "3. Fruit Concentrate/Purée ပါလျှင် နို့နှင့်မခဲကြောင်း အရင်စမ်းပြီးမှ သီးခြားအလွှာအဖြစ် ထည့်ပါ။",
+        "4. Syrup/Sauce ပါလျှင် ထည့်မွှေပြီး Cream ကို အပေါ်တင်ပါ။",
+        "5. Oreo ပါလျှင် ချိုးပြီး အပေါ်မှဖြူးပါ။"
+      ],
+      "notes": [
+        "9 FLOOR COFFEE Menu Album • လက်တွေ့မစမ်းရသေးသော စမ်းသပ်ဖော်မြူလာ။",
+        "Poster မှဖြတ်ထုတ်ထားသော ပုံသည် ဒီဇိုင်းနမူနာဖြစ်ပြီး ဖျော်ပြီးသားအရည်၏ အတည်ပြုပုံမဟုတ်ပါ။",
+        "Whipping Cream / Powder / Concentrate အမျိုးအစားနှင့် အချိုပြင်းအားကို Label အရ အတည်ပြုပါ။ နို့နှင့် Cream ကို 4°C သို့မဟုတ် အောက်တွင်ထားပါ။",
+        "စမ်းသပ်ရောင်းဈေး 16 oz: ฿55–75 (ကုန်ကျစရိတ် မတွက်ရသေး)"
+      ],
+      "espressoDose": null,
+      "espressoYield": null,
+      "iceQuantity": "170 g",
+      "milkQuantity": "150 g",
+      "waterQuantity": null,
+      "sweetnessLevel": null,
+      "version": 1,
+      "updatedAt": null,
+      "verification": "source-unverified"
+    },
+    {
+      "id": "9f-poster-035",
+      "menuNumber": "9F-035",
+      "sourceTitle": "Chocolate Oreo Cream",
+      "englishName": "Chocolate Oreo Cream",
+      "burmeseName": null,
+      "categoryId": "poster-chocolate",
+      "line": "cold",
+      "image": null,
+      "cupSizes": [
+        16
+      ],
+      "ingredients": [
+        {
+          "name": "Diamond Chocolate Instant Drink Powder",
+          "quantity": "25 g"
+        },
+        {
+          "name": "ရေနွေးနွေး",
+          "quantity": "35 g"
+        },
+        {
+          "name": "Fresh Milk",
+          "quantity": "140 g"
+        },
+        {
+          "name": "Ice",
+          "quantity": "170 g"
+        },
+        {
+          "name": "Oreo Original",
+          "quantity": "2 ချပ်"
+        }
+      ],
+      "sourceIngredients": [
+        {
+          "name": "Diamond Chocolate Instant Drink Powder",
+          "quantity": "25 g"
+        },
+        {
+          "name": "ရေနွေးနွေး",
+          "quantity": "35 g"
+        },
+        {
+          "name": "Fresh Milk",
+          "quantity": "140 g"
+        },
+        {
+          "name": "Ice",
+          "quantity": "170 g"
+        },
+        {
+          "name": "Oreo Original",
+          "quantity": "2 ချပ်"
+        }
+      ],
+      "steps": [
+        "1. Chocolate / Cocoa Powder ကို ရေနွေးနွေး 35 g ဖြင့် အဖုမကျန်အောင် အရင်ဖျော်ပါ။",
+        "2. နို့ကို ထည့်ပြီး ရောမွှေပါ။",
+        "3. အအေးဆိုလျှင် 16 oz ခွက်ထဲ ရေခဲ 170 g ထည့်ပါ။ အပူဆိုလျှင် နို့ကို 55–65°C အထိ အပူပေးပါ။",
+        "4. အချိုပါဝင်မှု Powder Brand အလိုက် ကွာနိုင်သည်။ အချိုလိုမှ Syrup ထပ်ထည့်ပါ။",
+        "5. Oreo အတုံး 2 ချပ်ကို အပေါ်မှ တင်ပါ။"
+      ],
+      "notes": [
+        "9 FLOOR COFFEE Menu Album • လက်တွေ့မစမ်းရသေးသော စမ်းသပ်ဖော်မြူလာ။",
+        "Poster မှဖြတ်ထုတ်ထားသော ပုံသည် ဒီဇိုင်းနမူနာဖြစ်ပြီး ဖျော်ပြီးသားအရည်၏ အတည်ပြုပုံမဟုတ်ပါ။",
+        "Whipping Cream / Powder / Concentrate အမျိုးအစားနှင့် အချိုပြင်းအားကို Label အရ အတည်ပြုပါ။ နို့နှင့် Cream ကို 4°C သို့မဟုတ် အောက်တွင်ထားပါ။",
+        "စမ်းသပ်ရောင်းဈေး 16 oz: ฿55–75 (ကုန်ကျစရိတ် မတွက်ရသေး)"
+      ],
+      "espressoDose": null,
+      "espressoYield": null,
+      "iceQuantity": "170 g",
+      "milkQuantity": "140 g",
+      "waterQuantity": null,
+      "sweetnessLevel": null,
+      "version": 1,
+      "updatedAt": null,
+      "verification": "source-unverified"
+    },
+    {
+      "id": "9f-poster-036",
+      "menuNumber": "9F-036",
+      "sourceTitle": "Taro Oreo Milk",
+      "englishName": "Taro Oreo Milk",
+      "burmeseName": null,
+      "categoryId": "poster-matcha",
+      "line": "cold",
+      "image": null,
+      "cupSizes": [
+        16
+      ],
+      "ingredients": [
+        {
+          "name": "Taro Powder",
+          "quantity": "25 g"
+        },
+        {
+          "name": "ရေနွေးနွေး",
+          "quantity": "35 g"
+        },
+        {
+          "name": "Fresh Milk",
+          "quantity": "135 g"
+        },
+        {
+          "name": "Ice",
+          "quantity": "170 g"
+        },
+        {
+          "name": "Oreo Original",
+          "quantity": "2 ချပ်"
+        }
+      ],
+      "sourceIngredients": [
+        {
+          "name": "Taro Powder",
+          "quantity": "25 g"
+        },
+        {
+          "name": "ရေနွေးနွေး",
+          "quantity": "35 g"
+        },
+        {
+          "name": "Fresh Milk",
+          "quantity": "135 g"
+        },
+        {
+          "name": "Ice",
+          "quantity": "170 g"
+        },
+        {
+          "name": "Oreo Original",
+          "quantity": "2 ချပ်"
+        }
+      ],
+      "steps": [
+        "1. Taro Powder 25 g ကို ရေနွေးနွေး 35 g ဖြင့် အဖုမကျန်အောင် ဖျော်ပါ။",
+        "2. နို့ကို ထည့်၍ မွှေပါ။",
+        "3. အအေးဆိုလျှင် ရေခဲ 170 g ထည့်ပါ။ အပူဆိုလျှင် နို့ကို 55–65°C အထိ အပူပေးပါ။",
+        "4. Cream/Oreo ပါလျှင် အအေးဖျော်ရည်အပေါ်မှ တင်ပါ။ Powder ၏ အချိုပါဝင်မှုကို စစ်ပါ။"
+      ],
+      "notes": [
+        "9 FLOOR COFFEE Menu Album • လက်တွေ့မစမ်းရသေးသော စမ်းသပ်ဖော်မြူလာ။",
+        "Poster မှဖြတ်ထုတ်ထားသော ပုံသည် ဒီဇိုင်းနမူနာဖြစ်ပြီး ဖျော်ပြီးသားအရည်၏ အတည်ပြုပုံမဟုတ်ပါ။",
+        "Whipping Cream / Powder / Concentrate အမျိုးအစားနှင့် အချိုပြင်းအားကို Label အရ အတည်ပြုပါ။ နို့နှင့် Cream ကို 4°C သို့မဟုတ် အောက်တွင်ထားပါ။",
+        "စမ်းသပ်ရောင်းဈေး 16 oz: ฿55–75 (ကုန်ကျစရိတ် မတွက်ရသေး)"
+      ],
+      "espressoDose": null,
+      "espressoYield": null,
+      "iceQuantity": "170 g",
+      "milkQuantity": "135 g",
+      "waterQuantity": null,
+      "sweetnessLevel": null,
+      "version": 1,
+      "updatedAt": null,
+      "verification": "source-unverified"
+    },
+    {
+      "id": "9f-poster-037",
+      "menuNumber": "9F-037",
+      "sourceTitle": "Iced Cocoa Milk",
+      "englishName": "Iced Cocoa Milk",
+      "burmeseName": null,
+      "categoryId": "poster-chocolate",
+      "line": "cold",
+      "image": null,
+      "cupSizes": [
+        16
+      ],
+      "ingredients": [
+        {
+          "name": "Dutch Cocoa Powder",
+          "quantity": "12 g"
+        },
+        {
+          "name": "ရေနွေးနွေး",
+          "quantity": "35 g"
+        },
+        {
+          "name": "Fresh Milk",
+          "quantity": "140 g"
+        },
+        {
+          "name": "Ice",
+          "quantity": "170 g"
+        }
+      ],
+      "sourceIngredients": [
+        {
+          "name": "Dutch Cocoa Powder",
+          "quantity": "12 g"
+        },
+        {
+          "name": "ရေနွေးနွေး",
+          "quantity": "35 g"
+        },
+        {
+          "name": "Fresh Milk",
+          "quantity": "140 g"
+        },
+        {
+          "name": "Ice",
+          "quantity": "170 g"
+        }
+      ],
+      "steps": [
+        "1. Chocolate / Cocoa Powder ကို ရေနွေးနွေး 35 g ဖြင့် အဖုမကျန်အောင် အရင်ဖျော်ပါ။",
+        "2. နို့ကို ထည့်ပြီး ရောမွှေပါ။",
+        "3. အအေးဆိုလျှင် 16 oz ခွက်ထဲ ရေခဲ 170 g ထည့်ပါ။ အပူဆိုလျှင် နို့ကို 55–65°C အထိ အပူပေးပါ။",
+        "4. အချိုပါဝင်မှု Powder Brand အလိုက် ကွာနိုင်သည်။ အချိုလိုမှ Syrup ထပ်ထည့်ပါ။"
+      ],
+      "notes": [
+        "9 FLOOR COFFEE Menu Album • လက်တွေ့မစမ်းရသေးသော စမ်းသပ်ဖော်မြူလာ။",
+        "Poster မှဖြတ်ထုတ်ထားသော ပုံသည် ဒီဇိုင်းနမူနာဖြစ်ပြီး ဖျော်ပြီးသားအရည်၏ အတည်ပြုပုံမဟုတ်ပါ။",
+        "Whipping Cream / Powder / Concentrate အမျိုးအစားနှင့် အချိုပြင်းအားကို Label အရ အတည်ပြုပါ။ နို့နှင့် Cream ကို 4°C သို့မဟုတ် အောက်တွင်ထားပါ။",
+        "စမ်းသပ်ရောင်းဈေး 16 oz: ฿55–75 (ကုန်ကျစရိတ် မတွက်ရသေး)"
+      ],
+      "espressoDose": null,
+      "espressoYield": null,
+      "iceQuantity": "170 g",
+      "milkQuantity": "140 g",
+      "waterQuantity": null,
+      "sweetnessLevel": null,
+      "version": 1,
+      "updatedAt": null,
+      "verification": "source-unverified"
+    },
+    {
+      "id": "9f-poster-038",
+      "menuNumber": "9F-038",
+      "sourceTitle": "Iced Milk Green Tea",
+      "englishName": "Iced Milk Green Tea",
+      "burmeseName": null,
+      "categoryId": "poster-milk",
+      "line": "cold",
+      "image": null,
+      "cupSizes": [
+        16
+      ],
+      "ingredients": [
+        {
+          "name": "Diamond Milk Green Tea Instant Powder",
+          "quantity": "25 g"
+        },
+        {
+          "name": "ရေနွေးနွေး",
+          "quantity": "35 g"
+        },
+        {
+          "name": "Fresh Milk",
+          "quantity": "140 g"
+        },
+        {
+          "name": "Ice",
+          "quantity": "170 g"
+        }
+      ],
+      "sourceIngredients": [
+        {
+          "name": "Diamond Milk Green Tea Instant Powder",
+          "quantity": "25 g"
+        },
+        {
+          "name": "ရေနွေးနွေး",
+          "quantity": "35 g"
+        },
+        {
+          "name": "Fresh Milk",
+          "quantity": "140 g"
+        },
+        {
+          "name": "Ice",
+          "quantity": "170 g"
+        }
+      ],
+      "steps": [
+        "1. Milk Green Tea Powder 25 g ကို ရေနွေးနွေး 35 g ဖြင့် ပျော်အောင်မွှေပါ။",
+        "2. နို့ကို ထည့်ပြီး မွှေပါ။",
+        "3. အအေးဆို ရေခဲ 170 g ထည့်ပါ။ အပူဆို နို့ကို 55–65°C အထိ အပူပေးပါ။",
+        "4. Milk Green Tea Mix သည် Pure Matcha မဟုတ်ပါ။ သကြားပါဝင်မှုကို Label ဖြင့်စစ်ပါ။"
+      ],
+      "notes": [
+        "9 FLOOR COFFEE Menu Album • လက်တွေ့မစမ်းရသေးသော စမ်းသပ်ဖော်မြူလာ။",
+        "Poster မှဖြတ်ထုတ်ထားသော ပုံသည် ဒီဇိုင်းနမူနာဖြစ်ပြီး ဖျော်ပြီးသားအရည်၏ အတည်ပြုပုံမဟုတ်ပါ။",
+        "Whipping Cream / Powder / Concentrate အမျိုးအစားနှင့် အချိုပြင်းအားကို Label အရ အတည်ပြုပါ။ နို့နှင့် Cream ကို 4°C သို့မဟုတ် အောက်တွင်ထားပါ။",
+        "စမ်းသပ်ရောင်းဈေး 16 oz: ฿55–75 (ကုန်ကျစရိတ် မတွက်ရသေး)"
+      ],
+      "espressoDose": null,
+      "espressoYield": null,
+      "iceQuantity": "170 g",
+      "milkQuantity": "140 g",
+      "waterQuantity": null,
+      "sweetnessLevel": null,
+      "version": 1,
+      "updatedAt": null,
+      "verification": "source-unverified"
+    },
+    {
+      "id": "9f-poster-039",
+      "menuNumber": "9F-039",
+      "sourceTitle": "Hot Taro Latte",
+      "englishName": "Hot Taro Latte",
+      "burmeseName": null,
+      "categoryId": "poster-matcha",
+      "line": "cold",
+      "image": null,
+      "cupSizes": [
+        8
+      ],
+      "ingredients": [
+        {
+          "name": "Taro Powder",
+          "quantity": "25 g"
+        },
+        {
+          "name": "ရေနွေးနွေး",
+          "quantity": "35 g"
+        },
+        {
+          "name": "Fresh Milk",
+          "quantity": "160 g"
+        }
+      ],
+      "sourceIngredients": [
+        {
+          "name": "Taro Powder",
+          "quantity": "25 g"
+        },
+        {
+          "name": "ရေနွေးနွေး",
+          "quantity": "35 g"
+        },
+        {
+          "name": "Fresh Milk",
+          "quantity": "160 g"
+        }
+      ],
+      "steps": [
+        "1. Taro Powder 25 g ကို ရေနွေးနွေး 35 g ဖြင့် အဖုမကျန်အောင် ဖျော်ပါ။",
+        "2. နို့ကို ထည့်၍ မွှေပါ။",
+        "3. အအေးဆိုလျှင် ရေခဲ 170 g ထည့်ပါ။ အပူဆိုလျှင် နို့ကို 55–65°C အထိ အပူပေးပါ။",
+        "4. Cream/Oreo ပါလျှင် အအေးဖျော်ရည်အပေါ်မှ တင်ပါ။ Powder ၏ အချိုပါဝင်မှုကို စစ်ပါ။"
+      ],
+      "notes": [
+        "9 FLOOR COFFEE Menu Album • လက်တွေ့မစမ်းရသေးသော စမ်းသပ်ဖော်မြူလာ။",
+        "Poster မှဖြတ်ထုတ်ထားသော ပုံသည် ဒီဇိုင်းနမူနာဖြစ်ပြီး ဖျော်ပြီးသားအရည်၏ အတည်ပြုပုံမဟုတ်ပါ။",
+        "Whipping Cream / Powder / Concentrate အမျိုးအစားနှင့် အချိုပြင်းအားကို Label အရ အတည်ပြုပါ။ နို့နှင့် Cream ကို 4°C သို့မဟုတ် အောက်တွင်ထားပါ။",
+        "စမ်းသပ်ရောင်းဈေး 16 oz: ฿55–75 (ကုန်ကျစရိတ် မတွက်ရသေး)"
+      ],
+      "espressoDose": null,
+      "espressoYield": null,
+      "iceQuantity": null,
+      "milkQuantity": "160 g",
+      "waterQuantity": null,
+      "sweetnessLevel": null,
+      "version": 1,
+      "updatedAt": null,
+      "verification": "source-unverified"
+    },
+    {
+      "id": "9f-poster-040",
+      "menuNumber": "9F-040",
+      "sourceTitle": "Hot Milk Green Tea",
+      "englishName": "Hot Milk Green Tea",
+      "burmeseName": null,
+      "categoryId": "poster-hot",
+      "line": "cold",
+      "image": null,
+      "cupSizes": [
+        8
+      ],
+      "ingredients": [
+        {
+          "name": "Diamond Milk Green Tea Instant Powder",
+          "quantity": "25 g"
+        },
+        {
+          "name": "ရေနွေးနွေး",
+          "quantity": "35 g"
+        },
+        {
+          "name": "Fresh Milk",
+          "quantity": "160 g"
+        }
+      ],
+      "sourceIngredients": [
+        {
+          "name": "Diamond Milk Green Tea Instant Powder",
+          "quantity": "25 g"
+        },
+        {
+          "name": "ရေနွေးနွေး",
+          "quantity": "35 g"
+        },
+        {
+          "name": "Fresh Milk",
+          "quantity": "160 g"
+        }
+      ],
+      "steps": [
+        "1. Milk Green Tea Powder 25 g ကို ရေနွေးနွေး 35 g ဖြင့် ပျော်အောင်မွှေပါ။",
+        "2. နို့ကို ထည့်ပြီး မွှေပါ။",
+        "3. အအေးဆို ရေခဲ 170 g ထည့်ပါ။ အပူဆို နို့ကို 55–65°C အထိ အပူပေးပါ။",
+        "4. Milk Green Tea Mix သည် Pure Matcha မဟုတ်ပါ။ သကြားပါဝင်မှုကို Label ဖြင့်စစ်ပါ။"
+      ],
+      "notes": [
+        "9 FLOOR COFFEE Menu Album • လက်တွေ့မစမ်းရသေးသော စမ်းသပ်ဖော်မြူလာ။",
+        "Poster မှဖြတ်ထုတ်ထားသော ပုံသည် ဒီဇိုင်းနမူနာဖြစ်ပြီး ဖျော်ပြီးသားအရည်၏ အတည်ပြုပုံမဟုတ်ပါ။",
+        "Whipping Cream / Powder / Concentrate အမျိုးအစားနှင့် အချိုပြင်းအားကို Label အရ အတည်ပြုပါ။ နို့နှင့် Cream ကို 4°C သို့မဟုတ် အောက်တွင်ထားပါ။",
+        "စမ်းသပ်ရောင်းဈေး 16 oz: ฿55–75 (ကုန်ကျစရိတ် မတွက်ရသေး)"
+      ],
+      "espressoDose": null,
+      "espressoYield": null,
+      "iceQuantity": null,
+      "milkQuantity": "160 g",
+      "waterQuantity": null,
+      "sweetnessLevel": null,
+      "version": 1,
+      "updatedAt": null,
+      "verification": "source-unverified"
+    },
+    {
+      "id": "9f-poster-041",
+      "menuNumber": "9F-041",
+      "sourceTitle": "Hot Vanilla Milk",
+      "englishName": "Hot Vanilla Milk",
+      "burmeseName": null,
+      "categoryId": "poster-hot",
+      "line": "cold",
+      "image": null,
+      "cupSizes": [
+        8
+      ],
+      "ingredients": [
+        {
+          "name": "Vanilla Syrup",
+          "quantity": "15 g"
+        },
+        {
+          "name": "Fresh Milk",
+          "quantity": "180 g"
+        }
+      ],
+      "sourceIngredients": [
+        {
+          "name": "Vanilla Syrup",
+          "quantity": "15 g"
+        },
+        {
+          "name": "Fresh Milk",
+          "quantity": "180 g"
+        }
+      ],
+      "steps": [
+        "1. Syrup 15 g ကို ခွက်ထဲထည့်ပါ။",
+        "2. နို့ကို ထည့်ပြီး ရောမွှေပါ။",
+        "3. အအေးဆို ရေခဲ 170 g ထည့်ပါ။ အပူဆို နို့ကို 55–65°C အထိ အပူပေးပါ။",
+        "4. အချိုအရသာကို မြည်းစမ်းချိန်ညှိပါ။"
+      ],
+      "notes": [
+        "9 FLOOR COFFEE Menu Album • လက်တွေ့မစမ်းရသေးသော စမ်းသပ်ဖော်မြူလာ။",
+        "Poster မှဖြတ်ထုတ်ထားသော ပုံသည် ဒီဇိုင်းနမူနာဖြစ်ပြီး ဖျော်ပြီးသားအရည်၏ အတည်ပြုပုံမဟုတ်ပါ။",
+        "Whipping Cream / Powder / Concentrate အမျိုးအစားနှင့် အချိုပြင်းအားကို Label အရ အတည်ပြုပါ။ နို့နှင့် Cream ကို 4°C သို့မဟုတ် အောက်တွင်ထားပါ။",
+        "စမ်းသပ်ရောင်းဈေး 16 oz: ฿55–75 (ကုန်ကျစရိတ် မတွက်ရသေး)"
+      ],
+      "espressoDose": null,
+      "espressoYield": null,
+      "iceQuantity": null,
+      "milkQuantity": "180 g",
+      "waterQuantity": null,
+      "sweetnessLevel": null,
+      "version": 1,
+      "updatedAt": null,
+      "verification": "source-unverified"
     }
   ],
   "seedVersion": 5
