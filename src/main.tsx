@@ -13,6 +13,7 @@ import { countries, coldStyles, internationalRecipes } from "./international";
 import { preparationGroups, isPreparation } from "./preparations";
 import DensityConverter from "./DensityConverter";
 import RecipePhoto, { PhotoCredit } from "./RecipePhoto";
+import { posterImageForName } from "./posterPhotos";
 import {
   getProcedure,
   relatedStyles,
@@ -192,7 +193,9 @@ function App() {
     : null;
   const source = catalog?.recipes || [];
   const currentRecipes =
-    view === "styles"
+    view === "album"
+      ? source.filter((r) => !!posterImageForName(r.englishName))
+      : view === "styles"
       ? source
       : view === "preparations"
         ? source.filter(isPreparation)
@@ -236,6 +239,7 @@ function App() {
           >
             မီနူးစာအုပ်
           </button>
+          <button className={view === "album" ? "active" : ""} onClick={() => selectView("album")}>9 FLOOR Album</button>
           <button
             className={view === "world" ? "active" : ""}
             onClick={() => selectView("world")}
@@ -352,7 +356,9 @@ function App() {
             <div>
               <span className="eyebrow">YOUR RECIPE LIBRARY</span>
               <h2>
-                {view === "styles"
+                {view === "album"
+                  ? "9 FLOOR COFFEE — Menu Album"
+                  : view === "styles"
                   ? "အမျိုးအစားအလိုက် စတိုင်စုံ"
                   : view === "matcha"
                     ? "Matcha — နိုင်ငံတကာစတိုင်များ"
@@ -415,6 +421,7 @@ function App() {
                   </span>
                 </button>
               </div>
+              <button className="matcha-shortcut" onClick={() => selectView("album")}>📸 9 FLOOR COFFEE Poster Album မီနူးများ ကြည့်ရန် ↗</button>
               <button
                 className="matcha-shortcut"
                 onClick={() => selectView("matcha")}
@@ -435,6 +442,7 @@ function App() {
               )}
             </>
           )}
+          {view === "album" && <p className="muted">Menu Album ထဲက ပုံများကို မီနူးအမည်အတိုင်း ချိတ်ထားသည်။ ပုံများသည် Poster ဒီဇိုင်းနမူနာများ ဖြစ်ပြီး Recipe များကို ဆိုင်မရောင်းမီ စမ်းသပ်အတည်ပြုပါ။</p>}
           {view === "styles" && (
             <div className="matcha-styles" aria-label="စတိုင်အုပ်စုများ">
               {Object.entries(familyNames).map(([id, name]) => (
@@ -815,8 +823,8 @@ function App() {
         <button onClick={() => selectView("favorites")}>
           ♡<span>အကြိုက်ဆုံး</span>
         </button>
-        <button onClick={() => selectView("recent")}>
-          ◷<span>ကြည့်ပြီး</span>
+        <button onClick={() => selectView("album")}>
+          ▣<span>9 FLOOR Album</span>
         </button>
       </nav>
     </>
