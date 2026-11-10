@@ -85,16 +85,26 @@ test("locally hosted reference photographs load, carry credits and survive an of
     fullPage: false,
   });
 });
-test("unavailable photographs show a clear text fallback without a cartoon or broken image", async ({
-  page,
-}) => {
-  await page.route("**/photos/iced-americano-*", (r) =>
-    r.fulfill({ status: 404, body: "missing" }),
-  );
-  await page.goto("./#/recipe/v8-01-02");
-  await expect(page.locator(".detail-photo .photo-unavailable")).toBeVisible();
-  await expect(page.locator(".detail-photo img")).toHaveCount(0);
+test.describe("mocked missing photo", () => {
+  // Force a real 404 instead of racing a service-worker cached image.
+  test.use({ serviceWorkers: "block" });
+  test("unavailable photographs show a clear text fallback without a cartoon or broken image", async ({
+    page,
+  }) => {
+    let intercepted = 0;
+    await page.route("**/photos/iced-americano-*", (r) => {
+      intercepted++;
+      return r.fulfill({ status: 404, body: "missing" });
+    });
+    await page.goto("./#/recipe/v8-01-02");
+    await expect.poll(() => intercepted).toBeGreaterThan(0);
+    await expect(
+      page.locator(".detail-photo .photo-unavailable"),
+    ).toBeVisible();
+    await expect(page.locator(".detail-photo img")).toHaveCount(0);
+  });
 });
+
 test("portrait and tablet headers keep all four full navigation labels visible and usable", async ({
   page,
 }) => {
