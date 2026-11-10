@@ -59,6 +59,16 @@ it("all 87 embedded crops match the supplied album bytes and decode as JPEG", as
     expect(posterImageForName(r.englishName), r.englishName).not.toBeNull();
     expect(posterGroupForName(r.englishName), r.englishName).not.toBeNull();
   }
+  const album = seed.recipes.filter((r) => posterImageForName(r.englishName));
+  expect(album).toHaveLength(59);
+  const normalize = (name: string) =>
+    name.toLowerCase().replace(/^(iced |hot )/, "");
+  for (const row of posterCatalog.filter((r) => r.category !== "Toppings")) {
+    expect(
+      album.some((r) => normalize(r.englishName) === normalize(row.name)),
+      row.name,
+    ).toBe(true);
+  }
   expect(posterGroupForName("Iced Vanilla Latte")).toBe("album-signature");
   expect(posterImageForName("Hot Espresso")).toBe(
     posterImageForName("Espresso"),
