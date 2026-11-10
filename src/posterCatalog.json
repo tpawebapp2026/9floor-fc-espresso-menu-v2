@@ -1,0 +1,698 @@
+[
+  {
+    "page": 1,
+    "code": "C01",
+    "name": "Espresso",
+    "category": "Classic Coffee",
+    "imagePath": "drink_photos/p1_C01.jpg",
+    "sha256": "e826c7c419aea677f64c6b40736f9829c7a0b478099cca07d3c7d7532b368d39"
+  },
+  {
+    "page": 1,
+    "code": "C02",
+    "name": "Americano",
+    "category": "Classic Coffee",
+    "imagePath": "drink_photos/p1_C02.jpg",
+    "sha256": "d8ab59df4aee72a5c5d69fa897c86d0e0a1807e1f11c080a152ce2367dcce14b"
+  },
+  {
+    "page": 1,
+    "code": "C03",
+    "name": "Latte",
+    "category": "Classic Coffee",
+    "imagePath": "drink_photos/p1_C03.jpg",
+    "sha256": "6e9274dc9ce0db6653a9d278186bdb071477c5aab27e43c0cfde13d9e4e79254"
+  },
+  {
+    "page": 1,
+    "code": "C04",
+    "name": "Cappuccino",
+    "category": "Classic Coffee",
+    "imagePath": "drink_photos/p1_C04.jpg",
+    "sha256": "f464f1206499c169b6ed33f746ad4ff8689d8b92f223f497d9c50c11d4d280a6"
+  },
+  {
+    "page": 1,
+    "code": "C05",
+    "name": "Mocha",
+    "category": "Classic Coffee",
+    "imagePath": "drink_photos/p1_C05.jpg",
+    "sha256": "54f6f353dd2a821f725c319d0235bc468cb03a00ea1bdc60e0f089b1174e4df1"
+  },
+  {
+    "page": 1,
+    "code": "S01",
+    "name": "Caramel Macchiato",
+    "category": "Signature Coffee",
+    "imagePath": "drink_photos/p1_S01.jpg",
+    "sha256": "3703964e24f8c42c1a2c2e7a5687e2ec06094902c2c2af4555b080fb286d532f"
+  },
+  {
+    "page": 1,
+    "code": "S02",
+    "name": "Honey Latte",
+    "category": "Signature Coffee",
+    "imagePath": "drink_photos/p1_S02.jpg",
+    "sha256": "460e228a85071aad269f4092e04405d321a26324208c34b81bbfc4dd3ed5f47e"
+  },
+  {
+    "page": 1,
+    "code": "S03",
+    "name": "Vanilla Latte",
+    "category": "Signature Coffee",
+    "imagePath": "drink_photos/p1_S03.jpg",
+    "sha256": "4fa8292cfd415762a43de28652e731cb31aa4de9f777951c5717ec102454f235"
+  },
+  {
+    "page": 1,
+    "code": "S04",
+    "name": "Sea Salt Latte",
+    "category": "Signature Coffee",
+    "imagePath": "drink_photos/p1_S04.jpg",
+    "sha256": "d6c01f706e0acbeb9599cf673c00c0fafcf09f2ff8dc526865b7bcf0934cb3f5"
+  },
+  {
+    "page": 1,
+    "code": "S05",
+    "name": "Dalgona Coffee",
+    "category": "Signature Coffee",
+    "imagePath": "drink_photos/p1_S05.jpg",
+    "sha256": "2d36ea5dbb0393b4685fdfee8febe0f5340cc79b043dfb026f3be63a8ff7726c"
+  },
+  {
+    "page": 1,
+    "code": "CH01",
+    "name": "Classic Chocolate",
+    "category": "Chocolate",
+    "imagePath": "drink_photos/p1_CH01.jpg",
+    "sha256": "ae34b041a58ec7805f416d0ea6d8a465578d2a8b89f65734ffc5813de15f41fa"
+  },
+  {
+    "page": 1,
+    "code": "CH02",
+    "name": "Dark Cocoa",
+    "category": "Chocolate",
+    "imagePath": "drink_photos/p1_CH02.jpg",
+    "sha256": "984fd17f732c29070c990dc2eca1e1289ba1be251f4766f699bcd98c477f9b3b"
+  },
+  {
+    "page": 1,
+    "code": "CH03",
+    "name": "Chocolate Oreo",
+    "category": "Chocolate",
+    "imagePath": "drink_photos/p1_CH03.jpg",
+    "sha256": "268a329820b82d3226e6691ae4fcd5e73279f572f874cf120a8d90e15de39b55"
+  },
+  {
+    "page": 1,
+    "code": "M01",
+    "name": "Matcha Latte",
+    "category": "Matcha",
+    "imagePath": "drink_photos/p1_M01.jpg",
+    "sha256": "6765f1d193158755a4f151e93bed11ce05d6f6893b21b2a2b0d66942c28a3e1a"
+  },
+  {
+    "page": 1,
+    "code": "M02",
+    "name": "Matcha Cream",
+    "category": "Matcha",
+    "imagePath": "drink_photos/p1_M02.jpg",
+    "sha256": "3a660e4732d118a48232cd15cd7d6ddc3dc3f780fba4252a4f9b634db3440164"
+  },
+  {
+    "page": 1,
+    "code": "M03",
+    "name": "Matcha Oreo",
+    "category": "Matcha",
+    "imagePath": "drink_photos/p1_M03.jpg",
+    "sha256": "4935f87a2c4d87ebb5c501011c7b53fd0006410418ad9ad67ea1ef8c438298d7"
+  },
+  {
+    "page": 1,
+    "code": "T01",
+    "name": "Taro Latte",
+    "category": "Taro",
+    "imagePath": "drink_photos/p1_T01.jpg",
+    "sha256": "ee6ab4a4d82677694c639a771a4d7ef5cec3ae3f8f51f6dc1ea5e53a7fd64084"
+  },
+  {
+    "page": 1,
+    "code": "T02",
+    "name": "Taro Cream",
+    "category": "Taro",
+    "imagePath": "drink_photos/p1_T02.jpg",
+    "sha256": "da029f3e53fade1c0ed9b6f6a661bae707a13b2a7502558a78d4b5cb9ca777b6"
+  },
+  {
+    "page": 1,
+    "code": "T03",
+    "name": "Taro Oreo",
+    "category": "Taro",
+    "imagePath": "drink_photos/p1_T03.jpg",
+    "sha256": "52c7a315683e0a816873fac5ee195021f798140b8c43158f9f534d1fa77865bd"
+  },
+  {
+    "page": 1,
+    "code": "F01",
+    "name": "Strawberry Soda",
+    "category": "Fruit Soda",
+    "imagePath": "drink_photos/p1_F01.jpg",
+    "sha256": "8016f24b3f9ad194de1bef8d4786d38996a5398979a90251594bfe9246e9e955"
+  },
+  {
+    "page": 1,
+    "code": "F02",
+    "name": "Mixed Berry Soda",
+    "category": "Fruit Soda",
+    "imagePath": "drink_photos/p1_F02.jpg",
+    "sha256": "1a83c7e882d0d322ce7ea9c32ab3a4cb4680607c4f2e3721c27d2c870dd08f0b"
+  },
+  {
+    "page": 1,
+    "code": "F03",
+    "name": "Passion Fruit Soda",
+    "category": "Fruit Soda",
+    "imagePath": "drink_photos/p1_F03.jpg",
+    "sha256": "95c31f2c4a464ad49f9f0e2c0068a3372594251f1aa4597107fe713e29475fe2"
+  },
+  {
+    "page": 1,
+    "code": "F04",
+    "name": "Lychee Soda",
+    "category": "Fruit Soda",
+    "imagePath": "drink_photos/p1_F04.jpg",
+    "sha256": "e76e8831aa4aad9af0b05e0dd9a8d3a50ddd6ecaae534a81a4195bcb56095a4a"
+  },
+  {
+    "page": 1,
+    "code": "F05",
+    "name": "Blueberry Soda",
+    "category": "Fruit Soda",
+    "imagePath": "drink_photos/p1_F05.jpg",
+    "sha256": "4f5f557082d209ba180feed5aabf1f3d4030552380a250f43295f00887e2af19"
+  },
+  {
+    "page": 1,
+    "code": "MI01",
+    "name": "Vanilla Milk",
+    "category": "Milk",
+    "imagePath": "drink_photos/p1_MI01.jpg",
+    "sha256": "29dac23016123caac1cf618ad0f11a1501d5f80af40eed1785c4db149df82707"
+  },
+  {
+    "page": 1,
+    "code": "MI02",
+    "name": "Caramel Milk",
+    "category": "Milk",
+    "imagePath": "drink_photos/p1_MI02.jpg",
+    "sha256": "d9f6115785477cd238ebbc94f875c7b0567d295ac1d2cf352f4983327e6edbf1"
+  },
+  {
+    "page": 1,
+    "code": "MI03",
+    "name": "Honey Milk",
+    "category": "Milk",
+    "imagePath": "drink_photos/p1_MI03.jpg",
+    "sha256": "abd8fac78c953cfc0f4c8fe4d9d4105f5d84b9587d8caee8b9561b5586656d58"
+  },
+  {
+    "page": 1,
+    "code": "MI04",
+    "name": "Milk Green Tea",
+    "category": "Milk",
+    "imagePath": "drink_photos/p1_MI04.jpg",
+    "sha256": "6ea77bb5d44b50a03ab7b63ab2b700f4f8a6b3df2c7e3aef314e3fe8dc6070fd"
+  },
+  {
+    "page": 1,
+    "code": "MI05",
+    "name": "Ice Milk",
+    "category": "Milk",
+    "imagePath": "drink_photos/p1_MI05.jpg",
+    "sha256": "95cc2f3910fea559c751f00b616893910e676e841e82b33c74972ecbf66a19e8"
+  },
+  {
+    "page": 1,
+    "code": "H01",
+    "name": "Hot Americano",
+    "category": "Hot Drinks",
+    "imagePath": "drink_photos/p1_H01.jpg",
+    "sha256": "773d8d073361b4a03a39bc5fce692eeaa9068633e39cb7418173251b260a64b8"
+  },
+  {
+    "page": 1,
+    "code": "H02",
+    "name": "Hot Latte",
+    "category": "Hot Drinks",
+    "imagePath": "drink_photos/p1_H02.jpg",
+    "sha256": "50b61a940b5aecf803655f96344789b8367ee65e8dd654409f557249494c3e9f"
+  },
+  {
+    "page": 1,
+    "code": "H03",
+    "name": "Hot Cappuccino",
+    "category": "Hot Drinks",
+    "imagePath": "drink_photos/p1_H03.jpg",
+    "sha256": "f07f680dc2c1cc92a982f32300331706875985cd93e1489e1dc7ee674d964b8f"
+  },
+  {
+    "page": 1,
+    "code": "H04",
+    "name": "Hot Chocolate",
+    "category": "Hot Drinks",
+    "imagePath": "drink_photos/p1_H04.jpg",
+    "sha256": "78bddfc9f79c1da672c0e8aa83f7a5152940f65e82890292d05379ee9df4a31a"
+  },
+  {
+    "page": 2,
+    "code": "C06",
+    "name": "Iced Sea Salt Latte",
+    "category": "Signature Coffee",
+    "imagePath": "drink_photos/p2_C06.jpg",
+    "sha256": "69a2686d87545db1c47d5890e3e2e5f958a0b9e1d228b32cbf25f60ff355e17c"
+  },
+  {
+    "page": 2,
+    "code": "C07",
+    "name": "Dalgona Honey Latte",
+    "category": "Signature Coffee",
+    "imagePath": "drink_photos/p2_C07.jpg",
+    "sha256": "efb51748de0630fe377569d7620b08445f1577347238ec2d7779d8f581dc00aa"
+  },
+  {
+    "page": 2,
+    "code": "C08",
+    "name": "Iced Oreo Latte",
+    "category": "Signature Coffee",
+    "imagePath": "drink_photos/p2_C08.jpg",
+    "sha256": "7abe7e7999e44749e78a313986b8cd450d71c7461b8b942fdbf83eae35cc2dd3"
+  },
+  {
+    "page": 2,
+    "code": "C09",
+    "name": "Caramel Oreo Latte",
+    "category": "Signature Coffee",
+    "imagePath": "drink_photos/p2_C09.jpg",
+    "sha256": "d2ae7220966bae18bf6966178fbaf133bf33200c461e936fa47c3062693e5afb"
+  },
+  {
+    "page": 2,
+    "code": "C10",
+    "name": "Vanilla Cold Foam Latte",
+    "category": "Signature & Chocolate",
+    "imagePath": "drink_photos/p2_C10.jpg",
+    "sha256": "d9d987f7120fd9c0c781f302cd12d74a6ac4133db4a39c45ff1635a14952ae91"
+  },
+  {
+    "page": 2,
+    "code": "C11",
+    "name": "Honey Lemon Espresso",
+    "category": "Signature & Chocolate",
+    "imagePath": "drink_photos/p2_C11.jpg",
+    "sha256": "279be85480d98a143082f0ef54d216bd4738852a1fd16dd63ac1a8004ab7c9e6"
+  },
+  {
+    "page": 2,
+    "code": "C12",
+    "name": "Iced Chocolate Latte",
+    "category": "Signature & Chocolate",
+    "imagePath": "drink_photos/p2_C12.jpg",
+    "sha256": "80cbad25e9236110f23eab4edfbc32ed693629396514c0719383b16cc4067ef9"
+  },
+  {
+    "page": 2,
+    "code": "C13",
+    "name": "Chocolate Cold Foam",
+    "category": "Signature & Chocolate",
+    "imagePath": "drink_photos/p2_C13.jpg",
+    "sha256": "a10e388a059b610e6973b2cd4293ff575e5714adc23e1a164f888496f4a8b285"
+  },
+  {
+    "page": 2,
+    "code": "C14",
+    "name": "Strawberry Matcha Latte",
+    "category": "Matcha & Taro",
+    "imagePath": "drink_photos/p2_C14.jpg",
+    "sha256": "d9878203fb35dbb9f5180ef824d940f322eccfda273a542ed148e550614e6e9c"
+  },
+  {
+    "page": 2,
+    "code": "C15",
+    "name": "Mixed Berry Matcha Latte",
+    "category": "Matcha & Taro",
+    "imagePath": "drink_photos/p2_C15.jpg",
+    "sha256": "fa95364526a736a74a5f2e363afc12b4a06cf001f8eda054c17603cb67667bd3"
+  },
+  {
+    "page": 2,
+    "code": "C16",
+    "name": "Taro Matcha Latte",
+    "category": "Matcha & Taro",
+    "imagePath": "drink_photos/p2_C16.jpg",
+    "sha256": "80753d5946dbe2921d46aa51cd8c30efe262b1c552bd87bfc01462392c6f662f"
+  },
+  {
+    "page": 3,
+    "code": "F01A",
+    "name": "Passion Lychee Soda",
+    "category": "Fruit Soda",
+    "imagePath": "drink_photos/p3_F01A.jpg",
+    "sha256": "d42c4ca786185d339db5929ad2db6d5b79c2f85bbf8a6f6dbb882eddd76de432"
+  },
+  {
+    "page": 3,
+    "code": "F02A",
+    "name": "Strawberry Lychee Soda",
+    "category": "Fruit Soda",
+    "imagePath": "drink_photos/p3_F02A.jpg",
+    "sha256": "0d07049b2616752f95355281d4d22533e63cb3e5c679a1de396ace16f93c3a77"
+  },
+  {
+    "page": 3,
+    "code": "F03A",
+    "name": "Mixed Berry Lychee Soda",
+    "category": "Fruit Soda",
+    "imagePath": "drink_photos/p3_F03A.jpg",
+    "sha256": "7a8998d2b56a98751d8dd1e4971e1dd3086522a7f119ea8144ebe61674eac5f6"
+  },
+  {
+    "page": 3,
+    "code": "F04A",
+    "name": "Strawberry Passion Soda",
+    "category": "Fruit Soda",
+    "imagePath": "drink_photos/p3_F04A.jpg",
+    "sha256": "49a4ca24074874f807a3cecc99fb398641261cf9cfccb278ba65aa6f0812a040"
+  },
+  {
+    "page": 3,
+    "code": "F05A",
+    "name": "Blue Passion Soda",
+    "category": "Fruit Soda",
+    "imagePath": "drink_photos/p3_F05A.jpg",
+    "sha256": "9533e5591ef917c855cfe5f31b54c8d0afd3128835e96bb07514f86966c13376"
+  },
+  {
+    "page": 3,
+    "code": "F06A",
+    "name": "Blue Lychee Soda",
+    "category": "Fruit Soda",
+    "imagePath": "drink_photos/p3_F06A.jpg",
+    "sha256": "0bf0fd77be4fcc43550365ce4129e9518f0d8cb2ec56e88c06e6ef35b84bbaf8"
+  },
+  {
+    "page": 3,
+    "code": "K01A",
+    "name": "Vanilla Oreo Milk",
+    "category": "Cream & Milk",
+    "imagePath": "drink_photos/p3_K01A.jpg",
+    "sha256": "3c73e2ee52ed97fee07de00b7d17d2a6bf754cc5a100f5df2169c21ef3f0350a"
+  },
+  {
+    "page": 3,
+    "code": "K02A",
+    "name": "Strawberry Cream Milk",
+    "category": "Cream & Milk",
+    "imagePath": "drink_photos/p3_K02A.jpg",
+    "sha256": "87b841e5268e28e0903c3d6ca44fdf6be7e1cadb2ed741498218a43431300c0f"
+  },
+  {
+    "page": 3,
+    "code": "K03A",
+    "name": "Mixed Berry Cream Milk",
+    "category": "Cream & Milk",
+    "imagePath": "drink_photos/p3_K03A.jpg",
+    "sha256": "584915c1f2c8f0c5feb95204aa3306c582042a936460796de258410501ad6069"
+  },
+  {
+    "page": 3,
+    "code": "K04A",
+    "name": "Chocolate Oreo Cream",
+    "category": "Cream & Milk",
+    "imagePath": "drink_photos/p3_K04A.jpg",
+    "sha256": "ed92b9f1124ffa25932b334658d724f19298922642f2f9ee5cdb1a9432625b98"
+  },
+  {
+    "page": 3,
+    "code": "K05A",
+    "name": "Taro Oreo Milk",
+    "category": "Cream & Milk",
+    "imagePath": "drink_photos/p3_K05A.jpg",
+    "sha256": "561496b4e6eb0fe6f217117ad635045326c1852524010f201caaf13796b2f4e2"
+  },
+  {
+    "page": 4,
+    "code": "C06A",
+    "name": "Sea Salt Latte",
+    "category": "Signature Coffee",
+    "imagePath": "drink_photos/p4_C06A.jpg",
+    "sha256": "50c471bf54853a861172e3acfbe98dfedd5249d460a809c90a9e2a25cf555538"
+  },
+  {
+    "page": 4,
+    "code": "C07A",
+    "name": "Dalgona Honey Latte",
+    "category": "Signature Coffee",
+    "imagePath": "drink_photos/p4_C07A.jpg",
+    "sha256": "4c148c82a4288e3a66701a7d5279582ea7503a98d686bb699aebad68dfa0b933"
+  },
+  {
+    "page": 4,
+    "code": "C08A",
+    "name": "Oreo Latte",
+    "category": "Signature Coffee",
+    "imagePath": "drink_photos/p4_C08A.jpg",
+    "sha256": "1438edda287345e5a97f7dd589c0cb418953c72906a632928913befdb294f6bf"
+  },
+  {
+    "page": 4,
+    "code": "C09A",
+    "name": "Caramel Oreo Latte",
+    "category": "Signature Coffee",
+    "imagePath": "drink_photos/p4_C09A.jpg",
+    "sha256": "215896432c4f06d48ec40f571f14302b236325a6b0ddc5eaa65414db60eafe7e"
+  },
+  {
+    "page": 4,
+    "code": "C10A",
+    "name": "Vanilla Cold Foam Latte",
+    "category": "Signature Coffee",
+    "imagePath": "drink_photos/p4_C10A.jpg",
+    "sha256": "f1b57a3f5fec2bf9fc552057fb5b605bf7ad699c69d7a5752f3318595315198e"
+  },
+  {
+    "page": 4,
+    "code": "C11A",
+    "name": "Honey Lemon Espresso",
+    "category": "Signature Coffee",
+    "imagePath": "drink_photos/p4_C11A.jpg",
+    "sha256": "92fbe39605fac00e4ba51f701f69ac5266481639b4ea2f65bf7e298c86a37395"
+  },
+  {
+    "page": 4,
+    "code": "CH04",
+    "name": "Iced Chocolate Latte",
+    "category": "Chocolate",
+    "imagePath": "drink_photos/p4_CH04.jpg",
+    "sha256": "36d2bfcee3fb085a9fef1bfd14fe266ff15e856a5135cd9e0048856f25f5b860"
+  },
+  {
+    "page": 4,
+    "code": "CH05",
+    "name": "Chocolate Cold Foam",
+    "category": "Chocolate",
+    "imagePath": "drink_photos/p4_CH05.jpg",
+    "sha256": "8ae522f0b657b1541e715a32c3075d7edc970e7ecabcf2b1c188727d2b402439"
+  },
+  {
+    "page": 4,
+    "code": "CH06",
+    "name": "Iced Cocoa Milk",
+    "category": "Chocolate",
+    "imagePath": "drink_photos/p4_CH06.jpg",
+    "sha256": "185f72f53e4f50affd3cd1edf20105503508d7010dbd1ec6aca2e6d9cd36a46a"
+  },
+  {
+    "page": 4,
+    "code": "M04",
+    "name": "Strawberry Matcha Latte",
+    "category": "Matcha",
+    "imagePath": "drink_photos/p4_M04.jpg",
+    "sha256": "08ea7b036f71fb1580368683ca6bbb4ac2caf178407ffbcc81676cc20e0aeea3"
+  },
+  {
+    "page": 4,
+    "code": "M05",
+    "name": "Mixed Berry Matcha Latte",
+    "category": "Matcha",
+    "imagePath": "drink_photos/p4_M05.jpg",
+    "sha256": "8685ecb9be6569002924b7561f122645938093f6488c23f53911d76ac068343a"
+  },
+  {
+    "page": 4,
+    "code": "M06",
+    "name": "Taro Matcha Latte",
+    "category": "Matcha",
+    "imagePath": "drink_photos/p4_M06.jpg",
+    "sha256": "1025c736df4b7749303e719582490d4bf23a09ddb8fd1a79611c981dd36209d5"
+  },
+  {
+    "page": 4,
+    "code": "T04",
+    "name": "Iced Milk Green Tea",
+    "category": "Taro & Green Tea",
+    "imagePath": "drink_photos/p4_T04.jpg",
+    "sha256": "b6ecd5dc7ce563da1775021104b028fe7a8515fb13c1e831d07104a5def70f38"
+  },
+  {
+    "page": 4,
+    "code": "T05",
+    "name": "Taro Oreo Milk",
+    "category": "Taro & Green Tea",
+    "imagePath": "drink_photos/p4_T05.jpg",
+    "sha256": "01cbc43fd185b55e1c9947b0b097f132014afe08f38940aefcf811f7f337ee75"
+  },
+  {
+    "page": 4,
+    "code": "K01",
+    "name": "Vanilla Oreo Milk",
+    "category": "Cream & Oreo Milk",
+    "imagePath": "drink_photos/p4_K01.jpg",
+    "sha256": "bad48b7d49ae0ef532cdc2e4b2f4542be60aa07d33022d88d804dccad6fc7142"
+  },
+  {
+    "page": 4,
+    "code": "K02",
+    "name": "Strawberry Cream Milk",
+    "category": "Cream & Oreo Milk",
+    "imagePath": "drink_photos/p4_K02.jpg",
+    "sha256": "57eb382e7fbde31ed5e606ba94abb52464ef4f18c97f34b7f96a09d03918c00b"
+  },
+  {
+    "page": 4,
+    "code": "K03",
+    "name": "Mixed Berry Cream Milk",
+    "category": "Cream & Oreo Milk",
+    "imagePath": "drink_photos/p4_K03.jpg",
+    "sha256": "32a2271b04012eaffc1eae038cb162ec1605219e268a65f3b2dcf90870dbebcf"
+  },
+  {
+    "page": 4,
+    "code": "F06",
+    "name": "Passion Lychee Soda",
+    "category": "Fruit Soda",
+    "imagePath": "drink_photos/p4_F06.jpg",
+    "sha256": "9e52c65c127e8b8c89fac4964af414d790b1878d9daf4efc24d4cea2a2103b36"
+  },
+  {
+    "page": 4,
+    "code": "F07",
+    "name": "Strawberry Lychee Soda",
+    "category": "Fruit Soda",
+    "imagePath": "drink_photos/p4_F07.jpg",
+    "sha256": "83b7f6add1ffbd635a85752a9edffd8e7be3a3e9e1e9e313b91553c594d59a75"
+  },
+  {
+    "page": 4,
+    "code": "F08",
+    "name": "Mixed Berry Lychee Soda",
+    "category": "Fruit Soda",
+    "imagePath": "drink_photos/p4_F08.jpg",
+    "sha256": "0c2701a62c4ab97257ce7f4b5785b58b148e19e331d05e98fc1b1ff4c02515c5"
+  },
+  {
+    "page": 4,
+    "code": "F09",
+    "name": "Strawberry Passion Soda",
+    "category": "Fruit Soda",
+    "imagePath": "drink_photos/p4_F09.jpg",
+    "sha256": "ba177f8b53c214f955daef89c4e8608c1e2a73bb8a46fee8620093aff960eca7"
+  },
+  {
+    "page": 4,
+    "code": "F10",
+    "name": "Blue Passion Soda",
+    "category": "Fruit Soda",
+    "imagePath": "drink_photos/p4_F10.jpg",
+    "sha256": "17a3b21af5ead6651e1c9297488f5547804db8e159f031d96eb6ef08f69d0134"
+  },
+  {
+    "page": 4,
+    "code": "F11",
+    "name": "Blue Lychee Soda",
+    "category": "Fruit Soda",
+    "imagePath": "drink_photos/p4_F11.jpg",
+    "sha256": "3488e9eedfd7c593da66ce8f98d26b2d15d3c367c856f4607e83d02469064347"
+  },
+  {
+    "page": 4,
+    "code": "HT05",
+    "name": "Hot Matcha Latte",
+    "category": "Hot Drinks",
+    "imagePath": "drink_photos/p4_HT05.jpg",
+    "sha256": "d89c04e8f6b8e40098dcafed0ca2cc0107ed5d8ee4e3dd91c9e4061001535b51"
+  },
+  {
+    "page": 4,
+    "code": "HT06",
+    "name": "Hot Taro Latte",
+    "category": "Hot Drinks",
+    "imagePath": "drink_photos/p4_HT06.jpg",
+    "sha256": "3d8fc9ce798b4a010776503a165e62be34d3b0d2a2844cdb0d5cbef05ac14f6d"
+  },
+  {
+    "page": 4,
+    "code": "HT07",
+    "name": "Hot Milk Green Tea",
+    "category": "Hot Drinks",
+    "imagePath": "drink_photos/p4_HT07.jpg",
+    "sha256": "b11e5a6042686aabd5818f27ab8852e7b48219af3b0cabb195004d45b368205b"
+  },
+  {
+    "page": 4,
+    "code": "HT08",
+    "name": "Hot Vanilla Milk",
+    "category": "Hot Drinks",
+    "imagePath": "drink_photos/p4_HT08.jpg",
+    "sha256": "79b4ac2e9be087200cc1ec21ed08e7ae9ee25cb707d9c1a19e5ae260f8068907"
+  },
+  {
+    "page": 4,
+    "code": "TP01",
+    "name": "Whipped Cream",
+    "category": "Toppings",
+    "imagePath": "drink_photos/p4_TP01.jpg",
+    "sha256": "fd4eef16bd13c705cf6115bf50271ab9fa81cf4992de47cd0c2215ffd9835d14"
+  },
+  {
+    "page": 4,
+    "code": "TP02",
+    "name": "Oreo Crumble",
+    "category": "Toppings",
+    "imagePath": "drink_photos/p4_TP02.jpg",
+    "sha256": "4494dab5d5badfa184883c3e2d4b1d12cbbcd29750d923b76b3a9bba721d2322"
+  },
+  {
+    "page": 4,
+    "code": "TP03",
+    "name": "Chocolate Sauce",
+    "category": "Toppings",
+    "imagePath": "drink_photos/p4_TP03.jpg",
+    "sha256": "765d6ba909ec0dd408c1af51dc6ae725d8546874b44db91eef59eaba805abc55"
+  },
+  {
+    "page": 4,
+    "code": "TP04",
+    "name": "Caramel Sauce",
+    "category": "Toppings",
+    "imagePath": "drink_photos/p4_TP04.jpg",
+    "sha256": "9458eb194e64f2f62b713da09011efc634055d50883b022a363737a0dbc2a03e"
+  },
+  {
+    "page": 4,
+    "code": "TP05",
+    "name": "Extra Espresso Shot",
+    "category": "Toppings",
+    "imagePath": "drink_photos/p4_TP05.jpg",
+    "sha256": "a45f9a8281c522a2377e608f25268e8a94a722998ed08d586f18a61c2be30229"
+  }
+]

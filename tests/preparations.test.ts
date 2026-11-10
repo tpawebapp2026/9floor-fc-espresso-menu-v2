@@ -35,7 +35,7 @@ it("preserves every field of all 260 previous recipes, including numbers, photos
     ).toBe(hash);
   }
 });
-it("adds exactly three unique metric trial recipes per requested group without changing drink counts", () => {
+it("adds exactly three unique metric trial recipes per requested group with the expanded drink counts", () => {
   const parsed = CatalogSchema.parse(seed);
   for (const g of preparationGroups)
     expect(parsed.recipes.filter((r) => r.categoryId === g.id)).toHaveLength(3);
@@ -47,10 +47,10 @@ it("adds exactly three unique metric trial recipes per requested group without c
   }
   expect(
     parsed.recipes.filter((r) => !isPreparation(r) && r.line === "barista"),
-  ).toHaveLength(161);
+  ).toHaveLength(169);
   expect(
     parsed.recipes.filter((r) => !isPreparation(r) && r.line === "cold"),
-  ).toHaveLength(110);
+  ).toHaveLength(143);
   expect(CatalogSchema.parse(JSON.parse(JSON.stringify(parsed)))).toEqual(
     parsed,
   );

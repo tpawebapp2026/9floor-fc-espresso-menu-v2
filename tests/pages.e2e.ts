@@ -21,7 +21,7 @@ test("international cold menus expose six styles, existing country links and cor
     .locator(".world-lines")
     .getByRole("button", { name: /အအေးစုံ/ })
     .click();
-  await expect(page.locator(".recipe-card")).toHaveCount(110);
+  await expect(page.locator(".recipe-card")).toHaveCount(143);
   const styles = page.locator(".cold-style-grid button");
   await expect(styles).toHaveCount(7);
   for (let i = 1; i < 7; i++) {
@@ -59,7 +59,7 @@ test("locally hosted reference photographs load, carry credits and survive an of
   await page.goto("./");
   await page.evaluate(() => navigator.serviceWorker.ready);
   await page.reload();
-  await page.goto("./#/recipe/v8-01-09");
+  await page.goto("./#/recipe/v8-01-11");
   const image = page.locator(".detail-photo img");
   await expect(image).toBeVisible();
   await expect
@@ -91,7 +91,7 @@ test("unavailable photographs show a clear text fallback without a cartoon or br
   await page.route("**/photos/iced-americano-*", (r) =>
     r.fulfill({ status: 404, body: "missing" }),
   );
-  await page.goto("./#/recipe/v8-01-01");
+  await page.goto("./#/recipe/v8-01-02");
   await expect(page.locator(".detail-photo .photo-unavailable")).toBeVisible();
   await expect(page.locator(".detail-photo img")).toHaveCount(0);
 });
@@ -104,6 +104,7 @@ test("portrait and tablet headers keep all four full navigation labels visible a
     await page.setViewportSize({ width, height: 844 });
     for (const label of [
       "မီနူးစာအုပ်",
+      "9 FLOOR Album",
       "နိုင်ငံတကာစတိုင်",
       "အကြိုက်ဆုံး ♡",
       "အခြေခံပြင်ဆင်မှု",
@@ -146,9 +147,9 @@ test("Pages reader serves all menus under its repository path with a scoped mani
 }) => {
   await page.setViewportSize({ width: 390, height: 844 });
   await page.goto("./");
-  await expect(page.locator(".recipe-card")).toHaveCount(161);
+  await expect(page.locator(".recipe-card")).toHaveCount(169);
   await page.getByRole("button", { name: /အအေးစုံလိုင်း/ }).click();
-  await expect(page.locator(".recipe-card")).toHaveCount(110);
+  await expect(page.locator(".recipe-card")).toHaveCount(143);
   await expect(
     page.getByRole("button", { name: /စီမံခန့်ခွဲသူ ဝင်ရန်/ }),
   ).toHaveCount(0);
@@ -189,29 +190,37 @@ test("Pages deep recipe links reload online and offline without a server rewrite
   );
   await expect(page.locator(".step")).toHaveCount(16);
 });
-test("Pages cache-busted recipe requests receive a newer seed and resist an older one", async ({
-  page,
-}) => {
-  const seed = JSON.parse(await readFile("dist/recipes.json", "utf8"));
-  const updated = structuredClone(seed);
-  updated.seedVersion += 100;
-  updated.recipes[0].englishName = "Pages updated recipe";
-  await page.goto("./");
-  await expect(page.locator(".recipe-card")).toHaveCount(161);
-  await page.route("**/recipes.json?check=*", (r) =>
-    r.fulfill({ json: updated }),
-  );
-  await page.evaluate(() => window.dispatchEvent(new Event("online")));
-  await page.goto("./#/recipe/" + seed.recipes[0].id);
-  await expect(page.locator(".detail-heading h1")).toHaveText(
-    "Pages updated recipe",
-  );
-  await page.unroute("**/recipes.json?check=*");
-  await page.reload();
-  await expect(page.locator(".detail-heading h1")).toHaveText(
-    "Pages updated recipe",
-  );
+test.describe("mocked catalog refresh", () => {
+  // Service-worker behavior is tested separately; these routes must observe the mocked network.
+  test.use({ serviceWorkers: "block" });
+  test("Pages cache-busted recipe requests receive a newer seed and resist an older one", async ({
+    page,
+  }) => {
+    const seed = JSON.parse(await readFile("dist/recipes.json", "utf8"));
+    const updated = structuredClone(seed);
+    updated.seedVersion += 100;
+    updated.recipes[0].englishName = "Pages updated recipe";
+    await page.goto("./");
+    await expect(page.locator(".recipe-card")).toHaveCount(169);
+    await page.route("**/recipes.json?check=*", (r) =>
+      r.fulfill({ json: updated }),
+    );
+    await page.evaluate(() => window.dispatchEvent(new Event("online")));
+    await expect(page.locator(".recipe-card h3").first()).toHaveText(
+      "Pages updated recipe",
+    );
+    await page.goto("./#/recipe/" + seed.recipes[0].id);
+    await expect(page.locator(".detail-heading h1")).toHaveText(
+      "Pages updated recipe",
+    );
+    await page.unroute("**/recipes.json?check=*");
+    await page.reload();
+    await expect(page.locator(".detail-heading h1")).toHaveText(
+      "Pages updated recipe",
+    );
+  });
 });
+
 test("Pages discovers a changed deployment manifest and activates the new scoped worker", async ({
   page,
 }) => {
@@ -219,10 +228,10 @@ test("Pages discovers a changed deployment manifest and activates the new scoped
     manifest = await readFile("dist/version.json", "utf8");
   try {
     await page.goto("./");
-    await expect(page.locator(".recipe-card")).toHaveCount(161);
+    await expect(page.locator(".recipe-card")).toHaveCount(169);
     await page.evaluate(() => navigator.serviceWorker.ready);
     await page.reload();
-    await expect(page.locator(".recipe-card")).toHaveCount(161);
+    await expect(page.locator(".recipe-card")).toHaveCount(169);
     await page.locator(".favorite").first().click();
     const version = "pages-test-" + Date.now();
     await writeFile(
@@ -255,7 +264,7 @@ test("all four preparation groups open the correct new recipes and preserve favo
 }) => {
   await page.setViewportSize({ width: 390, height: 844 });
   await page.goto("./");
-  await expect(page.locator(".recipe-card")).toHaveCount(161);
+  await expect(page.locator(".recipe-card")).toHaveCount(169);
   await page.locator(".favorite").first().click();
   await page
     .locator(".bottom-nav")
@@ -334,9 +343,9 @@ test("mobile Matcha discovery, country style filters and detailed related recipe
   await page.setViewportSize({ width: 390, height: 844 });
   await page.goto("./");
   await page.getByRole("searchbox").fill("Matcha");
-  await expect(page.locator(".recipe-card")).toHaveCount(10);
+  await expect(page.locator(".recipe-card")).toHaveCount(15);
   await page.getByRole("button", { name: /Matcha သီးသန့်ကြည့်ရန်/ }).click();
-  await expect(page.locator(".recipe-card")).toHaveCount(10);
+  await expect(page.locator(".recipe-card")).toHaveCount(15);
   await page
     .locator(".matcha-styles")
     .getByRole("button", { name: /ထိုင်း/ })
@@ -357,4 +366,111 @@ test("mobile Matcha discovery, country style filters and detailed related recipe
     "Iced Matcha Latte",
   );
   await expect(page.locator(".original-procedure")).toBeVisible();
+});
+
+test("Album groups, exact crop images, recipes and favorites work on mobile and offline", async ({
+  page,
+  context,
+}) => {
+  await page.setViewportSize({ width: 390, height: 844 });
+  await page.goto("./");
+  await page
+    .getByRole("navigation", { name: "အဓိကမီနူး" })
+    .getByRole("button", { name: "9 FLOOR Album", exact: true })
+    .click();
+  await expect(
+    page.getByRole("heading", { name: "9 FLOOR COFFEE — Menu Album" }),
+  ).toBeVisible();
+  expect(await page.locator(".recipe-card").count()).toBeGreaterThanOrEqual(55);
+  const errors: string[] = [];
+  page.on("pageerror", (e) => errors.push(e.message));
+  const images = page.locator(".recipe-card img");
+  for (let i = 0; i < (await images.count()); i++) {
+    await images.nth(i).evaluate(async (image: HTMLImageElement) => {
+      image.loading = "eager";
+      await image.decode();
+    });
+    await expect(images.nth(i)).toHaveCSS("object-fit", "contain");
+    await expect(images.nth(i)).toHaveAttribute(
+      "src",
+      /^data:image\/jpeg;base64,/,
+    );
+  }
+  const groups = page.getByRole("combobox", { name: "အမျိုးအစား ရွေးရန်" });
+  await groups.selectOption("album-signature");
+  await expect(
+    page.getByRole("button", {
+      name: "Iced Vanilla Latte ဖျော်နည်းကြည့်ရန်",
+      exact: true,
+    }),
+  ).toBeVisible();
+  await groups.selectOption("album-cream");
+  await expect(page.locator(".recipe-card")).toHaveCount(5);
+  await page
+    .getByRole("button", {
+      name: "Chocolate Oreo Cream အကြိုက်ဆုံး",
+      exact: true,
+    })
+    .click();
+  await page
+    .getByRole("button", {
+      name: "Chocolate Oreo Cream ဖျော်နည်းကြည့်ရန်",
+      exact: true,
+    })
+    .click();
+  await expect(
+    page.locator(".ingredient").filter({ hasText: "Whipping Cream" }),
+  ).toContainText("35 g");
+  await expect(page.locator(".photo-credit")).toContainText("9 FLOOR COFFEE");
+  const cream = JSON.parse(
+    readFileSync("public/recipes.json", "utf8"),
+  ).recipes.find((r: any) => r.englishName === "Chocolate Oreo Cream");
+  await expect(page.locator(".step")).toHaveCount(cream.steps.length);
+  await page.evaluate(() => navigator.serviceWorker.ready);
+  await page.reload();
+  await context.setOffline(true);
+  await page.reload();
+  await expect(page.locator(".detail-heading h1")).toHaveText(
+    "Chocolate Oreo Cream",
+  );
+  await expect
+    .poll(() =>
+      page
+        .locator(".detail-photo img")
+        .evaluate(
+          (image: HTMLImageElement) => image.complete && image.naturalWidth > 0,
+        ),
+    )
+    .toBe(true);
+  await page
+    .locator(".bottom-nav")
+    .getByRole("button", { name: /အကြိုက်ဆုံး/ })
+    .click();
+  await expect(page.locator(".recipe-card")).toHaveCount(1);
+  await expect(
+    page.getByRole("button", {
+      name: "Chocolate Oreo Cream အကြိုက်ဆုံး",
+      exact: true,
+    }),
+  ).toHaveAttribute("aria-pressed", "true");
+  for (const width of [320, 390, 768, 1280]) {
+    await page.setViewportSize({ width, height: 844 });
+    expect(
+      await page.evaluate(
+        () => document.documentElement.scrollWidth <= innerWidth,
+      ),
+      String(width),
+    ).toBe(true);
+  }
+  expect(errors).toEqual([]);
+  await page.setViewportSize({ width: 390, height: 844 });
+  await page
+    .locator(".bottom-nav")
+    .getByRole("button", { name: /9 FLOOR Album/ })
+    .click();
+  await groups.selectOption("album-cream");
+  await page.screenshot({
+    path: "/tmp/9floor-album-cream-mobile.png",
+    fullPage: true,
+  });
 });
