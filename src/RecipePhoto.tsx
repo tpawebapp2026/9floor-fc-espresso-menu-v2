@@ -43,6 +43,7 @@ export default function RecipePhoto({
     <>
       <img
         src={source}
+        className={poster ? "poster-photo" : undefined}
         srcSet={
           p && p.large.width > p.small.width
             ? `${asset(p.small.file)} ${p.small.width}w, ${asset(p.large.file)} ${p.large.width}w`
@@ -65,9 +66,7 @@ export default function RecipePhoto({
         onError={() => setFailed(source)}
       />
       {poster && (
-        <span className="reference-photo-label">
-          9 FLOOR Menu Album ပုံ (ဒီဇိုင်းနမူနာ)
-        </span>
+        <span className="reference-photo-label">Menu Album · နမူနာပုံ</span>
       )}
       {reference && <span className="reference-photo-label">{label}</span>}
     </>

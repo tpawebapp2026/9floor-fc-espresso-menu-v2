@@ -390,6 +390,7 @@ test("Album groups, exact crop images, recipes and favorites work on mobile and 
       image.loading = "eager";
       await image.decode();
     });
+    await expect(images.nth(i)).toHaveCSS("object-fit", "contain");
     await expect(images.nth(i)).toHaveAttribute(
       "src",
       /^data:image\/jpeg;base64,/,

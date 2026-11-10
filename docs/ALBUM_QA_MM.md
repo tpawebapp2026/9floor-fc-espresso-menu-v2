@@ -14,18 +14,17 @@
 
 ## စစ်ဆေးမှု
 
-- `npm test`: 8 test files, 35 tests အောင်မြင်။
+- `npm test`: 8 test files, 35 tests အောင်မြင်။ မူရင်း 283 recipe records နှင့် JPEG 87 ပုံ၏ checksum စစ်ထားသည်။
 - `npm run build:pages`: TypeScript နှင့် Vite build အောင်မြင်။
-- `git diff --check`: အောင်မြင်။
-- Browser E2E 11 ခု: ဤစမ်းသပ်စက်တွင် Chromium ဖွင့်မရပါ။ AF_UNIX socket ကို ပိတ်ထားခြင်းကြောင့် browser စတင်မှုတွင် ပျက်သည်။ App ကို browser ဖြင့် စမ်းပြီး အောင်မြင်ကြောင်း မဆိုနိုင်သေးပါ။
-- အခြား headless browser ကို ရယူရန် စမ်းရာတွင် download ဖိုင် မပြည့်စုံသောကြောင့် မအောင်မြင်ပါ။
-- Pull Request တွင် စမ်းသပ်နိုင်ရန် deployment မလုပ်သော validation workflow ထည့်ထားသည်။ GitHub သို့ သိမ်းဆည်းရန် ကြိုးစားမှု ပယ်ချခံရသဖြင့် remote တွင် workflow မရှိသေးပါ။
+- Browser checks ကို GitHub Actions တွင် ပြေးသည်။ Album ပုံများ၊ Cream & Milk 5 မျိုး၊ Favorites၊ Offline reload နှင့် ဖုန်း/Tablet/desktop အကျယ်များကို စစ်ဆေးသည်။
+- ပထမ browser စမ်းသပ်မှုမှ တွေ့ရှိသော အချက်များကို ပြင်ထားသည်။ အထူးသဖြင့် bundled catalog ၏ revision ကို 0၊ seedVersion ကို 6 ပြန်သတ်မှတ်ထား၍ နောင် seed update များ ဝင်နိုင်စေသည်။ Published backend revision ကို overwrite မလုပ်သော စည်းမျဉ်းကို ဆက်ထိန်းထားသည်။
+- နောက်ဆုံး CI အောင်မြင်မှုနှင့် Deployment အခြေအနေကို Pull Request #5 နှင့် Actions တွင် ကြည့်နိုင်သည်။
 
-## ကျန်နေသေးသော အလုပ်
+## အသုံးပြုပုံ
 
-1. ဤပြင်ဆင်ချက်ကို `feature/signature-cream-menu-20261109` branch ထဲ သိမ်းရန်။
-2. GitHub browser checks ပြေးပြီး အမှားတွေ့ပါက ပြင်ရန်။
-3. iPhone Safari နှင့် Android တွင် လက်တွေ့ကြည့်ရန်။
-4. Production မတင်မီ ပိုင်ရှင်၏ အတည်ပြုချက်ရယူရန်။
+1. တူညီသော App လင့်ခ်ကို အင်တာနက်ချိတ်ပြီး ဖွင့်ပါ။
+2. Update ခလုတ်ပေါ်လျှင် နှိပ်ပါ။
+3. 9 FLOOR Album ကို ရွေးပြီး Signature Coffee သို့မဟုတ် Cream & Milk အုပ်စုကို ရွေးပါ။
+4. အအေးပုံကို နှိပ်လျှင် ပါဝင်ပစ္စည်းနှင့် အဆင့်လိုက် ဖျော်နည်းကို ဖွင့်သည်။
 
-Remote PR #5 ကို ဤလုပ်ဆောင်မှုအတွင်း မပြောင်းနိုင်သေးပါ။ main နှင့် Production မပြောင်းထားပါ။
+လက်တွေ့ဖုန်းများတွင် Safari/Chrome နှင့် Add to Home Screen အသုံးပြုမှု၊ ဖျော်ရည်အရသာ၊ ကုန်ကျစရိတ်နှင့် ရောင်းဈေးတို့ကို ဆိုင်တွင် စမ်းသပ်အတည်ပြုရန် ကျန်သည်။ Browser စမ်းသပ်မှုများသည် physical-device သို့မဟုတ် အရသာအတည်ပြုမှု မဟုတ်ပါ။

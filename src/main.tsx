@@ -745,7 +745,13 @@ function App() {
                   onClick={() => open(r)}
                   aria-label={`${r.englishName} ဖျော်နည်းကြည့်ရန်`}
                 >
-                  <div className={"card-image " + r.line}>
+                  <div
+                    className={
+                      "card-image " +
+                      r.line +
+                      (posterImageForName(r.englishName) ? " poster-image" : "")
+                    }
+                  >
                     <RecipePhoto recipe={r} />
                     <span className="number">
                       {r.menuNumber || r.id.toUpperCase()}

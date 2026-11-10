@@ -61,6 +61,8 @@ it("all 87 embedded crops match the supplied album bytes and decode as JPEG", as
   }
   const album = seed.recipes.filter((r) => posterImageForName(r.englishName));
   expect(album).toHaveLength(59);
+  expect(seed.revision).toBe(0);
+  expect(seed.seedVersion).toBeGreaterThan(5);
   const normalize = (name: string) =>
     name.toLowerCase().replace(/^(iced |hot )/, "");
   for (const row of posterCatalog.filter((r) => r.category !== "Toppings")) {

@@ -1488,3 +1488,16 @@ select,
 }
 
 .related-styles{display:flex;flex-wrap:wrap;gap:8px;margin:16px 0}.related-styles button{padding:10px;text-align:left;max-width:100%;overflow-wrap:anywhere}.original-procedure,.related-procedure{margin-top:20px}summary{cursor:pointer;padding:12px 0;font-weight:600}.original-procedure li{margin:12px 0}
+
+/* Keep the complete original poster cup visible instead of cropping its top and base. */
+.card-image.poster-image {
+  height: auto;
+  aspect-ratio: 4 / 5;
+}
+.card-image img.poster-photo,
+.detail-photo img.poster-photo {
+  height: 100%;
+  object-fit: contain;
+  padding: 8px 8px 26px;
+  background: var(--cream);
+}
