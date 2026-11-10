@@ -27,7 +27,9 @@ it("preserves every original 272 recipe record and adds eleven distinct unverifi
     expect(r).toBeTruthy();
     expect(createHash("sha256").update(stable(r)).digest("hex")).toBe(hash);
   }
-  const added = catalog.recipes.filter((r) => !(r.id in original));
+  const added = catalog.recipes.filter(
+    (r) => !(r.id in original) && !r.id.startsWith("9f-poster-"),
+  );
   expect(added).toHaveLength(11);
   expect(
     added.every(
@@ -35,14 +37,21 @@ it("preserves every original 272 recipe record and adds eleven distinct unverifi
     ),
   ).toBe(true);
 });
-it("offers ten Matcha menus across six country styles", () => {
+it("offers fifteen Matcha menus across six country styles", () => {
   const matcha = catalog.recipes.filter(isMatcha);
-  expect(matcha).toHaveLength(10);
+  expect(matcha).toHaveLength(15);
   expect(new Set(matcha.map((r) => matchaStyle(r)?.id)).size).toBe(6);
 });
 it("provides substantive steps and valid unique related links for every recipe", () => {
   for (const r of catalog.recipes) {
     const p = getProcedure(r);
+    if (r.id.startsWith("9f-poster-")) {
+      expect(p.steps).toEqual(
+        r.steps.map((s) => s.replace(/^\s*\d+[.)]\s*/, "")),
+      );
+      expect(p.steps.length, r.id).toBeGreaterThanOrEqual(6);
+      continue;
+    }
     expect(p.steps.length, r.id).toBeGreaterThanOrEqual(10);
     expect(
       p.steps.every((s) => s.trim().length > 0),

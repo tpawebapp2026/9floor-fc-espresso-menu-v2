@@ -13,7 +13,11 @@ import { countries, coldStyles, internationalRecipes } from "./international";
 import { preparationGroups, isPreparation } from "./preparations";
 import DensityConverter from "./DensityConverter";
 import RecipePhoto, { PhotoCredit } from "./RecipePhoto";
-import { posterImageForName } from "./posterPhotos";
+import {
+  posterImageForName,
+  posterGroups,
+  posterGroupForName,
+} from "./posterPhotos";
 import {
   getProcedure,
   relatedStyles,
@@ -194,32 +198,38 @@ function App() {
   const source = catalog?.recipes || [];
   const currentRecipes =
     view === "album"
-      ? source.filter((r) => !!posterImageForName(r.englishName))
+      ? source.filter(
+          (r) => !isPreparation(r) && !!posterImageForName(r.englishName),
+        )
       : view === "styles"
-      ? source
-      : view === "preparations"
-        ? source.filter(isPreparation)
-        : view === "matcha"
-          ? source.filter(
-              (r) =>
-                isMatcha(r) &&
-                (!matchaCountry || matchaStyle(r)?.id === matchaCountry),
-            )
-          : view === "world"
-            ? internationalRecipes(source, worldLine, country, worldStyle)
-            : view === "favorites"
-              ? source.filter((r) => fav.includes(r.id))
-              : view === "recent"
-                ? recent
-                    .map((id) => source.find((r) => r.id === id))
-                    .filter((r): r is Recipe => !!r)
-                : source.filter(
-                    (r) =>
-                      !isPreparation(r) &&
-                      (query.trim() ? true : r.line === line),
-                  );
+        ? source
+        : view === "preparations"
+          ? source.filter(isPreparation)
+          : view === "matcha"
+            ? source.filter(
+                (r) =>
+                  isMatcha(r) &&
+                  (!matchaCountry || matchaStyle(r)?.id === matchaCountry),
+              )
+            : view === "world"
+              ? internationalRecipes(source, worldLine, country, worldStyle)
+              : view === "favorites"
+                ? source.filter((r) => fav.includes(r.id))
+                : view === "recent"
+                  ? recent
+                      .map((id) => source.find((r) => r.id === id))
+                      .filter((r): r is Recipe => !!r)
+                  : source.filter(
+                      (r) =>
+                        !isPreparation(r) &&
+                        (query.trim() ? true : r.line === line),
+                    );
   const results = searchRecipes(currentRecipes, query).filter(
-    (r) => !category || r.categoryId === category || (category === "poster-cream" && ["Chocolate Oreo Cream", "Taro Oreo Milk"].includes(r.englishName)),
+    (r) =>
+      !category ||
+      (view === "album"
+        ? posterGroupForName(r.englishName) === category
+        : r.categoryId === category),
   );
   return (
     <>
@@ -239,7 +249,12 @@ function App() {
           >
             မီနူးစာအုပ်
           </button>
-          <button className={view === "album" ? "active" : ""} onClick={() => selectView("album")}>9 FLOOR Album</button>
+          <button
+            className={view === "album" ? "active" : ""}
+            onClick={() => selectView("album")}
+          >
+            9 FLOOR Album
+          </button>
           <button
             className={view === "world" ? "active" : ""}
             onClick={() => selectView("world")}
@@ -359,18 +374,18 @@ function App() {
                 {view === "album"
                   ? "9 FLOOR COFFEE — Menu Album"
                   : view === "styles"
-                  ? "အမျိုးအစားအလိုက် စတိုင်စုံ"
-                  : view === "matcha"
-                    ? "Matcha — နိုင်ငံတကာစတိုင်များ"
-                    : view === "preparations"
-                      ? "ဖျော်ရည်၏ အခြေခံလက်ရာများ"
-                      : view === "world"
-                        ? "နိုင်ငံတကာ နာမည်ကြီးစတိုင်များ"
-                        : view === "favorites"
-                          ? "အကြိုက်ဆုံး မီနူးများ"
-                          : view === "recent"
-                            ? "မကြာသေးမီက ကြည့်ထားသောမီနူးများ"
-                            : "ဒီနေ့ ဘာဖျော်မလဲ။"}
+                    ? "အမျိုးအစားအလိုက် စတိုင်စုံ"
+                    : view === "matcha"
+                      ? "Matcha — နိုင်ငံတကာစတိုင်များ"
+                      : view === "preparations"
+                        ? "ဖျော်ရည်၏ အခြေခံလက်ရာများ"
+                        : view === "world"
+                          ? "နိုင်ငံတကာ နာမည်ကြီးစတိုင်များ"
+                          : view === "favorites"
+                            ? "အကြိုက်ဆုံး မီနူးများ"
+                            : view === "recent"
+                              ? "မကြာသေးမီက ကြည့်ထားသောမီနူးများ"
+                              : "ဒီနေ့ ဘာဖျော်မလဲ။"}
               </h2>
             </div>
             <span className="muted">သင်ယူ · စမ်းသပ် · ဖန်တီး</span>
@@ -421,7 +436,12 @@ function App() {
                   </span>
                 </button>
               </div>
-              <button className="matcha-shortcut" onClick={() => selectView("album")}>📸 9 FLOOR COFFEE Poster Album မီနူးများ ကြည့်ရန် ↗</button>
+              <button
+                className="matcha-shortcut"
+                onClick={() => selectView("album")}
+              >
+                📸 9 FLOOR COFFEE Poster Album မီနူးများ ကြည့်ရန် ↗
+              </button>
               <button
                 className="matcha-shortcut"
                 onClick={() => selectView("matcha")}
@@ -442,7 +462,13 @@ function App() {
               )}
             </>
           )}
-          {view === "album" && <p className="muted">Menu Album ထဲက ပုံများကို မီနူးအမည်အတိုင်း ချိတ်ထားသည်။ ပုံများသည် Poster ဒီဇိုင်းနမူနာများ ဖြစ်ပြီး Recipe များကို ဆိုင်မရောင်းမီ စမ်းသပ်အတည်ပြုပါ။</p>}
+          {view === "album" && (
+            <p className="muted">
+              Menu Album ထဲက ပုံများကို မီနူးအမည်အတိုင်း ချိတ်ထားသည်။ ပုံများသည်
+              Poster ဒီဇိုင်းနမူနာများ ဖြစ်ပြီး Recipe များကို ဆိုင်မရောင်းမီ
+              စမ်းသပ်အတည်ပြုပါ။
+            </p>
+          )}
           {view === "styles" && (
             <div className="matcha-styles" aria-label="စတိုင်အုပ်စုများ">
               {Object.entries(familyNames).map(([id, name]) => (
@@ -681,9 +707,13 @@ function App() {
               onChange={(e) => setCategory(e.target.value)}
             >
               <option value="">အမျိုးအစား အားလုံး</option>
-              {catalog?.categories
+              {(view === "album" ? posterGroups : catalog?.categories || [])
                 .filter((c) =>
-                  currentRecipes.some((r) => r.categoryId === c.id),
+                  currentRecipes.some((r) =>
+                    view === "album"
+                      ? posterGroupForName(r.englishName) === c.id
+                      : r.categoryId === c.id,
+                  ),
                 )
                 .map((c) => (
                   <option key={c.id} value={c.id}>

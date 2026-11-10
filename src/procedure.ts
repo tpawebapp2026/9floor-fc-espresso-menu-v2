@@ -106,7 +106,7 @@ export function getProcedure(r: Recipe) {
     warnings.push(
       "Pasteurized ကြက်ဥအနှစ် / egg product ကိုသာ သုံးပါ။ ရိုးရိုးအစိမ်းဥကို မသုံးပါနှင့်။ ပူသောကော်ဖီလောင်းရုံဖြင့် ပိုးသတ်ပြီးဟု မယူဆပါနှင့်။ Pasteurized မရပါက ဤမီနူးကို မရောင်းပါနှင့်။",
     );
-  if (isPreparation(r) || /^(matcha-|style-)/.test(r.id))
+  if (isPreparation(r) || /^(matcha-|style-|9f-poster-)/.test(r.id))
     return {
       method: "အသေးစိတ် စမ်းသပ်ဖျော်နည်း",
       steps: r.steps.map(clean),

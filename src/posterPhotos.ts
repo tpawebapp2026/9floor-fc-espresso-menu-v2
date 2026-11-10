@@ -1,11 +1,17 @@
+import posterCatalog from "./posterCatalog.json";
 import { posterPage1 } from "./posterPage1";
 import { posterPage2 } from "./posterPage2";
 import { posterPage3 } from "./posterPage3";
 import { posterPage4 } from "./posterPage4";
 
 // Exact album menu-name-to-photo mapping; original poster crop, not a verified prepared drink photo.
-const photos: Record<string,string> = {...posterPage1,...posterPage2,...posterPage3,...posterPage4};
-const names: Record<string,string> = {
+const photos: Record<string, string> = {
+  ...posterPage1,
+  ...posterPage2,
+  ...posterPage3,
+  ...posterPage4,
+};
+const names: Record<string, string> = {
   "iced sea salt latte": "p2_C06.jpg",
   "dalgona honey latte": "p2_C07.jpg",
   "iced oreo latte": "p2_C08.jpg",
@@ -28,11 +34,11 @@ const names: Record<string,string> = {
   "mixed berry cream milk": "p3_K03A.jpg",
   "chocolate oreo cream": "p3_K04A.jpg",
   "taro oreo milk": "p3_K05A.jpg",
-  "espresso": "p1_C01.jpg",
-  "americano": "p1_C02.jpg",
-  "latte": "p1_C03.jpg",
-  "cappuccino": "p1_C04.jpg",
-  "mocha": "p1_C05.jpg",
+  espresso: "p1_C01.jpg",
+  americano: "p1_C02.jpg",
+  latte: "p1_C03.jpg",
+  cappuccino: "p1_C04.jpg",
+  mocha: "p1_C05.jpg",
   "caramel macchiato": "p1_S01.jpg",
   "honey latte": "p1_S02.jpg",
   "vanilla latte": "p1_S03.jpg",
@@ -72,11 +78,47 @@ const names: Record<string,string> = {
   "oreo crumble": "p4_TP02.jpg",
   "chocolate sauce": "p4_TP03.jpg",
   "caramel sauce": "p4_TP04.jpg",
-  "extra espresso shot": "p4_TP05.jpg"
+  "extra espresso shot": "p4_TP05.jpg",
 };
 export const posterAlbumNames = Object.keys(names);
 export function posterImageForName(name: string): string | null {
   const key = name.toLowerCase().trim();
-  const file = names[key] || (key.startsWith("iced ") ? names[key.slice(5)] : undefined);
+  const file =
+    names[key === "hot espresso" ? "espresso" : key] ||
+    (key.startsWith("iced ") ? names[key.slice(5)] : undefined);
   return file ? photos[file] || null : null;
+}
+
+export const posterGroups = [
+  { id: "album-classic", name: "Classic Coffee" },
+  { id: "album-signature", name: "Signature Coffee" },
+  { id: "album-cream", name: "Cream & Milk" },
+  { id: "album-chocolate", name: "Chocolate & Cocoa" },
+  { id: "album-matcha", name: "Matcha & Taro" },
+  { id: "album-fruit", name: "Fruit Soda" },
+  { id: "album-milk", name: "Specialty Milk" },
+  { id: "album-hot", name: "Hot Drinks" },
+];
+export function posterGroupForName(name: string): string | null {
+  const key = name.toLowerCase().trim();
+  const canonical =
+    key === "hot espresso"
+      ? "espresso"
+      : names[key]
+        ? key
+        : key.startsWith("iced ")
+          ? key.slice(5)
+          : key;
+  const row = posterCatalog.find((row) => row.name.toLowerCase() === canonical);
+  if (!row) return null;
+  if (canonical === "espresso") return "album-classic";
+  if (/^hot /.test(canonical)) return "album-hot";
+  if (/Cream &|Cream & Oreo/.test(row.category)) return "album-cream";
+  if (/Signature/.test(row.category) && !/chocolate/i.test(canonical))
+    return "album-signature";
+  if (/Chocolate/.test(row.category)) return "album-chocolate";
+  if (/Matcha|Taro/.test(row.category)) return "album-matcha";
+  if (/Fruit/.test(row.category)) return "album-fruit";
+  if (row.category === "Milk") return "album-milk";
+  return row.category === "Classic Coffee" ? "album-classic" : null;
 }

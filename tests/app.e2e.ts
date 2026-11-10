@@ -4,7 +4,7 @@ import { readFileSync } from "node:fs";
 const seed = JSON.parse(readFileSync("public/recipes.json", "utf8"));
 test("every migrated menu opens the correct detail page", async ({ page }) => {
   await page.goto("/");
-  await expect(page.locator(".recipe-card")).toHaveCount(161);
+  await expect(page.locator(".recipe-card")).toHaveCount(169);
   for (const recipe of seed.recipes) {
     await page.goto("/recipe/" + recipe.id);
     await expect(page.locator(".detail-heading h1")).toHaveText(
@@ -23,7 +23,7 @@ test("mobile search, departments, international, favorites, recent and theme", a
 }) => {
   await page.setViewportSize({ width: 390, height: 844 });
   await page.goto("/");
-  await expect(page.locator(".recipe-card")).toHaveCount(161);
+  await expect(page.locator(".recipe-card")).toHaveCount(169);
   await page.getByRole("searchbox").fill("21-02");
   await expect(page.locator(".recipe-card")).toHaveCount(1);
   await page
@@ -37,7 +37,7 @@ test("mobile search, departments, international, favorites, recent and theme", a
   await page.getByRole("button", { name: "← မီနူးများသို့ ပြန်ရန်" }).click();
   await page.getByRole("searchbox").fill("");
   await page.getByRole("button", { name: /အအေးစုံလိုင်း/ }).click();
-  await expect(page.locator(".recipe-card")).toHaveCount(110);
+  await expect(page.locator(".recipe-card")).toHaveCount(143);
   await page
     .locator(".bottom-nav")
     .getByRole("button", { name: "နိုင်ငံတကာ" })
@@ -65,10 +65,10 @@ test("offline shell and recipes survive reload; newer sync wins", async ({
   context,
 }) => {
   await page.goto("/");
-  await expect(page.locator(".recipe-card")).toHaveCount(161);
+  await expect(page.locator(".recipe-card")).toHaveCount(169);
   await page.evaluate(() => navigator.serviceWorker.ready);
   await page.reload();
-  await expect(page.locator(".recipe-card")).toHaveCount(161);
+  await expect(page.locator(".recipe-card")).toHaveCount(169);
   const failures: string[] = [];
   page.on("requestfailed", (r) =>
     failures.push(r.url() + " " + r.failure()?.errorText),
@@ -77,7 +77,7 @@ test("offline shell and recipes survive reload; newer sync wins", async ({
   await context.setOffline(true);
   await page.reload();
   await expect(page.locator(".recipe-card"))
-    .toHaveCount(161)
+    .toHaveCount(169)
     .catch(async (e) => {
       console.log(
         "OFFLINE DIAGNOSTIC",
@@ -124,10 +124,10 @@ test("local service worker A/B update requests approval and keeps favorites", as
   const original = await fs.readFile("dist/sw.js", "utf8");
   try {
     await page.goto("/");
-    await expect(page.locator(".recipe-card")).toHaveCount(161);
+    await expect(page.locator(".recipe-card")).toHaveCount(169);
     await page.evaluate(() => navigator.serviceWorker.ready);
     await page.reload();
-    await expect(page.locator(".recipe-card")).toHaveCount(161);
+    await expect(page.locator(".recipe-card")).toHaveCount(169);
     await page.locator(".favorite").first().click();
     const id = String(Date.now());
     await fs.writeFile(
@@ -162,7 +162,7 @@ test("layout screenshots and no horizontal overflow at common sizes", async ({
   ]) {
     await page.setViewportSize(size);
     await page.goto("/");
-    await expect(page.locator(".recipe-card")).toHaveCount(161);
+    await expect(page.locator(".recipe-card")).toHaveCount(169);
     expect(
       await page.evaluate(
         () => document.documentElement.scrollWidth <= innerWidth,
@@ -175,7 +175,7 @@ test("new bundled seed upgrades cached offline recipes while old seed cannot und
   page,
 }) => {
   await page.goto("/");
-  await expect(page.locator(".recipe-card")).toHaveCount(161);
+  await expect(page.locator(".recipe-card")).toHaveCount(169);
   const updated = structuredClone(seed);
   updated.seedVersion = (seed.seedVersion ?? 0) + 1;
   updated.recipes[0].englishName = "Updated bundled recipe";
