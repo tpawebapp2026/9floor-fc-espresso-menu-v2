@@ -151,6 +151,34 @@ test("portrait and tablet headers keep all four full navigation labels visible a
     path: "/tmp/9floor-portrait-navigation.png",
     fullPage: false,
   });
+  const logo = page.getByAltText("9 FLOOR COFFEE မူရင်းလိုဂို", {
+    exact: true,
+  });
+  await expect
+    .poll(() =>
+      logo.evaluate(
+        (img: HTMLImageElement) => img.complete && img.naturalWidth === 1254,
+      ),
+    )
+    .toBe(true);
+  for (const width of [320, 390, 768, 1280]) {
+    await page.setViewportSize({ width, height: 844 });
+    const box = await logo.boundingBox();
+    expect(box!.x).toBeGreaterThanOrEqual(0);
+    expect(box!.x + box!.width).toBeLessThanOrEqual(width);
+    expect(
+      await page.evaluate(
+        () => document.documentElement.scrollWidth <= innerWidth,
+      ),
+    ).toBe(true);
+  }
+  await page
+    .locator(".coffee-banner")
+    .screenshot({ path: "/tmp/9floor-brand-banner-desktop.png" });
+  await page.setViewportSize({ width: 390, height: 844 });
+  await page
+    .locator(".coffee-banner")
+    .screenshot({ path: "/tmp/9floor-brand-banner-mobile.png" });
 });
 test("Pages reader serves all menus under its repository path with a scoped manifest", async ({
   page,
@@ -206,6 +234,15 @@ test("Pages deep recipe links reload online and offline without a server rewrite
       ),
     ).steps.length,
   );
+  await expect
+    .poll(() =>
+      page
+        .locator(".brand-logo-icon img")
+        .evaluate(
+          (img: HTMLImageElement) => img.complete && img.naturalWidth === 1254,
+        ),
+    )
+    .toBe(true);
 });
 test.describe("mocked catalog refresh", () => {
   // Service-worker behavior is tested separately; these routes must observe the mocked network.
