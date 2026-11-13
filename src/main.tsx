@@ -1,3 +1,4 @@
+import { phaseNames } from "./assembly";
 import React, { useState, useEffect, useRef } from "react";
 import { createRoot } from "react-dom/client";
 import {
@@ -981,7 +982,7 @@ function RecipeDetail({
                 ။ ခွက်အရွယ်အသစ်အတွက် အချိုး မခန့်မှန်းထားပါ။
               </p>
             )}
-            {r.ingredients.map((i, n) => (
+            {(procedure.assembly?.ingredients || r.ingredients).map((i, n) => (
               <div className="ingredient" key={n}>
                 <span>{i.name}</span>
                 <b>
@@ -1013,7 +1014,37 @@ function RecipeDetail({
               <DensityConverter />
             </details>
           )}
-          <section className="detail-panel">
+          <section className="detail-panel assembly-procedure">
+            {procedure.assembly && (
+              <div className="assembly-summary">
+                <span className="eyebrow">
+                  {procedure.assembly.kind === "batch"
+                    ? "BATCH ORDER"
+                    : "CUP ORDER"}
+                </span>
+                <h2>
+                  {procedure.assembly.kind === "batch"
+                    ? "အိုး / Blender ထဲ ပထမဘာထည့်မလဲ"
+                    : "သောက်ခွက်ထဲ ပထမဘာထည့်မလဲ"}
+                </h2>
+                {procedure.assembly.kind === "drink" ? (
+                  <ol className="cup-order">
+                    {procedure.assembly.cupOrder.map((text, i) => (
+                      <li key={i}>{text}</li>
+                    ))}
+                  </ol>
+                ) : (
+                  <p>
+                    ဤမီနူးသည် အခြေခံရည် တစ် batch ဖြစ်သည်။ အောက်က အိုး / Blender
+                    အဆင့်များကို အစဉ်လိုက် လိုက်လုပ်ပါ။
+                  </p>
+                )}
+                <p>
+                  အောက်ပါ အသေးစိတ်အဆင့်များတွင် ကြိုဖျော်ခွက်ကို အရင်ပြင်ပြီးမှ
+                  သောက်ခွက်ထဲ ထည့်ပါ။ ပစ္စည်းတစ်ခုကို နှစ်ခါထည့်ရန် မဟုတ်ပါ။
+                </p>
+              </div>
+            )}
             <div className="panel-heading">
               <h2>ဖျော်နည်း အဆင့်လိုက်</h2>
               <small>
@@ -1021,10 +1052,20 @@ function RecipeDetail({
               </small>
             </div>
             <p className="muted">
-              V2 လိုက်ဖျော်လမ်းညွှန် · {procedure.method}။ မူရင်းပမာဏကို
-              ထိန်းထားပြီး လုပ်ငန်းအဆင့်များ ဖြည့်ထားသည်။ အချိန်နှင့်
-              အပူချိန်အဆိုပြုချက်များကို ဆိုင်တွင် စမ်းသပ်အတည်ပြုရန် လိုသည်။
+              အဆင့်တိုင်း၏ ခွက်အမည်ကို အရင်ကြည့်ပါ။ ဤပမာဏများသည် တစ်ခွက်စာ / တစ်
+              batch စာ ဖြစ်သည်။
             </p>
+            {procedure.assembly &&
+              procedure.assembly.adjustments.length > 0 && (
+                <details className="assembly-choices">
+                  <summary>
+                    ဤလိုက်ဖျော်အစဉ်အတွက် ရွေးထားသောပစ္စည်း / ပမာဏ
+                  </summary>
+                  {procedure.assembly.adjustments.map((text, i) => (
+                    <p key={i}>{text}</p>
+                  ))}
+                </details>
+              )}
             {procedure.warnings.map((w, i) => (
               <p className="notice" key={i}>
                 {w}
@@ -1049,14 +1090,25 @@ function RecipeDetail({
                 <span className="step-num">
                   {String(i + 1).padStart(2, "0")}
                 </span>
-                <span>{s.replace(/^\d+\.\s*/, "")}</span>
+                <span className="step-copy">
+                  {procedure.assembly && (
+                    <b className="step-vessel">
+                      {phaseNames[procedure.assembly.steps[i].phase]} ·{" "}
+                      {procedure.assembly.steps[i].vessel}
+                      {procedure.assembly.steps[i].cupNumber
+                        ? ` · ခွက်ထဲ အဆင့် ${procedure.assembly.steps[i].cupNumber}`
+                        : ""}
+                    </b>
+                  )}
+                  <span>{s.replace(/^\d+\.\s*/, "")}</span>
+                </span>
               </label>
             ))}
             <button className="text-button" onClick={() => setChecks([])}>
               အဆင့်များ ပြန်စရန် ↻
             </button>
             <details className="original-procedure">
-              <summary>မူရင်း ဖျော်နည်းကို ဖတ်ရန်</summary>
+              <summary>ယခင်ဖျော်နည်း (ကိုးကားရန်)</summary>
               <ol>
                 {r.steps.map((s, i) => (
                   <li key={i}>{s.replace(/^\d+\.\s*/, "")}</li>

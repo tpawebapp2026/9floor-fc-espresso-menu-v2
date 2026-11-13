@@ -1,3 +1,4 @@
+import { getProcedure } from "../src/procedure";
 import { test, expect } from "@playwright/test";
 import { countries } from "../src/international";
 import { readFileSync } from "node:fs";
@@ -198,7 +199,13 @@ test("Pages deep recipe links reload online and offline without a server rewrite
   await expect(page.locator(".detail-heading h1")).toHaveText(
     "Iced Cappuccino",
   );
-  await expect(page.locator(".step")).toHaveCount(16);
+  await expect(page.locator(".step")).toHaveCount(
+    getProcedure(
+      JSON.parse(readFileSync("public/recipes.json", "utf8")).recipes.find(
+        (r: any) => r.id === "v9-iced-cappuccino",
+      ),
+    ).steps.length,
+  );
 });
 test.describe("mocked catalog refresh", () => {
   // Service-worker behavior is tested separately; these routes must observe the mocked network.
@@ -297,7 +304,9 @@ test("all four preparation groups open the correct new recipes and preserve favo
     await page.goto("./#/recipe/" + r.id);
     await expect(page.locator(".detail-heading h1")).toHaveText(r.englishName);
     await expect(page.locator(".ingredient")).toHaveCount(r.ingredients.length);
-    await expect(page.locator(".step")).toHaveCount(r.steps.length);
+    await expect(page.locator(".step")).toHaveCount(
+      getProcedure(r).steps.length,
+    );
     await expect(page.locator(".density-panel")).toBeVisible();
   }
   await page.goto("./#/recipe/prep-simple-syrup");
@@ -365,7 +374,13 @@ test("mobile Matcha discovery, country style filters and detailed related recipe
   await expect(page.locator(".detail-heading h1")).toHaveText(
     "Thai-Style Matcha Milk",
   );
-  await expect(page.locator(".step")).toHaveCount(11);
+  await expect(page.locator(".step")).toHaveCount(
+    getProcedure(
+      JSON.parse(readFileSync("public/recipes.json", "utf8")).recipes.find(
+        (r: any) => r.id === "matcha-thai-milk",
+      ),
+    ).steps.length,
+  );
   await page.locator(".related-procedure summary").click();
   await page
     .locator(".related-procedure button")
@@ -435,7 +450,9 @@ test("Album groups, exact crop images, recipes and favorites work on mobile and 
   const cream = JSON.parse(
     readFileSync("public/recipes.json", "utf8"),
   ).recipes.find((r: any) => r.englishName === "Chocolate Oreo Cream");
-  await expect(page.locator(".step")).toHaveCount(cream.steps.length);
+  await expect(page.locator(".step")).toHaveCount(
+    getProcedure(cream).steps.length,
+  );
   await page.evaluate(() => navigator.serviceWorker.ready);
   await page.reload();
   await context.setOffline(true);
@@ -483,4 +500,57 @@ test("Album groups, exact crop images, recipes and favorites work on mobile and 
     path: "/tmp/9floor-album-cream-mobile.png",
     fullPage: true,
   });
+});
+
+test("all 324 recipes expose the exact vessel-specific assembly plan and retain it offline", async ({
+  page,
+  context,
+}) => {
+  test.setTimeout(240000);
+  const seed = JSON.parse(readFileSync("public/recipes.json", "utf8"));
+  await page.goto("./");
+  for (const recipe of seed.recipes) {
+    const procedure = getProcedure(recipe);
+    const plan = procedure.assembly!;
+    await page.goto("./#/recipe/" + recipe.id);
+    await expect(page.locator(".detail-heading h1")).toHaveText(
+      recipe.englishName,
+    );
+    await expect(page.locator(".step")).toHaveCount(plan.steps.length);
+    await expect(page.locator(".step-vessel")).toHaveCount(plan.steps.length);
+    await expect(page.locator(".ingredient")).toHaveCount(
+      plan.ingredients.length,
+    );
+    if (plan.kind === "drink")
+      await expect(page.locator(".cup-order li")).toHaveText(plan.cupOrder);
+    else
+      await expect(page.locator(".assembly-summary")).toContainText(
+        "BATCH ORDER",
+      );
+  }
+  await page.goto("./#/recipe/9f-poster-032");
+  await page.evaluate(() => navigator.serviceWorker.ready);
+  await page.reload();
+  await context.setOffline(true);
+  await page.reload();
+  await expect(page.locator(".cup-order li")).toHaveCount(6);
+  await expect(page.locator(".cup-order li").first()).toContainText(
+    "Oreo Original 1 ချပ်",
+  );
+  await expect(page.locator(".cup-order li").last()).toContainText(
+    "Oreo Original 1 ချပ်",
+  );
+  for (const width of [320, 390, 768, 1280]) {
+    await page.setViewportSize({ width, height: 844 });
+    expect(
+      await page.evaluate(
+        () => document.documentElement.scrollWidth <= innerWidth,
+      ),
+      String(width),
+    ).toBe(true);
+  }
+  await page.setViewportSize({ width: 390, height: 844 });
+  await page
+    .locator(".assembly-procedure")
+    .screenshot({ path: "/tmp/9floor-cup-order-mobile.png" });
 });
