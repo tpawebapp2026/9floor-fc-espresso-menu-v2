@@ -1,4 +1,4 @@
-import data from "./assemblyCatalog.json";
+import data from "./assemblyCatalog.json" with { type: "json" };
 import type { Recipe } from "./model";
 export type AssemblyStep = {
   phase: "prepare" | "cup" | "finish" | "serve" | "batch";

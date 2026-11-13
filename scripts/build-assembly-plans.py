@@ -25,6 +25,7 @@ class Plan:
     m=re.match(r'^(\d+(?:\.\d+)?)[–-](\d+(?:\.\d+)?)\s*(g|ml|ချပ်|ရွက်|လုံး)(.*)',q)
     chosen=m[2] if n in ['Ice','ရေခဲ'] else m[1]
     a['quantity']=f'{chosen} {m[3]}{m[4]}'
+   a['quantity']=re.sub(r'\s*\((?:Menu အလိုက်|လိုအပ်သော Menu များ)\)','',a['quantity'])
    if 'Saffron' in n and q=='3–5 strands':a['quantity']='3 strands'
    if q=='1 scoop (60–80 g)':a['quantity']='1 scoop (60 g)'
    if q=='အနည်းငယ်' and re.search(r'ဖာလာ|သစ်ကြံပိုး',n):a['quantity']='0.2 g'
@@ -48,7 +49,7 @@ class Plan:
   if produce:step.update(produce=produce,label=label or produce)
   if into:
    step['into']=into
-   if enrich:self.buffers[into]+=' + '+' + '.join(self.fmt(u['index'],u['part']) for u in uses)+' အရောအားလုံး'
+   if enrich:self.buffers[into]=self.buffers[into].removesuffix(' အရောအားလုံး')+' + '+' + '.join(self.fmt(u['index'],u['part']) for u in uses)+' အရောအားလုံး'
   if phase in ['cup','finish']:
    self.cup_no+=1;step['cupNumber']=self.cup_no
    self.cup.append(' + '.join([self.fmt(u['index'],u['part']) for u in uses]+[self.buffers[k] for k in take]) or text)
