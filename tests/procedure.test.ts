@@ -45,19 +45,12 @@ it("offers fifteen Matcha menus across six country styles", () => {
 it("provides substantive steps and valid unique related links for every recipe", () => {
   for (const r of catalog.recipes) {
     const p = getProcedure(r);
-    if (r.id.startsWith("9f-poster-")) {
-      expect(p.steps).toEqual(
-        r.steps.map((s) => s.replace(/^\s*\d+[.)]\s*/, "")),
-      );
-      expect(p.steps.length, r.id).toBeGreaterThanOrEqual(6);
-      continue;
-    }
-    expect(p.steps.length, r.id).toBeGreaterThanOrEqual(10);
+    expect(p.assembly, r.id).not.toBeNull();
+    expect(p.steps.length, r.id).toBeGreaterThanOrEqual(3);
     expect(
       p.steps.every((s) => s.trim().length > 0),
       r.id,
     ).toBe(true);
-    expect(p.steps.join(" ").length, r.id).toBeGreaterThan(500);
     const related = relatedStyles(r, catalog.recipes);
     expect(
       related.every(

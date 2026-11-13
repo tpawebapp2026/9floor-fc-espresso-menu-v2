@@ -1,3 +1,4 @@
+import { assemblyFor, type AssemblyPlan } from "./assembly";
 import type { Recipe } from "./model";
 import { isPreparation } from "./preparations";
 
@@ -61,6 +62,27 @@ export function relatedStyles(recipe: Recipe, all: Recipe[]) {
 }
 
 export function getProcedure(r: Recipe) {
+  const legacy = getLegacyProcedure(r);
+  const assembly = assemblyFor(r);
+  return assembly
+    ? {
+        method:
+          assembly.kind === "batch"
+            ? "အိုး / Blender ထဲ ထည့်မည့်အစဉ်"
+            : "ကြိုဖျော်ခွက်နှင့် သောက်ခွက် ခွဲထားသော အစဉ်",
+        steps: assembly.steps.map((s) => s.text),
+        warnings: [
+          ...assembly.warnings,
+          ...legacy.warnings.filter((w) =>
+            w.startsWith("မူရင်းတွင် ခွက်အရွယ်"),
+          ),
+        ],
+        proposedCup: legacy.proposedCup,
+        assembly: assembly as AssemblyPlan | null,
+      }
+    : { ...legacy, assembly: null as AssemblyPlan | null };
+}
+function getLegacyProcedure(r: Recipe) {
   const n = r.englishName;
   const ice = r.ingredients.filter(iceRow),
     soda = r.ingredients.filter(carbonated),

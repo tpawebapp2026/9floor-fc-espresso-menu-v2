@@ -11,7 +11,7 @@ test("every migrated menu opens the correct detail page", async ({ page }) => {
       recipe.englishName,
     );
     await expect(page.locator(".ingredient")).toHaveCount(
-      recipe.ingredients.length,
+      (getProcedure(recipe).assembly?.ingredients || recipe.ingredients).length,
     );
     await expect(page.locator(".step")).toHaveCount(
       getProcedure(recipe).steps.length,
