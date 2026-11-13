@@ -9,6 +9,7 @@ const precache = [
   base + "manifest.webmanifest",
   base + "icon-192.png",
   base + "icon-512.png",
+  base + "brand/9floor-coffee-logo.jpg",
   ...assets,
 ];
 const manifest = JSON.parse(

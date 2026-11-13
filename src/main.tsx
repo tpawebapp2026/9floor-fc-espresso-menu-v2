@@ -236,11 +236,16 @@ function App() {
     <>
       <header className="topbar">
         <button className="brand" onClick={() => selectView("menu")}>
-          <span className="brand-icon">
-            9<span>F</span>
+          <span className="brand-logo-icon">
+            <img
+              src={asset("brand/9floor-coffee-logo.jpg")}
+              alt=""
+              width="48"
+              height="48"
+            />
           </span>
           <span>
-            9FLOOR FC<small>ESPRESSO MENU · V2</small>
+            9 FLOOR COFFEE<small>COFFEE & COLD DRINKS</small>
           </span>
         </button>
         <nav className="desktop-nav" aria-label="အဓိကမီနူး">
@@ -329,9 +334,12 @@ function App() {
         </main>
       ) : (
         <main>
-          <section className="hero">
+          <section
+            className="hero coffee-banner"
+            aria-label="9 FLOOR COFFEE ဘန်နာ"
+          >
             <div className="hero-copy">
-              <span className="eyebrow">BREW WITH CONFIDENCE</span>
+              <span className="eyebrow">9 FLOOR COFFEE · THE DAILY RITUAL</span>
               <h1>
                 တစ်ခွက်ချင်းစီမှာ
                 <br />
@@ -340,8 +348,13 @@ function App() {
               <p>
                 ကော်ဖီနဲ့ အအေးဖျော်နည်းတွေကို တစ်နေရာတည်းမှာ။
                 <br />
-                ပါဝင်ပစ္စည်းမှ ဖျော်နည်းအဆင့်တိုင်းအထိ လွယ်လွယ်ကူကူ။
+                ကိုယ့်စိတ်ကြိုက် တစ်ခွက်ကို အတူဖန်တီးမယ်။
               </p>
+              <div className="hero-tags">
+                <span>Signature Coffee</span>
+                <span>Matcha & Cream</span>
+                <span>Cold Drinks</span>
+              </div>
               <div className="hero-stats">
                 <span>
                   <strong>{catalog?.recipes.length || "—"}</strong>{" "}
@@ -356,16 +369,27 @@ function App() {
                 </span>
               </div>
             </div>
-            <div className="hero-art" aria-hidden="true">
-              <div className="orbit" />
-              <div className="beans">✦</div>
-              <div className="cup-art">
-                <span>9F</span>
-                <i />
+            <div className="brand-showcase">
+              <span
+                className="brand-orbit brand-orbit-one"
+                aria-hidden="true"
+              />
+              <span
+                className="brand-orbit brand-orbit-two"
+                aria-hidden="true"
+              />
+              <div className="logo-plaque">
+                <img
+                  src={asset("brand/9floor-coffee-logo.jpg")}
+                  alt="9 FLOOR COFFEE မူရင်းလိုဂို"
+                  width="1254"
+                  height="1254"
+                  fetchPriority="high"
+                />
               </div>
-              <div className="art-caption">
-                THE DAILY RITUAL<span>16g · 32g · 25–30 sec</span>
-              </div>
+              <span className="showcase-caption">
+                CRAFTED ONE CUP AT A TIME
+              </span>
             </div>
           </section>
           <div className="section-intro">
