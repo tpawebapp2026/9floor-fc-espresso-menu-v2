@@ -1,0 +1,4214 @@
+[
+  {
+    "group": "coffee",
+    "part": 1,
+    "name": "Black Honey",
+    "mm": "ပျားရည် ကော်ဖီအမည်း",
+    "start": 0,
+    "end": 18,
+    "photo": 17,
+    "size": 20,
+    "actions": [
+      {
+        "name": "ပျားရည်",
+        "quantity": "40 ml",
+        "text": "ပျားရည် 40 ml ထည့်ပါ။",
+        "phase": "prepare",
+        "vessel": null
+      },
+      {
+        "name": "ရေနွေး",
+        "quantity": "20 ml",
+        "text": "ပျားရည်ထဲ ရေနွေး 20 ml ထည့်၍ ပျော်အောင်မွှေပါ။",
+        "phase": "prepare",
+        "vessel": null
+      },
+      {
+        "text": "ပျားရည်ဖျော်ရည်ကို သောက်ခွက်ထဲထည့်ပါ။",
+        "phase": "cup"
+      },
+      {
+        "name": "ရိုးရိုးရေ",
+        "quantity": "90 ml",
+        "text": "ရိုးရိုးရေ 90 ml ထည့်ပါ။",
+        "phase": "cup",
+        "vessel": null
+      },
+      {
+        "text": "ဇွန်းဖြင့် အောက်ခြေထိ ရောမွှေပါ။",
+        "phase": "cup"
+      },
+      {
+        "name": "ရေခဲ",
+        "quantity": "ခွက်ပြည့် — g မဖော်ပြ",
+        "text": "ရေခဲကို ခွက်ပြည့်အောင် ဖြည့်ပါ။",
+        "phase": "cup",
+        "vessel": null
+      },
+      {
+        "name": "ကော်ဖီရည်",
+        "quantity": "70 ml",
+        "text": "ကော်ဖီရည် 70 ml ကို ရေခဲပေါ်မှ ဖြည်းဖြည်းလောင်းထည့်ပါ။",
+        "phase": "finish",
+        "vessel": null
+      }
+    ],
+    "notes": [],
+    "id": "video-series-coffee-01"
+  },
+  {
+    "group": "coffee",
+    "part": 2,
+    "name": "Black Orange Concentrate",
+    "mm": "လိမ္မော်အနှစ် ကော်ဖီအမည်း",
+    "start": 18,
+    "end": 38,
+    "photo": 36,
+    "size": 20,
+    "actions": [
+      {
+        "name": "လိမ္မော်အနှစ်",
+        "quantity": "40 ml",
+        "text": "လိမ္မော်အနှစ် 40 ml ထည့်ပါ။",
+        "phase": "cup",
+        "vessel": null
+      },
+      {
+        "name": "ရိုးရိုးရေ",
+        "quantity": "120 ml",
+        "text": "ရိုးရိုးရေ 120 ml ထည့်ပါ။",
+        "phase": "cup",
+        "vessel": null
+      },
+      {
+        "text": "ဇွန်းဖြင့် အောက်ခြေထိ ရောမွှေပါ။",
+        "phase": "cup"
+      },
+      {
+        "name": "ရေခဲ",
+        "quantity": "ခွက်ပြည့် — g မဖော်ပြ",
+        "text": "ရေခဲကို ခွက်ပြည့်အောင် ဖြည့်ပါ။",
+        "phase": "cup",
+        "vessel": null
+      },
+      {
+        "name": "ကော်ဖီရည်",
+        "quantity": "70 ml",
+        "text": "ကော်ဖီရည် 70 ml ကို ရေခဲပေါ်မှ ဖြည်းဖြည်းလောင်းထည့်ပါ။",
+        "phase": "finish",
+        "vessel": null
+      }
+    ],
+    "notes": [],
+    "id": "video-series-coffee-02"
+  },
+  {
+    "group": "coffee",
+    "part": 3,
+    "name": "Iced Coffee Latte",
+    "mm": "ကော်ဖီ လာတေးအေး",
+    "start": 38,
+    "end": 51,
+    "photo": 49,
+    "size": 20,
+    "actions": [
+      {
+        "name": "နို့ဆီအချို (Sweetened condensed creamer)",
+        "quantity": "40 ml",
+        "text": "နို့ဆီအချို (Sweetened condensed creamer) 40 ml ထည့်ပါ။",
+        "phase": "cup",
+        "vessel": null
+      },
+      {
+        "name": "နို့စိမ်း (Fresh milk)",
+        "quantity": "80 ml",
+        "text": "နို့စိမ်း (Fresh milk) 80 ml ထည့်ပါ။",
+        "phase": "cup",
+        "vessel": null
+      },
+      {
+        "text": "ဇွန်းဖြင့် အောက်ခြေထိ ရောမွှေပါ။",
+        "phase": "cup"
+      },
+      {
+        "name": "ရေခဲ",
+        "quantity": "ခွက်ပြည့် — g မဖော်ပြ",
+        "text": "ရေခဲကို ခွက်ပြည့်အောင် ဖြည့်ပါ။",
+        "phase": "cup",
+        "vessel": null
+      },
+      {
+        "name": "ကော်ဖီရည်",
+        "quantity": "70 ml",
+        "text": "ကော်ဖီရည် 70 ml ကို ရေခဲပေါ်မှ ဖြည်းဖြည်းလောင်းထည့်ပါ။",
+        "phase": "finish",
+        "vessel": null
+      }
+    ],
+    "notes": [],
+    "id": "video-series-coffee-03"
+  },
+  {
+    "group": "coffee",
+    "part": 4,
+    "name": "Iced Cappuccino",
+    "mm": "ကပ္ပူချီနိုအေး",
+    "start": 51,
+    "end": 67,
+    "photo": 63,
+    "size": 20,
+    "actions": [
+      {
+        "name": "နို့စိမ်းဘူး (Evaporated milk)",
+        "quantity": "40 ml",
+        "text": "နို့စိမ်းဘူး (Evaporated milk) 40 ml ထည့်ပါ။",
+        "phase": "cup",
+        "vessel": null
+      },
+      {
+        "name": "နို့ဆီ",
+        "quantity": "40 ml",
+        "text": "နို့ဆီ 40 ml ထည့်ပါ။",
+        "phase": "cup",
+        "vessel": null
+      },
+      {
+        "text": "ဇွန်းဖြင့် အောက်ခြေထိ ရောမွှေပါ။",
+        "phase": "cup"
+      },
+      {
+        "name": "ရေခဲ",
+        "quantity": "ခွက်ပြည့် — g မဖော်ပြ",
+        "text": "ရေခဲကို ခွက်ပြည့်အောင် ဖြည့်ပါ။",
+        "phase": "cup",
+        "vessel": null
+      },
+      {
+        "name": "ကော်ဖီရည်",
+        "quantity": "90 ml",
+        "text": "ကော်ဖီရည် 90 ml ကို ရေခဲပေါ်မှ ဖြည်းဖြည်းလောင်းထည့်ပါ။",
+        "phase": "finish",
+        "vessel": null
+      },
+      {
+        "name": "ကြိုပြင်ပြီး နို့အမြှုပ် (Cold foam)",
+        "quantity": "50 g",
+        "text": "နောက်ဆုံး နို့အမြှုပ် 50 g ကို အပေါ်တင်ပါ။",
+        "phase": "finish",
+        "vessel": null
+      },
+      {
+        "name": "ကိုကိုးမှုန့် အလှဆင်",
+        "quantity": "အနည်းငယ် — Video g မဖော်ပြ",
+        "text": "ကိုကိုးမှုန့် အလှဆင် အနည်းငယ် — Video g မဖော်ပြ ထည့်ပါ။",
+        "phase": "finish",
+        "vessel": null
+      }
+    ],
+    "notes": [],
+    "id": "video-series-coffee-04"
+  },
+  {
+    "group": "coffee",
+    "part": 5,
+    "name": "Iced Mocha",
+    "mm": "မိုခါအေး",
+    "start": 67,
+    "end": 85,
+    "photo": 83,
+    "size": 20,
+    "actions": [
+      {
+        "name": "ကော်ဖီရည်",
+        "quantity": "90 ml",
+        "text": "ကော်ဖီရည်ပူ 90 ml ကို သီးခြားခွက်ထဲ တိုင်းထည့်ပါ။",
+        "phase": "prepare",
+        "vessel": null
+      },
+      {
+        "name": "ကိုကိုးမှုန့်",
+        "quantity": "7 g",
+        "text": "ကော်ဖီရည် 90 ml ထဲ ကိုကိုးမှုန့် 7 g ကို ပျော်အောင်မွှေပါ။",
+        "phase": "prepare",
+        "vessel": null
+      },
+      {
+        "name": "နို့စိမ်းဘူး (Evaporated milk)",
+        "quantity": "40 ml",
+        "text": "နို့စိမ်းဘူး (Evaporated milk) 40 ml ထည့်ပါ။",
+        "phase": "cup",
+        "vessel": null
+      },
+      {
+        "name": "နို့ဆီ",
+        "quantity": "40 ml",
+        "text": "နို့ဆီ 40 ml ထည့်ပါ။",
+        "phase": "cup",
+        "vessel": null
+      },
+      {
+        "text": "ကိုကိုးပျော်ထားသော ကော်ဖီရည်ကို ထည့်၍ ရောမွှေပါ။",
+        "phase": "cup"
+      },
+      {
+        "name": "ရေခဲ",
+        "quantity": "ခွက်ပြည့် — g မဖော်ပြ",
+        "text": "ရေခဲကို ခွက်ပြည့်အောင် ဖြည့်ပါ။",
+        "phase": "cup",
+        "vessel": null
+      },
+      {
+        "name": "ကြိုပြင်ပြီး နို့အမြှုပ် (Cold foam)",
+        "quantity": "50 g",
+        "text": "နောက်ဆုံး နို့အမြှုပ် 50 g ကို အပေါ်တင်ပါ။",
+        "phase": "finish",
+        "vessel": null
+      }
+    ],
+    "notes": [
+      "ကော်ဖီရည် 90 ml ကို ကိုကိုးဖျော်ရန် သုံးသည်။ ကော်ဖီစေ့ 16 g / ရေနွေး 120 ml ဖြင့် moka pot ပြင်ပုံကို Video တွင်ပြထားသည်။ ရေနွေး 120 ml ကို သောက်ခွက်ထဲ ထပ်မထည့်ပါ။"
+    ],
+    "id": "video-series-coffee-05"
+  },
+  {
+    "group": "coffee",
+    "part": 6,
+    "name": "Coffee Foam Latte",
+    "mm": "ကော်ဖီအမြှုပ် လာတေး",
+    "start": 85,
+    "end": 119,
+    "photo": 116,
+    "size": 20,
+    "actions": [
+      {
+        "name": "ကော်ဖီရည် — အမြှုပ်အတွက်",
+        "quantity": "50 ml",
+        "text": "ကော်ဖီရည် — အမြှုပ်အတွက် 50 ml ထည့်ပါ။",
+        "phase": "prepare",
+        "vessel": null
+      },
+      {
+        "name": "အမြှုပ်ဖောက်ရန် နို့",
+        "quantity": "30 ml",
+        "text": "သီးခြားခွက်ထဲရှိ ကော်ဖီရည် 50 ml ထဲ အမြှုပ်ဖောက်ရန် နို့ 30 ml ထည့်ပြီး အမြှုပ်ထူလာအောင် ဖောက်ပါ။",
+        "phase": "prepare",
+        "vessel": null
+      },
+      {
+        "name": "နို့စိမ်းဘူး (Evaporated milk)",
+        "quantity": "30 ml",
+        "text": "နို့စိမ်းဘူး (Evaporated milk) 30 ml ထည့်ပါ။",
+        "phase": "cup",
+        "vessel": null
+      },
+      {
+        "name": "နို့ဆီ",
+        "quantity": "30 ml",
+        "text": "နို့ဆီ 30 ml ထည့်ပါ။",
+        "phase": "cup",
+        "vessel": null
+      },
+      {
+        "name": "နို့စိမ်း (Fresh milk)",
+        "quantity": "90 ml",
+        "text": "နို့စိမ်း (Fresh milk) 90 ml ထည့်ပါ။",
+        "phase": "cup",
+        "vessel": null
+      },
+      {
+        "text": "ဇွန်းဖြင့် အောက်ခြေထိ ရောမွှေပါ။",
+        "phase": "cup"
+      },
+      {
+        "name": "ရေခဲ",
+        "quantity": "ခွက်ပြည့် — g မဖော်ပြ",
+        "text": "ရေခဲကို ခွက်ပြည့်အောင် ဖြည့်ပါ။",
+        "phase": "cup",
+        "vessel": null
+      },
+      {
+        "text": "ကြိုဖောက်ထားသော ကော်ဖီအမြှုပ်ကို အပေါ်မှ ဖြည်းဖြည်းတင်ပါ။",
+        "phase": "finish"
+      }
+    ],
+    "notes": [
+      "အမြှုပ်အတွက် ကော်ဖီစေ့ 16 g၊ moka pot ရေနွေး 80 ml သုံးပုံပြထားပြီး ထွက်လာသောကော်ဖီရည်မှ 50 ml ကို သုံးသည်။"
+    ],
+    "id": "video-series-coffee-06"
+  },
+  {
+    "group": "coffee",
+    "part": 7,
+    "name": "Cocoa Coffee Foam — Condensed Base",
+    "mm": "ကိုကိုး ကော်ဖီအမြှုပ် — နို့ဆီအခြေခံ",
+    "start": 119,
+    "end": 135,
+    "photo": 133,
+    "size": 20,
+    "actions": [
+      {
+        "name": "ကိုကိုးမှုန့်",
+        "quantity": "15 g",
+        "text": "ကိုကိုးမှုန့် 15 g ထည့်ပါ။",
+        "phase": "prepare",
+        "vessel": null
+      },
+      {
+        "name": "ရေနွေး",
+        "quantity": "50 ml",
+        "text": "ကိုကိုးမှုန့်ထဲ ရေနွေး 50 ml ထည့်ပြီး အဖုမရှိအောင်မွှေပါ။",
+        "phase": "prepare",
+        "vessel": null
+      },
+      {
+        "name": "ကော်ဖီရည် — အမြှုပ်အတွက်",
+        "quantity": "50 ml",
+        "text": "ကော်ဖီရည် — အမြှုပ်အတွက် 50 ml ထည့်ပါ။",
+        "phase": "prepare",
+        "vessel": null
+      },
+      {
+        "name": "အမြှုပ်ဖောက်ရန် နို့",
+        "quantity": "30 ml",
+        "text": "သီးခြားခွက်ထဲရှိ ကော်ဖီရည် 50 ml ထဲ အမြှုပ်ဖောက်ရန် နို့ 30 ml ထည့်ပြီး အမြှုပ်ထူလာအောင် ဖောက်ပါ။",
+        "phase": "prepare",
+        "vessel": null
+      },
+      {
+        "name": "နို့ဆီအချို (Sweetened condensed creamer)",
+        "quantity": "40 ml",
+        "text": "နို့ဆီအချို (Sweetened condensed creamer) 40 ml ထည့်ပါ။",
+        "phase": "cup",
+        "vessel": null
+      },
+      {
+        "text": "ကြိုဖျော်ထားသော ကိုကိုးရည်ကို ထည့်၍ မွှေပါ။",
+        "phase": "cup"
+      },
+      {
+        "name": "ရေခဲ",
+        "quantity": "ခွက်ပြည့် — g မဖော်ပြ",
+        "text": "ရေခဲကို ခွက်ပြည့်အောင် ဖြည့်ပါ။",
+        "phase": "cup",
+        "vessel": null
+      },
+      {
+        "text": "ကော်ဖီရည် 50 ml + နို့ 30 ml ဖြင့် ကြိုဖောက်ထားသော အမြှုပ်ကို အပေါ်တင်ပါ။",
+        "phase": "finish"
+      }
+    ],
+    "notes": [],
+    "id": "video-series-coffee-07"
+  },
+  {
+    "group": "coffee",
+    "part": 8,
+    "name": "Black Coconut — Syrup",
+    "mm": "အုန်းအရသာ ကော်ဖီအမည်း",
+    "start": 135,
+    "end": 149,
+    "photo": 147,
+    "size": 20,
+    "actions": [
+      {
+        "name": "အုန်းအရသာ ဆီရပ်",
+        "quantity": "40 ml",
+        "text": "အုန်းအရသာ ဆီရပ် 40 ml ထည့်ပါ။",
+        "phase": "cup",
+        "vessel": null
+      },
+      {
+        "name": "ရိုးရိုးရေ",
+        "quantity": "120 ml",
+        "text": "ရိုးရိုးရေ 120 ml ထည့်ပါ။",
+        "phase": "cup",
+        "vessel": null
+      },
+      {
+        "text": "ဇွန်းဖြင့် အောက်ခြေထိ ရောမွှေပါ။",
+        "phase": "cup"
+      },
+      {
+        "name": "ရေခဲ",
+        "quantity": "ခွက်ပြည့် — g မဖော်ပြ",
+        "text": "ရေခဲကို ခွက်ပြည့်အောင် ဖြည့်ပါ။",
+        "phase": "cup",
+        "vessel": null
+      },
+      {
+        "name": "ကော်ဖီရည်",
+        "quantity": "70 ml",
+        "text": "ကော်ဖီရည် 70 ml ကို ရေခဲပေါ်မှ ဖြည်းဖြည်းလောင်းထည့်ပါ။",
+        "phase": "finish",
+        "vessel": null
+      }
+    ],
+    "notes": [],
+    "id": "video-series-coffee-08"
+  },
+  {
+    "group": "coffee",
+    "part": 9,
+    "name": "Es Yen — 100 ml Coffee",
+    "mm": "ထိုင်းကော်ဖီအေး — ကော်ဖီ 100 ml",
+    "start": 149,
+    "end": 163,
+    "photo": 160,
+    "size": 20,
+    "actions": [
+      {
+        "name": "နို့စိမ်းဘူး (Evaporated milk)",
+        "quantity": "40 ml",
+        "text": "နို့စိမ်းဘူး (Evaporated milk) 40 ml ထည့်ပါ။",
+        "phase": "cup",
+        "vessel": null
+      },
+      {
+        "name": "နို့ဆီ",
+        "quantity": "40 ml",
+        "text": "နို့ဆီ 40 ml ထည့်ပါ။",
+        "phase": "cup",
+        "vessel": null
+      },
+      {
+        "name": "ကော်ဖီရည်",
+        "quantity": "100 ml",
+        "text": "ကော်ဖီရည် 100 ml ထည့်ပါ။",
+        "phase": "cup",
+        "vessel": null
+      },
+      {
+        "name": "နို့စိမ်း (Fresh milk)",
+        "quantity": "50 ml",
+        "text": "နို့စိမ်း (Fresh milk) 50 ml ထည့်ပါ။",
+        "phase": "cup",
+        "vessel": null
+      },
+      {
+        "text": "ဇွန်းဖြင့် အောက်ခြေထိ ရောမွှေပါ။",
+        "phase": "cup"
+      },
+      {
+        "name": "ရေခဲ",
+        "quantity": "ခွက်ပြည့် — g မဖော်ပြ",
+        "text": "ရေခဲကို ခွက်ပြည့်အောင် ဖြည့်ပါ။",
+        "phase": "cup",
+        "vessel": null
+      }
+    ],
+    "notes": [],
+    "id": "video-series-coffee-09"
+  },
+  {
+    "group": "coffee",
+    "part": 10,
+    "name": "Cocoa Coffee Foam — Evaporated Base",
+    "mm": "ကိုကိုး ကော်ဖီအမြှုပ် — နို့စိမ်းဘူးအခြေခံ",
+    "start": 163,
+    "end": 177,
+    "photo": 175,
+    "size": 20,
+    "actions": [
+      {
+        "name": "ကိုကိုးမှုန့်",
+        "quantity": "15 g",
+        "text": "ကိုကိုးမှုန့် 15 g ထည့်ပါ။",
+        "phase": "prepare",
+        "vessel": null
+      },
+      {
+        "name": "ရေနွေး",
+        "quantity": "60 ml",
+        "text": "ကိုကိုးမှုန့်ထဲ ရေနွေး 60 ml ထည့်၍ ပျော်အောင်မွှေပါ။",
+        "phase": "prepare",
+        "vessel": null
+      },
+      {
+        "name": "ကော်ဖီရည် — အမြှုပ်အတွက်",
+        "quantity": "50 ml",
+        "text": "ကော်ဖီရည် — အမြှုပ်အတွက် 50 ml ထည့်ပါ။",
+        "phase": "prepare",
+        "vessel": null
+      },
+      {
+        "name": "အမြှုပ်ဖောက်ရန် နို့",
+        "quantity": "30 ml",
+        "text": "သီးခြားခွက်ထဲရှိ ကော်ဖီရည် 50 ml ထဲ အမြှုပ်ဖောက်ရန် နို့ 30 ml ထည့်ပြီး အမြှုပ်ထူလာအောင် ဖောက်ပါ။",
+        "phase": "prepare",
+        "vessel": null
+      },
+      {
+        "name": "နို့စိမ်းဘူး (Evaporated milk)",
+        "quantity": "40 ml",
+        "text": "နို့စိမ်းဘူး (Evaporated milk) 40 ml ထည့်ပါ။",
+        "phase": "cup",
+        "vessel": null
+      },
+      {
+        "name": "နို့ဆီ",
+        "quantity": "40 ml",
+        "text": "နို့ဆီ 40 ml ထည့်ပါ။",
+        "phase": "cup",
+        "vessel": null
+      },
+      {
+        "text": "ကြိုဖျော်ထားသော ကိုကိုးရည်ထည့်၍ မွှေပါ။",
+        "phase": "cup"
+      },
+      {
+        "name": "ရေခဲ",
+        "quantity": "ခွက်ပြည့် — g မဖော်ပြ",
+        "text": "ရေခဲကို ခွက်ပြည့်အောင် ဖြည့်ပါ။",
+        "phase": "cup",
+        "vessel": null
+      },
+      {
+        "text": "ကြိုဖောက်ထားသော ကော်ဖီအမြှုပ်ကို အပေါ်တင်ပါ။",
+        "phase": "finish"
+      }
+    ],
+    "notes": [],
+    "id": "video-series-coffee-10"
+  },
+  {
+    "group": "coffee",
+    "part": 11,
+    "name": "Coffee Bear Brand",
+    "mm": "Bear Brand နို့ ကော်ဖီ",
+    "start": 177,
+    "end": 193,
+    "photo": 189,
+    "size": 20,
+    "actions": [
+      {
+        "name": "ကော်ဖီရည်",
+        "quantity": "50 ml",
+        "text": "ကော်ဖီရည် 50 ml ထည့်ပါ။",
+        "phase": "cup",
+        "vessel": null
+      },
+      {
+        "name": "သကြားရည်",
+        "quantity": "10 ml",
+        "text": "သကြားရည် 10 ml ထည့်ပါ။",
+        "phase": "cup",
+        "vessel": null
+      },
+      {
+        "name": "နို့ဆီ",
+        "quantity": "30 ml",
+        "text": "နို့ဆီ 30 ml ထည့်ပါ။",
+        "phase": "cup",
+        "vessel": null
+      },
+      {
+        "text": "ဇွန်းဖြင့် အောက်ခြေထိ ရောမွှေပါ။",
+        "phase": "cup"
+      },
+      {
+        "name": "ရေခဲ",
+        "quantity": "ခွက်ပြည့် — g မဖော်ပြ",
+        "text": "ရေခဲကို ခွက်ပြည့်အောင် ဖြည့်ပါ။",
+        "phase": "cup",
+        "vessel": null
+      },
+      {
+        "name": "Bear Brand နို့",
+        "quantity": "140 ml",
+        "text": "ရေခဲပေါ်မှ Bear Brand နို့ 140 ml လောင်းထည့်ပါ။",
+        "phase": "finish",
+        "vessel": null
+      }
+    ],
+    "notes": [],
+    "id": "video-series-coffee-11"
+  },
+  {
+    "group": "coffee",
+    "part": 13,
+    "name": "Coffee Bear Brand — Cane Syrup",
+    "mm": "Bear Brand နို့ ကော်ဖီ",
+    "start": 207,
+    "end": 219,
+    "photo": 217,
+    "size": 20,
+    "actions": [
+      {
+        "name": "ကော်ဖီရည်",
+        "quantity": "50 ml",
+        "text": "ကော်ဖီရည် 50 ml ထည့်ပါ။",
+        "phase": "cup",
+        "vessel": null
+      },
+      {
+        "name": "သကြားရည်",
+        "quantity": "10 ml",
+        "text": "သကြားရည် 10 ml ထည့်ပါ။",
+        "phase": "cup",
+        "vessel": null
+      },
+      {
+        "name": "နို့ဆီ",
+        "quantity": "30 ml",
+        "text": "နို့ဆီ 30 ml ထည့်ပါ။",
+        "phase": "cup",
+        "vessel": null
+      },
+      {
+        "text": "ဇွန်းဖြင့် အောက်ခြေထိ ရောမွှေပါ။",
+        "phase": "cup"
+      },
+      {
+        "name": "ရေခဲ",
+        "quantity": "ခွက်ပြည့် — g မဖော်ပြ",
+        "text": "ရေခဲကို ခွက်ပြည့်အောင် ဖြည့်ပါ။",
+        "phase": "cup",
+        "vessel": null
+      },
+      {
+        "name": "Bear Brand နို့",
+        "quantity": "140 ml",
+        "text": "ရေခဲပေါ်မှ Bear Brand နို့ 140 ml လောင်းထည့်ပါ။",
+        "phase": "finish",
+        "vessel": null
+      }
+    ],
+    "notes": [],
+    "id": "video-series-coffee-13"
+  },
+  {
+    "group": "coffee",
+    "part": 12,
+    "name": "Es Yen — Moka Pot",
+    "mm": "ထိုင်းကော်ဖီအေး — Moka Pot",
+    "start": 193,
+    "end": 207,
+    "photo": 205,
+    "size": 20,
+    "actions": [
+      {
+        "name": "ခရင်မာမှုန့်",
+        "quantity": "7 g",
+        "text": "ကော်ဖီရည်ပူ 120 ml ထဲ ခရင်မာမှုန့် 7 g ပျော်အောင်မွှေပါ။",
+        "phase": "prepare",
+        "vessel": null
+      },
+      {
+        "name": "နို့စိမ်းဘူး (Evaporated milk)",
+        "quantity": "40 ml",
+        "text": "နို့စိမ်းဘူး (Evaporated milk) 40 ml ထည့်ပါ။",
+        "phase": "cup",
+        "vessel": null
+      },
+      {
+        "name": "နို့ဆီ",
+        "quantity": "40 ml",
+        "text": "နို့ဆီ 40 ml ထည့်ပါ။",
+        "phase": "cup",
+        "vessel": null
+      },
+      {
+        "text": "ခရင်မာပျော်ထားသော ကော်ဖီရည်ထည့်ပါ။",
+        "phase": "cup"
+      },
+      {
+        "name": "နို့စိမ်း (Fresh milk)",
+        "quantity": "30 ml",
+        "text": "နို့စိမ်း (Fresh milk) 30 ml ထည့်ပါ။",
+        "phase": "cup",
+        "vessel": null
+      },
+      {
+        "text": "ဇွန်းဖြင့် အောက်ခြေထိ ရောမွှေပါ။",
+        "phase": "cup"
+      },
+      {
+        "name": "ရေခဲ",
+        "quantity": "ခွက်ပြည့် — g မဖော်ပြ",
+        "text": "ရေခဲကို ခွက်ပြည့်အောင် ဖြည့်ပါ။",
+        "phase": "cup",
+        "vessel": null
+      }
+    ],
+    "notes": [
+      "Video: ကော်ဖီစေ့အမှောင်လှော် 24 g၊ moka pot ထဲ ရေနွေး 150 ml ဖြင့် ပြင်ပြီး ကော်ဖီရည် 120 ml ကိုသုံးသည်။"
+    ],
+    "id": "video-series-coffee-12"
+  },
+  {
+    "group": "coffee",
+    "part": 14,
+    "name": "Black Coffee Coconut",
+    "mm": "အုန်းဆီရပ် ကော်ဖီအမည်း",
+    "start": 219,
+    "end": 237,
+    "photo": 233,
+    "size": 20,
+    "actions": [
+      {
+        "name": "အုန်းဆီရပ်",
+        "quantity": "40 ml",
+        "text": "အုန်းဆီရပ် 40 ml ထည့်ပါ။",
+        "phase": "cup",
+        "vessel": null
+      },
+      {
+        "name": "ရိုးရိုးရေ",
+        "quantity": "120 ml",
+        "text": "ရိုးရိုးရေ 120 ml ထည့်ပါ။",
+        "phase": "cup",
+        "vessel": null
+      },
+      {
+        "text": "ဇွန်းဖြင့် အောက်ခြေထိ ရောမွှေပါ။",
+        "phase": "cup"
+      },
+      {
+        "name": "ရေခဲ",
+        "quantity": "ခွက်ပြည့် — g မဖော်ပြ",
+        "text": "ရေခဲကို ခွက်ပြည့်အောင် ဖြည့်ပါ။",
+        "phase": "cup",
+        "vessel": null
+      },
+      {
+        "name": "ကော်ဖီရည်",
+        "quantity": "70 ml",
+        "text": "ကော်ဖီရည် 70 ml ကို ရေခဲပေါ်မှ ဖြည်းဖြည်းလောင်းထည့်ပါ။",
+        "phase": "finish",
+        "vessel": null
+      }
+    ],
+    "notes": [
+      "Part 08 နှင့် အချိုးတူသော သီးခြား Video Part ဖြစ်သည်။ Part အလိုက် ပြန်ကြည့်နိုင်ရန် ထိန်းထားသည်။"
+    ],
+    "id": "video-series-coffee-14"
+  },
+  {
+    "group": "coffee",
+    "part": 15,
+    "name": "Caramel Milk Coffee Foam",
+    "mm": "ကာရာမယ်နို့ ကော်ဖီအမြှုပ်",
+    "start": 237,
+    "end": 259,
+    "photo": 255,
+    "size": 20,
+    "actions": [
+      {
+        "name": "ကော်ဖီရည် — အမြှုပ်အတွက်",
+        "quantity": "50 ml",
+        "text": "ကော်ဖီရည် — အမြှုပ်အတွက် 50 ml ထည့်ပါ။",
+        "phase": "prepare",
+        "vessel": null
+      },
+      {
+        "name": "အမြှုပ်ဖောက်ရန် နို့",
+        "quantity": "30 ml",
+        "text": "သီးခြားခွက်ထဲရှိ ကော်ဖီရည် 50 ml ထဲ အမြှုပ်ဖောက်ရန် နို့ 30 ml ထည့်ပြီး အမြှုပ်ထူလာအောင် ဖောက်ပါ။",
+        "phase": "prepare",
+        "vessel": null
+      },
+      {
+        "name": "ကာရာမယ်ဆီရပ်",
+        "quantity": "Video ပမာဏစာသားမမြင်ရှင်း",
+        "text": "ခွက်ဘေးတစ်ဝိုက် ကာရာမယ်ဆီရပ် လှည့်လောင်းပါ။",
+        "phase": "cup",
+        "vessel": null
+      },
+      {
+        "name": "နို့စိမ်းဘူး (Evaporated milk)",
+        "quantity": "30 ml",
+        "text": "နို့စိမ်းဘူး (Evaporated milk) 30 ml ထည့်ပါ။",
+        "phase": "cup",
+        "vessel": null
+      },
+      {
+        "name": "နို့စိမ်း (Fresh milk)",
+        "quantity": "90 ml",
+        "text": "နို့စိမ်း (Fresh milk) 90 ml ထည့်ပါ။",
+        "phase": "cup",
+        "vessel": null
+      },
+      {
+        "text": "ဇွန်းဖြင့် အောက်ခြေထိ ရောမွှေပါ။",
+        "phase": "cup"
+      },
+      {
+        "name": "ရေခဲ",
+        "quantity": "ခွက်ပြည့် — g မဖော်ပြ",
+        "text": "ရေခဲကို ခွက်ပြည့်အောင် ဖြည့်ပါ။",
+        "phase": "cup",
+        "vessel": null
+      },
+      {
+        "text": "ကော်ဖီအမြှုပ်ကို အပေါ်တင်ပါ။",
+        "phase": "finish"
+      }
+    ],
+    "notes": [
+      "မှတ်ချက်: အောက်ပါ ကိုးကားစမ်းဖျော်ပမာဏများသည် မူရင်း Video မှအတည်ပြုပမာဏများနှင့် သီးခြားဖြစ်သည်။",
+      "ကာရာမယ်တိုင်းခွက်မြင်ရသော်လည်း ပမာဏစာသားမတွေ့ရ။ ကိုးကားစမ်းဖျော်ရန် Part 20 ၏ ဆီရပ် 30 ml ကို စတင်အချိုးအဖြစ်သုံးနိုင်သည်။ ဤ 30 ml သည် Part 15 မူရင်းအတည်ပြုပမာဏမဟုတ်ပါ။"
+    ],
+    "id": "video-series-coffee-15"
+  },
+  {
+    "group": "coffee",
+    "part": 16,
+    "name": "Thai Green Milk Tea with Coffee",
+    "mm": "ထိုင်းလက်ဖက်စိမ်းနို့ ကော်ဖီ",
+    "start": 259,
+    "end": 277,
+    "photo": 273,
+    "size": 20,
+    "actions": [
+      {
+        "name": "နို့စိမ်းဘူး (Evaporated milk)",
+        "quantity": "40 ml",
+        "text": "နို့စိမ်းဘူး (Evaporated milk) 40 ml ထည့်ပါ။",
+        "phase": "cup",
+        "vessel": null
+      },
+      {
+        "name": "နို့ဆီ",
+        "quantity": "40 ml",
+        "text": "နို့ဆီ 40 ml ထည့်ပါ။",
+        "phase": "cup",
+        "vessel": null
+      },
+      {
+        "name": "ထိုင်းလက်ဖက်စိမ်းရည်",
+        "quantity": "100 ml",
+        "text": "ထိုင်းလက်ဖက်စိမ်းရည် 100 ml ထည့်ပါ။",
+        "phase": "cup",
+        "vessel": null
+      },
+      {
+        "text": "ဇွန်းဖြင့် အောက်ခြေထိ ရောမွှေပါ။",
+        "phase": "cup"
+      },
+      {
+        "name": "ရေခဲ",
+        "quantity": "ခွက်ပြည့် — g မဖော်ပြ",
+        "text": "ရေခဲကို ခွက်ပြည့်အောင် ဖြည့်ပါ။",
+        "phase": "cup",
+        "vessel": null
+      },
+      {
+        "name": "ကော်ဖီရည်",
+        "quantity": "50 ml",
+        "text": "ကော်ဖီရည် 50 ml ကို ရေခဲပေါ်မှ ဖြည်းဖြည်းလောင်းထည့်ပါ။",
+        "phase": "finish",
+        "vessel": null
+      }
+    ],
+    "notes": [],
+    "id": "video-series-coffee-16"
+  },
+  {
+    "group": "coffee",
+    "part": 17,
+    "name": "Coffee Oat Milk",
+    "mm": "အုတ်နို့ ကော်ဖီ",
+    "start": 277,
+    "end": 299,
+    "photo": 295.5,
+    "size": 20,
+    "actions": [
+      {
+        "name": "နို့စိမ်းဘူး (Evaporated milk)",
+        "quantity": "40 ml",
+        "text": "နို့စိမ်းဘူး (Evaporated milk) 40 ml ထည့်ပါ။",
+        "phase": "cup",
+        "vessel": null
+      },
+      {
+        "name": "အုတ်နို့",
+        "quantity": "80 ml",
+        "text": "အုတ်နို့ 80 ml ထည့်ပါ။",
+        "phase": "cup",
+        "vessel": null
+      },
+      {
+        "text": "ဇွန်းဖြင့် အောက်ခြေထိ ရောမွှေပါ။",
+        "phase": "cup"
+      },
+      {
+        "name": "ရေခဲ",
+        "quantity": "ခွက်ပြည့် — g မဖော်ပြ",
+        "text": "ရေခဲကို ခွက်ပြည့်အောင် ဖြည့်ပါ။",
+        "phase": "cup",
+        "vessel": null
+      },
+      {
+        "name": "ကော်ဖီရည်",
+        "quantity": "70 ml",
+        "text": "ကော်ဖီရည် 70 ml ကို ရေခဲပေါ်မှ ဖြည်းဖြည်းလောင်းထည့်ပါ။",
+        "phase": "finish",
+        "vessel": null
+      }
+    ],
+    "notes": [
+      "ခေါင်းစဉ်တွင် Oat Milk ဟုဆိုသော်လည်း Video တွင် Evaporated milk ပါဝင်သည်။ နို့ထွက်ပစ္စည်းလွတ်မဟုတ်ပါ။ အချိုထပ်ထည့်သောအဆင့် မတွေ့ပါ။"
+    ],
+    "id": "video-series-coffee-17"
+  },
+  {
+    "group": "coffee",
+    "part": 18,
+    "name": "Iced Americano — Moka Pot",
+    "mm": "အမေရိကာနိုအေး — Moka Pot",
+    "start": 299,
+    "end": 315,
+    "photo": 308.7,
+    "size": 20,
+    "actions": [
+      {
+        "name": "ကော်ဖီရည်",
+        "quantity": "100 ml",
+        "text": "ကော်ဖီရည် 100 ml ထည့်ပါ။",
+        "phase": "cup",
+        "vessel": null
+      },
+      {
+        "name": "ရိုးရိုးရေ",
+        "quantity": "130 ml",
+        "text": "ရိုးရိုးရေ 130 ml ထည့်ပါ။",
+        "phase": "cup",
+        "vessel": null
+      },
+      {
+        "text": "ဇွန်းဖြင့် အောက်ခြေထိ ရောမွှေပါ။",
+        "phase": "cup"
+      },
+      {
+        "name": "ရေခဲ",
+        "quantity": "ခွက်ပြည့် — g မဖော်ပြ",
+        "text": "ရေခဲကို ခွက်ပြည့်အောင် ဖြည့်ပါ။",
+        "phase": "cup",
+        "vessel": null
+      }
+    ],
+    "notes": [
+      "Video ပြင်ဆင်မှု: dark roast ကော်ဖီစေ့ 16 g၊ moka pot ရေနွေး 130 ml။ ခွက်ထဲဖျော်ရန် ရိုးရိုးရေ 130 ml သည် သီးခြားဖြစ်သည်။ အချို 0%။"
+    ],
+    "id": "video-series-coffee-18"
+  },
+  {
+    "group": "coffee",
+    "part": "18b",
+    "name": "Iced Black Brikka",
+    "mm": "Brikka ကော်ဖီအမည်းအေး",
+    "start": 315,
+    "end": 335,
+    "photo": 328,
+    "size": 20,
+    "actions": [
+      {
+        "name": "သကြားရည်",
+        "quantity": "20 ml",
+        "text": "သကြားရည် 20 ml ထည့်ပါ။",
+        "phase": "cup",
+        "vessel": null
+      },
+      {
+        "name": "ကော်ဖီရည်",
+        "quantity": "180 ml",
+        "text": "ကော်ဖီရည် 180 ml ထည့်ပါ။",
+        "phase": "cup",
+        "vessel": null
+      },
+      {
+        "text": "ဇွန်းဖြင့် အောက်ခြေထိ ရောမွှေပါ။",
+        "phase": "cup"
+      },
+      {
+        "name": "ရေခဲ",
+        "quantity": "ခွက်ပြည့် — g မဖော်ပြ",
+        "text": "ရေခဲကို ခွက်ပြည့်အောင် ဖြည့်ပါ။",
+        "phase": "cup",
+        "vessel": null
+      }
+    ],
+    "notes": [
+      "Video Part 18 ၏ ဒုတိယဖျော်နည်း၊ အချို 50%။ Brikka 4-cup၊ dark roast စေ့ 16 g၊ ရေနွေး 210 ml ဖြင့် ပြင်သည်။"
+    ],
+    "id": "video-series-coffee-18b"
+  },
+  {
+    "group": "coffee",
+    "part": 19,
+    "name": "Black Coffee Orange Juice",
+    "mm": "လိမ္မော်ရည် ကော်ဖီအမည်း",
+    "start": 335,
+    "end": 353,
+    "photo": 350,
+    "size": 20,
+    "actions": [
+      {
+        "name": "လိမ္မော်ဖျော်ရည်",
+        "quantity": "160 ml",
+        "text": "လိမ္မော်ဖျော်ရည် 160 ml ထည့်ပါ။",
+        "phase": "cup",
+        "vessel": null
+      },
+      {
+        "name": "ရေခဲ",
+        "quantity": "ခွက်ပြည့် — g မဖော်ပြ",
+        "text": "ရေခဲကို ခွက်ပြည့်အောင် ဖြည့်ပါ။",
+        "phase": "cup",
+        "vessel": null
+      },
+      {
+        "name": "ကော်ဖီရည်",
+        "quantity": "60 ml",
+        "text": "ကော်ဖီရည် 60 ml ကို ရေခဲပေါ်မှ ဖြည်းဖြည်းလောင်းထည့်ပါ။",
+        "phase": "finish",
+        "vessel": null
+      }
+    ],
+    "notes": [
+      "Part 02 ၏ concentrated orange 40 ml + water 120 ml နှင့် မတူပါ။ ဤ Part သည် အသင့်သောက်လိမ္မော်ရည် 160 ml ဖြစ်သည်။"
+    ],
+    "id": "video-series-coffee-19"
+  },
+  {
+    "group": "coffee",
+    "part": 20,
+    "name": "Caramel Macchiato — Cold Foam",
+    "mm": "ကာရာမယ် မက်ခီယာတို အမြှုပ်",
+    "start": 353,
+    "end": 377,
+    "photo": 373.4,
+    "size": 20,
+    "actions": [
+      {
+        "name": "ကာရာမယ်ဆီရပ်",
+        "quantity": "30 ml",
+        "text": "ကာရာမယ်ဆီရပ် 30 ml ထည့်ပါ။",
+        "phase": "cup",
+        "vessel": null
+      },
+      {
+        "name": "နို့စိမ်း (Fresh milk)",
+        "quantity": "60 ml",
+        "text": "နို့စိမ်း (Fresh milk) 60 ml ထည့်ပါ။",
+        "phase": "cup",
+        "vessel": null
+      },
+      {
+        "text": "ဇွန်းဖြင့် အောက်ခြေထိ ရောမွှေပါ။",
+        "phase": "cup"
+      },
+      {
+        "name": "ရေခဲ",
+        "quantity": "ခွက်ပြည့် — g မဖော်ပြ",
+        "text": "ရေခဲကို ခွက်ပြည့်အောင် ဖြည့်ပါ။",
+        "phase": "cup",
+        "vessel": null
+      },
+      {
+        "name": "ကော်ဖီရည်",
+        "quantity": "60 ml",
+        "text": "ကော်ဖီရည် 60 ml ကို ရေခဲပေါ်မှ ဖြည်းဖြည်းလောင်းထည့်ပါ။",
+        "phase": "finish",
+        "vessel": null
+      },
+      {
+        "name": "ကြိုပြင်ပြီး နို့အမြှုပ် (Cold foam)",
+        "quantity": "50 g",
+        "text": "နောက်ဆုံး နို့အမြှုပ် 50 g ကို အပေါ်တင်ပါ။",
+        "phase": "finish",
+        "vessel": null
+      },
+      {
+        "name": "ကာရာမယ်ဆော့စ် အလှဆင်",
+        "quantity": "Video ပမာဏမဖော်ပြ",
+        "text": "ကာရာမယ်ဆော့စ် အလှဆင် Video ပမာဏမဖော်ပြ ထည့်ပါ။",
+        "phase": "finish",
+        "vessel": null
+      }
+    ],
+    "notes": [],
+    "id": "video-series-coffee-20"
+  },
+  {
+    "group": "coffee",
+    "part": 21,
+    "name": "Nutella Coffee Bear Brand",
+    "mm": "နူတယ်လာ Bear Brand နို့ကော်ဖီ",
+    "start": 377,
+    "end": 396.5,
+    "photo": 393,
+    "size": 20,
+    "actions": [
+      {
+        "name": "Nutella spread",
+        "quantity": "50 g",
+        "text": "Nutella 50 g ကို ခွက်အတွင်းဘေးတစ်ဝိုက် သုတ်ပါ။",
+        "phase": "cup",
+        "vessel": null
+      },
+      {
+        "name": "ကော်ဖီရည်",
+        "quantity": "50 ml",
+        "text": "ကော်ဖီရည် 50 ml ထည့်ပါ။",
+        "phase": "cup",
+        "vessel": null
+      },
+      {
+        "text": "ဇွန်းဖြင့် အောက်ခြေထိ ရောမွှေပါ။",
+        "phase": "cup"
+      },
+      {
+        "name": "ရေခဲ",
+        "quantity": "ခွက်ပြည့် — g မဖော်ပြ",
+        "text": "ရေခဲကို ခွက်ပြည့်အောင် ဖြည့်ပါ။",
+        "phase": "cup",
+        "vessel": null
+      },
+      {
+        "name": "Bear Brand နို့",
+        "quantity": "140 ml",
+        "text": "Bear Brand နို့ 140 ml ထည့်ပါ။",
+        "phase": "finish",
+        "vessel": null
+      }
+    ],
+    "notes": [],
+    "id": "video-series-coffee-21"
+  },
+  {
+    "group": "berry",
+    "part": 1,
+    "name": "Strawberry Fresh Milk",
+    "mm": "စတော်ဘယ်ရီ နို့အေး",
+    "start": 0,
+    "end": 23,
+    "photo": 21,
+    "size": 20,
+    "actions": [
+      {
+        "name": "စတော်ဘယ်ရီ အသီးအနှစ် (Fruit preparation)",
+        "quantity": "50 ml",
+        "text": "စတော်ဘယ်ရီ အသီးအနှစ် (Fruit preparation) 50 ml ထည့်ပါ။",
+        "phase": "cup",
+        "vessel": null
+      },
+      {
+        "name": "ရေခဲ",
+        "quantity": "ခွက်ပြည့် — g မဖော်ပြ",
+        "text": "ရေခဲကို ခွက်ပြည့်အောင် ဖြည့်ပါ။",
+        "phase": "cup",
+        "vessel": null
+      },
+      {
+        "name": "နို့စိမ်း (Fresh milk)",
+        "quantity": "150 ml",
+        "text": "နို့စိမ်း (Fresh milk) 150 ml ထည့်ပါ။",
+        "phase": "finish",
+        "vessel": null
+      }
+    ],
+    "notes": [],
+    "id": "video-series-berry-01"
+  },
+  {
+    "group": "berry",
+    "part": 2,
+    "name": "Strawberry Cocoa Milk",
+    "mm": "စတော်ဘယ်ရီ ကိုကိုးနို့",
+    "start": 23,
+    "end": 39,
+    "photo": 37,
+    "size": 20,
+    "actions": [
+      {
+        "name": "ကိုကိုးမှုန့်",
+        "quantity": "10 g",
+        "text": "ကိုကိုးမှုန့် 10 g ထည့်ပါ။",
+        "phase": "prepare",
+        "vessel": null
+      },
+      {
+        "name": "ရေနွေး",
+        "quantity": "50 ml",
+        "text": "ကိုကိုးမှုန့်ထဲ ရေနွေး 50 ml ထည့်ပြီး အဖုမရှိအောင် ဖျော်ပါ။",
+        "phase": "prepare",
+        "vessel": null
+      },
+      {
+        "name": "စတော်ဘယ်ရီ အသီးအနှစ် (Fruit preparation)",
+        "quantity": "40 ml",
+        "text": "စတော်ဘယ်ရီ အသီးအနှစ် (Fruit preparation) 40 ml ထည့်ပါ။",
+        "phase": "cup",
+        "vessel": null
+      },
+      {
+        "name": "ရေခဲ",
+        "quantity": "ခွက်ပြည့် — g မဖော်ပြ",
+        "text": "ရေခဲကို ခွက်ပြည့်အောင် ဖြည့်ပါ။",
+        "phase": "cup",
+        "vessel": null
+      },
+      {
+        "name": "နို့စိမ်းဘူး (Evaporated milk)",
+        "quantity": "40 ml",
+        "text": "သီးခြားတိုင်းခွက်ထဲ နို့စိမ်းဘူး 40 ml ထည့်ပါ။",
+        "phase": "prepare",
+        "vessel": null
+      },
+      {
+        "name": "နို့စိမ်း (Fresh milk)",
+        "quantity": "100 ml",
+        "text": "နို့စိမ်း 100 ml ထည့်၍ နို့နှစ်မျိုးရောမွှေပါ။",
+        "phase": "prepare",
+        "vessel": null
+      },
+      {
+        "text": "ရောထားသော နို့ကို ရေခဲပေါ်မှ ဖြည်းဖြည်းလောင်းပါ။",
+        "phase": "finish"
+      },
+      {
+        "text": "ကြိုဖျော်ထားသော ကိုကိုးရည်ကို နို့ပေါ်မှ ဖြည်းဖြည်းလောင်းပါ။",
+        "phase": "finish"
+      }
+    ],
+    "notes": [],
+    "id": "video-series-berry-02"
+  },
+  {
+    "group": "berry",
+    "part": 3,
+    "name": "Strawberry Thai Tea Latte",
+    "mm": "စတော်ဘယ်ရီ ထိုင်းလက်ဖက်ရည်လာတေး",
+    "start": 39,
+    "end": 57,
+    "photo": 53.5,
+    "size": 20,
+    "actions": [
+      {
+        "name": "စတော်ဘယ်ရီ အသီးအနှစ် (Fruit preparation)",
+        "quantity": "40 ml",
+        "text": "စတော်ဘယ်ရီ အသီးအနှစ် (Fruit preparation) 40 ml ထည့်ပါ။",
+        "phase": "cup",
+        "vessel": null
+      },
+      {
+        "name": "ရေခဲ",
+        "quantity": "ခွက်ပြည့် — g မဖော်ပြ",
+        "text": "ရေခဲကို ခွက်ပြည့်အောင် ဖြည့်ပါ။",
+        "phase": "cup",
+        "vessel": null
+      },
+      {
+        "name": "နို့စိမ်းဘူး (Evaporated milk)",
+        "quantity": "40 ml",
+        "text": "သီးခြားတိုင်းခွက်ထဲ နို့စိမ်းဘူး 40 ml ထည့်ပါ။",
+        "phase": "prepare",
+        "vessel": null
+      },
+      {
+        "name": "နို့စိမ်း (Fresh milk)",
+        "quantity": "100 ml",
+        "text": "နို့စိမ်း 100 ml ထည့်၍ နို့နှစ်မျိုးရောမွှေပါ။",
+        "phase": "prepare",
+        "vessel": null
+      },
+      {
+        "text": "ရောထားသော နို့ကို ရေခဲပေါ်မှ ဖြည်းဖြည်းလောင်းပါ။",
+        "phase": "finish"
+      },
+      {
+        "name": "ထိုင်းလက်ဖက်ရည်အနှစ်",
+        "quantity": "50 ml",
+        "text": "ကြိုပြင်ထားသော ထိုင်းလက်ဖက်ရည် 50 ml ကို အပေါ်မှလောင်းပါ။",
+        "phase": "finish",
+        "vessel": null
+      }
+    ],
+    "notes": [
+      "မှတ်ချက်: အောက်ပါ ကိုးကားစမ်းဖျော်ပမာဏများသည် မူရင်း Video မှအတည်ပြုပမာဏများနှင့် သီးခြားဖြစ်သည်။",
+      "Video တွင် tea mix 15 g ဟုဖော်ပြသည်။ ရေနွေးအချိုးမပါသောကြောင့် Berry Part 13 မှ tea mix 15 g + ရေနွေး 80 ml ဖြင့် ကော်ဖီစက်မှထုတ်ပြီး ရည် 50 ml သုံးသည့်နည်းကို ကိုးကားနိုင်သည်။"
+    ],
+    "id": "video-series-berry-03"
+  },
+  {
+    "group": "berry",
+    "part": 4,
+    "name": "Strawberry Matcha Latte",
+    "mm": "စတော်ဘယ်ရီ မတ်ချာလာတေး",
+    "start": 57,
+    "end": 73,
+    "photo": 69.5,
+    "size": 20,
+    "actions": [
+      {
+        "name": "မတ်ချာမှုန့်",
+        "quantity": "6 g",
+        "text": "မတ်ချာမှုန့် 6 g ထည့်ပါ။",
+        "phase": "prepare",
+        "vessel": null
+      },
+      {
+        "name": "ရေနွေး",
+        "quantity": "40 ml",
+        "text": "မတ်ချာမှုန့်ထဲ ရေနွေး 40 ml ထည့်ပြီး အဖုမရှိအောင် ဖျော်ပါ။",
+        "phase": "prepare",
+        "vessel": null
+      },
+      {
+        "name": "စတော်ဘယ်ရီ အသီးအနှစ် (Fruit preparation)",
+        "quantity": "40 ml",
+        "text": "စတော်ဘယ်ရီ အသီးအနှစ် (Fruit preparation) 40 ml ထည့်ပါ။",
+        "phase": "cup",
+        "vessel": null
+      },
+      {
+        "name": "ရေခဲ",
+        "quantity": "ခွက်ပြည့် — g မဖော်ပြ",
+        "text": "ရေခဲကို ခွက်ပြည့်အောင် ဖြည့်ပါ။",
+        "phase": "cup",
+        "vessel": null
+      },
+      {
+        "name": "နို့စိမ်းဘူး (Evaporated milk)",
+        "quantity": "40 ml",
+        "text": "သီးခြားတိုင်းခွက်ထဲ နို့စိမ်းဘူး 40 ml ထည့်ပါ။",
+        "phase": "prepare",
+        "vessel": null
+      },
+      {
+        "name": "နို့စိမ်း (Fresh milk)",
+        "quantity": "100 ml",
+        "text": "နို့စိမ်း 100 ml ထည့်၍ နို့နှစ်မျိုးရောမွှေပါ။",
+        "phase": "prepare",
+        "vessel": null
+      },
+      {
+        "text": "ရောထားသော နို့ကို ရေခဲပေါ်မှ ဖြည်းဖြည်းလောင်းပါ။",
+        "phase": "finish"
+      },
+      {
+        "text": "ကြိုဖျော်ထားသော မတ်ချာရည်ကို နို့ပေါ်မှ ဖြည်းဖြည်းလောင်းပါ။",
+        "phase": "finish"
+      }
+    ],
+    "notes": [],
+    "id": "video-series-berry-04"
+  },
+  {
+    "group": "berry",
+    "part": 5,
+    "name": "Strawberry Coffee Latte",
+    "mm": "စတော်ဘယ်ရီ ကော်ဖီလာတေး",
+    "start": 73,
+    "end": 91,
+    "photo": 88,
+    "size": 20,
+    "actions": [
+      {
+        "name": "စတော်ဘယ်ရီ အသီးအနှစ် (Fruit preparation)",
+        "quantity": "40 ml",
+        "text": "စတော်ဘယ်ရီ အသီးအနှစ် (Fruit preparation) 40 ml ထည့်ပါ။",
+        "phase": "cup",
+        "vessel": null
+      },
+      {
+        "name": "ရေခဲ",
+        "quantity": "ခွက်ပြည့် — g မဖော်ပြ",
+        "text": "ရေခဲကို ခွက်ပြည့်အောင် ဖြည့်ပါ။",
+        "phase": "cup",
+        "vessel": null
+      },
+      {
+        "name": "နို့စိမ်းဘူး (Evaporated milk)",
+        "quantity": "40 ml",
+        "text": "သီးခြားတိုင်းခွက်ထဲ နို့စိမ်းဘူး 40 ml ထည့်ပါ။",
+        "phase": "prepare",
+        "vessel": null
+      },
+      {
+        "name": "နို့စိမ်း (Fresh milk)",
+        "quantity": "100 ml",
+        "text": "နို့စိမ်း 100 ml ထည့်၍ နို့နှစ်မျိုးရောမွှေပါ။",
+        "phase": "prepare",
+        "vessel": null
+      },
+      {
+        "text": "ရောထားသော နို့ကို ရေခဲပေါ်မှ ဖြည်းဖြည်းလောင်းပါ။",
+        "phase": "finish"
+      },
+      {
+        "name": "ကော်ဖီရည်",
+        "quantity": "50 ml",
+        "text": "ကော်ဖီရည် 50 ml ကို ရေခဲပေါ်မှ ဖြည်းဖြည်းလောင်းထည့်ပါ။",
+        "phase": "finish",
+        "vessel": null
+      }
+    ],
+    "notes": [],
+    "id": "video-series-berry-05"
+  },
+  {
+    "group": "berry",
+    "part": 6,
+    "name": "Strawberry Oat Milk",
+    "mm": "စတော်ဘယ်ရီ အုတ်နို့",
+    "start": 91,
+    "end": 129,
+    "photo": 127,
+    "size": 20,
+    "actions": [
+      {
+        "name": "စတော်ဘယ်ရီ အသီးအနှစ် (Fruit preparation)",
+        "quantity": "40 ml",
+        "text": "စတော်ဘယ်ရီ အသီးအနှစ် (Fruit preparation) 40 ml ထည့်ပါ။",
+        "phase": "cup",
+        "vessel": null
+      },
+      {
+        "name": "ရေခဲ",
+        "quantity": "ခွက်ပြည့် — g မဖော်ပြ",
+        "text": "ရေခဲကို ခွက်ပြည့်အောင် ဖြည့်ပါ။",
+        "phase": "cup",
+        "vessel": null
+      },
+      {
+        "name": "နို့စိမ်းဘူး (Evaporated milk)",
+        "quantity": "40 ml",
+        "text": "သီးခြားခွက်ထဲ နို့စိမ်းဘူး 40 ml ထည့်ပါ။",
+        "phase": "prepare",
+        "vessel": null
+      },
+      {
+        "name": "အုတ်နို့",
+        "quantity": "140 ml",
+        "text": "အုတ်နို့ 140 ml ထည့်၍ ရောမွှေပါ။",
+        "phase": "prepare",
+        "vessel": null
+      },
+      {
+        "text": "ရောထားသော နို့ကို ရေခဲပေါ်မှ လောင်းထည့်ပါ။",
+        "phase": "finish"
+      }
+    ],
+    "notes": [
+      "Video တွင် Evaporated milk ပါသဖြင့် နို့ထွက်ပစ္စည်းလွတ်မဟုတ်ပါ။"
+    ],
+    "id": "video-series-berry-06"
+  },
+  {
+    "group": "berry",
+    "part": 7,
+    "name": "Strawberry Green Tea Latte",
+    "mm": "စတော်ဘယ်ရီ ထိုင်းလက်ဖက်စိမ်းလာတေး",
+    "start": 129,
+    "end": 145,
+    "photo": 143,
+    "size": 20,
+    "actions": [
+      {
+        "name": "စတော်ဘယ်ရီ အသီးအနှစ် (Fruit preparation)",
+        "quantity": "40 ml",
+        "text": "စတော်ဘယ်ရီ အသီးအနှစ် (Fruit preparation) 40 ml ထည့်ပါ။",
+        "phase": "cup",
+        "vessel": null
+      },
+      {
+        "name": "ရေခဲ",
+        "quantity": "ခွက်ပြည့် — g မဖော်ပြ",
+        "text": "ရေခဲကို ခွက်ပြည့်အောင် ဖြည့်ပါ။",
+        "phase": "cup",
+        "vessel": null
+      },
+      {
+        "name": "နို့စိမ်းဘူး (Evaporated milk)",
+        "quantity": "40 ml",
+        "text": "သီးခြားတိုင်းခွက်ထဲ နို့စိမ်းဘူး 40 ml ထည့်ပါ။",
+        "phase": "prepare",
+        "vessel": null
+      },
+      {
+        "name": "နို့စိမ်း (Fresh milk)",
+        "quantity": "100 ml",
+        "text": "နို့စိမ်း 100 ml ထည့်၍ နို့နှစ်မျိုးရောမွှေပါ။",
+        "phase": "prepare",
+        "vessel": null
+      },
+      {
+        "text": "ရောထားသော နို့ကို ရေခဲပေါ်မှ ဖြည်းဖြည်းလောင်းပါ။",
+        "phase": "finish"
+      },
+      {
+        "name": "ထိုင်းလက်ဖက်စိမ်းရည်",
+        "quantity": "50 ml",
+        "text": "ထိုင်းလက်ဖက်စိမ်းရည် 50 ml ထည့်ပါ။",
+        "phase": "finish",
+        "vessel": null
+      }
+    ],
+    "notes": [
+      "မှတ်ချက်: အောက်ပါ ကိုးကားစမ်းဖျော်ပမာဏများသည် မူရင်း Video မှအတည်ပြုပမာဏများနှင့် သီးခြားဖြစ်သည်။",
+      "လက်ဖက်ရည်ထုတ်ရန် အချိုးမဖော်ပြ။ Berry Part 15 ၏ tea mix 10 g + ရေနွေး 80 ml → ရည် 50 ml ကို ကိုးကားနိုင်သည်။"
+    ],
+    "id": "video-series-berry-07"
+  },
+  {
+    "group": "berry",
+    "part": 8,
+    "name": "Mixed Berry Fresh Milk",
+    "mm": "မစ်စ်ဘယ်ရီ နို့အေး",
+    "start": 145,
+    "end": 167,
+    "photo": 163,
+    "size": 16,
+    "actions": [
+      {
+        "name": "မစ်စ်ဘယ်ရီ အသီးအနှစ် (Fruit preparation)",
+        "quantity": "30 ml",
+        "text": "မစ်စ်ဘယ်ရီ အသီးအနှစ် (Fruit preparation) 30 ml ထည့်ပါ။",
+        "phase": "cup",
+        "vessel": null
+      },
+      {
+        "name": "ရေခဲ",
+        "quantity": "ခွက်ပြည့် — g မဖော်ပြ",
+        "text": "ရေခဲကို ခွက်ပြည့်အောင် ဖြည့်ပါ။",
+        "phase": "cup",
+        "vessel": null
+      },
+      {
+        "name": "နို့စိမ်းဘူး (Evaporated milk)",
+        "quantity": "30 ml",
+        "text": "သီးခြားတိုင်းခွက်ထဲ နို့စိမ်းဘူး 30 ml ထည့်ပါ။",
+        "phase": "prepare",
+        "vessel": null
+      },
+      {
+        "name": "နို့စိမ်း (Fresh milk)",
+        "quantity": "Video ပမာဏမဖော်ပြ",
+        "text": "နို့စိမ်းကို နို့စိမ်းဘူးနှင့် သီးခြားခွက်ထဲ ရောမွှေပါ။",
+        "phase": "prepare",
+        "vessel": null
+      },
+      {
+        "text": "ရောထားသော နို့ကို ရေခဲပေါ်မှ ဖြည်းဖြည်းလောင်းပါ။",
+        "phase": "finish"
+      }
+    ],
+    "notes": [
+      "မှတ်ချက်: အောက်ပါ ကိုးကားစမ်းဖျော်ပမာဏများသည် မူရင်း Video မှအတည်ပြုပမာဏများနှင့် သီးခြားဖြစ်သည်။",
+      "နို့စိမ်းပမာဏကို ဤ Part တွင် မဖော်ပြထားပါ။ ကိုးကားစမ်းဖျော်ရန် Berry Part 10/11 ၏ 16 oz နို့အခြေခံအချိုးအရ နို့စိမ်း 70 ml + နို့စိမ်းဘူး 30 ml ကိုသုံးနိုင်သည်။ နို့စိမ်း 70 ml သည် ဤ Part ၏ မူရင်းအတည်ပြုပမာဏမဟုတ်ပါ။"
+    ],
+    "id": "video-series-berry-08"
+  },
+  {
+    "group": "berry",
+    "part": 9,
+    "name": "Iced Strawberry 16 oz",
+    "mm": "စတော်ဘယ်ရီရည်အေး",
+    "start": 167,
+    "end": 187,
+    "photo": 185,
+    "size": 16,
+    "actions": [
+      {
+        "name": "စတော်ဘယ်ရီ အသီးအနှစ် (Fruit preparation)",
+        "quantity": "30 ml",
+        "text": "စတော်ဘယ်ရီ အသီးအနှစ် (Fruit preparation) 30 ml ထည့်ပါ။",
+        "phase": "cup",
+        "vessel": null
+      },
+      {
+        "name": "ရိုးရိုးရေ",
+        "quantity": "150 ml",
+        "text": "ရိုးရိုးရေ 150 ml ထည့်ပါ။",
+        "phase": "cup",
+        "vessel": null
+      },
+      {
+        "text": "ဇွန်းဖြင့် အောက်ခြေထိ ရောမွှေပါ။",
+        "phase": "cup"
+      },
+      {
+        "name": "ရေခဲ",
+        "quantity": "ခွက်ပြည့် — g မဖော်ပြ",
+        "text": "ရေခဲကို ခွက်ပြည့်အောင် ဖြည့်ပါ။",
+        "phase": "cup",
+        "vessel": null
+      }
+    ],
+    "notes": [],
+    "id": "video-series-berry-09"
+  },
+  {
+    "group": "berry",
+    "part": "9b",
+    "name": "Iced Strawberry 20 oz",
+    "mm": "စတော်ဘယ်ရီရည်အေး",
+    "start": 167,
+    "end": 187,
+    "photo": 185,
+    "size": 20,
+    "actions": [
+      {
+        "name": "စတော်ဘယ်ရီ အသီးအနှစ် (Fruit preparation)",
+        "quantity": "40 ml",
+        "text": "စတော်ဘယ်ရီ အသီးအနှစ် (Fruit preparation) 40 ml ထည့်ပါ။",
+        "phase": "cup",
+        "vessel": null
+      },
+      {
+        "name": "ရိုးရိုးရေ",
+        "quantity": "180 ml",
+        "text": "ရိုးရိုးရေ 180 ml ထည့်ပါ။",
+        "phase": "cup",
+        "vessel": null
+      },
+      {
+        "text": "ဇွန်းဖြင့် အောက်ခြေထိ ရောမွှေပါ။",
+        "phase": "cup"
+      },
+      {
+        "name": "ရေခဲ",
+        "quantity": "ခွက်ပြည့် — g မဖော်ပြ",
+        "text": "ရေခဲကို ခွက်ပြည့်အောင် ဖြည့်ပါ။",
+        "phase": "cup",
+        "vessel": null
+      }
+    ],
+    "notes": [],
+    "id": "video-series-berry-9b"
+  },
+  {
+    "group": "berry",
+    "part": 10,
+    "name": "Mixed Berry Cocoa Latte",
+    "mm": "မစ်စ်ဘယ်ရီ ကိုကိုးလာတေး",
+    "start": 187,
+    "end": 203,
+    "photo": 199.3,
+    "size": 16,
+    "actions": [
+      {
+        "name": "ကိုကိုးမှုန့်",
+        "quantity": "5–7 g",
+        "text": "ကိုကိုးမှုန့် 5–7 g ထည့်ပါ။",
+        "phase": "prepare",
+        "vessel": null
+      },
+      {
+        "name": "ရေနွေး",
+        "quantity": "50 ml",
+        "text": "ကိုကိုးမှုန့်ထဲ ရေနွေး 50 ml ထည့်ပြီး အဖုမရှိအောင် ဖျော်ပါ။",
+        "phase": "prepare",
+        "vessel": null
+      },
+      {
+        "name": "မစ်စ်ဘယ်ရီ အသီးအနှစ် (Fruit preparation)",
+        "quantity": "30 ml",
+        "text": "မစ်စ်ဘယ်ရီ အသီးအနှစ် (Fruit preparation) 30 ml ထည့်ပါ။",
+        "phase": "cup",
+        "vessel": null
+      },
+      {
+        "name": "ရေခဲ",
+        "quantity": "ခွက်ပြည့် — g မဖော်ပြ",
+        "text": "ရေခဲကို ခွက်ပြည့်အောင် ဖြည့်ပါ။",
+        "phase": "cup",
+        "vessel": null
+      },
+      {
+        "name": "နို့စိမ်းဘူး (Evaporated milk)",
+        "quantity": "30 ml",
+        "text": "သီးခြားတိုင်းခွက်ထဲ နို့စိမ်းဘူး 30 ml ထည့်ပါ။",
+        "phase": "prepare",
+        "vessel": null
+      },
+      {
+        "name": "နို့စိမ်း (Fresh milk)",
+        "quantity": "70 ml",
+        "text": "နို့စိမ်း 70 ml ထည့်၍ နို့နှစ်မျိုးရောမွှေပါ။",
+        "phase": "prepare",
+        "vessel": null
+      },
+      {
+        "text": "ရောထားသော နို့ကို ရေခဲပေါ်မှ ဖြည်းဖြည်းလောင်းပါ။",
+        "phase": "finish"
+      },
+      {
+        "text": "ကြိုဖျော်ထားသော ကိုကိုးရည်ကို နို့ပေါ်မှ ဖြည်းဖြည်းလောင်းပါ။",
+        "phase": "finish"
+      }
+    ],
+    "notes": [],
+    "id": "video-series-berry-10"
+  },
+  {
+    "group": "berry",
+    "part": 11,
+    "name": "Mixed Berry Matcha Latte",
+    "mm": "မစ်စ်ဘယ်ရီ မတ်ချာလာတေး",
+    "start": 203,
+    "end": 217,
+    "photo": 215,
+    "size": 16,
+    "actions": [
+      {
+        "name": "မတ်ချာမှုန့်",
+        "quantity": "5 g",
+        "text": "မတ်ချာမှုန့် 5 g ထည့်ပါ။",
+        "phase": "prepare",
+        "vessel": null
+      },
+      {
+        "name": "ရေနွေး",
+        "quantity": "40 ml",
+        "text": "မတ်ချာမှုန့်ထဲ ရေနွေး 40 ml ထည့်ပြီး အဖုမရှိအောင် ဖျော်ပါ။",
+        "phase": "prepare",
+        "vessel": null
+      },
+      {
+        "name": "မစ်စ်ဘယ်ရီ အသီးအနှစ် (Fruit preparation)",
+        "quantity": "30 ml",
+        "text": "မစ်စ်ဘယ်ရီ အသီးအနှစ် (Fruit preparation) 30 ml ထည့်ပါ။",
+        "phase": "cup",
+        "vessel": null
+      },
+      {
+        "name": "ရေခဲ",
+        "quantity": "ခွက်ပြည့် — g မဖော်ပြ",
+        "text": "ရေခဲကို ခွက်ပြည့်အောင် ဖြည့်ပါ။",
+        "phase": "cup",
+        "vessel": null
+      },
+      {
+        "name": "နို့စိမ်းဘူး (Evaporated milk)",
+        "quantity": "30 ml",
+        "text": "သီးခြားတိုင်းခွက်ထဲ နို့စိမ်းဘူး 30 ml ထည့်ပါ။",
+        "phase": "prepare",
+        "vessel": null
+      },
+      {
+        "name": "နို့စိမ်း (Fresh milk)",
+        "quantity": "70 ml",
+        "text": "နို့စိမ်း 70 ml ထည့်၍ နို့နှစ်မျိုးရောမွှေပါ။",
+        "phase": "prepare",
+        "vessel": null
+      },
+      {
+        "text": "ရောထားသော နို့ကို ရေခဲပေါ်မှ ဖြည်းဖြည်းလောင်းပါ။",
+        "phase": "finish"
+      },
+      {
+        "text": "ကြိုဖျော်ထားသော မတ်ချာရည်ကို နို့ပေါ်မှ ဖြည်းဖြည်းလောင်းပါ။",
+        "phase": "finish"
+      }
+    ],
+    "notes": [],
+    "id": "video-series-berry-11"
+  },
+  {
+    "group": "berry",
+    "part": 12,
+    "name": "Black Coffee Strawberry",
+    "mm": "စတော်ဘယ်ရီ ကော်ဖီအမည်း",
+    "start": 217,
+    "end": 233,
+    "photo": 229,
+    "size": 16,
+    "actions": [
+      {
+        "name": "စတော်ဘယ်ရီ အသီးအနှစ် (Fruit preparation)",
+        "quantity": "30 ml",
+        "text": "စတော်ဘယ်ရီ အသီးအနှစ် (Fruit preparation) 30 ml ထည့်ပါ။",
+        "phase": "cup",
+        "vessel": null
+      },
+      {
+        "name": "ရိုးရိုးရေ",
+        "quantity": "90 ml",
+        "text": "ရိုးရိုးရေ 90 ml ထည့်ပါ။",
+        "phase": "cup",
+        "vessel": null
+      },
+      {
+        "text": "ဇွန်းဖြင့် အောက်ခြေထိ ရောမွှေပါ။",
+        "phase": "cup"
+      },
+      {
+        "name": "ရေခဲ",
+        "quantity": "ခွက်ပြည့် — g မဖော်ပြ",
+        "text": "ရေခဲကို ခွက်ပြည့်အောင် ဖြည့်ပါ။",
+        "phase": "cup",
+        "vessel": null
+      },
+      {
+        "name": "ကော်ဖီရည်",
+        "quantity": "60 ml",
+        "text": "ကော်ဖီရည် 60 ml ကို ရေခဲပေါ်မှ ဖြည်းဖြည်းလောင်းထည့်ပါ။",
+        "phase": "finish",
+        "vessel": null
+      }
+    ],
+    "notes": [],
+    "id": "video-series-berry-12"
+  },
+  {
+    "group": "berry",
+    "part": 13,
+    "name": "Mixed Berry Thai Tea Latte",
+    "mm": "မစ်စ်ဘယ်ရီ ထိုင်းလက်ဖက်ရည်လာတေး",
+    "start": 233,
+    "end": 247,
+    "photo": 245,
+    "size": 16,
+    "actions": [
+      {
+        "name": "မစ်စ်ဘယ်ရီ အသီးအနှစ် (Fruit preparation)",
+        "quantity": "30 ml",
+        "text": "မစ်စ်ဘယ်ရီ အသီးအနှစ် (Fruit preparation) 30 ml ထည့်ပါ။",
+        "phase": "cup",
+        "vessel": null
+      },
+      {
+        "name": "ရေခဲ",
+        "quantity": "ခွက်ပြည့် — g မဖော်ပြ",
+        "text": "ရေခဲကို ခွက်ပြည့်အောင် ဖြည့်ပါ။",
+        "phase": "cup",
+        "vessel": null
+      },
+      {
+        "name": "နို့စိမ်းဘူး (Evaporated milk)",
+        "quantity": "30 ml",
+        "text": "သီးခြားတိုင်းခွက်ထဲ နို့စိမ်းဘူး 30 ml ထည့်ပါ။",
+        "phase": "prepare",
+        "vessel": null
+      },
+      {
+        "name": "နို့စိမ်း (Fresh milk)",
+        "quantity": "70 ml",
+        "text": "နို့စိမ်း 70 ml ထည့်၍ နို့နှစ်မျိုးရောမွှေပါ။",
+        "phase": "prepare",
+        "vessel": null
+      },
+      {
+        "text": "ရောထားသော နို့ကို ရေခဲပေါ်မှ ဖြည်းဖြည်းလောင်းပါ။",
+        "phase": "finish"
+      },
+      {
+        "name": "ထိုင်းလက်ဖက်ရည်အနှစ်",
+        "quantity": "50 ml",
+        "text": "ထိုင်းလက်ဖက်ရည်အနှစ် 50 ml ထည့်ပါ။",
+        "phase": "finish",
+        "vessel": null
+      }
+    ],
+    "notes": [
+      "Video အတိုင်း tea mix 15 g + ရေနွေး 80 ml ကို ကော်ဖီစက်မှထုတ်ပြီး ရည် 50 ml သုံးသည်။ လက်ဖက်ခြောက်ကို သောက်ခွက်ထဲ တိုက်ရိုက်မထည့်ပါ။"
+    ],
+    "id": "video-series-berry-13"
+  },
+  {
+    "group": "berry",
+    "part": 14,
+    "name": "Strawberry Matcha — No Milk",
+    "mm": "စတော်ဘယ်ရီ မတ်ချာ — နို့မပါ",
+    "start": 247,
+    "end": 263,
+    "photo": 259,
+    "size": 16,
+    "actions": [
+      {
+        "name": "မတ်ချာမှုန့်",
+        "quantity": "5 g",
+        "text": "မတ်ချာမှုန့် 5 g ထည့်ပါ။",
+        "phase": "prepare",
+        "vessel": null
+      },
+      {
+        "name": "ရေနွေး",
+        "quantity": "40 ml",
+        "text": "မတ်ချာမှုန့်ထဲ ရေနွေး 40 ml ထည့်ပြီး အဖုမရှိအောင် ဖျော်ပါ။",
+        "phase": "prepare",
+        "vessel": null
+      },
+      {
+        "name": "စတော်ဘယ်ရီ အသီးအနှစ် (Fruit preparation)",
+        "quantity": "30 ml",
+        "text": "စတော်ဘယ်ရီ အသီးအနှစ် (Fruit preparation) 30 ml ထည့်ပါ။",
+        "phase": "cup",
+        "vessel": null
+      },
+      {
+        "name": "ရိုးရိုးရေ",
+        "quantity": "120 ml",
+        "text": "ရိုးရိုးရေ 120 ml ထည့်ပါ။",
+        "phase": "cup",
+        "vessel": null
+      },
+      {
+        "text": "ဇွန်းဖြင့် အောက်ခြေထိ ရောမွှေပါ။",
+        "phase": "cup"
+      },
+      {
+        "name": "ရေခဲ",
+        "quantity": "ခွက်ပြည့် — g မဖော်ပြ",
+        "text": "ရေခဲကို ခွက်ပြည့်အောင် ဖြည့်ပါ။",
+        "phase": "cup",
+        "vessel": null
+      },
+      {
+        "text": "ကြိုဖျော်ထားသော မတ်ချာရည်ကို နို့ပေါ်မှ ဖြည်းဖြည်းလောင်းပါ။",
+        "phase": "finish"
+      }
+    ],
+    "notes": [],
+    "id": "video-series-berry-14"
+  },
+  {
+    "group": "berry",
+    "part": 15,
+    "name": "Mixed Berry Green Tea Latte",
+    "mm": "မစ်စ်ဘယ်ရီ ထိုင်းလက်ဖက်စိမ်းလာတေး",
+    "start": 263,
+    "end": 275,
+    "photo": 273,
+    "size": 16,
+    "actions": [
+      {
+        "name": "မစ်စ်ဘယ်ရီ အသီးအနှစ် (Fruit preparation)",
+        "quantity": "30 ml",
+        "text": "မစ်စ်ဘယ်ရီ အသီးအနှစ် (Fruit preparation) 30 ml ထည့်ပါ။",
+        "phase": "cup",
+        "vessel": null
+      },
+      {
+        "name": "ရေခဲ",
+        "quantity": "ခွက်ပြည့် — g မဖော်ပြ",
+        "text": "ရေခဲကို ခွက်ပြည့်အောင် ဖြည့်ပါ။",
+        "phase": "cup",
+        "vessel": null
+      },
+      {
+        "name": "နို့စိမ်းဘူး (Evaporated milk)",
+        "quantity": "30 ml",
+        "text": "သီးခြားတိုင်းခွက်ထဲ နို့စိမ်းဘူး 30 ml ထည့်ပါ။",
+        "phase": "prepare",
+        "vessel": null
+      },
+      {
+        "name": "နို့စိမ်း (Fresh milk)",
+        "quantity": "70 ml",
+        "text": "နို့စိမ်း 70 ml ထည့်၍ နို့နှစ်မျိုးရောမွှေပါ။",
+        "phase": "prepare",
+        "vessel": null
+      },
+      {
+        "text": "ရောထားသော နို့ကို ရေခဲပေါ်မှ ဖြည်းဖြည်းလောင်းပါ။",
+        "phase": "finish"
+      },
+      {
+        "name": "ထိုင်းလက်ဖက်စိမ်းရည်",
+        "quantity": "50 ml",
+        "text": "ထိုင်းလက်ဖက်စိမ်းရည် 50 ml ထည့်ပါ။",
+        "phase": "finish",
+        "vessel": null
+      }
+    ],
+    "notes": [
+      "Video အတိုင်း tea mix 10 g + ရေနွေး 80 ml ကို စက်မှထုတ်ပြီး ရည် 50 ml သုံးသည်။"
+    ],
+    "id": "video-series-berry-15"
+  },
+  {
+    "group": "berry",
+    "part": 16,
+    "name": "Strawberry Smoothie Yogurt",
+    "mm": "စတော်ဘယ်ရီ ဒိန်ချဉ်စမူသီ",
+    "start": 275,
+    "end": 301.7,
+    "photo": 300.5,
+    "size": 20,
+    "actions": [
+      {
+        "name": "စတော်ဘယ်ရီ အသီးအနှစ်",
+        "quantity": "60 ml",
+        "text": "စတော်ဘယ်ရီအနှစ် 60 ml ကို တိုင်းခွက်ထဲထည့်ပါ။",
+        "phase": "prepare",
+        "vessel": null
+      },
+      {
+        "name": "နို့စိမ်း (Fresh milk)",
+        "quantity": "100 ml",
+        "text": "နို့စိမ်း 100 ml ထည့်၍ ရောမွှေပြီး Blender ထဲလောင်းပါ။",
+        "phase": "prepare",
+        "vessel": null
+      },
+      {
+        "name": "ရေခဲတုံးအသေး",
+        "quantity": "340 g",
+        "text": "Blender ထဲ ရေခဲတုံးအသေး 340 g ထည့်ပါ။",
+        "phase": "prepare",
+        "vessel": null
+      },
+      {
+        "text": "အဖုံးပိတ်၍ ရေခဲအဖတ်မကျန်အောင် ချောမွေ့သည်အထိ ကြိတ်ပါ။",
+        "phase": "prepare"
+      },
+      {
+        "name": "ဒိန်ချဉ်",
+        "quantity": "Video ပမာဏမဖော်ပြ",
+        "text": "သောက်ခွက်အတွင်းဘေးနှင့် အောက်ခြေကို ဒိန်ချဉ်လောင်းပါ။",
+        "phase": "cup",
+        "vessel": null
+      },
+      {
+        "text": "စတော်ဘယ်ရီစမူသီကို ဒိန်ချဉ်အပေါ် လောင်းထည့်ပါ။",
+        "phase": "finish"
+      }
+    ],
+    "notes": [
+      "မှတ်ချက်: အောက်ပါ ကိုးကားစမ်းဖျော်ပမာဏများသည် မူရင်း Video မှအတည်ပြုပမာဏများနှင့် သီးခြားဖြစ်သည်။",
+      "ဒိန်ချဉ်ပမာဏကို Video တွင် မပြထားပါ။ ကိုးကားစမ်းဖျော်ရန် 50 g မှ စပြီး ခွက်ဝင်ဆံ့မှုနှင့် အချဉ်အရသာအလိုက် ချိန်ပါ။ ဤသည် အယ်ဒီတာစမ်းဖျော်အချိုးသာဖြစ်ပြီး မူရင်းအတည်ပြုချက်မဟုတ်ပါ။ အချို 75% ဟု Video ခေါင်းစဉ်တွင် ဖော်ပြသည်။"
+    ],
+    "id": "video-series-berry-16"
+  },
+  {
+    "group": "twotone",
+    "part": 1,
+    "name": "Cocoa Mint Fresh Milk — 20 oz",
+    "mm": "မင့်တ်နို့ ကိုကိုး — 20 oz",
+    "start": 0,
+    "end": 19,
+    "photo": 16,
+    "size": 20,
+    "actions": [
+      {
+        "name": "ကိုကိုးမှုန့်",
+        "quantity": "10 g",
+        "text": "ကိုကိုးမှုန့် 10 g ထည့်ပါ။",
+        "phase": "prepare",
+        "vessel": null
+      },
+      {
+        "name": "ရေနွေး",
+        "quantity": "50 ml",
+        "text": "ကိုကိုးမှုန့်ထဲ ရေနွေး 50 ml ထည့်ပြီး အဖုမရှိအောင် ဖျော်ပါ။",
+        "phase": "prepare",
+        "vessel": null
+      },
+      {
+        "name": "မင့်တ်ဆီရပ်",
+        "quantity": "40 ml",
+        "text": "မင့်တ်ဆီရပ် 40 ml ထည့်ပါ။",
+        "phase": "cup",
+        "vessel": null
+      },
+      {
+        "name": "နို့စိမ်း (Fresh milk)",
+        "quantity": "100 ml",
+        "text": "နို့စိမ်း (Fresh milk) 100 ml ထည့်ပါ။",
+        "phase": "cup",
+        "vessel": null
+      },
+      {
+        "text": "ဇွန်းဖြင့် အောက်ခြေထိ ရောမွှေပါ။",
+        "phase": "cup"
+      },
+      {
+        "name": "ရေခဲ",
+        "quantity": "ခွက်ပြည့် — g မဖော်ပြ",
+        "text": "ရေခဲကို ခွက်ပြည့်အောင် ဖြည့်ပါ။",
+        "phase": "cup",
+        "vessel": null
+      },
+      {
+        "text": "ကြိုဖျော်ထားသော ကိုကိုးရည်ကို နို့ပေါ်မှ ဖြည်းဖြည်းလောင်းပါ။",
+        "phase": "finish"
+      }
+    ],
+    "notes": [],
+    "id": "video-series-twotone-01"
+  },
+  {
+    "group": "twotone",
+    "part": 2,
+    "name": "Thai Tea Fresh Milk — Condensed",
+    "mm": "နို့ဆီပါ ထိုင်းလက်ဖက်ရည် နို့အေး",
+    "start": 19,
+    "end": 41,
+    "photo": 38,
+    "size": 20,
+    "actions": [
+      {
+        "name": "နို့စိမ်းဘူး (Evaporated milk)",
+        "quantity": "40 ml",
+        "text": "နို့စိမ်းဘူး (Evaporated milk) 40 ml ထည့်ပါ။",
+        "phase": "cup",
+        "vessel": null
+      },
+      {
+        "name": "နို့ဆီ",
+        "quantity": "40 ml",
+        "text": "နို့ဆီ 40 ml ထည့်ပါ။",
+        "phase": "cup",
+        "vessel": null
+      },
+      {
+        "name": "နို့စိမ်း (Fresh milk)",
+        "quantity": "70 ml",
+        "text": "နို့စိမ်း (Fresh milk) 70 ml ထည့်ပါ။",
+        "phase": "cup",
+        "vessel": null
+      },
+      {
+        "text": "ဇွန်းဖြင့် အောက်ခြေထိ ရောမွှေပါ။",
+        "phase": "cup"
+      },
+      {
+        "name": "ရေခဲ",
+        "quantity": "ခွက်ပြည့် — g မဖော်ပြ",
+        "text": "ရေခဲကို ခွက်ပြည့်အောင် ဖြည့်ပါ။",
+        "phase": "cup",
+        "vessel": null
+      },
+      {
+        "name": "ထိုင်းလက်ဖက်ရည်ရည်",
+        "quantity": "70 ml",
+        "text": "ထိုင်းလက်ဖက်ရည်ရည် 70 ml ထည့်ပါ။",
+        "phase": "finish",
+        "vessel": null
+      }
+    ],
+    "notes": [
+      "Video တွင် tea mix 15 g မှ ထုတ်ထားသော လက်ဖက်ရည် 70 ml သုံးသည်။ စက်ထဲထည့်သောရေပမာဏကို မဖော်ပြပါ။ Tea mix ကိုခွက်ထဲ တိုက်ရိုက်မထည့်ပါ။"
+    ],
+    "id": "video-series-twotone-02"
+  },
+  {
+    "group": "twotone",
+    "part": "2b",
+    "name": "Thai Green Tea Fresh Milk — Condensed",
+    "mm": "နို့ဆီပါ ထိုင်းလက်ဖက်စိမ်း နို့အေး",
+    "start": 19,
+    "end": 41,
+    "photo": 36,
+    "size": 20,
+    "actions": [
+      {
+        "name": "နို့စိမ်းဘူး (Evaporated milk)",
+        "quantity": "40 ml",
+        "text": "နို့စိမ်းဘူး (Evaporated milk) 40 ml ထည့်ပါ။",
+        "phase": "cup",
+        "vessel": null
+      },
+      {
+        "name": "နို့ဆီ",
+        "quantity": "40 ml",
+        "text": "နို့ဆီ 40 ml ထည့်ပါ။",
+        "phase": "cup",
+        "vessel": null
+      },
+      {
+        "name": "နို့စိမ်း (Fresh milk)",
+        "quantity": "70 ml",
+        "text": "နို့စိမ်း (Fresh milk) 70 ml ထည့်ပါ။",
+        "phase": "cup",
+        "vessel": null
+      },
+      {
+        "text": "ဇွန်းဖြင့် အောက်ခြေထိ ရောမွှေပါ။",
+        "phase": "cup"
+      },
+      {
+        "name": "ရေခဲ",
+        "quantity": "ခွက်ပြည့် — g မဖော်ပြ",
+        "text": "ရေခဲကို ခွက်ပြည့်အောင် ဖြည့်ပါ။",
+        "phase": "cup",
+        "vessel": null
+      },
+      {
+        "name": "ထိုင်းလက်ဖက်စိမ်းရည်",
+        "quantity": "70 ml",
+        "text": "ထိုင်းလက်ဖက်စိမ်းရည် 70 ml ထည့်ပါ။",
+        "phase": "finish",
+        "vessel": null
+      }
+    ],
+    "notes": [
+      "Video တွင် tea mix 15 g မှ ထုတ်ထားသော လက်ဖက်ရည် 70 ml သုံးသည်။ စက်ထဲထည့်သောရေပမာဏကို မဖော်ပြပါ။ Tea mix ကိုခွက်ထဲ တိုက်ရိုက်မထည့်ပါ။"
+    ],
+    "id": "video-series-twotone-2b"
+  },
+  {
+    "group": "twotone",
+    "part": 3,
+    "name": "Cocoa Fresh Milk",
+    "mm": "ကိုကိုး နို့အေး",
+    "start": 41,
+    "end": 65,
+    "photo": 63,
+    "size": 20,
+    "actions": [
+      {
+        "name": "ကိုကိုးမှုန့်",
+        "quantity": "15 g",
+        "text": "ကိုကိုးမှုန့် 15 g ထည့်ပါ။",
+        "phase": "prepare",
+        "vessel": null
+      },
+      {
+        "name": "ရေနွေး",
+        "quantity": "50 ml",
+        "text": "ကိုကိုးမှုန့်ထဲ ရေနွေး 50 ml ထည့်ပြီး အဖုမရှိအောင် ဖျော်ပါ။",
+        "phase": "prepare",
+        "vessel": null
+      },
+      {
+        "name": "နို့စိမ်းဘူး (Evaporated milk)",
+        "quantity": "40 ml",
+        "text": "နို့စိမ်းဘူး (Evaporated milk) 40 ml ထည့်ပါ။",
+        "phase": "cup",
+        "vessel": null
+      },
+      {
+        "name": "နို့ဆီ",
+        "quantity": "40 ml",
+        "text": "နို့ဆီ 40 ml ထည့်ပါ။",
+        "phase": "cup",
+        "vessel": null
+      },
+      {
+        "name": "နို့စိမ်း (Fresh milk)",
+        "quantity": "100 ml",
+        "text": "နို့စိမ်း (Fresh milk) 100 ml ထည့်ပါ။",
+        "phase": "cup",
+        "vessel": null
+      },
+      {
+        "name": "ရေခဲ",
+        "quantity": "ခွက်ပြည့် — g မဖော်ပြ",
+        "text": "ရေခဲကို ခွက်ပြည့်အောင် ဖြည့်ပါ။",
+        "phase": "cup",
+        "vessel": null
+      },
+      {
+        "text": "ဇွန်းဖြင့် အောက်ခြေထိ ရောမွှေပါ။",
+        "phase": "cup"
+      },
+      {
+        "text": "ကြိုဖျော်ထားသော ကိုကိုးရည်ကို နို့ပေါ်မှ ဖြည်းဖြည်းလောင်းပါ။",
+        "phase": "finish"
+      }
+    ],
+    "notes": [],
+    "id": "video-series-twotone-03"
+  },
+  {
+    "group": "twotone",
+    "part": 4,
+    "name": "Thai Tea Fresh Milk — No Condensed",
+    "mm": "နို့ဆီမပါ ထိုင်းလက်ဖက်ရည်နို့အေး",
+    "start": 65,
+    "end": 81,
+    "photo": 79,
+    "size": 20,
+    "actions": [
+      {
+        "name": "နို့စိမ်းဘူး (Evaporated milk)",
+        "quantity": "40 ml",
+        "text": "နို့စိမ်းဘူး (Evaporated milk) 40 ml ထည့်ပါ။",
+        "phase": "cup",
+        "vessel": null
+      },
+      {
+        "name": "နို့စိမ်း (Fresh milk)",
+        "quantity": "70 ml",
+        "text": "နို့စိမ်း (Fresh milk) 70 ml ထည့်ပါ။",
+        "phase": "cup",
+        "vessel": null
+      },
+      {
+        "text": "ဇွန်းဖြင့် အောက်ခြေထိ ရောမွှေပါ။",
+        "phase": "cup"
+      },
+      {
+        "name": "ရေခဲ",
+        "quantity": "ခွက်ပြည့် — g မဖော်ပြ",
+        "text": "ရေခဲကို ခွက်ပြည့်အောင် ဖြည့်ပါ။",
+        "phase": "cup",
+        "vessel": null
+      },
+      {
+        "name": "ထိုင်းလက်ဖက်ရည်အနှစ်",
+        "quantity": "70 ml",
+        "text": "ထိုင်းလက်ဖက်ရည်အနှစ် 70 ml ထည့်ပါ။",
+        "phase": "finish",
+        "vessel": null
+      }
+    ],
+    "notes": [
+      "Video ခေါင်းစဉ်မှာ 100% sweet ဟုဆိုသော်လည်း နို့ဆီ သို့မဟုတ် ဆီရပ်ထည့်သည့်အဆင့် မတွေ့ပါ။ အချိုပစ္စည်းထပ်မခန့်မှန်းထားပါ။ Tea mix 15 g မှရည် 70 ml သုံးသည်။"
+    ],
+    "id": "video-series-twotone-04"
+  },
+  {
+    "group": "twotone",
+    "part": 5,
+    "name": "Thai Tea Caramel Milk",
+    "mm": "ကာရာမယ်နို့ ထိုင်းလက်ဖက်ရည်",
+    "start": 81,
+    "end": 101,
+    "photo": 99,
+    "size": 20,
+    "actions": [
+      {
+        "name": "နို့စိမ်းဘူး (Evaporated milk)",
+        "quantity": "40 ml",
+        "text": "နို့စိမ်းဘူး (Evaporated milk) 40 ml ထည့်ပါ။",
+        "phase": "cup",
+        "vessel": null
+      },
+      {
+        "name": "ကာရာမယ်ဆီရပ်",
+        "quantity": "40 ml",
+        "text": "ကာရာမယ်ဆီရပ် 40 ml ထည့်ပါ။",
+        "phase": "cup",
+        "vessel": null
+      },
+      {
+        "name": "နို့စိမ်း (Fresh milk)",
+        "quantity": "70 ml",
+        "text": "နို့စိမ်း (Fresh milk) 70 ml ထည့်ပါ။",
+        "phase": "cup",
+        "vessel": null
+      },
+      {
+        "name": "ရေခဲ",
+        "quantity": "ခွက်ပြည့် — g မဖော်ပြ",
+        "text": "ရေခဲကို ခွက်ပြည့်အောင် ဖြည့်ပါ။",
+        "phase": "cup",
+        "vessel": null
+      },
+      {
+        "text": "ဇွန်းဖြင့် အောက်ခြေထိ ရောမွှေပါ။",
+        "phase": "cup"
+      },
+      {
+        "name": "ထိုင်းလက်ဖက်ရည်အနှစ်",
+        "quantity": "70 ml",
+        "text": "ထိုင်းလက်ဖက်ရည်အနှစ် 70 ml ထည့်ပါ။",
+        "phase": "finish",
+        "vessel": null
+      }
+    ],
+    "notes": [
+      "Tea mix 15 g မှ ထုတ်ထားသောရည် 70 ml ကိုသုံးသည်။"
+    ],
+    "id": "video-series-twotone-05"
+  },
+  {
+    "group": "twotone",
+    "part": "5b",
+    "name": "Matcha Caramel Oat Milk — Bag",
+    "mm": "ကာရာမယ်အုတ်နို့ မတ်ချာ — အိတ်ထုပ်",
+    "start": 101,
+    "end": 121,
+    "photo": 114,
+    "size": null,
+    "actions": [
+      {
+        "name": "မတ်ချာမှုန့်",
+        "quantity": "5 g",
+        "text": "မတ်ချာမှုန့် 5 g ထည့်ပါ။",
+        "phase": "prepare",
+        "vessel": null
+      },
+      {
+        "name": "ရေနွေး",
+        "quantity": "40 ml",
+        "text": "မတ်ချာမှုန့်ထဲ ရေနွေး 40 ml ထည့်ပြီး အဖုမရှိအောင် ဖျော်ပါ။",
+        "phase": "prepare",
+        "vessel": null
+      },
+      {
+        "name": "နို့စိမ်းဘူး (Evaporated milk)",
+        "quantity": "30 ml",
+        "text": "နို့စိမ်းဘူး (Evaporated milk) 30 ml ထည့်ပါ။",
+        "phase": "cup",
+        "vessel": null
+      },
+      {
+        "name": "ကာရာမယ်ဆီရပ်",
+        "quantity": "7 ml",
+        "text": "ကာရာမယ်ဆီရပ် 7 ml ထည့်ပါ။",
+        "phase": "cup",
+        "vessel": null
+      },
+      {
+        "text": "ကြိုဖျော်ထားသော မတ်ချာရည်ထည့်ပါ။",
+        "phase": "cup"
+      },
+      {
+        "name": "အုတ်နို့",
+        "quantity": "100 ml",
+        "text": "အုတ်နို့ 100 ml ထည့်ပါ။",
+        "phase": "cup",
+        "vessel": null
+      },
+      {
+        "text": "ဇွန်းဖြင့် အောက်ခြေထိ ရောမွှေပါ။",
+        "phase": "cup"
+      },
+      {
+        "text": "Video အတိုင်း 250 ml အိတ်ထဲ လောင်းထည့်ပါ။",
+        "phase": "cup"
+      }
+    ],
+    "notes": [
+      "Video တွင် အချို 25%၊ ဖျော်ရည်စုစုပေါင်း ခန့်မှန်း 180 ml၊ 250 ml အိတ်ဟုဖော်ပြသည်။ ရေခဲထည့်သည့်အဆင့် မပါ။ ခွက် oz ကို မဖော်ပြသဖြင့် မသတ်မှတ်ထားပါ။ နို့စိမ်းဘူးပါဝင်သည်။"
+    ],
+    "id": "video-series-twotone-5b"
+  },
+  {
+    "group": "twotone",
+    "part": 6,
+    "name": "Thai Pink Milk",
+    "mm": "ထိုင်းပန်းရောင်နို့အေး",
+    "start": 121,
+    "end": 135,
+    "photo": 133,
+    "size": 20,
+    "actions": [
+      {
+        "name": "နို့စိမ်းဘူး (Evaporated milk)",
+        "quantity": "40 ml",
+        "text": "နို့စိမ်းဘူး (Evaporated milk) 40 ml ထည့်ပါ။",
+        "phase": "cup",
+        "vessel": null
+      },
+      {
+        "name": "Sala အနီဆီရပ်",
+        "quantity": "40 ml",
+        "text": "Sala အနီဆီရပ် 40 ml ထည့်ပါ။",
+        "phase": "cup",
+        "vessel": null
+      },
+      {
+        "name": "ရေခဲ",
+        "quantity": "ခွက်ပြည့် — g မဖော်ပြ",
+        "text": "ရေခဲကို ခွက်ပြည့်အောင် ဖြည့်ပါ။",
+        "phase": "cup",
+        "vessel": null
+      },
+      {
+        "name": "နို့စိမ်း (Fresh milk)",
+        "quantity": "150 ml",
+        "text": "နို့စိမ်း (Fresh milk) 150 ml ထည့်ပါ။",
+        "phase": "finish",
+        "vessel": null
+      }
+    ],
+    "notes": [],
+    "id": "video-series-twotone-06"
+  },
+  {
+    "group": "twotone",
+    "part": 7,
+    "name": "Taro Milk",
+    "mm": "ပိန်းဥနို့အေး",
+    "start": 135,
+    "end": 155,
+    "photo": 151.5,
+    "size": 16,
+    "actions": [
+      {
+        "name": "ပိန်းဥအရသာဖျော်မှုန့် (Taro mix)",
+        "quantity": "20 g",
+        "text": "ပိန်းဥအရသာဖျော်မှုန့် (Taro mix) 20 g ထည့်ပါ။",
+        "phase": "prepare",
+        "vessel": null
+      },
+      {
+        "name": "ရေနွေး",
+        "quantity": "20 ml",
+        "text": "ရေနွေး 20 ml ထည့်ပါ။",
+        "phase": "prepare",
+        "vessel": null
+      },
+      {
+        "name": "နို့ဆီ",
+        "quantity": "20 ml",
+        "text": "ပိန်းဥမှုန့်နှင့် ရေနွေးထဲ နို့ဆီ 20 ml ထည့်၍ ပျော်အောင်မွှေပါ။",
+        "phase": "prepare",
+        "vessel": null
+      },
+      {
+        "text": "ပိန်းဥအခြေခံရည်ကို ခွက်ထဲလောင်းပါ။",
+        "phase": "cup"
+      },
+      {
+        "name": "ရေခဲ",
+        "quantity": "ခွက်ပြည့် — g မဖော်ပြ",
+        "text": "ရေခဲကို ခွက်ပြည့်အောင် ဖြည့်ပါ။",
+        "phase": "cup",
+        "vessel": null
+      },
+      {
+        "name": "အချိုမပါ နို့ (Video: Sunkist)",
+        "quantity": "120 ml",
+        "text": "အချိုမပါ နို့ (Video: Sunkist) 120 ml ထည့်ပါ။",
+        "phase": "finish",
+        "vessel": null
+      }
+    ],
+    "notes": [],
+    "id": "video-series-twotone-07"
+  },
+  {
+    "group": "twotone",
+    "part": 8,
+    "name": "Mint Fresh Milk",
+    "mm": "မင့်တ် နို့အေး",
+    "start": 155,
+    "end": 167,
+    "photo": 165,
+    "size": 20,
+    "actions": [
+      {
+        "name": "မင့်တ်ဆီရပ်",
+        "quantity": "40 ml",
+        "text": "မင့်တ်ဆီရပ် 40 ml ထည့်ပါ။",
+        "phase": "cup",
+        "vessel": null
+      },
+      {
+        "text": "ဇွန်းဖြင့် အောက်ခြေထိ ရောမွှေပါ။",
+        "phase": "cup"
+      },
+      {
+        "name": "ရေခဲ",
+        "quantity": "ခွက်ပြည့် — g မဖော်ပြ",
+        "text": "ရေခဲကို ခွက်ပြည့်အောင် ဖြည့်ပါ။",
+        "phase": "cup",
+        "vessel": null
+      },
+      {
+        "name": "နို့စိမ်း (Fresh milk)",
+        "quantity": "140 ml",
+        "text": "နို့စိမ်း (Fresh milk) 140 ml ထည့်ပါ။",
+        "phase": "finish",
+        "vessel": null
+      }
+    ],
+    "notes": [],
+    "id": "video-series-twotone-08"
+  },
+  {
+    "group": "twotone",
+    "part": 9,
+    "name": "Cocoa Mint Milk — 16 oz",
+    "mm": "မင့်တ်နို့ ကိုကိုး — 16 oz",
+    "start": 167,
+    "end": 185,
+    "photo": 180.7,
+    "size": 16,
+    "actions": [
+      {
+        "name": "ကိုကိုးမှုန့်",
+        "quantity": "5–7 g",
+        "text": "ကိုကိုးမှုန့် 5–7 g ထည့်ပါ။",
+        "phase": "prepare",
+        "vessel": null
+      },
+      {
+        "name": "ရေနွေး",
+        "quantity": "50 ml",
+        "text": "ကိုကိုးမှုန့်ထဲ ရေနွေး 50 ml ထည့်ပြီး အဖုမရှိအောင် ဖျော်ပါ။",
+        "phase": "prepare",
+        "vessel": null
+      },
+      {
+        "name": "မင့်တ်ဆီရပ်",
+        "quantity": "30 ml",
+        "text": "မင့်တ်ဆီရပ် 30 ml ထည့်ပါ။",
+        "phase": "cup",
+        "vessel": null
+      },
+      {
+        "name": "နို့စိမ်းဘူး (Evaporated milk)",
+        "quantity": "30 ml",
+        "text": "နို့စိမ်းဘူး (Evaporated milk) 30 ml ထည့်ပါ။",
+        "phase": "cup",
+        "vessel": null
+      },
+      {
+        "name": "အချိုမပါ နို့ (Video: Sunkist)",
+        "quantity": "70 ml",
+        "text": "အချိုမပါ နို့ (Video: Sunkist) 70 ml ထည့်ပါ။",
+        "phase": "cup",
+        "vessel": null
+      },
+      {
+        "text": "ဇွန်းဖြင့် အောက်ခြေထိ ရောမွှေပါ။",
+        "phase": "cup"
+      },
+      {
+        "name": "ရေခဲ",
+        "quantity": "ခွက်ပြည့် — g မဖော်ပြ",
+        "text": "ရေခဲကို ခွက်ပြည့်အောင် ဖြည့်ပါ။",
+        "phase": "cup",
+        "vessel": null
+      },
+      {
+        "text": "ကြိုဖျော်ထားသော ကိုကိုးရည်ကို နို့ပေါ်မှ ဖြည်းဖြည်းလောင်းပါ။",
+        "phase": "finish"
+      }
+    ],
+    "notes": [],
+    "id": "video-series-twotone-09"
+  },
+  {
+    "group": "twotone",
+    "part": 10,
+    "name": "Cocoa Bear Brand Milk",
+    "mm": "Bear Brand နို့ ကိုကိုး",
+    "start": 185,
+    "end": 203,
+    "photo": 201,
+    "size": 20,
+    "actions": [
+      {
+        "name": "ကိုကိုးမှုန့်",
+        "quantity": "15 g",
+        "text": "ကိုကိုးမှုန့် 15 g ထည့်ပါ။",
+        "phase": "prepare",
+        "vessel": null
+      },
+      {
+        "name": "ရေနွေး",
+        "quantity": "Video ပမာဏမဖော်ပြ",
+        "text": "ကိုကိုးမှုန့်ထဲ ရေနွေးထည့်၍ ပျော်အောင်ဖျော်ပါ။",
+        "phase": "prepare",
+        "vessel": null
+      },
+      {
+        "name": "သကြားရည်",
+        "quantity": "10 ml",
+        "text": "သကြားရည် 10 ml ထည့်ပါ။",
+        "phase": "cup",
+        "vessel": null
+      },
+      {
+        "name": "နို့ဆီ",
+        "quantity": "30 ml",
+        "text": "နို့ဆီ 30 ml ထည့်ပါ။",
+        "phase": "cup",
+        "vessel": null
+      },
+      {
+        "text": "ဇွန်းဖြင့် အောက်ခြေထိ ရောမွှေပါ။",
+        "phase": "cup"
+      },
+      {
+        "text": "ကြိုဖျော်ထားသော ကိုကိုးအခြေခံရည် ထည့်ပါ။",
+        "phase": "cup"
+      },
+      {
+        "name": "ရေခဲ",
+        "quantity": "ခွက်ပြည့် — g မဖော်ပြ",
+        "text": "ရေခဲကို ခွက်ပြည့်အောင် ဖြည့်ပါ။",
+        "phase": "cup",
+        "vessel": null
+      },
+      {
+        "name": "Bear Brand နို့",
+        "quantity": "Video ပမာဏစာသားမတွေ့",
+        "text": "Bear Brand နို့ Video ပမာဏစာသားမတွေ့ ထည့်ပါ။",
+        "phase": "finish",
+        "vessel": null
+      }
+    ],
+    "notes": [
+      "မှတ်ချက်: အောက်ပါ ကိုးကားစမ်းဖျော်ပမာဏများသည် မူရင်း Video မှအတည်ပြုပမာဏများနှင့် သီးခြားဖြစ်သည်။",
+      "ကိုးကားစမ်းဖျော်ရန် ရေနွေး 50 ml (Two Tone Part 03)၊ Bear Brand နို့ 140 ml (Coffee Part 11/13) ကို စတင်အချိုးအဖြစ် သုံးနိုင်သည်။ ဤနှစ်ခုသည် Part 10 ၏ အတည်ပြုပမာဏမဟုတ်ပါ။"
+    ],
+    "id": "video-series-twotone-10"
+  },
+  {
+    "group": "twotone",
+    "part": 11,
+    "name": "Taro Matcha Latte",
+    "mm": "ပိန်းဥ မတ်ချာလာတေး",
+    "start": 203,
+    "end": 223,
+    "photo": 219,
+    "size": 16,
+    "actions": [
+      {
+        "name": "မတ်ချာမှုန့်",
+        "quantity": "4 g",
+        "text": "မတ်ချာမှုန့် 4 g ထည့်ပါ။",
+        "phase": "prepare",
+        "vessel": null
+      },
+      {
+        "name": "ရေနွေး",
+        "quantity": "40 ml",
+        "text": "မတ်ချာမှုန့်ထဲ ရေနွေး 40 ml ထည့်ပြီး အဖုမရှိအောင် ဖျော်ပါ။",
+        "phase": "prepare",
+        "vessel": null
+      },
+      {
+        "name": "ပိန်းဥအရသာဖျော်မှုန့် (Taro mix)",
+        "quantity": "20 g",
+        "text": "ပိန်းဥအရသာဖျော်မှုန့် (Taro mix) 20 g ထည့်ပါ။",
+        "phase": "cup",
+        "vessel": null
+      },
+      {
+        "name": "နို့စိမ်းဘူး (Evaporated milk)",
+        "quantity": "20 ml",
+        "text": "နို့စိမ်းဘူး (Evaporated milk) 20 ml ထည့်ပါ။",
+        "phase": "cup",
+        "vessel": null
+      },
+      {
+        "name": "နို့ဆီ",
+        "quantity": "20 ml",
+        "text": "နို့ဆီ 20 ml ထည့်ပါ။",
+        "phase": "cup",
+        "vessel": null
+      },
+      {
+        "text": "ဇွန်းဖြင့် အောက်ခြေထိ ရောမွှေပါ။",
+        "phase": "cup"
+      },
+      {
+        "name": "ရေခဲ",
+        "quantity": "ခွက်ပြည့် — g မဖော်ပြ",
+        "text": "ရေခဲကို ခွက်ပြည့်အောင် ဖြည့်ပါ။",
+        "phase": "cup",
+        "vessel": null
+      },
+      {
+        "name": "နို့စိမ်း (Fresh milk)",
+        "quantity": "80 ml",
+        "text": "နို့စိမ်း (Fresh milk) 80 ml ထည့်ပါ။",
+        "phase": "finish",
+        "vessel": null
+      },
+      {
+        "text": "ကြိုဖျော်ထားသော မတ်ချာရည်ကို နို့ပေါ်မှ ဖြည်းဖြည်းလောင်းပါ။",
+        "phase": "finish"
+      }
+    ],
+    "notes": [
+      "Video တွင် ပိန်းဥမှုန့်ထဲ ရေနွေးထည့်သောအဆင့် မတွေ့ပါ။ နို့နှစ်မျိုးနှင့် အဖုမရှိအောင်မွှေပြီးမှ ရေခဲထည့်ပါ။ မတ်ချာဖျော်ရန် ရေနွေး 40 ml ကို သီးခြားသုံးသည်။"
+    ],
+    "id": "video-series-twotone-11"
+  },
+  {
+    "group": "twotone",
+    "part": 12,
+    "name": "Thai Milk Tea Cocoa",
+    "mm": "ထိုင်းနို့လက်ဖက်ရည် ကိုကိုး",
+    "start": 223,
+    "end": 243,
+    "photo": 238.5,
+    "size": 20,
+    "actions": [
+      {
+        "name": "ရေနွေး",
+        "quantity": "50 ml",
+        "text": "ရေနွေး 50 ml ထည့်ပါ။",
+        "phase": "prepare",
+        "vessel": null
+      },
+      {
+        "name": "ကိုကိုးမှုန့်",
+        "quantity": "10 g",
+        "text": "ရေနွေး 50 ml ထဲ ကိုကိုးမှုန့် 10 g ထည့်၍ မွှေပါ။",
+        "phase": "prepare",
+        "vessel": null
+      },
+      {
+        "name": "နို့စိမ်းဘူး (Evaporated milk)",
+        "quantity": "40 ml",
+        "text": "နို့စိမ်းဘူး (Evaporated milk) 40 ml ထည့်ပါ။",
+        "phase": "cup",
+        "vessel": null
+      },
+      {
+        "name": "နို့ဆီ",
+        "quantity": "40 ml",
+        "text": "နို့ဆီ 40 ml ထည့်ပါ။",
+        "phase": "cup",
+        "vessel": null
+      },
+      {
+        "name": "ထိုင်းလက်ဖက်ရည်အနှစ်",
+        "quantity": "100 ml",
+        "text": "ထိုင်းလက်ဖက်ရည်အနှစ် 100 ml ထည့်ပါ။",
+        "phase": "cup",
+        "vessel": null
+      },
+      {
+        "name": "ရေခဲ",
+        "quantity": "ခွက်ပြည့် — g မဖော်ပြ",
+        "text": "ရေခဲကို ခွက်ပြည့်အောင် ဖြည့်ပါ။",
+        "phase": "cup",
+        "vessel": null
+      },
+      {
+        "text": "ဇွန်းဖြင့် အောက်ခြေထိ ရောမွှေပါ။",
+        "phase": "cup"
+      },
+      {
+        "text": "ကြိုဖျော်ထားသော ကိုကိုးရည်ကို နို့ပေါ်မှ ဖြည်းဖြည်းလောင်းပါ။",
+        "phase": "finish"
+      }
+    ],
+    "notes": [
+      "ထိုင်းလက်ဖက်ရည်အနှစ် 100 ml ကို tea mix 15 g + ရေနွေး 130 ml ဖြင့် စက်မှထုတ်ထားသည်။ စက်သုံးရေကို ခွက်ထဲ ထပ်မထည့်ပါ။"
+    ],
+    "id": "video-series-twotone-12"
+  },
+  {
+    "group": "twotone",
+    "part": 13,
+    "name": "Cocoa Lava Oat Milk",
+    "mm": "ကိုကိုးလာဗာ အုတ်နို့",
+    "start": 243,
+    "end": 261,
+    "photo": 259,
+    "size": 16,
+    "actions": [
+      {
+        "name": "ကိုကိုးမှုန့်",
+        "quantity": "10 g",
+        "text": "ကိုကိုးမှုန့် 10 g ထည့်ပါ။",
+        "phase": "prepare",
+        "vessel": null
+      },
+      {
+        "name": "နို့စိမ်းဘူး (Evaporated milk)",
+        "quantity": "20 ml",
+        "text": "နို့စိမ်းဘူး (Evaporated milk) 20 ml ထည့်ပါ။",
+        "phase": "prepare",
+        "vessel": null
+      },
+      {
+        "name": "နို့ဆီ",
+        "quantity": "30 ml",
+        "text": "ကိုကိုးနှင့် နို့စိမ်းဘူးထဲ နို့ဆီ 30 ml ထည့်ပြီး ပျစ်ချောလာအောင်မွှေပါ။",
+        "phase": "prepare",
+        "vessel": null
+      },
+      {
+        "name": "အုတ်နို့ (Video: Oatside)",
+        "quantity": "120 ml",
+        "text": "အုတ်နို့ (Video: Oatside) 120 ml ထည့်ပါ။",
+        "phase": "cup",
+        "vessel": null
+      },
+      {
+        "name": "ရေခဲ",
+        "quantity": "ခွက်ပြည့် — g မဖော်ပြ",
+        "text": "ရေခဲကို ခွက်ပြည့်အောင် ဖြည့်ပါ။",
+        "phase": "cup",
+        "vessel": null
+      },
+      {
+        "text": "ပျစ်နေသော ကိုကိုးလာဗာကို ရေခဲပေါ်မှ ဖြည်းဖြည်းလောင်းပါ။",
+        "phase": "finish"
+      }
+    ],
+    "notes": [
+      "Video နို့လောင်းစာတန်းတွင် fresh milk ဟုရေးထားသော်လည်း Oatside ဘူးကိုအသုံးပြုပြီး ခေါင်းစဉ်က Oat Milk ဖြစ်သည်။ ထို့ကြောင့် Oatside အုတ်နို့ 120 ml ဟုမှတ်ထားသည်။ Evaporated/condensed milk ပါဝင်သည်။"
+    ],
+    "id": "video-series-twotone-13"
+  },
+  {
+    "group": "twotone",
+    "part": 14,
+    "name": "Mint Milk Pink Cloud",
+    "mm": "မင့်တ်နို့ ပန်းရောင်အမြှုပ်",
+    "start": 261,
+    "end": 278.2,
+    "photo": 277,
+    "size": 20,
+    "actions": [
+      {
+        "name": "အမြှုပ်ဖောက်ရန် နို့",
+        "quantity": "50 ml",
+        "text": "အမြှုပ်ဖောက်ရန် နို့ 50 ml ထည့်ပါ။",
+        "phase": "prepare",
+        "vessel": null
+      },
+      {
+        "name": "Sala အနီဆီရပ်",
+        "quantity": "20 ml",
+        "text": "အမြှုပ်ဖောက်ရန် နို့ထဲ Sala ဆီရပ် 20 ml ထည့်၍ ပန်းရောင်အမြှုပ်ထူလာအောင် ဖောက်ပါ။",
+        "phase": "prepare",
+        "vessel": null
+      },
+      {
+        "name": "မင့်တ်ဆီရပ်",
+        "quantity": "40 ml",
+        "text": "မင့်တ်ဆီရပ် 40 ml ထည့်ပါ။",
+        "phase": "cup",
+        "vessel": null
+      },
+      {
+        "name": "ရေခဲ",
+        "quantity": "ခွက်ပြည့် — g မဖော်ပြ",
+        "text": "ရေခဲကို ခွက်ပြည့်အောင် ဖြည့်ပါ။",
+        "phase": "cup",
+        "vessel": null
+      },
+      {
+        "name": "နို့စိမ်း (Fresh milk)",
+        "quantity": "100 ml",
+        "text": "နို့စိမ်း (Fresh milk) 100 ml ထည့်ပါ။",
+        "phase": "cup",
+        "vessel": null
+      },
+      {
+        "text": "ကြိုဖောက်ထားသော ပန်းရောင်နို့အမြှုပ်ကို အပေါ်တင်ပါ။",
+        "phase": "finish"
+      }
+    ],
+    "notes": [],
+    "id": "video-series-twotone-14"
+  },
+  {
+    "group": "matcha",
+    "part": 1,
+    "name": "Matcha Latte — 20 oz",
+    "mm": "မတ်ချာလာတေး — 20 oz",
+    "start": 0,
+    "end": 23,
+    "photo": 21,
+    "size": 20,
+    "actions": [
+      {
+        "name": "မတ်ချာမှုန့်",
+        "quantity": "6 g",
+        "text": "မတ်ချာမှုန့် 6 g ထည့်ပါ။",
+        "phase": "prepare",
+        "vessel": null
+      },
+      {
+        "name": "ရေနွေး",
+        "quantity": "50 ml",
+        "text": "မတ်ချာမှုန့်ထဲ ရေနွေး 50 ml ထည့်ပြီး အဖုမရှိအောင် ဖျော်ပါ။",
+        "phase": "prepare",
+        "vessel": null
+      },
+      {
+        "name": "နို့စိမ်းဘူး (Evaporated milk)",
+        "quantity": "40 ml",
+        "text": "နို့စိမ်းဘူး (Evaporated milk) 40 ml ထည့်ပါ။",
+        "phase": "cup",
+        "vessel": null
+      },
+      {
+        "name": "နို့ဆီ",
+        "quantity": "40 ml",
+        "text": "နို့ဆီ 40 ml ထည့်ပါ။",
+        "phase": "cup",
+        "vessel": null
+      },
+      {
+        "name": "နို့စိမ်း (Fresh milk)",
+        "quantity": "100 ml",
+        "text": "နို့စိမ်း (Fresh milk) 100 ml ထည့်ပါ။",
+        "phase": "cup",
+        "vessel": null
+      },
+      {
+        "text": "ဇွန်းဖြင့် အောက်ခြေထိ ရောမွှေပါ။",
+        "phase": "cup"
+      },
+      {
+        "name": "ရေခဲ",
+        "quantity": "ခွက်ပြည့် — g မဖော်ပြ",
+        "text": "ရေခဲကို ခွက်ပြည့်အောင် ဖြည့်ပါ။",
+        "phase": "cup",
+        "vessel": null
+      },
+      {
+        "text": "ကြိုဖျော်ထားသော မတ်ချာရည်ကို နို့ပေါ်မှ ဖြည်းဖြည်းလောင်းပါ။",
+        "phase": "finish"
+      }
+    ],
+    "notes": [],
+    "id": "video-series-matcha-01"
+  },
+  {
+    "group": "matcha",
+    "part": 2,
+    "name": "Matcha Bear Brand",
+    "mm": "Bear Brand နို့ မတ်ချာ",
+    "start": 23,
+    "end": 35,
+    "photo": 33,
+    "size": 20,
+    "actions": [
+      {
+        "name": "မတ်ချာမှုန့်",
+        "quantity": "6 g",
+        "text": "မတ်ချာမှုန့် 6 g ထည့်ပါ။",
+        "phase": "prepare",
+        "vessel": null
+      },
+      {
+        "name": "ရေနွေး",
+        "quantity": "50 ml",
+        "text": "မတ်ချာမှုန့်ထဲ ရေနွေး 50 ml ထည့်ပြီး အဖုမရှိအောင် ဖျော်ပါ။",
+        "phase": "prepare",
+        "vessel": null
+      },
+      {
+        "text": "ကြိုဖျော်ထားသော မတ်ချာရည်ကို ခွက်ထဲထည့်ပါ။",
+        "phase": "cup"
+      },
+      {
+        "name": "နို့ဆီ",
+        "quantity": "40 ml",
+        "text": "နို့ဆီ 40 ml ထည့်ပါ။",
+        "phase": "cup",
+        "vessel": null
+      },
+      {
+        "text": "ဇွန်းဖြင့် အောက်ခြေထိ ရောမွှေပါ။",
+        "phase": "cup"
+      },
+      {
+        "name": "ရေခဲ",
+        "quantity": "ခွက်ပြည့် — g မဖော်ပြ",
+        "text": "ရေခဲကို ခွက်ပြည့်အောင် ဖြည့်ပါ။",
+        "phase": "cup",
+        "vessel": null
+      },
+      {
+        "name": "Bear Brand နို့",
+        "quantity": "140 ml",
+        "text": "Bear Brand နို့ 140 ml ထည့်ပါ။",
+        "phase": "finish",
+        "vessel": null
+      }
+    ],
+    "notes": [],
+    "id": "video-series-matcha-02"
+  },
+  {
+    "group": "matcha",
+    "part": 3,
+    "name": "Matcha Oat Milk — Unsweetened",
+    "mm": "အချိုမထည့် မတ်ချာအုတ်နို့",
+    "start": 35,
+    "end": 51,
+    "photo": 49,
+    "size": 16,
+    "actions": [
+      {
+        "name": "မတ်ချာမှုန့်",
+        "quantity": "5.5 g",
+        "text": "မတ်ချာမှုန့် 5.5 g ထည့်ပါ။",
+        "phase": "prepare",
+        "vessel": null
+      },
+      {
+        "name": "ရေနွေး",
+        "quantity": "40 ml",
+        "text": "မတ်ချာမှုန့်ထဲ ရေနွေး 40 ml ထည့်ပြီး အဖုမရှိအောင် ဖျော်ပါ။",
+        "phase": "prepare",
+        "vessel": null
+      },
+      {
+        "name": "အုတ်နို့",
+        "quantity": "150 ml",
+        "text": "အုတ်နို့ 150 ml ထည့်ပါ။",
+        "phase": "cup",
+        "vessel": null
+      },
+      {
+        "name": "ရေခဲ",
+        "quantity": "ခွက်ပြည့် — g မဖော်ပြ",
+        "text": "ရေခဲကို ခွက်ပြည့်အောင် ဖြည့်ပါ။",
+        "phase": "cup",
+        "vessel": null
+      },
+      {
+        "text": "ကြိုဖျော်ထားသော မတ်ချာရည်ကို နို့ပေါ်မှ ဖြည်းဖြည်းလောင်းပါ။",
+        "phase": "finish"
+      }
+    ],
+    "notes": [
+      "Video တွင် ခွက်နှစ်ခွက်ပြသော်လည်း ဤပမာဏများသည် တစ်ခွက်စာ ဖြစ်သည်။ 0% sweet သည် ဆီရပ်/နို့ဆီ မထပ်ထည့်ခြင်းကိုဆိုပြီး အုတ်နို့ထဲပါ သကြားနှင့် မတူပါ။"
+    ],
+    "id": "video-series-matcha-03"
+  },
+  {
+    "group": "matcha",
+    "part": 4,
+    "name": "Matcha Honey",
+    "mm": "ပျားရည် မတ်ချာ",
+    "start": 51,
+    "end": 67,
+    "photo": 63.2,
+    "size": 16,
+    "actions": [
+      {
+        "name": "မတ်ချာမှုန့်",
+        "quantity": "5 g",
+        "text": "မတ်ချာမှုန့် 5 g ထည့်ပါ။",
+        "phase": "prepare",
+        "vessel": null
+      },
+      {
+        "name": "ရေနွေး",
+        "quantity": "40 ml",
+        "text": "မတ်ချာမှုန့်ထဲ ရေနွေး 40 ml ထည့်ပြီး အဖုမရှိအောင် ဖျော်ပါ။",
+        "phase": "prepare",
+        "vessel": null
+      },
+      {
+        "name": "ပျားရည်",
+        "quantity": "30 ml",
+        "text": "ပျားရည် 30 ml ထည့်ပါ။",
+        "phase": "prepare",
+        "vessel": null
+      },
+      {
+        "name": "ရေနွေး — ပျားရည်ပျော်ရန်",
+        "quantity": "20 ml",
+        "text": "ပျားရည်ထဲ ရေနွေး 20 ml ထည့်၍ ပျော်အောင်မွှေပါ။",
+        "phase": "prepare",
+        "vessel": null
+      },
+      {
+        "text": "ပျားရည်ဖျော်ရည်ကို သောက်ခွက်ထဲထည့်ပါ။",
+        "phase": "cup"
+      },
+      {
+        "name": "ရိုးရိုးရေ",
+        "quantity": "90 ml",
+        "text": "ရိုးရိုးရေ 90 ml ထည့်ပါ။",
+        "phase": "cup",
+        "vessel": null
+      },
+      {
+        "text": "ဇွန်းဖြင့် အောက်ခြေထိ ရောမွှေပါ။",
+        "phase": "cup"
+      },
+      {
+        "name": "ရေခဲ",
+        "quantity": "ခွက်ပြည့် — g မဖော်ပြ",
+        "text": "ရေခဲကို ခွက်ပြည့်အောင် ဖြည့်ပါ။",
+        "phase": "cup",
+        "vessel": null
+      },
+      {
+        "text": "ကြိုဖျော်ထားသော မတ်ချာရည်ကို နို့ပေါ်မှ ဖြည်းဖြည်းလောင်းပါ။",
+        "phase": "finish"
+      }
+    ],
+    "notes": [],
+    "id": "video-series-matcha-04"
+  },
+  {
+    "group": "matcha",
+    "part": 5,
+    "name": "Matcha Pink Milk",
+    "mm": "ပန်းရောင်နို့ မတ်ချာ",
+    "start": 67,
+    "end": 91,
+    "photo": 89,
+    "size": 16,
+    "actions": [
+      {
+        "name": "မတ်ချာမှုန့်",
+        "quantity": "5 g",
+        "text": "မတ်ချာမှုန့် 5 g ထည့်ပါ။",
+        "phase": "prepare",
+        "vessel": null
+      },
+      {
+        "name": "ရေနွေး",
+        "quantity": "40 ml",
+        "text": "မတ်ချာမှုန့်ထဲ ရေနွေး 40 ml ထည့်ပြီး အဖုမရှိအောင် ဖျော်ပါ။",
+        "phase": "prepare",
+        "vessel": null
+      },
+      {
+        "name": "နို့စိမ်းဘူး (Evaporated milk)",
+        "quantity": "30 ml",
+        "text": "နို့စိမ်းဘူး (Evaporated milk) 30 ml ထည့်ပါ။",
+        "phase": "cup",
+        "vessel": null
+      },
+      {
+        "name": "Sala အနီဆီရပ်",
+        "quantity": "30 ml",
+        "text": "Sala အနီဆီရပ် 30 ml ထည့်ပါ။",
+        "phase": "cup",
+        "vessel": null
+      },
+      {
+        "name": "နို့စိမ်း (Fresh milk)",
+        "quantity": "80 ml",
+        "text": "နို့စိမ်း (Fresh milk) 80 ml ထည့်ပါ။",
+        "phase": "cup",
+        "vessel": null
+      },
+      {
+        "text": "ဇွန်းဖြင့် အောက်ခြေထိ ရောမွှေပါ။",
+        "phase": "cup"
+      },
+      {
+        "name": "ရေခဲ",
+        "quantity": "ခွက်ပြည့် — g မဖော်ပြ",
+        "text": "ရေခဲကို ခွက်ပြည့်အောင် ဖြည့်ပါ။",
+        "phase": "cup",
+        "vessel": null
+      },
+      {
+        "text": "ကြိုဖျော်ထားသော မတ်ချာရည်ကို နို့ပေါ်မှ ဖြည်းဖြည်းလောင်းပါ။",
+        "phase": "finish"
+      }
+    ],
+    "notes": [],
+    "id": "video-series-matcha-05"
+  },
+  {
+    "group": "matcha",
+    "part": 6,
+    "name": "Iced Matcha Latte — 16 oz",
+    "mm": "မတ်ချာလာတေးအေး — 16 oz",
+    "start": 91,
+    "end": 119,
+    "photo": 115.5,
+    "size": 16,
+    "actions": [
+      {
+        "name": "မတ်ချာမှုန့်",
+        "quantity": "5.5 g",
+        "text": "မတ်ချာမှုန့် 5.5 g ထည့်ပါ။",
+        "phase": "prepare",
+        "vessel": null
+      },
+      {
+        "name": "ရေနွေး",
+        "quantity": "40 ml",
+        "text": "မတ်ချာမှုန့်ထဲ ရေနွေး 40 ml ထည့်ပြီး အဖုမရှိအောင် ဖျော်ပါ။",
+        "phase": "prepare",
+        "vessel": null
+      },
+      {
+        "name": "နို့စိမ်းဘူး (Evaporated milk)",
+        "quantity": "30 ml",
+        "text": "နို့စိမ်းဘူး (Evaporated milk) 30 ml ထည့်ပါ။",
+        "phase": "cup",
+        "vessel": null
+      },
+      {
+        "name": "နို့ဆီ",
+        "quantity": "30 ml",
+        "text": "နို့ဆီ 30 ml ထည့်ပါ။",
+        "phase": "cup",
+        "vessel": null
+      },
+      {
+        "name": "နို့စိမ်း (Fresh milk)",
+        "quantity": "80 ml",
+        "text": "နို့စိမ်း (Fresh milk) 80 ml ထည့်ပါ။",
+        "phase": "cup",
+        "vessel": null
+      },
+      {
+        "text": "ဇွန်းဖြင့် အောက်ခြေထိ ရောမွှေပါ။",
+        "phase": "cup"
+      },
+      {
+        "name": "ရေခဲ",
+        "quantity": "ခွက်ပြည့် — g မဖော်ပြ",
+        "text": "ရေခဲကို ခွက်ပြည့်အောင် ဖြည့်ပါ။",
+        "phase": "cup",
+        "vessel": null
+      },
+      {
+        "text": "ကြိုဖျော်ထားသော မတ်ချာရည်ကို နို့ပေါ်မှ ဖြည်းဖြည်းလောင်းပါ။",
+        "phase": "finish"
+      }
+    ],
+    "notes": [],
+    "id": "video-series-matcha-06"
+  },
+  {
+    "group": "matcha",
+    "part": 7,
+    "name": "Matcha Oat Milk — Sweet",
+    "mm": "အချိုပါ မတ်ချာအုတ်နို့",
+    "start": 119,
+    "end": 149,
+    "photo": 145.0,
+    "size": 16,
+    "actions": [
+      {
+        "name": "မတ်ချာမှုန့်",
+        "quantity": "4 g",
+        "text": "မတ်ချာမှုန့် 4 g ထည့်ပါ။",
+        "phase": "prepare",
+        "vessel": null
+      },
+      {
+        "name": "ရေနွေး",
+        "quantity": "40 ml",
+        "text": "မတ်ချာမှုန့်ထဲ ရေနွေး 40 ml ထည့်ပြီး အဖုမရှိအောင် ဖျော်ပါ။",
+        "phase": "prepare",
+        "vessel": null
+      },
+      {
+        "name": "နို့စိမ်းဘူး (Evaporated milk)",
+        "quantity": "30 ml",
+        "text": "နို့စိမ်းဘူး (Evaporated milk) 30 ml ထည့်ပါ။",
+        "phase": "cup",
+        "vessel": null
+      },
+      {
+        "name": "နို့ဆီ",
+        "quantity": "30 ml",
+        "text": "နို့ဆီ 30 ml ထည့်ပါ။",
+        "phase": "cup",
+        "vessel": null
+      },
+      {
+        "name": "အုတ်နို့",
+        "quantity": "80 ml",
+        "text": "အုတ်နို့ 80 ml ထည့်ပါ။",
+        "phase": "cup",
+        "vessel": null
+      },
+      {
+        "text": "ဇွန်းဖြင့် အောက်ခြေထိ ရောမွှေပါ။",
+        "phase": "cup"
+      },
+      {
+        "name": "ရေခဲ",
+        "quantity": "ခွက်ပြည့် — g မဖော်ပြ",
+        "text": "ရေခဲကို ခွက်ပြည့်အောင် ဖြည့်ပါ။",
+        "phase": "cup",
+        "vessel": null
+      },
+      {
+        "text": "ကြိုဖျော်ထားသော မတ်ချာရည်ကို နို့ပေါ်မှ ဖြည်းဖြည်းလောင်းပါ။",
+        "phase": "finish"
+      }
+    ],
+    "notes": [
+      "Video တွင် intensity level 1 ဟုဖော်ပြသည်။ နို့စိမ်းဘူးနှင့်နို့ဆီပါဝင်သောကြောင့် နို့ထွက်ပစ္စည်းလွတ်မဟုတ်ပါ။"
+    ],
+    "id": "video-series-matcha-07"
+  },
+  {
+    "group": "matcha",
+    "part": 8,
+    "name": "Matcha Honey Lime",
+    "mm": "ပျားရည်သံပုရာ မတ်ချာ",
+    "start": 149,
+    "end": 169,
+    "photo": 164,
+    "size": 16,
+    "actions": [
+      {
+        "name": "မတ်ချာမှုန့်",
+        "quantity": "5 g",
+        "text": "မတ်ချာမှုန့် 5 g ထည့်ပါ။",
+        "phase": "prepare",
+        "vessel": null
+      },
+      {
+        "name": "ရေနွေး",
+        "quantity": "40 ml",
+        "text": "မတ်ချာမှုန့်ထဲ ရေနွေး 40 ml ထည့်ပြီး အဖုမရှိအောင် ဖျော်ပါ။",
+        "phase": "prepare",
+        "vessel": null
+      },
+      {
+        "name": "သံပုရာရည်",
+        "quantity": "30 ml",
+        "text": "သံပုရာရည် 30 ml ကို စစ်ဇကာမှတစ်ဆင့် ခွက်ထဲထည့်ပါ။",
+        "phase": "cup",
+        "vessel": null
+      },
+      {
+        "name": "ပျားရည်",
+        "quantity": "30 ml",
+        "text": "ပျားရည် 30 ml ထည့်ပါ။",
+        "phase": "cup",
+        "vessel": null
+      },
+      {
+        "name": "ရိုးရိုးရေ",
+        "quantity": "80 ml",
+        "text": "ရိုးရိုးရေ 80 ml ထည့်ပါ။",
+        "phase": "cup",
+        "vessel": null
+      },
+      {
+        "name": "ရေခဲ",
+        "quantity": "ခွက်ပြည့် — g မဖော်ပြ",
+        "text": "ရေခဲကို ခွက်ပြည့်အောင် ဖြည့်ပါ။",
+        "phase": "cup",
+        "vessel": null
+      },
+      {
+        "text": "ဇွန်းဖြင့် အောက်ခြေထိ ရောမွှေပါ။",
+        "phase": "cup"
+      },
+      {
+        "text": "ကြိုဖျော်ထားသော မတ်ချာရည်ကို နို့ပေါ်မှ ဖြည်းဖြည်းလောင်းပါ။",
+        "phase": "finish"
+      },
+      {
+        "name": "သံပုရာအဝိုင်း အလှဆင်",
+        "quantity": "Video အရေအတွက်မဖော်ပြ",
+        "text": "သံပုရာအဝိုင်း အလှဆင် Video အရေအတွက်မဖော်ပြ ထည့်ပါ။",
+        "phase": "finish",
+        "vessel": null
+      }
+    ],
+    "notes": [],
+    "id": "video-series-matcha-08"
+  },
+  {
+    "group": "matcha",
+    "part": "8b",
+    "name": "Black Coffee Honey — Matcha Collection",
+    "mm": "ပျားရည် ကော်ဖီအမည်း — Matcha Part 08",
+    "start": 169,
+    "end": 189,
+    "photo": 183,
+    "size": 16,
+    "actions": [
+      {
+        "name": "ပျားရည်",
+        "quantity": "30 ml",
+        "text": "ပျားရည် 30 ml ထည့်ပါ။",
+        "phase": "cup",
+        "vessel": null
+      },
+      {
+        "name": "ရိုးရိုးရေ",
+        "quantity": "Video ပမာဏမဖော်ပြ",
+        "text": "ရိုးရိုးရေ Video ပမာဏမဖော်ပြ ထည့်ပါ။",
+        "phase": "cup",
+        "vessel": null
+      },
+      {
+        "text": "ဇွန်းဖြင့် အောက်ခြေထိ ရောမွှေပါ။",
+        "phase": "cup"
+      },
+      {
+        "name": "ရေခဲ",
+        "quantity": "ခွက်ပြည့် — g မဖော်ပြ",
+        "text": "ရေခဲကို ခွက်ပြည့်အောင် ဖြည့်ပါ။",
+        "phase": "cup",
+        "vessel": null
+      },
+      {
+        "name": "ကော်ဖီရည်",
+        "quantity": "60 ml",
+        "text": "ကော်ဖီရည် 60 ml ကို ရေခဲပေါ်မှ ဖြည်းဖြည်းလောင်းထည့်ပါ။",
+        "phase": "finish",
+        "vessel": null
+      }
+    ],
+    "notes": [
+      "မှတ်ချက်: အောက်ပါ ကိုးကားစမ်းဖျော်ပမာဏများသည် မူရင်း Video မှအတည်ပြုပမာဏများနှင့် သီးခြားဖြစ်သည်။",
+      "Matcha collection Part 08 အတွင်း ကော်ဖီမျိုးကွဲကိုပါ ပြထားသည်။ ရေပမာဏမပါသဖြင့် Coffee Part 01 ၏ ရိုးရိုးရေ 90 ml ကို စတင်စမ်းဖျော်အချိုးအဖြစ် ကိုးကားနိုင်သည်။ မူရင်းအတည်ပြုချက်မဟုတ်ပါ။"
+    ],
+    "id": "video-series-matcha-8b"
+  },
+  {
+    "group": "matcha",
+    "part": 9,
+    "name": "Iced Matcha Latte — Evaporated Base",
+    "mm": "မတ်ချာလာတေး — နို့စိမ်းဘူးပါ",
+    "start": 189,
+    "end": 223,
+    "photo": 219,
+    "size": 16,
+    "actions": [
+      {
+        "name": "မတ်ချာမှုန့်",
+        "quantity": "5.5 g",
+        "text": "မတ်ချာမှုန့် 5.5 g ထည့်ပါ။",
+        "phase": "prepare",
+        "vessel": null
+      },
+      {
+        "name": "ရေနွေး",
+        "quantity": "40 ml",
+        "text": "မတ်ချာမှုန့်ထဲ ရေနွေး 40 ml ထည့်ပြီး အဖုမရှိအောင် ဖျော်ပါ။",
+        "phase": "prepare",
+        "vessel": null
+      },
+      {
+        "name": "နို့စိမ်းဘူး (Evaporated milk)",
+        "quantity": "30 ml",
+        "text": "နို့စိမ်းဘူး (Evaporated milk) 30 ml ထည့်ပါ။",
+        "phase": "cup",
+        "vessel": null
+      },
+      {
+        "name": "နို့ဆီ",
+        "quantity": "30 ml",
+        "text": "နို့ဆီ 30 ml ထည့်ပါ။",
+        "phase": "cup",
+        "vessel": null
+      },
+      {
+        "name": "နို့စိမ်း (Fresh milk)",
+        "quantity": "80 ml",
+        "text": "နို့စိမ်း (Fresh milk) 80 ml ထည့်ပါ။",
+        "phase": "cup",
+        "vessel": null
+      },
+      {
+        "text": "ဇွန်းဖြင့် အောက်ခြေထိ ရောမွှေပါ။",
+        "phase": "cup"
+      },
+      {
+        "name": "ရေခဲ",
+        "quantity": "ခွက်ပြည့် — g မဖော်ပြ",
+        "text": "ရေခဲကို ခွက်ပြည့်အောင် ဖြည့်ပါ။",
+        "phase": "cup",
+        "vessel": null
+      },
+      {
+        "text": "ဇွန်းဖြင့် အောက်ခြေထိ ရောမွှေပါ။",
+        "phase": "cup"
+      },
+      {
+        "text": "ကြိုဖျော်ထားသော မတ်ချာရည်ကို နို့ပေါ်မှ ဖြည်းဖြည်းလောင်းပါ။",
+        "phase": "finish"
+      }
+    ],
+    "notes": [],
+    "id": "video-series-matcha-09"
+  },
+  {
+    "group": "matcha",
+    "part": 10,
+    "name": "Matcha Caramel Oat Milk",
+    "mm": "ကာရာမယ်အုတ်နို့ မတ်ချာ",
+    "start": 223,
+    "end": 243,
+    "photo": 239.2,
+    "size": 16,
+    "actions": [
+      {
+        "name": "မတ်ချာမှုန့်",
+        "quantity": "5.5 g",
+        "text": "မတ်ချာမှုန့် 5.5 g ထည့်ပါ။",
+        "phase": "prepare",
+        "vessel": null
+      },
+      {
+        "name": "ရေနွေး",
+        "quantity": "40 ml",
+        "text": "မတ်ချာမှုန့်ထဲ ရေနွေး 40 ml ထည့်ပြီး အဖုမရှိအောင် ဖျော်ပါ။",
+        "phase": "prepare",
+        "vessel": null
+      },
+      {
+        "name": "ကာရာမယ်ဆီရပ်",
+        "quantity": "30 ml",
+        "text": "ကာရာမယ်ဆီရပ် 30 ml ထည့်ပါ။",
+        "phase": "cup",
+        "vessel": null
+      },
+      {
+        "name": "နို့စိမ်းဘူး (Evaporated milk)",
+        "quantity": "30 ml",
+        "text": "နို့စိမ်းဘူး (Evaporated milk) 30 ml ထည့်ပါ။",
+        "phase": "cup",
+        "vessel": null
+      },
+      {
+        "name": "အုတ်နို့",
+        "quantity": "80 ml",
+        "text": "အုတ်နို့ 80 ml ထည့်ပါ။",
+        "phase": "cup",
+        "vessel": null
+      },
+      {
+        "name": "ကာရာမယ်ဆော့စ်",
+        "quantity": "Video ပမာဏမဖော်ပြ",
+        "text": "ခွက်အတွင်းဘေးကို ကာရာမယ်ဆော့စ် လှည့်လောင်းပါ။",
+        "phase": "cup",
+        "vessel": null
+      },
+      {
+        "name": "ရေခဲ",
+        "quantity": "ခွက်ပြည့် — g မဖော်ပြ",
+        "text": "ရေခဲကို ခွက်ပြည့်အောင် ဖြည့်ပါ။",
+        "phase": "cup",
+        "vessel": null
+      },
+      {
+        "text": "ဇွန်းဖြင့် အောက်ခြေထိ ရောမွှေပါ။",
+        "phase": "cup"
+      },
+      {
+        "text": "ကြိုဖျော်ထားသော မတ်ချာရည်ကို နို့ပေါ်မှ ဖြည်းဖြည်းလောင်းပါ။",
+        "phase": "finish"
+      }
+    ],
+    "notes": [],
+    "id": "video-series-matcha-10"
+  },
+  {
+    "group": "matcha",
+    "part": 11,
+    "name": "Matcha Coconut — No Milk",
+    "mm": "အုန်းဆီရပ် မတ်ချာ — နို့မပါ",
+    "start": 243,
+    "end": 261,
+    "photo": 259,
+    "size": 16,
+    "actions": [
+      {
+        "name": "မတ်ချာမှုန့်",
+        "quantity": "5 g",
+        "text": "မတ်ချာမှုန့် 5 g ထည့်ပါ။",
+        "phase": "prepare",
+        "vessel": null
+      },
+      {
+        "name": "ရေနွေး",
+        "quantity": "40 ml",
+        "text": "မတ်ချာမှုန့်ထဲ ရေနွေး 40 ml ထည့်ပြီး အဖုမရှိအောင် ဖျော်ပါ။",
+        "phase": "prepare",
+        "vessel": null
+      },
+      {
+        "name": "အုန်းအရသာဆီရပ်",
+        "quantity": "30 ml",
+        "text": "အုန်းအရသာဆီရပ် 30 ml ထည့်ပါ။",
+        "phase": "cup",
+        "vessel": null
+      },
+      {
+        "name": "ရိုးရိုးရေ",
+        "quantity": "120 ml",
+        "text": "ရိုးရိုးရေ 120 ml ထည့်ပါ။",
+        "phase": "cup",
+        "vessel": null
+      },
+      {
+        "name": "ရေခဲ",
+        "quantity": "ခွက်ပြည့် — g မဖော်ပြ",
+        "text": "ရေခဲကို ခွက်ပြည့်အောင် ဖြည့်ပါ။",
+        "phase": "cup",
+        "vessel": null
+      },
+      {
+        "text": "ဇွန်းဖြင့် အောက်ခြေထိ ရောမွှေပါ။",
+        "phase": "cup"
+      },
+      {
+        "text": "ကြိုဖျော်ထားသော မတ်ချာရည်ကို နို့ပေါ်မှ ဖြည်းဖြည်းလောင်းပါ။",
+        "phase": "finish"
+      }
+    ],
+    "notes": [],
+    "id": "video-series-matcha-11"
+  },
+  {
+    "group": "matcha",
+    "part": 12,
+    "name": "Matcha Caramel Latte",
+    "mm": "ကာရာမယ် မတ်ချာလာတေး",
+    "start": 261,
+    "end": 279,
+    "photo": 275.2,
+    "size": 16,
+    "actions": [
+      {
+        "name": "မတ်ချာမှုန့်",
+        "quantity": "5.5 g",
+        "text": "မတ်ချာမှုန့် 5.5 g ထည့်ပါ။",
+        "phase": "prepare",
+        "vessel": null
+      },
+      {
+        "name": "ရေနွေး",
+        "quantity": "40 ml",
+        "text": "မတ်ချာမှုန့်ထဲ ရေနွေး 40 ml ထည့်ပြီး အဖုမရှိအောင် ဖျော်ပါ။",
+        "phase": "prepare",
+        "vessel": null
+      },
+      {
+        "name": "နို့စိမ်းဘူး (Evaporated milk)",
+        "quantity": "30 ml",
+        "text": "နို့စိမ်းဘူး (Evaporated milk) 30 ml ထည့်ပါ။",
+        "phase": "cup",
+        "vessel": null
+      },
+      {
+        "name": "ကာရာမယ်ဆီရပ်",
+        "quantity": "30 ml",
+        "text": "ကာရာမယ်ဆီရပ် 30 ml ထည့်ပါ။",
+        "phase": "cup",
+        "vessel": null
+      },
+      {
+        "name": "နို့စိမ်း (Fresh milk)",
+        "quantity": "80 ml",
+        "text": "နို့စိမ်း (Fresh milk) 80 ml ထည့်ပါ။",
+        "phase": "cup",
+        "vessel": null
+      },
+      {
+        "text": "ဇွန်းဖြင့် အောက်ခြေထိ ရောမွှေပါ။",
+        "phase": "cup"
+      },
+      {
+        "name": "ရေခဲ",
+        "quantity": "ခွက်ပြည့် — g မဖော်ပြ",
+        "text": "ရေခဲကို ခွက်ပြည့်အောင် ဖြည့်ပါ။",
+        "phase": "cup",
+        "vessel": null
+      },
+      {
+        "text": "ကြိုဖျော်ထားသော မတ်ချာရည်ကို နို့ပေါ်မှ ဖြည်းဖြည်းလောင်းပါ။",
+        "phase": "finish"
+      }
+    ],
+    "notes": [],
+    "id": "video-series-matcha-12"
+  },
+  {
+    "group": "matcha",
+    "part": 13,
+    "name": "Matcha Orange",
+    "mm": "လိမ္မော် မတ်ချာ",
+    "start": 279,
+    "end": 303,
+    "photo": 299.2,
+    "size": 16,
+    "actions": [
+      {
+        "name": "မတ်ချာမှုန့်",
+        "quantity": "4–5 g",
+        "text": "မတ်ချာမှုန့် 4–5 g ထည့်ပါ။",
+        "phase": "prepare",
+        "vessel": null
+      },
+      {
+        "name": "ရေနွေး",
+        "quantity": "40 ml",
+        "text": "မတ်ချာမှုန့်ထဲ ရေနွေး 40 ml ထည့်ပြီး အဖုမရှိအောင် ဖျော်ပါ။",
+        "phase": "prepare",
+        "vessel": null
+      },
+      {
+        "name": "လိမ္မော်အနှစ်",
+        "quantity": "30 ml",
+        "text": "လိမ္မော်အနှစ် 30 ml ထည့်ပါ။",
+        "phase": "cup",
+        "vessel": null
+      },
+      {
+        "name": "ရိုးရိုးရေ",
+        "quantity": "90 ml",
+        "text": "ရိုးရိုးရေ 90 ml ထည့်ပါ။",
+        "phase": "cup",
+        "vessel": null
+      },
+      {
+        "text": "ဇွန်းဖြင့် အောက်ခြေထိ ရောမွှေပါ။",
+        "phase": "cup"
+      },
+      {
+        "name": "ရေခဲ",
+        "quantity": "ခွက်ပြည့် — g မဖော်ပြ",
+        "text": "ရေခဲကို ခွက်ပြည့်အောင် ဖြည့်ပါ။",
+        "phase": "cup",
+        "vessel": null
+      },
+      {
+        "text": "ကြိုဖျော်ထားသော မတ်ချာရည်ကို နို့ပေါ်မှ ဖြည်းဖြည်းလောင်းပါ။",
+        "phase": "finish"
+      }
+    ],
+    "notes": [],
+    "id": "video-series-matcha-13"
+  },
+  {
+    "group": "matcha",
+    "part": 14,
+    "name": "Iced Matcha — No Milk",
+    "mm": "မတ်ချာအေး — နို့မပါ",
+    "start": 303,
+    "end": 323,
+    "photo": 319,
+    "size": 16,
+    "actions": [
+      {
+        "name": "မတ်ချာမှုန့်",
+        "quantity": "5 g",
+        "text": "မတ်ချာမှုန့် 5 g ထည့်ပါ။",
+        "phase": "prepare",
+        "vessel": null
+      },
+      {
+        "name": "ရေနွေး",
+        "quantity": "40 ml",
+        "text": "မတ်ချာမှုန့်ထဲ ရေနွေး 40 ml ထည့်ပြီး အဖုမရှိအောင် ဖျော်ပါ။",
+        "phase": "prepare",
+        "vessel": null
+      },
+      {
+        "text": "မတ်ချာအခြေခံရည်ကို သောက်ခွက်ထဲထည့်ပါ။",
+        "phase": "cup"
+      },
+      {
+        "name": "ရိုးရိုးရေ",
+        "quantity": "140 ml",
+        "text": "ရိုးရိုးရေ 140 ml ထည့်ပါ။",
+        "phase": "cup",
+        "vessel": null
+      },
+      {
+        "text": "ဇွန်းဖြင့် အောက်ခြေထိ ရောမွှေပါ။",
+        "phase": "cup"
+      },
+      {
+        "name": "ရေခဲ",
+        "quantity": "ခွက်ပြည့် — g မဖော်ပြ",
+        "text": "ရေခဲကို ခွက်ပြည့်အောင် ဖြည့်ပါ။",
+        "phase": "cup",
+        "vessel": null
+      }
+    ],
+    "notes": [
+      "Video ခေါင်းစဉ်/အချိုစာတန်းကို ဤအပိုင်းတွင် မတွေ့ပါ။ သကြား/နို့ဆီမထည့်ထားသော လုပ်ဆောင်ချက်အတိုင်း မှတ်ထားသည်။"
+    ],
+    "id": "video-series-matcha-14"
+  },
+  {
+    "group": "matcha",
+    "part": 15,
+    "name": "Matcha Coconut Latte",
+    "mm": "အုန်းဆီရပ် မတ်ချာလာတေး",
+    "start": 323,
+    "end": 341,
+    "photo": 337.5,
+    "size": 16,
+    "actions": [
+      {
+        "name": "မတ်ချာမှုန့်",
+        "quantity": "5.5 g",
+        "text": "မတ်ချာမှုန့် 5.5 g ထည့်ပါ။",
+        "phase": "prepare",
+        "vessel": null
+      },
+      {
+        "name": "ရေနွေး",
+        "quantity": "40 ml",
+        "text": "မတ်ချာမှုန့်ထဲ ရေနွေး 40 ml ထည့်ပြီး အဖုမရှိအောင် ဖျော်ပါ။",
+        "phase": "prepare",
+        "vessel": null
+      },
+      {
+        "name": "အုန်းအရသာဆီရပ်",
+        "quantity": "30 ml",
+        "text": "အုန်းအရသာဆီရပ် 30 ml ထည့်ပါ။",
+        "phase": "cup",
+        "vessel": null
+      },
+      {
+        "name": "နို့စိမ်း (Fresh milk)",
+        "quantity": "80 ml",
+        "text": "နို့စိမ်း (Fresh milk) 80 ml ထည့်ပါ။",
+        "phase": "cup",
+        "vessel": null
+      },
+      {
+        "name": "ရေခဲ",
+        "quantity": "ခွက်ပြည့် — g မဖော်ပြ",
+        "text": "ရေခဲကို ခွက်ပြည့်အောင် ဖြည့်ပါ။",
+        "phase": "cup",
+        "vessel": null
+      },
+      {
+        "text": "ကြိုဖျော်ထားသော မတ်ချာရည်ကို နို့ပေါ်မှ ဖြည်းဖြည်းလောင်းပါ။",
+        "phase": "finish"
+      }
+    ],
+    "notes": [],
+    "id": "video-series-matcha-15"
+  },
+  {
+    "group": "matcha",
+    "part": 16,
+    "name": "Iced Matcha Latte — 50% Sweet",
+    "mm": "မတ်ချာလာတေး — အချို 50%",
+    "start": 339,
+    "end": 361,
+    "photo": 339.5,
+    "size": 16,
+    "actions": [
+      {
+        "name": "မတ်ချာမှုန့်",
+        "quantity": "5.5 g",
+        "text": "မတ်ချာမှုန့် 5.5 g ထည့်ပါ။",
+        "phase": "prepare",
+        "vessel": null
+      },
+      {
+        "name": "ရေနွေး",
+        "quantity": "40 ml",
+        "text": "မတ်ချာမှုန့်ထဲ ရေနွေး 40 ml ထည့်ပြီး အဖုမရှိအောင် ဖျော်ပါ။",
+        "phase": "prepare",
+        "vessel": null
+      },
+      {
+        "name": "နို့စိမ်းဘူး (Evaporated milk)",
+        "quantity": "30 ml",
+        "text": "နို့စိမ်းဘူး (Evaporated milk) 30 ml ထည့်ပါ။",
+        "phase": "cup",
+        "vessel": null
+      },
+      {
+        "name": "နို့ဆီ",
+        "quantity": "15 ml",
+        "text": "နို့ဆီ 15 ml ထည့်ပါ။",
+        "phase": "cup",
+        "vessel": null
+      },
+      {
+        "name": "နို့စိမ်း (Fresh milk)",
+        "quantity": "100 ml",
+        "text": "နို့စိမ်း (Fresh milk) 100 ml ထည့်ပါ။",
+        "phase": "cup",
+        "vessel": null
+      },
+      {
+        "text": "ဇွန်းဖြင့် အောက်ခြေထိ ရောမွှေပါ။",
+        "phase": "cup"
+      },
+      {
+        "name": "ရေခဲ",
+        "quantity": "ခွက်ပြည့် — g မဖော်ပြ",
+        "text": "ရေခဲကို ခွက်ပြည့်အောင် ဖြည့်ပါ။",
+        "phase": "cup",
+        "vessel": null
+      },
+      {
+        "text": "ကြိုဖျော်ထားသော မတ်ချာရည်ကို နို့ပေါ်မှ ဖြည်းဖြည်းလောင်းပါ။",
+        "phase": "finish"
+      }
+    ],
+    "notes": [
+      "Part 16 ၏ 50% ခွက်: နို့ဆီ 15 ml၊ နို့စိမ်း 100 ml။ 100% ခွက်နှင့် သီးခြားတစ်ခွက်စာ ဖြစ်သည်။"
+    ],
+    "id": "video-series-matcha-16"
+  },
+  {
+    "group": "matcha",
+    "part": "16b",
+    "name": "Iced Matcha Latte — 100% Sweet",
+    "mm": "မတ်ချာလာတေး — အချို 100%",
+    "start": 339,
+    "end": 361,
+    "photo": 339.5,
+    "size": 16,
+    "actions": [
+      {
+        "name": "မတ်ချာမှုန့်",
+        "quantity": "5.5 g",
+        "text": "မတ်ချာမှုန့် 5.5 g ထည့်ပါ။",
+        "phase": "prepare",
+        "vessel": null
+      },
+      {
+        "name": "ရေနွေး",
+        "quantity": "40 ml",
+        "text": "မတ်ချာမှုန့်ထဲ ရေနွေး 40 ml ထည့်ပြီး အဖုမရှိအောင် ဖျော်ပါ။",
+        "phase": "prepare",
+        "vessel": null
+      },
+      {
+        "name": "နို့စိမ်းဘူး (Evaporated milk)",
+        "quantity": "30 ml",
+        "text": "နို့စိမ်းဘူး (Evaporated milk) 30 ml ထည့်ပါ။",
+        "phase": "cup",
+        "vessel": null
+      },
+      {
+        "name": "နို့ဆီ",
+        "quantity": "30 ml",
+        "text": "နို့ဆီ 30 ml ထည့်ပါ။",
+        "phase": "cup",
+        "vessel": null
+      },
+      {
+        "name": "နို့စိမ်း (Fresh milk)",
+        "quantity": "80 ml",
+        "text": "နို့စိမ်း (Fresh milk) 80 ml ထည့်ပါ။",
+        "phase": "cup",
+        "vessel": null
+      },
+      {
+        "text": "ဇွန်းဖြင့် အောက်ခြေထိ ရောမွှေပါ။",
+        "phase": "cup"
+      },
+      {
+        "name": "ရေခဲ",
+        "quantity": "ခွက်ပြည့် — g မဖော်ပြ",
+        "text": "ရေခဲကို ခွက်ပြည့်အောင် ဖြည့်ပါ။",
+        "phase": "cup",
+        "vessel": null
+      },
+      {
+        "text": "ကြိုဖျော်ထားသော မတ်ချာရည်ကို နို့ပေါ်မှ ဖြည်းဖြည်းလောင်းပါ။",
+        "phase": "finish"
+      }
+    ],
+    "notes": [
+      "နှစ်ခွက်ယှဉ်ပြထားသော Part 16 ဖြစ်သည်။ 100% ခွက်တွင် နို့ဆီ 30 ml၊ နို့စိမ်း 80 ml ဟုဖော်ပြသည်။"
+    ],
+    "id": "video-series-matcha-16b"
+  },
+  {
+    "group": "matcha",
+    "part": 17,
+    "name": "Matcha Yuzu",
+    "mm": "ယူဇူး မတ်ချာ",
+    "start": 361,
+    "end": 377,
+    "photo": 375,
+    "size": 16,
+    "actions": [
+      {
+        "name": "မတ်ချာမှုန့်",
+        "quantity": "5 g",
+        "text": "မတ်ချာမှုန့် 5 g ထည့်ပါ။",
+        "phase": "prepare",
+        "vessel": null
+      },
+      {
+        "name": "ရေနွေး",
+        "quantity": "45 ml",
+        "text": "မတ်ချာမှုန့်ထဲ ရေနွေး 45 ml ထည့်ပြီး အဖုမရှိအောင် ဖျော်ပါ။",
+        "phase": "prepare",
+        "vessel": null
+      },
+      {
+        "name": "ယူဇူးအသီးအနှစ် (Yuzu fruit preparation)",
+        "quantity": "30 ml",
+        "text": "ယူဇူးအသီးအနှစ် (Yuzu fruit preparation) 30 ml ထည့်ပါ။",
+        "phase": "cup",
+        "vessel": null
+      },
+      {
+        "name": "ရိုးရိုးရေ",
+        "quantity": "100 ml",
+        "text": "ရိုးရိုးရေ 100 ml ထည့်ပါ။",
+        "phase": "cup",
+        "vessel": null
+      },
+      {
+        "text": "ဇွန်းဖြင့် အောက်ခြေထိ ရောမွှေပါ။",
+        "phase": "cup"
+      },
+      {
+        "name": "ရေခဲ",
+        "quantity": "ခွက်ပြည့် — g မဖော်ပြ",
+        "text": "ရေခဲကို ခွက်ပြည့်အောင် ဖြည့်ပါ။",
+        "phase": "cup",
+        "vessel": null
+      },
+      {
+        "text": "ကြိုဖျော်ထားသော မတ်ချာရည်ကို နို့ပေါ်မှ ဖြည်းဖြည်းလောင်းပါ။",
+        "phase": "finish"
+      }
+    ],
+    "notes": [],
+    "id": "video-series-matcha-17"
+  },
+  {
+    "group": "matcha",
+    "part": 18,
+    "name": "Matcha Biscoff Latte",
+    "mm": "ဘစ်စကော့ မတ်ချာလာတေး",
+    "start": 377,
+    "end": 396,
+    "photo": 395,
+    "size": 16,
+    "actions": [
+      {
+        "name": "မတ်ချာမှုန့်",
+        "quantity": "5 g",
+        "text": "မတ်ချာမှုန့် 5 g ထည့်ပါ။",
+        "phase": "prepare",
+        "vessel": null
+      },
+      {
+        "name": "ရေနွေး",
+        "quantity": "50 ml",
+        "text": "မတ်ချာမှုန့်ထဲ ရေနွေး 50 ml ထည့်ပြီး အဖုမရှိအောင် ဖျော်ပါ။",
+        "phase": "prepare",
+        "vessel": null
+      },
+      {
+        "name": "Biscoff spread",
+        "quantity": "50 g",
+        "text": "Biscoff spread 50 g ကို ခွက်အတွင်းဘေးတွင် သုတ်ပါ။",
+        "phase": "cup",
+        "vessel": null
+      },
+      {
+        "name": "နို့စိမ်းဘူး (Evaporated milk)",
+        "quantity": "30 ml",
+        "text": "နို့စိမ်းဘူး (Evaporated milk) 30 ml ထည့်ပါ။",
+        "phase": "cup",
+        "vessel": null
+      },
+      {
+        "name": "နို့စိမ်း (Fresh milk)",
+        "quantity": "60 ml",
+        "text": "နို့စိမ်း (Fresh milk) 60 ml ထည့်ပါ။",
+        "phase": "cup",
+        "vessel": null
+      },
+      {
+        "name": "ရေခဲ",
+        "quantity": "ခွက်ပြည့် — g မဖော်ပြ",
+        "text": "ရေခဲကို ခွက်ပြည့်အောင် ဖြည့်ပါ။",
+        "phase": "cup",
+        "vessel": null
+      },
+      {
+        "text": "ကြိုဖျော်ထားသော မတ်ချာရည်ကို နို့ပေါ်မှ ဖြည်းဖြည်းလောင်းပါ။",
+        "phase": "finish"
+      },
+      {
+        "name": "Biscoff ဘီစကွတ်",
+        "quantity": "1 ခု — ပုံတွင်မြင်ရ",
+        "text": "Biscoff ဘီစကွတ် 1 ခု — ပုံတွင်မြင်ရ ထည့်ပါ။",
+        "phase": "finish",
+        "vessel": null
+      }
+    ],
+    "notes": [],
+    "id": "video-series-matcha-18"
+  }
+]

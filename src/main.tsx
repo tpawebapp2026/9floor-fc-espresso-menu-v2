@@ -428,6 +428,45 @@ function App() {
                 ▶ Video Recipe · Part 01–20{" "}
                 <small>ဖျော်နည်း ၂၂ မျိုး · Video မူရင်းခွက်ပုံများ</small>
               </button>
+              {[
+                [
+                  "coffee",
+                  "Coffee · Part 01–21",
+                  "ကော်ဖီနှင့် အမြှုပ် · ၂၂ မျိုး",
+                  "barista",
+                ],
+                [
+                  "berry",
+                  "Berry Series · Part 01–16",
+                  "စတော်ဘယ်ရီနှင့် မစ်စ်ဘယ်ရီ · ၁၇ မျိုး",
+                  "cold",
+                ],
+                [
+                  "twotone",
+                  "Two Tone · Part 01–14",
+                  "အလွှာဖျော်ရည် · ၁၆ မျိုး",
+                  "cold",
+                ],
+                [
+                  "matcha",
+                  "Matcha · Part 01–18",
+                  "မတ်ချာစတိုင် · ၂၀ မျိုး",
+                  "cold",
+                ],
+              ].map(([id, title, description, recipeLine]) => (
+                <button
+                  key={id}
+                  className="video-recipes-shortcut"
+                  onClick={() => {
+                    setLine(recipeLine);
+                    setCategory("video-series-" + id);
+                    setQuery("");
+                  }}
+                >
+                  ▶ Video {title}
+                  <small>{description} · မူရင်းခွက်ပုံများ</small>
+                </button>
+              ))}
               <div className="line-tabs">
                 <button
                   className={line === "barista" ? "selected" : ""}

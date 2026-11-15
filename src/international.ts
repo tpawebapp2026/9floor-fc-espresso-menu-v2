@@ -189,6 +189,15 @@ export function internationalRecipes(
           (group.categories.includes(r.categoryId) ||
             (r.categoryId === "video-tea-refreshing" &&
               group.id === (/Soda/.test(r.englishName) ? "soda" : "tea")) ||
+            (r.categoryId.startsWith("video-series-") &&
+              group.id ===
+                (/Smoothie/.test(r.englishName)
+                  ? "blended"
+                  : /Matcha|Tea/.test(r.englishName)
+                    ? "tea"
+                    : /Milk|Latte|Cocoa/.test(r.englishName)
+                      ? "milk"
+                      : "refresher")) ||
             extraStyles[group.id]?.includes(r.id)))),
   );
 }
