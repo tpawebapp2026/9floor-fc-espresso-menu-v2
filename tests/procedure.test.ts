@@ -28,7 +28,10 @@ it("preserves every original 272 recipe record and adds eleven distinct unverifi
     expect(createHash("sha256").update(stable(r)).digest("hex")).toBe(hash);
   }
   const added = catalog.recipes.filter(
-    (r) => !(r.id in original) && !r.id.startsWith("9f-poster-"),
+    (r) =>
+      !(r.id in original) &&
+      !r.id.startsWith("9f-poster-") &&
+      !r.id.startsWith("video-tea-"),
   );
   expect(added).toHaveLength(11);
   expect(

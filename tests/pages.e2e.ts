@@ -9,6 +9,53 @@ const photoCatalog = JSON.parse(
 };
 import { readFile, writeFile } from "node:fs/promises";
 const base = process.env.VITE_BASE_PATH || "/9floor-fc-espresso-menu-v2/";
+test("video recipes expose all 20 parts with original frames and work offline", async ({
+  page,
+  context,
+}) => {
+  await page.setViewportSize({ width: 390, height: 844 });
+  await page.goto("./");
+  await page.getByRole("button", { name: /Video Recipe · Part 01–20/ }).click();
+  await expect(page.locator(".recipe-card")).toHaveCount(22);
+  await page.goto("./#/recipe/video-tea-05");
+  await expect(page.locator(".detail-heading h1")).toContainText(
+    "Thai Red Soda 32 oz",
+  );
+  await expect(page.locator(".ingredient").first()).toContainText("90 ml");
+  await expect(page.locator(".cup-order li").last()).toContainText("230 ml");
+  await expect(page.locator(".photo-credit")).toContainText("Video ထဲမှ");
+  await page.goto("./#/recipe/video-tea-13b");
+  const photo = page.locator(".detail-photo img");
+  await expect(photo).toHaveAttribute("src", /video-tea\/part-13b.webp/);
+  await expect
+    .poll(() =>
+      photo.evaluate((e: HTMLImageElement) => e.complete && e.naturalWidth > 0),
+    )
+    .toBe(true);
+  await page.evaluate(() => navigator.serviceWorker.ready);
+  await page.reload();
+  await context.setOffline(true);
+  await page.reload();
+  await expect(page.locator(".detail-heading h1")).toContainText(
+    "Mixed Berry Soda",
+  );
+  await expect
+    .poll(() =>
+      page
+        .locator(".detail-photo img")
+        .evaluate((e: HTMLImageElement) => e.complete && e.naturalWidth > 0),
+    )
+    .toBe(true);
+  await expect(page.locator(".cup-order li")).toHaveCount(4);
+  await page
+    .locator(".detail-layout")
+    .screenshot({ path: "/tmp/9floor-video-recipe-mobile.png" });
+  expect(
+    await page.evaluate(
+      () => document.documentElement.scrollWidth <= innerWidth,
+    ),
+  ).toBe(true);
+});
 test("international cold menus expose six styles, existing country links and correct detail routes", async ({
   page,
 }) => {
@@ -22,7 +69,7 @@ test("international cold menus expose six styles, existing country links and cor
     .locator(".world-lines")
     .getByRole("button", { name: /အအေးစုံ/ })
     .click();
-  await expect(page.locator(".recipe-card")).toHaveCount(143);
+  await expect(page.locator(".recipe-card")).toHaveCount(165);
   const styles = page.locator(".cold-style-grid button");
   await expect(styles).toHaveCount(7);
   for (let i = 1; i < 7; i++) {
@@ -188,7 +235,7 @@ test("Pages reader serves all menus under its repository path with a scoped mani
   await page.goto("./");
   await expect(page.locator(".recipe-card")).toHaveCount(169);
   await page.getByRole("button", { name: /အအေးစုံလိုင်း/ }).click();
-  await expect(page.locator(".recipe-card")).toHaveCount(143);
+  await expect(page.locator(".recipe-card")).toHaveCount(165);
   await expect(
     page.getByRole("button", { name: /စီမံခန့်ခွဲသူ ဝင်ရန်/ }),
   ).toHaveCount(0);
@@ -443,7 +490,7 @@ test("Album groups, exact crop images, recipes and favorites work on mobile and 
   await expect(
     page.getByRole("heading", { name: "9 FLOOR COFFEE — Menu Album" }),
   ).toBeVisible();
-  expect(await page.locator(".recipe-card").count()).toBeGreaterThanOrEqual(55);
+  await expect.poll(() => page.locator(".recipe-card").count()).toBeGreaterThanOrEqual(55);
   const errors: string[] = [];
   page.on("pageerror", (e) => errors.push(e.message));
   const images = page.locator(".recipe-card img");
@@ -539,7 +586,7 @@ test("Album groups, exact crop images, recipes and favorites work on mobile and 
   });
 });
 
-test("all 324 recipes expose the exact vessel-specific assembly plan and retain it offline", async ({
+test("all recipes expose the exact vessel-specific assembly plan and retain it offline", async ({
   page,
   context,
 }) => {

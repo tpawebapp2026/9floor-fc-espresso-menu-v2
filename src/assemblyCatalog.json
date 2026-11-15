@@ -42755,5 +42755,2631 @@
       "Vanilla Syrup 15 g",
       "Fresh Milk 180 g ကို ကြိုပူထားသော နို့/နို့အမြှုပ်အားလုံး"
     ]
+  },
+  "video-tea-01": {
+    "name": "Red Lime Soda · Video Part 01",
+    "sourceIngredients": [
+      {
+        "name": "သံပုရာရည် (Lime juice)",
+        "quantity": "30 ml"
+      },
+      {
+        "name": "Thai Red Syrup (Sala)",
+        "quantity": "40 ml"
+      },
+      {
+        "name": "ရေခဲ",
+        "quantity": "ခွက်ပြည့် (Video တွင် g မဖော်ပြ)"
+      },
+      {
+        "name": "ဆိုဒါရည် — ရေခဲပေါ်ဖြည့်ရန်",
+        "quantity": "150 ml"
+      },
+      {
+        "name": "သံပုရာအဝိုင်း — အလှဆင်",
+        "quantity": "Video တွင် အရေအတွက်မသတ်မှတ်"
+      }
+    ],
+    "ingredients": [
+      {
+        "name": "သံပုရာရည် (Lime juice)",
+        "quantity": "30 ml"
+      },
+      {
+        "name": "Thai Red Syrup (Sala)",
+        "quantity": "40 ml"
+      },
+      {
+        "name": "ရေခဲ",
+        "quantity": "ခွက်ပြည့် (Video တွင် g မဖော်ပြ)"
+      },
+      {
+        "name": "ဆိုဒါရည် — ရေခဲပေါ်ဖြည့်ရန်",
+        "quantity": "150 ml"
+      },
+      {
+        "name": "သံပုရာအဝိုင်း — အလှဆင်",
+        "quantity": "Video တွင် အရေအတွက်မသတ်မှတ်"
+      }
+    ],
+    "kind": "drink",
+    "adjustments": [],
+    "warnings": [],
+    "steps": [
+      {
+        "phase": "cup",
+        "vessel": "20 oz သောက်ခွက်",
+        "text": "သံပုရာရည် 30 ml ကို စစ်ဇကာမှတစ်ဆင့် ခွက်ထဲစစ်ထည့်ပါ။",
+        "uses": [
+          {
+            "index": 0,
+            "part": 1
+          }
+        ],
+        "take": [],
+        "cupNumber": 1
+      },
+      {
+        "phase": "cup",
+        "vessel": "20 oz သောက်ခွက်",
+        "text": "Sala အနံ့ Thai Red Syrup 40 ml ထည့်ပါ။",
+        "uses": [
+          {
+            "index": 1,
+            "part": 1
+          }
+        ],
+        "take": [],
+        "cupNumber": 2
+      },
+      {
+        "phase": "serve",
+        "vessel": "20 oz သောက်ခွက်",
+        "text": "ဇွန်းဖြင့် အောက်ခြေက အရည်များ ရောသွားအောင် မွှေပါ။",
+        "uses": [],
+        "take": []
+      },
+      {
+        "phase": "cup",
+        "vessel": "20 oz သောက်ခွက်",
+        "text": "ယခုမှ ရေခဲကို ခွက်ပြည့်အောင် ဖြည့်ပါ။",
+        "uses": [
+          {
+            "index": 2,
+            "part": 1
+          }
+        ],
+        "take": [],
+        "cupNumber": 3
+      },
+      {
+        "phase": "cup",
+        "vessel": "20 oz သောက်ခွက်",
+        "text": "ဆိုဒါရည် 150 ml ကို ရေခဲပေါ်မှ ဖြည်းဖြည်း လောင်းထည့်ပါ။",
+        "uses": [
+          {
+            "index": 3,
+            "part": 1
+          }
+        ],
+        "take": [],
+        "cupNumber": 4
+      },
+      {
+        "phase": "finish",
+        "vessel": "20 oz သောက်ခွက်",
+        "text": "Video အတိုင်း သံပုရာအဝိုင်းတင်၍ အလှဆင်ပါ။",
+        "uses": [
+          {
+            "index": 4,
+            "part": 1
+          }
+        ],
+        "take": [],
+        "cupNumber": 5
+      }
+    ],
+    "cupOrder": [
+      "သံပုရာရည် 30 ml ကို စစ်ဇကာမှတစ်ဆင့် ခွက်ထဲစစ်ထည့်ပါ။",
+      "Sala အနံ့ Thai Red Syrup 40 ml ထည့်ပါ။",
+      "ယခုမှ ရေခဲကို ခွက်ပြည့်အောင် ဖြည့်ပါ။",
+      "ဆိုဒါရည် 150 ml ကို ရေခဲပေါ်မှ ဖြည်းဖြည်း လောင်းထည့်ပါ။",
+      "Video အတိုင်း သံပုရာအဝိုင်းတင်၍ အလှဆင်ပါ။"
+    ]
+  },
+  "video-tea-02": {
+    "name": "Orange Soda · Video Part 02",
+    "sourceIngredients": [
+      {
+        "name": "ရိုးရိုးရေ",
+        "quantity": "30 ml"
+      },
+      {
+        "name": "သကြားရည် (Cane syrup)",
+        "quantity": "20 ml"
+      },
+      {
+        "name": "လိမ္မော်ဖျော်ရည်အနှစ် (Orange concentrate)",
+        "quantity": "30 ml"
+      },
+      {
+        "name": "ရေခဲ",
+        "quantity": "ခွက်ပြည့် (Video တွင် g မဖော်ပြ)"
+      },
+      {
+        "name": "ဆိုဒါရည် — ရေခဲပေါ်ဖြည့်ရန်",
+        "quantity": "120 ml"
+      }
+    ],
+    "ingredients": [
+      {
+        "name": "ရိုးရိုးရေ",
+        "quantity": "30 ml"
+      },
+      {
+        "name": "သကြားရည် (Cane syrup)",
+        "quantity": "20 ml"
+      },
+      {
+        "name": "လိမ္မော်ဖျော်ရည်အနှစ် (Orange concentrate)",
+        "quantity": "30 ml"
+      },
+      {
+        "name": "ရေခဲ",
+        "quantity": "ခွက်ပြည့် (Video တွင် g မဖော်ပြ)"
+      },
+      {
+        "name": "ဆိုဒါရည် — ရေခဲပေါ်ဖြည့်ရန်",
+        "quantity": "120 ml"
+      }
+    ],
+    "kind": "drink",
+    "adjustments": [],
+    "warnings": [],
+    "steps": [
+      {
+        "phase": "cup",
+        "vessel": "20 oz သောက်ခွက်",
+        "text": "ရိုးရိုးရေ 30 ml ထည့်ပါ။",
+        "uses": [
+          {
+            "index": 0,
+            "part": 1
+          }
+        ],
+        "take": [],
+        "cupNumber": 1
+      },
+      {
+        "phase": "cup",
+        "vessel": "20 oz သောက်ခွက်",
+        "text": "သကြားရည် 20 ml ထည့်ပါ။",
+        "uses": [
+          {
+            "index": 1,
+            "part": 1
+          }
+        ],
+        "take": [],
+        "cupNumber": 2
+      },
+      {
+        "phase": "cup",
+        "vessel": "20 oz သောက်ခွက်",
+        "text": "လိမ္မော်ဖျော်ရည်အနှစ် 30 ml ထည့်ပါ။",
+        "uses": [
+          {
+            "index": 2,
+            "part": 1
+          }
+        ],
+        "take": [],
+        "cupNumber": 3
+      },
+      {
+        "phase": "serve",
+        "vessel": "20 oz သောက်ခွက်",
+        "text": "ဇွန်းဖြင့် အောက်ခြေက အရည်များ ရောသွားအောင် မွှေပါ။",
+        "uses": [],
+        "take": []
+      },
+      {
+        "phase": "cup",
+        "vessel": "20 oz သောက်ခွက်",
+        "text": "ယခုမှ ရေခဲကို ခွက်ပြည့်အောင် ဖြည့်ပါ။",
+        "uses": [
+          {
+            "index": 3,
+            "part": 1
+          }
+        ],
+        "take": [],
+        "cupNumber": 4
+      },
+      {
+        "phase": "cup",
+        "vessel": "20 oz သောက်ခွက်",
+        "text": "ဆိုဒါရည် 120 ml ကို ရေခဲပေါ်မှ ဖြည်းဖြည်း လောင်းထည့်ပါ။",
+        "uses": [
+          {
+            "index": 4,
+            "part": 1
+          }
+        ],
+        "take": [],
+        "cupNumber": 5
+      }
+    ],
+    "cupOrder": [
+      "ရိုးရိုးရေ 30 ml ထည့်ပါ။",
+      "သကြားရည် 20 ml ထည့်ပါ။",
+      "လိမ္မော်ဖျော်ရည်အနှစ် 30 ml ထည့်ပါ။",
+      "ယခုမှ ရေခဲကို ခွက်ပြည့်အောင် ဖြည့်ပါ။",
+      "ဆိုဒါရည် 120 ml ကို ရေခဲပေါ်မှ ဖြည်းဖြည်း လောင်းထည့်ပါ။"
+    ]
+  },
+  "video-tea-03": {
+    "name": "Honey Lime Soda · Video Part 03",
+    "sourceIngredients": [
+      {
+        "name": "ပျားရည်",
+        "quantity": "30 ml"
+      },
+      {
+        "name": "ရေနွေး",
+        "quantity": "20 ml"
+      },
+      {
+        "name": "သံပုရာရည် (Lime juice)",
+        "quantity": "25 ml"
+      },
+      {
+        "name": "ရေခဲ",
+        "quantity": "ခွက်ပြည့် (Video တွင် g မဖော်ပြ)"
+      },
+      {
+        "name": "ဆိုဒါရည် — ရေခဲပေါ်ဖြည့်ရန်",
+        "quantity": "120 ml"
+      },
+      {
+        "name": "သံပုရာအဝိုင်း — အလှဆင်",
+        "quantity": "Video တွင် အရေအတွက်မသတ်မှတ်"
+      }
+    ],
+    "ingredients": [
+      {
+        "name": "ပျားရည်",
+        "quantity": "30 ml"
+      },
+      {
+        "name": "ရေနွေး",
+        "quantity": "20 ml"
+      },
+      {
+        "name": "သံပုရာရည် (Lime juice)",
+        "quantity": "25 ml"
+      },
+      {
+        "name": "ရေခဲ",
+        "quantity": "ခွက်ပြည့် (Video တွင် g မဖော်ပြ)"
+      },
+      {
+        "name": "ဆိုဒါရည် — ရေခဲပေါ်ဖြည့်ရန်",
+        "quantity": "120 ml"
+      },
+      {
+        "name": "သံပုရာအဝိုင်း — အလှဆင်",
+        "quantity": "Video တွင် အရေအတွက်မသတ်မှတ်"
+      }
+    ],
+    "kind": "drink",
+    "adjustments": [],
+    "warnings": [],
+    "steps": [
+      {
+        "phase": "prepare",
+        "vessel": "ပျားရည်ရောခွက်",
+        "text": "ခွက်အသေးထဲ ပျားရည် 30 ml နှင့် ရေနွေး 20 ml ကို ရောထားပါ။ Video မှာ ထိုနှစ်မျိုးကို တစ်ခွက်ထဲမှ လောင်းပြထားသည်။",
+        "uses": [
+          {
+            "index": 0,
+            "part": 1
+          },
+          {
+            "index": 1,
+            "part": 1
+          }
+        ],
+        "take": [],
+        "produce": "honey-mix"
+      },
+      {
+        "phase": "cup",
+        "vessel": "20 oz သောက်ခွက်",
+        "text": "သံပုရာရည် 25 ml ကို စစ်ဇကာမှတစ်ဆင့် ခွက်ထဲစစ်ထည့်ပါ။",
+        "uses": [
+          {
+            "index": 2,
+            "part": 1
+          }
+        ],
+        "take": [],
+        "cupNumber": 1
+      },
+      {
+        "phase": "cup",
+        "vessel": "20 oz သောက်ခွက်",
+        "text": "ပျားရည်နှင့် ရေနွေး ရောထားသောအရည် အားလုံးကို သံပုရာရည်ရှိသော သောက်ခွက်ထဲ လောင်းထည့်ပါ။",
+        "uses": [],
+        "take": [
+          "honey-mix"
+        ],
+        "cupNumber": 2
+      },
+      {
+        "phase": "serve",
+        "vessel": "20 oz သောက်ခွက်",
+        "text": "ဇွန်းဖြင့် အောက်ခြေက အရည်များ ရောသွားအောင် မွှေပါ။",
+        "uses": [],
+        "take": []
+      },
+      {
+        "phase": "cup",
+        "vessel": "20 oz သောက်ခွက်",
+        "text": "ယခုမှ ရေခဲကို ခွက်ပြည့်အောင် ဖြည့်ပါ။",
+        "uses": [
+          {
+            "index": 3,
+            "part": 1
+          }
+        ],
+        "take": [],
+        "cupNumber": 3
+      },
+      {
+        "phase": "cup",
+        "vessel": "20 oz သောက်ခွက်",
+        "text": "ဆိုဒါရည် 120 ml ကို ရေခဲပေါ်မှ ဖြည်းဖြည်း လောင်းထည့်ပါ။",
+        "uses": [
+          {
+            "index": 4,
+            "part": 1
+          }
+        ],
+        "take": [],
+        "cupNumber": 4
+      },
+      {
+        "phase": "finish",
+        "vessel": "20 oz သောက်ခွက်",
+        "text": "Video အတိုင်း သံပုရာအဝိုင်းတင်၍ အလှဆင်ပါ။",
+        "uses": [
+          {
+            "index": 5,
+            "part": 1
+          }
+        ],
+        "take": [],
+        "cupNumber": 5
+      }
+    ],
+    "cupOrder": [
+      "သံပုရာရည် 25 ml ကို စစ်ဇကာမှတစ်ဆင့် ခွက်ထဲစစ်ထည့်ပါ။",
+      "ပျားရည်နှင့် ရေနွေး ရောထားသောအရည် အားလုံးကို သံပုရာရည်ရှိသော သောက်ခွက်ထဲ လောင်းထည့်ပါ။",
+      "ယခုမှ ရေခဲကို ခွက်ပြည့်အောင် ဖြည့်ပါ။",
+      "ဆိုဒါရည် 120 ml ကို ရေခဲပေါ်မှ ဖြည်းဖြည်း လောင်းထည့်ပါ။",
+      "Video အတိုင်း သံပုရာအဝိုင်းတင်၍ အလှဆင်ပါ။"
+    ]
+  },
+  "video-tea-04": {
+    "name": "Lime Black Tea · Video Part 04",
+    "sourceIngredients": [
+      {
+        "name": "သံပုရာရည် (Lime juice)",
+        "quantity": "30 ml"
+      },
+      {
+        "name": "သကြားရည် (Cane syrup)",
+        "quantity": "40 ml"
+      },
+      {
+        "name": "စစ်ပြီး Thai Tea အရည်",
+        "quantity": "120 ml"
+      },
+      {
+        "name": "ရိုးရိုးရေ",
+        "quantity": "40 ml"
+      },
+      {
+        "name": "ရေခဲ",
+        "quantity": "ခွက်ပြည့် (Video တွင် g မဖော်ပြ)"
+      },
+      {
+        "name": "သံပုရာအဝိုင်း — အလှဆင်",
+        "quantity": "Video တွင် အရေအတွက်မသတ်မှတ်"
+      }
+    ],
+    "ingredients": [
+      {
+        "name": "သံပုရာရည် (Lime juice)",
+        "quantity": "30 ml"
+      },
+      {
+        "name": "သကြားရည် (Cane syrup)",
+        "quantity": "40 ml"
+      },
+      {
+        "name": "စစ်ပြီး Thai Tea အရည်",
+        "quantity": "120 ml"
+      },
+      {
+        "name": "ရိုးရိုးရေ",
+        "quantity": "40 ml"
+      },
+      {
+        "name": "ရေခဲ",
+        "quantity": "ခွက်ပြည့် (Video တွင် g မဖော်ပြ)"
+      },
+      {
+        "name": "သံပုရာအဝိုင်း — အလှဆင်",
+        "quantity": "Video တွင် အရေအတွက်မသတ်မှတ်"
+      }
+    ],
+    "kind": "drink",
+    "adjustments": [],
+    "warnings": [
+      "ဤ Part တွင် Thai Tea အရည် 120 ml ကိုသာပြထားပြီး လက်ဖက်မှုန့်ပမာဏ၊ နှပ်ချိန်နှင့် ရေအပူချိန် မဖော်ပြပါ။"
+    ],
+    "steps": [
+      {
+        "phase": "cup",
+        "vessel": "20 oz သောက်ခွက်",
+        "text": "သံပုရာရည် 30 ml ကို စစ်ဇကာမှတစ်ဆင့် ခွက်ထဲစစ်ထည့်ပါ။",
+        "uses": [
+          {
+            "index": 0,
+            "part": 1
+          }
+        ],
+        "take": [],
+        "cupNumber": 1
+      },
+      {
+        "phase": "cup",
+        "vessel": "20 oz သောက်ခွက်",
+        "text": "သကြားရည် 40 ml ထည့်ပါ။",
+        "uses": [
+          {
+            "index": 1,
+            "part": 1
+          }
+        ],
+        "take": [],
+        "cupNumber": 2
+      },
+      {
+        "phase": "cup",
+        "vessel": "20 oz သောက်ခွက်",
+        "text": "Thai Tea အရည် 120 ml ကို ခွက်ထဲ လောင်းထည့်ပါ။",
+        "uses": [
+          {
+            "index": 2,
+            "part": 1
+          }
+        ],
+        "take": [],
+        "cupNumber": 3
+      },
+      {
+        "phase": "cup",
+        "vessel": "20 oz သောက်ခွက်",
+        "text": "ရိုးရိုးရေ 40 ml ထည့်ပါ။",
+        "uses": [
+          {
+            "index": 3,
+            "part": 1
+          }
+        ],
+        "take": [],
+        "cupNumber": 4
+      },
+      {
+        "phase": "serve",
+        "vessel": "20 oz သောက်ခွက်",
+        "text": "ဇွန်းဖြင့် အောက်ခြေက အရည်များ ရောသွားအောင် မွှေပါ။",
+        "uses": [],
+        "take": []
+      },
+      {
+        "phase": "cup",
+        "vessel": "20 oz သောက်ခွက်",
+        "text": "ယခုမှ ရေခဲကို ခွက်ပြည့်အောင် ဖြည့်ပါ။",
+        "uses": [
+          {
+            "index": 4,
+            "part": 1
+          }
+        ],
+        "take": [],
+        "cupNumber": 5
+      },
+      {
+        "phase": "serve",
+        "vessel": "20 oz သောက်ခွက်",
+        "text": "ရေခဲထည့်ပြီးနောက် ထပ်မွှေပါ။",
+        "uses": [],
+        "take": []
+      },
+      {
+        "phase": "finish",
+        "vessel": "20 oz သောက်ခွက်",
+        "text": "Video အတိုင်း သံပုရာအဝိုင်းတင်၍ အလှဆင်ပါ။",
+        "uses": [
+          {
+            "index": 5,
+            "part": 1
+          }
+        ],
+        "take": [],
+        "cupNumber": 6
+      }
+    ],
+    "cupOrder": [
+      "သံပုရာရည် 30 ml ကို စစ်ဇကာမှတစ်ဆင့် ခွက်ထဲစစ်ထည့်ပါ။",
+      "သကြားရည် 40 ml ထည့်ပါ။",
+      "Thai Tea အရည် 120 ml ကို ခွက်ထဲ လောင်းထည့်ပါ။",
+      "ရိုးရိုးရေ 40 ml ထည့်ပါ။",
+      "ယခုမှ ရေခဲကို ခွက်ပြည့်အောင် ဖြည့်ပါ။",
+      "Video အတိုင်း သံပုရာအဝိုင်းတင်၍ အလှဆင်ပါ။"
+    ]
+  },
+  "video-tea-05": {
+    "name": "Thai Red Soda 32 oz · Video Part 05",
+    "sourceIngredients": [
+      {
+        "name": "ဆိုဒါရည် — အောက်ခံရောရန်",
+        "quantity": "90 ml"
+      },
+      {
+        "name": "Thai Red Syrup (Sala)",
+        "quantity": "90 ml"
+      },
+      {
+        "name": "ရေခဲ",
+        "quantity": "ခွက်ပြည့် (Video တွင် g မဖော်ပြ)"
+      },
+      {
+        "name": "ဆိုဒါရည် — ရေခဲပေါ်ဖြည့်ရန်",
+        "quantity": "230 ml"
+      }
+    ],
+    "ingredients": [
+      {
+        "name": "ဆိုဒါရည် — အောက်ခံရောရန်",
+        "quantity": "90 ml"
+      },
+      {
+        "name": "Thai Red Syrup (Sala)",
+        "quantity": "90 ml"
+      },
+      {
+        "name": "ရေခဲ",
+        "quantity": "ခွက်ပြည့် (Video တွင် g မဖော်ပြ)"
+      },
+      {
+        "name": "ဆိုဒါရည် — ရေခဲပေါ်ဖြည့်ရန်",
+        "quantity": "230 ml"
+      }
+    ],
+    "kind": "drink",
+    "adjustments": [],
+    "warnings": [],
+    "steps": [
+      {
+        "phase": "cup",
+        "vessel": "32 oz သောက်ခွက်",
+        "text": "ဆိုဒါရည် 90 ml ကို ခွက်အောက်ခံထဲ လောင်းထည့်ပါ။",
+        "uses": [
+          {
+            "index": 0,
+            "part": 1
+          }
+        ],
+        "take": [],
+        "cupNumber": 1
+      },
+      {
+        "phase": "cup",
+        "vessel": "32 oz သောက်ခွက်",
+        "text": "Sala အနံ့ Thai Red Syrup 90 ml ထည့်ပါ။",
+        "uses": [
+          {
+            "index": 1,
+            "part": 1
+          }
+        ],
+        "take": [],
+        "cupNumber": 2
+      },
+      {
+        "phase": "serve",
+        "vessel": "32 oz သောက်ခွက်",
+        "text": "ဇွန်းဖြင့် အောက်ခြေက အရည်များ ရောသွားအောင် မွှေပါ။",
+        "uses": [],
+        "take": []
+      },
+      {
+        "phase": "cup",
+        "vessel": "32 oz သောက်ခွက်",
+        "text": "ယခုမှ ရေခဲကို ခွက်ပြည့်အောင် ဖြည့်ပါ။",
+        "uses": [
+          {
+            "index": 2,
+            "part": 1
+          }
+        ],
+        "take": [],
+        "cupNumber": 3
+      },
+      {
+        "phase": "cup",
+        "vessel": "32 oz သောက်ခွက်",
+        "text": "ဆိုဒါရည် 230 ml ကို ရေခဲပေါ်မှ ဖြည်းဖြည်း လောင်းထည့်ပါ။",
+        "uses": [
+          {
+            "index": 3,
+            "part": 1
+          }
+        ],
+        "take": [],
+        "cupNumber": 4
+      }
+    ],
+    "cupOrder": [
+      "ဆိုဒါရည် 90 ml ကို ခွက်အောက်ခံထဲ လောင်းထည့်ပါ။",
+      "Sala အနံ့ Thai Red Syrup 90 ml ထည့်ပါ။",
+      "ယခုမှ ရေခဲကို ခွက်ပြည့်အောင် ဖြည့်ပါ။",
+      "ဆိုဒါရည် 230 ml ကို ရေခဲပေါ်မှ ဖြည်းဖြည်း လောင်းထည့်ပါ။"
+    ]
+  },
+  "video-tea-06": {
+    "name": "Pineapple Soda 20 oz · Video Part 06",
+    "sourceIngredients": [
+      {
+        "name": "Ding Fong နာနတ်သီးအနှစ် (Pineapple squash)",
+        "quantity": "50 ml"
+      },
+      {
+        "name": "ရေခဲ",
+        "quantity": "ခွက်ပြည့် (Video တွင် g မဖော်ပြ)"
+      },
+      {
+        "name": "ဆိုဒါရည် — ရေခဲပေါ်ဖြည့်ရန်",
+        "quantity": "120 ml"
+      }
+    ],
+    "ingredients": [
+      {
+        "name": "Ding Fong နာနတ်သီးအနှစ် (Pineapple squash)",
+        "quantity": "50 ml"
+      },
+      {
+        "name": "ရေခဲ",
+        "quantity": "ခွက်ပြည့် (Video တွင် g မဖော်ပြ)"
+      },
+      {
+        "name": "ဆိုဒါရည် — ရေခဲပေါ်ဖြည့်ရန်",
+        "quantity": "120 ml"
+      }
+    ],
+    "kind": "drink",
+    "adjustments": [],
+    "warnings": [],
+    "steps": [
+      {
+        "phase": "cup",
+        "vessel": "20 oz သောက်ခွက်",
+        "text": "နာနတ်သီးအနှစ် 50 ml ကို ခွက်အောက်ခြေထဲ အရင်လောင်းပါ။",
+        "uses": [
+          {
+            "index": 0,
+            "part": 1
+          }
+        ],
+        "take": [],
+        "cupNumber": 1
+      },
+      {
+        "phase": "cup",
+        "vessel": "20 oz သောက်ခွက်",
+        "text": "ယခုမှ ရေခဲကို ခွက်ပြည့်အောင် ဖြည့်ပါ။",
+        "uses": [
+          {
+            "index": 1,
+            "part": 1
+          }
+        ],
+        "take": [],
+        "cupNumber": 2
+      },
+      {
+        "phase": "cup",
+        "vessel": "20 oz သောက်ခွက်",
+        "text": "ဆိုဒါရည် 120 ml ကို ရေခဲပေါ်မှ ဖြည်းဖြည်း လောင်းထည့်ပါ။",
+        "uses": [
+          {
+            "index": 2,
+            "part": 1
+          }
+        ],
+        "take": [],
+        "cupNumber": 3
+      }
+    ],
+    "cupOrder": [
+      "နာနတ်သီးအနှစ် 50 ml ကို ခွက်အောက်ခြေထဲ အရင်လောင်းပါ။",
+      "ယခုမှ ရေခဲကို ခွက်ပြည့်အောင် ဖြည့်ပါ။",
+      "ဆိုဒါရည် 120 ml ကို ရေခဲပေါ်မှ ဖြည်းဖြည်း လောင်းထည့်ပါ။"
+    ]
+  },
+  "video-tea-07": {
+    "name": "Pineapple Soda 16 oz · Video Part 07",
+    "sourceIngredients": [
+      {
+        "name": "ဆိုဒါရည် — အောက်ခံရောရန်",
+        "quantity": "40 ml"
+      },
+      {
+        "name": "Ding Fong နာနတ်သီးအနှစ် (Pineapple squash)",
+        "quantity": "40 ml"
+      },
+      {
+        "name": "ရေခဲ",
+        "quantity": "ခွက်ပြည့် (Video တွင် g မဖော်ပြ)"
+      },
+      {
+        "name": "ဆိုဒါရည် — ရေခဲပေါ်ဖြည့်ရန်",
+        "quantity": "100 ml"
+      }
+    ],
+    "ingredients": [
+      {
+        "name": "ဆိုဒါရည် — အောက်ခံရောရန်",
+        "quantity": "40 ml"
+      },
+      {
+        "name": "Ding Fong နာနတ်သီးအနှစ် (Pineapple squash)",
+        "quantity": "40 ml"
+      },
+      {
+        "name": "ရေခဲ",
+        "quantity": "ခွက်ပြည့် (Video တွင် g မဖော်ပြ)"
+      },
+      {
+        "name": "ဆိုဒါရည် — ရေခဲပေါ်ဖြည့်ရန်",
+        "quantity": "100 ml"
+      }
+    ],
+    "kind": "drink",
+    "adjustments": [],
+    "warnings": [],
+    "steps": [
+      {
+        "phase": "cup",
+        "vessel": "16 oz သောက်ခွက်",
+        "text": "ဆိုဒါရည် 40 ml ကို ခွက်အောက်ခံထဲ လောင်းထည့်ပါ။",
+        "uses": [
+          {
+            "index": 0,
+            "part": 1
+          }
+        ],
+        "take": [],
+        "cupNumber": 1
+      },
+      {
+        "phase": "cup",
+        "vessel": "16 oz သောက်ခွက်",
+        "text": "နာနတ်သီးအနှစ် 40 ml ထည့်ပါ။",
+        "uses": [
+          {
+            "index": 1,
+            "part": 1
+          }
+        ],
+        "take": [],
+        "cupNumber": 2
+      },
+      {
+        "phase": "serve",
+        "vessel": "16 oz သောက်ခွက်",
+        "text": "ဇွန်းဖြင့် အောက်ခြေက အရည်များ ရောသွားအောင် မွှေပါ။",
+        "uses": [],
+        "take": []
+      },
+      {
+        "phase": "cup",
+        "vessel": "16 oz သောက်ခွက်",
+        "text": "ယခုမှ ရေခဲကို ခွက်ပြည့်အောင် ဖြည့်ပါ။",
+        "uses": [
+          {
+            "index": 2,
+            "part": 1
+          }
+        ],
+        "take": [],
+        "cupNumber": 3
+      },
+      {
+        "phase": "cup",
+        "vessel": "16 oz သောက်ခွက်",
+        "text": "ဆိုဒါရည် 100 ml ကို ရေခဲပေါ်မှ ဖြည်းဖြည်း လောင်းထည့်ပါ။",
+        "uses": [
+          {
+            "index": 3,
+            "part": 1
+          }
+        ],
+        "take": [],
+        "cupNumber": 4
+      }
+    ],
+    "cupOrder": [
+      "ဆိုဒါရည် 40 ml ကို ခွက်အောက်ခံထဲ လောင်းထည့်ပါ။",
+      "နာနတ်သီးအနှစ် 40 ml ထည့်ပါ။",
+      "ယခုမှ ရေခဲကို ခွက်ပြည့်အောင် ဖြည့်ပါ။",
+      "ဆိုဒါရည် 100 ml ကို ရေခဲပေါ်မှ ဖြည်းဖြည်း လောင်းထည့်ပါ။"
+    ]
+  },
+  "video-tea-08": {
+    "name": "Thai Black Tea 20 oz · Video Part 08",
+    "sourceIngredients": [
+      {
+        "name": "သကြားရည် (Cane syrup)",
+        "quantity": "40 ml"
+      },
+      {
+        "name": "စစ်ပြီး Thai Tea အရည်",
+        "quantity": "150 ml"
+      },
+      {
+        "name": "ရေခဲ",
+        "quantity": "ခွက်ပြည့် (Video တွင် g မဖော်ပြ)"
+      }
+    ],
+    "ingredients": [
+      {
+        "name": "သကြားရည် (Cane syrup)",
+        "quantity": "40 ml"
+      },
+      {
+        "name": "စစ်ပြီး Thai Tea အရည်",
+        "quantity": "150 ml"
+      },
+      {
+        "name": "ရေခဲ",
+        "quantity": "ခွက်ပြည့် (Video တွင် g မဖော်ပြ)"
+      }
+    ],
+    "kind": "drink",
+    "adjustments": [],
+    "warnings": [
+      "လက်ဖက်ရည်အရည် 150 ml အဆင်သင့်ကို သုံးပြထားသည်။ ဤ Part တွင် လက်ဖက်မှုန့်ပမာဏနှင့် နှပ်ချိန် မပါပါ။"
+    ],
+    "steps": [
+      {
+        "phase": "cup",
+        "vessel": "20 oz သောက်ခွက်",
+        "text": "သကြားရည် 40 ml ထည့်ပါ။",
+        "uses": [
+          {
+            "index": 0,
+            "part": 1
+          }
+        ],
+        "take": [],
+        "cupNumber": 1
+      },
+      {
+        "phase": "cup",
+        "vessel": "20 oz သောက်ခွက်",
+        "text": "Thai Tea အရည် 150 ml ကို ခွက်ထဲ လောင်းထည့်ပါ။",
+        "uses": [
+          {
+            "index": 1,
+            "part": 1
+          }
+        ],
+        "take": [],
+        "cupNumber": 2
+      },
+      {
+        "phase": "serve",
+        "vessel": "20 oz သောက်ခွက်",
+        "text": "ဇွန်းဖြင့် အောက်ခြေက အရည်များ ရောသွားအောင် မွှေပါ။",
+        "uses": [],
+        "take": []
+      },
+      {
+        "phase": "cup",
+        "vessel": "20 oz သောက်ခွက်",
+        "text": "ယခုမှ ရေခဲကို ခွက်ပြည့်အောင် ဖြည့်ပါ။",
+        "uses": [
+          {
+            "index": 2,
+            "part": 1
+          }
+        ],
+        "take": [],
+        "cupNumber": 3
+      },
+      {
+        "phase": "serve",
+        "vessel": "20 oz သောက်ခွက်",
+        "text": "ရေခဲထည့်ပြီး ထပ်မွှေကာ အဖုံးပိတ်ပါ။",
+        "uses": [],
+        "take": []
+      }
+    ],
+    "cupOrder": [
+      "သကြားရည် 40 ml ထည့်ပါ။",
+      "Thai Tea အရည် 150 ml ကို ခွက်ထဲ လောင်းထည့်ပါ။",
+      "ယခုမှ ရေခဲကို ခွက်ပြည့်အောင် ဖြည့်ပါ။"
+    ]
+  },
+  "video-tea-09": {
+    "name": "Thai Red Soda 20 oz · Video Part 09",
+    "sourceIngredients": [
+      {
+        "name": "ဆိုဒါရည် — အောက်ခံရောရန်",
+        "quantity": "40 ml"
+      },
+      {
+        "name": "Thai Red Syrup (Sala)",
+        "quantity": "50 ml"
+      },
+      {
+        "name": "ရေခဲ",
+        "quantity": "ခွက်ပြည့် (Video တွင် g မဖော်ပြ)"
+      },
+      {
+        "name": "ဆိုဒါရည် — ရေခဲပေါ်ဖြည့်ရန်",
+        "quantity": "120 ml"
+      }
+    ],
+    "ingredients": [
+      {
+        "name": "ဆိုဒါရည် — အောက်ခံရောရန်",
+        "quantity": "40 ml"
+      },
+      {
+        "name": "Thai Red Syrup (Sala)",
+        "quantity": "50 ml"
+      },
+      {
+        "name": "ရေခဲ",
+        "quantity": "ခွက်ပြည့် (Video တွင် g မဖော်ပြ)"
+      },
+      {
+        "name": "ဆိုဒါရည် — ရေခဲပေါ်ဖြည့်ရန်",
+        "quantity": "120 ml"
+      }
+    ],
+    "kind": "drink",
+    "adjustments": [],
+    "warnings": [],
+    "steps": [
+      {
+        "phase": "cup",
+        "vessel": "20 oz သောက်ခွက်",
+        "text": "ဆိုဒါရည် 40 ml ကို ခွက်အောက်ခံထဲ လောင်းထည့်ပါ။",
+        "uses": [
+          {
+            "index": 0,
+            "part": 1
+          }
+        ],
+        "take": [],
+        "cupNumber": 1
+      },
+      {
+        "phase": "cup",
+        "vessel": "20 oz သောက်ခွက်",
+        "text": "Sala အနံ့ Thai Red Syrup 50 ml ထည့်ပါ။",
+        "uses": [
+          {
+            "index": 1,
+            "part": 1
+          }
+        ],
+        "take": [],
+        "cupNumber": 2
+      },
+      {
+        "phase": "serve",
+        "vessel": "20 oz သောက်ခွက်",
+        "text": "ဇွန်းဖြင့် အောက်ခြေက အရည်များ ရောသွားအောင် မွှေပါ။",
+        "uses": [],
+        "take": []
+      },
+      {
+        "phase": "cup",
+        "vessel": "20 oz သောက်ခွက်",
+        "text": "ယခုမှ ရေခဲကို ခွက်ပြည့်အောင် ဖြည့်ပါ။",
+        "uses": [
+          {
+            "index": 2,
+            "part": 1
+          }
+        ],
+        "take": [],
+        "cupNumber": 3
+      },
+      {
+        "phase": "cup",
+        "vessel": "20 oz သောက်ခွက်",
+        "text": "ဆိုဒါရည် 120 ml ကို ရေခဲပေါ်မှ ဖြည်းဖြည်း လောင်းထည့်ပါ။",
+        "uses": [
+          {
+            "index": 3,
+            "part": 1
+          }
+        ],
+        "take": [],
+        "cupNumber": 4
+      }
+    ],
+    "cupOrder": [
+      "ဆိုဒါရည် 40 ml ကို ခွက်အောက်ခံထဲ လောင်းထည့်ပါ။",
+      "Sala အနံ့ Thai Red Syrup 50 ml ထည့်ပါ။",
+      "ယခုမှ ရေခဲကို ခွက်ပြည့်အောင် ဖြည့်ပါ။",
+      "ဆိုဒါရည် 120 ml ကို ရေခဲပေါ်မှ ဖြည်းဖြည်း လောင်းထည့်ပါ။"
+    ]
+  },
+  "video-tea-10": {
+    "name": "Thai Black Tea Lime · Video Part 10",
+    "sourceIngredients": [
+      {
+        "name": "သံပုရာရည် (Lime juice)",
+        "quantity": "30 ml"
+      },
+      {
+        "name": "သကြားရည် (Cane syrup)",
+        "quantity": "40 ml"
+      },
+      {
+        "name": "စစ်ပြီး Thai Tea အရည်",
+        "quantity": "120 ml"
+      },
+      {
+        "name": "ရိုးရိုးရေ",
+        "quantity": "40 ml"
+      },
+      {
+        "name": "ရေခဲ",
+        "quantity": "ခွက်ပြည့် (Video တွင် g မဖော်ပြ)"
+      }
+    ],
+    "ingredients": [
+      {
+        "name": "သံပုရာရည် (Lime juice)",
+        "quantity": "30 ml"
+      },
+      {
+        "name": "သကြားရည် (Cane syrup)",
+        "quantity": "40 ml"
+      },
+      {
+        "name": "စစ်ပြီး Thai Tea အရည်",
+        "quantity": "120 ml"
+      },
+      {
+        "name": "ရိုးရိုးရေ",
+        "quantity": "40 ml"
+      },
+      {
+        "name": "ရေခဲ",
+        "quantity": "ခွက်ပြည့် (Video တွင် g မဖော်ပြ)"
+      }
+    ],
+    "kind": "drink",
+    "adjustments": [],
+    "warnings": [
+      "Video စာတန်းတွင် Thai Tea 120 ml (10 g tea mix) ဟုဖော်ပြသည်။ လက်ဖက်နှပ်ရန် ရေပမာဏ၊ အပူချိန်နှင့် နှပ်ချိန် မဖော်ပြပါ။"
+    ],
+    "steps": [
+      {
+        "phase": "cup",
+        "vessel": "20 oz သောက်ခွက်",
+        "text": "သံပုရာရည် 30 ml ကို စစ်ဇကာမှတစ်ဆင့် ခွက်ထဲစစ်ထည့်ပါ။",
+        "uses": [
+          {
+            "index": 0,
+            "part": 1
+          }
+        ],
+        "take": [],
+        "cupNumber": 1
+      },
+      {
+        "phase": "cup",
+        "vessel": "20 oz သောက်ခွက်",
+        "text": "သကြားရည် 40 ml ထည့်ပါ။",
+        "uses": [
+          {
+            "index": 1,
+            "part": 1
+          }
+        ],
+        "take": [],
+        "cupNumber": 2
+      },
+      {
+        "phase": "cup",
+        "vessel": "20 oz သောက်ခွက်",
+        "text": "Thai Tea အရည် 120 ml ကို ခွက်ထဲ လောင်းထည့်ပါ။",
+        "uses": [
+          {
+            "index": 2,
+            "part": 1
+          }
+        ],
+        "take": [],
+        "cupNumber": 3
+      },
+      {
+        "phase": "cup",
+        "vessel": "20 oz သောက်ခွက်",
+        "text": "ရိုးရိုးရေ 40 ml ထည့်ပါ။",
+        "uses": [
+          {
+            "index": 3,
+            "part": 1
+          }
+        ],
+        "take": [],
+        "cupNumber": 4
+      },
+      {
+        "phase": "serve",
+        "vessel": "20 oz သောက်ခွက်",
+        "text": "ဇွန်းဖြင့် အောက်ခြေက အရည်များ ရောသွားအောင် မွှေပါ။",
+        "uses": [],
+        "take": []
+      },
+      {
+        "phase": "cup",
+        "vessel": "20 oz သောက်ခွက်",
+        "text": "ယခုမှ ရေခဲကို ခွက်ပြည့်အောင် ဖြည့်ပါ။",
+        "uses": [
+          {
+            "index": 4,
+            "part": 1
+          }
+        ],
+        "take": [],
+        "cupNumber": 5
+      },
+      {
+        "phase": "serve",
+        "vessel": "20 oz သောက်ခွက်",
+        "text": "ရေခဲထည့်ပြီး ထပ်မွှေပါ။",
+        "uses": [],
+        "take": []
+      }
+    ],
+    "cupOrder": [
+      "သံပုရာရည် 30 ml ကို စစ်ဇကာမှတစ်ဆင့် ခွက်ထဲစစ်ထည့်ပါ။",
+      "သကြားရည် 40 ml ထည့်ပါ။",
+      "Thai Tea အရည် 120 ml ကို ခွက်ထဲ လောင်းထည့်ပါ။",
+      "ရိုးရိုးရေ 40 ml ထည့်ပါ။",
+      "ယခုမှ ရေခဲကို ခွက်ပြည့်အောင် ဖြည့်ပါ။"
+    ]
+  },
+  "video-tea-11": {
+    "name": "Pickled Plum Soda · Video Part 11",
+    "sourceIngredients": [
+      {
+        "name": "ဆားစိမ်ဇီးသီး (Pickled plum)",
+        "quantity": "3 လုံး"
+      },
+      {
+        "name": "ဇီးသီးစိမ်ရည်",
+        "quantity": "20 ml"
+      },
+      {
+        "name": "သကြားရည် (Cane syrup)",
+        "quantity": "40 ml"
+      },
+      {
+        "name": "ရေခဲ",
+        "quantity": "ခွက်ပြည့် (Video တွင် g မဖော်ပြ)"
+      },
+      {
+        "name": "ဆိုဒါရည် — ရေခဲပေါ်ဖြည့်ရန်",
+        "quantity": "140 ml"
+      }
+    ],
+    "ingredients": [
+      {
+        "name": "ဆားစိမ်ဇီးသီး (Pickled plum)",
+        "quantity": "3 လုံး"
+      },
+      {
+        "name": "ဇီးသီးစိမ်ရည်",
+        "quantity": "20 ml"
+      },
+      {
+        "name": "သကြားရည် (Cane syrup)",
+        "quantity": "40 ml"
+      },
+      {
+        "name": "ရေခဲ",
+        "quantity": "ခွက်ပြည့် (Video တွင် g မဖော်ပြ)"
+      },
+      {
+        "name": "ဆိုဒါရည် — ရေခဲပေါ်ဖြည့်ရန်",
+        "quantity": "140 ml"
+      }
+    ],
+    "kind": "drink",
+    "adjustments": [],
+    "warnings": [],
+    "steps": [
+      {
+        "phase": "cup",
+        "vessel": "20 oz သောက်ခွက်",
+        "text": "ဆားစိမ်ဇီးသီး 3 လုံးကို ခွက်အောက်ခြေထဲ အရင်ထည့်ပါ။",
+        "uses": [
+          {
+            "index": 0,
+            "part": 1
+          }
+        ],
+        "take": [],
+        "cupNumber": 1
+      },
+      {
+        "phase": "cup",
+        "vessel": "20 oz သောက်ခွက်",
+        "text": "ဇီးသီးစိမ်ရည် 20 ml ထည့်ပါ။",
+        "uses": [
+          {
+            "index": 1,
+            "part": 1
+          }
+        ],
+        "take": [],
+        "cupNumber": 2
+      },
+      {
+        "phase": "serve",
+        "vessel": "20 oz သောက်ခွက်",
+        "text": "ဇွန်းဖြင့် ဇီးသီးအသားကို ခွက်အောက်ခြေမှာ ဖိချေပါ။",
+        "uses": [],
+        "take": []
+      },
+      {
+        "phase": "cup",
+        "vessel": "20 oz သောက်ခွက်",
+        "text": "သကြားရည် 40 ml ထည့်ပါ။",
+        "uses": [
+          {
+            "index": 2,
+            "part": 1
+          }
+        ],
+        "take": [],
+        "cupNumber": 3
+      },
+      {
+        "phase": "serve",
+        "vessel": "20 oz သောက်ခွက်",
+        "text": "ဇွန်းဖြင့် အောက်ခြေက အရည်များ ရောသွားအောင် မွှေပါ။",
+        "uses": [],
+        "take": []
+      },
+      {
+        "phase": "cup",
+        "vessel": "20 oz သောက်ခွက်",
+        "text": "ယခုမှ ရေခဲကို ခွက်ပြည့်အောင် ဖြည့်ပါ။",
+        "uses": [
+          {
+            "index": 3,
+            "part": 1
+          }
+        ],
+        "take": [],
+        "cupNumber": 4
+      },
+      {
+        "phase": "cup",
+        "vessel": "20 oz သောက်ခွက်",
+        "text": "ဆိုဒါရည် 140 ml ကို ရေခဲပေါ်မှ ဖြည်းဖြည်း လောင်းထည့်ပါ။",
+        "uses": [
+          {
+            "index": 4,
+            "part": 1
+          }
+        ],
+        "take": [],
+        "cupNumber": 5
+      }
+    ],
+    "cupOrder": [
+      "ဆားစိမ်ဇီးသီး 3 လုံးကို ခွက်အောက်ခြေထဲ အရင်ထည့်ပါ။",
+      "ဇီးသီးစိမ်ရည် 20 ml ထည့်ပါ။",
+      "သကြားရည် 40 ml ထည့်ပါ။",
+      "ယခုမှ ရေခဲကို ခွက်ပြည့်အောင် ဖြည့်ပါ။",
+      "ဆိုဒါရည် 140 ml ကို ရေခဲပေါ်မှ ဖြည်းဖြည်း လောင်းထည့်ပါ။"
+    ]
+  },
+  "video-tea-12": {
+    "name": "Honey Soda · Video Part 12",
+    "sourceIngredients": [
+      {
+        "name": "ပျားရည်",
+        "quantity": "30 ml"
+      },
+      {
+        "name": "ရေနွေး",
+        "quantity": "30 ml"
+      },
+      {
+        "name": "ရေခဲ",
+        "quantity": "ခွက်ပြည့် (Video တွင် g မဖော်ပြ)"
+      },
+      {
+        "name": "ဆိုဒါရည် — ရေခဲပေါ်ဖြည့်ရန်",
+        "quantity": "140 ml"
+      }
+    ],
+    "ingredients": [
+      {
+        "name": "ပျားရည်",
+        "quantity": "30 ml"
+      },
+      {
+        "name": "ရေနွေး",
+        "quantity": "30 ml"
+      },
+      {
+        "name": "ရေခဲ",
+        "quantity": "ခွက်ပြည့် (Video တွင် g မဖော်ပြ)"
+      },
+      {
+        "name": "ဆိုဒါရည် — ရေခဲပေါ်ဖြည့်ရန်",
+        "quantity": "140 ml"
+      }
+    ],
+    "kind": "drink",
+    "adjustments": [],
+    "warnings": [],
+    "steps": [
+      {
+        "phase": "cup",
+        "vessel": "20 oz သောက်ခွက်",
+        "text": "ပျားရည် 30 ml ကို အရင်ဆုံး ခွက်အောက်ခြေထဲထည့်ပါ။",
+        "uses": [
+          {
+            "index": 0,
+            "part": 1
+          }
+        ],
+        "take": [],
+        "cupNumber": 1
+      },
+      {
+        "phase": "cup",
+        "vessel": "20 oz သောက်ခွက်",
+        "text": "ပျားရည်ရှိသောခွက်ထဲ ရေနွေး 30 ml ထည့်ပါ။",
+        "uses": [
+          {
+            "index": 1,
+            "part": 1
+          }
+        ],
+        "take": [],
+        "cupNumber": 2
+      },
+      {
+        "phase": "serve",
+        "vessel": "20 oz သောက်ခွက်",
+        "text": "ပျားရည်ပျော်သွားအောင် မွှေပါ။",
+        "uses": [],
+        "take": []
+      },
+      {
+        "phase": "cup",
+        "vessel": "20 oz သောက်ခွက်",
+        "text": "ယခုမှ ရေခဲကို ခွက်ပြည့်အောင် ဖြည့်ပါ။",
+        "uses": [
+          {
+            "index": 2,
+            "part": 1
+          }
+        ],
+        "take": [],
+        "cupNumber": 3
+      },
+      {
+        "phase": "cup",
+        "vessel": "20 oz သောက်ခွက်",
+        "text": "ဆိုဒါရည် 140 ml ကို ရေခဲပေါ်မှ ဖြည်းဖြည်း လောင်းထည့်ပါ။",
+        "uses": [
+          {
+            "index": 3,
+            "part": 1
+          }
+        ],
+        "take": [],
+        "cupNumber": 4
+      }
+    ],
+    "cupOrder": [
+      "ပျားရည် 30 ml ကို အရင်ဆုံး ခွက်အောက်ခြေထဲထည့်ပါ။",
+      "ပျားရည်ရှိသောခွက်ထဲ ရေနွေး 30 ml ထည့်ပါ။",
+      "ယခုမှ ရေခဲကို ခွက်ပြည့်အောင် ဖြည့်ပါ။",
+      "ဆိုဒါရည် 140 ml ကို ရေခဲပေါ်မှ ဖြည်းဖြည်း လောင်းထည့်ပါ။"
+    ]
+  },
+  "video-tea-13a": {
+    "name": "Strawberry Soda · Video Part 13a",
+    "sourceIngredients": [
+      {
+        "name": "Nature Taste Strawberry Fruit Based Preparation",
+        "quantity": "40 ml"
+      },
+      {
+        "name": "ဆိုဒါရည် — အောက်ခံရောရန်",
+        "quantity": "40 ml"
+      },
+      {
+        "name": "ရေခဲ",
+        "quantity": "ခွက်ပြည့် (Video တွင် g မဖော်ပြ)"
+      },
+      {
+        "name": "ဆိုဒါရည် — ရေခဲပေါ်ဖြည့်ရန်",
+        "quantity": "120 ml"
+      }
+    ],
+    "ingredients": [
+      {
+        "name": "Nature Taste Strawberry Fruit Based Preparation",
+        "quantity": "40 ml"
+      },
+      {
+        "name": "ဆိုဒါရည် — အောက်ခံရောရန်",
+        "quantity": "40 ml"
+      },
+      {
+        "name": "ရေခဲ",
+        "quantity": "ခွက်ပြည့် (Video တွင် g မဖော်ပြ)"
+      },
+      {
+        "name": "ဆိုဒါရည် — ရေခဲပေါ်ဖြည့်ရန်",
+        "quantity": "120 ml"
+      }
+    ],
+    "kind": "drink",
+    "adjustments": [],
+    "warnings": [
+      "Video မှာ Nature Taste ကိုသုံးထားသည်။ LongBeach နှင့် တံဆိပ်မတူသဖြင့် အရသာတူညီမည်ဟု မအတည်ပြုထားပါ။"
+    ],
+    "steps": [
+      {
+        "phase": "cup",
+        "vessel": "20 oz သောက်ခွက်",
+        "text": "Strawberry အသီးအနှစ် 40 ml ကို ခွက်အောက်ခြေထဲ အရင်ထည့်ပါ။",
+        "uses": [
+          {
+            "index": 0,
+            "part": 1
+          }
+        ],
+        "take": [],
+        "cupNumber": 1
+      },
+      {
+        "phase": "cup",
+        "vessel": "20 oz သောက်ခွက်",
+        "text": "ဆိုဒါရည် 40 ml ကို ခွက်အောက်ခံထဲ လောင်းထည့်ပါ။",
+        "uses": [
+          {
+            "index": 1,
+            "part": 1
+          }
+        ],
+        "take": [],
+        "cupNumber": 2
+      },
+      {
+        "phase": "serve",
+        "vessel": "20 oz သောက်ခွက်",
+        "text": "ဇွန်းဖြင့် အောက်ခြေက အရည်များ ရောသွားအောင် မွှေပါ။",
+        "uses": [],
+        "take": []
+      },
+      {
+        "phase": "cup",
+        "vessel": "20 oz သောက်ခွက်",
+        "text": "ယခုမှ ရေခဲကို ခွက်ပြည့်အောင် ဖြည့်ပါ။",
+        "uses": [
+          {
+            "index": 2,
+            "part": 1
+          }
+        ],
+        "take": [],
+        "cupNumber": 3
+      },
+      {
+        "phase": "cup",
+        "vessel": "20 oz သောက်ခွက်",
+        "text": "ဆိုဒါရည် 120 ml ကို ရေခဲပေါ်မှ ဖြည်းဖြည်း လောင်းထည့်ပါ။",
+        "uses": [
+          {
+            "index": 3,
+            "part": 1
+          }
+        ],
+        "take": [],
+        "cupNumber": 4
+      }
+    ],
+    "cupOrder": [
+      "Strawberry အသီးအနှစ် 40 ml ကို ခွက်အောက်ခြေထဲ အရင်ထည့်ပါ။",
+      "ဆိုဒါရည် 40 ml ကို ခွက်အောက်ခံထဲ လောင်းထည့်ပါ။",
+      "ယခုမှ ရေခဲကို ခွက်ပြည့်အောင် ဖြည့်ပါ။",
+      "ဆိုဒါရည် 120 ml ကို ရေခဲပေါ်မှ ဖြည်းဖြည်း လောင်းထည့်ပါ။"
+    ]
+  },
+  "video-tea-13b": {
+    "name": "Mixed Berry Soda · Video Part 13b",
+    "sourceIngredients": [
+      {
+        "name": "Nature Taste Mixed Berry Fruit Based Preparation",
+        "quantity": "40 ml"
+      },
+      {
+        "name": "ဆိုဒါရည် — အောက်ခံရောရန်",
+        "quantity": "40 ml"
+      },
+      {
+        "name": "ရေခဲ",
+        "quantity": "ခွက်ပြည့် (Video တွင် g မဖော်ပြ)"
+      },
+      {
+        "name": "ဆိုဒါရည် — ရေခဲပေါ်ဖြည့်ရန်",
+        "quantity": "120 ml"
+      }
+    ],
+    "ingredients": [
+      {
+        "name": "Nature Taste Mixed Berry Fruit Based Preparation",
+        "quantity": "40 ml"
+      },
+      {
+        "name": "ဆိုဒါရည် — အောက်ခံရောရန်",
+        "quantity": "40 ml"
+      },
+      {
+        "name": "ရေခဲ",
+        "quantity": "ခွက်ပြည့် (Video တွင် g မဖော်ပြ)"
+      },
+      {
+        "name": "ဆိုဒါရည် — ရေခဲပေါ်ဖြည့်ရန်",
+        "quantity": "120 ml"
+      }
+    ],
+    "kind": "drink",
+    "adjustments": [],
+    "warnings": [
+      "Video မှာ Nature Taste ကိုသုံးထားသည်။ LongBeach နှင့် တံဆိပ်မတူသဖြင့် အရသာတူညီမည်ဟု မအတည်ပြုထားပါ။"
+    ],
+    "steps": [
+      {
+        "phase": "cup",
+        "vessel": "20 oz သောက်ခွက်",
+        "text": "Mixed Berry အသီးအနှစ် 40 ml ကို ခွက်အောက်ခြေထဲ အရင်ထည့်ပါ။",
+        "uses": [
+          {
+            "index": 0,
+            "part": 1
+          }
+        ],
+        "take": [],
+        "cupNumber": 1
+      },
+      {
+        "phase": "cup",
+        "vessel": "20 oz သောက်ခွက်",
+        "text": "ဆိုဒါရည် 40 ml ကို ခွက်အောက်ခံထဲ လောင်းထည့်ပါ။",
+        "uses": [
+          {
+            "index": 1,
+            "part": 1
+          }
+        ],
+        "take": [],
+        "cupNumber": 2
+      },
+      {
+        "phase": "serve",
+        "vessel": "20 oz သောက်ခွက်",
+        "text": "ဇွန်းဖြင့် အောက်ခြေက အရည်များ ရောသွားအောင် မွှေပါ။",
+        "uses": [],
+        "take": []
+      },
+      {
+        "phase": "cup",
+        "vessel": "20 oz သောက်ခွက်",
+        "text": "ယခုမှ ရေခဲကို ခွက်ပြည့်အောင် ဖြည့်ပါ။",
+        "uses": [
+          {
+            "index": 2,
+            "part": 1
+          }
+        ],
+        "take": [],
+        "cupNumber": 3
+      },
+      {
+        "phase": "cup",
+        "vessel": "20 oz သောက်ခွက်",
+        "text": "ဆိုဒါရည် 120 ml ကို ရေခဲပေါ်မှ ဖြည်းဖြည်း လောင်းထည့်ပါ။",
+        "uses": [
+          {
+            "index": 3,
+            "part": 1
+          }
+        ],
+        "take": [],
+        "cupNumber": 4
+      }
+    ],
+    "cupOrder": [
+      "Mixed Berry အသီးအနှစ် 40 ml ကို ခွက်အောက်ခြေထဲ အရင်ထည့်ပါ။",
+      "ဆိုဒါရည် 40 ml ကို ခွက်အောက်ခံထဲ လောင်းထည့်ပါ။",
+      "ယခုမှ ရေခဲကို ခွက်ပြည့်အောင် ဖြည့်ပါ။",
+      "ဆိုဒါရည် 120 ml ကို ရေခဲပေါ်မှ ဖြည်းဖြည်း လောင်းထည့်ပါ။"
+    ]
+  },
+  "video-tea-14": {
+    "name": "Thai Green Tea Honey · Video Part 14",
+    "sourceIngredients": [
+      {
+        "name": "ပျားရည်",
+        "quantity": "30 ml"
+      },
+      {
+        "name": "ရိုးရိုးရေ",
+        "quantity": "100 ml"
+      },
+      {
+        "name": "ရေခဲ",
+        "quantity": "ခွက်ပြည့် (Video တွင် g မဖော်ပြ)"
+      },
+      {
+        "name": "စစ်ပြီး Thai Green Tea အရည်",
+        "quantity": "70 ml"
+      }
+    ],
+    "ingredients": [
+      {
+        "name": "ပျားရည်",
+        "quantity": "30 ml"
+      },
+      {
+        "name": "ရိုးရိုးရေ",
+        "quantity": "100 ml"
+      },
+      {
+        "name": "ရေခဲ",
+        "quantity": "ခွက်ပြည့် (Video တွင် g မဖော်ပြ)"
+      },
+      {
+        "name": "စစ်ပြီး Thai Green Tea အရည်",
+        "quantity": "70 ml"
+      }
+    ],
+    "kind": "drink",
+    "adjustments": [],
+    "warnings": [
+      "လက်ဖက်နှပ်ချိန်၊ အပူချိန်ကို Video တွင် မဖော်ပြပါ။"
+    ],
+    "steps": [
+      {
+        "phase": "prepare",
+        "vessel": "လက်ဖက်နှပ်ခွက်နှင့် စစ်ဇကာ",
+        "text": "Thai Green Tea အမှုန့် 10 g ကို ရေနွေး 100 ml ဖြင့် နှပ်၍ စစ်ပြီး လက်ဖက်ရည်အရည် 70 ml ကို တိုင်းထားပါ။ Video တွင် နှပ်ချိန်နှင့် ရေအပူချိန် မဖော်ပြပါ။ အောက်က ပါဝင်ပစ္စည်းစာရင်းရှိ လက်ဖက်ရည်အရည်သည် ယခုထုတ်ထားသည့်အရည် ဖြစ်သည်။",
+        "uses": [],
+        "take": []
+      },
+      {
+        "phase": "cup",
+        "vessel": "20 oz သောက်ခွက်",
+        "text": "ပျားရည် 30 ml ကို အရင်ဆုံး ခွက်အောက်ခြေထဲထည့်ပါ။",
+        "uses": [
+          {
+            "index": 0,
+            "part": 1
+          }
+        ],
+        "take": [],
+        "cupNumber": 1
+      },
+      {
+        "phase": "cup",
+        "vessel": "20 oz သောက်ခွက်",
+        "text": "ရိုးရိုးရေ 100 ml ထည့်ပါ။",
+        "uses": [
+          {
+            "index": 1,
+            "part": 1
+          }
+        ],
+        "take": [],
+        "cupNumber": 2
+      },
+      {
+        "phase": "serve",
+        "vessel": "20 oz သောက်ခွက်",
+        "text": "ပျားရည်နှင့် ရေ ရောသွားအောင် မွှေပါ။",
+        "uses": [],
+        "take": []
+      },
+      {
+        "phase": "cup",
+        "vessel": "20 oz သောက်ခွက်",
+        "text": "ယခုမှ ရေခဲကို ခွက်ပြည့်အောင် ဖြည့်ပါ။",
+        "uses": [
+          {
+            "index": 2,
+            "part": 1
+          }
+        ],
+        "take": [],
+        "cupNumber": 3
+      },
+      {
+        "phase": "cup",
+        "vessel": "20 oz သောက်ခွက်",
+        "text": "Thai Green Tea အရည် 70 ml ကို ရေခဲပေါ် နောက်ဆုံးမှ ဖြည်းဖြည်း လောင်းထည့်ပါ။",
+        "uses": [
+          {
+            "index": 3,
+            "part": 1
+          }
+        ],
+        "take": [],
+        "cupNumber": 4
+      }
+    ],
+    "cupOrder": [
+      "ပျားရည် 30 ml ကို အရင်ဆုံး ခွက်အောက်ခြေထဲထည့်ပါ။",
+      "ရိုးရိုးရေ 100 ml ထည့်ပါ။",
+      "ယခုမှ ရေခဲကို ခွက်ပြည့်အောင် ဖြည့်ပါ။",
+      "Thai Green Tea အရည် 70 ml ကို ရေခဲပေါ် နောက်ဆုံးမှ ဖြည်းဖြည်း လောင်းထည့်ပါ။"
+    ]
+  },
+  "video-tea-15a": {
+    "name": "Thai Green Tea 16 oz · Video Part 15a",
+    "sourceIngredients": [
+      {
+        "name": "သကြားရည် (Cane syrup)",
+        "quantity": "30 ml"
+      },
+      {
+        "name": "စစ်ပြီး Thai Green Tea အရည်",
+        "quantity": "120 ml"
+      },
+      {
+        "name": "ရိုးရိုးရေ",
+        "quantity": "30 ml"
+      },
+      {
+        "name": "ရေခဲ",
+        "quantity": "ခွက်ပြည့် (Video တွင် g မဖော်ပြ)"
+      }
+    ],
+    "ingredients": [
+      {
+        "name": "သကြားရည် (Cane syrup)",
+        "quantity": "30 ml"
+      },
+      {
+        "name": "စစ်ပြီး Thai Green Tea အရည်",
+        "quantity": "120 ml"
+      },
+      {
+        "name": "ရိုးရိုးရေ",
+        "quantity": "30 ml"
+      },
+      {
+        "name": "ရေခဲ",
+        "quantity": "ခွက်ပြည့် (Video တွင် g မဖော်ပြ)"
+      }
+    ],
+    "kind": "drink",
+    "adjustments": [],
+    "warnings": [
+      "Video တွင် နှစ်မျိုးယှဉ်ဖျော်ထားခြင်းဖြစ်ပြီး ပမာဏများကို တစ်ခွက်စာစီ ဖော်ပြထားသည်။ နှပ်ချိန်/အပူချိန် မဖော်ပြပါ။"
+    ],
+    "steps": [
+      {
+        "phase": "prepare",
+        "vessel": "လက်ဖက်နှပ်ခွက်နှင့် စစ်ဇကာ",
+        "text": "Thai Green Tea အမှုန့် 10 g ကို ရေနွေး 150 ml ဖြင့် နှပ်၍ စစ်ပြီး လက်ဖက်ရည်အရည် 120 ml ကို တိုင်းထားပါ။ Video တွင် နှပ်ချိန်နှင့် ရေအပူချိန် မဖော်ပြပါ။ အောက်က ပါဝင်ပစ္စည်းစာရင်းရှိ လက်ဖက်ရည်အရည်သည် ယခုထုတ်ထားသည့်အရည် ဖြစ်သည်။",
+        "uses": [],
+        "take": []
+      },
+      {
+        "phase": "cup",
+        "vessel": "16 oz သောက်ခွက်",
+        "text": "သကြားရည် 30 ml ထည့်ပါ။",
+        "uses": [
+          {
+            "index": 0,
+            "part": 1
+          }
+        ],
+        "take": [],
+        "cupNumber": 1
+      },
+      {
+        "phase": "cup",
+        "vessel": "16 oz သောက်ခွက်",
+        "text": "Thai Green Tea အရည် 120 ml ကို ခွက်ထဲ လောင်းထည့်ပါ။",
+        "uses": [
+          {
+            "index": 1,
+            "part": 1
+          }
+        ],
+        "take": [],
+        "cupNumber": 2
+      },
+      {
+        "phase": "cup",
+        "vessel": "16 oz သောက်ခွက်",
+        "text": "ရိုးရိုးရေ 30 ml ထည့်ပါ။",
+        "uses": [
+          {
+            "index": 2,
+            "part": 1
+          }
+        ],
+        "take": [],
+        "cupNumber": 3
+      },
+      {
+        "phase": "serve",
+        "vessel": "16 oz သောက်ခွက်",
+        "text": "ဇွန်းဖြင့် အောက်ခြေက အရည်များ ရောသွားအောင် မွှေပါ။",
+        "uses": [],
+        "take": []
+      },
+      {
+        "phase": "cup",
+        "vessel": "16 oz သောက်ခွက်",
+        "text": "ယခုမှ ရေခဲကို ခွက်ပြည့်အောင် ဖြည့်ပါ။",
+        "uses": [
+          {
+            "index": 3,
+            "part": 1
+          }
+        ],
+        "take": [],
+        "cupNumber": 4
+      }
+    ],
+    "cupOrder": [
+      "သကြားရည် 30 ml ထည့်ပါ။",
+      "Thai Green Tea အရည် 120 ml ကို ခွက်ထဲ လောင်းထည့်ပါ။",
+      "ရိုးရိုးရေ 30 ml ထည့်ပါ။",
+      "ယခုမှ ရေခဲကို ခွက်ပြည့်အောင် ဖြည့်ပါ။"
+    ]
+  },
+  "video-tea-15b": {
+    "name": "Thai Black Tea 16 oz · Video Part 15b",
+    "sourceIngredients": [
+      {
+        "name": "သကြားရည် (Cane syrup)",
+        "quantity": "30 ml"
+      },
+      {
+        "name": "စစ်ပြီး Thai Tea အရည်",
+        "quantity": "120 ml"
+      },
+      {
+        "name": "ရိုးရိုးရေ",
+        "quantity": "30 ml"
+      },
+      {
+        "name": "ရေခဲ",
+        "quantity": "ခွက်ပြည့် (Video တွင် g မဖော်ပြ)"
+      }
+    ],
+    "ingredients": [
+      {
+        "name": "သကြားရည် (Cane syrup)",
+        "quantity": "30 ml"
+      },
+      {
+        "name": "စစ်ပြီး Thai Tea အရည်",
+        "quantity": "120 ml"
+      },
+      {
+        "name": "ရိုးရိုးရေ",
+        "quantity": "30 ml"
+      },
+      {
+        "name": "ရေခဲ",
+        "quantity": "ခွက်ပြည့် (Video တွင် g မဖော်ပြ)"
+      }
+    ],
+    "kind": "drink",
+    "adjustments": [],
+    "warnings": [
+      "Video တွင် နှစ်မျိုးယှဉ်ဖျော်ထားခြင်းဖြစ်ပြီး ပမာဏများကို တစ်ခွက်စာစီ ဖော်ပြထားသည်။ နှပ်ချိန်/အပူချိန် မဖော်ပြပါ။"
+    ],
+    "steps": [
+      {
+        "phase": "prepare",
+        "vessel": "လက်ဖက်နှပ်ခွက်နှင့် စစ်ဇကာ",
+        "text": "Thai Tea အမှုန့် 10 g ကို ရေနွေး 150 ml ဖြင့် နှပ်၍ စစ်ပြီး လက်ဖက်ရည်အရည် 120 ml ကို တိုင်းထားပါ။ Video တွင် နှပ်ချိန်နှင့် ရေအပူချိန် မဖော်ပြပါ။ အောက်က ပါဝင်ပစ္စည်းစာရင်းရှိ လက်ဖက်ရည်အရည်သည် ယခုထုတ်ထားသည့်အရည် ဖြစ်သည်။",
+        "uses": [],
+        "take": []
+      },
+      {
+        "phase": "cup",
+        "vessel": "16 oz သောက်ခွက်",
+        "text": "သကြားရည် 30 ml ထည့်ပါ။",
+        "uses": [
+          {
+            "index": 0,
+            "part": 1
+          }
+        ],
+        "take": [],
+        "cupNumber": 1
+      },
+      {
+        "phase": "cup",
+        "vessel": "16 oz သောက်ခွက်",
+        "text": "Thai Tea အရည် 120 ml ကို ခွက်ထဲ လောင်းထည့်ပါ။",
+        "uses": [
+          {
+            "index": 1,
+            "part": 1
+          }
+        ],
+        "take": [],
+        "cupNumber": 2
+      },
+      {
+        "phase": "cup",
+        "vessel": "16 oz သောက်ခွက်",
+        "text": "ရိုးရိုးရေ 30 ml ထည့်ပါ။",
+        "uses": [
+          {
+            "index": 2,
+            "part": 1
+          }
+        ],
+        "take": [],
+        "cupNumber": 3
+      },
+      {
+        "phase": "serve",
+        "vessel": "16 oz သောက်ခွက်",
+        "text": "ဇွန်းဖြင့် အောက်ခြေက အရည်များ ရောသွားအောင် မွှေပါ။",
+        "uses": [],
+        "take": []
+      },
+      {
+        "phase": "cup",
+        "vessel": "16 oz သောက်ခွက်",
+        "text": "ယခုမှ ရေခဲကို ခွက်ပြည့်အောင် ဖြည့်ပါ။",
+        "uses": [
+          {
+            "index": 3,
+            "part": 1
+          }
+        ],
+        "take": [],
+        "cupNumber": 4
+      }
+    ],
+    "cupOrder": [
+      "သကြားရည် 30 ml ထည့်ပါ။",
+      "Thai Tea အရည် 120 ml ကို ခွက်ထဲ လောင်းထည့်ပါ။",
+      "ရိုးရိုးရေ 30 ml ထည့်ပါ။",
+      "ယခုမှ ရေခဲကို ခွက်ပြည့်အောင် ဖြည့်ပါ။"
+    ]
+  },
+  "video-tea-16": {
+    "name": "Mint Soda · Video Part 16",
+    "sourceIngredients": [
+      {
+        "name": "LongBeach Mint Syrup",
+        "quantity": "50 ml"
+      },
+      {
+        "name": "ဆိုဒါရည် — အောက်ခံရောရန်",
+        "quantity": "30 ml"
+      },
+      {
+        "name": "ရေခဲ",
+        "quantity": "ခွက်ပြည့် (Video တွင် g မဖော်ပြ)"
+      },
+      {
+        "name": "ဆိုဒါရည် — ရေခဲပေါ်ဖြည့်ရန်",
+        "quantity": "120 ml"
+      }
+    ],
+    "ingredients": [
+      {
+        "name": "LongBeach Mint Syrup",
+        "quantity": "50 ml"
+      },
+      {
+        "name": "ဆိုဒါရည် — အောက်ခံရောရန်",
+        "quantity": "30 ml"
+      },
+      {
+        "name": "ရေခဲ",
+        "quantity": "ခွက်ပြည့် (Video တွင် g မဖော်ပြ)"
+      },
+      {
+        "name": "ဆိုဒါရည် — ရေခဲပေါ်ဖြည့်ရန်",
+        "quantity": "120 ml"
+      }
+    ],
+    "kind": "drink",
+    "adjustments": [],
+    "warnings": [],
+    "steps": [
+      {
+        "phase": "cup",
+        "vessel": "20 oz သောက်ခွက်",
+        "text": "LongBeach Mint Syrup 50 ml ကို အရင်ထည့်ပါ။",
+        "uses": [
+          {
+            "index": 0,
+            "part": 1
+          }
+        ],
+        "take": [],
+        "cupNumber": 1
+      },
+      {
+        "phase": "cup",
+        "vessel": "20 oz သောက်ခွက်",
+        "text": "ဆိုဒါရည် 30 ml ကို ခွက်အောက်ခံထဲ လောင်းထည့်ပါ။",
+        "uses": [
+          {
+            "index": 1,
+            "part": 1
+          }
+        ],
+        "take": [],
+        "cupNumber": 2
+      },
+      {
+        "phase": "serve",
+        "vessel": "20 oz သောက်ခွက်",
+        "text": "ဇွန်းဖြင့် အောက်ခြေက အရည်များ ရောသွားအောင် မွှေပါ။",
+        "uses": [],
+        "take": []
+      },
+      {
+        "phase": "cup",
+        "vessel": "20 oz သောက်ခွက်",
+        "text": "ယခုမှ ရေခဲကို ခွက်ပြည့်အောင် ဖြည့်ပါ။",
+        "uses": [
+          {
+            "index": 2,
+            "part": 1
+          }
+        ],
+        "take": [],
+        "cupNumber": 3
+      },
+      {
+        "phase": "cup",
+        "vessel": "20 oz သောက်ခွက်",
+        "text": "ဆိုဒါရည် 120 ml ကို ရေခဲပေါ်မှ ဖြည်းဖြည်း လောင်းထည့်ပါ။",
+        "uses": [
+          {
+            "index": 3,
+            "part": 1
+          }
+        ],
+        "take": [],
+        "cupNumber": 4
+      }
+    ],
+    "cupOrder": [
+      "LongBeach Mint Syrup 50 ml ကို အရင်ထည့်ပါ။",
+      "ဆိုဒါရည် 30 ml ကို ခွက်အောက်ခံထဲ လောင်းထည့်ပါ။",
+      "ယခုမှ ရေခဲကို ခွက်ပြည့်အောင် ဖြည့်ပါ။",
+      "ဆိုဒါရည် 120 ml ကို ရေခဲပေါ်မှ ဖြည်းဖြည်း လောင်းထည့်ပါ။"
+    ]
+  },
+  "video-tea-17": {
+    "name": "Thai Black Tea Honey · Video Part 17",
+    "sourceIngredients": [
+      {
+        "name": "ပျားရည်",
+        "quantity": "30 ml"
+      },
+      {
+        "name": "ရိုးရိုးရေ",
+        "quantity": "100 ml"
+      },
+      {
+        "name": "ရေခဲ",
+        "quantity": "ခွက်ပြည့် (Video တွင် g မဖော်ပြ)"
+      },
+      {
+        "name": "စစ်ပြီး Thai Tea အရည်",
+        "quantity": "70 ml"
+      }
+    ],
+    "ingredients": [
+      {
+        "name": "ပျားရည်",
+        "quantity": "30 ml"
+      },
+      {
+        "name": "ရိုးရိုးရေ",
+        "quantity": "100 ml"
+      },
+      {
+        "name": "ရေခဲ",
+        "quantity": "ခွက်ပြည့် (Video တွင် g မဖော်ပြ)"
+      },
+      {
+        "name": "စစ်ပြီး Thai Tea အရည်",
+        "quantity": "70 ml"
+      }
+    ],
+    "kind": "drink",
+    "adjustments": [],
+    "warnings": [
+      "Thai Tea အမှုန့် 10 g + ရေနွေး 100 ml ဖြင့် ထုတ်ပြီး စစ်ထားသော လက်ဖက်ရည်အရည် 70 ml ကို အပေါ်မှလောင်းသည်။ လက်ဖက်နှပ်ချိန်/အပူချိန် မဖော်ပြပါ။"
+    ],
+    "steps": [
+      {
+        "phase": "prepare",
+        "vessel": "လက်ဖက်နှပ်ခွက်နှင့် စစ်ဇကာ",
+        "text": "Thai Tea အမှုန့် 10 g ကို ရေနွေး 100 ml ဖြင့် နှပ်၍ စစ်ပြီး လက်ဖက်ရည်အရည် 70 ml ကို တိုင်းထားပါ။ Video တွင် နှပ်ချိန်နှင့် ရေအပူချိန် မဖော်ပြပါ။ အောက်က ပါဝင်ပစ္စည်းစာရင်းရှိ လက်ဖက်ရည်အရည်သည် ယခုထုတ်ထားသည့်အရည် ဖြစ်သည်။",
+        "uses": [],
+        "take": []
+      },
+      {
+        "phase": "cup",
+        "vessel": "20 oz သောက်ခွက်",
+        "text": "ပျားရည် 30 ml ကို အရင်ဆုံး ခွက်အောက်ခြေထဲထည့်ပါ။",
+        "uses": [
+          {
+            "index": 0,
+            "part": 1
+          }
+        ],
+        "take": [],
+        "cupNumber": 1
+      },
+      {
+        "phase": "cup",
+        "vessel": "20 oz သောက်ခွက်",
+        "text": "ရိုးရိုးရေ 100 ml ထည့်ပါ။",
+        "uses": [
+          {
+            "index": 1,
+            "part": 1
+          }
+        ],
+        "take": [],
+        "cupNumber": 2
+      },
+      {
+        "phase": "serve",
+        "vessel": "20 oz သောက်ခွက်",
+        "text": "ပျားရည်နှင့် ရေကို ရောမွှေပါ။",
+        "uses": [],
+        "take": []
+      },
+      {
+        "phase": "cup",
+        "vessel": "20 oz သောက်ခွက်",
+        "text": "ယခုမှ ရေခဲကို ခွက်ပြည့်အောင် ဖြည့်ပါ။",
+        "uses": [
+          {
+            "index": 2,
+            "part": 1
+          }
+        ],
+        "take": [],
+        "cupNumber": 3
+      },
+      {
+        "phase": "cup",
+        "vessel": "20 oz သောက်ခွက်",
+        "text": "Thai Tea အရည် 70 ml ကို ရေခဲပေါ် နောက်ဆုံးမှ ဖြည်းဖြည်း လောင်းထည့်ပါ။",
+        "uses": [
+          {
+            "index": 3,
+            "part": 1
+          }
+        ],
+        "take": [],
+        "cupNumber": 4
+      }
+    ],
+    "cupOrder": [
+      "ပျားရည် 30 ml ကို အရင်ဆုံး ခွက်အောက်ခြေထဲထည့်ပါ။",
+      "ရိုးရိုးရေ 100 ml ထည့်ပါ။",
+      "ယခုမှ ရေခဲကို ခွက်ပြည့်အောင် ဖြည့်ပါ။",
+      "Thai Tea အရည် 70 ml ကို ရေခဲပေါ် နောက်ဆုံးမှ ဖြည်းဖြည်း လောင်းထည့်ပါ။"
+    ]
+  },
+  "video-tea-18": {
+    "name": "Thai Red and Plum Soda · Video Part 18",
+    "sourceIngredients": [
+      {
+        "name": "ဆားစိမ်ဇီးသီး (Pickled plum)",
+        "quantity": "3 လုံး"
+      },
+      {
+        "name": "ဇီးသီးစိမ်ရည်",
+        "quantity": "20 ml"
+      },
+      {
+        "name": "Thai Red Syrup (Sala)",
+        "quantity": "50 ml"
+      },
+      {
+        "name": "ရေခဲ",
+        "quantity": "ခွက်ပြည့် (Video တွင် g မဖော်ပြ)"
+      },
+      {
+        "name": "ဆိုဒါရည် — ရေခဲပေါ်ဖြည့်ရန်",
+        "quantity": "130–140 ml"
+      }
+    ],
+    "ingredients": [
+      {
+        "name": "ဆားစိမ်ဇီးသီး (Pickled plum)",
+        "quantity": "3 လုံး"
+      },
+      {
+        "name": "ဇီးသီးစိမ်ရည်",
+        "quantity": "20 ml"
+      },
+      {
+        "name": "Thai Red Syrup (Sala)",
+        "quantity": "50 ml"
+      },
+      {
+        "name": "ရေခဲ",
+        "quantity": "ခွက်ပြည့် (Video တွင် g မဖော်ပြ)"
+      },
+      {
+        "name": "ဆိုဒါရည် — ရေခဲပေါ်ဖြည့်ရန်",
+        "quantity": "130–140 ml"
+      }
+    ],
+    "kind": "drink",
+    "adjustments": [],
+    "warnings": [],
+    "steps": [
+      {
+        "phase": "cup",
+        "vessel": "20 oz သောက်ခွက်",
+        "text": "ဆားစိမ်ဇီးသီး 3 လုံးကို ခွက်အောက်ခြေထဲ အရင်ထည့်ပါ။",
+        "uses": [
+          {
+            "index": 0,
+            "part": 1
+          }
+        ],
+        "take": [],
+        "cupNumber": 1
+      },
+      {
+        "phase": "cup",
+        "vessel": "20 oz သောက်ခွက်",
+        "text": "ဇီးသီးစိမ်ရည် 20 ml ထည့်ပါ။",
+        "uses": [
+          {
+            "index": 1,
+            "part": 1
+          }
+        ],
+        "take": [],
+        "cupNumber": 2
+      },
+      {
+        "phase": "serve",
+        "vessel": "20 oz သောက်ခွက်",
+        "text": "ဇွန်းဖြင့် ဇီးသီးအသားကို ခွက်အောက်ခြေမှာ ဖိချေပါ။",
+        "uses": [],
+        "take": []
+      },
+      {
+        "phase": "cup",
+        "vessel": "20 oz သောက်ခွက်",
+        "text": "Sala အနံ့ Thai Red Syrup 50 ml ထည့်ပါ။",
+        "uses": [
+          {
+            "index": 2,
+            "part": 1
+          }
+        ],
+        "take": [],
+        "cupNumber": 3
+      },
+      {
+        "phase": "serve",
+        "vessel": "20 oz သောက်ခွက်",
+        "text": "ဇွန်းဖြင့် အောက်ခြေက အရည်များ ရောသွားအောင် မွှေပါ။",
+        "uses": [],
+        "take": []
+      },
+      {
+        "phase": "cup",
+        "vessel": "20 oz သောက်ခွက်",
+        "text": "ယခုမှ ရေခဲကို ခွက်ပြည့်အောင် ဖြည့်ပါ။",
+        "uses": [
+          {
+            "index": 3,
+            "part": 1
+          }
+        ],
+        "take": [],
+        "cupNumber": 4
+      },
+      {
+        "phase": "cup",
+        "vessel": "20 oz သောက်ခွက်",
+        "text": "ဆိုဒါရည် 130–140 ml ကို ရေခဲပေါ်မှ ဖြည်းဖြည်း လောင်းထည့်ပါ။",
+        "uses": [
+          {
+            "index": 4,
+            "part": 1
+          }
+        ],
+        "take": [],
+        "cupNumber": 5
+      }
+    ],
+    "cupOrder": [
+      "ဆားစိမ်ဇီးသီး 3 လုံးကို ခွက်အောက်ခြေထဲ အရင်ထည့်ပါ။",
+      "ဇီးသီးစိမ်ရည် 20 ml ထည့်ပါ။",
+      "Sala အနံ့ Thai Red Syrup 50 ml ထည့်ပါ။",
+      "ယခုမှ ရေခဲကို ခွက်ပြည့်အောင် ဖြည့်ပါ။",
+      "ဆိုဒါရည် 130–140 ml ကို ရေခဲပေါ်မှ ဖြည်းဖြည်း လောင်းထည့်ပါ။"
+    ]
+  },
+  "video-tea-19": {
+    "name": "Yuzu Soda · Video Part 19",
+    "sourceIngredients": [
+      {
+        "name": "Nature Taste Yuzu Fruit Based Preparation",
+        "quantity": "50 ml"
+      },
+      {
+        "name": "ဆိုဒါရည် — အောက်ခံရောရန်",
+        "quantity": "30 ml"
+      },
+      {
+        "name": "ရေခဲ",
+        "quantity": "ခွက်ပြည့် (Video တွင် g မဖော်ပြ)"
+      },
+      {
+        "name": "ဆိုဒါရည် — ရေခဲပေါ်ဖြည့်ရန်",
+        "quantity": "120 ml"
+      }
+    ],
+    "ingredients": [
+      {
+        "name": "Nature Taste Yuzu Fruit Based Preparation",
+        "quantity": "50 ml"
+      },
+      {
+        "name": "ဆိုဒါရည် — အောက်ခံရောရန်",
+        "quantity": "30 ml"
+      },
+      {
+        "name": "ရေခဲ",
+        "quantity": "ခွက်ပြည့် (Video တွင် g မဖော်ပြ)"
+      },
+      {
+        "name": "ဆိုဒါရည် — ရေခဲပေါ်ဖြည့်ရန်",
+        "quantity": "120 ml"
+      }
+    ],
+    "kind": "drink",
+    "adjustments": [],
+    "warnings": [],
+    "steps": [
+      {
+        "phase": "cup",
+        "vessel": "20 oz သောက်ခွက်",
+        "text": "Yuzu အသီးအနှစ် 50 ml ကို ခွက်အောက်ခြေထဲ ထည့်ပါ။",
+        "uses": [
+          {
+            "index": 0,
+            "part": 1
+          }
+        ],
+        "take": [],
+        "cupNumber": 1
+      },
+      {
+        "phase": "cup",
+        "vessel": "20 oz သောက်ခွက်",
+        "text": "ဆိုဒါရည် 30 ml ကို ခွက်အောက်ခံထဲ လောင်းထည့်ပါ။",
+        "uses": [
+          {
+            "index": 1,
+            "part": 1
+          }
+        ],
+        "take": [],
+        "cupNumber": 2
+      },
+      {
+        "phase": "serve",
+        "vessel": "20 oz သောက်ခွက်",
+        "text": "ဇွန်းဖြင့် အောက်ခြေက အရည်များ ရောသွားအောင် မွှေပါ။",
+        "uses": [],
+        "take": []
+      },
+      {
+        "phase": "cup",
+        "vessel": "20 oz သောက်ခွက်",
+        "text": "ယခုမှ ရေခဲကို ခွက်ပြည့်အောင် ဖြည့်ပါ။",
+        "uses": [
+          {
+            "index": 2,
+            "part": 1
+          }
+        ],
+        "take": [],
+        "cupNumber": 3
+      },
+      {
+        "phase": "cup",
+        "vessel": "20 oz သောက်ခွက်",
+        "text": "ဆိုဒါရည် 120 ml ကို ရေခဲပေါ်မှ ဖြည်းဖြည်း လောင်းထည့်ပါ။",
+        "uses": [
+          {
+            "index": 3,
+            "part": 1
+          }
+        ],
+        "take": [],
+        "cupNumber": 4
+      }
+    ],
+    "cupOrder": [
+      "Yuzu အသီးအနှစ် 50 ml ကို ခွက်အောက်ခြေထဲ ထည့်ပါ။",
+      "ဆိုဒါရည် 30 ml ကို ခွက်အောက်ခံထဲ လောင်းထည့်ပါ။",
+      "ယခုမှ ရေခဲကို ခွက်ပြည့်အောင် ဖြည့်ပါ။",
+      "ဆိုဒါရည် 120 ml ကို ရေခဲပေါ်မှ ဖြည်းဖြည်း လောင်းထည့်ပါ။"
+    ]
+  },
+  "video-tea-20": {
+    "name": "Chrysanthemum Blue Tea · Video Part 20",
+    "sourceIngredients": [
+      {
+        "name": "အချိုအသင့်ပါ ဂန္ဓမာအမှုန့် (Chrysanthemum powder)",
+        "quantity": "20 g"
+      },
+      {
+        "name": "ရိုးရိုးရေ",
+        "quantity": "180 ml"
+      },
+      {
+        "name": "ရေခဲ",
+        "quantity": "ခွက်ပြည့် (Video တွင် g မဖော်ပြ)"
+      },
+      {
+        "name": "စစ်ပြီး ပဲပန်းပြာရည် (Butterfly pea tea)",
+        "quantity": "30 ml"
+      }
+    ],
+    "ingredients": [
+      {
+        "name": "အချိုအသင့်ပါ ဂန္ဓမာအမှုန့် (Chrysanthemum powder)",
+        "quantity": "20 g"
+      },
+      {
+        "name": "ရိုးရိုးရေ",
+        "quantity": "180 ml"
+      },
+      {
+        "name": "ရေခဲ",
+        "quantity": "ခွက်ပြည့် (Video တွင် g မဖော်ပြ)"
+      },
+      {
+        "name": "စစ်ပြီး ပဲပန်းပြာရည် (Butterfly pea tea)",
+        "quantity": "30 ml"
+      }
+    ],
+    "kind": "drink",
+    "adjustments": [],
+    "warnings": [],
+    "steps": [
+      {
+        "phase": "cup",
+        "vessel": "20 oz သောက်ခွက်",
+        "text": "Video မှာသုံးထားသော ဂန္ဓမာဖျော်မှုန့် 20 g ကို ခွက်အလွတ်ထဲ အရင်ထည့်ပါ။",
+        "uses": [
+          {
+            "index": 0,
+            "part": 1
+          }
+        ],
+        "take": [],
+        "cupNumber": 1
+      },
+      {
+        "phase": "cup",
+        "vessel": "20 oz သောက်ခွက်",
+        "text": "ရိုးရိုးရေ 180 ml ထည့်ပါ။",
+        "uses": [
+          {
+            "index": 1,
+            "part": 1
+          }
+        ],
+        "take": [],
+        "cupNumber": 2
+      },
+      {
+        "phase": "serve",
+        "vessel": "20 oz သောက်ခွက်",
+        "text": "အမှုန့်ပျော်သွားအောင် မွှေပါ။",
+        "uses": [],
+        "take": []
+      },
+      {
+        "phase": "cup",
+        "vessel": "20 oz သောက်ခွက်",
+        "text": "ယခုမှ ရေခဲကို ခွက်ပြည့်အောင် ဖြည့်ပါ။",
+        "uses": [
+          {
+            "index": 2,
+            "part": 1
+          }
+        ],
+        "take": [],
+        "cupNumber": 3
+      },
+      {
+        "phase": "cup",
+        "vessel": "20 oz သောက်ခွက်",
+        "text": "နောက်ဆုံးမှ ပဲပန်းပြာရည် 30 ml ကို ရေခဲပေါ် ဖြည်းဖြည်းလောင်းပြီး အပေါ်အလွှာပြာရောင်ပေါ်အောင်ထားပါ။",
+        "uses": [
+          {
+            "index": 3,
+            "part": 1
+          }
+        ],
+        "take": [],
+        "cupNumber": 4
+      }
+    ],
+    "cupOrder": [
+      "Video မှာသုံးထားသော ဂန္ဓမာဖျော်မှုန့် 20 g ကို ခွက်အလွတ်ထဲ အရင်ထည့်ပါ။",
+      "ရိုးရိုးရေ 180 ml ထည့်ပါ။",
+      "ယခုမှ ရေခဲကို ခွက်ပြည့်အောင် ဖြည့်ပါ။",
+      "နောက်ဆုံးမှ ပဲပန်းပြာရည် 30 ml ကို ရေခဲပေါ် ဖြည်းဖြည်းလောင်းပြီး အပေါ်အလွှာပြာရောင်ပေါ်အောင်ထားပါ။"
+    ]
   }
 }

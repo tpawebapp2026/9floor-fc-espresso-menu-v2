@@ -187,6 +187,8 @@ export function internationalRecipes(
       (!group ||
         (r.line === "cold" &&
           (group.categories.includes(r.categoryId) ||
+            (r.categoryId === "video-tea-refreshing" &&
+              group.id === (/Soda/.test(r.englishName) ? "soda" : "tea")) ||
             extraStyles[group.id]?.includes(r.id)))),
   );
 }

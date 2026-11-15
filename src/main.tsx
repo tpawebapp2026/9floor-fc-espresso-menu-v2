@@ -417,6 +417,17 @@ function App() {
           </div>
           {view === "menu" && (
             <>
+              <button
+                className="video-recipes-shortcut"
+                onClick={() => {
+                  setLine("cold");
+                  setCategory("video-tea-refreshing");
+                  setQuery("");
+                }}
+              >
+                ▶ Video Recipe · Part 01–20{" "}
+                <small>ဖျော်နည်း ၂၂ မျိုး · Video မူရင်းခွက်ပုံများ</small>
+              </button>
               <div className="line-tabs">
                 <button
                   className={line === "barista" ? "selected" : ""}

@@ -529,7 +529,7 @@ export default function Admin({
               </div>
               <h3>မူရင်းပမာဏနှင့် ကိုက်ညီသော ခွက်အရွယ်</h3>
               <div className="admin-toolbar">
-                {[8, 12, 16, 22].map((size) => (
+                {[8, 12, 16, 20, 22, 32].map((size) => (
                   <button
                     key={size}
                     aria-pressed={recipe.cupSizes.includes(size as any)}
