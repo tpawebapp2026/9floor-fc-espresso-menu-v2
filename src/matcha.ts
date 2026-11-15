@@ -8,6 +8,7 @@ export const matchaStyles = [
   { id: "taiwanese", country: "ထိုင်ဝမ်", flag: "🇹🇼", name: "ထိုင်ဝမ်စတိုင်" },
 ];
 export function isMatcha(recipe: Recipe) {
+  if (recipe.id === "video-series-matcha-8b") return false;
   return /matcha/i.test(recipe.englishName);
 }
 export function matchaStyle(recipe: Recipe) {

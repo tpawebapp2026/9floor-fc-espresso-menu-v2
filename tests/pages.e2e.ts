@@ -69,7 +69,7 @@ test("international cold menus expose six styles, existing country links and cor
     .locator(".world-lines")
     .getByRole("button", { name: /အအေးစုံ/ })
     .click();
-  await expect(page.locator(".recipe-card")).toHaveCount(165);
+  await expect(page.locator(".recipe-card")).toHaveCount(218);
   const styles = page.locator(".cold-style-grid button");
   await expect(styles).toHaveCount(7);
   for (let i = 1; i < 7; i++) {
@@ -233,9 +233,9 @@ test("Pages reader serves all menus under its repository path with a scoped mani
 }) => {
   await page.setViewportSize({ width: 390, height: 844 });
   await page.goto("./");
-  await expect(page.locator(".recipe-card")).toHaveCount(169);
+  await expect(page.locator(".recipe-card")).toHaveCount(191);
   await page.getByRole("button", { name: /အအေးစုံလိုင်း/ }).click();
-  await expect(page.locator(".recipe-card")).toHaveCount(165);
+  await expect(page.locator(".recipe-card")).toHaveCount(218);
   await expect(
     page.getByRole("button", { name: /စီမံခန့်ခွဲသူ ဝင်ရန်/ }),
   ).toHaveCount(0);
@@ -302,7 +302,7 @@ test.describe("mocked catalog refresh", () => {
     updated.seedVersion += 100;
     updated.recipes[0].englishName = "Pages updated recipe";
     await page.goto("./");
-    await expect(page.locator(".recipe-card")).toHaveCount(169);
+    await expect(page.locator(".recipe-card")).toHaveCount(191);
     await page.route("**/recipes.json?check=*", (r) =>
       r.fulfill({ json: updated }),
     );
@@ -329,10 +329,10 @@ test("Pages discovers a changed deployment manifest and activates the new scoped
     manifest = await readFile("dist/version.json", "utf8");
   try {
     await page.goto("./");
-    await expect(page.locator(".recipe-card")).toHaveCount(169);
+    await expect(page.locator(".recipe-card")).toHaveCount(191);
     await page.evaluate(() => navigator.serviceWorker.ready);
     await page.reload();
-    await expect(page.locator(".recipe-card")).toHaveCount(169);
+    await expect(page.locator(".recipe-card")).toHaveCount(191);
     await page.locator(".favorite").first().click();
     const version = "pages-test-" + Date.now();
     await writeFile(
@@ -365,7 +365,7 @@ test("all four preparation groups open the correct new recipes and preserve favo
 }) => {
   await page.setViewportSize({ width: 390, height: 844 });
   await page.goto("./");
-  await expect(page.locator(".recipe-card")).toHaveCount(169);
+  await expect(page.locator(".recipe-card")).toHaveCount(191);
   await page.locator(".favorite").first().click();
   await page
     .locator(".bottom-nav")
@@ -446,9 +446,9 @@ test("mobile Matcha discovery, country style filters and detailed related recipe
   await page.setViewportSize({ width: 390, height: 844 });
   await page.goto("./");
   await page.getByRole("searchbox").fill("Matcha");
-  await expect(page.locator(".recipe-card")).toHaveCount(15);
+  await expect(page.locator(".recipe-card")).toHaveCount(40);
   await page.getByRole("button", { name: /Matcha သီးသန့်ကြည့်ရန်/ }).click();
-  await expect(page.locator(".recipe-card")).toHaveCount(15);
+  await expect(page.locator(".recipe-card")).toHaveCount(39);
   await page
     .locator(".matcha-styles")
     .getByRole("button", { name: /ထိုင်း/ })
@@ -490,7 +490,9 @@ test("Album groups, exact crop images, recipes and favorites work on mobile and 
   await expect(
     page.getByRole("heading", { name: "9 FLOOR COFFEE — Menu Album" }),
   ).toBeVisible();
-  await expect.poll(() => page.locator(".recipe-card").count()).toBeGreaterThanOrEqual(55);
+  await expect
+    .poll(() => page.locator(".recipe-card").count())
+    .toBeGreaterThanOrEqual(55);
   const errors: string[] = [];
   page.on("pageerror", (e) => errors.push(e.message));
   const images = page.locator(".recipe-card img");
@@ -637,4 +639,54 @@ test("all recipes expose the exact vessel-specific assembly plan and retain it o
   await page
     .locator(".assembly-procedure")
     .screenshot({ path: "/tmp/9floor-cup-order-mobile.png" });
+});
+
+test("new uploaded series expose all 75 additions, exact variants, photos and offline detail on mobile", async ({
+  page,
+  context,
+}) => {
+  await page.setViewportSize({ width: 390, height: 844 });
+  await page.goto("./");
+  for (const [name, count] of [
+    [/Video Coffee · Part 01–21/, 22],
+    [/Video Berry Series · Part 01–16/, 17],
+    [/Video Two Tone · Part 01–14/, 16],
+    [/Video Matcha · Part 01–18/, 20],
+  ] as const) {
+    await page.getByRole("button", { name }).click();
+    await expect(page.locator(".recipe-card")).toHaveCount(count);
+    await expect(page.locator(".recipe-card img").first()).toHaveAttribute(
+      "src",
+      /video-series/,
+    );
+  }
+  await page.goto("./#/recipe/video-series-matcha-16");
+  await expect(page.locator(".detail-heading h1")).toContainText("50% Sweet");
+  await expect(
+    page.locator(".ingredient").filter({ hasText: "နို့ဆီ" }),
+  ).toContainText("15 ml");
+  await page.goto("./#/recipe/video-series-matcha-18");
+  await expect(page.locator(".detail-heading h1")).toContainText("Biscoff");
+  await expect(page.locator(".photo-credit")).toContainText("Matcha");
+  const photo = page.locator(".detail-photo img");
+  await expect
+    .poll(() =>
+      photo.evaluate((e: HTMLImageElement) => e.complete && e.naturalWidth > 0),
+    )
+    .toBe(true);
+  await page.evaluate(() => navigator.serviceWorker.ready);
+  await page.reload();
+  await context.setOffline(true);
+  await page.reload();
+  await expect(page.locator(".detail-heading h1")).toContainText("Biscoff");
+  await expect
+    .poll(() =>
+      photo.evaluate((e: HTMLImageElement) => e.complete && e.naturalWidth > 0),
+    )
+    .toBe(true);
+  expect(
+    await page.evaluate(
+      () => document.documentElement.scrollWidth <= innerWidth,
+    ),
+  ).toBe(true);
 });

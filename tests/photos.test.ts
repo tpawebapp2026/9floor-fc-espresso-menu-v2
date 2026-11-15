@@ -12,17 +12,26 @@ it("every existing recipe has a reviewed photo mapping and owner-uploaded images
   expect(Object.keys(photos.recipes).sort()).toEqual(
     seed.recipes
       .filter(
-        (r) => !r.id.startsWith("9f-poster-") && !r.id.startsWith("video-tea-"),
+        (r) =>
+          !r.id.startsWith("9f-poster-") &&
+          !r.id.startsWith("video-tea-") &&
+          !r.id.startsWith("video-series-"),
       )
       .map((r) => r.id)
       .sort(),
   );
   for (const r of seed.recipes.filter(
-    (r) => !r.id.startsWith("9f-poster-") && !r.id.startsWith("video-tea-"),
+    (r) =>
+      !r.id.startsWith("9f-poster-") &&
+      !r.id.startsWith("video-tea-") &&
+      !r.id.startsWith("video-series-"),
   ))
     expect(referencePhoto(r), r.id).not.toBeNull();
   for (const r of seed.recipes.filter(
-    (r) => /Matcha/.test(r.englishName) && !r.id.startsWith("9f-poster-"),
+    (r) =>
+      /Matcha/.test(r.englishName) &&
+      !r.id.startsWith("9f-poster-") &&
+      !r.id.startsWith("video-series-"),
   )) {
     const mapping = photos.recipes[r.id as keyof typeof photos.recipes];
     expect(mapping.photo, r.id).toBe(

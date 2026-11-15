@@ -4,10 +4,12 @@ import { asset } from "./platform";
 import { posterImageForName } from "./posterPhotos";
 import catalog from "./photos/catalog.json";
 import videoPhotos from "./videoTeaPhotos.json";
+import seriesPhotos from "./videoSeriesPhotos.json";
+const allVideoPhotos = { ...videoPhotos, ...seriesPhotos };
 export function videoPhotoFor(recipe: Recipe) {
   return recipe.image
     ? null
-    : videoPhotos[recipe.id as keyof typeof videoPhotos] || null;
+    : allVideoPhotos[recipe.id as keyof typeof allVideoPhotos] || null;
 }
 type Photo = (typeof catalog.photos)[keyof typeof catalog.photos];
 type Mapping = { photo: string; kind: string };
@@ -97,7 +99,7 @@ export function PhotoCredit({ recipe }: { recipe: Recipe }) {
     return (
       <aside className="photo-credit">
         <b>Video ထဲမှ ဖျော်ပြီးသော ခွက်ပုံအစစ်</b>
-        <p>Joonyu Coffee House · tea &amp; refreshing · Part {video.part}</p>
+        <p>{recipe.sourceTitle}</p>
         <p>
           Video အပိုင်း {video.range} · ပုံယူချိန် {video.frameTime}။ မူရင်း
           Video မှ ပုံကို ဖြတ်ယူထားသည်။

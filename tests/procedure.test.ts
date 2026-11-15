@@ -31,7 +31,8 @@ it("preserves every original 272 recipe record and adds eleven distinct unverifi
     (r) =>
       !(r.id in original) &&
       !r.id.startsWith("9f-poster-") &&
-      !r.id.startsWith("video-tea-"),
+      !r.id.startsWith("video-tea-") &&
+      !r.id.startsWith("video-series-"),
   );
   expect(added).toHaveLength(11);
   expect(
@@ -40,9 +41,9 @@ it("preserves every original 272 recipe record and adds eleven distinct unverifi
     ),
   ).toBe(true);
 });
-it("offers fifteen Matcha menus across six country styles", () => {
+it("offers thirty-nine Matcha menus across six country styles", () => {
   const matcha = catalog.recipes.filter(isMatcha);
-  expect(matcha).toHaveLength(15);
+  expect(matcha).toHaveLength(39);
   expect(new Set(matcha.map((r) => matchaStyle(r)?.id)).size).toBe(6);
 });
 it("provides substantive steps and valid unique related links for every recipe", () => {
