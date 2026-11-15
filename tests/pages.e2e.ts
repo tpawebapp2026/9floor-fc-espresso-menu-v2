@@ -235,7 +235,7 @@ test("Pages reader serves all menus under its repository path with a scoped mani
   await page.goto("./");
   await expect(page.locator(".recipe-card")).toHaveCount(169);
   await page.getByRole("button", { name: /အအေးစုံလိုင်း/ }).click();
-  await expect(page.locator(".recipe-card")).toHaveCount(143);
+  await expect(page.locator(".recipe-card")).toHaveCount(165);
   await expect(
     page.getByRole("button", { name: /စီမံခန့်ခွဲသူ ဝင်ရန်/ }),
   ).toHaveCount(0);
