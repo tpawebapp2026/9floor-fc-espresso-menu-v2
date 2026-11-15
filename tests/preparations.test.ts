@@ -50,7 +50,7 @@ it("adds exactly three unique metric trial recipes per requested group with the 
   ).toHaveLength(169);
   expect(
     parsed.recipes.filter((r) => !isPreparation(r) && r.line === "cold"),
-  ).toHaveLength(143);
+  ).toHaveLength(165);
   expect(CatalogSchema.parse(JSON.parse(JSON.stringify(parsed)))).toEqual(
     parsed,
   );

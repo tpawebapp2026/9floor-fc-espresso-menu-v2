@@ -3,6 +3,12 @@ import type { Recipe } from "./model";
 import { asset } from "./platform";
 import { posterImageForName } from "./posterPhotos";
 import catalog from "./photos/catalog.json";
+import videoPhotos from "./videoTeaPhotos.json";
+export function videoPhotoFor(recipe: Recipe) {
+  return recipe.image
+    ? null
+    : videoPhotos[recipe.id as keyof typeof videoPhotos] || null;
+}
 type Photo = (typeof catalog.photos)[keyof typeof catalog.photos];
 type Mapping = { photo: string; kind: string };
 export function referencePhoto(
@@ -21,10 +27,14 @@ export default function RecipePhoto({
   recipe: Recipe;
   detail?: boolean;
 }) {
-  const poster = posterImageForName(recipe.englishName);
-  const reference = poster ? null : referencePhoto(recipe);
+  const video = videoPhotoFor(recipe);
+  const poster = video ? null : posterImageForName(recipe.englishName);
+  const reference = video || poster ? null : referencePhoto(recipe);
   const source =
-    poster || recipe.image || (reference && asset(reference.photo.large.file));
+    (video && asset(video.file)) ||
+    recipe.image ||
+    poster ||
+    (reference && asset(reference.photo.large.file));
   const [failed, setFailed] = useState<string | null>(null);
   const label =
     reference?.kind === "ingredient" ? "ပါဝင်ပစ္စည်းပုံ" : "ကိုးကားဓာတ်ပုံ";
@@ -43,7 +53,9 @@ export default function RecipePhoto({
     <>
       <img
         src={source}
-        className={poster ? "poster-photo" : undefined}
+        className={
+          video ? "video-source-photo" : poster ? "poster-photo" : undefined
+        }
         srcSet={
           p && p.large.width > p.small.width
             ? `${asset(p.small.file)} ${p.small.width}w, ${asset(p.large.file)} ${p.large.width}w`
@@ -55,9 +67,11 @@ export default function RecipePhoto({
             : "(max-width: 650px) calc((100vw - 46px) / 2), (max-width: 900px) 30vw, 330px"
         }
         alt={
-          p
-            ? `${recipe.englishName} — ${label}: ${p.title.replace(/\.[^.]+$/, "")}`
-            : recipe.englishName
+          video
+            ? `${recipe.englishName} — Video မူရင်းပုံ၊ Part ${video.part}၊ ${video.frameTime}`
+            : p
+              ? `${recipe.englishName} — ${label}: ${p.title.replace(/\.[^.]+$/, "")}`
+              : recipe.englishName
         }
         loading={detail ? "eager" : "lazy"}
         decoding="async"
@@ -68,11 +82,28 @@ export default function RecipePhoto({
       {poster && (
         <span className="reference-photo-label">Menu Album · နမူနာပုံ</span>
       )}
+      {video && (
+        <span className="reference-photo-label">
+          Video မူရင်းပုံ · Part {video.part}
+        </span>
+      )}
       {reference && <span className="reference-photo-label">{label}</span>}
     </>
   );
 }
 export function PhotoCredit({ recipe }: { recipe: Recipe }) {
+  const video = videoPhotoFor(recipe);
+  if (video)
+    return (
+      <aside className="photo-credit">
+        <b>Video ထဲမှ ဖျော်ပြီးသော ခွက်ပုံအစစ်</b>
+        <p>Joonyu Coffee House · tea &amp; refreshing · Part {video.part}</p>
+        <p>
+          Video အပိုင်း {video.range} · ပုံယူချိန် {video.frameTime}။ မူရင်း
+          Video မှ ပုံကို ဖြတ်ယူထားသည်။
+        </p>
+      </aside>
+    );
   if (posterImageForName(recipe.englishName))
     return (
       <aside className="photo-credit">

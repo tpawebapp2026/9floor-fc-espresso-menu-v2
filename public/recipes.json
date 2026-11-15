@@ -165,6 +165,10 @@
     {
       "id": "poster-hot",
       "name": "9 FLOOR Hot Drinks — အပူ"
+    },
+    {
+      "id": "video-tea-refreshing",
+      "name": "Video Recipes · Tea & Refreshing · Part 01–20"
     }
   ],
   "recipes": [
@@ -24315,7 +24319,1728 @@
       "version": 2,
       "updatedAt": null,
       "verification": "source-unverified"
+    },
+    {
+      "id": "video-tea-01",
+      "menuNumber": "VDO-01",
+      "sourceTitle": "Joonyu Coffee House · tea & refreshing · Part 1",
+      "englishName": "Red Lime Soda · Video Part 01",
+      "burmeseName": "သံပုရာ အနီဆိုဒါ",
+      "categoryId": "video-tea-refreshing",
+      "line": "cold",
+      "image": null,
+      "cupSizes": [
+        20
+      ],
+      "ingredients": [
+        {
+          "name": "သံပုရာရည် (Lime juice)",
+          "quantity": "30 ml"
+        },
+        {
+          "name": "Thai Red Syrup (Sala)",
+          "quantity": "40 ml"
+        },
+        {
+          "name": "ရေခဲ",
+          "quantity": "ခွက်ပြည့် (Video တွင် g မဖော်ပြ)"
+        },
+        {
+          "name": "ဆိုဒါရည် — ရေခဲပေါ်ဖြည့်ရန်",
+          "quantity": "150 ml"
+        },
+        {
+          "name": "သံပုရာအဝိုင်း — အလှဆင်",
+          "quantity": "Video တွင် အရေအတွက်မသတ်မှတ်"
+        }
+      ],
+      "steps": [
+        "သံပုရာရည် 30 ml ကို စစ်ဇကာမှတစ်ဆင့် ခွက်ထဲစစ်ထည့်ပါ။",
+        "Sala အနံ့ Thai Red Syrup 40 ml ထည့်ပါ။",
+        "ဇွန်းဖြင့် အောက်ခြေက အရည်များ ရောသွားအောင် မွှေပါ။",
+        "ယခုမှ ရေခဲကို ခွက်ပြည့်အောင် ဖြည့်ပါ။",
+        "ဆိုဒါရည် 150 ml ကို ရေခဲပေါ်မှ ဖြည်းဖြည်း လောင်းထည့်ပါ။",
+        "Video အတိုင်း သံပုရာအဝိုင်းတင်၍ အလှဆင်ပါ။"
+      ],
+      "notes": [
+        "မူရင်း — Joonyu Coffee House · tea & refreshing · Part 1 · Video 00:00–00:13 (ခန့်မှန်းအချိန်)။",
+        "ရေခဲကို Video အတိုင်း ခွက်ပြည့်ထည့်သည်။ ရေခဲ g မဖော်ပြသဖြင့် အလေးချိန်ကို မခန့်မှန်းထားပါ။",
+        "Video မှ ဖော်မြူလာကို ကူးရေးထားခြင်းဖြစ်ပြီး ကိုယ်တိုင်ဖျော်စမ်းအတည်ပြုထားခြင်း မရှိသေးပါ။"
+      ],
+      "espressoDose": null,
+      "espressoYield": null,
+      "iceQuantity": "ခွက်ပြည့် — g မဖော်ပြ",
+      "milkQuantity": null,
+      "waterQuantity": null,
+      "sweetnessLevel": "Video မူရင်းအချိုး",
+      "version": 1,
+      "updatedAt": "2026-11-15T00:00:00.000Z",
+      "verification": "source-unverified",
+      "source": {
+        "file": "ScreenRecording_11-15-2026 08-48-32_1-compressed(1).mp4",
+        "sha256": "77c25bec0383310113db1716cb75eb8a6ee493f7ac11b9ed5cd98a49e482f558"
+      },
+      "sourceIngredients": [
+        {
+          "name": "သံပုရာရည် (Lime juice)",
+          "quantity": "30 ml"
+        },
+        {
+          "name": "Thai Red Syrup (Sala)",
+          "quantity": "40 ml"
+        },
+        {
+          "name": "ရေခဲ",
+          "quantity": "ခွက်ပြည့် (Video တွင် g မဖော်ပြ)"
+        },
+        {
+          "name": "ဆိုဒါရည် — ရေခဲပေါ်ဖြည့်ရန်",
+          "quantity": "150 ml"
+        },
+        {
+          "name": "သံပုရာအဝိုင်း — အလှဆင်",
+          "quantity": "Video တွင် အရေအတွက်မသတ်မှတ်"
+        }
+      ]
+    },
+    {
+      "id": "video-tea-02",
+      "menuNumber": "VDO-02",
+      "sourceTitle": "Joonyu Coffee House · tea & refreshing · Part 2",
+      "englishName": "Orange Soda · Video Part 02",
+      "burmeseName": "လိမ္မော် ဆိုဒါ",
+      "categoryId": "video-tea-refreshing",
+      "line": "cold",
+      "image": null,
+      "cupSizes": [
+        20
+      ],
+      "ingredients": [
+        {
+          "name": "ရိုးရိုးရေ",
+          "quantity": "30 ml"
+        },
+        {
+          "name": "သကြားရည် (Cane syrup)",
+          "quantity": "20 ml"
+        },
+        {
+          "name": "လိမ္မော်ဖျော်ရည်အနှစ် (Orange concentrate)",
+          "quantity": "30 ml"
+        },
+        {
+          "name": "ရေခဲ",
+          "quantity": "ခွက်ပြည့် (Video တွင် g မဖော်ပြ)"
+        },
+        {
+          "name": "ဆိုဒါရည် — ရေခဲပေါ်ဖြည့်ရန်",
+          "quantity": "120 ml"
+        }
+      ],
+      "steps": [
+        "ရိုးရိုးရေ 30 ml ထည့်ပါ။",
+        "သကြားရည် 20 ml ထည့်ပါ။",
+        "လိမ္မော်ဖျော်ရည်အနှစ် 30 ml ထည့်ပါ။",
+        "ဇွန်းဖြင့် အောက်ခြေက အရည်များ ရောသွားအောင် မွှေပါ။",
+        "ယခုမှ ရေခဲကို ခွက်ပြည့်အောင် ဖြည့်ပါ။",
+        "ဆိုဒါရည် 120 ml ကို ရေခဲပေါ်မှ ဖြည်းဖြည်း လောင်းထည့်ပါ။"
+      ],
+      "notes": [
+        "မူရင်း — Joonyu Coffee House · tea & refreshing · Part 2 · Video 00:13–00:26 (ခန့်မှန်းအချိန်)။",
+        "ရေခဲကို Video အတိုင်း ခွက်ပြည့်ထည့်သည်။ ရေခဲ g မဖော်ပြသဖြင့် အလေးချိန်ကို မခန့်မှန်းထားပါ။",
+        "Video မှ ဖော်မြူလာကို ကူးရေးထားခြင်းဖြစ်ပြီး ကိုယ်တိုင်ဖျော်စမ်းအတည်ပြုထားခြင်း မရှိသေးပါ။"
+      ],
+      "espressoDose": null,
+      "espressoYield": null,
+      "iceQuantity": "ခွက်ပြည့် — g မဖော်ပြ",
+      "milkQuantity": null,
+      "waterQuantity": null,
+      "sweetnessLevel": "Video: 100% SWEET",
+      "version": 1,
+      "updatedAt": "2026-11-15T00:00:00.000Z",
+      "verification": "source-unverified",
+      "source": {
+        "file": "ScreenRecording_11-15-2026 08-48-32_1-compressed(1).mp4",
+        "sha256": "77c25bec0383310113db1716cb75eb8a6ee493f7ac11b9ed5cd98a49e482f558"
+      },
+      "sourceIngredients": [
+        {
+          "name": "ရိုးရိုးရေ",
+          "quantity": "30 ml"
+        },
+        {
+          "name": "သကြားရည် (Cane syrup)",
+          "quantity": "20 ml"
+        },
+        {
+          "name": "လိမ္မော်ဖျော်ရည်အနှစ် (Orange concentrate)",
+          "quantity": "30 ml"
+        },
+        {
+          "name": "ရေခဲ",
+          "quantity": "ခွက်ပြည့် (Video တွင် g မဖော်ပြ)"
+        },
+        {
+          "name": "ဆိုဒါရည် — ရေခဲပေါ်ဖြည့်ရန်",
+          "quantity": "120 ml"
+        }
+      ]
+    },
+    {
+      "id": "video-tea-03",
+      "menuNumber": "VDO-03",
+      "sourceTitle": "Joonyu Coffee House · tea & refreshing · Part 3",
+      "englishName": "Honey Lime Soda · Video Part 03",
+      "burmeseName": "ပျားရည် သံပုရာဆိုဒါ",
+      "categoryId": "video-tea-refreshing",
+      "line": "cold",
+      "image": null,
+      "cupSizes": [
+        20
+      ],
+      "ingredients": [
+        {
+          "name": "ပျားရည်",
+          "quantity": "30 ml"
+        },
+        {
+          "name": "ရေနွေး",
+          "quantity": "20 ml"
+        },
+        {
+          "name": "သံပုရာရည် (Lime juice)",
+          "quantity": "25 ml"
+        },
+        {
+          "name": "ရေခဲ",
+          "quantity": "ခွက်ပြည့် (Video တွင် g မဖော်ပြ)"
+        },
+        {
+          "name": "ဆိုဒါရည် — ရေခဲပေါ်ဖြည့်ရန်",
+          "quantity": "120 ml"
+        },
+        {
+          "name": "သံပုရာအဝိုင်း — အလှဆင်",
+          "quantity": "Video တွင် အရေအတွက်မသတ်မှတ်"
+        }
+      ],
+      "steps": [
+        "ခွက်အသေးထဲ ပျားရည် 30 ml နှင့် ရေနွေး 20 ml ကို ရောထားပါ။ Video မှာ ထိုနှစ်မျိုးကို တစ်ခွက်ထဲမှ လောင်းပြထားသည်။",
+        "သံပုရာရည် 25 ml ကို စစ်ဇကာမှတစ်ဆင့် ခွက်ထဲစစ်ထည့်ပါ။",
+        "ပျားရည်နှင့် ရေနွေး ရောထားသောအရည် အားလုံးကို သံပုရာရည်ရှိသော သောက်ခွက်ထဲ လောင်းထည့်ပါ။",
+        "ဇွန်းဖြင့် အောက်ခြေက အရည်များ ရောသွားအောင် မွှေပါ။",
+        "ယခုမှ ရေခဲကို ခွက်ပြည့်အောင် ဖြည့်ပါ။",
+        "ဆိုဒါရည် 120 ml ကို ရေခဲပေါ်မှ ဖြည်းဖြည်း လောင်းထည့်ပါ။",
+        "Video အတိုင်း သံပုရာအဝိုင်းတင်၍ အလှဆင်ပါ။"
+      ],
+      "notes": [
+        "မူရင်း — Joonyu Coffee House · tea & refreshing · Part 3 · Video 00:26–00:38 (ခန့်မှန်းအချိန်)။",
+        "ရေခဲကို Video အတိုင်း ခွက်ပြည့်ထည့်သည်။ ရေခဲ g မဖော်ပြသဖြင့် အလေးချိန်ကို မခန့်မှန်းထားပါ။",
+        "Video မှ ဖော်မြူလာကို ကူးရေးထားခြင်းဖြစ်ပြီး ကိုယ်တိုင်ဖျော်စမ်းအတည်ပြုထားခြင်း မရှိသေးပါ။"
+      ],
+      "espressoDose": null,
+      "espressoYield": null,
+      "iceQuantity": "ခွက်ပြည့် — g မဖော်ပြ",
+      "milkQuantity": null,
+      "waterQuantity": null,
+      "sweetnessLevel": "Video: 100% SWEET",
+      "version": 1,
+      "updatedAt": "2026-11-15T00:00:00.000Z",
+      "verification": "source-unverified",
+      "source": {
+        "file": "ScreenRecording_11-15-2026 08-48-32_1-compressed(1).mp4",
+        "sha256": "77c25bec0383310113db1716cb75eb8a6ee493f7ac11b9ed5cd98a49e482f558"
+      },
+      "sourceIngredients": [
+        {
+          "name": "ပျားရည်",
+          "quantity": "30 ml"
+        },
+        {
+          "name": "ရေနွေး",
+          "quantity": "20 ml"
+        },
+        {
+          "name": "သံပုရာရည် (Lime juice)",
+          "quantity": "25 ml"
+        },
+        {
+          "name": "ရေခဲ",
+          "quantity": "ခွက်ပြည့် (Video တွင် g မဖော်ပြ)"
+        },
+        {
+          "name": "ဆိုဒါရည် — ရေခဲပေါ်ဖြည့်ရန်",
+          "quantity": "120 ml"
+        },
+        {
+          "name": "သံပုရာအဝိုင်း — အလှဆင်",
+          "quantity": "Video တွင် အရေအတွက်မသတ်မှတ်"
+        }
+      ]
+    },
+    {
+      "id": "video-tea-04",
+      "menuNumber": "VDO-04",
+      "sourceTitle": "Joonyu Coffee House · tea & refreshing · Part 4",
+      "englishName": "Lime Black Tea · Video Part 04",
+      "burmeseName": "သံပုရာ ထိုင်းလက်ဖက်ရည်အေး",
+      "categoryId": "video-tea-refreshing",
+      "line": "cold",
+      "image": null,
+      "cupSizes": [
+        20
+      ],
+      "ingredients": [
+        {
+          "name": "သံပုရာရည် (Lime juice)",
+          "quantity": "30 ml"
+        },
+        {
+          "name": "သကြားရည် (Cane syrup)",
+          "quantity": "40 ml"
+        },
+        {
+          "name": "စစ်ပြီး Thai Tea အရည်",
+          "quantity": "120 ml"
+        },
+        {
+          "name": "ရိုးရိုးရေ",
+          "quantity": "40 ml"
+        },
+        {
+          "name": "ရေခဲ",
+          "quantity": "ခွက်ပြည့် (Video တွင် g မဖော်ပြ)"
+        },
+        {
+          "name": "သံပုရာအဝိုင်း — အလှဆင်",
+          "quantity": "Video တွင် အရေအတွက်မသတ်မှတ်"
+        }
+      ],
+      "steps": [
+        "သံပုရာရည် 30 ml ကို စစ်ဇကာမှတစ်ဆင့် ခွက်ထဲစစ်ထည့်ပါ။",
+        "သကြားရည် 40 ml ထည့်ပါ။",
+        "Thai Tea အရည် 120 ml ကို ခွက်ထဲ လောင်းထည့်ပါ။",
+        "ရိုးရိုးရေ 40 ml ထည့်ပါ။",
+        "ဇွန်းဖြင့် အောက်ခြေက အရည်များ ရောသွားအောင် မွှေပါ။",
+        "ယခုမှ ရေခဲကို ခွက်ပြည့်အောင် ဖြည့်ပါ။",
+        "ရေခဲထည့်ပြီးနောက် ထပ်မွှေပါ။",
+        "Video အတိုင်း သံပုရာအဝိုင်းတင်၍ အလှဆင်ပါ။"
+      ],
+      "notes": [
+        "မူရင်း — Joonyu Coffee House · tea & refreshing · Part 4 · Video 00:38–00:52 (ခန့်မှန်းအချိန်)။",
+        "ဤ Part တွင် Thai Tea အရည် 120 ml ကိုသာပြထားပြီး လက်ဖက်မှုန့်ပမာဏ၊ နှပ်ချိန်နှင့် ရေအပူချိန် မဖော်ပြပါ။",
+        "ရေခဲကို Video အတိုင်း ခွက်ပြည့်ထည့်သည်။ ရေခဲ g မဖော်ပြသဖြင့် အလေးချိန်ကို မခန့်မှန်းထားပါ။",
+        "Video မှ ဖော်မြူလာကို ကူးရေးထားခြင်းဖြစ်ပြီး ကိုယ်တိုင်ဖျော်စမ်းအတည်ပြုထားခြင်း မရှိသေးပါ။"
+      ],
+      "espressoDose": null,
+      "espressoYield": null,
+      "iceQuantity": "ခွက်ပြည့် — g မဖော်ပြ",
+      "milkQuantity": null,
+      "waterQuantity": null,
+      "sweetnessLevel": "Video: 100% SWEET",
+      "version": 1,
+      "updatedAt": "2026-11-15T00:00:00.000Z",
+      "verification": "source-unverified",
+      "source": {
+        "file": "ScreenRecording_11-15-2026 08-48-32_1-compressed(1).mp4",
+        "sha256": "77c25bec0383310113db1716cb75eb8a6ee493f7ac11b9ed5cd98a49e482f558"
+      },
+      "sourceIngredients": [
+        {
+          "name": "သံပုရာရည် (Lime juice)",
+          "quantity": "30 ml"
+        },
+        {
+          "name": "သကြားရည် (Cane syrup)",
+          "quantity": "40 ml"
+        },
+        {
+          "name": "စစ်ပြီး Thai Tea အရည်",
+          "quantity": "120 ml"
+        },
+        {
+          "name": "ရိုးရိုးရေ",
+          "quantity": "40 ml"
+        },
+        {
+          "name": "ရေခဲ",
+          "quantity": "ခွက်ပြည့် (Video တွင် g မဖော်ပြ)"
+        },
+        {
+          "name": "သံပုရာအဝိုင်း — အလှဆင်",
+          "quantity": "Video တွင် အရေအတွက်မသတ်မှတ်"
+        }
+      ]
+    },
+    {
+      "id": "video-tea-05",
+      "menuNumber": "VDO-05",
+      "sourceTitle": "Joonyu Coffee House · tea & refreshing · Part 5",
+      "englishName": "Thai Red Soda 32 oz · Video Part 05",
+      "burmeseName": "ထိုင်း အနီဆိုဒါ ခွက်ကြီး",
+      "categoryId": "video-tea-refreshing",
+      "line": "cold",
+      "image": null,
+      "cupSizes": [
+        32
+      ],
+      "ingredients": [
+        {
+          "name": "ဆိုဒါရည် — အောက်ခံရောရန်",
+          "quantity": "90 ml"
+        },
+        {
+          "name": "Thai Red Syrup (Sala)",
+          "quantity": "90 ml"
+        },
+        {
+          "name": "ရေခဲ",
+          "quantity": "ခွက်ပြည့် (Video တွင် g မဖော်ပြ)"
+        },
+        {
+          "name": "ဆိုဒါရည် — ရေခဲပေါ်ဖြည့်ရန်",
+          "quantity": "230 ml"
+        }
+      ],
+      "steps": [
+        "ဆိုဒါရည် 90 ml ကို ခွက်အောက်ခံထဲ လောင်းထည့်ပါ။",
+        "Sala အနံ့ Thai Red Syrup 90 ml ထည့်ပါ။",
+        "ဇွန်းဖြင့် အောက်ခြေက အရည်များ ရောသွားအောင် မွှေပါ။",
+        "ယခုမှ ရေခဲကို ခွက်ပြည့်အောင် ဖြည့်ပါ။",
+        "ဆိုဒါရည် 230 ml ကို ရေခဲပေါ်မှ ဖြည်းဖြည်း လောင်းထည့်ပါ။"
+      ],
+      "notes": [
+        "မူရင်း — Joonyu Coffee House · tea & refreshing · Part 5 · Video 00:52–01:04 (ခန့်မှန်းအချိန်)။",
+        "Video ထဲတွင် Hale’s Blue Boy Sala syrup ကိုသုံးထားသည်။ ဆိုဒါရည် စုစုပေါင်း 320 ml ဖြစ်ပြီး အရင် 90 ml၊ နောက် 230 ml ခွဲထည့်ပါ။",
+        "ရေခဲကို Video အတိုင်း ခွက်ပြည့်ထည့်သည်။ ရေခဲ g မဖော်ပြသဖြင့် အလေးချိန်ကို မခန့်မှန်းထားပါ။",
+        "Video မှ ဖော်မြူလာကို ကူးရေးထားခြင်းဖြစ်ပြီး ကိုယ်တိုင်ဖျော်စမ်းအတည်ပြုထားခြင်း မရှိသေးပါ။"
+      ],
+      "espressoDose": null,
+      "espressoYield": null,
+      "iceQuantity": "ခွက်ပြည့် — g မဖော်ပြ",
+      "milkQuantity": null,
+      "waterQuantity": null,
+      "sweetnessLevel": "Video: 100% SWEET",
+      "version": 1,
+      "updatedAt": "2026-11-15T00:00:00.000Z",
+      "verification": "source-unverified",
+      "source": {
+        "file": "ScreenRecording_11-15-2026 08-48-32_1-compressed(1).mp4",
+        "sha256": "77c25bec0383310113db1716cb75eb8a6ee493f7ac11b9ed5cd98a49e482f558"
+      },
+      "sourceIngredients": [
+        {
+          "name": "ဆိုဒါရည် — အောက်ခံရောရန်",
+          "quantity": "90 ml"
+        },
+        {
+          "name": "Thai Red Syrup (Sala)",
+          "quantity": "90 ml"
+        },
+        {
+          "name": "ရေခဲ",
+          "quantity": "ခွက်ပြည့် (Video တွင် g မဖော်ပြ)"
+        },
+        {
+          "name": "ဆိုဒါရည် — ရေခဲပေါ်ဖြည့်ရန်",
+          "quantity": "230 ml"
+        }
+      ]
+    },
+    {
+      "id": "video-tea-06",
+      "menuNumber": "VDO-06",
+      "sourceTitle": "Joonyu Coffee House · tea & refreshing · Part 6",
+      "englishName": "Pineapple Soda 20 oz · Video Part 06",
+      "burmeseName": "နာနတ်သီးဆိုဒါ 20 oz",
+      "categoryId": "video-tea-refreshing",
+      "line": "cold",
+      "image": null,
+      "cupSizes": [
+        20
+      ],
+      "ingredients": [
+        {
+          "name": "Ding Fong နာနတ်သီးအနှစ် (Pineapple squash)",
+          "quantity": "50 ml"
+        },
+        {
+          "name": "ရေခဲ",
+          "quantity": "ခွက်ပြည့် (Video တွင် g မဖော်ပြ)"
+        },
+        {
+          "name": "ဆိုဒါရည် — ရေခဲပေါ်ဖြည့်ရန်",
+          "quantity": "120 ml"
+        }
+      ],
+      "steps": [
+        "နာနတ်သီးအနှစ် 50 ml ကို ခွက်အောက်ခြေထဲ အရင်လောင်းပါ။",
+        "ယခုမှ ရေခဲကို ခွက်ပြည့်အောင် ဖြည့်ပါ။",
+        "ဆိုဒါရည် 120 ml ကို ရေခဲပေါ်မှ ဖြည်းဖြည်း လောင်းထည့်ပါ။"
+      ],
+      "notes": [
+        "မူရင်း — Joonyu Coffee House · tea & refreshing · Part 6 · Video 01:04–01:20 (ခန့်မှန်းအချိန်)။",
+        "ရေခဲကို Video အတိုင်း ခွက်ပြည့်ထည့်သည်။ ရေခဲ g မဖော်ပြသဖြင့် အလေးချိန်ကို မခန့်မှန်းထားပါ။",
+        "Video မှ ဖော်မြူလာကို ကူးရေးထားခြင်းဖြစ်ပြီး ကိုယ်တိုင်ဖျော်စမ်းအတည်ပြုထားခြင်း မရှိသေးပါ။"
+      ],
+      "espressoDose": null,
+      "espressoYield": null,
+      "iceQuantity": "ခွက်ပြည့် — g မဖော်ပြ",
+      "milkQuantity": null,
+      "waterQuantity": null,
+      "sweetnessLevel": "Video: 100% SWEET",
+      "version": 1,
+      "updatedAt": "2026-11-15T00:00:00.000Z",
+      "verification": "source-unverified",
+      "source": {
+        "file": "ScreenRecording_11-15-2026 08-48-32_1-compressed(1).mp4",
+        "sha256": "77c25bec0383310113db1716cb75eb8a6ee493f7ac11b9ed5cd98a49e482f558"
+      },
+      "sourceIngredients": [
+        {
+          "name": "Ding Fong နာနတ်သီးအနှစ် (Pineapple squash)",
+          "quantity": "50 ml"
+        },
+        {
+          "name": "ရေခဲ",
+          "quantity": "ခွက်ပြည့် (Video တွင် g မဖော်ပြ)"
+        },
+        {
+          "name": "ဆိုဒါရည် — ရေခဲပေါ်ဖြည့်ရန်",
+          "quantity": "120 ml"
+        }
+      ]
+    },
+    {
+      "id": "video-tea-07",
+      "menuNumber": "VDO-07",
+      "sourceTitle": "Joonyu Coffee House · tea & refreshing · Part 7",
+      "englishName": "Pineapple Soda 16 oz · Video Part 07",
+      "burmeseName": "နာနတ်သီးဆိုဒါ 16 oz",
+      "categoryId": "video-tea-refreshing",
+      "line": "cold",
+      "image": null,
+      "cupSizes": [
+        16
+      ],
+      "ingredients": [
+        {
+          "name": "ဆိုဒါရည် — အောက်ခံရောရန်",
+          "quantity": "40 ml"
+        },
+        {
+          "name": "Ding Fong နာနတ်သီးအနှစ် (Pineapple squash)",
+          "quantity": "40 ml"
+        },
+        {
+          "name": "ရေခဲ",
+          "quantity": "ခွက်ပြည့် (Video တွင် g မဖော်ပြ)"
+        },
+        {
+          "name": "ဆိုဒါရည် — ရေခဲပေါ်ဖြည့်ရန်",
+          "quantity": "100 ml"
+        }
+      ],
+      "steps": [
+        "ဆိုဒါရည် 40 ml ကို ခွက်အောက်ခံထဲ လောင်းထည့်ပါ။",
+        "နာနတ်သီးအနှစ် 40 ml ထည့်ပါ။",
+        "ဇွန်းဖြင့် အောက်ခြေက အရည်များ ရောသွားအောင် မွှေပါ။",
+        "ယခုမှ ရေခဲကို ခွက်ပြည့်အောင် ဖြည့်ပါ။",
+        "ဆိုဒါရည် 100 ml ကို ရေခဲပေါ်မှ ဖြည်းဖြည်း လောင်းထည့်ပါ။"
+      ],
+      "notes": [
+        "မူရင်း — Joonyu Coffee House · tea & refreshing · Part 7 · Video 01:20–01:32 (ခန့်မှန်းအချိန်)။",
+        "ဆိုဒါရည် စုစုပေါင်း 140 ml ဖြစ်ပြီး အောက်ခံ 40 ml၊ အပေါ်ဖြည့် 100 ml ခွဲထည့်သည်။",
+        "ရေခဲကို Video အတိုင်း ခွက်ပြည့်ထည့်သည်။ ရေခဲ g မဖော်ပြသဖြင့် အလေးချိန်ကို မခန့်မှန်းထားပါ။",
+        "Video မှ ဖော်မြူလာကို ကူးရေးထားခြင်းဖြစ်ပြီး ကိုယ်တိုင်ဖျော်စမ်းအတည်ပြုထားခြင်း မရှိသေးပါ။"
+      ],
+      "espressoDose": null,
+      "espressoYield": null,
+      "iceQuantity": "ခွက်ပြည့် — g မဖော်ပြ",
+      "milkQuantity": null,
+      "waterQuantity": null,
+      "sweetnessLevel": "Video: 100% SWEET",
+      "version": 1,
+      "updatedAt": "2026-11-15T00:00:00.000Z",
+      "verification": "source-unverified",
+      "source": {
+        "file": "ScreenRecording_11-15-2026 08-48-32_1-compressed(1).mp4",
+        "sha256": "77c25bec0383310113db1716cb75eb8a6ee493f7ac11b9ed5cd98a49e482f558"
+      },
+      "sourceIngredients": [
+        {
+          "name": "ဆိုဒါရည် — အောက်ခံရောရန်",
+          "quantity": "40 ml"
+        },
+        {
+          "name": "Ding Fong နာနတ်သီးအနှစ် (Pineapple squash)",
+          "quantity": "40 ml"
+        },
+        {
+          "name": "ရေခဲ",
+          "quantity": "ခွက်ပြည့် (Video တွင် g မဖော်ပြ)"
+        },
+        {
+          "name": "ဆိုဒါရည် — ရေခဲပေါ်ဖြည့်ရန်",
+          "quantity": "100 ml"
+        }
+      ]
+    },
+    {
+      "id": "video-tea-08",
+      "menuNumber": "VDO-08",
+      "sourceTitle": "Joonyu Coffee House · tea & refreshing · Part 8",
+      "englishName": "Thai Black Tea 20 oz · Video Part 08",
+      "burmeseName": "ထိုင်း လက်ဖက်ရည်အေး 20 oz",
+      "categoryId": "video-tea-refreshing",
+      "line": "cold",
+      "image": null,
+      "cupSizes": [
+        20
+      ],
+      "ingredients": [
+        {
+          "name": "သကြားရည် (Cane syrup)",
+          "quantity": "40 ml"
+        },
+        {
+          "name": "စစ်ပြီး Thai Tea အရည်",
+          "quantity": "150 ml"
+        },
+        {
+          "name": "ရေခဲ",
+          "quantity": "ခွက်ပြည့် (Video တွင် g မဖော်ပြ)"
+        }
+      ],
+      "steps": [
+        "သကြားရည် 40 ml ထည့်ပါ။",
+        "Thai Tea အရည် 150 ml ကို ခွက်ထဲ လောင်းထည့်ပါ။",
+        "ဇွန်းဖြင့် အောက်ခြေက အရည်များ ရောသွားအောင် မွှေပါ။",
+        "ယခုမှ ရေခဲကို ခွက်ပြည့်အောင် ဖြည့်ပါ။",
+        "ရေခဲထည့်ပြီး ထပ်မွှေကာ အဖုံးပိတ်ပါ။"
+      ],
+      "notes": [
+        "မူရင်း — Joonyu Coffee House · tea & refreshing · Part 8 · Video 01:32–01:45 (ခန့်မှန်းအချိန်)။",
+        "လက်ဖက်ရည်အရည် 150 ml အဆင်သင့်ကို သုံးပြထားသည်။ ဤ Part တွင် လက်ဖက်မှုန့်ပမာဏနှင့် နှပ်ချိန် မပါပါ။",
+        "ရေခဲကို Video အတိုင်း ခွက်ပြည့်ထည့်သည်။ ရေခဲ g မဖော်ပြသဖြင့် အလေးချိန်ကို မခန့်မှန်းထားပါ။",
+        "Video မှ ဖော်မြူလာကို ကူးရေးထားခြင်းဖြစ်ပြီး ကိုယ်တိုင်ဖျော်စမ်းအတည်ပြုထားခြင်း မရှိသေးပါ။"
+      ],
+      "espressoDose": null,
+      "espressoYield": null,
+      "iceQuantity": "ခွက်ပြည့် — g မဖော်ပြ",
+      "milkQuantity": null,
+      "waterQuantity": null,
+      "sweetnessLevel": "Video: 100% SWEET",
+      "version": 1,
+      "updatedAt": "2026-11-15T00:00:00.000Z",
+      "verification": "source-unverified",
+      "source": {
+        "file": "ScreenRecording_11-15-2026 08-48-32_1-compressed(1).mp4",
+        "sha256": "77c25bec0383310113db1716cb75eb8a6ee493f7ac11b9ed5cd98a49e482f558"
+      },
+      "sourceIngredients": [
+        {
+          "name": "သကြားရည် (Cane syrup)",
+          "quantity": "40 ml"
+        },
+        {
+          "name": "စစ်ပြီး Thai Tea အရည်",
+          "quantity": "150 ml"
+        },
+        {
+          "name": "ရေခဲ",
+          "quantity": "ခွက်ပြည့် (Video တွင် g မဖော်ပြ)"
+        }
+      ]
+    },
+    {
+      "id": "video-tea-09",
+      "menuNumber": "VDO-09",
+      "sourceTitle": "Joonyu Coffee House · tea & refreshing · Part 9",
+      "englishName": "Thai Red Soda 20 oz · Video Part 09",
+      "burmeseName": "ထိုင်း အနီဆိုဒါ 20 oz",
+      "categoryId": "video-tea-refreshing",
+      "line": "cold",
+      "image": null,
+      "cupSizes": [
+        20
+      ],
+      "ingredients": [
+        {
+          "name": "ဆိုဒါရည် — အောက်ခံရောရန်",
+          "quantity": "40 ml"
+        },
+        {
+          "name": "Thai Red Syrup (Sala)",
+          "quantity": "50 ml"
+        },
+        {
+          "name": "ရေခဲ",
+          "quantity": "ခွက်ပြည့် (Video တွင် g မဖော်ပြ)"
+        },
+        {
+          "name": "ဆိုဒါရည် — ရေခဲပေါ်ဖြည့်ရန်",
+          "quantity": "120 ml"
+        }
+      ],
+      "steps": [
+        "ဆိုဒါရည် 40 ml ကို ခွက်အောက်ခံထဲ လောင်းထည့်ပါ။",
+        "Sala အနံ့ Thai Red Syrup 50 ml ထည့်ပါ။",
+        "ဇွန်းဖြင့် အောက်ခြေက အရည်များ ရောသွားအောင် မွှေပါ။",
+        "ယခုမှ ရေခဲကို ခွက်ပြည့်အောင် ဖြည့်ပါ။",
+        "ဆိုဒါရည် 120 ml ကို ရေခဲပေါ်မှ ဖြည်းဖြည်း လောင်းထည့်ပါ။"
+      ],
+      "notes": [
+        "မူရင်း — Joonyu Coffee House · tea & refreshing · Part 9 · Video 01:45–02:00 (ခန့်မှန်းအချိန်)။",
+        "ဆိုဒါရည် စုစုပေါင်း 160 ml ဖြစ်သည်။ Part ၅ 32 oz ဖော်မြူလာနှင့် မရောပါနှင့်။",
+        "ရေခဲကို Video အတိုင်း ခွက်ပြည့်ထည့်သည်။ ရေခဲ g မဖော်ပြသဖြင့် အလေးချိန်ကို မခန့်မှန်းထားပါ။",
+        "Video မှ ဖော်မြူလာကို ကူးရေးထားခြင်းဖြစ်ပြီး ကိုယ်တိုင်ဖျော်စမ်းအတည်ပြုထားခြင်း မရှိသေးပါ။"
+      ],
+      "espressoDose": null,
+      "espressoYield": null,
+      "iceQuantity": "ခွက်ပြည့် — g မဖော်ပြ",
+      "milkQuantity": null,
+      "waterQuantity": null,
+      "sweetnessLevel": "Video: 100% SWEET",
+      "version": 1,
+      "updatedAt": "2026-11-15T00:00:00.000Z",
+      "verification": "source-unverified",
+      "source": {
+        "file": "ScreenRecording_11-15-2026 08-48-32_1-compressed(1).mp4",
+        "sha256": "77c25bec0383310113db1716cb75eb8a6ee493f7ac11b9ed5cd98a49e482f558"
+      },
+      "sourceIngredients": [
+        {
+          "name": "ဆိုဒါရည် — အောက်ခံရောရန်",
+          "quantity": "40 ml"
+        },
+        {
+          "name": "Thai Red Syrup (Sala)",
+          "quantity": "50 ml"
+        },
+        {
+          "name": "ရေခဲ",
+          "quantity": "ခွက်ပြည့် (Video တွင် g မဖော်ပြ)"
+        },
+        {
+          "name": "ဆိုဒါရည် — ရေခဲပေါ်ဖြည့်ရန်",
+          "quantity": "120 ml"
+        }
+      ]
+    },
+    {
+      "id": "video-tea-10",
+      "menuNumber": "VDO-10",
+      "sourceTitle": "Joonyu Coffee House · tea & refreshing · Part 10",
+      "englishName": "Thai Black Tea Lime · Video Part 10",
+      "burmeseName": "သံပုရာ ထိုင်းလက်ဖက်ရည်အေး — Part 10",
+      "categoryId": "video-tea-refreshing",
+      "line": "cold",
+      "image": null,
+      "cupSizes": [
+        20
+      ],
+      "ingredients": [
+        {
+          "name": "သံပုရာရည် (Lime juice)",
+          "quantity": "30 ml"
+        },
+        {
+          "name": "သကြားရည် (Cane syrup)",
+          "quantity": "40 ml"
+        },
+        {
+          "name": "စစ်ပြီး Thai Tea အရည်",
+          "quantity": "120 ml"
+        },
+        {
+          "name": "ရိုးရိုးရေ",
+          "quantity": "40 ml"
+        },
+        {
+          "name": "ရေခဲ",
+          "quantity": "ခွက်ပြည့် (Video တွင် g မဖော်ပြ)"
+        }
+      ],
+      "steps": [
+        "သံပုရာရည် 30 ml ကို စစ်ဇကာမှတစ်ဆင့် ခွက်ထဲစစ်ထည့်ပါ။",
+        "သကြားရည် 40 ml ထည့်ပါ။",
+        "Thai Tea အရည် 120 ml ကို ခွက်ထဲ လောင်းထည့်ပါ။",
+        "ရိုးရိုးရေ 40 ml ထည့်ပါ။",
+        "ဇွန်းဖြင့် အောက်ခြေက အရည်များ ရောသွားအောင် မွှေပါ။",
+        "ယခုမှ ရေခဲကို ခွက်ပြည့်အောင် ဖြည့်ပါ။",
+        "ရေခဲထည့်ပြီး ထပ်မွှေပါ။"
+      ],
+      "notes": [
+        "မူရင်း — Joonyu Coffee House · tea & refreshing · Part 10 · Video 02:00–02:16 (ခန့်မှန်းအချိန်)။",
+        "Video စာတန်းတွင် Thai Tea 120 ml (10 g tea mix) ဟုဖော်ပြသည်။ လက်ဖက်နှပ်ရန် ရေပမာဏ၊ အပူချိန်နှင့် နှပ်ချိန် မဖော်ပြပါ။",
+        "Part ၄ နှင့် ပါဝင်ပမာဏတူသော်လည်း မူရင်း Part နံပါတ်အတိုင်း သီးသန့်ထားသည်။",
+        "ရေခဲကို Video အတိုင်း ခွက်ပြည့်ထည့်သည်။ ရေခဲ g မဖော်ပြသဖြင့် အလေးချိန်ကို မခန့်မှန်းထားပါ။",
+        "Video မှ ဖော်မြူလာကို ကူးရေးထားခြင်းဖြစ်ပြီး ကိုယ်တိုင်ဖျော်စမ်းအတည်ပြုထားခြင်း မရှိသေးပါ။"
+      ],
+      "espressoDose": null,
+      "espressoYield": null,
+      "iceQuantity": "ခွက်ပြည့် — g မဖော်ပြ",
+      "milkQuantity": null,
+      "waterQuantity": null,
+      "sweetnessLevel": "Video: 100% SWEET",
+      "version": 1,
+      "updatedAt": "2026-11-15T00:00:00.000Z",
+      "verification": "source-unverified",
+      "source": {
+        "file": "ScreenRecording_11-15-2026 08-48-32_1-compressed(1).mp4",
+        "sha256": "77c25bec0383310113db1716cb75eb8a6ee493f7ac11b9ed5cd98a49e482f558"
+      },
+      "sourceIngredients": [
+        {
+          "name": "သံပုရာရည် (Lime juice)",
+          "quantity": "30 ml"
+        },
+        {
+          "name": "သကြားရည် (Cane syrup)",
+          "quantity": "40 ml"
+        },
+        {
+          "name": "စစ်ပြီး Thai Tea အရည်",
+          "quantity": "120 ml"
+        },
+        {
+          "name": "ရိုးရိုးရေ",
+          "quantity": "40 ml"
+        },
+        {
+          "name": "ရေခဲ",
+          "quantity": "ခွက်ပြည့် (Video တွင် g မဖော်ပြ)"
+        }
+      ]
+    },
+    {
+      "id": "video-tea-11",
+      "menuNumber": "VDO-11",
+      "sourceTitle": "Joonyu Coffee House · tea & refreshing · Part 11",
+      "englishName": "Pickled Plum Soda · Video Part 11",
+      "burmeseName": "ဆားဇီးသီး ဆိုဒါ",
+      "categoryId": "video-tea-refreshing",
+      "line": "cold",
+      "image": null,
+      "cupSizes": [
+        20
+      ],
+      "ingredients": [
+        {
+          "name": "ဆားစိမ်ဇီးသီး (Pickled plum)",
+          "quantity": "3 လုံး"
+        },
+        {
+          "name": "ဇီးသီးစိမ်ရည်",
+          "quantity": "20 ml"
+        },
+        {
+          "name": "သကြားရည် (Cane syrup)",
+          "quantity": "40 ml"
+        },
+        {
+          "name": "ရေခဲ",
+          "quantity": "ခွက်ပြည့် (Video တွင် g မဖော်ပြ)"
+        },
+        {
+          "name": "ဆိုဒါရည် — ရေခဲပေါ်ဖြည့်ရန်",
+          "quantity": "140 ml"
+        }
+      ],
+      "steps": [
+        "ဆားစိမ်ဇီးသီး 3 လုံးကို ခွက်အောက်ခြေထဲ အရင်ထည့်ပါ။",
+        "ဇီးသီးစိမ်ရည် 20 ml ထည့်ပါ။",
+        "ဇွန်းဖြင့် ဇီးသီးအသားကို ခွက်အောက်ခြေမှာ ဖိချေပါ။",
+        "သကြားရည် 40 ml ထည့်ပါ။",
+        "ဇွန်းဖြင့် အောက်ခြေက အရည်များ ရောသွားအောင် မွှေပါ။",
+        "ယခုမှ ရေခဲကို ခွက်ပြည့်အောင် ဖြည့်ပါ။",
+        "ဆိုဒါရည် 140 ml ကို ရေခဲပေါ်မှ ဖြည်းဖြည်း လောင်းထည့်ပါ။"
+      ],
+      "notes": [
+        "မူရင်း — Joonyu Coffee House · tea & refreshing · Part 11 · Video 02:16–02:36 (ခန့်မှန်းအချိန်)။",
+        "ရေခဲကို Video အတိုင်း ခွက်ပြည့်ထည့်သည်။ ရေခဲ g မဖော်ပြသဖြင့် အလေးချိန်ကို မခန့်မှန်းထားပါ။",
+        "Video မှ ဖော်မြူလာကို ကူးရေးထားခြင်းဖြစ်ပြီး ကိုယ်တိုင်ဖျော်စမ်းအတည်ပြုထားခြင်း မရှိသေးပါ။"
+      ],
+      "espressoDose": null,
+      "espressoYield": null,
+      "iceQuantity": "ခွက်ပြည့် — g မဖော်ပြ",
+      "milkQuantity": null,
+      "waterQuantity": null,
+      "sweetnessLevel": "Video: 100% SWEET",
+      "version": 1,
+      "updatedAt": "2026-11-15T00:00:00.000Z",
+      "verification": "source-unverified",
+      "source": {
+        "file": "ScreenRecording_11-15-2026 08-48-32_1-compressed(1).mp4",
+        "sha256": "77c25bec0383310113db1716cb75eb8a6ee493f7ac11b9ed5cd98a49e482f558"
+      },
+      "sourceIngredients": [
+        {
+          "name": "ဆားစိမ်ဇီးသီး (Pickled plum)",
+          "quantity": "3 လုံး"
+        },
+        {
+          "name": "ဇီးသီးစိမ်ရည်",
+          "quantity": "20 ml"
+        },
+        {
+          "name": "သကြားရည် (Cane syrup)",
+          "quantity": "40 ml"
+        },
+        {
+          "name": "ရေခဲ",
+          "quantity": "ခွက်ပြည့် (Video တွင် g မဖော်ပြ)"
+        },
+        {
+          "name": "ဆိုဒါရည် — ရေခဲပေါ်ဖြည့်ရန်",
+          "quantity": "140 ml"
+        }
+      ]
+    },
+    {
+      "id": "video-tea-12",
+      "menuNumber": "VDO-12",
+      "sourceTitle": "Joonyu Coffee House · tea & refreshing · Part 12",
+      "englishName": "Honey Soda · Video Part 12",
+      "burmeseName": "ပျားရည် ဆိုဒါ",
+      "categoryId": "video-tea-refreshing",
+      "line": "cold",
+      "image": null,
+      "cupSizes": [
+        20
+      ],
+      "ingredients": [
+        {
+          "name": "ပျားရည်",
+          "quantity": "30 ml"
+        },
+        {
+          "name": "ရေနွေး",
+          "quantity": "30 ml"
+        },
+        {
+          "name": "ရေခဲ",
+          "quantity": "ခွက်ပြည့် (Video တွင် g မဖော်ပြ)"
+        },
+        {
+          "name": "ဆိုဒါရည် — ရေခဲပေါ်ဖြည့်ရန်",
+          "quantity": "140 ml"
+        }
+      ],
+      "steps": [
+        "ပျားရည် 30 ml ကို အရင်ဆုံး ခွက်အောက်ခြေထဲထည့်ပါ။",
+        "ပျားရည်ရှိသောခွက်ထဲ ရေနွေး 30 ml ထည့်ပါ။",
+        "ပျားရည်ပျော်သွားအောင် မွှေပါ။",
+        "ယခုမှ ရေခဲကို ခွက်ပြည့်အောင် ဖြည့်ပါ။",
+        "ဆိုဒါရည် 140 ml ကို ရေခဲပေါ်မှ ဖြည်းဖြည်း လောင်းထည့်ပါ။"
+      ],
+      "notes": [
+        "မူရင်း — Joonyu Coffee House · tea & refreshing · Part 12 · Video 02:36–02:52 (ခန့်မှန်းအချိန်)။",
+        "ရေခဲကို Video အတိုင်း ခွက်ပြည့်ထည့်သည်။ ရေခဲ g မဖော်ပြသဖြင့် အလေးချိန်ကို မခန့်မှန်းထားပါ။",
+        "Video မှ ဖော်မြူလာကို ကူးရေးထားခြင်းဖြစ်ပြီး ကိုယ်တိုင်ဖျော်စမ်းအတည်ပြုထားခြင်း မရှိသေးပါ။"
+      ],
+      "espressoDose": null,
+      "espressoYield": null,
+      "iceQuantity": "ခွက်ပြည့် — g မဖော်ပြ",
+      "milkQuantity": null,
+      "waterQuantity": null,
+      "sweetnessLevel": "Video: 100% SWEET",
+      "version": 1,
+      "updatedAt": "2026-11-15T00:00:00.000Z",
+      "verification": "source-unverified",
+      "source": {
+        "file": "ScreenRecording_11-15-2026 08-48-32_1-compressed(1).mp4",
+        "sha256": "77c25bec0383310113db1716cb75eb8a6ee493f7ac11b9ed5cd98a49e482f558"
+      },
+      "sourceIngredients": [
+        {
+          "name": "ပျားရည်",
+          "quantity": "30 ml"
+        },
+        {
+          "name": "ရေနွေး",
+          "quantity": "30 ml"
+        },
+        {
+          "name": "ရေခဲ",
+          "quantity": "ခွက်ပြည့် (Video တွင် g မဖော်ပြ)"
+        },
+        {
+          "name": "ဆိုဒါရည် — ရေခဲပေါ်ဖြည့်ရန်",
+          "quantity": "140 ml"
+        }
+      ]
+    },
+    {
+      "id": "video-tea-13a",
+      "menuNumber": "VDO-13a",
+      "sourceTitle": "Joonyu Coffee House · tea & refreshing · Part 13",
+      "englishName": "Strawberry Soda · Video Part 13a",
+      "burmeseName": "စတော်ဘယ်ရီ ဆိုဒါ",
+      "categoryId": "video-tea-refreshing",
+      "line": "cold",
+      "image": null,
+      "cupSizes": [
+        20
+      ],
+      "ingredients": [
+        {
+          "name": "Nature Taste Strawberry Fruit Based Preparation",
+          "quantity": "40 ml"
+        },
+        {
+          "name": "ဆိုဒါရည် — အောက်ခံရောရန်",
+          "quantity": "40 ml"
+        },
+        {
+          "name": "ရေခဲ",
+          "quantity": "ခွက်ပြည့် (Video တွင် g မဖော်ပြ)"
+        },
+        {
+          "name": "ဆိုဒါရည် — ရေခဲပေါ်ဖြည့်ရန်",
+          "quantity": "120 ml"
+        }
+      ],
+      "steps": [
+        "Strawberry အသီးအနှစ် 40 ml ကို ခွက်အောက်ခြေထဲ အရင်ထည့်ပါ။",
+        "ဆိုဒါရည် 40 ml ကို ခွက်အောက်ခံထဲ လောင်းထည့်ပါ။",
+        "ဇွန်းဖြင့် အောက်ခြေက အရည်များ ရောသွားအောင် မွှေပါ။",
+        "ယခုမှ ရေခဲကို ခွက်ပြည့်အောင် ဖြည့်ပါ။",
+        "ဆိုဒါရည် 120 ml ကို ရေခဲပေါ်မှ ဖြည်းဖြည်း လောင်းထည့်ပါ။"
+      ],
+      "notes": [
+        "မူရင်း — Joonyu Coffee House · tea & refreshing · Part 13 · Video 02:52–03:14 (ခန့်မှန်းအချိန်)။",
+        "Part ၁၃ တွင် နှစ်ခွက်ကို ယှဉ်ဖျော်ပြထားသည်။ ဤပမာဏသည် ဤမီနူးတစ်ခွက်စာသာ ဖြစ်သည်။",
+        "Video မှာ Nature Taste ကိုသုံးထားသည်။ LongBeach နှင့် တံဆိပ်မတူသဖြင့် အရသာတူညီမည်ဟု မအတည်ပြုထားပါ။",
+        "ရေခဲကို Video အတိုင်း ခွက်ပြည့်ထည့်သည်။ ရေခဲ g မဖော်ပြသဖြင့် အလေးချိန်ကို မခန့်မှန်းထားပါ။",
+        "Video မှ ဖော်မြူလာကို ကူးရေးထားခြင်းဖြစ်ပြီး ကိုယ်တိုင်ဖျော်စမ်းအတည်ပြုထားခြင်း မရှိသေးပါ။"
+      ],
+      "espressoDose": null,
+      "espressoYield": null,
+      "iceQuantity": "ခွက်ပြည့် — g မဖော်ပြ",
+      "milkQuantity": null,
+      "waterQuantity": null,
+      "sweetnessLevel": "Video: 100% SWEET",
+      "version": 1,
+      "updatedAt": "2026-11-15T00:00:00.000Z",
+      "verification": "source-unverified",
+      "source": {
+        "file": "ScreenRecording_11-15-2026 08-48-32_1-compressed(1).mp4",
+        "sha256": "77c25bec0383310113db1716cb75eb8a6ee493f7ac11b9ed5cd98a49e482f558"
+      },
+      "sourceIngredients": [
+        {
+          "name": "Nature Taste Strawberry Fruit Based Preparation",
+          "quantity": "40 ml"
+        },
+        {
+          "name": "ဆိုဒါရည် — အောက်ခံရောရန်",
+          "quantity": "40 ml"
+        },
+        {
+          "name": "ရေခဲ",
+          "quantity": "ခွက်ပြည့် (Video တွင် g မဖော်ပြ)"
+        },
+        {
+          "name": "ဆိုဒါရည် — ရေခဲပေါ်ဖြည့်ရန်",
+          "quantity": "120 ml"
+        }
+      ]
+    },
+    {
+      "id": "video-tea-13b",
+      "menuNumber": "VDO-13b",
+      "sourceTitle": "Joonyu Coffee House · tea & refreshing · Part 13",
+      "englishName": "Mixed Berry Soda · Video Part 13b",
+      "burmeseName": "ဘယ်ရီစုံ ဆိုဒါ",
+      "categoryId": "video-tea-refreshing",
+      "line": "cold",
+      "image": null,
+      "cupSizes": [
+        20
+      ],
+      "ingredients": [
+        {
+          "name": "Nature Taste Mixed Berry Fruit Based Preparation",
+          "quantity": "40 ml"
+        },
+        {
+          "name": "ဆိုဒါရည် — အောက်ခံရောရန်",
+          "quantity": "40 ml"
+        },
+        {
+          "name": "ရေခဲ",
+          "quantity": "ခွက်ပြည့် (Video တွင် g မဖော်ပြ)"
+        },
+        {
+          "name": "ဆိုဒါရည် — ရေခဲပေါ်ဖြည့်ရန်",
+          "quantity": "120 ml"
+        }
+      ],
+      "steps": [
+        "Mixed Berry အသီးအနှစ် 40 ml ကို ခွက်အောက်ခြေထဲ အရင်ထည့်ပါ။",
+        "ဆိုဒါရည် 40 ml ကို ခွက်အောက်ခံထဲ လောင်းထည့်ပါ။",
+        "ဇွန်းဖြင့် အောက်ခြေက အရည်များ ရောသွားအောင် မွှေပါ။",
+        "ယခုမှ ရေခဲကို ခွက်ပြည့်အောင် ဖြည့်ပါ။",
+        "ဆိုဒါရည် 120 ml ကို ရေခဲပေါ်မှ ဖြည်းဖြည်း လောင်းထည့်ပါ။"
+      ],
+      "notes": [
+        "မူရင်း — Joonyu Coffee House · tea & refreshing · Part 13 · Video 02:52–03:14 (ခန့်မှန်းအချိန်)။",
+        "Part ၁၃ တွင် နှစ်ခွက်ကို ယှဉ်ဖျော်ပြထားသည်။ ဤပမာဏသည် ဤမီနူးတစ်ခွက်စာသာ ဖြစ်သည်။",
+        "Video မှာ Nature Taste ကိုသုံးထားသည်။ LongBeach နှင့် တံဆိပ်မတူသဖြင့် အရသာတူညီမည်ဟု မအတည်ပြုထားပါ။",
+        "ရေခဲကို Video အတိုင်း ခွက်ပြည့်ထည့်သည်။ ရေခဲ g မဖော်ပြသဖြင့် အလေးချိန်ကို မခန့်မှန်းထားပါ။",
+        "Video မှ ဖော်မြူလာကို ကူးရေးထားခြင်းဖြစ်ပြီး ကိုယ်တိုင်ဖျော်စမ်းအတည်ပြုထားခြင်း မရှိသေးပါ။"
+      ],
+      "espressoDose": null,
+      "espressoYield": null,
+      "iceQuantity": "ခွက်ပြည့် — g မဖော်ပြ",
+      "milkQuantity": null,
+      "waterQuantity": null,
+      "sweetnessLevel": "Video: 100% SWEET",
+      "version": 1,
+      "updatedAt": "2026-11-15T00:00:00.000Z",
+      "verification": "source-unverified",
+      "source": {
+        "file": "ScreenRecording_11-15-2026 08-48-32_1-compressed(1).mp4",
+        "sha256": "77c25bec0383310113db1716cb75eb8a6ee493f7ac11b9ed5cd98a49e482f558"
+      },
+      "sourceIngredients": [
+        {
+          "name": "Nature Taste Mixed Berry Fruit Based Preparation",
+          "quantity": "40 ml"
+        },
+        {
+          "name": "ဆိုဒါရည် — အောက်ခံရောရန်",
+          "quantity": "40 ml"
+        },
+        {
+          "name": "ရေခဲ",
+          "quantity": "ခွက်ပြည့် (Video တွင် g မဖော်ပြ)"
+        },
+        {
+          "name": "ဆိုဒါရည် — ရေခဲပေါ်ဖြည့်ရန်",
+          "quantity": "120 ml"
+        }
+      ]
+    },
+    {
+      "id": "video-tea-14",
+      "menuNumber": "VDO-14",
+      "sourceTitle": "Joonyu Coffee House · tea & refreshing · Part 14",
+      "englishName": "Thai Green Tea Honey · Video Part 14",
+      "burmeseName": "ပျားရည် ထိုင်းဂရင်းတီး",
+      "categoryId": "video-tea-refreshing",
+      "line": "cold",
+      "image": null,
+      "cupSizes": [
+        20
+      ],
+      "ingredients": [
+        {
+          "name": "ပျားရည်",
+          "quantity": "30 ml"
+        },
+        {
+          "name": "ရိုးရိုးရေ",
+          "quantity": "100 ml"
+        },
+        {
+          "name": "ရေခဲ",
+          "quantity": "ခွက်ပြည့် (Video တွင် g မဖော်ပြ)"
+        },
+        {
+          "name": "စစ်ပြီး Thai Green Tea အရည်",
+          "quantity": "70 ml"
+        }
+      ],
+      "steps": [
+        "Thai Green Tea အမှုန့် 10 g ကို ရေနွေး 100 ml ဖြင့် နှပ်၍ စစ်ပြီး လက်ဖက်ရည်အရည် 70 ml ကို တိုင်းထားပါ။ Video တွင် နှပ်ချိန်နှင့် ရေအပူချိန် မဖော်ပြပါ။ အောက်က ပါဝင်ပစ္စည်းစာရင်းရှိ လက်ဖက်ရည်အရည်သည် ယခုထုတ်ထားသည့်အရည် ဖြစ်သည်။",
+        "ပျားရည် 30 ml ကို အရင်ဆုံး ခွက်အောက်ခြေထဲထည့်ပါ။",
+        "ရိုးရိုးရေ 100 ml ထည့်ပါ။",
+        "ပျားရည်နှင့် ရေ ရောသွားအောင် မွှေပါ။",
+        "ယခုမှ ရေခဲကို ခွက်ပြည့်အောင် ဖြည့်ပါ။",
+        "Thai Green Tea အရည် 70 ml ကို ရေခဲပေါ် နောက်ဆုံးမှ ဖြည်းဖြည်း လောင်းထည့်ပါ။"
+      ],
+      "notes": [
+        "မူရင်း — Joonyu Coffee House · tea & refreshing · Part 14 · Video 03:14–03:30 (ခန့်မှန်းအချိန်)။",
+        "Thai Green Tea အမှုန့် 10 g + ရေနွေး 100 ml ဖြင့် ထုတ်ထားသော လက်ဖက်ရည်အရည် 70 ml ကို နောက်ဆုံးအပေါ်မှ လောင်းပြထားသည်။ လက်ဖက်ဖတ်ကို သောက်ခွက်ထဲမထည့်ပါနှင့်။",
+        "လက်ဖက်နှပ်ချိန်၊ အပူချိန်ကို Video တွင် မဖော်ပြပါ။",
+        "ရေခဲကို Video အတိုင်း ခွက်ပြည့်ထည့်သည်။ ရေခဲ g မဖော်ပြသဖြင့် အလေးချိန်ကို မခန့်မှန်းထားပါ။",
+        "Video မှ ဖော်မြူလာကို ကူးရေးထားခြင်းဖြစ်ပြီး ကိုယ်တိုင်ဖျော်စမ်းအတည်ပြုထားခြင်း မရှိသေးပါ။"
+      ],
+      "espressoDose": null,
+      "espressoYield": null,
+      "iceQuantity": "ခွက်ပြည့် — g မဖော်ပြ",
+      "milkQuantity": null,
+      "waterQuantity": null,
+      "sweetnessLevel": "Video: 100% SWEET",
+      "version": 1,
+      "updatedAt": "2026-11-15T00:00:00.000Z",
+      "verification": "source-unverified",
+      "source": {
+        "file": "ScreenRecording_11-15-2026 08-48-32_1-compressed(1).mp4",
+        "sha256": "77c25bec0383310113db1716cb75eb8a6ee493f7ac11b9ed5cd98a49e482f558"
+      },
+      "sourceIngredients": [
+        {
+          "name": "ပျားရည်",
+          "quantity": "30 ml"
+        },
+        {
+          "name": "ရိုးရိုးရေ",
+          "quantity": "100 ml"
+        },
+        {
+          "name": "ရေခဲ",
+          "quantity": "ခွက်ပြည့် (Video တွင် g မဖော်ပြ)"
+        },
+        {
+          "name": "စစ်ပြီး Thai Green Tea အရည်",
+          "quantity": "70 ml"
+        }
+      ]
+    },
+    {
+      "id": "video-tea-15a",
+      "menuNumber": "VDO-15a",
+      "sourceTitle": "Joonyu Coffee House · tea & refreshing · Part 15",
+      "englishName": "Thai Green Tea 16 oz · Video Part 15a",
+      "burmeseName": "ထိုင်းဂရင်းတီးအေး 16 oz",
+      "categoryId": "video-tea-refreshing",
+      "line": "cold",
+      "image": null,
+      "cupSizes": [
+        16
+      ],
+      "ingredients": [
+        {
+          "name": "သကြားရည် (Cane syrup)",
+          "quantity": "30 ml"
+        },
+        {
+          "name": "စစ်ပြီး Thai Green Tea အရည်",
+          "quantity": "120 ml"
+        },
+        {
+          "name": "ရိုးရိုးရေ",
+          "quantity": "30 ml"
+        },
+        {
+          "name": "ရေခဲ",
+          "quantity": "ခွက်ပြည့် (Video တွင် g မဖော်ပြ)"
+        }
+      ],
+      "steps": [
+        "Thai Green Tea အမှုန့် 10 g ကို ရေနွေး 150 ml ဖြင့် နှပ်၍ စစ်ပြီး လက်ဖက်ရည်အရည် 120 ml ကို တိုင်းထားပါ။ Video တွင် နှပ်ချိန်နှင့် ရေအပူချိန် မဖော်ပြပါ။ အောက်က ပါဝင်ပစ္စည်းစာရင်းရှိ လက်ဖက်ရည်အရည်သည် ယခုထုတ်ထားသည့်အရည် ဖြစ်သည်။",
+        "သကြားရည် 30 ml ထည့်ပါ။",
+        "Thai Green Tea အရည် 120 ml ကို ခွက်ထဲ လောင်းထည့်ပါ။",
+        "ရိုးရိုးရေ 30 ml ထည့်ပါ။",
+        "ဇွန်းဖြင့် အောက်ခြေက အရည်များ ရောသွားအောင် မွှေပါ။",
+        "ယခုမှ ရေခဲကို ခွက်ပြည့်အောင် ဖြည့်ပါ။"
+      ],
+      "notes": [
+        "မူရင်း — Joonyu Coffee House · tea & refreshing · Part 15 · Video 03:30–03:46 (ခန့်မှန်းအချိန်)။",
+        "တစ်ခွက်စာ လက်ဖက်အမှုန့် 10 g + ရေနွေး 150 ml ဖြင့် ထုတ်ပြီး စစ်ထားသော လက်ဖက်ရည်အရည် 120 ml သုံးသည်။ ထို့အပြင် သောက်ခွက်ထဲ ရိုးရိုးရေ 30 ml ကို သီးသန့်ထည့်သည်။",
+        "Video တွင် နှစ်မျိုးယှဉ်ဖျော်ထားခြင်းဖြစ်ပြီး ပမာဏများကို တစ်ခွက်စာစီ ဖော်ပြထားသည်။ နှပ်ချိန်/အပူချိန် မဖော်ပြပါ။",
+        "ရေခဲကို Video အတိုင်း ခွက်ပြည့်ထည့်သည်။ ရေခဲ g မဖော်ပြသဖြင့် အလေးချိန်ကို မခန့်မှန်းထားပါ။",
+        "Video မှ ဖော်မြူလာကို ကူးရေးထားခြင်းဖြစ်ပြီး ကိုယ်တိုင်ဖျော်စမ်းအတည်ပြုထားခြင်း မရှိသေးပါ။"
+      ],
+      "espressoDose": null,
+      "espressoYield": null,
+      "iceQuantity": "ခွက်ပြည့် — g မဖော်ပြ",
+      "milkQuantity": null,
+      "waterQuantity": null,
+      "sweetnessLevel": "Video: 100% SWEET",
+      "version": 1,
+      "updatedAt": "2026-11-15T00:00:00.000Z",
+      "verification": "source-unverified",
+      "source": {
+        "file": "ScreenRecording_11-15-2026 08-48-32_1-compressed(1).mp4",
+        "sha256": "77c25bec0383310113db1716cb75eb8a6ee493f7ac11b9ed5cd98a49e482f558"
+      },
+      "sourceIngredients": [
+        {
+          "name": "သကြားရည် (Cane syrup)",
+          "quantity": "30 ml"
+        },
+        {
+          "name": "စစ်ပြီး Thai Green Tea အရည်",
+          "quantity": "120 ml"
+        },
+        {
+          "name": "ရိုးရိုးရေ",
+          "quantity": "30 ml"
+        },
+        {
+          "name": "ရေခဲ",
+          "quantity": "ခွက်ပြည့် (Video တွင် g မဖော်ပြ)"
+        }
+      ]
+    },
+    {
+      "id": "video-tea-15b",
+      "menuNumber": "VDO-15b",
+      "sourceTitle": "Joonyu Coffee House · tea & refreshing · Part 15",
+      "englishName": "Thai Black Tea 16 oz · Video Part 15b",
+      "burmeseName": "ထိုင်းလက်ဖက်ရည်အေး 16 oz",
+      "categoryId": "video-tea-refreshing",
+      "line": "cold",
+      "image": null,
+      "cupSizes": [
+        16
+      ],
+      "ingredients": [
+        {
+          "name": "သကြားရည် (Cane syrup)",
+          "quantity": "30 ml"
+        },
+        {
+          "name": "စစ်ပြီး Thai Tea အရည်",
+          "quantity": "120 ml"
+        },
+        {
+          "name": "ရိုးရိုးရေ",
+          "quantity": "30 ml"
+        },
+        {
+          "name": "ရေခဲ",
+          "quantity": "ခွက်ပြည့် (Video တွင် g မဖော်ပြ)"
+        }
+      ],
+      "steps": [
+        "Thai Tea အမှုန့် 10 g ကို ရေနွေး 150 ml ဖြင့် နှပ်၍ စစ်ပြီး လက်ဖက်ရည်အရည် 120 ml ကို တိုင်းထားပါ။ Video တွင် နှပ်ချိန်နှင့် ရေအပူချိန် မဖော်ပြပါ။ အောက်က ပါဝင်ပစ္စည်းစာရင်းရှိ လက်ဖက်ရည်အရည်သည် ယခုထုတ်ထားသည့်အရည် ဖြစ်သည်။",
+        "သကြားရည် 30 ml ထည့်ပါ။",
+        "Thai Tea အရည် 120 ml ကို ခွက်ထဲ လောင်းထည့်ပါ။",
+        "ရိုးရိုးရေ 30 ml ထည့်ပါ။",
+        "ဇွန်းဖြင့် အောက်ခြေက အရည်များ ရောသွားအောင် မွှေပါ။",
+        "ယခုမှ ရေခဲကို ခွက်ပြည့်အောင် ဖြည့်ပါ။"
+      ],
+      "notes": [
+        "မူရင်း — Joonyu Coffee House · tea & refreshing · Part 15 · Video 03:30–03:46 (ခန့်မှန်းအချိန်)။",
+        "တစ်ခွက်စာ လက်ဖက်အမှုန့် 10 g + ရေနွေး 150 ml ဖြင့် ထုတ်ပြီး စစ်ထားသော လက်ဖက်ရည်အရည် 120 ml သုံးသည်။ ထို့အပြင် သောက်ခွက်ထဲ ရိုးရိုးရေ 30 ml ကို သီးသန့်ထည့်သည်။",
+        "Video တွင် နှစ်မျိုးယှဉ်ဖျော်ထားခြင်းဖြစ်ပြီး ပမာဏများကို တစ်ခွက်စာစီ ဖော်ပြထားသည်။ နှပ်ချိန်/အပူချိန် မဖော်ပြပါ။",
+        "ရေခဲကို Video အတိုင်း ခွက်ပြည့်ထည့်သည်။ ရေခဲ g မဖော်ပြသဖြင့် အလေးချိန်ကို မခန့်မှန်းထားပါ။",
+        "Video မှ ဖော်မြူလာကို ကူးရေးထားခြင်းဖြစ်ပြီး ကိုယ်တိုင်ဖျော်စမ်းအတည်ပြုထားခြင်း မရှိသေးပါ။"
+      ],
+      "espressoDose": null,
+      "espressoYield": null,
+      "iceQuantity": "ခွက်ပြည့် — g မဖော်ပြ",
+      "milkQuantity": null,
+      "waterQuantity": null,
+      "sweetnessLevel": "Video: 100% SWEET",
+      "version": 1,
+      "updatedAt": "2026-11-15T00:00:00.000Z",
+      "verification": "source-unverified",
+      "source": {
+        "file": "ScreenRecording_11-15-2026 08-48-32_1-compressed(1).mp4",
+        "sha256": "77c25bec0383310113db1716cb75eb8a6ee493f7ac11b9ed5cd98a49e482f558"
+      },
+      "sourceIngredients": [
+        {
+          "name": "သကြားရည် (Cane syrup)",
+          "quantity": "30 ml"
+        },
+        {
+          "name": "စစ်ပြီး Thai Tea အရည်",
+          "quantity": "120 ml"
+        },
+        {
+          "name": "ရိုးရိုးရေ",
+          "quantity": "30 ml"
+        },
+        {
+          "name": "ရေခဲ",
+          "quantity": "ခွက်ပြည့် (Video တွင် g မဖော်ပြ)"
+        }
+      ]
+    },
+    {
+      "id": "video-tea-16",
+      "menuNumber": "VDO-16",
+      "sourceTitle": "Joonyu Coffee House · tea & refreshing · Part 16",
+      "englishName": "Mint Soda · Video Part 16",
+      "burmeseName": "ပူဒီနာ ဆိုဒါ",
+      "categoryId": "video-tea-refreshing",
+      "line": "cold",
+      "image": null,
+      "cupSizes": [
+        20
+      ],
+      "ingredients": [
+        {
+          "name": "LongBeach Mint Syrup",
+          "quantity": "50 ml"
+        },
+        {
+          "name": "ဆိုဒါရည် — အောက်ခံရောရန်",
+          "quantity": "30 ml"
+        },
+        {
+          "name": "ရေခဲ",
+          "quantity": "ခွက်ပြည့် (Video တွင် g မဖော်ပြ)"
+        },
+        {
+          "name": "ဆိုဒါရည် — ရေခဲပေါ်ဖြည့်ရန်",
+          "quantity": "120 ml"
+        }
+      ],
+      "steps": [
+        "LongBeach Mint Syrup 50 ml ကို အရင်ထည့်ပါ။",
+        "ဆိုဒါရည် 30 ml ကို ခွက်အောက်ခံထဲ လောင်းထည့်ပါ။",
+        "ဇွန်းဖြင့် အောက်ခြေက အရည်များ ရောသွားအောင် မွှေပါ။",
+        "ယခုမှ ရေခဲကို ခွက်ပြည့်အောင် ဖြည့်ပါ။",
+        "ဆိုဒါရည် 120 ml ကို ရေခဲပေါ်မှ ဖြည်းဖြည်း လောင်းထည့်ပါ။"
+      ],
+      "notes": [
+        "မူရင်း — Joonyu Coffee House · tea & refreshing · Part 16 · Video 03:46–03:58 (ခန့်မှန်းအချိန်)။",
+        "ဆိုဒါရည် စုစုပေါင်း 150 ml — အရင် 30 ml၊ နောက် 120 ml ဖြစ်သည်။",
+        "ရေခဲကို Video အတိုင်း ခွက်ပြည့်ထည့်သည်။ ရေခဲ g မဖော်ပြသဖြင့် အလေးချိန်ကို မခန့်မှန်းထားပါ။",
+        "Video မှ ဖော်မြူလာကို ကူးရေးထားခြင်းဖြစ်ပြီး ကိုယ်တိုင်ဖျော်စမ်းအတည်ပြုထားခြင်း မရှိသေးပါ။"
+      ],
+      "espressoDose": null,
+      "espressoYield": null,
+      "iceQuantity": "ခွက်ပြည့် — g မဖော်ပြ",
+      "milkQuantity": null,
+      "waterQuantity": null,
+      "sweetnessLevel": "Video: 100% SWEET",
+      "version": 1,
+      "updatedAt": "2026-11-15T00:00:00.000Z",
+      "verification": "source-unverified",
+      "source": {
+        "file": "ScreenRecording_11-15-2026 08-48-32_1-compressed(1).mp4",
+        "sha256": "77c25bec0383310113db1716cb75eb8a6ee493f7ac11b9ed5cd98a49e482f558"
+      },
+      "sourceIngredients": [
+        {
+          "name": "LongBeach Mint Syrup",
+          "quantity": "50 ml"
+        },
+        {
+          "name": "ဆိုဒါရည် — အောက်ခံရောရန်",
+          "quantity": "30 ml"
+        },
+        {
+          "name": "ရေခဲ",
+          "quantity": "ခွက်ပြည့် (Video တွင် g မဖော်ပြ)"
+        },
+        {
+          "name": "ဆိုဒါရည် — ရေခဲပေါ်ဖြည့်ရန်",
+          "quantity": "120 ml"
+        }
+      ]
+    },
+    {
+      "id": "video-tea-17",
+      "menuNumber": "VDO-17",
+      "sourceTitle": "Joonyu Coffee House · tea & refreshing · Part 17",
+      "englishName": "Thai Black Tea Honey · Video Part 17",
+      "burmeseName": "ပျားရည် ထိုင်းလက်ဖက်ရည်အေး",
+      "categoryId": "video-tea-refreshing",
+      "line": "cold",
+      "image": null,
+      "cupSizes": [
+        20
+      ],
+      "ingredients": [
+        {
+          "name": "ပျားရည်",
+          "quantity": "30 ml"
+        },
+        {
+          "name": "ရိုးရိုးရေ",
+          "quantity": "100 ml"
+        },
+        {
+          "name": "ရေခဲ",
+          "quantity": "ခွက်ပြည့် (Video တွင် g မဖော်ပြ)"
+        },
+        {
+          "name": "စစ်ပြီး Thai Tea အရည်",
+          "quantity": "70 ml"
+        }
+      ],
+      "steps": [
+        "Thai Tea အမှုန့် 10 g ကို ရေနွေး 100 ml ဖြင့် နှပ်၍ စစ်ပြီး လက်ဖက်ရည်အရည် 70 ml ကို တိုင်းထားပါ။ Video တွင် နှပ်ချိန်နှင့် ရေအပူချိန် မဖော်ပြပါ။ အောက်က ပါဝင်ပစ္စည်းစာရင်းရှိ လက်ဖက်ရည်အရည်သည် ယခုထုတ်ထားသည့်အရည် ဖြစ်သည်။",
+        "ပျားရည် 30 ml ကို အရင်ဆုံး ခွက်အောက်ခြေထဲထည့်ပါ။",
+        "ရိုးရိုးရေ 100 ml ထည့်ပါ။",
+        "ပျားရည်နှင့် ရေကို ရောမွှေပါ။",
+        "ယခုမှ ရေခဲကို ခွက်ပြည့်အောင် ဖြည့်ပါ။",
+        "Thai Tea အရည် 70 ml ကို ရေခဲပေါ် နောက်ဆုံးမှ ဖြည်းဖြည်း လောင်းထည့်ပါ။"
+      ],
+      "notes": [
+        "မူရင်း — Joonyu Coffee House · tea & refreshing · Part 17 · Video 03:58–04:16 (ခန့်မှန်းအချိန်)။",
+        "Thai Tea အမှုန့် 10 g + ရေနွေး 100 ml ဖြင့် ထုတ်ပြီး စစ်ထားသော လက်ဖက်ရည်အရည် 70 ml ကို အပေါ်မှလောင်းသည်။ လက်ဖက်နှပ်ချိန်/အပူချိန် မဖော်ပြပါ။",
+        "ရေခဲကို Video အတိုင်း ခွက်ပြည့်ထည့်သည်။ ရေခဲ g မဖော်ပြသဖြင့် အလေးချိန်ကို မခန့်မှန်းထားပါ။",
+        "Video မှ ဖော်မြူလာကို ကူးရေးထားခြင်းဖြစ်ပြီး ကိုယ်တိုင်ဖျော်စမ်းအတည်ပြုထားခြင်း မရှိသေးပါ။"
+      ],
+      "espressoDose": null,
+      "espressoYield": null,
+      "iceQuantity": "ခွက်ပြည့် — g မဖော်ပြ",
+      "milkQuantity": null,
+      "waterQuantity": null,
+      "sweetnessLevel": "Video: 100% SWEET",
+      "version": 1,
+      "updatedAt": "2026-11-15T00:00:00.000Z",
+      "verification": "source-unverified",
+      "source": {
+        "file": "ScreenRecording_11-15-2026 08-48-32_1-compressed(1).mp4",
+        "sha256": "77c25bec0383310113db1716cb75eb8a6ee493f7ac11b9ed5cd98a49e482f558"
+      },
+      "sourceIngredients": [
+        {
+          "name": "ပျားရည်",
+          "quantity": "30 ml"
+        },
+        {
+          "name": "ရိုးရိုးရေ",
+          "quantity": "100 ml"
+        },
+        {
+          "name": "ရေခဲ",
+          "quantity": "ခွက်ပြည့် (Video တွင် g မဖော်ပြ)"
+        },
+        {
+          "name": "စစ်ပြီး Thai Tea အရည်",
+          "quantity": "70 ml"
+        }
+      ]
+    },
+    {
+      "id": "video-tea-18",
+      "menuNumber": "VDO-18",
+      "sourceTitle": "Joonyu Coffee House · tea & refreshing · Part 18",
+      "englishName": "Thai Red and Plum Soda · Video Part 18",
+      "burmeseName": "အနီဆိုဒါ ဆားဇီးသီး",
+      "categoryId": "video-tea-refreshing",
+      "line": "cold",
+      "image": null,
+      "cupSizes": [
+        20
+      ],
+      "ingredients": [
+        {
+          "name": "ဆားစိမ်ဇီးသီး (Pickled plum)",
+          "quantity": "3 လုံး"
+        },
+        {
+          "name": "ဇီးသီးစိမ်ရည်",
+          "quantity": "20 ml"
+        },
+        {
+          "name": "Thai Red Syrup (Sala)",
+          "quantity": "50 ml"
+        },
+        {
+          "name": "ရေခဲ",
+          "quantity": "ခွက်ပြည့် (Video တွင် g မဖော်ပြ)"
+        },
+        {
+          "name": "ဆိုဒါရည် — ရေခဲပေါ်ဖြည့်ရန်",
+          "quantity": "130–140 ml"
+        }
+      ],
+      "steps": [
+        "ဆားစိမ်ဇီးသီး 3 လုံးကို ခွက်အောက်ခြေထဲ အရင်ထည့်ပါ။",
+        "ဇီးသီးစိမ်ရည် 20 ml ထည့်ပါ။",
+        "ဇွန်းဖြင့် ဇီးသီးအသားကို ခွက်အောက်ခြေမှာ ဖိချေပါ။",
+        "Sala အနံ့ Thai Red Syrup 50 ml ထည့်ပါ။",
+        "ဇွန်းဖြင့် အောက်ခြေက အရည်များ ရောသွားအောင် မွှေပါ။",
+        "ယခုမှ ရေခဲကို ခွက်ပြည့်အောင် ဖြည့်ပါ။",
+        "ဆိုဒါရည် 130–140 ml ကို ရေခဲပေါ်မှ ဖြည်းဖြည်း လောင်းထည့်ပါ။"
+      ],
+      "notes": [
+        "မူရင်း — Joonyu Coffee House · tea & refreshing · Part 18 · Video 04:16–04:32 (ခန့်မှန်းအချိန်)။",
+        "အပေါ်ဖြည့်ဆိုဒါကို Video မှာ 130–140 ml ဟု အပိုင်းအခြားဖြင့် ဖော်ပြထားသည်။",
+        "ရေခဲကို Video အတိုင်း ခွက်ပြည့်ထည့်သည်။ ရေခဲ g မဖော်ပြသဖြင့် အလေးချိန်ကို မခန့်မှန်းထားပါ။",
+        "Video မှ ဖော်မြူလာကို ကူးရေးထားခြင်းဖြစ်ပြီး ကိုယ်တိုင်ဖျော်စမ်းအတည်ပြုထားခြင်း မရှိသေးပါ။"
+      ],
+      "espressoDose": null,
+      "espressoYield": null,
+      "iceQuantity": "ခွက်ပြည့် — g မဖော်ပြ",
+      "milkQuantity": null,
+      "waterQuantity": null,
+      "sweetnessLevel": "Video: 100% SWEET",
+      "version": 1,
+      "updatedAt": "2026-11-15T00:00:00.000Z",
+      "verification": "source-unverified",
+      "source": {
+        "file": "ScreenRecording_11-15-2026 08-48-32_1-compressed(1).mp4",
+        "sha256": "77c25bec0383310113db1716cb75eb8a6ee493f7ac11b9ed5cd98a49e482f558"
+      },
+      "sourceIngredients": [
+        {
+          "name": "ဆားစိမ်ဇီးသီး (Pickled plum)",
+          "quantity": "3 လုံး"
+        },
+        {
+          "name": "ဇီးသီးစိမ်ရည်",
+          "quantity": "20 ml"
+        },
+        {
+          "name": "Thai Red Syrup (Sala)",
+          "quantity": "50 ml"
+        },
+        {
+          "name": "ရေခဲ",
+          "quantity": "ခွက်ပြည့် (Video တွင် g မဖော်ပြ)"
+        },
+        {
+          "name": "ဆိုဒါရည် — ရေခဲပေါ်ဖြည့်ရန်",
+          "quantity": "130–140 ml"
+        }
+      ]
+    },
+    {
+      "id": "video-tea-19",
+      "menuNumber": "VDO-19",
+      "sourceTitle": "Joonyu Coffee House · tea & refreshing · Part 19",
+      "englishName": "Yuzu Soda · Video Part 19",
+      "burmeseName": "ယူဇူ ဆိုဒါ",
+      "categoryId": "video-tea-refreshing",
+      "line": "cold",
+      "image": null,
+      "cupSizes": [
+        20
+      ],
+      "ingredients": [
+        {
+          "name": "Nature Taste Yuzu Fruit Based Preparation",
+          "quantity": "50 ml"
+        },
+        {
+          "name": "ဆိုဒါရည် — အောက်ခံရောရန်",
+          "quantity": "30 ml"
+        },
+        {
+          "name": "ရေခဲ",
+          "quantity": "ခွက်ပြည့် (Video တွင် g မဖော်ပြ)"
+        },
+        {
+          "name": "ဆိုဒါရည် — ရေခဲပေါ်ဖြည့်ရန်",
+          "quantity": "120 ml"
+        }
+      ],
+      "steps": [
+        "Yuzu အသီးအနှစ် 50 ml ကို ခွက်အောက်ခြေထဲ ထည့်ပါ။",
+        "ဆိုဒါရည် 30 ml ကို ခွက်အောက်ခံထဲ လောင်းထည့်ပါ။",
+        "ဇွန်းဖြင့် အောက်ခြေက အရည်များ ရောသွားအောင် မွှေပါ။",
+        "ယခုမှ ရေခဲကို ခွက်ပြည့်အောင် ဖြည့်ပါ။",
+        "ဆိုဒါရည် 120 ml ကို ရေခဲပေါ်မှ ဖြည်းဖြည်း လောင်းထည့်ပါ။"
+      ],
+      "notes": [
+        "မူရင်း — Joonyu Coffee House · tea & refreshing · Part 19 · Video 04:32–04:46 (ခန့်မှန်းအချိန်)။",
+        "ရေခဲကို Video အတိုင်း ခွက်ပြည့်ထည့်သည်။ ရေခဲ g မဖော်ပြသဖြင့် အလေးချိန်ကို မခန့်မှန်းထားပါ။",
+        "Video မှ ဖော်မြူလာကို ကူးရေးထားခြင်းဖြစ်ပြီး ကိုယ်တိုင်ဖျော်စမ်းအတည်ပြုထားခြင်း မရှိသေးပါ။"
+      ],
+      "espressoDose": null,
+      "espressoYield": null,
+      "iceQuantity": "ခွက်ပြည့် — g မဖော်ပြ",
+      "milkQuantity": null,
+      "waterQuantity": null,
+      "sweetnessLevel": "Video မူရင်းအချိုး",
+      "version": 1,
+      "updatedAt": "2026-11-15T00:00:00.000Z",
+      "verification": "source-unverified",
+      "source": {
+        "file": "ScreenRecording_11-15-2026 08-48-32_1-compressed(1).mp4",
+        "sha256": "77c25bec0383310113db1716cb75eb8a6ee493f7ac11b9ed5cd98a49e482f558"
+      },
+      "sourceIngredients": [
+        {
+          "name": "Nature Taste Yuzu Fruit Based Preparation",
+          "quantity": "50 ml"
+        },
+        {
+          "name": "ဆိုဒါရည် — အောက်ခံရောရန်",
+          "quantity": "30 ml"
+        },
+        {
+          "name": "ရေခဲ",
+          "quantity": "ခွက်ပြည့် (Video တွင် g မဖော်ပြ)"
+        },
+        {
+          "name": "ဆိုဒါရည် — ရေခဲပေါ်ဖြည့်ရန်",
+          "quantity": "120 ml"
+        }
+      ]
+    },
+    {
+      "id": "video-tea-20",
+      "menuNumber": "VDO-20",
+      "sourceTitle": "Joonyu Coffee House · tea & refreshing · Part 20",
+      "englishName": "Chrysanthemum Blue Tea · Video Part 20",
+      "burmeseName": "ဂန္ဓမာ ပဲပန်းပြာ လက်ဖက်ရည်အေး",
+      "categoryId": "video-tea-refreshing",
+      "line": "cold",
+      "image": null,
+      "cupSizes": [
+        20
+      ],
+      "ingredients": [
+        {
+          "name": "အချိုအသင့်ပါ ဂန္ဓမာအမှုန့် (Chrysanthemum powder)",
+          "quantity": "20 g"
+        },
+        {
+          "name": "ရိုးရိုးရေ",
+          "quantity": "180 ml"
+        },
+        {
+          "name": "ရေခဲ",
+          "quantity": "ခွက်ပြည့် (Video တွင် g မဖော်ပြ)"
+        },
+        {
+          "name": "စစ်ပြီး ပဲပန်းပြာရည် (Butterfly pea tea)",
+          "quantity": "30 ml"
+        }
+      ],
+      "steps": [
+        "Video မှာသုံးထားသော ဂန္ဓမာဖျော်မှုန့် 20 g ကို ခွက်အလွတ်ထဲ အရင်ထည့်ပါ။",
+        "ရိုးရိုးရေ 180 ml ထည့်ပါ။",
+        "အမှုန့်ပျော်သွားအောင် မွှေပါ။",
+        "ယခုမှ ရေခဲကို ခွက်ပြည့်အောင် ဖြည့်ပါ။",
+        "နောက်ဆုံးမှ ပဲပန်းပြာရည် 30 ml ကို ရေခဲပေါ် ဖြည်းဖြည်းလောင်းပြီး အပေါ်အလွှာပြာရောင်ပေါ်အောင်ထားပါ။"
+      ],
+      "notes": [
+        "မူရင်း — Joonyu Coffee House · tea & refreshing · Part 20 · Video 04:46–05:10 (ခန့်မှန်းအချိန်)။",
+        "ဂန္ဓမာဖျော်မှုန့် 20 g သုံးထားခြင်းဖြစ်ပြီး ဂန္ဓမာပန်းခြောက် 20 g ဖြင့် အစားထိုးထားခြင်း မဟုတ်ပါ။",
+        "ပဲပန်းပြာရည်ကြိုဖျော်ရာတွင် ပန်းပမာဏ၊ ရေပမာဏနှင့် နှပ်ချိန် မပြထားပါ။",
+        "ရေခဲကို Video အတိုင်း ခွက်ပြည့်ထည့်သည်။ ရေခဲ g မဖော်ပြသဖြင့် အလေးချိန်ကို မခန့်မှန်းထားပါ။",
+        "Video မှ ဖော်မြူလာကို ကူးရေးထားခြင်းဖြစ်ပြီး ကိုယ်တိုင်ဖျော်စမ်းအတည်ပြုထားခြင်း မရှိသေးပါ။"
+      ],
+      "espressoDose": null,
+      "espressoYield": null,
+      "iceQuantity": "ခွက်ပြည့် — g မဖော်ပြ",
+      "milkQuantity": null,
+      "waterQuantity": null,
+      "sweetnessLevel": "Video မူရင်းအချိုး",
+      "version": 1,
+      "updatedAt": "2026-11-15T00:00:00.000Z",
+      "verification": "source-unverified",
+      "source": {
+        "file": "ScreenRecording_11-15-2026 08-48-32_1-compressed(1).mp4",
+        "sha256": "77c25bec0383310113db1716cb75eb8a6ee493f7ac11b9ed5cd98a49e482f558"
+      },
+      "sourceIngredients": [
+        {
+          "name": "အချိုအသင့်ပါ ဂန္ဓမာအမှုန့် (Chrysanthemum powder)",
+          "quantity": "20 g"
+        },
+        {
+          "name": "ရိုးရိုးရေ",
+          "quantity": "180 ml"
+        },
+        {
+          "name": "ရေခဲ",
+          "quantity": "ခွက်ပြည့် (Video တွင် g မဖော်ပြ)"
+        },
+        {
+          "name": "စစ်ပြီး ပဲပန်းပြာရည် (Butterfly pea tea)",
+          "quantity": "30 ml"
+        }
+      ]
     }
   ],
-  "seedVersion": 6
+  "seedVersion": 7
 }

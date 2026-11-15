@@ -14,7 +14,16 @@ export const RecipeSchema = z.object({
     .refine((s) => s.startsWith("https://"), "HTTPS လိုအပ်သည်")
     .nullable(),
   cupSizes: z
-    .array(z.union([z.literal(8), z.literal(12), z.literal(16), z.literal(22)]))
+    .array(
+      z.union([
+        z.literal(8),
+        z.literal(12),
+        z.literal(16),
+        z.literal(20),
+        z.literal(22),
+        z.literal(32),
+      ]),
+    )
     .max(4),
   ingredients: z
     .array(z.object({ name: safeText, quantity: z.string().max(3000) }))

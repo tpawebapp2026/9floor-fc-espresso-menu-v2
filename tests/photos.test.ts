@@ -11,11 +11,15 @@ const seed = CatalogSchema.parse(
 it("every existing recipe has a reviewed photo mapping and owner-uploaded images take precedence", () => {
   expect(Object.keys(photos.recipes).sort()).toEqual(
     seed.recipes
-      .filter((r) => !r.id.startsWith("9f-poster-"))
+      .filter(
+        (r) => !r.id.startsWith("9f-poster-") && !r.id.startsWith("video-tea-"),
+      )
       .map((r) => r.id)
       .sort(),
   );
-  for (const r of seed.recipes.filter((r) => !r.id.startsWith("9f-poster-")))
+  for (const r of seed.recipes.filter(
+    (r) => !r.id.startsWith("9f-poster-") && !r.id.startsWith("video-tea-"),
+  ))
     expect(referencePhoto(r), r.id).not.toBeNull();
   for (const r of seed.recipes.filter(
     (r) => /Matcha/.test(r.englishName) && !r.id.startsWith("9f-poster-"),

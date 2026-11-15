@@ -9,7 +9,7 @@ const seed = CatalogSchema.parse(
 const plan = (id: string) => assemblyPlans[id];
 const cups = (id: string) => plan(id).steps.filter((s) => s.cupNumber);
 describe("complete cup-by-cup assembly", () => {
-  it("covers exactly 324 current recipes with every ingredient allocated once and every prepared mixture transferred once", () => {
+  it("covers every current recipe with every ingredient allocated once and every prepared mixture transferred once", () => {
     expect(Object.keys(assemblyPlans).sort()).toEqual(
       seed.recipes.map((r) => r.id).sort(),
     );
