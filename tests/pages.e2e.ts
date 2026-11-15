@@ -490,7 +490,7 @@ test("Album groups, exact crop images, recipes and favorites work on mobile and 
   await expect(
     page.getByRole("heading", { name: "9 FLOOR COFFEE — Menu Album" }),
   ).toBeVisible();
-  expect(await page.locator(".recipe-card").count()).toBeGreaterThanOrEqual(55);
+  await expect.poll(() => page.locator(".recipe-card").count()).toBeGreaterThanOrEqual(55);
   const errors: string[] = [];
   page.on("pageerror", (e) => errors.push(e.message));
   const images = page.locator(".recipe-card img");
