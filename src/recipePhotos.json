@@ -62,5 +62,37 @@
     "height": 768,
     "sha256": "98938c3e843b79c9f3a224b4b411a30562443914961154c58c54e4e3b8507c81",
     "ingredientsSha256": "ab7c6151c35d9ecb1a297bd7bb449dce24ab5cc58dd473f120763cb0ef633e71"
+  },
+  "v8-01-09": {
+    "key": "v8-01-09",
+    "file": "recipe-photos/v8-01-09.webp",
+    "width": 768,
+    "height": 768,
+    "sha256": "0e0342392cad65009d76e7b5fb121d936ab6e883ef3dd7250de0084d44fc2df5",
+    "ingredientsSha256": "4046837d889d71cf7065a67e2240ad8df4db466bc10a5386b851b8ba7f052ece"
+  },
+  "v9-iced-cappuccino": {
+    "key": "v9-iced-cappuccino",
+    "file": "recipe-photos/v9-iced-cappuccino.webp",
+    "width": 768,
+    "height": 768,
+    "sha256": "1307ac17ac078da267d0c1657e242ace99f8578447fbe62c3b031ffa6a313147",
+    "ingredientsSha256": "de066ea564b3c9046ada2e6aa3007ea1728e3cbeb33f93427edc48551a74c73c"
+  },
+  "v8-01-10": {
+    "key": "v8-01-10",
+    "file": "recipe-photos/v8-01-10.webp",
+    "width": 768,
+    "height": 768,
+    "sha256": "e0c8437e15f79a123cb20e33f3d636841efc4772595139a11418b27f49bf2c4d",
+    "ingredientsSha256": "317a0a6da2e2c930f69b058f17b327b203208661749cd18826807f6ab917c149"
+  },
+  "v8-01-11": {
+    "key": "v8-01-11",
+    "file": "recipe-photos/v8-01-11.webp",
+    "width": 768,
+    "height": 768,
+    "sha256": "2de8f1ec1dc8ff93931ddfbf265bcede77b5dd2a406979b1dacae2a807d1eec8",
+    "ingredientsSha256": "dbc0d40203cf4f8bc9a1dc83417a715043261db024893598e65ef84f8b5d2bd1"
   }
 }
