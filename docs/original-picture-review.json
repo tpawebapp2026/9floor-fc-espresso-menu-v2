@@ -1,6 +1,6 @@
 {
   "scope": "Original 260 recipes",
-  "reviewed": 25,
+  "reviewed": 27,
   "target": 260,
   "method": "imagegen",
   "rows": [
@@ -378,6 +378,36 @@
       "reviewedAt": "2026-11-16",
       "prompt": "Create a new standalone photorealistic premium cafe menu photograph, square composition. One whole appropriate serving cup (as specified in the recipe below) centered, fully visible with 8% breathing room, warm off-white seamless studio background, soft natural side lighting and realistic cold condensation for iced drinks or a clean dry ceramic surface for hot drinks. Recipe to depict (do not print its name): Hot Long Black:120ml hot water first, then32g espresso floated on top preserving a thin golden crema on deep black coffee.12oz white heatproof ceramic cup with handle, partly filled with152ml coffee. No milk, ice or garnish. Show ONLY the actual finished drink. Coffee grounds are for brewing and must not appear in the cup. Reproduce the exact dark-green 9 FLOOR COFFEE logo from the attached logo-only reference on a centered white cup label. No people, hands, third-party logos, extra captions, surrounding props or ingredients not specified. This must be a fresh individual photograph, not a reuse of another menu image.",
       "visual": "Hot Long Black:120ml hot water first, then32g espresso floated on top preserving a thin golden crema on deep black coffee.12oz white heatproof ceramic cup with handle, partly filled with152ml coffee. No milk, ice or garnish."
+    },
+    {
+      "key": "v8-02-05",
+      "file": "recipe-photos/v8-02-05.webp",
+      "width": 768,
+      "height": 768,
+      "bytes": 21818,
+      "sha256": "681d12cf825944b41943a2c180505a1a644c630b8974eee156162ef4d7da1329",
+      "gitSha": "3f14fc2de21c9af4edbcb08d0ce7a4d3a56fa6d0",
+      "recipeName": "Hot Latte",
+      "ingredientsSha256": "1cc4dfc63a090484da96669a6316c2aa02538bac2efa27dcd1da784a3614cfe2",
+      "method": "imagegen",
+      "reviewedAt": "2026-11-16",
+      "prompt": "Create a new standalone photorealistic premium cafe menu photograph, square composition. One whole appropriate serving cup (as specified in the recipe below) centered, fully visible with 8% breathing room, warm off-white seamless studio background, soft natural side lighting and realistic cold condensation for iced drinks or a clean dry ceramic surface for hot drinks. Recipe to depict (do not print its name): Hot Latte:32g espresso and180ml steamed milk in12oz white ceramic cafe cup with handle. Warm pale caramel coffee, thin silky white microfoam surface with a modest natural heart latte art. No ice, cream, cocoa, cinnamon or garnish. Show ONLY the actual finished drink. Coffee grounds are for brewing and must not appear in the cup. Reproduce the exact dark-green 9 FLOOR COFFEE logo from the attached logo-only reference on a centered white cup label. No people, hands, third-party logos, extra captions, surrounding props or ingredients not specified. This must be a fresh individual photograph, not a reuse of another menu image.",
+      "visual": "Hot Latte:32g espresso and180ml steamed milk in12oz white ceramic cafe cup with handle. Warm pale caramel coffee, thin silky white microfoam surface with a modest natural heart latte art. No ice, cream, cocoa, cinnamon or garnish."
+    },
+    {
+      "key": "v8-02-06",
+      "file": "recipe-photos/v8-02-06.webp",
+      "width": 768,
+      "height": 768,
+      "bytes": 25856,
+      "sha256": "93b428264d2691111a3010240584a1ba4521d16fd7b1d1b5a3a0c64cc7548d7d",
+      "gitSha": "ad7a16029d79b02a6d6604e34cbce0e765e859e5",
+      "recipeName": "Hot Cappuccino",
+      "ingredientsSha256": "2f9de061e71c8b57d9a7d06fdb048c9d5e3b99606315eb411f17c3bc4bff8954",
+      "method": "imagegen",
+      "reviewedAt": "2026-11-16",
+      "prompt": "Create a new standalone photorealistic premium cafe menu photograph, square composition. One whole appropriate serving cup (as specified in the recipe below) centered, fully visible with 8% breathing room, warm off-white seamless studio background, soft natural side lighting and realistic cold condensation for iced drinks or a clean dry ceramic surface for hot drinks. Recipe to depict (do not print its name): Hot Cappuccino:32g espresso and130ml steamed milk in12oz white ceramic cafe cup with handle. A thick velvety white milk-foam cap above warm tan coffee, golden crema rim. Recipe has NO cocoa or cinnamon powder, no dusting, no whipped cream, no ice. Show ONLY the actual finished drink. Coffee grounds are for brewing and must not appear in the cup. Reproduce the exact dark-green 9 FLOOR COFFEE logo from the attached logo-only reference on a centered white cup label. No people, hands, third-party logos, extra captions, surrounding props or ingredients not specified. This must be a fresh individual photograph, not a reuse of another menu image.",
+      "visual": "Hot Cappuccino:32g espresso and130ml steamed milk in12oz white ceramic cafe cup with handle. A thick velvety white milk-foam cap above warm tan coffee, golden crema rim. Recipe has NO cocoa or cinnamon powder, no dusting, no whipped cream, no ice."
     }
   ]
 }
