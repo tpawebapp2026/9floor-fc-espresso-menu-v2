@@ -1,5 +1,11 @@
 import { getProcedure } from "../src/procedure";
-import { test, expect } from "@playwright/test";
+import { test, expect, type Page } from "@playwright/test";
+async function openMenu(page: Page) {
+  if (!(await page.locator("#app-menu").isVisible()))
+    await page
+      .getByRole("button", { name: "Menu ဖွင့်ရန်", exact: true })
+      .click();
+}
 import { countries } from "../src/international";
 import { readFileSync } from "node:fs";
 const photoCatalog = JSON.parse(
@@ -15,6 +21,7 @@ test("video recipes expose all 20 parts with original frames and work offline", 
 }) => {
   await page.setViewportSize({ width: 390, height: 844 });
   await page.goto("./");
+  await openMenu(page);
   await page.getByRole("button", { name: /Video Recipe · Part 01–20/ }).click();
   await expect(page.locator(".recipe-card")).toHaveCount(22);
   await page.goto("./#/recipe/video-tea-05");
@@ -61,10 +68,12 @@ test("international cold menus expose six styles, existing country links and cor
 }) => {
   await page.setViewportSize({ width: 360, height: 800 });
   await page.goto("./");
+  await openMenu(page);
   await page
     .getByRole("navigation", { name: "အဓိကမီနူး" })
     .getByRole("button", { name: "နိုင်ငံတကာစတိုင်", exact: true })
     .click();
+  await openMenu(page);
   await page
     .locator(".world-lines")
     .getByRole("button", { name: /အအေးစုံ/ })
@@ -73,9 +82,11 @@ test("international cold menus expose six styles, existing country links and cor
   const styles = page.locator(".cold-style-grid button");
   await expect(styles).toHaveCount(7);
   for (let i = 1; i < 7; i++) {
+    await openMenu(page);
     await styles.nth(i).click();
     expect(await page.locator(".recipe-card").count()).toBeGreaterThan(0);
   }
+  await openMenu(page);
   await page
     .locator(".country-grid")
     .getByRole("button", { name: /🇮🇹/ })
@@ -153,13 +164,23 @@ test.describe("mocked missing photo", () => {
   });
 });
 
-test("portrait and tablet headers keep all four full navigation labels visible and usable", async ({
+test("picture gallery stays simple and the side menu is accessible on phones and tablets", async ({
   page,
 }) => {
   await page.goto("./");
+  const menu = page.locator("#app-menu");
+  const trigger = page.getByRole("button", {
+    name: "Menu ဖွင့်ရန်",
+    exact: true,
+  });
   const nav = page.getByRole("navigation", { name: "အဓိကမီနူး" });
   for (const width of [320, 360, 390, 430, 600, 650, 768, 900]) {
     await page.setViewportSize({ width, height: 844 });
+    await expect(page.getByRole("searchbox")).toBeVisible();
+    await expect(page.locator(".hero, .bottom-nav")).toHaveCount(0);
+    await expect(menu).not.toBeVisible();
+    await trigger.click();
+    await expect(menu).toBeVisible();
     for (const label of [
       "မီနူးစာအုပ်",
       "9 FLOOR Album",
@@ -170,62 +191,53 @@ test("portrait and tablet headers keep all four full navigation labels visible a
       const button = nav.getByRole("button", { name: label, exact: true });
       await expect(button).toBeVisible();
       const box = await button.boundingBox();
-      expect(box, `${width}: ${label}`).not.toBeNull();
       expect(box!.x).toBeGreaterThanOrEqual(0);
       expect(box!.x + box!.width).toBeLessThanOrEqual(width);
       expect(box!.height).toBeGreaterThanOrEqual(44);
     }
-    expect(
-      await page.evaluate(
-        () => document.documentElement.scrollWidth <= innerWidth,
-      ),
-    ).toBe(true);
     await nav
       .getByRole("button", { name: "နိုင်ငံတကာစတိုင်", exact: true })
       .click();
-    await expect(
-      page.getByRole("heading", {
-        name: "နိုင်ငံတကာ နာမည်ကြီးစတိုင်များ",
-        exact: true,
-      }),
-    ).toBeVisible();
+    await expect(menu).not.toBeVisible();
+    await openMenu(page);
+    await expect(page.locator(".section-intro h2")).toHaveText(
+      "နိုင်ငံတကာ နာမည်ကြီးစတိုင်များ",
+    );
     await expect(page.locator(".country-grid button")).toHaveCount(
       countries.length + 1,
     );
-  }
-  await page.setViewportSize({ width: 390, height: 844 });
-  await page.screenshot({
-    path: "/tmp/9floor-portrait-navigation.png",
-    fullPage: false,
-  });
-  const logo = page.getByAltText("9 FLOOR COFFEE မူရင်းလိုဂို", {
-    exact: true,
-  });
-  await expect
-    .poll(() =>
-      logo.evaluate(
-        (img: HTMLImageElement) => img.complete && img.naturalWidth === 1254,
-      ),
-    )
-    .toBe(true);
-  for (const width of [320, 390, 768, 1280]) {
-    await page.setViewportSize({ width, height: 844 });
-    const box = await logo.boundingBox();
-    expect(box!.x).toBeGreaterThanOrEqual(0);
-    expect(box!.x + box!.width).toBeLessThanOrEqual(width);
+    await page.keyboard.press("Escape");
+    await expect(menu).not.toBeVisible();
+    await expect(trigger).toBeFocused();
     expect(
       await page.evaluate(
         () => document.documentElement.scrollWidth <= innerWidth,
       ),
     ).toBe(true);
   }
-  await page
-    .locator(".coffee-banner")
-    .screenshot({ path: "/tmp/9floor-brand-banner-desktop.png" });
   await page.setViewportSize({ width: 390, height: 844 });
-  await page
-    .locator(".coffee-banner")
-    .screenshot({ path: "/tmp/9floor-brand-banner-mobile.png" });
+  await openMenu(page);
+  await page.keyboard.press("Tab");
+  expect(
+    await page.evaluate(() => !!document.activeElement?.closest("#app-menu")),
+  ).toBe(true);
+  await page.screenshot({ path: "/tmp/9floor-side-menu-mobile.png" });
+  await page.mouse.click(5, 300);
+  await expect(menu).not.toBeVisible();
+  await page.getByRole("searchbox").fill("VC-01");
+  await expect(page.locator(".recipe-card")).toHaveCount(1);
+  await expect(page.locator(".card-copy").first()).not.toBeVisible();
+  const image = page.locator(".recipe-card img").first();
+  await expect
+    .poll(() =>
+      image.evaluate(
+        (im: HTMLImageElement) => im.complete && im.naturalWidth > 0,
+      ),
+    )
+    .toBe(true);
+  await page.screenshot({ path: "/tmp/9floor-picture-gallery-mobile.png" });
+  await page.locator(".card-open").click();
+  await expect(page.locator(".detail-heading h1")).toContainText("Black Honey");
 });
 test("Pages reader serves all menus under its repository path with a scoped manifest", async ({
   page,
@@ -234,6 +246,7 @@ test("Pages reader serves all menus under its repository path with a scoped mani
   await page.setViewportSize({ width: 390, height: 844 });
   await page.goto("./");
   await expect(page.locator(".recipe-card")).toHaveCount(191);
+  await openMenu(page);
   await page.getByRole("button", { name: /အအေးစုံလိုင်း/ }).click();
   await expect(page.locator(".recipe-card")).toHaveCount(218);
   await expect(
@@ -367,8 +380,9 @@ test("all four preparation groups open the correct new recipes and preserve favo
   await page.goto("./");
   await expect(page.locator(".recipe-card")).toHaveCount(191);
   await page.locator(".favorite").first().click();
+  await openMenu(page);
   await page
-    .locator(".bottom-nav")
+    .getByRole("navigation", { name: "အဓိကမီနူး" })
     .getByRole("button", { name: /အခြေခံ/ })
     .click();
   await expect(page.locator(".recipe-card")).toHaveCount(12);
@@ -378,6 +392,7 @@ test("all four preparation groups open the correct new recipes and preserve favo
   });
   const seed = JSON.parse(await readFile("public/recipes.json", "utf8"));
   for (const group of ["Syrup", "Sauce", "Fruit Concentrate", "Fruit Purée"]) {
+    await openMenu(page);
     await page
       .locator(".preparation-groups")
       .getByRole("button", { name: new RegExp(group) })
@@ -428,8 +443,9 @@ test("all four preparation groups open the correct new recipes and preserve favo
   await expect(page.locator(".detail-heading h1")).toHaveText(
     "Simple Syrup 1:1 (by weight)",
   );
+  await openMenu(page);
   await page
-    .locator(".bottom-nav")
+    .getByRole("navigation", { name: "အဓိကမီနူး" })
     .getByRole("button", { name: /အကြိုက်ဆုံး/ })
     .click();
   await expect(
@@ -447,8 +463,10 @@ test("mobile Matcha discovery, country style filters and detailed related recipe
   await page.goto("./");
   await page.getByRole("searchbox").fill("Matcha");
   await expect(page.locator(".recipe-card")).toHaveCount(40);
+  await openMenu(page);
   await page.getByRole("button", { name: /Matcha သီးသန့်ကြည့်ရန်/ }).click();
   await expect(page.locator(".recipe-card")).toHaveCount(39);
+  await openMenu(page);
   await page
     .locator(".matcha-styles")
     .getByRole("button", { name: /ထိုင်း/ })
@@ -483,13 +501,14 @@ test("Album groups, exact crop images, recipes and favorites work on mobile and 
 }) => {
   await page.setViewportSize({ width: 390, height: 844 });
   await page.goto("./");
+  await openMenu(page);
   await page
     .getByRole("navigation", { name: "အဓိကမီနူး" })
     .getByRole("button", { name: "9 FLOOR Album", exact: true })
     .click();
-  await expect(
-    page.getByRole("heading", { name: "9 FLOOR COFFEE — Menu Album" }),
-  ).toBeVisible();
+  await expect(page.locator(".section-intro h2")).toHaveText(
+    "9 FLOOR COFFEE — Menu Album",
+  );
   await expect
     .poll(() => page.locator(".recipe-card").count())
     .toBeGreaterThanOrEqual(55);
@@ -508,6 +527,7 @@ test("Album groups, exact crop images, recipes and favorites work on mobile and 
     );
   }
   const groups = page.getByRole("combobox", { name: "အမျိုးအစား ရွေးရန်" });
+  await openMenu(page);
   await groups.selectOption("album-signature");
   await expect(
     page.getByRole("button", {
@@ -515,6 +535,7 @@ test("Album groups, exact crop images, recipes and favorites work on mobile and 
       exact: true,
     }),
   ).toBeVisible();
+  await openMenu(page);
   await groups.selectOption("album-cream");
   await expect(page.locator(".recipe-card")).toHaveCount(5);
   await page
@@ -555,8 +576,9 @@ test("Album groups, exact crop images, recipes and favorites work on mobile and 
         ),
     )
     .toBe(true);
+  await openMenu(page);
   await page
-    .locator(".bottom-nav")
+    .getByRole("navigation", { name: "အဓိကမီနူး" })
     .getByRole("button", { name: /အကြိုက်ဆုံး/ })
     .click();
   await expect(page.locator(".recipe-card")).toHaveCount(1);
@@ -577,10 +599,12 @@ test("Album groups, exact crop images, recipes and favorites work on mobile and 
   }
   expect(errors).toEqual([]);
   await page.setViewportSize({ width: 390, height: 844 });
+  await openMenu(page);
   await page
-    .locator(".bottom-nav")
+    .getByRole("navigation", { name: "အဓိကမီနူး" })
     .getByRole("button", { name: /9 FLOOR Album/ })
     .click();
+  await openMenu(page);
   await groups.selectOption("album-cream");
   await page.screenshot({
     path: "/tmp/9floor-album-cream-mobile.png",
@@ -653,6 +677,7 @@ test("new uploaded series expose all 75 additions, exact variants, photos and of
     [/Video Two Tone · Part 01–14/, 16],
     [/Video Matcha · Part 01–18/, 20],
   ] as const) {
+    await openMenu(page);
     await page.getByRole("button", { name }).click();
     await expect(page.locator(".recipe-card")).toHaveCount(count);
     await expect(page.locator(".recipe-card img").first()).toHaveAttribute(
