@@ -1,6 +1,6 @@
 {
   "scope": "Original 260 recipes",
-  "reviewed": 148,
+  "reviewed": 150,
   "target": 260,
   "method": "imagegen",
   "rows": [
@@ -2223,6 +2223,36 @@
       "reviewedAt": "2026-11-16",
       "prompt": "Create one new photorealistic premium cafe menu photograph, square composition, warm off-white seamless studio background, soft natural side lighting. One appropriate serving cup as described in the recipe, fully visible and centered with 8% breathing room. Hot cups must be dry, without ice or condensation. Exact recipe: Iced Oat Vanilla Latte: exactly 32g espresso and 150ml Barista oat milk, plus 15ml vanilla syrup. 180g visible ice cubes, clear 16oz takeaway cup with condensation. All liquids stirred to uniform creamy coffee beige tan. No dairy milk, whole oats, nuts, coconut pieces, chocolate garnish, cinnamon, caramel drizzle, whipped cream, flowers or surrounding props. The plant milk is blended into the coffee; no fake green or purple color. Reproduce the attached dark-green 9 FLOOR COFFEE logo on a centered white cup label. Show only the finished drink. No people, hands, third-party logos, surrounding props, extra captions or unlisted ingredients. Fresh individual photograph for this recipe.",
       "visual": "Iced Oat Vanilla Latte: exactly 32g espresso and 150ml Barista oat milk, plus 15ml vanilla syrup. 180g visible ice cubes, clear 16oz takeaway cup with condensation. All liquids stirred to uniform creamy coffee beige tan. No dairy milk, whole oats, nuts, coconut pieces, chocolate garnish, cinnamon, caramel drizzle, whipped cream, flowers or surrounding props. The plant milk is blended into the coffee; no fake green or purple color."
+    },
+    {
+      "key": "v8-16-09",
+      "file": "recipe-photos/v8-16-09.webp",
+      "width": 768,
+      "height": 768,
+      "bytes": 45942,
+      "sha256": "c6825fb39cd25956d2c3cb7e08cbd72f32f06fc36920322d2fbacda1ca71926a",
+      "gitSha": "ffd11593df66f1a6d1a7537800d73dfde32dde37",
+      "recipeName": "Iced Almond Mocha",
+      "ingredientsSha256": "105b71073d366de435436395d40e384aef0e28891432016cd7edbc716aa5a803",
+      "method": "imagegen",
+      "reviewedAt": "2026-11-16",
+      "prompt": "Create one new photorealistic premium cafe menu photograph, square composition, warm off-white seamless studio background, soft natural side lighting. One appropriate serving cup as described in the recipe, fully visible and centered with 8% breathing room. Hot cups must be dry, without ice or condensation. Exact recipe: Iced Almond Mocha: exactly 32g espresso and 150ml Almond milk, plus 20ml chocolate sauce. 180g visible ice cubes, clear 16oz takeaway cup with condensation. All liquids stirred to uniform medium chocolate coffee brown. No dairy milk, whole oats, nuts, coconut pieces, chocolate garnish, cinnamon, caramel drizzle, whipped cream, flowers or surrounding props. The plant milk is blended into the coffee; no fake green or purple color. Reproduce the attached dark-green 9 FLOOR COFFEE logo on a centered white cup label. Show only the finished drink. No people, hands, third-party logos, surrounding props, extra captions or unlisted ingredients. Fresh individual photograph for this recipe.",
+      "visual": "Iced Almond Mocha: exactly 32g espresso and 150ml Almond milk, plus 20ml chocolate sauce. 180g visible ice cubes, clear 16oz takeaway cup with condensation. All liquids stirred to uniform medium chocolate coffee brown. No dairy milk, whole oats, nuts, coconut pieces, chocolate garnish, cinnamon, caramel drizzle, whipped cream, flowers or surrounding props. The plant milk is blended into the coffee; no fake green or purple color."
+    },
+    {
+      "key": "v8-16-10",
+      "file": "recipe-photos/v8-16-10.webp",
+      "width": 768,
+      "height": 768,
+      "bytes": 36786,
+      "sha256": "aac727ae8f3b62726531ccf82fd842523b97282e6d47d40a57491d30f68a1789",
+      "gitSha": "df2f8c0c30974b4907f7f1fa5dc35d8c189b5f84",
+      "recipeName": "Oat Brown Sugar Shaken Espresso",
+      "ingredientsSha256": "0d146a00e9bfea5677f95e0d0df960067b5ad50caa1e2c4577cd509edaa4a009",
+      "method": "imagegen",
+      "reviewedAt": "2026-11-16",
+      "prompt": "Create one new photorealistic premium cafe menu photograph, square composition, warm off-white seamless studio background, soft natural side lighting. One appropriate serving cup as described in the recipe, fully visible and centered with 8% breathing room. Hot cups must be dry, without ice or condensation. Exact recipe: Oat Brown Sugar Shaken Espresso: 32g espresso shaken with 20ml brown sugar syrup and some ice, then poured over 90ml oat milk and 180g total ice in a clear 16oz takeaway cup. Pale oat milk at base transitioning to darker caramel coffee above, natural mixing swirls and a small tan shaken espresso foam cap. Not whipped cream. No dairy milk, whole oats, nuts, coconut pieces, chocolate garnish, cinnamon, caramel drizzle, whipped cream, flowers or surrounding props. The plant milk is blended into the coffee; no fake green or purple color. Reproduce the attached dark-green 9 FLOOR COFFEE logo on a centered white cup label. Show only the finished drink. No people, hands, third-party logos, surrounding props, extra captions or unlisted ingredients. Fresh individual photograph for this recipe.",
+      "visual": "Oat Brown Sugar Shaken Espresso: 32g espresso shaken with 20ml brown sugar syrup and some ice, then poured over 90ml oat milk and 180g total ice in a clear 16oz takeaway cup. Pale oat milk at base transitioning to darker caramel coffee above, natural mixing swirls and a small tan shaken espresso foam cap. Not whipped cream. No dairy milk, whole oats, nuts, coconut pieces, chocolate garnish, cinnamon, caramel drizzle, whipped cream, flowers or surrounding props. The plant milk is blended into the coffee; no fake green or purple color."
     }
   ]
 }
