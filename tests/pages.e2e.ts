@@ -102,7 +102,7 @@ test("international cold menus expose six styles, existing country links and cor
     ),
   ).toBe(true);
 });
-test("locally hosted reference photographs load, carry credits and survive an offline detail reload", async ({
+test("locally hosted photographs load with accurate credits and survive an offline detail reload", async ({
   page,
   context,
   request,
@@ -128,8 +128,9 @@ test("locally hosted reference photographs load, carry credits and survive an of
       ),
     )
     .toBe(true);
-  await expect(page.locator(".photo-credit")).toContainText("Dredre Lovee");
-  await expect(page.locator(".photo-credit")).toContainText("CC BY-SA 4.0");
+  await expect(image).toHaveAttribute("src", /recipe-photos\/v8-01-11\.webp$/);
+  await expect(page.locator(".photo-credit")).toContainText("Iced Caramel Latte");
+  await expect(page.locator(".photo-credit")).toContainText("AI");
   await context.setOffline(true);
   await page.reload();
   await expect
@@ -524,7 +525,7 @@ test("Album groups, exact crop images, recipes and favorites work on mobile and 
     await expect(images.nth(i)).toHaveCSS("object-fit", "contain");
     await expect(images.nth(i)).toHaveAttribute(
       "src",
-      /^(data:image\/jpeg;base64,|.*\/recipe-photos\/v8-[\w-]+\.webp$)/,
+      /^(data:image\/jpeg;base64,|.*\/recipe-photos\/[\w-]+\.webp$)/,
     );
   }
   const groups = page.getByRole("combobox", { name: "အမျိုးအစား ရွေးရန်" });
