@@ -1,6 +1,6 @@
 {
   "scope": "Original 260 recipes",
-  "reviewed": 162,
+  "reviewed": 164,
   "target": 260,
   "method": "imagegen",
   "rows": [
@@ -2433,6 +2433,36 @@
       "reviewedAt": "2026-11-16",
       "prompt": "Create one new photorealistic premium cafe menu photograph, square composition, warm off-white seamless studio background, soft natural side lighting. One appropriate serving cup as described in the recipe, fully visible and centered with 8% breathing room. Hot cups must be dry, without ice or condensation. Exact recipe: Mango Espresso: 120ml mango juice diluted with 20ml still water, 180g ice, then 32g espresso poured last. Cloudy golden orange mango base below dark brown coffee upper region, softly mixing boundary. Clear 16oz takeaway cup, visible ice and condensation. No milk, whipped cream, fruit slices, whole fruits, decorative garnish, straws or surrounding props. Still drink, no carbonation bubbles. Reproduce the attached dark-green 9 FLOOR COFFEE logo on a centered white cup label. Show only the finished drink. No people, hands, third-party logos, surrounding props, extra captions or unlisted ingredients. Fresh individual photograph for this recipe.",
       "visual": "Mango Espresso: 120ml mango juice diluted with 20ml still water, 180g ice, then 32g espresso poured last. Cloudy golden orange mango base below dark brown coffee upper region, softly mixing boundary. Clear 16oz takeaway cup, visible ice and condensation. No milk, whipped cream, fruit slices, whole fruits, decorative garnish, straws or surrounding props. Still drink, no carbonation bubbles."
+    },
+    {
+      "key": "v8-18-03",
+      "file": "recipe-photos/v8-18-03.webp",
+      "width": 768,
+      "height": 768,
+      "bytes": 54618,
+      "sha256": "2bc82e4997c9440bcb4e6e6f1c854139a7bee2421a34bdbee029cae70fc42d53",
+      "gitSha": "31a34c29e51c34d3e97f4bc227e99e7ed7899395",
+      "recipeName": "Strawberry Espresso",
+      "ingredientsSha256": "c50fb8a5a4c29a92354963ff54ff47be3e2eea85cbe14e4aad41af10ed59d180",
+      "method": "imagegen",
+      "reviewedAt": "2026-11-16",
+      "prompt": "Create one new photorealistic premium cafe menu photograph, square composition, warm off-white seamless studio background, soft natural side lighting. One appropriate serving cup as described in the recipe, fully visible and centered with 8% breathing room. Hot cups must be dry, without ice or condensation. Exact recipe: Strawberry Espresso: 40ml strawberry puree diluted evenly in 110ml still water, 180g ice, then 32g espresso poured last. Thin slightly pulpy red strawberry water base below dark brown coffee, natural mixing gradient, no thick puree lump or milk. Clear 16oz takeaway cup, visible ice and condensation. No milk, whipped cream, fruit slices, whole fruits, decorative garnish, straws or surrounding props. Still drink, no carbonation bubbles. Reproduce the attached dark-green 9 FLOOR COFFEE logo on a centered white cup label. Show only the finished drink. No people, hands, third-party logos, surrounding props, extra captions or unlisted ingredients. Fresh individual photograph for this recipe.",
+      "visual": "Strawberry Espresso: 40ml strawberry puree diluted evenly in 110ml still water, 180g ice, then 32g espresso poured last. Thin slightly pulpy red strawberry water base below dark brown coffee, natural mixing gradient, no thick puree lump or milk. Clear 16oz takeaway cup, visible ice and condensation. No milk, whipped cream, fruit slices, whole fruits, decorative garnish, straws or surrounding props. Still drink, no carbonation bubbles."
+    },
+    {
+      "key": "v8-18-04",
+      "file": "recipe-photos/v8-18-04.webp",
+      "width": 768,
+      "height": 768,
+      "bytes": 53014,
+      "sha256": "6c809d0af3f637211f32f93b416b39773a64ecc2facc12c0b547ed97043f9c4c",
+      "gitSha": "24f2f7349df1ad7f988f1446c20e17374e2fba70",
+      "recipeName": "Apple Espresso",
+      "ingredientsSha256": "aa8e3c448f00e412d174a53afffadcab1c2fb541938014c294e853de3bb54966",
+      "method": "imagegen",
+      "reviewedAt": "2026-11-16",
+      "prompt": "Create one new photorealistic premium cafe menu photograph, square composition, warm off-white seamless studio background, soft natural side lighting. One appropriate serving cup as described in the recipe, fully visible and centered with 8% breathing room. Hot cups must be dry, without ice or condensation. Exact recipe: Apple Espresso: 140ml filtered apple juice, 180g ice, then 32g espresso poured last. Translucent pale golden apple juice below dark brown espresso with subtle natural mixing at boundary. Clear 16oz takeaway cup, visible ice and condensation. No milk, whipped cream, fruit slices, whole fruits, decorative garnish, straws or surrounding props. Still drink, no carbonation bubbles. Reproduce the attached dark-green 9 FLOOR COFFEE logo on a centered white cup label. Show only the finished drink. No people, hands, third-party logos, surrounding props, extra captions or unlisted ingredients. Fresh individual photograph for this recipe.",
+      "visual": "Apple Espresso: 140ml filtered apple juice, 180g ice, then 32g espresso poured last. Translucent pale golden apple juice below dark brown espresso with subtle natural mixing at boundary. Clear 16oz takeaway cup, visible ice and condensation. No milk, whipped cream, fruit slices, whole fruits, decorative garnish, straws or surrounding props. Still drink, no carbonation bubbles."
     }
   ]
 }
