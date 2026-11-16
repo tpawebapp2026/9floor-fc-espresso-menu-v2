@@ -1,6 +1,6 @@
 {
   "scope": "Original 260 recipes",
-  "reviewed": 150,
+  "reviewed": 152,
   "target": 260,
   "method": "imagegen",
   "rows": [
@@ -2253,6 +2253,36 @@
       "reviewedAt": "2026-11-16",
       "prompt": "Create one new photorealistic premium cafe menu photograph, square composition, warm off-white seamless studio background, soft natural side lighting. One appropriate serving cup as described in the recipe, fully visible and centered with 8% breathing room. Hot cups must be dry, without ice or condensation. Exact recipe: Oat Brown Sugar Shaken Espresso: 32g espresso shaken with 20ml brown sugar syrup and some ice, then poured over 90ml oat milk and 180g total ice in a clear 16oz takeaway cup. Pale oat milk at base transitioning to darker caramel coffee above, natural mixing swirls and a small tan shaken espresso foam cap. Not whipped cream. No dairy milk, whole oats, nuts, coconut pieces, chocolate garnish, cinnamon, caramel drizzle, whipped cream, flowers or surrounding props. The plant milk is blended into the coffee; no fake green or purple color. Reproduce the attached dark-green 9 FLOOR COFFEE logo on a centered white cup label. Show only the finished drink. No people, hands, third-party logos, surrounding props, extra captions or unlisted ingredients. Fresh individual photograph for this recipe.",
       "visual": "Oat Brown Sugar Shaken Espresso: 32g espresso shaken with 20ml brown sugar syrup and some ice, then poured over 90ml oat milk and 180g total ice in a clear 16oz takeaway cup. Pale oat milk at base transitioning to darker caramel coffee above, natural mixing swirls and a small tan shaken espresso foam cap. Not whipped cream. No dairy milk, whole oats, nuts, coconut pieces, chocolate garnish, cinnamon, caramel drizzle, whipped cream, flowers or surrounding props. The plant milk is blended into the coffee; no fake green or purple color."
+    },
+    {
+      "key": "v8-17-01",
+      "file": "recipe-photos/v8-17-01.webp",
+      "width": 768,
+      "height": 768,
+      "bytes": 50630,
+      "sha256": "cbea5fb3dadef9ecd1799db08a6b790f880e510dba20e2f6589a51c58d1fd832",
+      "gitSha": "f9e8709a9cfd29aa2ef3791743c62e9591eee92b",
+      "recipeName": "Cold Long Black",
+      "ingredientsSha256": "8fd11637882f85c24ba5350873f295e280cc66f7c82c83392fd76971c99f4115",
+      "method": "imagegen",
+      "reviewedAt": "2026-11-16",
+      "prompt": "Create one new photorealistic premium cafe menu photograph, square composition, warm off-white seamless studio background, soft natural side lighting. One appropriate serving cup as described in the recipe, fully visible and centered with 8% breathing room. Hot cups must be dry, without ice or condensation. Exact recipe: Cold Long Black: 32g espresso poured over 120ml cold still water and 180g ice. Deep translucent dark brown iced black coffee, amber edges, thin natural golden crema near top. Clear 16oz takeaway cup, visible ice and natural condensation. No unlisted ingredients, whipped cream, decorative garnish, fruit pieces, tools or surrounding props. No soda or large carbonation bubbles. Reproduce the attached dark-green 9 FLOOR COFFEE logo on a centered white cup label. Show only the finished drink. No people, hands, third-party logos, surrounding props, extra captions or unlisted ingredients. Fresh individual photograph for this recipe.",
+      "visual": "Cold Long Black: 32g espresso poured over 120ml cold still water and 180g ice. Deep translucent dark brown iced black coffee, amber edges, thin natural golden crema near top. Clear 16oz takeaway cup, visible ice and natural condensation. No unlisted ingredients, whipped cream, decorative garnish, fruit pieces, tools or surrounding props. No soda or large carbonation bubbles."
+    },
+    {
+      "key": "v8-17-02",
+      "file": "recipe-photos/v8-17-02.webp",
+      "width": 768,
+      "height": 768,
+      "bytes": 53850,
+      "sha256": "0b8437b55eeffcd3540caafdf9b9a7bff9c08c86293fec41a731a50a6f4923e2",
+      "gitSha": "2b455b719611164616ba25083fc42ce56fbef725",
+      "recipeName": "Iced Ristretto Black",
+      "ingredientsSha256": "8618aaf37e6f2262962c8531ae03140eee4b189e67217849b9cb5205939648a4",
+      "method": "imagegen",
+      "reviewedAt": "2026-11-16",
+      "prompt": "Create one new photorealistic premium cafe menu photograph, square composition, warm off-white seamless studio background, soft natural side lighting. One appropriate serving cup as described in the recipe, fully visible and centered with 8% breathing room. Hot cups must be dry, without ice or condensation. Exact recipe: Iced Ristretto Black: actual recorded recipe 32g espresso plus 100ml cold still water and 180g ice. Very dark translucent brown iced black coffee, thin crema, no milk. Clear 16oz takeaway cup, visible ice and natural condensation. No unlisted ingredients, whipped cream, decorative garnish, fruit pieces, tools or surrounding props. No soda or large carbonation bubbles. Reproduce the attached dark-green 9 FLOOR COFFEE logo on a centered white cup label. Show only the finished drink. No people, hands, third-party logos, surrounding props, extra captions or unlisted ingredients. Fresh individual photograph for this recipe.",
+      "visual": "Iced Ristretto Black: actual recorded recipe 32g espresso plus 100ml cold still water and 180g ice. Very dark translucent brown iced black coffee, thin crema, no milk. Clear 16oz takeaway cup, visible ice and natural condensation. No unlisted ingredients, whipped cream, decorative garnish, fruit pieces, tools or surrounding props. No soda or large carbonation bubbles."
     }
   ]
 }
