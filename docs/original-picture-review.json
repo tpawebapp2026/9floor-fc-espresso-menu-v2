@@ -1,6 +1,6 @@
 {
   "scope": "Original 260 recipes",
-  "reviewed": 48,
+  "reviewed": 50,
   "target": 260,
   "method": "imagegen",
   "rows": [
@@ -723,6 +723,36 @@
       "reviewedAt": "2026-11-16",
       "prompt": "Create a new standalone photorealistic premium cafe menu photograph, square composition. One whole appropriate serving cup (as specified in the recipe below) centered, fully visible with 8% breathing room, warm off-white seamless studio background, soft natural side lighting and realistic cold condensation for iced drinks or a clean dry ceramic surface for hot drinks. Recipe to depict (do not print its name): Iced Taro Milk:25g taro POWDER dissolved in60ml hot water,10ml simple syrup,120ml cold milk,150–180g ice. Uniformly mixed opaque pastel lavender-purple milk with ice,16oz clear cup. No espresso, boba, actual taro chunks, whipped cream, powder dust or garnish. Show ONLY the actual finished drink. Coffee grounds are for brewing and must not appear in the cup. Reproduce the exact dark-green 9 FLOOR COFFEE logo from the attached logo-only reference on a centered white cup label. No people, hands, third-party logos, extra captions, surrounding props or ingredients not specified. This must be a fresh individual photograph, not a reuse of another menu image.",
       "visual": "Iced Taro Milk:25g taro POWDER dissolved in60ml hot water,10ml simple syrup,120ml cold milk,150–180g ice. Uniformly mixed opaque pastel lavender-purple milk with ice,16oz clear cup. No espresso, boba, actual taro chunks, whipped cream, powder dust or garnish."
+    },
+    {
+      "key": "v8-04-11",
+      "file": "recipe-photos/v8-04-11.webp",
+      "width": 768,
+      "height": 768,
+      "bytes": 29192,
+      "sha256": "990fcc9cb01ec81316d788cd4df47977078483727924137236722fb30588c03a",
+      "gitSha": "5a2804046c794a7b003035ea9a663dbbed082359",
+      "recipeName": "Iced Strawberry Milk",
+      "ingredientsSha256": "279d6d12b75f711553bea78483d9386bac74a5a61dd2a4f84cc69ff344581d36",
+      "method": "imagegen",
+      "reviewedAt": "2026-11-16",
+      "prompt": "Create a new standalone photorealistic premium cafe menu photograph, square composition. One whole appropriate serving cup (as specified in the recipe below) centered, fully visible with 8% breathing room, warm off-white seamless studio background, soft natural side lighting and realistic cold condensation for iced drinks or a clean dry ceramic surface for hot drinks. Recipe to depict (do not print its name): Iced Strawberry Milk:25ml strawberry SYRUP diluted into60ml warm water then120ml cold milk,150–180g ice added. Uniformly mixed opaque pastel pink milk,16oz clear cup. NO actual strawberries, fruit chunks, puree seeds, red jam bottom, whipped cream or garnish. Show ONLY the actual finished drink. Coffee grounds are for brewing and must not appear in the cup. Reproduce the exact dark-green 9 FLOOR COFFEE logo from the attached logo-only reference on a centered white cup label. No people, hands, third-party logos, extra captions, surrounding props or ingredients not specified. This must be a fresh individual photograph, not a reuse of another menu image.",
+      "visual": "Iced Strawberry Milk:25ml strawberry SYRUP diluted into60ml warm water then120ml cold milk,150–180g ice added. Uniformly mixed opaque pastel pink milk,16oz clear cup. NO actual strawberries, fruit chunks, puree seeds, red jam bottom, whipped cream or garnish."
+    },
+    {
+      "key": "v8-04-12",
+      "file": "recipe-photos/v8-04-12.webp",
+      "width": 768,
+      "height": 768,
+      "bytes": 29870,
+      "sha256": "11fee57d5c7f40d02e92afa2a82d6837750ba95901e8ef0eadd454b061491e40",
+      "gitSha": "d39abda837f7fc7567250cb359a90350cb5df574",
+      "recipeName": "Iced Brown Sugar Milk",
+      "ingredientsSha256": "6d414127c0618303e930b58e1bc3449af614a1dbf97d224363b4d64817320a46",
+      "method": "imagegen",
+      "reviewedAt": "2026-11-16",
+      "prompt": "Create a new standalone photorealistic premium cafe menu photograph, square composition. One whole appropriate serving cup (as specified in the recipe below) centered, fully visible with 8% breathing room, warm off-white seamless studio background, soft natural side lighting and realistic cold condensation for iced drinks or a clean dry ceramic surface for hot drinks. Recipe to depict (do not print its name): Iced Brown Sugar Milk:25ml brown sugar SYRUP dissolved into60ml warm water then120ml cold milk,150–180g ice. Uniformly mixed pale beige caramel-tinted milk,16oz clear cup. NO espresso, boba, black pearls, tiger-wall syrup stripes, whipped cream or garnish. Show ONLY the actual finished drink. Coffee grounds are for brewing and must not appear in the cup. Reproduce the exact dark-green 9 FLOOR COFFEE logo from the attached logo-only reference on a centered white cup label. No people, hands, third-party logos, extra captions, surrounding props or ingredients not specified. This must be a fresh individual photograph, not a reuse of another menu image.",
+      "visual": "Iced Brown Sugar Milk:25ml brown sugar SYRUP dissolved into60ml warm water then120ml cold milk,150–180g ice. Uniformly mixed pale beige caramel-tinted milk,16oz clear cup. NO espresso, boba, black pearls, tiger-wall syrup stripes, whipped cream or garnish."
     }
   ]
 }
