@@ -875,7 +875,22 @@ function App() {
                 aria-label="မီနူးရှာရန်"
                 placeholder="မီနူးအမည် / နံပါတ်ဖြင့် ရှာမယ်…"
                 value={query}
-                onChange={(e) => setQuery(e.target.value)}
+                onChange={(e) => {
+                  const value = e.target.value;
+                  setQuery(value);
+                  if (
+                    value.trim() &&
+                    !["favorites", "recent", "preparations"].includes(view)
+                  ) {
+                    setView("menu");
+                    setCategory("");
+                    setCountry("");
+                    setWorldLine("");
+                    setWorldStyle("");
+                    setMatchaCountry("");
+                    setFamily("");
+                  }
+                }}
               />
             </label>
           </div>
