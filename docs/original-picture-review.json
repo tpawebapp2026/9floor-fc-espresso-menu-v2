@@ -1,6 +1,6 @@
 {
   "scope": "Original 260 recipes",
-  "reviewed": 128,
+  "reviewed": 130,
   "target": 260,
   "method": "imagegen",
   "rows": [
@@ -1923,6 +1923,36 @@
       "reviewedAt": "2026-11-16",
       "prompt": "Create one new photorealistic premium cafe menu photograph, square composition, warm off-white seamless studio background, soft natural side lighting. One appropriate serving cup as described in the recipe, fully visible and centered with 8% breathing room. Hot cups must be dry, without ice or condensation. Exact recipe: Gibraltar Coffee: 32g espresso mixed with 60ml steamed milk microfoam in a small 130ml faceted Gibraltar glass, about three-quarters full. Uniform caramel tan coffee, very thin microfoam cap. Hot, dry glass, no ice, syrup, cocoa, whipped cream or garnish. Reproduce the attached dark-green 9 FLOOR COFFEE logo on a centered white cup label. Show only the finished drink. No people, hands, third-party logos, surrounding props, extra captions or unlisted ingredients. Fresh individual photograph for this recipe.",
       "visual": "Gibraltar Coffee: 32g espresso mixed with 60ml steamed milk microfoam in a small 130ml faceted Gibraltar glass, about three-quarters full. Uniform caramel tan coffee, very thin microfoam cap. Hot, dry glass, no ice, syrup, cocoa, whipped cream or garnish."
+    },
+    {
+      "key": "v8-14-09",
+      "file": "recipe-photos/v8-14-09.webp",
+      "width": 768,
+      "height": 768,
+      "bytes": 23950,
+      "sha256": "ea488bfaf070a7d8ed1941ebfdf147735d38ab4846eff66623c4d11840e107da",
+      "gitSha": "587b0d2e0422eee4b60124809c6203f1476f9329",
+      "recipeName": "Café Breve",
+      "ingredientsSha256": "06061561a8d519c517d0197db62ca4dabf85a832bde6735c7baedcef25da1a16",
+      "method": "imagegen",
+      "reviewedAt": "2026-11-16",
+      "prompt": "Create one new photorealistic premium cafe menu photograph, square composition, warm off-white seamless studio background, soft natural side lighting. One appropriate serving cup as described in the recipe, fully visible and centered with 8% breathing room. Hot cups must be dry, without ice or condensation. Exact recipe: Café Breve: 32g espresso mixed with 100ml steamed half-and-half cream in a small 160ml white ceramic cup. Rich creamy light caramel beige, smooth thin velvety microfoam on top, no whipped cream mound, chocolate, syrup, ice or garnish. Reproduce the attached dark-green 9 FLOOR COFFEE logo on a centered white cup label. Show only the finished drink. No people, hands, third-party logos, surrounding props, extra captions or unlisted ingredients. Fresh individual photograph for this recipe.",
+      "visual": "Café Breve: 32g espresso mixed with 100ml steamed half-and-half cream in a small 160ml white ceramic cup. Rich creamy light caramel beige, smooth thin velvety microfoam on top, no whipped cream mound, chocolate, syrup, ice or garnish."
+    },
+    {
+      "key": "v8-14-10",
+      "file": "recipe-photos/v8-14-10.webp",
+      "width": 768,
+      "height": 768,
+      "bytes": 41656,
+      "sha256": "10baf75a924e92d849c480b93aa921895f333ddf11163d4692d187c47c290fd0",
+      "gitSha": "c8fb0c7221f477a801aca781ca7eb3c58c7546e0",
+      "recipeName": "Affogato",
+      "ingredientsSha256": "fc795f2cc4217002e487a8f4e861ef3cfe4e8699ac906c0a58c5242b47ea927d",
+      "method": "imagegen",
+      "reviewedAt": "2026-11-16",
+      "prompt": "Create one new photorealistic premium cafe menu photograph, square composition, warm off-white seamless studio background, soft natural side lighting. One appropriate serving cup as described in the recipe, fully visible and centered with 8% breathing room. Hot cups must be dry, without ice or condensation. Exact recipe: Affogato: one single 60–80g round scoop of vanilla ice cream in a small 150ml clear dessert cup, with 32g dark espresso already poured over it. Visible white vanilla scoop, brown coffee streaks and a small dark espresso pool around its melting base. No ice cubes, whipped cream, chocolate, nuts, syrup or garnish. Reproduce the attached dark-green 9 FLOOR COFFEE logo on a centered white cup label. Show only the finished drink. No people, hands, third-party logos, surrounding props, extra captions or unlisted ingredients. Fresh individual photograph for this recipe.",
+      "visual": "Affogato: one single 60–80g round scoop of vanilla ice cream in a small 150ml clear dessert cup, with 32g dark espresso already poured over it. Visible white vanilla scoop, brown coffee streaks and a small dark espresso pool around its melting base. No ice cubes, whipped cream, chocolate, nuts, syrup or garnish."
     }
   ]
 }
