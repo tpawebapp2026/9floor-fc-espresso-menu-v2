@@ -1,6 +1,6 @@
 {
   "scope": "Original 260 recipes",
-  "reviewed": 44,
+  "reviewed": 46,
   "target": 260,
   "method": "imagegen",
   "rows": [
@@ -663,6 +663,36 @@
       "reviewedAt": "2026-11-16",
       "prompt": "Create a new standalone photorealistic premium cafe menu photograph, square composition. One whole appropriate serving cup (as specified in the recipe below) centered, fully visible with 8% breathing room, warm off-white seamless studio background, soft natural side lighting and realistic cold condensation for iced drinks or a clean dry ceramic surface for hot drinks. Recipe to depict (do not print its name): Iced Milk Tea:6g black tea leaves steeped in60ml hot water and FILTERED OUT,15ml condensed milk dissolved,120ml cold milk mixed in,150–180g ice. Uniform light caramel-tan milk tea,16oz clear cup. No black tea leaves in finished drink, boba, foam or garnish. Show ONLY the actual finished drink. Coffee grounds are for brewing and must not appear in the cup. Reproduce the exact dark-green 9 FLOOR COFFEE logo from the attached logo-only reference on a centered white cup label. No people, hands, third-party logos, extra captions, surrounding props or ingredients not specified. This must be a fresh individual photograph, not a reuse of another menu image.",
       "visual": "Iced Milk Tea:6g black tea leaves steeped in60ml hot water and FILTERED OUT,15ml condensed milk dissolved,120ml cold milk mixed in,150–180g ice. Uniform light caramel-tan milk tea,16oz clear cup. No black tea leaves in finished drink, boba, foam or garnish."
+    },
+    {
+      "key": "v8-04-07",
+      "file": "recipe-photos/v8-04-07.webp",
+      "width": 768,
+      "height": 768,
+      "bytes": 43682,
+      "sha256": "f65262de8075d183877196ab8d82ba86056293abec74555599516fde47e517de",
+      "gitSha": "43814eb50f8777858e9b3658dfc59e1c43ac0b6f",
+      "recipeName": "Iced Lemon Tea",
+      "ingredientsSha256": "00d0139abbc87e58980adfd8709e40587d3ec314c48bb3b1c93bd1ac886f3e88",
+      "method": "imagegen",
+      "reviewedAt": "2026-11-16",
+      "prompt": "Create a new standalone photorealistic premium cafe menu photograph, square composition. One whole appropriate serving cup (as specified in the recipe below) centered, fully visible with 8% breathing room, warm off-white seamless studio background, soft natural side lighting and realistic cold condensation for iced drinks or a clean dry ceramic surface for hot drinks. Recipe to depict (do not print its name): Iced Lemon Tea:6g black tea leaves brewed in60ml hot water and FILTERED OUT,20ml lemon juice,10ml simple syrup,120ml COLD WATER,150–180g ice. Translucent amber-brown black tea slightly hazy from lemon.16oz clear cup. NO MILK, cream, lemon slices, leaves, pulp or garnish. Show ONLY the actual finished drink. Coffee grounds are for brewing and must not appear in the cup. Reproduce the exact dark-green 9 FLOOR COFFEE logo from the attached logo-only reference on a centered white cup label. No people, hands, third-party logos, extra captions, surrounding props or ingredients not specified. This must be a fresh individual photograph, not a reuse of another menu image.",
+      "visual": "Iced Lemon Tea:6g black tea leaves brewed in60ml hot water and FILTERED OUT,20ml lemon juice,10ml simple syrup,120ml COLD WATER,150–180g ice. Translucent amber-brown black tea slightly hazy from lemon.16oz clear cup. NO MILK, cream, lemon slices, leaves, pulp or garnish."
+    },
+    {
+      "key": "v8-04-08",
+      "file": "recipe-photos/v8-04-08.webp",
+      "width": 768,
+      "height": 768,
+      "bytes": 53570,
+      "sha256": "239fc1c2fcf378551bb97991240722b4314928c899237780b2d0ce18ec32c9bb",
+      "gitSha": "e2ea6426e1b7eebaad4d29da0d67ddd1ade7998d",
+      "recipeName": "Iced Peach Tea",
+      "ingredientsSha256": "dd5c8fdd977e74aed5aa8ff5eaf7eb1c410203a752102d4054ab07f0a229621c",
+      "method": "imagegen",
+      "reviewedAt": "2026-11-16",
+      "prompt": "Create a new standalone photorealistic premium cafe menu photograph, square composition. One whole appropriate serving cup (as specified in the recipe below) centered, fully visible with 8% breathing room, warm off-white seamless studio background, soft natural side lighting and realistic cold condensation for iced drinks or a clean dry ceramic surface for hot drinks. Recipe to depict (do not print its name): Iced Peach Tea:6g black tea leaves brewed in60ml hot water and FILTERED OUT,20ml peach SYRUP,120ml COLD WATER,150–180g ice. Clear amber-black-tea gold,16oz clear cup. NO MILK, peach pieces, fruit slices, leaves or garnish. Show ONLY the actual finished drink. Coffee grounds are for brewing and must not appear in the cup. Reproduce the exact dark-green 9 FLOOR COFFEE logo from the attached logo-only reference on a centered white cup label. No people, hands, third-party logos, extra captions, surrounding props or ingredients not specified. This must be a fresh individual photograph, not a reuse of another menu image.",
+      "visual": "Iced Peach Tea:6g black tea leaves brewed in60ml hot water and FILTERED OUT,20ml peach SYRUP,120ml COLD WATER,150–180g ice. Clear amber-black-tea gold,16oz clear cup. NO MILK, peach pieces, fruit slices, leaves or garnish."
     }
   ]
 }
