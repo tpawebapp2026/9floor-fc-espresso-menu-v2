@@ -1,6 +1,6 @@
 {
   "scope": "Original 260 recipes",
-  "reviewed": 52,
+  "reviewed": 54,
   "target": 260,
   "method": "imagegen",
   "rows": [
@@ -783,6 +783,36 @@
       "reviewedAt": "2026-11-16",
       "prompt": "Create a new standalone photorealistic premium cafe menu photograph, square composition. One whole appropriate serving cup (as specified in the recipe below) centered, fully visible with 8% breathing room, warm off-white seamless studio background, soft natural side lighting and realistic cold condensation for iced drinks or a clean dry ceramic surface for hot drinks. Recipe to depict (do not print its name): Hot Matcha Latte:3g matcha powder whisked with60ml hot water,15ml simple syrup and120ml warmed milk. Uniform naturally green opaque matcha milk,12oz white ceramic cup with handle, modest fine matcha whisking bubbles on surface. NO espresso, thick foam, powder dust or garnish. Show ONLY the actual finished drink. Coffee grounds are for brewing and must not appear in the cup. Reproduce the exact dark-green 9 FLOOR COFFEE logo from the attached logo-only reference on a centered white cup label. No people, hands, third-party logos, extra captions, surrounding props or ingredients not specified. This must be a fresh individual photograph, not a reuse of another menu image.",
       "visual": "Hot Matcha Latte:3g matcha powder whisked with60ml hot water,15ml simple syrup and120ml warmed milk. Uniform naturally green opaque matcha milk,12oz white ceramic cup with handle, modest fine matcha whisking bubbles on surface. NO espresso, thick foam, powder dust or garnish."
+    },
+    {
+      "key": "v8-04-15",
+      "file": "recipe-photos/v8-04-15.webp",
+      "width": 768,
+      "height": 768,
+      "bytes": 25384,
+      "sha256": "e0abfa560f3f24f362ba8bab7194de36f3f43214f1fa40285853ce19dfbe4b46",
+      "gitSha": "66ab47a6006805c980ea87ed69c519d9d708b944",
+      "recipeName": "Hot Cocoa",
+      "ingredientsSha256": "7a9b83390deef54d6458fc77f44e13b6810f6e7781e39c4b5d58e3af5a19bf11",
+      "method": "imagegen",
+      "reviewedAt": "2026-11-16",
+      "prompt": "Create a new standalone photorealistic premium cafe menu photograph, square composition. One whole appropriate serving cup (as specified in the recipe below) centered, fully visible with 8% breathing room, warm off-white seamless studio background, soft natural side lighting and realistic cold condensation for iced drinks or a clean dry ceramic surface for hot drinks. Recipe to depict (do not print its name): Hot Cocoa:18g cocoa powder dissolved in60ml hot water,15ml simple syrup and120ml warmed milk. Uniform rich deep cocoa-brown hot milk,12oz white ceramic cup with handle, slight fine natural surface bubbles only. No coffee, marshmallows, whipped cream, dusting, drizzle or garnish. Show ONLY the actual finished drink. Coffee grounds are for brewing and must not appear in the cup. Reproduce the exact dark-green 9 FLOOR COFFEE logo from the attached logo-only reference on a centered white cup label. No people, hands, third-party logos, extra captions, surrounding props or ingredients not specified. This must be a fresh individual photograph, not a reuse of another menu image.",
+      "visual": "Hot Cocoa:18g cocoa powder dissolved in60ml hot water,15ml simple syrup and120ml warmed milk. Uniform rich deep cocoa-brown hot milk,12oz white ceramic cup with handle, slight fine natural surface bubbles only. No coffee, marshmallows, whipped cream, dusting, drizzle or garnish."
+    },
+    {
+      "key": "v8-04-16",
+      "file": "recipe-photos/v8-04-16.webp",
+      "width": 768,
+      "height": 768,
+      "bytes": 27034,
+      "sha256": "ffb377494a1924d18e7f81a95df2cdb30f8030730ae3ecb01c239a7fbb1d7f16",
+      "gitSha": "d729ad923c12b430e571b2075ca55066ac8d26f5",
+      "recipeName": "Hot Chocolate",
+      "ingredientsSha256": "d9e62857bb5f1ba0ab4e9f3a4dee2f1f766506f99991975cf9c1bc990714c383",
+      "method": "imagegen",
+      "reviewedAt": "2026-11-16",
+      "prompt": "Create a new standalone photorealistic premium cafe menu photograph, square composition. One whole appropriate serving cup (as specified in the recipe below) centered, fully visible with 8% breathing room, warm off-white seamless studio background, soft natural side lighting and realistic cold condensation for iced drinks or a clean dry ceramic surface for hot drinks. Recipe to depict (do not print its name): Hot Chocolate:20g chocolate powder dissolved in60ml hot water,10ml simple syrup and120ml warmed milk. Uniform medium chocolate-brown hot milk,12oz white ceramic cup with handle, smooth creamy surface with slight fine bubbles. No coffee, chocolate chunks, marshmallows, whipped cream or garnish. Show ONLY the actual finished drink. Coffee grounds are for brewing and must not appear in the cup. Reproduce the exact dark-green 9 FLOOR COFFEE logo from the attached logo-only reference on a centered white cup label. No people, hands, third-party logos, extra captions, surrounding props or ingredients not specified. This must be a fresh individual photograph, not a reuse of another menu image.",
+      "visual": "Hot Chocolate:20g chocolate powder dissolved in60ml hot water,10ml simple syrup and120ml warmed milk. Uniform medium chocolate-brown hot milk,12oz white ceramic cup with handle, smooth creamy surface with slight fine bubbles. No coffee, chocolate chunks, marshmallows, whipped cream or garnish."
     }
   ]
 }
