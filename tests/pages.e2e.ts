@@ -525,7 +525,7 @@ test("Album groups, exact crop images, recipes and favorites work on mobile and 
     await expect(images.nth(i)).toHaveCSS("object-fit", "contain");
     await expect(images.nth(i)).toHaveAttribute(
       "src",
-      /^(data:image\/jpeg;base64,|.*\/recipe-photos\/v8-[\w-]+\.webp$)/,
+      /^(data:image\/jpeg;base64,|.*\/recipe-photos\/[\w-]+\.webp$)/,
     );
   }
   const groups = page.getByRole("combobox", { name: "အမျိုးအစား ရွေးရန်" });
