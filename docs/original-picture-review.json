@@ -140,21 +140,6 @@
       "visual": "Iced Latte: 150 ml white cold milk below 150–180 g clear ice, 32 g espresso poured last, rich brown coffee upper gradient softly feathering into white milk. No foam or topping."
     },
     {
-      "key": "v8-01-10",
-      "file": "recipe-photos/v8-01-10.webp",
-      "width": 768,
-      "height": 768,
-      "bytes": 37782,
-      "sha256": "e0c8437e15f79a123cb20e33f3d636841efc4772595139a11418b27f49bf2c4d",
-      "gitSha": "75810ff5adfdfdf43d656b83d33c95a4b01e28bd",
-      "recipeName": "Iced Vanilla Latte",
-      "ingredientsSha256": "317a0a6da2e2c930f69b058f17b327b203208661749cd18826807f6ab917c149",
-      "method": "imagegen",
-      "reviewedAt": "2026-11-16",
-      "prompt": "Create a new standalone photorealistic premium cafe menu photograph, square composition. One whole clear 16oz takeaway cup centered, fully visible with 8% breathing room, warm off-white seamless studio background, soft natural side lighting and realistic condensation. Recipe to depict (do not print its name): Iced Vanilla Latte: 15 ml vanilla SYRUP stirred into 135 ml cold milk, 150–180 g ice, 32 g espresso poured last. White-ivory milk lower, brown coffee gradient at top. No vanilla flower, pods, cream or sauce garnish. Show ONLY the actual finished drink. Coffee grounds are for brewing and must not appear in the cup. Reproduce the exact dark-green 9 FLOOR COFFEE logo from the attached logo-only reference on a centered white cup label. No people, hands, third-party logos, extra captions, surrounding props or ingredients not specified. This must be a fresh individual photograph, not a reuse of another menu image.",
-      "visual": "Iced Vanilla Latte: 15 ml vanilla SYRUP stirred into 135 ml cold milk, 150–180 g ice, 32 g espresso poured last. White-ivory milk lower, brown coffee gradient at top. No vanilla flower, pods, cream or sauce garnish."
-    },
-    {
       "key": "v9-iced-cappuccino",
       "file": "recipe-photos/v9-iced-cappuccino.webp",
       "width": 768,
@@ -168,6 +153,21 @@
       "reviewedAt": "2026-11-16",
       "prompt": "Create a new standalone photorealistic premium cafe menu photograph, square composition. One whole clear 16oz takeaway cup centered, fully visible with 8% breathing room, warm off-white seamless studio background, soft natural side lighting and realistic condensation. Recipe to depict (do not print its name): Iced Cappuccino: 120 ml cold milk and 180 g ice, 32 g espresso poured over it, then thick smooth white cold milk foam made from 40 ml milk on TOP. White milk lower, coffee brown middle, distinct dense white foam cap. NO whipped cream, chocolate or cocoa. Show ONLY the actual finished drink. Coffee grounds are for brewing and must not appear in the cup. Reproduce the exact dark-green 9 FLOOR COFFEE logo from the attached logo-only reference on a centered white cup label. No people, hands, third-party logos, extra captions, surrounding props or ingredients not specified. This must be a fresh individual photograph, not a reuse of another menu image.",
       "visual": "Iced Cappuccino: 120 ml cold milk and 180 g ice, 32 g espresso poured over it, then thick smooth white cold milk foam made from 40 ml milk on TOP. White milk lower, coffee brown middle, distinct dense white foam cap. NO whipped cream, chocolate or cocoa."
+    },
+    {
+      "key": "v8-01-10",
+      "file": "recipe-photos/v8-01-10.webp",
+      "width": 768,
+      "height": 768,
+      "bytes": 37782,
+      "sha256": "e0c8437e15f79a123cb20e33f3d636841efc4772595139a11418b27f49bf2c4d",
+      "gitSha": "75810ff5adfdfdf43d656b83d33c95a4b01e28bd",
+      "recipeName": "Iced Vanilla Latte",
+      "ingredientsSha256": "317a0a6da2e2c930f69b058f17b327b203208661749cd18826807f6ab917c149",
+      "method": "imagegen",
+      "reviewedAt": "2026-11-16",
+      "prompt": "Create a new standalone photorealistic premium cafe menu photograph, square composition. One whole clear 16oz takeaway cup centered, fully visible with 8% breathing room, warm off-white seamless studio background, soft natural side lighting and realistic condensation. Recipe to depict (do not print its name): Iced Vanilla Latte: 15 ml vanilla SYRUP stirred into 135 ml cold milk, 150–180 g ice, 32 g espresso poured last. White-ivory milk lower, brown coffee gradient at top. No vanilla flower, pods, cream or sauce garnish. Show ONLY the actual finished drink. Coffee grounds are for brewing and must not appear in the cup. Reproduce the exact dark-green 9 FLOOR COFFEE logo from the attached logo-only reference on a centered white cup label. No people, hands, third-party logos, extra captions, surrounding props or ingredients not specified. This must be a fresh individual photograph, not a reuse of another menu image.",
+      "visual": "Iced Vanilla Latte: 15 ml vanilla SYRUP stirred into 135 ml cold milk, 150–180 g ice, 32 g espresso poured last. White-ivory milk lower, brown coffee gradient at top. No vanilla flower, pods, cream or sauce garnish."
     },
     {
       "key": "v8-01-11",
@@ -609,15 +609,15 @@
       "file": "recipe-photos/v8-04-03.webp",
       "width": 768,
       "height": 768,
-      "bytes": 38994,
-      "sha256": "b82ee5461bc6ba8be84d8d1f68cd561875bc7e92db45c3d50c21ff98b91c138f",
-      "gitSha": "ff1bd9c5badb9ec89e4bde79169ace91645e09d4",
+      "bytes": 34670,
+      "sha256": "11a9c724aa9e7286ddebd91955fd1b3149ceeef7938a504c26fcc92c3c5fe93c",
+      "gitSha": "9def0346627f8143ef6b664b814c2753eac13e9b",
       "recipeName": "Iced Matcha Latte",
       "ingredientsSha256": "94da25532ddf4966193a59a3a1474c291001f86314b578b44684dcdeabdcdafa",
       "method": "imagegen",
       "reviewedAt": "2026-11-16",
-      "prompt": "Create a new standalone photorealistic premium cafe menu photograph, square composition. One whole appropriate serving cup (as specified in the recipe below) centered, fully visible with 8% breathing room, warm off-white seamless studio background, soft natural side lighting and realistic cold condensation for iced drinks or a clean dry ceramic surface for hot drinks. Recipe to depict (do not print its name): Recipe: Iced Matcha Latte. Published serving sizes: [16] oz. Exact ingredient list: [{\"name\": \"Matcha Powder\", \"quantity\": \"3 g\"}, {\"name\": \"သကြားရည်\", \"quantity\": \"15 ml\"}, {\"name\": \"ရေနွေး\", \"quantity\": \"60 ml\"}, {\"name\": \"နို့အေး / ရေအေး\", \"quantity\": \"120 ml (Menu အလိုက်)\"}, {\"name\": \"ရေခဲ\", \"quantity\": \"150–180 g\"}]. Preparation order: [\"1. 16 oz အအေးခွက် သန့်သန့်ကို ယူပါ။\", \"2. Matcha Powder 3 g ကို ရေနွေး 60 ml နဲ့ ဖျော်ပါ။ လက်ဖက်ခြောက်ဆို 3–4 မိနစ်နှပ်ပြီး အရွက်စစ်ထုတ်ပါ။ Powder ဆို အဖုမကျန်အောင် မွှေပါ။\", \"3. သကြားရည် 15 ml ကို ထည့်ပြီး ပျော်အောင်မွှေပါ။\", \"4. နို့ပါသော Menu ဆို နို့အေး 120 ml၊ Lemon/Peach Tea ဆို ရေအေး 120 ml ထည့်ပါ။\", \"5. ရေခဲ 150–180 g ထည့်ပါ။\", \"6. အရသာစစ်၊ ခွက်အပြင်သုတ်ပြီး အဖုံးပိတ်ပါ။\"]. Depict only the finished drink with its actual color, mixing, layers, foam and listed garnish. Hot drinks in appropriate white ceramic cups; iced drinks in clear takeaway cups. Do NOT invent whipped cream, fruit chunks, toppings, drizzles or garnish absent from these ingredients and steps. Dissolved flavor syrups alone do not justify fruit pieces or sauce stripes. Show ONLY the actual finished drink. Coffee grounds are for brewing and must not appear in the cup. Reproduce the exact dark-green 9 FLOOR COFFEE logo from the attached logo-only reference on a centered white cup label. No people, hands, third-party logos, extra captions, surrounding props or ingredients not specified. This must be a fresh individual photograph, not a reuse of another menu image.",
-      "visual": "Recipe: Iced Matcha Latte. Published serving sizes: [16] oz. Exact ingredient list: [{\"name\": \"Matcha Powder\", \"quantity\": \"3 g\"}, {\"name\": \"သကြားရည်\", \"quantity\": \"15 ml\"}, {\"name\": \"ရေနွေး\", \"quantity\": \"60 ml\"}, {\"name\": \"နို့အေး / ရေအေး\", \"quantity\": \"120 ml (Menu အလိုက်)\"}, {\"name\": \"ရေခဲ\", \"quantity\": \"150–180 g\"}]. Preparation order: [\"1. 16 oz အအေးခွက် သန့်သန့်ကို ယူပါ။\", \"2. Matcha Powder 3 g ကို ရေနွေး 60 ml နဲ့ ဖျော်ပါ။ လက်ဖက်ခြောက်ဆို 3–4 မိနစ်နှပ်ပြီး အရွက်စစ်ထုတ်ပါ။ Powder ဆို အဖုမကျန်အောင် မွှေပါ။\", \"3. သကြားရည် 15 ml ကို ထည့်ပြီး ပျော်အောင်မွှေပါ။\", \"4. နို့ပါသော Menu ဆို နို့အေး 120 ml၊ Lemon/Peach Tea ဆို ရေအေး 120 ml ထည့်ပါ။\", \"5. ရေခဲ 150–180 g ထည့်ပါ။\", \"6. အရသာစစ်၊ ခွက်အပြင်သုတ်ပြီး အဖုံးပိတ်ပါ။\"]. Depict only the finished drink with its actual color, mixing, layers, foam and listed garnish. Hot drinks in appropriate white ceramic cups; iced drinks in clear takeaway cups. Do NOT invent whipped cream, fruit chunks, toppings, drizzles or garnish absent from these ingredients and steps. Dissolved flavor syrups alone do not justify fruit pieces or sauce stripes."
+      "prompt": "Create a new standalone photorealistic premium cafe menu photograph, square composition. One whole appropriate serving cup (as specified in the recipe below) centered, fully visible with 8% breathing room, warm off-white seamless studio background, soft natural side lighting and realistic cold condensation for iced drinks or a clean dry ceramic surface for hot drinks. Recipe to depict (do not print its name): Iced Matcha Latte:3g matcha whisked smooth into60ml hot water,15ml simple syrup dissolved, then120ml cold milk added and gently incorporated, then150–180g ice. Show a UNIFORMLY MIXED opaque natural muted green matcha milk with ice in a clear16oz cup. NO pure white bottom layer or dark green upper layer. The recipe does not float matcha over milk; do NOT invent the usual reversed layered latte. No espresso, whipped cream, powder dust, garnish or fruit. Show ONLY the actual finished drink. Coffee grounds are for brewing and must not appear in the cup. Reproduce the exact dark-green 9 FLOOR COFFEE logo from the attached logo-only reference on a centered white cup label. No people, hands, third-party logos, extra captions, surrounding props or ingredients not specified. This must be a fresh individual photograph, not a reuse of another menu image.",
+      "visual": "Iced Matcha Latte:3g matcha whisked smooth into60ml hot water,15ml simple syrup dissolved, then120ml cold milk added and gently incorporated, then150–180g ice. Show a UNIFORMLY MIXED opaque natural muted green matcha milk with ice in a clear16oz cup. NO pure white bottom layer or dark green upper layer. The recipe does not float matcha over milk; do NOT invent the usual reversed layered latte. No espresso, whipped cream, powder dust, garnish or fruit."
     },
     {
       "key": "v8-04-04",
