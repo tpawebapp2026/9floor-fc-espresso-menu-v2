@@ -1,6 +1,6 @@
 {
   "scope": "Original 260 recipes",
-  "reviewed": 154,
+  "reviewed": 156,
   "target": 260,
   "method": "imagegen",
   "rows": [
@@ -2313,6 +2313,36 @@
       "reviewedAt": "2026-11-16",
       "prompt": "Create one new photorealistic premium cafe menu photograph, square composition, warm off-white seamless studio background, soft natural side lighting. One appropriate serving cup as described in the recipe, fully visible and centered with 8% breathing room. Hot cups must be dry, without ice or condensation. Exact recipe: Ginger Black Coffee: 32g espresso stirred with 15ml filtered ginger juice and 140ml hot water. Dark brown hot black coffee with a subtle thin crema ring, in a dry 220ml white ceramic cup viewed slightly above. No ginger slices, milk or ice. No unlisted ingredients, whipped cream, decorative garnish, fruit pieces, tools or surrounding props. No soda or large carbonation bubbles. Reproduce the attached dark-green 9 FLOOR COFFEE logo on a centered white cup label. Show only the finished drink. No people, hands, third-party logos, surrounding props, extra captions or unlisted ingredients. Fresh individual photograph for this recipe.",
       "visual": "Ginger Black Coffee: 32g espresso stirred with 15ml filtered ginger juice and 140ml hot water. Dark brown hot black coffee with a subtle thin crema ring, in a dry 220ml white ceramic cup viewed slightly above. No ginger slices, milk or ice. No unlisted ingredients, whipped cream, decorative garnish, fruit pieces, tools or surrounding props. No soda or large carbonation bubbles."
+    },
+    {
+      "key": "v8-17-05",
+      "file": "recipe-photos/v8-17-05.webp",
+      "width": 768,
+      "height": 768,
+      "bytes": 26284,
+      "sha256": "87f38df3ad3a7bcdc08542f78343cbc8420007e06fa4fce53bbfae8062f7823a",
+      "gitSha": "d8ff34c2419a8186aaff86927a53580e4120fccd",
+      "recipeName": "Cinnamon Black Coffee",
+      "ingredientsSha256": "6195ba4ba527131b06e54f9ca886351c787fb8f506b858008ce1e2f99587483a",
+      "method": "imagegen",
+      "reviewedAt": "2026-11-16",
+      "prompt": "Create one new photorealistic premium cafe menu photograph, square composition, warm off-white seamless studio background, soft natural side lighting. One appropriate serving cup as described in the recipe, fully visible and centered with 8% breathing room. Hot cups must be dry, without ice or condensation. Exact recipe: Cinnamon Black Coffee: 32g espresso stirred with a tiny pinch of cinnamon powder and 140ml hot water. Dark brown hot black coffee, subtle tiny spice specks on surface and faint crema ring, in a dry 220ml white ceramic cup viewed slightly above. No cinnamon sticks, milk or ice. No unlisted ingredients, whipped cream, decorative garnish, fruit pieces, tools or surrounding props. No soda or large carbonation bubbles. Reproduce the attached dark-green 9 FLOOR COFFEE logo on a centered white cup label. Show only the finished drink. No people, hands, third-party logos, surrounding props, extra captions or unlisted ingredients. Fresh individual photograph for this recipe.",
+      "visual": "Cinnamon Black Coffee: 32g espresso stirred with a tiny pinch of cinnamon powder and 140ml hot water. Dark brown hot black coffee, subtle tiny spice specks on surface and faint crema ring, in a dry 220ml white ceramic cup viewed slightly above. No cinnamon sticks, milk or ice. No unlisted ingredients, whipped cream, decorative garnish, fruit pieces, tools or surrounding props. No soda or large carbonation bubbles."
+    },
+    {
+      "key": "v8-17-06",
+      "file": "recipe-photos/v8-17-06.webp",
+      "width": 768,
+      "height": 768,
+      "bytes": 51384,
+      "sha256": "4e705f3c61e166cc1d81c14b1cc24e4e1174a82391593157432538e6e02f6615",
+      "gitSha": "4f4178a8bb6db67ae8919e8bd7c8779f8615a13a",
+      "recipeName": "Iced Mint Black Coffee",
+      "ingredientsSha256": "a57a45e0e2d9300359a84d16954e2c878201b793e3b670890e8ed570b470d377",
+      "method": "imagegen",
+      "reviewedAt": "2026-11-16",
+      "prompt": "Create one new photorealistic premium cafe menu photograph, square composition, warm off-white seamless studio background, soft natural side lighting. One appropriate serving cup as described in the recipe, fully visible and centered with 8% breathing room. Hot cups must be dry, without ice or condensation. Exact recipe: Iced Mint Black Coffee: 32g espresso poured over 10ml mint syrup mixed with 120ml cold still water and 180g ice. Translucent dark brown coffee, amber edges, subtle crema. No fresh mint leaves or green milk. Clear 16oz takeaway cup, visible ice and natural condensation. No unlisted ingredients, whipped cream, decorative garnish, fruit pieces, tools or surrounding props. No soda or large carbonation bubbles. Reproduce the attached dark-green 9 FLOOR COFFEE logo on a centered white cup label. Show only the finished drink. No people, hands, third-party logos, surrounding props, extra captions or unlisted ingredients. Fresh individual photograph for this recipe.",
+      "visual": "Iced Mint Black Coffee: 32g espresso poured over 10ml mint syrup mixed with 120ml cold still water and 180g ice. Translucent dark brown coffee, amber edges, subtle crema. No fresh mint leaves or green milk. Clear 16oz takeaway cup, visible ice and natural condensation. No unlisted ingredients, whipped cream, decorative garnish, fruit pieces, tools or surrounding props. No soda or large carbonation bubbles."
     }
   ]
 }
