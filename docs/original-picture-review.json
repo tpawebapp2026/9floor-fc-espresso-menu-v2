@@ -1,6 +1,6 @@
 {
   "scope": "Original 260 recipes",
-  "reviewed": 112,
+  "reviewed": 114,
   "target": 260,
   "method": "imagegen",
   "rows": [
@@ -1683,6 +1683,36 @@
       "reviewedAt": "2026-11-16",
       "prompt": "Create one new photorealistic premium cafe menu photograph, square composition, warm off-white seamless studio background, soft natural side lighting. One clear16oz takeaway cup, fully visible and centered with8% breathing room, realistic condensation. Exact recipe: Rose Milk:180ml cold milk and25ml rose SYRUP mixed thoroughly over170g ice. Uniform opaque soft pastel rose-pink milk with clear ice. NO rose petals, flowers, strawberries, seeds, jelly, whipped cream or garnish. Reproduce the attached dark-green 9 FLOOR COFFEE logo on a centered white cup label. Show only the finished drink. No people, hands, third-party logos, surrounding props, extra captions or unlisted ingredients. Fresh individual photograph for this recipe.",
       "visual": "Rose Milk:180ml cold milk and25ml rose SYRUP mixed thoroughly over170g ice. Uniform opaque soft pastel rose-pink milk with clear ice. NO rose petals, flowers, strawberries, seeds, jelly, whipped cream or garnish."
+    },
+    {
+      "key": "v8-13-01",
+      "file": "recipe-photos/v8-13-01.webp",
+      "width": 768,
+      "height": 768,
+      "bytes": 49916,
+      "sha256": "8c277e490042c0d7332631d1c547965cb3c761d8585f8727e975787d2fd09934",
+      "gitSha": "2a2b52e0c0ff52b5f586a6fe88c407cd3d2462d3",
+      "recipeName": "Butterfly Pea Lemonade",
+      "ingredientsSha256": "d6f30dd3cb62067d3f514da295b6d4ec8bf6f73a914dad32309522d155486e95",
+      "method": "imagegen",
+      "reviewedAt": "2026-11-16",
+      "prompt": "Create one new photorealistic premium cafe menu photograph, square composition, warm off-white seamless studio background, soft natural side lighting. One clear16oz takeaway cup, fully visible and centered with8% breathing room, realistic condensation. Exact recipe: Butterfly Pea Lemonade:90ml blue butterfly pea infusion MIXED THOROUGHLY with25ml acidic lemon juice,25ml simple syrup and60ml still water,170g ice. Acid changes the mixed drink to a uniform translucent PURPLE-VIOLET, not blue or separated yellow/blue layers. No carbonation, flowers, lemon slices, mint, milk or garnish. Reproduce the attached dark-green 9 FLOOR COFFEE logo on a centered white cup label. Show only the finished drink. No people, hands, third-party logos, surrounding props, extra captions or unlisted ingredients. Fresh individual photograph for this recipe.",
+      "visual": "Butterfly Pea Lemonade:90ml blue butterfly pea infusion MIXED THOROUGHLY with25ml acidic lemon juice,25ml simple syrup and60ml still water,170g ice. Acid changes the mixed drink to a uniform translucent PURPLE-VIOLET, not blue or separated yellow/blue layers. No carbonation, flowers, lemon slices, mint, milk or garnish."
+    },
+    {
+      "key": "v8-13-02",
+      "file": "recipe-photos/v8-13-02.webp",
+      "width": 768,
+      "height": 768,
+      "bytes": 38940,
+      "sha256": "806bb176372b9da17aa32b6447ec56f1f766e2b4cdc5b679e2d6019b24ae808c",
+      "gitSha": "44d1bdbb686ce51cbe9356a3f859f5452a7cb1bb",
+      "recipeName": "Honey Yuzu Sparkler",
+      "ingredientsSha256": "1c1ba8b68ca96c7f36a419ddecde8d527fb18e4b13fee09c9245ad3737387de1",
+      "method": "imagegen",
+      "reviewedAt": "2026-11-16",
+      "prompt": "Create one new photorealistic premium cafe menu photograph, square composition, warm off-white seamless studio background, soft natural side lighting. One clear16oz takeaway cup, fully visible and centered with8% breathing room, realistic condensation. Exact recipe: Honey Yuzu Sparkler:25ml yuzu JUICE and25ml honey dissolved,150ml soda water,180g ice. Slightly hazy pale honey-gold yellow sparkling drink with fine carbonation bubbles. No yuzu pieces, citrus slices, peel, honey dipper, milk or garnish. Reproduce the attached dark-green 9 FLOOR COFFEE logo on a centered white cup label. Show only the finished drink. No people, hands, third-party logos, surrounding props, extra captions or unlisted ingredients. Fresh individual photograph for this recipe.",
+      "visual": "Honey Yuzu Sparkler:25ml yuzu JUICE and25ml honey dissolved,150ml soda water,180g ice. Slightly hazy pale honey-gold yellow sparkling drink with fine carbonation bubbles. No yuzu pieces, citrus slices, peel, honey dipper, milk or garnish."
     }
   ]
 }
