@@ -462,5 +462,21 @@
     "height": 768,
     "sha256": "70e1ecc777880998a2c27780c30505ed806e4365e9b60afc425a1fff336e22f4",
     "ingredientsSha256": "ac87d2f89d537a794cee35d3b07d9e77d65e8878e03497ccbd55b4cb222b4752"
+  },
+  "v8-05-03": {
+    "key": "v8-05-03",
+    "file": "recipe-photos/v8-05-03.webp",
+    "width": 768,
+    "height": 768,
+    "sha256": "ea6fb91d3ccf82a3fe55af9dd875e6e26df19762e88009e6a8df594c6ea32ac4",
+    "ingredientsSha256": "d851562e1bacf31d47ca4f90cb03c6cad836241218b7c5b83e1f2cba13df429b"
+  },
+  "v8-05-04": {
+    "key": "v8-05-04",
+    "file": "recipe-photos/v8-05-04.webp",
+    "width": 768,
+    "height": 768,
+    "sha256": "fd38e530006d9ba053c3af858115d2782768cd6e3e444705489c363f57288e31",
+    "ingredientsSha256": "92f35553146231e957a66d4e94c3bf3fe059cd2795b7aa50c756cb5747d42306"
   }
 }
