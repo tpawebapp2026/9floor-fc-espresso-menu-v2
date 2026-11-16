@@ -1,6 +1,6 @@
 {
   "scope": "Original 260 recipes",
-  "reviewed": 90,
+  "reviewed": 92,
   "target": 260,
   "method": "imagegen",
   "rows": [
@@ -1353,6 +1353,36 @@
       "reviewedAt": "2026-11-16",
       "prompt": "Create a new standalone photorealistic premium cafe menu photograph, square composition. One whole appropriate serving cup (as specified in the recipe below) centered, fully visible with 8% breathing room, warm off-white seamless studio background, soft natural side lighting and realistic cold condensation for iced drinks or a clean dry ceramic surface for hot drinks. Recipe to depict (do not print its name): Mango Soda:25ml mango SYRUP,10ml lemon juice,160ml soda water,180g ice. Mixed translucent golden-yellow sparkling soda with fine bubbles. This is SYRUP not puree: no opaque mango flesh, chunks, fruit garnish or milk. One clear16oz takeaway cup. Show ONLY the actual finished drink. Coffee grounds are for brewing and must not appear in the cup. Reproduce the exact dark-green 9 FLOOR COFFEE logo from the attached logo-only reference on a centered white cup label. No people, hands, third-party logos, extra captions, surrounding props or ingredients not specified. This must be a fresh individual photograph, not a reuse of another menu image.",
       "visual": "Mango Soda:25ml mango SYRUP,10ml lemon juice,160ml soda water,180g ice. Mixed translucent golden-yellow sparkling soda with fine bubbles. This is SYRUP not puree: no opaque mango flesh, chunks, fruit garnish or milk. One clear16oz takeaway cup."
+    },
+    {
+      "key": "v8-10-03",
+      "file": "recipe-photos/v8-10-03.webp",
+      "width": 768,
+      "height": 768,
+      "bytes": 36332,
+      "sha256": "728894b92c4b8707fbc348a3445b0c487a808679d54a17f22dc3854c1c5152cd",
+      "gitSha": "a3417decc38fe3503bb907bf5c9e8804d78b493b",
+      "recipeName": "Pineapple Soda",
+      "ingredientsSha256": "88ecaacfe9ed4fd036dba3b572925f77ccca465684177ce684b6c681a527bc5f",
+      "method": "imagegen",
+      "reviewedAt": "2026-11-16",
+      "prompt": "Create a new standalone photorealistic premium cafe menu photograph, square composition. One whole appropriate serving cup (as specified in the recipe below) centered, fully visible with 8% breathing room, warm off-white seamless studio background, soft natural side lighting and realistic cold condensation for iced drinks or a clean dry ceramic surface for hot drinks. Recipe to depict (do not print its name): Pineapple Soda:25ml pineapple SYRUP,10ml lemon juice,160ml soda water,180g ice. Mixed translucent pale yellow sparkling soda with fine bubbles. This is SYRUP not juice or puree: no pulp, pineapple slices, chunks or milk. One clear16oz takeaway cup. Show ONLY the actual finished drink. Coffee grounds are for brewing and must not appear in the cup. Reproduce the exact dark-green 9 FLOOR COFFEE logo from the attached logo-only reference on a centered white cup label. No people, hands, third-party logos, extra captions, surrounding props or ingredients not specified. This must be a fresh individual photograph, not a reuse of another menu image.",
+      "visual": "Pineapple Soda:25ml pineapple SYRUP,10ml lemon juice,160ml soda water,180g ice. Mixed translucent pale yellow sparkling soda with fine bubbles. This is SYRUP not juice or puree: no pulp, pineapple slices, chunks or milk. One clear16oz takeaway cup."
+    },
+    {
+      "key": "v8-10-04",
+      "file": "recipe-photos/v8-10-04.webp",
+      "width": 768,
+      "height": 768,
+      "bytes": 58506,
+      "sha256": "4cff0684fdb3c4e0b6e0cec84414612223d0db43d47da9176ed538df151f05cd",
+      "gitSha": "036e77e889fae9c686590da04cf322b81063914e",
+      "recipeName": "Watermelon Soda",
+      "ingredientsSha256": "1984bd4727f0a41bb2c88d95772515f9a8c762282b438d5ddeffdaf68d8e7d7c",
+      "method": "imagegen",
+      "reviewedAt": "2026-11-16",
+      "prompt": "Create a new standalone photorealistic premium cafe menu photograph, square composition. One whole appropriate serving cup (as specified in the recipe below) centered, fully visible with 8% breathing room, warm off-white seamless studio background, soft natural side lighting and realistic cold condensation for iced drinks or a clean dry ceramic surface for hot drinks. Recipe to depict (do not print its name): Watermelon Soda:25ml watermelon SYRUP,10ml lemon juice,160ml soda water,180g ice. Mixed translucent rosy-red sparkling soda with fine bubbles. No watermelon seeds, wedges, pulp, fruit garnish or milk. One clear16oz takeaway cup. Show ONLY the actual finished drink. Coffee grounds are for brewing and must not appear in the cup. Reproduce the exact dark-green 9 FLOOR COFFEE logo from the attached logo-only reference on a centered white cup label. No people, hands, third-party logos, extra captions, surrounding props or ingredients not specified. This must be a fresh individual photograph, not a reuse of another menu image.",
+      "visual": "Watermelon Soda:25ml watermelon SYRUP,10ml lemon juice,160ml soda water,180g ice. Mixed translucent rosy-red sparkling soda with fine bubbles. No watermelon seeds, wedges, pulp, fruit garnish or milk. One clear16oz takeaway cup."
     }
   ]
 }
