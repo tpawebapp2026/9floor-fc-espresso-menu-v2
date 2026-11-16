@@ -1,6 +1,6 @@
 {
   "scope": "Original 260 recipes",
-  "reviewed": 140,
+  "reviewed": 142,
   "target": 260,
   "method": "imagegen",
   "rows": [
@@ -2103,6 +2103,36 @@
       "reviewedAt": "2026-11-16",
       "prompt": "Create one new photorealistic premium cafe menu photograph, square composition, warm off-white seamless studio background, soft natural side lighting. One appropriate serving cup as described in the recipe, fully visible and centered with 8% breathing room. Hot cups must be dry, without ice or condensation. Exact recipe: Iced Maple Latte. Exactly 32g espresso plus 150ml dairy milk and 15ml maple syrup. 180g visible ice cubes, clear 16oz takeaway cup with condensation. Finished drink stirred to homogeneous creamy coffee tan; no dramatic separate colored layers. No flower petals, lavender sprigs, whole nuts, nut crumbs, maple leaves, syrup drizzles, whipped cream, cocoa, food coloring, surrounding props or garnish. Syrup flavor alone does not turn the coffee purple, pink or green. Reproduce the attached dark-green 9 FLOOR COFFEE logo on a centered white cup label. Show only the finished drink. No people, hands, third-party logos, surrounding props, extra captions or unlisted ingredients. Fresh individual photograph for this recipe.",
       "visual": "Iced Maple Latte. Exactly 32g espresso plus 150ml dairy milk and 15ml maple syrup. 180g visible ice cubes, clear 16oz takeaway cup with condensation. Finished drink stirred to homogeneous creamy coffee tan; no dramatic separate colored layers. No flower petals, lavender sprigs, whole nuts, nut crumbs, maple leaves, syrup drizzles, whipped cream, cocoa, food coloring, surrounding props or garnish. Syrup flavor alone does not turn the coffee purple, pink or green."
+    },
+    {
+      "key": "v8-16-01",
+      "file": "recipe-photos/v8-16-01.webp",
+      "width": 768,
+      "height": 768,
+      "bytes": 22288,
+      "sha256": "6e840fb998d215417ea29974c759382503ff8a0fd02dd43deb1e04a52da8af9c",
+      "gitSha": "3910413510c878898909f09391acd46d143ed601",
+      "recipeName": "Oat Milk Latte",
+      "ingredientsSha256": "bd9350db8babf0e7c9e5b0f83eb156bc792c57e328cb1fab6b85a56a55c7248d",
+      "method": "imagegen",
+      "reviewedAt": "2026-11-16",
+      "prompt": "Create one new photorealistic premium cafe menu photograph, square composition, warm off-white seamless studio background, soft natural side lighting. One appropriate serving cup as described in the recipe, fully visible and centered with 8% breathing room. Hot cups must be dry, without ice or condensation. Exact recipe: Hot Barista oat milk Latte: exactly 32g espresso and 150ml Barista oat milk. A small 220ml white ceramic cup, fine steamed plant milk microfoam and a simple white milk heart over creamy light coffee tan. Hot, dry cup, no ice. No dairy milk, whole oats, nuts, coconut pieces, chocolate garnish, cinnamon, caramel drizzle, whipped cream, flowers or surrounding props. The plant milk is blended into the coffee; no fake green or purple color. Reproduce the attached dark-green 9 FLOOR COFFEE logo on a centered white cup label. Show only the finished drink. No people, hands, third-party logos, surrounding props, extra captions or unlisted ingredients. Fresh individual photograph for this recipe.",
+      "visual": "Hot Barista oat milk Latte: exactly 32g espresso and 150ml Barista oat milk. A small 220ml white ceramic cup, fine steamed plant milk microfoam and a simple white milk heart over creamy light coffee tan. Hot, dry cup, no ice. No dairy milk, whole oats, nuts, coconut pieces, chocolate garnish, cinnamon, caramel drizzle, whipped cream, flowers or surrounding props. The plant milk is blended into the coffee; no fake green or purple color."
+    },
+    {
+      "key": "v8-16-02",
+      "file": "recipe-photos/v8-16-02.webp",
+      "width": 768,
+      "height": 768,
+      "bytes": 41132,
+      "sha256": "4fb1653d6ddede7cacd54569ed0083c5be44f3b902bed89686cc26e508b6b04d",
+      "gitSha": "88d20313e9f264c256026129bb1a7c2ecc93ca07",
+      "recipeName": "Iced Oat Milk Latte",
+      "ingredientsSha256": "65ec669f7e775fe39dc48a15ff58cd88687219678394c30372c27de4a8f6f149",
+      "method": "imagegen",
+      "reviewedAt": "2026-11-16",
+      "prompt": "Create one new photorealistic premium cafe menu photograph, square composition, warm off-white seamless studio background, soft natural side lighting. One appropriate serving cup as described in the recipe, fully visible and centered with 8% breathing room. Hot cups must be dry, without ice or condensation. Exact recipe: Iced Barista oat milk Latte: exactly 32g espresso and 150ml Barista oat milk. 180g visible ice cubes, clear 16oz takeaway cup with condensation. All liquids stirred to uniform creamy coffee beige tan. No dairy milk, whole oats, nuts, coconut pieces, chocolate garnish, cinnamon, caramel drizzle, whipped cream, flowers or surrounding props. The plant milk is blended into the coffee; no fake green or purple color. Reproduce the attached dark-green 9 FLOOR COFFEE logo on a centered white cup label. Show only the finished drink. No people, hands, third-party logos, surrounding props, extra captions or unlisted ingredients. Fresh individual photograph for this recipe.",
+      "visual": "Iced Barista oat milk Latte: exactly 32g espresso and 150ml Barista oat milk. 180g visible ice cubes, clear 16oz takeaway cup with condensation. All liquids stirred to uniform creamy coffee beige tan. No dairy milk, whole oats, nuts, coconut pieces, chocolate garnish, cinnamon, caramel drizzle, whipped cream, flowers or surrounding props. The plant milk is blended into the coffee; no fake green or purple color."
     }
   ]
 }
