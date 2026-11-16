@@ -1,6 +1,6 @@
 {
   "scope": "Original 260 recipes",
-  "reviewed": 82,
+  "reviewed": 84,
   "target": 260,
   "method": "imagegen",
   "rows": [
@@ -1233,6 +1233,36 @@
       "reviewedAt": "2026-11-16",
       "prompt": "Create a new standalone photorealistic premium cafe menu photograph, square composition. One whole appropriate serving cup (as specified in the recipe below) centered, fully visible with 8% breathing room, warm off-white seamless studio background, soft natural side lighting and realistic cold condensation for iced drinks or a clean dry ceramic surface for hot drinks. Recipe to depict (do not print its name): Mango Fruit Tea:120ml cold GREEN TEA,40g mango PUREE,10ml lemon juice,30ml cold water,170g ice. Thoroughly mixed hazy golden-yellow mango tea with fine natural puree body, not a thick blended smoothie. Visible ice. No milk, soda, mango cubes or garnish. One clear16oz takeaway cup. Show ONLY the actual finished drink. Coffee grounds are for brewing and must not appear in the cup. Reproduce the exact dark-green 9 FLOOR COFFEE logo from the attached logo-only reference on a centered white cup label. No people, hands, third-party logos, extra captions, surrounding props or ingredients not specified. This must be a fresh individual photograph, not a reuse of another menu image.",
       "visual": "Mango Fruit Tea:120ml cold GREEN TEA,40g mango PUREE,10ml lemon juice,30ml cold water,170g ice. Thoroughly mixed hazy golden-yellow mango tea with fine natural puree body, not a thick blended smoothie. Visible ice. No milk, soda, mango cubes or garnish. One clear16oz takeaway cup."
+    },
+    {
+      "key": "v8-09-03",
+      "file": "recipe-photos/v8-09-03.webp",
+      "width": 768,
+      "height": 768,
+      "bytes": 31976,
+      "sha256": "86c8b23eeb0d83e813254d6263aeddbfe85c19a6ee6036ef2b14a24412036a28",
+      "gitSha": "86892065a3ebf723bbee513fc4b7df52c081c62e",
+      "recipeName": "Pineapple Fruit Tea",
+      "ingredientsSha256": "295eb5978d68c722b993088a1d640fb8e43723f4145272a53c7172276316708f",
+      "method": "imagegen",
+      "reviewedAt": "2026-11-16",
+      "prompt": "Create a new standalone photorealistic premium cafe menu photograph, square composition. One whole appropriate serving cup (as specified in the recipe below) centered, fully visible with 8% breathing room, warm off-white seamless studio background, soft natural side lighting and realistic cold condensation for iced drinks or a clean dry ceramic surface for hot drinks. Recipe to depict (do not print its name): Pineapple Fruit Tea:120ml cold GREEN TEA,60ml pineapple JUICE,10ml lemon juice,10ml simple syrup,170g ice. Mixed slightly cloudy light yellow-gold tea with ice. No milk, soda, pineapple chunks, slices or garnish. One clear16oz takeaway cup. Show ONLY the actual finished drink. Coffee grounds are for brewing and must not appear in the cup. Reproduce the exact dark-green 9 FLOOR COFFEE logo from the attached logo-only reference on a centered white cup label. No people, hands, third-party logos, extra captions, surrounding props or ingredients not specified. This must be a fresh individual photograph, not a reuse of another menu image.",
+      "visual": "Pineapple Fruit Tea:120ml cold GREEN TEA,60ml pineapple JUICE,10ml lemon juice,10ml simple syrup,170g ice. Mixed slightly cloudy light yellow-gold tea with ice. No milk, soda, pineapple chunks, slices or garnish. One clear16oz takeaway cup."
+    },
+    {
+      "key": "v8-09-04",
+      "file": "recipe-photos/v8-09-04.webp",
+      "width": 768,
+      "height": 768,
+      "bytes": 36742,
+      "sha256": "af8f4609572b356e6d29f4881aea06aea55bf83151bc2a45e1e4e853658bcde1",
+      "gitSha": "be000f3c809e25aa507cef00dc69455b00745290",
+      "recipeName": "Apple Green Tea",
+      "ingredientsSha256": "275738ab3342debde3d6ba3c71869b0a7bc8fa0e313c3050c097872dda7e170c",
+      "method": "imagegen",
+      "reviewedAt": "2026-11-16",
+      "prompt": "Create a new standalone photorealistic premium cafe menu photograph, square composition. One whole appropriate serving cup (as specified in the recipe below) centered, fully visible with 8% breathing room, warm off-white seamless studio background, soft natural side lighting and realistic cold condensation for iced drinks or a clean dry ceramic surface for hot drinks. Recipe to depict (do not print its name): Apple Green Tea:130ml cold green tea,25ml GREEN APPLE SYRUP,10ml lemon juice,30ml cold water,170g ice. Mixed translucent pale green-gold apple tea with ice, not opaque green milk. No soda, apple slices, chunks, leaves or garnish. One clear16oz takeaway cup. Show ONLY the actual finished drink. Coffee grounds are for brewing and must not appear in the cup. Reproduce the exact dark-green 9 FLOOR COFFEE logo from the attached logo-only reference on a centered white cup label. No people, hands, third-party logos, extra captions, surrounding props or ingredients not specified. This must be a fresh individual photograph, not a reuse of another menu image.",
+      "visual": "Apple Green Tea:130ml cold green tea,25ml GREEN APPLE SYRUP,10ml lemon juice,30ml cold water,170g ice. Mixed translucent pale green-gold apple tea with ice, not opaque green milk. No soda, apple slices, chunks, leaves or garnish. One clear16oz takeaway cup."
     }
   ]
 }
