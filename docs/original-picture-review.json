@@ -1,6 +1,6 @@
 {
   "scope": "Original 260 recipes",
-  "reviewed": 42,
+  "reviewed": 44,
   "target": 260,
   "method": "imagegen",
   "rows": [
@@ -633,6 +633,36 @@
       "reviewedAt": "2026-11-16",
       "prompt": "Create a new standalone photorealistic premium cafe menu photograph, square composition. One whole appropriate serving cup (as specified in the recipe below) centered, fully visible with 8% breathing room, warm off-white seamless studio background, soft natural side lighting and realistic cold condensation for iced drinks or a clean dry ceramic surface for hot drinks. Recipe to depict (do not print its name): Recipe: Iced Cocoa. Published serving sizes: [16] oz. Exact ingredient list: [{\"name\": \"Cocoa Powder\", \"quantity\": \"18 g\"}, {\"name\": \"သကြားရည်\", \"quantity\": \"15 ml\"}, {\"name\": \"ရေနွေး\", \"quantity\": \"60 ml\"}, {\"name\": \"နို့အေး / ရေအေး\", \"quantity\": \"120 ml (Menu အလိုက်)\"}, {\"name\": \"ရေခဲ\", \"quantity\": \"150–180 g\"}]. Preparation order: [\"1. 16 oz အအေးခွက် သန့်သန့်ကို ယူပါ။\", \"2. Cocoa Powder 18 g ကို ရေနွေး 60 ml နဲ့ ဖျော်ပါ။ လက်ဖက်ခြောက်ဆို 3–4 မိနစ်နှပ်ပြီး အရွက်စစ်ထုတ်ပါ။ Powder ဆို အဖုမကျန်အောင် မွှေပါ။\", \"3. သကြားရည် 15 ml ကို ထည့်ပြီး ပျော်အောင်မွှေပါ။\", \"4. နို့ပါသော Menu ဆို နို့အေး 120 ml၊ Lemon/Peach Tea ဆို ရေအေး 120 ml ထည့်ပါ။\", \"5. ရေခဲ 150–180 g ထည့်ပါ။\", \"6. အရသာစစ်၊ ခွက်အပြင်သုတ်ပြီး အဖုံးပိတ်ပါ။\"]. Depict only the finished drink with its actual color, mixing, layers, foam and listed garnish. Hot drinks in appropriate white ceramic cups; iced drinks in clear takeaway cups. Do NOT invent whipped cream, fruit chunks, toppings, drizzles or garnish absent from these ingredients and steps. Dissolved flavor syrups alone do not justify fruit pieces or sauce stripes. Show ONLY the actual finished drink. Coffee grounds are for brewing and must not appear in the cup. Reproduce the exact dark-green 9 FLOOR COFFEE logo from the attached logo-only reference on a centered white cup label. No people, hands, third-party logos, extra captions, surrounding props or ingredients not specified. This must be a fresh individual photograph, not a reuse of another menu image.",
       "visual": "Recipe: Iced Cocoa. Published serving sizes: [16] oz. Exact ingredient list: [{\"name\": \"Cocoa Powder\", \"quantity\": \"18 g\"}, {\"name\": \"သကြားရည်\", \"quantity\": \"15 ml\"}, {\"name\": \"ရေနွေး\", \"quantity\": \"60 ml\"}, {\"name\": \"နို့အေး / ရေအေး\", \"quantity\": \"120 ml (Menu အလိုက်)\"}, {\"name\": \"ရေခဲ\", \"quantity\": \"150–180 g\"}]. Preparation order: [\"1. 16 oz အအေးခွက် သန့်သန့်ကို ယူပါ။\", \"2. Cocoa Powder 18 g ကို ရေနွေး 60 ml နဲ့ ဖျော်ပါ။ လက်ဖက်ခြောက်ဆို 3–4 မိနစ်နှပ်ပြီး အရွက်စစ်ထုတ်ပါ။ Powder ဆို အဖုမကျန်အောင် မွှေပါ။\", \"3. သကြားရည် 15 ml ကို ထည့်ပြီး ပျော်အောင်မွှေပါ။\", \"4. နို့ပါသော Menu ဆို နို့အေး 120 ml၊ Lemon/Peach Tea ဆို ရေအေး 120 ml ထည့်ပါ။\", \"5. ရေခဲ 150–180 g ထည့်ပါ။\", \"6. အရသာစစ်၊ ခွက်အပြင်သုတ်ပြီး အဖုံးပိတ်ပါ။\"]. Depict only the finished drink with its actual color, mixing, layers, foam and listed garnish. Hot drinks in appropriate white ceramic cups; iced drinks in clear takeaway cups. Do NOT invent whipped cream, fruit chunks, toppings, drizzles or garnish absent from these ingredients and steps. Dissolved flavor syrups alone do not justify fruit pieces or sauce stripes."
+    },
+    {
+      "key": "v8-04-05",
+      "file": "recipe-photos/v8-04-05.webp",
+      "width": 768,
+      "height": 768,
+      "bytes": 46524,
+      "sha256": "8940cc92869709ab8adfb7f920a3709e8f5ac3de1e2a1f7fa7782b64525f1b14",
+      "gitSha": "cfea0fc99df5dd5874e6975266ebc101061cfbae",
+      "recipeName": "Iced Chocolate",
+      "ingredientsSha256": "95eba015757731734393df449fd7a29994bd457dd1e96857f89b7022c7960f74",
+      "method": "imagegen",
+      "reviewedAt": "2026-11-16",
+      "prompt": "Create a new standalone photorealistic premium cafe menu photograph, square composition. One whole appropriate serving cup (as specified in the recipe below) centered, fully visible with 8% breathing room, warm off-white seamless studio background, soft natural side lighting and realistic cold condensation for iced drinks or a clean dry ceramic surface for hot drinks. Recipe to depict (do not print its name): Iced Chocolate:20g chocolate powder and10ml simple syrup dissolved in60ml hot water, mixed with120ml cold milk,150–180g ice added last. Uniformly mixed opaque chocolate-brown milk with visible clear ice.16oz clear cup. No espresso, whipped cream, chocolate shavings, sauce drizzles or garnish. Show ONLY the actual finished drink. Coffee grounds are for brewing and must not appear in the cup. Reproduce the exact dark-green 9 FLOOR COFFEE logo from the attached logo-only reference on a centered white cup label. No people, hands, third-party logos, extra captions, surrounding props or ingredients not specified. This must be a fresh individual photograph, not a reuse of another menu image.",
+      "visual": "Iced Chocolate:20g chocolate powder and10ml simple syrup dissolved in60ml hot water, mixed with120ml cold milk,150–180g ice added last. Uniformly mixed opaque chocolate-brown milk with visible clear ice.16oz clear cup. No espresso, whipped cream, chocolate shavings, sauce drizzles or garnish."
+    },
+    {
+      "key": "v8-04-06",
+      "file": "recipe-photos/v8-04-06.webp",
+      "width": 768,
+      "height": 768,
+      "bytes": 32480,
+      "sha256": "5a01a162849c985bba4aeb7a0b8cfa572d018daed4c0dd8430aff70280ac8529",
+      "gitSha": "1438d92cb3e75f7d76719bb2b8b3442f8606087e",
+      "recipeName": "Iced Milk Tea",
+      "ingredientsSha256": "b77de534df15ae9dbb7b2ca6dee597460b5cf4de9636fd9a47a3297cf3867a66",
+      "method": "imagegen",
+      "reviewedAt": "2026-11-16",
+      "prompt": "Create a new standalone photorealistic premium cafe menu photograph, square composition. One whole appropriate serving cup (as specified in the recipe below) centered, fully visible with 8% breathing room, warm off-white seamless studio background, soft natural side lighting and realistic cold condensation for iced drinks or a clean dry ceramic surface for hot drinks. Recipe to depict (do not print its name): Iced Milk Tea:6g black tea leaves steeped in60ml hot water and FILTERED OUT,15ml condensed milk dissolved,120ml cold milk mixed in,150–180g ice. Uniform light caramel-tan milk tea,16oz clear cup. No black tea leaves in finished drink, boba, foam or garnish. Show ONLY the actual finished drink. Coffee grounds are for brewing and must not appear in the cup. Reproduce the exact dark-green 9 FLOOR COFFEE logo from the attached logo-only reference on a centered white cup label. No people, hands, third-party logos, extra captions, surrounding props or ingredients not specified. This must be a fresh individual photograph, not a reuse of another menu image.",
+      "visual": "Iced Milk Tea:6g black tea leaves steeped in60ml hot water and FILTERED OUT,15ml condensed milk dissolved,120ml cold milk mixed in,150–180g ice. Uniform light caramel-tan milk tea,16oz clear cup. No black tea leaves in finished drink, boba, foam or garnish."
     }
   ]
 }
