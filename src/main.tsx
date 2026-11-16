@@ -464,7 +464,7 @@ function App() {
                   }}
                 >
                   ▶ Video {title}
-                  <small>{description} · မူရင်းခွက်ပုံများ</small>
+                  <small>{description} · 9 Floor ပုံအသစ်များ</small>
                 </button>
               ))}
               <div className="line-tabs">

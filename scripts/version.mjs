@@ -13,9 +13,9 @@ const precache = [
   ...(await readdir("dist/video-tea"))
     .filter((n) => n.endsWith(".webp"))
     .map((n) => base + "video-tea/" + n),
-  ...(await readdir("dist/video-series"))
+  ...(await readdir("dist/generated-video"))
     .filter((n) => n.endsWith(".webp"))
-    .map((n) => base + "video-series/" + n),
+    .map((n) => base + "generated-video/" + n),
   ...assets,
 ];
 const manifest = JSON.parse(

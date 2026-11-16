@@ -5,9 +5,15 @@ import { posterImageForName } from "./posterPhotos";
 import catalog from "./photos/catalog.json";
 import videoPhotos from "./videoTeaPhotos.json";
 import seriesPhotos from "./videoSeriesPhotos.json";
+import generatedPhotos from "./generatedVideoPhotos.json";
+export function generatedPhotoFor(recipe: Recipe) {
+  return recipe.image
+    ? null
+    : generatedPhotos[recipe.id as keyof typeof generatedPhotos] || null;
+}
 const allVideoPhotos = { ...videoPhotos, ...seriesPhotos };
 export function videoPhotoFor(recipe: Recipe) {
-  return recipe.image
+  return recipe.image || generatedPhotoFor(recipe)
     ? null
     : allVideoPhotos[recipe.id as keyof typeof allVideoPhotos] || null;
 }
@@ -29,10 +35,16 @@ export default function RecipePhoto({
   recipe: Recipe;
   detail?: boolean;
 }) {
+  const generated = generatedPhotoFor(recipe);
   const video = videoPhotoFor(recipe);
-  const poster = video ? null : posterImageForName(recipe.englishName);
-  const reference = video || poster ? null : referencePhoto(recipe);
+  const poster =
+    recipe.image || generated || video
+      ? null
+      : posterImageForName(recipe.englishName);
+  const reference =
+    generated || video || poster ? null : referencePhoto(recipe);
   const source =
+    (generated && asset(generated.file)) ||
     (video && asset(video.file)) ||
     recipe.image ||
     poster ||
@@ -56,7 +68,13 @@ export default function RecipePhoto({
       <img
         src={source}
         className={
-          video ? "video-source-photo" : poster ? "poster-photo" : undefined
+          generated
+            ? "generated-recipe-photo"
+            : video
+              ? "video-source-photo"
+              : poster
+                ? "poster-photo"
+                : undefined
         }
         srcSet={
           p && p.large.width > p.small.width
@@ -69,18 +87,23 @@ export default function RecipePhoto({
             : "(max-width: 650px) calc((100vw - 46px) / 2), (max-width: 900px) 30vw, 330px"
         }
         alt={
-          video
-            ? `${recipe.englishName} — Video မူရင်းပုံ၊ Part ${video.part}၊ ${video.frameTime}`
-            : p
-              ? `${recipe.englishName} — ${label}: ${p.title.replace(/\.[^.]+$/, "")}`
-              : recipe.englishName
+          generated
+            ? `${recipe.englishName} — 9 Floor Recipe အလိုက် ဖန်တီးထားသော နမူနာပုံ`
+            : video
+              ? `${recipe.englishName} — Video မူရင်းပုံ၊ Part ${video.part}၊ ${video.frameTime}`
+              : p
+                ? `${recipe.englishName} — ${label}: ${p.title.replace(/\.[^.]+$/, "")}`
+                : recipe.englishName
         }
         loading={detail ? "eager" : "lazy"}
         decoding="async"
-        width={p?.large.width}
-        height={p?.large.height}
+        width={generated?.width || p?.large.width}
+        height={generated?.height || p?.large.height}
         onError={() => setFailed(source)}
       />
+      {generated && (
+        <span className="reference-photo-label">9 Floor · Recipe နမူနာပုံ</span>
+      )}
       {poster && (
         <span className="reference-photo-label">Menu Album · နမူနာပုံ</span>
       )}
@@ -94,6 +117,20 @@ export default function RecipePhoto({
   );
 }
 export function PhotoCredit({ recipe }: { recipe: Recipe }) {
+  if (recipe.image) return null;
+  if (generatedPhotoFor(recipe))
+    return (
+      <aside className="photo-credit">
+        <b>Recipe အလိုက် ဖန်တီးထားသော 9 Floor နမူနာပုံ</b>
+        <p>{recipe.sourceTitle}</p>
+        <p>
+          ဖျော်ရည်၏ အရောင်၊ အလွှာနှင့် topping ကို ဖျော်နည်းအလိုက် AI ဖြင့်
+          ဖန်တီးထားပါသည်။ ဆိုင်တွင် ဖျော်ပြီး ရိုက်ထားသော ဓာတ်ပုံမဟုတ်ပါ။
+          ပမာဏနှင့် ထည့်သည့်အစဉ်ကို Recipe အတိုင်း လိုက်နာပါ။
+        </p>
+      </aside>
+    );
+
   const video = videoPhotoFor(recipe);
   if (video)
     return (

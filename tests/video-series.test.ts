@@ -4,7 +4,8 @@ import { createHash } from "node:crypto";
 import sharp from "sharp";
 import { CatalogSchema, searchRecipes } from "../src/model";
 import { assemblyFor } from "../src/assembly";
-import { videoPhotoFor } from "../src/RecipePhoto";
+import { generatedPhotoFor, videoPhotoFor } from "../src/RecipePhoto";
+import generated from "../src/generatedVideoPhotos.json";
 import images from "../src/videoSeriesPhotos.json";
 const catalog = CatalogSchema.parse(
   JSON.parse(readFileSync("public/recipes.json", "utf8")),
@@ -92,20 +93,26 @@ it("keeps source uncertainties, cup variants, extraction water and concentrate t
     quantity: "30 ml",
   });
 });
-it("delivers a decodable actual-video crop for every addition and lets owner photos override it", async () => {
+it("delivers branded generated pictures for all 75 video additions with owner-photo precedence", async () => {
   expect(Object.keys(images).sort()).toEqual(added.map((r) => r.id).sort());
+  expect(Object.keys(generated).sort()).toEqual(added.map((r) => r.id).sort());
   for (const r of added) {
     const p = images[r.id as keyof typeof images];
-    expect(videoPhotoFor(r)).toEqual(p);
+    const g = generatedPhotoFor(r)!;
+    expect(g).toBeTruthy();
+    expect(videoPhotoFor(r)).toBeNull();
+    expect(
+      generatedPhotoFor({ ...r, image: "https://example.com/owner.webp" }),
+    ).toBeNull();
     expect(
       videoPhotoFor({ ...r, image: "https://example.com/owner.webp" }),
     ).toBeNull();
     expect(p.sourceSha256).toBe(r.source!.sha256);
-    const bytes = readFileSync("public/" + p.file);
-    expect(createHash("sha256").update(bytes).digest("hex")).toBe(p.sha256);
+    const bytes = readFileSync("public/" + g.file);
+    expect(createHash("sha256").update(bytes).digest("hex")).toBe(g.sha256);
     const decoded = await sharp(bytes).metadata();
     expect(decoded.format).toBe("webp");
-    expect(decoded.width).toBe(Number(p.crop.split(":")[0]));
-    expect(decoded.height).toBe(Number(p.crop.split(":")[1]));
+    expect(decoded.width).toBe(g.width);
+    expect(decoded.height).toBe(g.height);
   }
 });

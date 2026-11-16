@@ -35,3 +35,7 @@ These fill technique/preparation gaps and do not overwrite the source formula:
 - Starbucks At Home, Vanilla Sweet Cream Cold Foam Iced Coffee: https://www.starbucksathome.com/recipes/vanilla-sweet-cream-cold-foam-iced-coffee — optional alternative cold foam using 80 ml cold milk, one tablespoon powdered sugar and ¼ teaspoon vanilla, frothed cold. Make the reference batch, then weigh only the source's specified 50 g topping. This is explicitly a different vanilla preparation, not the source creator's undisclosed formula.
 
 All recipes remain `source-unverified` until the owner physically trials and approves them. New photographs are precached with the app for offline use. Existing favorites continue to use unchanged recipe IDs.
+
+## Branded image replacement — 2026-11-16
+
+All 75 records from the first four uploads now use 53 distinct 9 FLOOR COFFEE AI-generated recipe illustrations. Their colors, layers, ice and toppings were reviewed against the recipes. Similar appearances share a picture. Original video crops have been removed from the shipped app; their source provenance remains in `src/videoSeriesPhotos.json`. The app labels generated pictures and preserves owner-photo precedence. Recipe quantities and steps remain unchanged. Small no-ice bagged Matcha is illustrated in a small cup for the requested branding; its recipe still specifies the bag. The two latest uploads are a separate pending addition.

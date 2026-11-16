@@ -1825,3 +1825,10 @@ summary {
 .video-recipes-shortcut small {
   font-weight: 400;
 }
+
+.card-image img.generated-recipe-photo,
+.detail-photo img.generated-recipe-photo {
+  object-fit: contain;
+  object-position: center;
+  background: #f6efe6;
+}
