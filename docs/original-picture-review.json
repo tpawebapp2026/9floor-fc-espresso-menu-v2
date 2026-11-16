@@ -1,6 +1,6 @@
 {
   "scope": "Original 260 recipes",
-  "reviewed": 134,
+  "reviewed": 136,
   "target": 260,
   "method": "imagegen",
   "rows": [
@@ -2013,6 +2013,36 @@
       "reviewedAt": "2026-11-16",
       "prompt": "Create one new photorealistic premium cafe menu photograph, square composition, warm off-white seamless studio background, soft natural side lighting. One appropriate serving cup as described in the recipe, fully visible and centered with 8% breathing room. Hot cups must be dry, without ice or condensation. Exact recipe: Iced Rose Latte. Exactly 32g espresso plus 150ml dairy milk and 15ml rose syrup. 180g visible ice cubes, clear 16oz takeaway cup with condensation. Finished drink stirred to homogeneous creamy coffee tan; no dramatic separate colored layers. No flower petals, lavender sprigs, whole nuts, nut crumbs, maple leaves, syrup drizzles, whipped cream, cocoa, food coloring, surrounding props or garnish. Syrup flavor alone does not turn the coffee purple, pink or green. Reproduce the attached dark-green 9 FLOOR COFFEE logo on a centered white cup label. Show only the finished drink. No people, hands, third-party logos, surrounding props, extra captions or unlisted ingredients. Fresh individual photograph for this recipe.",
       "visual": "Iced Rose Latte. Exactly 32g espresso plus 150ml dairy milk and 15ml rose syrup. 180g visible ice cubes, clear 16oz takeaway cup with condensation. Finished drink stirred to homogeneous creamy coffee tan; no dramatic separate colored layers. No flower petals, lavender sprigs, whole nuts, nut crumbs, maple leaves, syrup drizzles, whipped cream, cocoa, food coloring, surrounding props or garnish. Syrup flavor alone does not turn the coffee purple, pink or green."
+    },
+    {
+      "key": "v8-15-05",
+      "file": "recipe-photos/v8-15-05.webp",
+      "width": 768,
+      "height": 768,
+      "bytes": 22998,
+      "sha256": "f52f8219ab8ecc1de1c7c05c67c37493ad247d0c312eb91aa6fcccafb29c127f",
+      "gitSha": "a4c376337e79ab573e321e986d039db7e985f302",
+      "recipeName": "Lavender Latte",
+      "ingredientsSha256": "f7df581b95333dd6fa396c047ebcfbea0502646b5ee30e95f864db2b83b09b0d",
+      "method": "imagegen",
+      "reviewedAt": "2026-11-16",
+      "prompt": "Create one new photorealistic premium cafe menu photograph, square composition, warm off-white seamless studio background, soft natural side lighting. One appropriate serving cup as described in the recipe, fully visible and centered with 8% breathing room. Hot cups must be dry, without ice or condensation. Exact recipe: Hot Lavender Latte. Exactly 32g espresso plus 150ml dairy milk and 12ml lavender syrup. A 220ml white ceramic latte cup, fine steamed milk microfoam, warm creamy coffee tan with a subtle simple milk heart. Hot, dry cup, no ice. No flower petals, lavender sprigs, whole nuts, nut crumbs, maple leaves, syrup drizzles, whipped cream, cocoa, food coloring, surrounding props or garnish. Syrup flavor alone does not turn the coffee purple, pink or green. Reproduce the attached dark-green 9 FLOOR COFFEE logo on a centered white cup label. Show only the finished drink. No people, hands, third-party logos, surrounding props, extra captions or unlisted ingredients. Fresh individual photograph for this recipe.",
+      "visual": "Hot Lavender Latte. Exactly 32g espresso plus 150ml dairy milk and 12ml lavender syrup. A 220ml white ceramic latte cup, fine steamed milk microfoam, warm creamy coffee tan with a subtle simple milk heart. Hot, dry cup, no ice. No flower petals, lavender sprigs, whole nuts, nut crumbs, maple leaves, syrup drizzles, whipped cream, cocoa, food coloring, surrounding props or garnish. Syrup flavor alone does not turn the coffee purple, pink or green."
+    },
+    {
+      "key": "v8-15-06",
+      "file": "recipe-photos/v8-15-06.webp",
+      "width": 768,
+      "height": 768,
+      "bytes": 38712,
+      "sha256": "93f84cf868926877b260d20c3fee7179d89594da187cf7fd91ec4f9eb09bf4b9",
+      "gitSha": "542961c97d0215b306eee6155bac50779442117a",
+      "recipeName": "Iced Lavender Latte",
+      "ingredientsSha256": "df5b34e73cd54f38fc17279395020af73dab75d3e83398feef8726b386449625",
+      "method": "imagegen",
+      "reviewedAt": "2026-11-16",
+      "prompt": "Create one new photorealistic premium cafe menu photograph, square composition, warm off-white seamless studio background, soft natural side lighting. One appropriate serving cup as described in the recipe, fully visible and centered with 8% breathing room. Hot cups must be dry, without ice or condensation. Exact recipe: Iced Lavender Latte. Exactly 32g espresso plus 150ml dairy milk and 15ml lavender syrup. 180g visible ice cubes, clear 16oz takeaway cup with condensation. Finished drink stirred to homogeneous creamy coffee tan; no dramatic separate colored layers. No flower petals, lavender sprigs, whole nuts, nut crumbs, maple leaves, syrup drizzles, whipped cream, cocoa, food coloring, surrounding props or garnish. Syrup flavor alone does not turn the coffee purple, pink or green. Reproduce the attached dark-green 9 FLOOR COFFEE logo on a centered white cup label. Show only the finished drink. No people, hands, third-party logos, surrounding props, extra captions or unlisted ingredients. Fresh individual photograph for this recipe.",
+      "visual": "Iced Lavender Latte. Exactly 32g espresso plus 150ml dairy milk and 15ml lavender syrup. 180g visible ice cubes, clear 16oz takeaway cup with condensation. Finished drink stirred to homogeneous creamy coffee tan; no dramatic separate colored layers. No flower petals, lavender sprigs, whole nuts, nut crumbs, maple leaves, syrup drizzles, whipped cream, cocoa, food coloring, surrounding props or garnish. Syrup flavor alone does not turn the coffee purple, pink or green."
     }
   ]
 }
