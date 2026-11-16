@@ -1,6 +1,6 @@
 {
   "scope": "Original 260 recipes",
-  "reviewed": 124,
+  "reviewed": 126,
   "target": 260,
   "method": "imagegen",
   "rows": [
@@ -1863,6 +1863,36 @@
       "reviewedAt": "2026-11-16",
       "prompt": "Create one new photorealistic premium cafe menu photograph, square composition, warm off-white seamless studio background, soft natural side lighting. One appropriate serving cup as described in the recipe, fully visible and centered with 8% breathing room. Hot cups must be dry, without ice or condensation. Exact recipe: Espresso Con Panna: 32g dark espresso topped with 25ml softly piped white whipped cream in a small 90ml clear espresso glass. Dark espresso remains visible below a modest soft whipped cream mound. No cocoa, chocolate, caramel, milk, ice or garnish. Reproduce the attached dark-green 9 FLOOR COFFEE logo on a centered white cup label. Show only the finished drink. No people, hands, third-party logos, surrounding props, extra captions or unlisted ingredients. Fresh individual photograph for this recipe.",
       "visual": "Espresso Con Panna: 32g dark espresso topped with 25ml softly piped white whipped cream in a small 90ml clear espresso glass. Dark espresso remains visible below a modest soft whipped cream mound. No cocoa, chocolate, caramel, milk, ice or garnish."
+    },
+    {
+      "key": "v8-14-05",
+      "file": "recipe-photos/v8-14-05.webp",
+      "width": 768,
+      "height": 768,
+      "bytes": 25754,
+      "sha256": "828efc39e0d0020bc0ee7339e515bbc56df50d71a78969b737aaf5ea506549d8",
+      "gitSha": "5849f6387e83535b15f9aa7c92f10f34dc1f455b",
+      "recipeName": "Espresso Macchiato",
+      "ingredientsSha256": "4bc00a289dd1683643ec5172d1dcae2c7902e85e8fe32b0dd2158210e5c9480f",
+      "method": "imagegen",
+      "reviewedAt": "2026-11-16",
+      "prompt": "Create one new photorealistic premium cafe menu photograph, square composition, warm off-white seamless studio background, soft natural side lighting. One appropriate serving cup as described in the recipe, fully visible and centered with 8% breathing room. Hot cups must be dry, without ice or condensation. Exact recipe: Espresso Macchiato: 32g espresso with a small 15–20ml dollop of steamed milk foam marking the center of the brown crema. A small 80ml white ceramic demitasse with visible brown espresso around the foam. Not whipped cream, no tall swirl, cocoa, syrup or ice. Reproduce the attached dark-green 9 FLOOR COFFEE logo on a centered white cup label. Show only the finished drink. No people, hands, third-party logos, surrounding props, extra captions or unlisted ingredients. Fresh individual photograph for this recipe.",
+      "visual": "Espresso Macchiato: 32g espresso with a small 15–20ml dollop of steamed milk foam marking the center of the brown crema. A small 80ml white ceramic demitasse with visible brown espresso around the foam. Not whipped cream, no tall swirl, cocoa, syrup or ice."
+    },
+    {
+      "key": "v8-14-06",
+      "file": "recipe-photos/v8-14-06.webp",
+      "width": 768,
+      "height": 768,
+      "bytes": 28176,
+      "sha256": "a6d7af6790d4ffc9c2a0fbbb8dfca878e6e4ad72b68f1434b5e8decb4e8ee0e2",
+      "gitSha": "284f786d922af934fc4decc032557003a0bf822c",
+      "recipeName": "Cortado",
+      "ingredientsSha256": "aa201e0ab0ae4d5bdda4cef968701f32785a4bd4782bd331ee7ac950ff7e4fe0",
+      "method": "imagegen",
+      "reviewedAt": "2026-11-16",
+      "prompt": "Create one new photorealistic premium cafe menu photograph, square composition, warm off-white seamless studio background, soft natural side lighting. One appropriate serving cup as described in the recipe, fully visible and centered with 8% breathing room. Hot cups must be dry, without ice or condensation. Exact recipe: Cortado: 32g espresso mixed with 40ml steamed milk microfoam, uniform medium caramel brown with a very thin white microfoam surface. Small 90ml clear short glass; hot, no condensation or ice. No layers, whipped cream, syrup, cocoa or garnish. Reproduce the attached dark-green 9 FLOOR COFFEE logo on a centered white cup label. Show only the finished drink. No people, hands, third-party logos, surrounding props, extra captions or unlisted ingredients. Fresh individual photograph for this recipe.",
+      "visual": "Cortado: 32g espresso mixed with 40ml steamed milk microfoam, uniform medium caramel brown with a very thin white microfoam surface. Small 90ml clear short glass; hot, no condensation or ice. No layers, whipped cream, syrup, cocoa or garnish."
     }
   ]
 }
