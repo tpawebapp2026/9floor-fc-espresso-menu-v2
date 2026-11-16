@@ -1,6 +1,6 @@
 {
   "scope": "Original 260 recipes",
-  "reviewed": 116,
+  "reviewed": 118,
   "target": 260,
   "method": "imagegen",
   "rows": [
@@ -1743,6 +1743,36 @@
       "reviewedAt": "2026-11-16",
       "prompt": "Create one new photorealistic premium cafe menu photograph, square composition, warm off-white seamless studio background, soft natural side lighting. One clear16oz takeaway cup, fully visible and centered with8% breathing room, realistic condensation. Exact recipe: Lemongrass Lime Cooler:140ml cold FILTERED lemongrass infusion,20ml lemon/lime juice,25ml simple syrup mixed over170g ice. Translucent very pale straw-gold drink with slight citrus haze, STILL not carbonated. No lemongrass stalks, leaves, citrus slices, milk, mint or garnish. Reproduce the attached dark-green 9 FLOOR COFFEE logo on a centered white cup label. Show only the finished drink. No people, hands, third-party logos, surrounding props, extra captions or unlisted ingredients. Fresh individual photograph for this recipe.",
       "visual": "Lemongrass Lime Cooler:140ml cold FILTERED lemongrass infusion,20ml lemon/lime juice,25ml simple syrup mixed over170g ice. Translucent very pale straw-gold drink with slight citrus haze, STILL not carbonated. No lemongrass stalks, leaves, citrus slices, milk, mint or garnish."
+    },
+    {
+      "key": "v8-13-05",
+      "file": "recipe-photos/v8-13-05.webp",
+      "width": 768,
+      "height": 768,
+      "bytes": 32674,
+      "sha256": "5ae98772bc98f48de7c7642e14edc8e84bbe6225e2d0005a91f909408a423114",
+      "gitSha": "2e897847ec415ce39ae5ba3133d6c29773f2918a",
+      "recipeName": "Coconut Lime Refresher",
+      "ingredientsSha256": "6a25f8aca526230b072490ad0dcbe505a91cde339c32dcb35eeb5e4832b8ba0d",
+      "method": "imagegen",
+      "reviewedAt": "2026-11-16",
+      "prompt": "Create one new photorealistic premium cafe menu photograph, square composition, warm off-white seamless studio background, soft natural side lighting. One clear16oz takeaway cup, fully visible and centered with8% breathing room, realistic condensation. Exact recipe: Coconut Lime Refresher:160ml COCONUT WATER (not coconut milk),20ml lime/lemon juice,15ml honey mixed over170g ice. Almost clear slightly hazy very pale yellow water drink, translucent, NOT white creamy milk. No carbonation, coconut flakes or chunks, lime slices, mint or garnish. Reproduce the attached dark-green 9 FLOOR COFFEE logo on a centered white cup label. Show only the finished drink. No people, hands, third-party logos, surrounding props, extra captions or unlisted ingredients. Fresh individual photograph for this recipe.",
+      "visual": "Coconut Lime Refresher:160ml COCONUT WATER (not coconut milk),20ml lime/lemon juice,15ml honey mixed over170g ice. Almost clear slightly hazy very pale yellow water drink, translucent, NOT white creamy milk. No carbonation, coconut flakes or chunks, lime slices, mint or garnish."
+    },
+    {
+      "key": "v8-13-06",
+      "file": "recipe-photos/v8-13-06.webp",
+      "width": 768,
+      "height": 768,
+      "bytes": 47388,
+      "sha256": "85b5dfe830ce94e2b70c40a2e34a30d03338cb46c0bcfc38fadcd27bab33115c",
+      "gitSha": "d4e07a71ba4f15d05c7d96a0a71dca84dc49fcbd",
+      "recipeName": "Thai Basil Lemon Soda",
+      "ingredientsSha256": "c9088b0abdc71678a15d01e43d766bc9fa4114fa34fce94c5be14b03fea587ac",
+      "method": "imagegen",
+      "reviewedAt": "2026-11-16",
+      "prompt": "Create one new photorealistic premium cafe menu photograph, square composition, warm off-white seamless studio background, soft natural side lighting. One clear16oz takeaway cup, fully visible and centered with8% breathing room, realistic condensation. Exact recipe: Thai Basil Lemon Soda:6 Thai basil leaves INSIDE drink,20ml lemon/lime juice,20ml simple syrup,160ml soda water,180g ice. Almost clear slightly hazy pale citrus sparkling drink with fine bubbles, recognizable pointed Thai basil leaves among the ice and lower cup. Leaves are ingredients, not a decorative bouquet. No mint, lime wedges, cucumber slices, milk or other garnish. Reproduce the attached dark-green 9 FLOOR COFFEE logo on a centered white cup label. Show only the finished drink. No people, hands, third-party logos, surrounding props, extra captions or unlisted ingredients. Fresh individual photograph for this recipe.",
+      "visual": "Thai Basil Lemon Soda:6 Thai basil leaves INSIDE drink,20ml lemon/lime juice,20ml simple syrup,160ml soda water,180g ice. Almost clear slightly hazy pale citrus sparkling drink with fine bubbles, recognizable pointed Thai basil leaves among the ice and lower cup. Leaves are ingredients, not a decorative bouquet. No mint, lime wedges, cucumber slices, milk or other garnish."
     }
   ]
 }
