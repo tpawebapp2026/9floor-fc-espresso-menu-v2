@@ -928,7 +928,7 @@ function App() {
                           ?.name.split(" — ")[0]
                       }
                     </span>
-                    <h3>{r.englishName}</h3>
+                    <h3>{r.englishName.replace(/\s*·\s*Video.*$/i, "")}</h3>
                     {r.burmeseName && <p>{r.burmeseName}</p>}
                     <div className="card-bottom">
                       <span>
