@@ -1,6 +1,6 @@
 {
   "scope": "Original 260 recipes",
-  "reviewed": 76,
+  "reviewed": 78,
   "target": 260,
   "method": "imagegen",
   "rows": [
@@ -1143,6 +1143,36 @@
       "reviewedAt": "2026-11-16",
       "prompt": "Create a new standalone photorealistic premium cafe menu photograph, square composition. One whole appropriate serving cup (as specified in the recipe below) centered, fully visible with 8% breathing room, warm off-white seamless studio background, soft natural side lighting and realistic cold condensation for iced drinks or a clean dry ceramic surface for hot drinks. Recipe to depict (do not print its name): Orange Cooler:120ml orange juice diluted with60ml STILL cold drinking water,150–180g clear ice, stirred. Opaque natural orange juice color, lighter than undiluted juice. Clear16oz cup. NO carbonation bubbles, milk, orange slices, pulp chunks, mint or garnish. Show ONLY the actual finished drink. Coffee grounds are for brewing and must not appear in the cup. Reproduce the exact dark-green 9 FLOOR COFFEE logo from the attached logo-only reference on a centered white cup label. No people, hands, third-party logos, extra captions, surrounding props or ingredients not specified. This must be a fresh individual photograph, not a reuse of another menu image.",
       "visual": "Orange Cooler:120ml orange juice diluted with60ml STILL cold drinking water,150–180g clear ice, stirred. Opaque natural orange juice color, lighter than undiluted juice. Clear16oz cup. NO carbonation bubbles, milk, orange slices, pulp chunks, mint or garnish."
+    },
+    {
+      "key": "v8-08-03",
+      "file": "recipe-photos/v8-08-03.webp",
+      "width": 768,
+      "height": 768,
+      "bytes": 44024,
+      "sha256": "2a296297b6e33beda515cc3fe516660de6159ad3c4f492251e8c5ec367e9a4e3",
+      "gitSha": "721b987c1e7a93e13c24e54d8738908a3ea13115",
+      "recipeName": "Passion Fruit Cooler",
+      "ingredientsSha256": "022ee493d5fd10e6d46d56d0d991d5bdfcfec90a2cc835338f68b7571c551a98",
+      "method": "imagegen",
+      "reviewedAt": "2026-11-16",
+      "prompt": "Create a new standalone photorealistic premium cafe menu photograph, square composition. One whole appropriate serving cup (as specified in the recipe below) centered, fully visible with 8% breathing room, warm off-white seamless studio background, soft natural side lighting and realistic cold condensation for iced drinks or a clean dry ceramic surface for hot drinks. Recipe to depict (do not print its name): Passion Fruit Cooler:25ml smooth passion fruit SYRUP diluted with140ml STILL cold water,150–180g clear ice. Translucent golden yellow drink. Clear16oz cup. NO carbonation bubbles, passion fruit seeds, puree pulp, fruit pieces, milk or garnish. Show ONLY the actual finished drink. Coffee grounds are for brewing and must not appear in the cup. Reproduce the exact dark-green 9 FLOOR COFFEE logo from the attached logo-only reference on a centered white cup label. No people, hands, third-party logos, extra captions, surrounding props or ingredients not specified. This must be a fresh individual photograph, not a reuse of another menu image.",
+      "visual": "Passion Fruit Cooler:25ml smooth passion fruit SYRUP diluted with140ml STILL cold water,150–180g clear ice. Translucent golden yellow drink. Clear16oz cup. NO carbonation bubbles, passion fruit seeds, puree pulp, fruit pieces, milk or garnish."
+    },
+    {
+      "key": "v8-08-04",
+      "file": "recipe-photos/v8-08-04.webp",
+      "width": 768,
+      "height": 768,
+      "bytes": 31992,
+      "sha256": "cbc5e097966c0ff9713c493b0e171ef28a6766971d11d9cd0f65be0d040b13bb",
+      "gitSha": "cee284eaa9ad07b4249693a4d9264d58d87c452b",
+      "recipeName": "Lychee Cooler",
+      "ingredientsSha256": "85e85287f5286a7c1897534c334bcfb4f492ba984f9649c4ca56b5b3fca148cf",
+      "method": "imagegen",
+      "reviewedAt": "2026-11-16",
+      "prompt": "Create a new standalone photorealistic premium cafe menu photograph, square composition. One whole appropriate serving cup (as specified in the recipe below) centered, fully visible with 8% breathing room, warm off-white seamless studio background, soft natural side lighting and realistic cold condensation for iced drinks or a clean dry ceramic surface for hot drinks. Recipe to depict (do not print its name): Lychee Cooler:25ml smooth lychee syrup diluted with140ml STILL cold water,150–180g clear ice. Almost clear extremely pale pink-white translucent water drink. Clear16oz cup. NO carbonation bubbles, milky opacity, whole lychee, fruit, flowers or garnish. Show ONLY the actual finished drink. Coffee grounds are for brewing and must not appear in the cup. Reproduce the exact dark-green 9 FLOOR COFFEE logo from the attached logo-only reference on a centered white cup label. No people, hands, third-party logos, extra captions, surrounding props or ingredients not specified. This must be a fresh individual photograph, not a reuse of another menu image.",
+      "visual": "Lychee Cooler:25ml smooth lychee syrup diluted with140ml STILL cold water,150–180g clear ice. Almost clear extremely pale pink-white translucent water drink. Clear16oz cup. NO carbonation bubbles, milky opacity, whole lychee, fruit, flowers or garnish."
     }
   ]
 }
