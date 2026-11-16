@@ -226,7 +226,8 @@ test("picture gallery stays simple and the side menu is accessible on phones and
   await expect(menu).not.toBeVisible();
   await page.getByRole("searchbox").fill("VC-01");
   await expect(page.locator(".recipe-card")).toHaveCount(1);
-  await expect(page.locator(".card-copy").first()).not.toBeVisible();
+  await expect(page.locator(".card-copy").first()).toBeVisible();
+  await expect(page.locator(".card-copy h3").first()).toHaveText("Black Honey");
   const image = page.locator(".recipe-card img").first();
   await expect
     .poll(() =>
