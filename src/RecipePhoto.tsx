@@ -6,10 +6,12 @@ import catalog from "./photos/catalog.json";
 import videoPhotos from "./videoTeaPhotos.json";
 import seriesPhotos from "./videoSeriesPhotos.json";
 import generatedPhotos from "./generatedVideoPhotos.json";
+import originalRecipePhotos from "./recipePhotos.json";
+const allGeneratedPhotos = { ...generatedPhotos, ...originalRecipePhotos };
 export function generatedPhotoFor(recipe: Recipe) {
   return recipe.image
     ? null
-    : generatedPhotos[recipe.id as keyof typeof generatedPhotos] || null;
+    : allGeneratedPhotos[recipe.id as keyof typeof allGeneratedPhotos] || null;
 }
 const allVideoPhotos = { ...videoPhotos, ...seriesPhotos };
 export function videoPhotoFor(recipe: Recipe) {
