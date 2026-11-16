@@ -1,6 +1,6 @@
 {
   "scope": "Original 260 recipes",
-  "reviewed": 27,
+  "reviewed": 29,
   "target": 260,
   "method": "imagegen",
   "rows": [
@@ -408,6 +408,36 @@
       "reviewedAt": "2026-11-16",
       "prompt": "Create a new standalone photorealistic premium cafe menu photograph, square composition. One whole appropriate serving cup (as specified in the recipe below) centered, fully visible with 8% breathing room, warm off-white seamless studio background, soft natural side lighting and realistic cold condensation for iced drinks or a clean dry ceramic surface for hot drinks. Recipe to depict (do not print its name): Hot Cappuccino:32g espresso and130ml steamed milk in12oz white ceramic cafe cup with handle. A thick velvety white milk-foam cap above warm tan coffee, golden crema rim. Recipe has NO cocoa or cinnamon powder, no dusting, no whipped cream, no ice. Show ONLY the actual finished drink. Coffee grounds are for brewing and must not appear in the cup. Reproduce the exact dark-green 9 FLOOR COFFEE logo from the attached logo-only reference on a centered white cup label. No people, hands, third-party logos, extra captions, surrounding props or ingredients not specified. This must be a fresh individual photograph, not a reuse of another menu image.",
       "visual": "Hot Cappuccino:32g espresso and130ml steamed milk in12oz white ceramic cafe cup with handle. A thick velvety white milk-foam cap above warm tan coffee, golden crema rim. Recipe has NO cocoa or cinnamon powder, no dusting, no whipped cream, no ice."
+    },
+    {
+      "key": "v8-02-07",
+      "file": "recipe-photos/v8-02-07.webp",
+      "width": 768,
+      "height": 768,
+      "bytes": 21744,
+      "sha256": "4416f7baf86b5a9376166ddad3f25ed5dae09a08cf06ddfc99dc39b1cbce83c6",
+      "gitSha": "49e8494d94a508b6468d9bc88839be6927a0b00a",
+      "recipeName": "Hot Flat White",
+      "ingredientsSha256": "5b7d0adfde7cea2c29c91824b3787fdc9cea260e7d2cebe85dc132a489d8f3fb",
+      "method": "imagegen",
+      "reviewedAt": "2026-11-16",
+      "prompt": "Create a new standalone photorealistic premium cafe menu photograph, square composition. One whole appropriate serving cup (as specified in the recipe below) centered, fully visible with 8% breathing room, warm off-white seamless studio background, soft natural side lighting and realistic cold condensation for iced drinks or a clean dry ceramic surface for hot drinks. Recipe to depict (do not print its name): Hot Flat White:32g espresso and140ml steamed milk in12oz white ceramic cafe cup with handle. Small serving warm caramel-tan coffee with a very THIN glossy white microfoam surface, understated small rosetta, no thick foam mound. No ice or garnish. Show ONLY the actual finished drink. Coffee grounds are for brewing and must not appear in the cup. Reproduce the exact dark-green 9 FLOOR COFFEE logo from the attached logo-only reference on a centered white cup label. No people, hands, third-party logos, extra captions, surrounding props or ingredients not specified. This must be a fresh individual photograph, not a reuse of another menu image.",
+      "visual": "Hot Flat White:32g espresso and140ml steamed milk in12oz white ceramic cafe cup with handle. Small serving warm caramel-tan coffee with a very THIN glossy white microfoam surface, understated small rosetta, no thick foam mound. No ice or garnish."
+    },
+    {
+      "key": "v8-02-08",
+      "file": "recipe-photos/v8-02-08.webp",
+      "width": 768,
+      "height": 768,
+      "bytes": 27186,
+      "sha256": "a5272021cbd761f15c77e5ef9ca7622a1dfb22e8910c7f3ebd91c89253778101",
+      "gitSha": "e6ef9f79e32b86b489b737f12b5547e0519b8412",
+      "recipeName": "Hot Mocha",
+      "ingredientsSha256": "ffc094ad5525ce3e5409a633f8123550a7faa34b69fb4d5d558e98048ffa60e9",
+      "method": "imagegen",
+      "reviewedAt": "2026-11-16",
+      "prompt": "Create a new standalone photorealistic premium cafe menu photograph, square composition. One whole appropriate serving cup (as specified in the recipe below) centered, fully visible with 8% breathing room, warm off-white seamless studio background, soft natural side lighting and realistic cold condensation for iced drinks or a clean dry ceramic surface for hot drinks. Recipe to depict (do not print its name): Hot Mocha:20ml chocolate sauce dissolved into32g espresso,180ml steamed milk, served in12oz white ceramic cafe cup with handle. Rich warm medium chocolate-brown coffee with thin silky pale microfoam surface. No whipped cream, chocolate chips, drizzle, cocoa powder or ice. Show ONLY the actual finished drink. Coffee grounds are for brewing and must not appear in the cup. Reproduce the exact dark-green 9 FLOOR COFFEE logo from the attached logo-only reference on a centered white cup label. No people, hands, third-party logos, extra captions, surrounding props or ingredients not specified. This must be a fresh individual photograph, not a reuse of another menu image.",
+      "visual": "Hot Mocha:20ml chocolate sauce dissolved into32g espresso,180ml steamed milk, served in12oz white ceramic cafe cup with handle. Rich warm medium chocolate-brown coffee with thin silky pale microfoam surface. No whipped cream, chocolate chips, drizzle, cocoa powder or ice."
     }
   ]
 }
