@@ -1,6 +1,6 @@
 {
   "scope": "Original 260 recipes",
-  "reviewed": 96,
+  "reviewed": 98,
   "target": 260,
   "method": "imagegen",
   "rows": [
@@ -1443,6 +1443,36 @@
       "reviewedAt": "2026-11-16",
       "prompt": "Create a new standalone photorealistic premium cafe menu photograph, square composition. One whole appropriate serving cup (as specified in the recipe below) centered, fully visible with 8% breathing room, warm off-white seamless studio background, soft natural side lighting and realistic cold condensation for iced drinks or a clean dry ceramic surface for hot drinks. Recipe to depict (do not print its name): Cucumber Lime Soda:50ml STRAINED cucumber juice,20ml lime/lemon juice,20ml simple syrup,120ml soda water,180g ice. Mixed slightly hazy very pale fresh green sparkling drink with fine bubbles. No cucumber slices, seeds, skin, lime wedges, mint, milk or garnish. One clear16oz takeaway cup. Show ONLY the actual finished drink. Coffee grounds are for brewing and must not appear in the cup. Reproduce the exact dark-green 9 FLOOR COFFEE logo from the attached logo-only reference on a centered white cup label. No people, hands, third-party logos, extra captions, surrounding props or ingredients not specified. This must be a fresh individual photograph, not a reuse of another menu image.",
       "visual": "Cucumber Lime Soda:50ml STRAINED cucumber juice,20ml lime/lemon juice,20ml simple syrup,120ml soda water,180g ice. Mixed slightly hazy very pale fresh green sparkling drink with fine bubbles. No cucumber slices, seeds, skin, lime wedges, mint, milk or garnish. One clear16oz takeaway cup."
+    },
+    {
+      "key": "v8-11-01",
+      "file": "recipe-photos/v8-11-01.webp",
+      "width": 768,
+      "height": 768,
+      "bytes": 40956,
+      "sha256": "caa5adec9054deb29f4e4b25c46124b7cecf730812fae521b2774dc283fcaa94",
+      "gitSha": "f3f99a7f63d4b7ab9865dfed5f62d73620082a04",
+      "recipeName": "Virgin Mojito",
+      "ingredientsSha256": "b98aeeaaa13d4e8de2506b9f5c6451a1d8fce1eccfad765d2540eb347962d26c",
+      "method": "imagegen",
+      "reviewedAt": "2026-11-16",
+      "prompt": "Create a new standalone photorealistic premium cafe menu photograph, square composition. One whole appropriate serving cup (as specified in the recipe below) centered, fully visible with 8% breathing room, warm off-white seamless studio background, soft natural side lighting and realistic cold condensation for iced drinks or a clean dry ceramic surface for hot drinks. Recipe to depict (do not print its name): Virgin Mojito, NONALCOHOLIC:8 fresh mint leaves in the drink,25ml lime/lemon juice,20ml simple syrup,140ml soda water,180g ice. Almost clear slightly cloudy pale citrus sparkling drink with green mint leaves distributed among the ice and lower cup. Mint leaves are ingredients inside the drink, not a large decorative sprig. No lime wedges, alcohol, rum, fruit slices or other garnish. One clear16oz takeaway cup. Show ONLY the actual finished drink. Coffee grounds are for brewing and must not appear in the cup. Reproduce the exact dark-green 9 FLOOR COFFEE logo from the attached logo-only reference on a centered white cup label. No people, hands, third-party logos, extra captions, surrounding props or ingredients not specified. This must be a fresh individual photograph, not a reuse of another menu image.",
+      "visual": "Virgin Mojito, NONALCOHOLIC:8 fresh mint leaves in the drink,25ml lime/lemon juice,20ml simple syrup,140ml soda water,180g ice. Almost clear slightly cloudy pale citrus sparkling drink with green mint leaves distributed among the ice and lower cup. Mint leaves are ingredients inside the drink, not a large decorative sprig. No lime wedges, alcohol, rum, fruit slices or other garnish. One clear16oz takeaway cup."
+    },
+    {
+      "key": "v8-11-02",
+      "file": "recipe-photos/v8-11-02.webp",
+      "width": 768,
+      "height": 768,
+      "bytes": 50880,
+      "sha256": "a02485ad5e77394fcbe1d3292dc42f0c6ac07115abb962246e258705d51721a0",
+      "gitSha": "f658ce261bf38cfb141dfacb11447505ca3781da",
+      "recipeName": "Blue Lagoon Mocktail",
+      "ingredientsSha256": "e37a4bf62ff3bac523434f877d47fc039cbbaea4a687ea0b06b9a6cd46cae096",
+      "method": "imagegen",
+      "reviewedAt": "2026-11-16",
+      "prompt": "Create a new standalone photorealistic premium cafe menu photograph, square composition. One whole appropriate serving cup (as specified in the recipe below) centered, fully visible with 8% breathing room, warm off-white seamless studio background, soft natural side lighting and realistic cold condensation for iced drinks or a clean dry ceramic surface for hot drinks. Recipe to depict (do not print its name): Blue Lagoon Mocktail, NONALCOHOLIC:25ml blue curacao SYRUP,20ml lemon juice,160ml soda water,180g ice. Translucent bright blue sparkling drink with fine bubbles and slight lemon haze. No vodka, alcohol, lemon slice, cherry, orange peel or garnish. One clear16oz takeaway cup. Show ONLY the actual finished drink. Coffee grounds are for brewing and must not appear in the cup. Reproduce the exact dark-green 9 FLOOR COFFEE logo from the attached logo-only reference on a centered white cup label. No people, hands, third-party logos, extra captions, surrounding props or ingredients not specified. This must be a fresh individual photograph, not a reuse of another menu image.",
+      "visual": "Blue Lagoon Mocktail, NONALCOHOLIC:25ml blue curacao SYRUP,20ml lemon juice,160ml soda water,180g ice. Translucent bright blue sparkling drink with fine bubbles and slight lemon haze. No vodka, alcohol, lemon slice, cherry, orange peel or garnish. One clear16oz takeaway cup."
     }
   ]
 }
