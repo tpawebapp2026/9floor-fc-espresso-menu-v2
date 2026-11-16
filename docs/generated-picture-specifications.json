@@ -25,6 +25,10 @@
     {
       "key": "matcha-biscoff",
       "visual": "Iced matcha Biscoff latte: warm caramel-brown cookie butter spread smeared thickly on inner cup sides, ivory milk bottom and dark green matcha layer over clear ice on top. One small rectangular caramel biscuit partly inserted on the rim; biscuit has NO embossed brand name. No foam, whipped cream or other toppings."
+    },
+    {
+      "key": "matcha-bear-milk",
+      "visual": "Recipe order puts green matcha below ivory milk poured last, reversed from standard matcha latte."
     }
   ]
 }

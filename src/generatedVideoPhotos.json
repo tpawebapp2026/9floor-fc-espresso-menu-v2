@@ -392,11 +392,11 @@
     "sha256": "d14d87cab75508b8c49b7a64ef3f5185b61eaaf732d1e74ff0aa63ad2fc620fb"
   },
   "video-series-matcha-02": {
-    "key": "matcha-latte",
-    "file": "generated-video/matcha-latte.webp",
+    "key": "matcha-bear-milk",
+    "file": "generated-video/matcha-bear-milk.webp",
     "width": 768,
     "height": 768,
-    "sha256": "d14d87cab75508b8c49b7a64ef3f5185b61eaaf732d1e74ff0aa63ad2fc620fb"
+    "sha256": "54c452ae54e40ad9405007df557363ce3d76e8e93edd0c60ab88c554d171ee67"
   },
   "video-series-matcha-03": {
     "key": "matcha-latte",
