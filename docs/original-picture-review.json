@@ -1,6 +1,6 @@
 {
   "scope": "Original 260 recipes",
-  "reviewed": 46,
+  "reviewed": 48,
   "target": 260,
   "method": "imagegen",
   "rows": [
@@ -693,6 +693,36 @@
       "reviewedAt": "2026-11-16",
       "prompt": "Create a new standalone photorealistic premium cafe menu photograph, square composition. One whole appropriate serving cup (as specified in the recipe below) centered, fully visible with 8% breathing room, warm off-white seamless studio background, soft natural side lighting and realistic cold condensation for iced drinks or a clean dry ceramic surface for hot drinks. Recipe to depict (do not print its name): Iced Peach Tea:6g black tea leaves brewed in60ml hot water and FILTERED OUT,20ml peach SYRUP,120ml COLD WATER,150–180g ice. Clear amber-black-tea gold,16oz clear cup. NO MILK, peach pieces, fruit slices, leaves or garnish. Show ONLY the actual finished drink. Coffee grounds are for brewing and must not appear in the cup. Reproduce the exact dark-green 9 FLOOR COFFEE logo from the attached logo-only reference on a centered white cup label. No people, hands, third-party logos, extra captions, surrounding props or ingredients not specified. This must be a fresh individual photograph, not a reuse of another menu image.",
       "visual": "Iced Peach Tea:6g black tea leaves brewed in60ml hot water and FILTERED OUT,20ml peach SYRUP,120ml COLD WATER,150–180g ice. Clear amber-black-tea gold,16oz clear cup. NO MILK, peach pieces, fruit slices, leaves or garnish."
+    },
+    {
+      "key": "v8-04-09",
+      "file": "recipe-photos/v8-04-09.webp",
+      "width": 768,
+      "height": 768,
+      "bytes": 39762,
+      "sha256": "3e3b272ad75016d5c3f52649019c2431def83ce5201fe28ab2431d7456c81ea2",
+      "gitSha": "31b613f704c868bb187b16fad70c8c0f9a10f144",
+      "recipeName": "Iced Honey Lemon Tea",
+      "ingredientsSha256": "71c6d56a1d4eee76bca0455883187d013ee7534b6e53bbf024259ab863b9de51",
+      "method": "imagegen",
+      "reviewedAt": "2026-11-16",
+      "prompt": "Create a new standalone photorealistic premium cafe menu photograph, square composition. One whole appropriate serving cup (as specified in the recipe below) centered, fully visible with 8% breathing room, warm off-white seamless studio background, soft natural side lighting and realistic cold condensation for iced drinks or a clean dry ceramic surface for hot drinks. Recipe to depict (do not print its name): Iced Honey Lemon Tea:5g black tea leaves brewed in60ml hot water and FILTERED OUT,15ml honey dissolved,15ml lemon juice,120ml COLD WATER,150–180g ice. Translucent warm golden-amber black tea, slightly hazy lemon.16oz clear cup. NO MILK, honey dipper, lemon slices, tea leaves, fruit or garnish. Show ONLY the actual finished drink. Coffee grounds are for brewing and must not appear in the cup. Reproduce the exact dark-green 9 FLOOR COFFEE logo from the attached logo-only reference on a centered white cup label. No people, hands, third-party logos, extra captions, surrounding props or ingredients not specified. This must be a fresh individual photograph, not a reuse of another menu image.",
+      "visual": "Iced Honey Lemon Tea:5g black tea leaves brewed in60ml hot water and FILTERED OUT,15ml honey dissolved,15ml lemon juice,120ml COLD WATER,150–180g ice. Translucent warm golden-amber black tea, slightly hazy lemon.16oz clear cup. NO MILK, honey dipper, lemon slices, tea leaves, fruit or garnish."
+    },
+    {
+      "key": "v8-04-10",
+      "file": "recipe-photos/v8-04-10.webp",
+      "width": 768,
+      "height": 768,
+      "bytes": 30480,
+      "sha256": "add9243bbf9407643097bb2c2fae4cf6f9dc78b862dbb23a7657f55a596b017b",
+      "gitSha": "5af8f9f03e8d1e0287edcba0790aa37acbbcdb82",
+      "recipeName": "Iced Taro Milk",
+      "ingredientsSha256": "982299aa4800f78a49f912a050b5239eab4609fa360e5d1be30193380e14ad3d",
+      "method": "imagegen",
+      "reviewedAt": "2026-11-16",
+      "prompt": "Create a new standalone photorealistic premium cafe menu photograph, square composition. One whole appropriate serving cup (as specified in the recipe below) centered, fully visible with 8% breathing room, warm off-white seamless studio background, soft natural side lighting and realistic cold condensation for iced drinks or a clean dry ceramic surface for hot drinks. Recipe to depict (do not print its name): Iced Taro Milk:25g taro POWDER dissolved in60ml hot water,10ml simple syrup,120ml cold milk,150–180g ice. Uniformly mixed opaque pastel lavender-purple milk with ice,16oz clear cup. No espresso, boba, actual taro chunks, whipped cream, powder dust or garnish. Show ONLY the actual finished drink. Coffee grounds are for brewing and must not appear in the cup. Reproduce the exact dark-green 9 FLOOR COFFEE logo from the attached logo-only reference on a centered white cup label. No people, hands, third-party logos, extra captions, surrounding props or ingredients not specified. This must be a fresh individual photograph, not a reuse of another menu image.",
+      "visual": "Iced Taro Milk:25g taro POWDER dissolved in60ml hot water,10ml simple syrup,120ml cold milk,150–180g ice. Uniformly mixed opaque pastel lavender-purple milk with ice,16oz clear cup. No espresso, boba, actual taro chunks, whipped cream, powder dust or garnish."
     }
   ]
 }
