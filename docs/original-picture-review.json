@@ -1,6 +1,6 @@
 {
   "scope": "Original 260 recipes",
-  "reviewed": 130,
+  "reviewed": 132,
   "target": 260,
   "method": "imagegen",
   "rows": [
@@ -1953,6 +1953,36 @@
       "reviewedAt": "2026-11-16",
       "prompt": "Create one new photorealistic premium cafe menu photograph, square composition, warm off-white seamless studio background, soft natural side lighting. One appropriate serving cup as described in the recipe, fully visible and centered with 8% breathing room. Hot cups must be dry, without ice or condensation. Exact recipe: Affogato: one single 60–80g round scoop of vanilla ice cream in a small 150ml clear dessert cup, with 32g dark espresso already poured over it. Visible white vanilla scoop, brown coffee streaks and a small dark espresso pool around its melting base. No ice cubes, whipped cream, chocolate, nuts, syrup or garnish. Reproduce the attached dark-green 9 FLOOR COFFEE logo on a centered white cup label. Show only the finished drink. No people, hands, third-party logos, surrounding props, extra captions or unlisted ingredients. Fresh individual photograph for this recipe.",
       "visual": "Affogato: one single 60–80g round scoop of vanilla ice cream in a small 150ml clear dessert cup, with 32g dark espresso already poured over it. Visible white vanilla scoop, brown coffee streaks and a small dark espresso pool around its melting base. No ice cubes, whipped cream, chocolate, nuts, syrup or garnish."
+    },
+    {
+      "key": "v8-15-01",
+      "file": "recipe-photos/v8-15-01.webp",
+      "width": 768,
+      "height": 768,
+      "bytes": 21792,
+      "sha256": "e0436ab69acede609a3c1094f6939fb2289e3341b34c6cf7a9942c7d5509702e",
+      "gitSha": "72401f09512a93eb9a97b72a1ed555dd12600999",
+      "recipeName": "Jasmine Latte",
+      "ingredientsSha256": "94ef5f0fcd9214d84f2562e6418b4106e0270475c6c497106805e75a99511e0c",
+      "method": "imagegen",
+      "reviewedAt": "2026-11-16",
+      "prompt": "Create one new photorealistic premium cafe menu photograph, square composition, warm off-white seamless studio background, soft natural side lighting. One appropriate serving cup as described in the recipe, fully visible and centered with 8% breathing room. Hot cups must be dry, without ice or condensation. Exact recipe: Hot Jasmine Latte. Exactly 32g espresso plus 150ml dairy milk and 12ml jasmine syrup. A 220ml white ceramic latte cup, fine steamed milk microfoam, warm creamy coffee tan with a subtle simple milk heart. Hot, dry cup, no ice. No flower petals, lavender sprigs, whole nuts, nut crumbs, maple leaves, syrup drizzles, whipped cream, cocoa, food coloring, surrounding props or garnish. Syrup flavor alone does not turn the coffee purple, pink or green. Reproduce the attached dark-green 9 FLOOR COFFEE logo on a centered white cup label. Show only the finished drink. No people, hands, third-party logos, surrounding props, extra captions or unlisted ingredients. Fresh individual photograph for this recipe.",
+      "visual": "Hot Jasmine Latte. Exactly 32g espresso plus 150ml dairy milk and 12ml jasmine syrup. A 220ml white ceramic latte cup, fine steamed milk microfoam, warm creamy coffee tan with a subtle simple milk heart. Hot, dry cup, no ice. No flower petals, lavender sprigs, whole nuts, nut crumbs, maple leaves, syrup drizzles, whipped cream, cocoa, food coloring, surrounding props or garnish. Syrup flavor alone does not turn the coffee purple, pink or green."
+    },
+    {
+      "key": "v8-15-02",
+      "file": "recipe-photos/v8-15-02.webp",
+      "width": 768,
+      "height": 768,
+      "bytes": 41570,
+      "sha256": "c863d23d0ee611cfb064abb2149462d470d1d266135a06cb53e00be0e205a152",
+      "gitSha": "8d1fb54923d91667049558517a169649ac7b87cd",
+      "recipeName": "Iced Jasmine Latte",
+      "ingredientsSha256": "2e0ffd7c9372682cd887ef415e43a78d217bbac3b43f62009d10178263c331fa",
+      "method": "imagegen",
+      "reviewedAt": "2026-11-16",
+      "prompt": "Create one new photorealistic premium cafe menu photograph, square composition, warm off-white seamless studio background, soft natural side lighting. One appropriate serving cup as described in the recipe, fully visible and centered with 8% breathing room. Hot cups must be dry, without ice or condensation. Exact recipe: Iced Jasmine Latte. Exactly 32g espresso plus 150ml dairy milk and 15ml jasmine syrup. 180g visible ice cubes, clear 16oz takeaway cup with condensation. Finished drink stirred to homogeneous creamy coffee tan; no dramatic separate colored layers. No flower petals, lavender sprigs, whole nuts, nut crumbs, maple leaves, syrup drizzles, whipped cream, cocoa, food coloring, surrounding props or garnish. Syrup flavor alone does not turn the coffee purple, pink or green. Reproduce the attached dark-green 9 FLOOR COFFEE logo on a centered white cup label. Show only the finished drink. No people, hands, third-party logos, surrounding props, extra captions or unlisted ingredients. Fresh individual photograph for this recipe.",
+      "visual": "Iced Jasmine Latte. Exactly 32g espresso plus 150ml dairy milk and 15ml jasmine syrup. 180g visible ice cubes, clear 16oz takeaway cup with condensation. Finished drink stirred to homogeneous creamy coffee tan; no dramatic separate colored layers. No flower petals, lavender sprigs, whole nuts, nut crumbs, maple leaves, syrup drizzles, whipped cream, cocoa, food coloring, surrounding props or garnish. Syrup flavor alone does not turn the coffee purple, pink or green."
     }
   ]
 }
