@@ -1,6 +1,6 @@
 {
   "scope": "Original 260 recipes",
-  "reviewed": 146,
+  "reviewed": 148,
   "target": 260,
   "method": "imagegen",
   "rows": [
@@ -2193,6 +2193,36 @@
       "reviewedAt": "2026-11-16",
       "prompt": "Create one new photorealistic premium cafe menu photograph, square composition, warm off-white seamless studio background, soft natural side lighting. One appropriate serving cup as described in the recipe, fully visible and centered with 8% breathing room. Hot cups must be dry, without ice or condensation. Exact recipe: Iced Soy milk Latte: exactly 32g espresso and 150ml Soy milk. 180g visible ice cubes, clear 16oz takeaway cup with condensation. All liquids stirred to uniform creamy coffee beige tan. No dairy milk, whole oats, nuts, coconut pieces, chocolate garnish, cinnamon, caramel drizzle, whipped cream, flowers or surrounding props. The plant milk is blended into the coffee; no fake green or purple color. Reproduce the attached dark-green 9 FLOOR COFFEE logo on a centered white cup label. Show only the finished drink. No people, hands, third-party logos, surrounding props, extra captions or unlisted ingredients. Fresh individual photograph for this recipe.",
       "visual": "Iced Soy milk Latte: exactly 32g espresso and 150ml Soy milk. 180g visible ice cubes, clear 16oz takeaway cup with condensation. All liquids stirred to uniform creamy coffee beige tan. No dairy milk, whole oats, nuts, coconut pieces, chocolate garnish, cinnamon, caramel drizzle, whipped cream, flowers or surrounding props. The plant milk is blended into the coffee; no fake green or purple color."
+    },
+    {
+      "key": "v8-16-07",
+      "file": "recipe-photos/v8-16-07.webp",
+      "width": 768,
+      "height": 768,
+      "bytes": 21256,
+      "sha256": "e707c1cb0809dfad7fbfb6c567a6c6c8786fc02e0a116da77dda267b382b4638",
+      "gitSha": "0c4696ce73cccb4292ce2fa59d8b3af13a6f95f6",
+      "recipeName": "Coconut Milk Flat White",
+      "ingredientsSha256": "6d168a1b2d87edb36441e11ddbdf3a5bf53b0bfdd193acd7af1b7019b201fdb3",
+      "method": "imagegen",
+      "reviewedAt": "2026-11-16",
+      "prompt": "Create one new photorealistic premium cafe menu photograph, square composition, warm off-white seamless studio background, soft natural side lighting. One appropriate serving cup as described in the recipe, fully visible and centered with 8% breathing room. Hot cups must be dry, without ice or condensation. Exact recipe: Hot Coconut Milk Flat White: exactly 32g espresso and 110ml Coconut barista milk. A small 180ml white ceramic cup, fine steamed plant milk microfoam and a simple white milk heart over creamy light coffee tan. Hot, dry cup, no ice. No dairy milk, whole oats, nuts, coconut pieces, chocolate garnish, cinnamon, caramel drizzle, whipped cream, flowers or surrounding props. The plant milk is blended into the coffee; no fake green or purple color. Reproduce the attached dark-green 9 FLOOR COFFEE logo on a centered white cup label. Show only the finished drink. No people, hands, third-party logos, surrounding props, extra captions or unlisted ingredients. Fresh individual photograph for this recipe.",
+      "visual": "Hot Coconut Milk Flat White: exactly 32g espresso and 110ml Coconut barista milk. A small 180ml white ceramic cup, fine steamed plant milk microfoam and a simple white milk heart over creamy light coffee tan. Hot, dry cup, no ice. No dairy milk, whole oats, nuts, coconut pieces, chocolate garnish, cinnamon, caramel drizzle, whipped cream, flowers or surrounding props. The plant milk is blended into the coffee; no fake green or purple color."
+    },
+    {
+      "key": "v8-16-08",
+      "file": "recipe-photos/v8-16-08.webp",
+      "width": 768,
+      "height": 768,
+      "bytes": 37794,
+      "sha256": "8a52786b74f591110b82197eee46e3ad13e93e376b1c160ac0c71ce0decc487c",
+      "gitSha": "a69af5c0d810e3b79f2727b618d16ffbd6653798",
+      "recipeName": "Iced Oat Vanilla Latte",
+      "ingredientsSha256": "6335f87886315cac0b42250be92ebe84c6ae5483d6c004167bbaa80d83696e86",
+      "method": "imagegen",
+      "reviewedAt": "2026-11-16",
+      "prompt": "Create one new photorealistic premium cafe menu photograph, square composition, warm off-white seamless studio background, soft natural side lighting. One appropriate serving cup as described in the recipe, fully visible and centered with 8% breathing room. Hot cups must be dry, without ice or condensation. Exact recipe: Iced Oat Vanilla Latte: exactly 32g espresso and 150ml Barista oat milk, plus 15ml vanilla syrup. 180g visible ice cubes, clear 16oz takeaway cup with condensation. All liquids stirred to uniform creamy coffee beige tan. No dairy milk, whole oats, nuts, coconut pieces, chocolate garnish, cinnamon, caramel drizzle, whipped cream, flowers or surrounding props. The plant milk is blended into the coffee; no fake green or purple color. Reproduce the attached dark-green 9 FLOOR COFFEE logo on a centered white cup label. Show only the finished drink. No people, hands, third-party logos, surrounding props, extra captions or unlisted ingredients. Fresh individual photograph for this recipe.",
+      "visual": "Iced Oat Vanilla Latte: exactly 32g espresso and 150ml Barista oat milk, plus 15ml vanilla syrup. 180g visible ice cubes, clear 16oz takeaway cup with condensation. All liquids stirred to uniform creamy coffee beige tan. No dairy milk, whole oats, nuts, coconut pieces, chocolate garnish, cinnamon, caramel drizzle, whipped cream, flowers or surrounding props. The plant milk is blended into the coffee; no fake green or purple color."
     }
   ]
 }
