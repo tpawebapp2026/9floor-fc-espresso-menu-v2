@@ -830,5 +830,69 @@
     "height": 768,
     "sha256": "dfa43d7b4cefd096778f9d752e7f45522e3390c6647521b4a80d8449f7fef69a",
     "ingredientsSha256": "d9ab272cd848d8c15d435a600a9e9f5766f19212bdbaeb40fcdcce1d8517be28"
+  },
+  "v8-12-01": {
+    "key": "v8-12-01",
+    "file": "recipe-photos/v8-12-01.webp",
+    "width": 768,
+    "height": 768,
+    "sha256": "46a66857ed75e433d4786c88a7ccab62137f30050dd54aa44fde7ade28c3cceb",
+    "ingredientsSha256": "f756d8bf98600403913084a9110984aefccda818a5ffb2f9b5402bb6032f758a"
+  },
+  "v8-12-02": {
+    "key": "v8-12-02",
+    "file": "recipe-photos/v8-12-02.webp",
+    "width": 768,
+    "height": 768,
+    "sha256": "d7b4e0b3c3658f6a6e9dd3f384f3aaddb815346834e53ee1fba39c0c27a6c6ec",
+    "ingredientsSha256": "b862a8356cbfd4efeff81000ae3c02db8dccdab04d6bca1c93997024682aebf9"
+  },
+  "v8-12-03": {
+    "key": "v8-12-03",
+    "file": "recipe-photos/v8-12-03.webp",
+    "width": 768,
+    "height": 768,
+    "sha256": "5b4cff32d4de11ac92f5843266f374bfe7bce5f5dbf64f933dab02510c6edee5",
+    "ingredientsSha256": "40ffc5c9f0773e7f658b2e28440f5150c614083a90910706b938371d0c579559"
+  },
+  "v8-12-04": {
+    "key": "v8-12-04",
+    "file": "recipe-photos/v8-12-04.webp",
+    "width": 768,
+    "height": 768,
+    "sha256": "5d4b3ad1cc53dbca850a3c3d9c13f5f6f470fe5c446b047fbb5bc7355608cbf2",
+    "ingredientsSha256": "0a2a3f82de29faf41ea46ea0cee4a594bd27b4a0a139ea7b3d509924dcb454c2"
+  },
+  "v8-12-05": {
+    "key": "v8-12-05",
+    "file": "recipe-photos/v8-12-05.webp",
+    "width": 768,
+    "height": 768,
+    "sha256": "208e0fe1764f6c601968cca422090fea18ea241f197f42100e4ec316e7c78692",
+    "ingredientsSha256": "2e534f65fb42c9c76118afe9df07fe7c67acea3625c513dab5e9b880db00ddcd"
+  },
+  "v8-12-06": {
+    "key": "v8-12-06",
+    "file": "recipe-photos/v8-12-06.webp",
+    "width": 768,
+    "height": 768,
+    "sha256": "40e9c18f09a75bacaafc907eee44fe7d05dcf9755cadb73721ad5f87a249842a",
+    "ingredientsSha256": "cc8ebbcc4cfe0c9c645d1c54f8a9f774cefd2115cd1b5f7462723ddf4ef1a838"
+  },
+  "v8-12-07": {
+    "key": "v8-12-07",
+    "file": "recipe-photos/v8-12-07.webp",
+    "width": 768,
+    "height": 768,
+    "sha256": "8a3e95273a2a30b1c910068e396cd44d888a27595c48201350c0d3fb7cda1ad9",
+    "ingredientsSha256": "19caa266b420111b4407cf71f490dcb9061008ac54c7b27fc11af5d70a8f0ee2"
+  },
+  "v8-12-08": {
+    "key": "v8-12-08",
+    "file": "recipe-photos/v8-12-08.webp",
+    "width": 768,
+    "height": 768,
+    "sha256": "ac61a09e9514c017f658de36458fd7b99685f91e07018cb34efb0c4bb0bbc279",
+    "ingredientsSha256": "17869a9903bb05190efba629f77f9f96928219966e9a60fbb2402726a4d0c5dd"
   }
 }
