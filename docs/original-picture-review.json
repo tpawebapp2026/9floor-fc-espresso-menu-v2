@@ -1,6 +1,6 @@
 {
   "scope": "Original 260 recipes",
-  "reviewed": 160,
+  "reviewed": 162,
   "target": 260,
   "method": "imagegen",
   "rows": [
@@ -2403,6 +2403,36 @@
       "reviewedAt": "2026-11-16",
       "prompt": "Create one new photorealistic premium cafe menu photograph, square composition, warm off-white seamless studio background, soft natural side lighting. One appropriate serving cup as described in the recipe, fully visible and centered with 8% breathing room. Hot cups must be dry, without ice or condensation. Exact recipe: Honey Lime Long Black: 15ml honey plus 15ml lemon/lime juice and 100ml cold still water, 180g ice, then 32g espresso gently poured last. Pale honey-gold base merging into dark brown espresso upper region, natural subtle transition. No citrus slices or milk. Clear 16oz takeaway cup, visible ice and natural condensation. No unlisted ingredients, whipped cream, decorative garnish, fruit pieces, tools or surrounding props. No soda or large carbonation bubbles. Reproduce the attached dark-green 9 FLOOR COFFEE logo on a centered white cup label. Show only the finished drink. No people, hands, third-party logos, surrounding props, extra captions or unlisted ingredients. Fresh individual photograph for this recipe.",
       "visual": "Honey Lime Long Black: 15ml honey plus 15ml lemon/lime juice and 100ml cold still water, 180g ice, then 32g espresso gently poured last. Pale honey-gold base merging into dark brown espresso upper region, natural subtle transition. No citrus slices or milk. Clear 16oz takeaway cup, visible ice and natural condensation. No unlisted ingredients, whipped cream, decorative garnish, fruit pieces, tools or surrounding props. No soda or large carbonation bubbles."
+    },
+    {
+      "key": "v8-18-01",
+      "file": "recipe-photos/v8-18-01.webp",
+      "width": 768,
+      "height": 768,
+      "bytes": 44876,
+      "sha256": "6026e36777539f3b331814f8f8ab8ce100e9689c741f0c0bc1fb3ffb33e0f3ed",
+      "gitSha": "cbf51a4e2f84375afa75be8ddbbd35ade7944e56",
+      "recipeName": "Pineapple Espresso",
+      "ingredientsSha256": "e990a9b24924717e904d8d851a225cb51cc1c6cf829d513c23f101655313fc00",
+      "method": "imagegen",
+      "reviewedAt": "2026-11-16",
+      "prompt": "Create one new photorealistic premium cafe menu photograph, square composition, warm off-white seamless studio background, soft natural side lighting. One appropriate serving cup as described in the recipe, fully visible and centered with 8% breathing room. Hot cups must be dry, without ice or condensation. Exact recipe: Pineapple Espresso: 130ml strained natural pineapple juice below 180g ice, then 32g espresso gently poured last. Cloudy golden yellow juice at base transitioning into dark brown espresso at top, slight natural mixing, not milk. Clear 16oz takeaway cup, visible ice and condensation. No milk, whipped cream, fruit slices, whole fruits, decorative garnish, straws or surrounding props. Still drink, no carbonation bubbles. Reproduce the attached dark-green 9 FLOOR COFFEE logo on a centered white cup label. Show only the finished drink. No people, hands, third-party logos, surrounding props, extra captions or unlisted ingredients. Fresh individual photograph for this recipe.",
+      "visual": "Pineapple Espresso: 130ml strained natural pineapple juice below 180g ice, then 32g espresso gently poured last. Cloudy golden yellow juice at base transitioning into dark brown espresso at top, slight natural mixing, not milk. Clear 16oz takeaway cup, visible ice and condensation. No milk, whipped cream, fruit slices, whole fruits, decorative garnish, straws or surrounding props. Still drink, no carbonation bubbles."
+    },
+    {
+      "key": "v8-18-02",
+      "file": "recipe-photos/v8-18-02.webp",
+      "width": 768,
+      "height": 768,
+      "bytes": 45632,
+      "sha256": "4339e644a9ec9e269e7516a2a3cd78e8fb2be079f7c81e898d2989c30029c30b",
+      "gitSha": "3b4d1901ee95fb9b952cf7fe88709cdb69a130f4",
+      "recipeName": "Mango Espresso",
+      "ingredientsSha256": "57e0833ca8c6a4d63f59290a3595082a89a510c4ebcfee5b66ee09ef6cb4f35f",
+      "method": "imagegen",
+      "reviewedAt": "2026-11-16",
+      "prompt": "Create one new photorealistic premium cafe menu photograph, square composition, warm off-white seamless studio background, soft natural side lighting. One appropriate serving cup as described in the recipe, fully visible and centered with 8% breathing room. Hot cups must be dry, without ice or condensation. Exact recipe: Mango Espresso: 120ml mango juice diluted with 20ml still water, 180g ice, then 32g espresso poured last. Cloudy golden orange mango base below dark brown coffee upper region, softly mixing boundary. Clear 16oz takeaway cup, visible ice and condensation. No milk, whipped cream, fruit slices, whole fruits, decorative garnish, straws or surrounding props. Still drink, no carbonation bubbles. Reproduce the attached dark-green 9 FLOOR COFFEE logo on a centered white cup label. Show only the finished drink. No people, hands, third-party logos, surrounding props, extra captions or unlisted ingredients. Fresh individual photograph for this recipe.",
+      "visual": "Mango Espresso: 120ml mango juice diluted with 20ml still water, 180g ice, then 32g espresso poured last. Cloudy golden orange mango base below dark brown coffee upper region, softly mixing boundary. Clear 16oz takeaway cup, visible ice and condensation. No milk, whipped cream, fruit slices, whole fruits, decorative garnish, straws or surrounding props. Still drink, no carbonation bubbles."
     }
   ]
 }
