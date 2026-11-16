@@ -1,6 +1,6 @@
 {
   "scope": "Original 260 recipes",
-  "reviewed": 156,
+  "reviewed": 158,
   "target": 260,
   "method": "imagegen",
   "rows": [
@@ -2343,6 +2343,36 @@
       "reviewedAt": "2026-11-16",
       "prompt": "Create one new photorealistic premium cafe menu photograph, square composition, warm off-white seamless studio background, soft natural side lighting. One appropriate serving cup as described in the recipe, fully visible and centered with 8% breathing room. Hot cups must be dry, without ice or condensation. Exact recipe: Iced Mint Black Coffee: 32g espresso poured over 10ml mint syrup mixed with 120ml cold still water and 180g ice. Translucent dark brown coffee, amber edges, subtle crema. No fresh mint leaves or green milk. Clear 16oz takeaway cup, visible ice and natural condensation. No unlisted ingredients, whipped cream, decorative garnish, fruit pieces, tools or surrounding props. No soda or large carbonation bubbles. Reproduce the attached dark-green 9 FLOOR COFFEE logo on a centered white cup label. Show only the finished drink. No people, hands, third-party logos, surrounding props, extra captions or unlisted ingredients. Fresh individual photograph for this recipe.",
       "visual": "Iced Mint Black Coffee: 32g espresso poured over 10ml mint syrup mixed with 120ml cold still water and 180g ice. Translucent dark brown coffee, amber edges, subtle crema. No fresh mint leaves or green milk. Clear 16oz takeaway cup, visible ice and natural condensation. No unlisted ingredients, whipped cream, decorative garnish, fruit pieces, tools or surrounding props. No soda or large carbonation bubbles."
+    },
+    {
+      "key": "v8-17-07",
+      "file": "recipe-photos/v8-17-07.webp",
+      "width": 768,
+      "height": 768,
+      "bytes": 63580,
+      "sha256": "0c986d8965b8abcf83dd726672f36ca18c7742cb4b8ef56029da44d976858156",
+      "gitSha": "bb586e2f40801416588150b4b87e0d1e117cfe33",
+      "recipeName": "Sparkling Long Black",
+      "ingredientsSha256": "14e96537de8b38ab2421f6e366e3c36a29d975e93f2f412c87dcb728d3509d17",
+      "method": "imagegen",
+      "reviewedAt": "2026-11-16",
+      "prompt": "Create one new photorealistic premium cafe menu photograph, square composition, warm off-white seamless studio background, soft natural side lighting. One appropriate serving cup as described in the recipe, fully visible and centered with 8% breathing room. Hot cups must be dry, without ice or condensation. Exact recipe: Sparkling Long Black: 140ml soda water and 180g ice with 32g espresso gently poured last. Clear to amber lower region transitioning naturally to dark coffee at top, fine carbonation bubbles and a modest natural coffee foam cap. No milk. Clear 16oz takeaway cup, visible ice and natural condensation. No unlisted ingredients, whipped cream, decorative garnish, fruit pieces, tools or surrounding props.  Reproduce the attached dark-green 9 FLOOR COFFEE logo on a centered white cup label. Show only the finished drink. No people, hands, third-party logos, surrounding props, extra captions or unlisted ingredients. Fresh individual photograph for this recipe.",
+      "visual": "Sparkling Long Black: 140ml soda water and 180g ice with 32g espresso gently poured last. Clear to amber lower region transitioning naturally to dark coffee at top, fine carbonation bubbles and a modest natural coffee foam cap. No milk. Clear 16oz takeaway cup, visible ice and natural condensation. No unlisted ingredients, whipped cream, decorative garnish, fruit pieces, tools or surrounding props. "
+    },
+    {
+      "key": "v8-17-08",
+      "file": "recipe-photos/v8-17-08.webp",
+      "width": 768,
+      "height": 768,
+      "bytes": 50766,
+      "sha256": "b5b14cbd6ebcadbbd1729f021863f2ad3b214426f46fdcdfda660ca042a51695",
+      "gitSha": "2a0e785021fe198a927be5dd21e326410c3fda5c",
+      "recipeName": "Iced Maple Black Coffee",
+      "ingredientsSha256": "afbfd8d5bfe96906b849bf0b2100f02928d6bdbf39990dd09336d7cded546eb0",
+      "method": "imagegen",
+      "reviewedAt": "2026-11-16",
+      "prompt": "Create one new photorealistic premium cafe menu photograph, square composition, warm off-white seamless studio background, soft natural side lighting. One appropriate serving cup as described in the recipe, fully visible and centered with 8% breathing room. Hot cups must be dry, without ice or condensation. Exact recipe: Iced Maple Black Coffee: 15ml maple syrup mixed with 120ml cold still water, 180g ice, then 32g espresso poured over. Deep amber-brown translucent coffee with thin crema near top. No milk, maple leaves or syrup drizzle. Clear 16oz takeaway cup, visible ice and natural condensation. No unlisted ingredients, whipped cream, decorative garnish, fruit pieces, tools or surrounding props. No soda or large carbonation bubbles. Reproduce the attached dark-green 9 FLOOR COFFEE logo on a centered white cup label. Show only the finished drink. No people, hands, third-party logos, surrounding props, extra captions or unlisted ingredients. Fresh individual photograph for this recipe.",
+      "visual": "Iced Maple Black Coffee: 15ml maple syrup mixed with 120ml cold still water, 180g ice, then 32g espresso poured over. Deep amber-brown translucent coffee with thin crema near top. No milk, maple leaves or syrup drizzle. Clear 16oz takeaway cup, visible ice and natural condensation. No unlisted ingredients, whipped cream, decorative garnish, fruit pieces, tools or surrounding props. No soda or large carbonation bubbles."
     }
   ]
 }
