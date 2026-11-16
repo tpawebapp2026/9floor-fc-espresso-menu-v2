@@ -1,6 +1,6 @@
 {
   "scope": "Original 260 recipes",
-  "reviewed": 108,
+  "reviewed": 110,
   "target": 260,
   "method": "imagegen",
   "rows": [
@@ -1623,6 +1623,36 @@
       "reviewedAt": "2026-11-16",
       "prompt": "Create one new photorealistic premium cafe menu photograph, square composition, warm off-white seamless studio background, soft natural side lighting. One clear16oz takeaway cup, fully visible and centered with8% breathing room, realistic condensation. Exact recipe: Lychee Yogurt Drink:120ml drinkable yogurt,25ml clear lychee SYRUP,50ml cold milk mixed over140g ice. Uniform opaque ivory-white yogurt milk with visible ice. No whole lychees, fruit chunks, flowers, whipped cream or garnish. Reproduce the attached dark-green 9 FLOOR COFFEE logo on a centered white cup label. Show only the finished drink. No people, hands, third-party logos, surrounding props, extra captions or unlisted ingredients. Fresh individual photograph for this recipe.",
       "visual": "Lychee Yogurt Drink:120ml drinkable yogurt,25ml clear lychee SYRUP,50ml cold milk mixed over140g ice. Uniform opaque ivory-white yogurt milk with visible ice. No whole lychees, fruit chunks, flowers, whipped cream or garnish."
+    },
+    {
+      "key": "v8-12-05",
+      "file": "recipe-photos/v8-12-05.webp",
+      "width": 768,
+      "height": 768,
+      "bytes": 28660,
+      "sha256": "208e0fe1764f6c601968cca422090fea18ea241f197f42100e4ec316e7c78692",
+      "gitSha": "beb5e53872ecd57f9c4a07be0684919234267af7",
+      "recipeName": "Honey Banana Milk",
+      "ingredientsSha256": "2e534f65fb42c9c76118afe9df07fe7c67acea3625c513dab5e9b880db00ddcd",
+      "method": "imagegen",
+      "reviewedAt": "2026-11-16",
+      "prompt": "Create one new photorealistic premium cafe menu photograph, square composition, warm off-white seamless studio background, soft natural side lighting. One clear16oz takeaway cup, fully visible and centered with8% breathing room, realistic condensation. Exact recipe: Honey Banana Milk:160ml cold milk,70g ripe banana and20ml honey,140g ice, smoothly blended using the recipe's permitted blender method. Pale ivory banana-beige smooth creamy drink with extremely fine natural banana specks, not bright yellow. No banana slices, honey dipper, honeycomb, whipped cream, dusting or garnish. Reproduce the attached dark-green 9 FLOOR COFFEE logo on a centered white cup label. Show only the finished drink. No people, hands, third-party logos, surrounding props, extra captions or unlisted ingredients. Fresh individual photograph for this recipe.",
+      "visual": "Honey Banana Milk:160ml cold milk,70g ripe banana and20ml honey,140g ice, smoothly blended using the recipe's permitted blender method. Pale ivory banana-beige smooth creamy drink with extremely fine natural banana specks, not bright yellow. No banana slices, honey dipper, honeycomb, whipped cream, dusting or garnish."
+    },
+    {
+      "key": "v8-12-06",
+      "file": "recipe-photos/v8-12-06.webp",
+      "width": 768,
+      "height": 768,
+      "bytes": 28880,
+      "sha256": "40e9c18f09a75bacaafc907eee44fe7d05dcf9755cadb73721ad5f87a249842a",
+      "gitSha": "1d6a9068d17c7a95321edaf6d644245da2c9d733",
+      "recipeName": "Pandan Coconut Milk",
+      "ingredientsSha256": "cc8ebbcc4cfe0c9c645d1c54f8a9f774cefd2115cd1b5f7462723ddf4ef1a838",
+      "method": "imagegen",
+      "reviewedAt": "2026-11-16",
+      "prompt": "Create one new photorealistic premium cafe menu photograph, square composition, warm off-white seamless studio background, soft natural side lighting. One clear16oz takeaway cup, fully visible and centered with8% breathing room, realistic condensation. Exact recipe: Pandan Coconut Milk:120ml cold milk,60ml opaque coconut MILK and20ml pandan SYRUP mixed over160g ice. Uniform opaque soft pale pandan-green milky drink with clear ice. No coffee, pandan leaves, coconut flakes, fruit, whipped cream or garnish. Reproduce the attached dark-green 9 FLOOR COFFEE logo on a centered white cup label. Show only the finished drink. No people, hands, third-party logos, surrounding props, extra captions or unlisted ingredients. Fresh individual photograph for this recipe.",
+      "visual": "Pandan Coconut Milk:120ml cold milk,60ml opaque coconut MILK and20ml pandan SYRUP mixed over160g ice. Uniform opaque soft pale pandan-green milky drink with clear ice. No coffee, pandan leaves, coconut flakes, fruit, whipped cream or garnish."
     }
   ]
 }
