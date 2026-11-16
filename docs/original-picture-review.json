@@ -1,6 +1,6 @@
 {
   "scope": "Original 260 recipes",
-  "reviewed": 86,
+  "reviewed": 88,
   "target": 260,
   "method": "imagegen",
   "rows": [
@@ -1293,6 +1293,36 @@
       "reviewedAt": "2026-11-16",
       "prompt": "Create a new standalone photorealistic premium cafe menu photograph, square composition. One whole appropriate serving cup (as specified in the recipe below) centered, fully visible with 8% breathing room, warm off-white seamless studio background, soft natural side lighting and realistic cold condensation for iced drinks or a clean dry ceramic surface for hot drinks. Recipe to depict (do not print its name): Grapefruit Honey Tea:120ml cold green tea,60ml grapefruit JUICE,20ml honey dissolved,170g ice. Mixed slightly hazy soft blush-gold grapefruit tea with ice. No milk, soda, grapefruit wedges, honey dipper or garnish. One clear16oz takeaway cup. Show ONLY the actual finished drink. Coffee grounds are for brewing and must not appear in the cup. Reproduce the exact dark-green 9 FLOOR COFFEE logo from the attached logo-only reference on a centered white cup label. No people, hands, third-party logos, extra captions, surrounding props or ingredients not specified. This must be a fresh individual photograph, not a reuse of another menu image.",
       "visual": "Grapefruit Honey Tea:120ml cold green tea,60ml grapefruit JUICE,20ml honey dissolved,170g ice. Mixed slightly hazy soft blush-gold grapefruit tea with ice. No milk, soda, grapefruit wedges, honey dipper or garnish. One clear16oz takeaway cup."
+    },
+    {
+      "key": "v8-09-07",
+      "file": "recipe-photos/v8-09-07.webp",
+      "width": 768,
+      "height": 768,
+      "bytes": 35478,
+      "sha256": "69d7fb7add5df46fe941933753caf69c3adc5be914a929430ba6bdeb12a3a8c7",
+      "gitSha": "91399ef4d7232da1985cc1786739ee3051390e48",
+      "recipeName": "Kiwi Fruit Tea",
+      "ingredientsSha256": "fbd39d0d0a5967ad4ab620c26e30a7a01002662ea70df5edda4e75ddbe89ae67",
+      "method": "imagegen",
+      "reviewedAt": "2026-11-16",
+      "prompt": "Create a new standalone photorealistic premium cafe menu photograph, square composition. One whole appropriate serving cup (as specified in the recipe below) centered, fully visible with 8% breathing room, warm off-white seamless studio background, soft natural side lighting and realistic cold condensation for iced drinks or a clean dry ceramic surface for hot drinks. Recipe to depict (do not print its name): Kiwi Fruit Tea:120ml cold green tea,40g kiwi PUREE,10ml lemon juice,15ml simple syrup,170g ice. Mixed cloudy pale green kiwi tea with fine puree pulp and a FEW tiny black kiwi seeds naturally dispersed, clear ice visible. Not milk or smoothie. No soda, kiwi slices, whole fruit or garnish. One clear16oz takeaway cup. Show ONLY the actual finished drink. Coffee grounds are for brewing and must not appear in the cup. Reproduce the exact dark-green 9 FLOOR COFFEE logo from the attached logo-only reference on a centered white cup label. No people, hands, third-party logos, extra captions, surrounding props or ingredients not specified. This must be a fresh individual photograph, not a reuse of another menu image.",
+      "visual": "Kiwi Fruit Tea:120ml cold green tea,40g kiwi PUREE,10ml lemon juice,15ml simple syrup,170g ice. Mixed cloudy pale green kiwi tea with fine puree pulp and a FEW tiny black kiwi seeds naturally dispersed, clear ice visible. Not milk or smoothie. No soda, kiwi slices, whole fruit or garnish. One clear16oz takeaway cup."
+    },
+    {
+      "key": "v8-09-08",
+      "file": "recipe-photos/v8-09-08.webp",
+      "width": 768,
+      "height": 768,
+      "bytes": 56166,
+      "sha256": "5d7d36906873ab0d9f5eb446082212f77c8af3b3a68f643580092d18767066af",
+      "gitSha": "753caa2116bed7401455b4e55fbd7481ff7ac18d",
+      "recipeName": "Roselle Lemon Tea",
+      "ingredientsSha256": "011e32632001952e5efc94a2230258cad2996379dfbcba5fb3349bbfcc4b6226",
+      "method": "imagegen",
+      "reviewedAt": "2026-11-16",
+      "prompt": "Create a new standalone photorealistic premium cafe menu photograph, square composition. One whole appropriate serving cup (as specified in the recipe below) centered, fully visible with 8% breathing room, warm off-white seamless studio background, soft natural side lighting and realistic cold condensation for iced drinks or a clean dry ceramic surface for hot drinks. Recipe to depict (do not print its name): Roselle Lemon Tea:140ml cold filtered roselle infusion,15ml lemon juice,25ml simple syrup,20ml cold water,170g ice. Mixed clear deep ruby-red hibiscus tea with ice. No milk, soda, flower petals, tea leaves, lemon slices or garnish. One clear16oz takeaway cup. Show ONLY the actual finished drink. Coffee grounds are for brewing and must not appear in the cup. Reproduce the exact dark-green 9 FLOOR COFFEE logo from the attached logo-only reference on a centered white cup label. No people, hands, third-party logos, extra captions, surrounding props or ingredients not specified. This must be a fresh individual photograph, not a reuse of another menu image.",
+      "visual": "Roselle Lemon Tea:140ml cold filtered roselle infusion,15ml lemon juice,25ml simple syrup,20ml cold water,170g ice. Mixed clear deep ruby-red hibiscus tea with ice. No milk, soda, flower petals, tea leaves, lemon slices or garnish. One clear16oz takeaway cup."
     }
   ]
 }
