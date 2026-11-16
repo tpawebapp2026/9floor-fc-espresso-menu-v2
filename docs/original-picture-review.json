@@ -1,6 +1,6 @@
 {
   "scope": "Original 260 recipes",
-  "reviewed": 142,
+  "reviewed": 144,
   "target": 260,
   "method": "imagegen",
   "rows": [
@@ -2133,6 +2133,36 @@
       "reviewedAt": "2026-11-16",
       "prompt": "Create one new photorealistic premium cafe menu photograph, square composition, warm off-white seamless studio background, soft natural side lighting. One appropriate serving cup as described in the recipe, fully visible and centered with 8% breathing room. Hot cups must be dry, without ice or condensation. Exact recipe: Iced Barista oat milk Latte: exactly 32g espresso and 150ml Barista oat milk. 180g visible ice cubes, clear 16oz takeaway cup with condensation. All liquids stirred to uniform creamy coffee beige tan. No dairy milk, whole oats, nuts, coconut pieces, chocolate garnish, cinnamon, caramel drizzle, whipped cream, flowers or surrounding props. The plant milk is blended into the coffee; no fake green or purple color. Reproduce the attached dark-green 9 FLOOR COFFEE logo on a centered white cup label. Show only the finished drink. No people, hands, third-party logos, surrounding props, extra captions or unlisted ingredients. Fresh individual photograph for this recipe.",
       "visual": "Iced Barista oat milk Latte: exactly 32g espresso and 150ml Barista oat milk. 180g visible ice cubes, clear 16oz takeaway cup with condensation. All liquids stirred to uniform creamy coffee beige tan. No dairy milk, whole oats, nuts, coconut pieces, chocolate garnish, cinnamon, caramel drizzle, whipped cream, flowers or surrounding props. The plant milk is blended into the coffee; no fake green or purple color."
+    },
+    {
+      "key": "v8-16-03",
+      "file": "recipe-photos/v8-16-03.webp",
+      "width": 768,
+      "height": 768,
+      "bytes": 22756,
+      "sha256": "9a3023ea5d8bed6f5c4960679efab5b16f57a920dc0a8093ef43aceab960bebb",
+      "gitSha": "25a4d21458670e026d7cd27215e16e9cf76edad5",
+      "recipeName": "Almond Milk Latte",
+      "ingredientsSha256": "99413e5e2cd3a21fbf849ef08720b0efe31caa7b9e7eee171b40501d606d12fe",
+      "method": "imagegen",
+      "reviewedAt": "2026-11-16",
+      "prompt": "Create one new photorealistic premium cafe menu photograph, square composition, warm off-white seamless studio background, soft natural side lighting. One appropriate serving cup as described in the recipe, fully visible and centered with 8% breathing room. Hot cups must be dry, without ice or condensation. Exact recipe: Hot Unsweetened almond milk Latte: exactly 32g espresso and 150ml Unsweetened almond milk. A small 220ml white ceramic cup, fine steamed plant milk microfoam and a simple white milk heart over creamy light coffee tan. Hot, dry cup, no ice. No dairy milk, whole oats, nuts, coconut pieces, chocolate garnish, cinnamon, caramel drizzle, whipped cream, flowers or surrounding props. The plant milk is blended into the coffee; no fake green or purple color. Reproduce the attached dark-green 9 FLOOR COFFEE logo on a centered white cup label. Show only the finished drink. No people, hands, third-party logos, surrounding props, extra captions or unlisted ingredients. Fresh individual photograph for this recipe.",
+      "visual": "Hot Unsweetened almond milk Latte: exactly 32g espresso and 150ml Unsweetened almond milk. A small 220ml white ceramic cup, fine steamed plant milk microfoam and a simple white milk heart over creamy light coffee tan. Hot, dry cup, no ice. No dairy milk, whole oats, nuts, coconut pieces, chocolate garnish, cinnamon, caramel drizzle, whipped cream, flowers or surrounding props. The plant milk is blended into the coffee; no fake green or purple color."
+    },
+    {
+      "key": "v8-16-04",
+      "file": "recipe-photos/v8-16-04.webp",
+      "width": 768,
+      "height": 768,
+      "bytes": 36922,
+      "sha256": "6fc4f07c186ded8214259943cdf044f2899b3d84788b6741d0d6d86638097807",
+      "gitSha": "65dadb7ce3509fc013305dfef0375424ae248047",
+      "recipeName": "Iced Almond Milk Latte",
+      "ingredientsSha256": "4564cdeda1ce942343aeda815ed6d05f6db786d63a2ab1a002e909c5a7023651",
+      "method": "imagegen",
+      "reviewedAt": "2026-11-16",
+      "prompt": "Create one new photorealistic premium cafe menu photograph, square composition, warm off-white seamless studio background, soft natural side lighting. One appropriate serving cup as described in the recipe, fully visible and centered with 8% breathing room. Hot cups must be dry, without ice or condensation. Exact recipe: Iced Unsweetened almond milk Latte: exactly 32g espresso and 150ml Unsweetened almond milk. 180g visible ice cubes, clear 16oz takeaway cup with condensation. All liquids stirred to uniform creamy coffee beige tan. No dairy milk, whole oats, nuts, coconut pieces, chocolate garnish, cinnamon, caramel drizzle, whipped cream, flowers or surrounding props. The plant milk is blended into the coffee; no fake green or purple color. Reproduce the attached dark-green 9 FLOOR COFFEE logo on a centered white cup label. Show only the finished drink. No people, hands, third-party logos, surrounding props, extra captions or unlisted ingredients. Fresh individual photograph for this recipe.",
+      "visual": "Iced Unsweetened almond milk Latte: exactly 32g espresso and 150ml Unsweetened almond milk. 180g visible ice cubes, clear 16oz takeaway cup with condensation. All liquids stirred to uniform creamy coffee beige tan. No dairy milk, whole oats, nuts, coconut pieces, chocolate garnish, cinnamon, caramel drizzle, whipped cream, flowers or surrounding props. The plant milk is blended into the coffee; no fake green or purple color."
     }
   ]
 }
