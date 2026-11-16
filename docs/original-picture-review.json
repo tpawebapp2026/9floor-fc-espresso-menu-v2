@@ -1,6 +1,6 @@
 {
   "scope": "Original 260 recipes",
-  "reviewed": 152,
+  "reviewed": 154,
   "target": 260,
   "method": "imagegen",
   "rows": [
@@ -2283,6 +2283,36 @@
       "reviewedAt": "2026-11-16",
       "prompt": "Create one new photorealistic premium cafe menu photograph, square composition, warm off-white seamless studio background, soft natural side lighting. One appropriate serving cup as described in the recipe, fully visible and centered with 8% breathing room. Hot cups must be dry, without ice or condensation. Exact recipe: Iced Ristretto Black: actual recorded recipe 32g espresso plus 100ml cold still water and 180g ice. Very dark translucent brown iced black coffee, thin crema, no milk. Clear 16oz takeaway cup, visible ice and natural condensation. No unlisted ingredients, whipped cream, decorative garnish, fruit pieces, tools or surrounding props. No soda or large carbonation bubbles. Reproduce the attached dark-green 9 FLOOR COFFEE logo on a centered white cup label. Show only the finished drink. No people, hands, third-party logos, surrounding props, extra captions or unlisted ingredients. Fresh individual photograph for this recipe.",
       "visual": "Iced Ristretto Black: actual recorded recipe 32g espresso plus 100ml cold still water and 180g ice. Very dark translucent brown iced black coffee, thin crema, no milk. Clear 16oz takeaway cup, visible ice and natural condensation. No unlisted ingredients, whipped cream, decorative garnish, fruit pieces, tools or surrounding props. No soda or large carbonation bubbles."
+    },
+    {
+      "key": "v8-17-03",
+      "file": "recipe-photos/v8-17-03.webp",
+      "width": 768,
+      "height": 768,
+      "bytes": 51138,
+      "sha256": "0054326716b3fae68541966f3eefef4c65c4de0cd30aae6134af675c7577fff3",
+      "gitSha": "cd0854af24c7af8591ae627937f133b92287045a",
+      "recipeName": "Honey Cold Long Black",
+      "ingredientsSha256": "1d2f2841f4d8f1f1515893f3f4eddc66d56f4863b683822e24407d602ad89ece",
+      "method": "imagegen",
+      "reviewedAt": "2026-11-16",
+      "prompt": "Create one new photorealistic premium cafe menu photograph, square composition, warm off-white seamless studio background, soft natural side lighting. One appropriate serving cup as described in the recipe, fully visible and centered with 8% breathing room. Hot cups must be dry, without ice or condensation. Exact recipe: Honey Cold Long Black: 15ml honey dissolved in 110ml cold still water, 180g ice, 32g espresso poured over and then stirred. Uniform translucent deep amber-brown iced coffee. Clear 16oz takeaway cup, visible ice and natural condensation. No unlisted ingredients, whipped cream, decorative garnish, fruit pieces, tools or surrounding props. No soda or large carbonation bubbles. Reproduce the attached dark-green 9 FLOOR COFFEE logo on a centered white cup label. Show only the finished drink. No people, hands, third-party logos, surrounding props, extra captions or unlisted ingredients. Fresh individual photograph for this recipe.",
+      "visual": "Honey Cold Long Black: 15ml honey dissolved in 110ml cold still water, 180g ice, 32g espresso poured over and then stirred. Uniform translucent deep amber-brown iced coffee. Clear 16oz takeaway cup, visible ice and natural condensation. No unlisted ingredients, whipped cream, decorative garnish, fruit pieces, tools or surrounding props. No soda or large carbonation bubbles."
+    },
+    {
+      "key": "v8-17-04",
+      "file": "recipe-photos/v8-17-04.webp",
+      "width": 768,
+      "height": 768,
+      "bytes": 25826,
+      "sha256": "de38dd35c6231209c82fc8dbc79f0165aa3d2f84be47e6fc9de0f7dcdabc44bb",
+      "gitSha": "2dbd59d1ce2bd68e6f075d1f674e97ffc025fc34",
+      "recipeName": "Ginger Black Coffee",
+      "ingredientsSha256": "6f48520b6f36579b00e4eb8fe145d4e6b93acdd191ef1bca04e3a7a320624314",
+      "method": "imagegen",
+      "reviewedAt": "2026-11-16",
+      "prompt": "Create one new photorealistic premium cafe menu photograph, square composition, warm off-white seamless studio background, soft natural side lighting. One appropriate serving cup as described in the recipe, fully visible and centered with 8% breathing room. Hot cups must be dry, without ice or condensation. Exact recipe: Ginger Black Coffee: 32g espresso stirred with 15ml filtered ginger juice and 140ml hot water. Dark brown hot black coffee with a subtle thin crema ring, in a dry 220ml white ceramic cup viewed slightly above. No ginger slices, milk or ice. No unlisted ingredients, whipped cream, decorative garnish, fruit pieces, tools or surrounding props. No soda or large carbonation bubbles. Reproduce the attached dark-green 9 FLOOR COFFEE logo on a centered white cup label. Show only the finished drink. No people, hands, third-party logos, surrounding props, extra captions or unlisted ingredients. Fresh individual photograph for this recipe.",
+      "visual": "Ginger Black Coffee: 32g espresso stirred with 15ml filtered ginger juice and 140ml hot water. Dark brown hot black coffee with a subtle thin crema ring, in a dry 220ml white ceramic cup viewed slightly above. No ginger slices, milk or ice. No unlisted ingredients, whipped cream, decorative garnish, fruit pieces, tools or surrounding props. No soda or large carbonation bubbles."
     }
   ]
 }
