@@ -1,6 +1,6 @@
 {
   "scope": "Original 260 recipes",
-  "reviewed": 73,
+  "reviewed": 74,
   "target": 260,
   "method": "imagegen",
   "rows": [
@@ -1098,6 +1098,21 @@
       "reviewedAt": "2026-11-16",
       "prompt": "Create a new standalone photorealistic premium cafe menu photograph, square composition. One whole appropriate serving cup (as specified in the recipe below) centered, fully visible with 8% breathing room, warm off-white seamless studio background, soft natural side lighting and realistic cold condensation for iced drinks or a clean dry ceramic surface for hot drinks. Recipe to depict (do not print its name): Honey Lemon Soda:15ml honey and20ml lemon juice stirred into140ml clear soda water,150–180g ice. Slightly hazy pale honey-yellow sparkling soda with fine bubbles. No honey dipper, lemon slices, milk, mint or garnish. Serve in one clear16oz takeaway cup. Show ONLY the actual finished drink. Coffee grounds are for brewing and must not appear in the cup. Reproduce the exact dark-green 9 FLOOR COFFEE logo from the attached logo-only reference on a centered white cup label. No people, hands, third-party logos, extra captions, surrounding props or ingredients not specified. This must be a fresh individual photograph, not a reuse of another menu image.",
       "visual": "Honey Lemon Soda:15ml honey and20ml lemon juice stirred into140ml clear soda water,150–180g ice. Slightly hazy pale honey-yellow sparkling soda with fine bubbles. No honey dipper, lemon slices, milk, mint or garnish. Serve in one clear16oz takeaway cup."
+    },
+    {
+      "key": "v8-07-07",
+      "file": "recipe-photos/v8-07-07.webp",
+      "width": 768,
+      "height": 768,
+      "bytes": 42446,
+      "sha256": "6253c7387950ef42b080e5682a51cdf8b6a578452510b717bf56f2d0e37ddcfe",
+      "gitSha": "5601e472978c03c259536900416fcc2e25ec38e2",
+      "recipeName": "Yuzu Soda",
+      "ingredientsSha256": "31d0d3b91f902a815462234b8ab70894e3ce99010a174d9538f5b8ceddbede0f",
+      "method": "imagegen",
+      "reviewedAt": "2026-11-16",
+      "prompt": "Create a new standalone photorealistic premium cafe menu photograph, square composition. One whole appropriate serving cup (as specified in the recipe below) centered, fully visible with 8% breathing room, warm off-white seamless studio background, soft natural side lighting and realistic cold condensation for iced drinks or a clean dry ceramic surface for hot drinks. Recipe to depict (do not print its name): Yuzu Soda:25ml smooth yuzu syrup stirred into140ml clear soda water,150–180g ice. Translucent pale yellow-gold sparkling soda with fine bubbles. No puree, fruit chunks, peel, lemon slices, mint, milk or garnish. Serve in one clear16oz takeaway cup. Show ONLY the actual finished drink. Coffee grounds are for brewing and must not appear in the cup. Reproduce the exact dark-green 9 FLOOR COFFEE logo from the attached logo-only reference on a centered white cup label. No people, hands, third-party logos, extra captions, surrounding props or ingredients not specified. This must be a fresh individual photograph, not a reuse of another menu image.",
+      "visual": "Yuzu Soda:25ml smooth yuzu syrup stirred into140ml clear soda water,150–180g ice. Translucent pale yellow-gold sparkling soda with fine bubbles. No puree, fruit chunks, peel, lemon slices, mint, milk or garnish. Serve in one clear16oz takeaway cup."
     }
   ]
 }
