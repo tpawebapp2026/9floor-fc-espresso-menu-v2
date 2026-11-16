@@ -1,6 +1,6 @@
 {
   "scope": "Original 260 recipes",
-  "reviewed": 132,
+  "reviewed": 134,
   "target": 260,
   "method": "imagegen",
   "rows": [
@@ -1983,6 +1983,36 @@
       "reviewedAt": "2026-11-16",
       "prompt": "Create one new photorealistic premium cafe menu photograph, square composition, warm off-white seamless studio background, soft natural side lighting. One appropriate serving cup as described in the recipe, fully visible and centered with 8% breathing room. Hot cups must be dry, without ice or condensation. Exact recipe: Iced Jasmine Latte. Exactly 32g espresso plus 150ml dairy milk and 15ml jasmine syrup. 180g visible ice cubes, clear 16oz takeaway cup with condensation. Finished drink stirred to homogeneous creamy coffee tan; no dramatic separate colored layers. No flower petals, lavender sprigs, whole nuts, nut crumbs, maple leaves, syrup drizzles, whipped cream, cocoa, food coloring, surrounding props or garnish. Syrup flavor alone does not turn the coffee purple, pink or green. Reproduce the attached dark-green 9 FLOOR COFFEE logo on a centered white cup label. Show only the finished drink. No people, hands, third-party logos, surrounding props, extra captions or unlisted ingredients. Fresh individual photograph for this recipe.",
       "visual": "Iced Jasmine Latte. Exactly 32g espresso plus 150ml dairy milk and 15ml jasmine syrup. 180g visible ice cubes, clear 16oz takeaway cup with condensation. Finished drink stirred to homogeneous creamy coffee tan; no dramatic separate colored layers. No flower petals, lavender sprigs, whole nuts, nut crumbs, maple leaves, syrup drizzles, whipped cream, cocoa, food coloring, surrounding props or garnish. Syrup flavor alone does not turn the coffee purple, pink or green."
+    },
+    {
+      "key": "v8-15-03",
+      "file": "recipe-photos/v8-15-03.webp",
+      "width": 768,
+      "height": 768,
+      "bytes": 27812,
+      "sha256": "c78e62625b844e249d133db01b92cde645cdbbead90cbd13164ef1d4451c6067",
+      "gitSha": "08274358e7ca33900b2390f66dd2a6a7cbbd722e",
+      "recipeName": "Rose Latte",
+      "ingredientsSha256": "87fb3a74bf59cc598fef001072695afd1d158a1744eb6d758187f0676c979e0c",
+      "method": "imagegen",
+      "reviewedAt": "2026-11-16",
+      "prompt": "Create one new photorealistic premium cafe menu photograph, square composition, warm off-white seamless studio background, soft natural side lighting. One appropriate serving cup as described in the recipe, fully visible and centered with 8% breathing room. Hot cups must be dry, without ice or condensation. Exact recipe: Hot Rose Latte. Exactly 32g espresso plus 150ml dairy milk and 12ml rose syrup. A 220ml white ceramic latte cup, fine steamed milk microfoam, warm creamy coffee tan with a subtle simple milk heart. Hot, dry cup, no ice. No flower petals, lavender sprigs, whole nuts, nut crumbs, maple leaves, syrup drizzles, whipped cream, cocoa, food coloring, surrounding props or garnish. Syrup flavor alone does not turn the coffee purple, pink or green. Reproduce the attached dark-green 9 FLOOR COFFEE logo on a centered white cup label. Show only the finished drink. No people, hands, third-party logos, surrounding props, extra captions or unlisted ingredients. Fresh individual photograph for this recipe.",
+      "visual": "Hot Rose Latte. Exactly 32g espresso plus 150ml dairy milk and 12ml rose syrup. A 220ml white ceramic latte cup, fine steamed milk microfoam, warm creamy coffee tan with a subtle simple milk heart. Hot, dry cup, no ice. No flower petals, lavender sprigs, whole nuts, nut crumbs, maple leaves, syrup drizzles, whipped cream, cocoa, food coloring, surrounding props or garnish. Syrup flavor alone does not turn the coffee purple, pink or green."
+    },
+    {
+      "key": "v8-15-04",
+      "file": "recipe-photos/v8-15-04.webp",
+      "width": 768,
+      "height": 768,
+      "bytes": 36870,
+      "sha256": "d6577e84935cd4cd70a1435214d987278262683084d68ed186d35e47748337e6",
+      "gitSha": "2a09964dbdec849908a98a26a97b81a2a7be5e1e",
+      "recipeName": "Iced Rose Latte",
+      "ingredientsSha256": "58f46b8196367c8dcd69027f398617b4f86359792fd953f96d08bca651cf41a7",
+      "method": "imagegen",
+      "reviewedAt": "2026-11-16",
+      "prompt": "Create one new photorealistic premium cafe menu photograph, square composition, warm off-white seamless studio background, soft natural side lighting. One appropriate serving cup as described in the recipe, fully visible and centered with 8% breathing room. Hot cups must be dry, without ice or condensation. Exact recipe: Iced Rose Latte. Exactly 32g espresso plus 150ml dairy milk and 15ml rose syrup. 180g visible ice cubes, clear 16oz takeaway cup with condensation. Finished drink stirred to homogeneous creamy coffee tan; no dramatic separate colored layers. No flower petals, lavender sprigs, whole nuts, nut crumbs, maple leaves, syrup drizzles, whipped cream, cocoa, food coloring, surrounding props or garnish. Syrup flavor alone does not turn the coffee purple, pink or green. Reproduce the attached dark-green 9 FLOOR COFFEE logo on a centered white cup label. Show only the finished drink. No people, hands, third-party logos, surrounding props, extra captions or unlisted ingredients. Fresh individual photograph for this recipe.",
+      "visual": "Iced Rose Latte. Exactly 32g espresso plus 150ml dairy milk and 15ml rose syrup. 180g visible ice cubes, clear 16oz takeaway cup with condensation. Finished drink stirred to homogeneous creamy coffee tan; no dramatic separate colored layers. No flower petals, lavender sprigs, whole nuts, nut crumbs, maple leaves, syrup drizzles, whipped cream, cocoa, food coloring, surrounding props or garnish. Syrup flavor alone does not turn the coffee purple, pink or green."
     }
   ]
 }
