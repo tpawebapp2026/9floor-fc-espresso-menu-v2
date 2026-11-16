@@ -1,6 +1,6 @@
 {
   "scope": "Original 260 recipes",
-  "reviewed": 69,
+  "reviewed": 71,
   "target": 260,
   "method": "imagegen",
   "rows": [
@@ -1038,6 +1038,36 @@
       "reviewedAt": "2026-11-16",
       "prompt": "Create a new standalone photorealistic premium cafe menu photograph, square composition. One whole appropriate serving cup (as specified in the recipe below) centered, fully visible with 8% breathing room, warm off-white seamless studio background, soft natural side lighting and realistic cold condensation for iced drinks or a clean dry ceramic surface for hot drinks. Recipe to depict (do not print its name): Blue Lemon Soda:25ml NONALCOHOLIC blue curacao syrup,15ml lemon juice,140ml clear soda water,150–180g ice. Bright translucent blue sparkling drink with fine bubbles, slight citrus haze. No alcohol, lemon slices, orange peel, milk, mint or garnish. Serve in one clear16oz takeaway cup. Show ONLY the actual finished drink. Coffee grounds are for brewing and must not appear in the cup. Reproduce the exact dark-green 9 FLOOR COFFEE logo from the attached logo-only reference on a centered white cup label. No people, hands, third-party logos, extra captions, surrounding props or ingredients not specified. This must be a fresh individual photograph, not a reuse of another menu image.",
       "visual": "Blue Lemon Soda:25ml NONALCOHOLIC blue curacao syrup,15ml lemon juice,140ml clear soda water,150–180g ice. Bright translucent blue sparkling drink with fine bubbles, slight citrus haze. No alcohol, lemon slices, orange peel, milk, mint or garnish. Serve in one clear16oz takeaway cup."
+    },
+    {
+      "key": "v8-07-03",
+      "file": "recipe-photos/v8-07-03.webp",
+      "width": 768,
+      "height": 768,
+      "bytes": 56552,
+      "sha256": "e54ab3696569121a4d1f4720331380f533a322f671bc1b11b26e439d8e01d93b",
+      "gitSha": "2610b8d551e3ecd3a9afbb1b408b0a5f9f1ca52c",
+      "recipeName": "Passion Fruit Soda",
+      "ingredientsSha256": "072ceac8b8555e8e1c33c3153d87f270de46af4f9bfe3ca18aa600a8232749b3",
+      "method": "imagegen",
+      "reviewedAt": "2026-11-16",
+      "prompt": "Create a new standalone photorealistic premium cafe menu photograph, square composition. One whole appropriate serving cup (as specified in the recipe below) centered, fully visible with 8% breathing room, warm off-white seamless studio background, soft natural side lighting and realistic cold condensation for iced drinks or a clean dry ceramic surface for hot drinks. Recipe to depict (do not print its name): Passion Fruit Soda:25ml smooth PASSION FRUIT SYRUP,140ml clear soda water,150–180g ice. Translucent golden-yellow sparkling drink with fine bubbles. It uses syrup, not fresh passion fruit or puree: NO black seeds, pulp, fruit halves, milk or garnish. Serve in one clear16oz takeaway cup. Show ONLY the actual finished drink. Coffee grounds are for brewing and must not appear in the cup. Reproduce the exact dark-green 9 FLOOR COFFEE logo from the attached logo-only reference on a centered white cup label. No people, hands, third-party logos, extra captions, surrounding props or ingredients not specified. This must be a fresh individual photograph, not a reuse of another menu image.",
+      "visual": "Passion Fruit Soda:25ml smooth PASSION FRUIT SYRUP,140ml clear soda water,150–180g ice. Translucent golden-yellow sparkling drink with fine bubbles. It uses syrup, not fresh passion fruit or puree: NO black seeds, pulp, fruit halves, milk or garnish. Serve in one clear16oz takeaway cup."
+    },
+    {
+      "key": "v8-07-04",
+      "file": "recipe-photos/v8-07-04.webp",
+      "width": 768,
+      "height": 768,
+      "bytes": 36902,
+      "sha256": "078bdf0643e74decb392bfbd2e7c4585f96d1d2c50bc3cc6bc4867a7f3a0b459",
+      "gitSha": "ffed819f4ecc2b75d2aebfacbef272f23c7b68d2",
+      "recipeName": "Lychee Soda",
+      "ingredientsSha256": "fd855d7367a93d6c10595e1320f05d08a5657541e2418080debe1a6cf8640ba8",
+      "method": "imagegen",
+      "reviewedAt": "2026-11-16",
+      "prompt": "Create a new standalone photorealistic premium cafe menu photograph, square composition. One whole appropriate serving cup (as specified in the recipe below) centered, fully visible with 8% breathing room, warm off-white seamless studio background, soft natural side lighting and realistic cold condensation for iced drinks or a clean dry ceramic surface for hot drinks. Recipe to depict (do not print its name): Lychee Soda:25ml lychee syrup,140ml clear soda water,150–180g ice. Almost-clear extremely pale pinkish-white translucent sparkling soda, not opaque milk. No whole lychees, fruit chunks, flowers or garnish. Serve in one clear16oz takeaway cup. Show ONLY the actual finished drink. Coffee grounds are for brewing and must not appear in the cup. Reproduce the exact dark-green 9 FLOOR COFFEE logo from the attached logo-only reference on a centered white cup label. No people, hands, third-party logos, extra captions, surrounding props or ingredients not specified. This must be a fresh individual photograph, not a reuse of another menu image.",
+      "visual": "Lychee Soda:25ml lychee syrup,140ml clear soda water,150–180g ice. Almost-clear extremely pale pinkish-white translucent sparkling soda, not opaque milk. No whole lychees, fruit chunks, flowers or garnish. Serve in one clear16oz takeaway cup."
     }
   ]
 }
