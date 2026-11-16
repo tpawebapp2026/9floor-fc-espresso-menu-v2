@@ -71,14 +71,6 @@
     "sha256": "0e0342392cad65009d76e7b5fb121d936ab6e883ef3dd7250de0084d44fc2df5",
     "ingredientsSha256": "4046837d889d71cf7065a67e2240ad8df4db466bc10a5386b851b8ba7f052ece"
   },
-  "v9-iced-cappuccino": {
-    "key": "v9-iced-cappuccino",
-    "file": "recipe-photos/v9-iced-cappuccino.webp",
-    "width": 768,
-    "height": 768,
-    "sha256": "1307ac17ac078da267d0c1657e242ace99f8578447fbe62c3b031ffa6a313147",
-    "ingredientsSha256": "de066ea564b3c9046ada2e6aa3007ea1728e3cbeb33f93427edc48551a74c73c"
-  },
   "v8-01-10": {
     "key": "v8-01-10",
     "file": "recipe-photos/v8-01-10.webp",
@@ -87,6 +79,14 @@
     "sha256": "e0c8437e15f79a123cb20e33f3d636841efc4772595139a11418b27f49bf2c4d",
     "ingredientsSha256": "317a0a6da2e2c930f69b058f17b327b203208661749cd18826807f6ab917c149"
   },
+  "v9-iced-cappuccino": {
+    "key": "v9-iced-cappuccino",
+    "file": "recipe-photos/v9-iced-cappuccino.webp",
+    "width": 768,
+    "height": 768,
+    "sha256": "1307ac17ac078da267d0c1657e242ace99f8578447fbe62c3b031ffa6a313147",
+    "ingredientsSha256": "de066ea564b3c9046ada2e6aa3007ea1728e3cbeb33f93427edc48551a74c73c"
+  },
   "v8-01-11": {
     "key": "v8-01-11",
     "file": "recipe-photos/v8-01-11.webp",
@@ -94,5 +94,21 @@
     "height": 768,
     "sha256": "2de8f1ec1dc8ff93931ddfbf265bcede77b5dd2a406979b1dacae2a807d1eec8",
     "ingredientsSha256": "dbc0d40203cf4f8bc9a1dc83417a715043261db024893598e65ef84f8b5d2bd1"
+  },
+  "v8-01-12": {
+    "key": "v8-01-12",
+    "file": "recipe-photos/v8-01-12.webp",
+    "width": 768,
+    "height": 768,
+    "sha256": "14f5d8396f4fced73740cb7640adeb8bfd1d0466b59e374e237727ac69a17bc8",
+    "ingredientsSha256": "c0e4d324217e00076c931dd4fd88b5b71e9184096a807485c8a14d0ed82fed3c"
+  },
+  "v8-01-13": {
+    "key": "v8-01-13",
+    "file": "recipe-photos/v8-01-13.webp",
+    "width": 768,
+    "height": 768,
+    "sha256": "1ced799e0e475f8a619ba102d71b833d37e141abc376a74a83ac9b087c36e186",
+    "ingredientsSha256": "f4585f06a8ff0be02d102faeb4b4d62a816c0c9536b007b8411988800a214aaa"
   }
 }
