@@ -1,6 +1,6 @@
 {
   "scope": "Original 260 recipes",
-  "reviewed": 94,
+  "reviewed": 96,
   "target": 260,
   "method": "imagegen",
   "rows": [
@@ -1413,6 +1413,36 @@
       "reviewedAt": "2026-11-16",
       "prompt": "Create a new standalone photorealistic premium cafe menu photograph, square composition. One whole appropriate serving cup (as specified in the recipe below) centered, fully visible with 8% breathing room, warm off-white seamless studio background, soft natural side lighting and realistic cold condensation for iced drinks or a clean dry ceramic surface for hot drinks. Recipe to depict (do not print its name): Blueberry Soda:25ml blueberry SYRUP,10ml lemon juice,160ml soda water,180g ice. Mixed translucent purple-violet sparkling soda with fine bubbles, not blue milk. No whole blueberries, seeds, pulp, fruit garnish or milk. One clear16oz takeaway cup. Show ONLY the actual finished drink. Coffee grounds are for brewing and must not appear in the cup. Reproduce the exact dark-green 9 FLOOR COFFEE logo from the attached logo-only reference on a centered white cup label. No people, hands, third-party logos, extra captions, surrounding props or ingredients not specified. This must be a fresh individual photograph, not a reuse of another menu image.",
       "visual": "Blueberry Soda:25ml blueberry SYRUP,10ml lemon juice,160ml soda water,180g ice. Mixed translucent purple-violet sparkling soda with fine bubbles, not blue milk. No whole blueberries, seeds, pulp, fruit garnish or milk. One clear16oz takeaway cup."
+    },
+    {
+      "key": "v8-10-07",
+      "file": "recipe-photos/v8-10-07.webp",
+      "width": 768,
+      "height": 768,
+      "bytes": 44040,
+      "sha256": "03ca899f6b21fad57dc62294b44ca168686e1f012e56daa042ffb8b2f43a0b7a",
+      "gitSha": "284dd93d97a39fe7a7fb974dfa123a28505a2740",
+      "recipeName": "Grapefruit Soda",
+      "ingredientsSha256": "83af0ee257892eb9a42a2069cf010507e7382311326be63fae459c93845d1304",
+      "method": "imagegen",
+      "reviewedAt": "2026-11-16",
+      "prompt": "Create a new standalone photorealistic premium cafe menu photograph, square composition. One whole appropriate serving cup (as specified in the recipe below) centered, fully visible with 8% breathing room, warm off-white seamless studio background, soft natural side lighting and realistic cold condensation for iced drinks or a clean dry ceramic surface for hot drinks. Recipe to depict (do not print its name): Grapefruit Soda:70ml grapefruit JUICE,20ml simple syrup,120ml soda water,180g ice. Mixed slightly hazy pale blush pink-gold sparkling juice with fine carbonation bubbles. No grapefruit slices, wedges, pulp chunks, mint, milk or garnish. One clear16oz takeaway cup. Show ONLY the actual finished drink. Coffee grounds are for brewing and must not appear in the cup. Reproduce the exact dark-green 9 FLOOR COFFEE logo from the attached logo-only reference on a centered white cup label. No people, hands, third-party logos, extra captions, surrounding props or ingredients not specified. This must be a fresh individual photograph, not a reuse of another menu image.",
+      "visual": "Grapefruit Soda:70ml grapefruit JUICE,20ml simple syrup,120ml soda water,180g ice. Mixed slightly hazy pale blush pink-gold sparkling juice with fine carbonation bubbles. No grapefruit slices, wedges, pulp chunks, mint, milk or garnish. One clear16oz takeaway cup."
+    },
+    {
+      "key": "v8-10-08",
+      "file": "recipe-photos/v8-10-08.webp",
+      "width": 768,
+      "height": 768,
+      "bytes": 36274,
+      "sha256": "bc2e136a86d2e5dc30954b4d395fdaade3081f15b5e7da036e170c09fa98e4ec",
+      "gitSha": "c5e4716482f91e2723ae93fae1bc6e531c0b0a8e",
+      "recipeName": "Cucumber Lime Soda",
+      "ingredientsSha256": "ed5442ddaa7c867ff367f96fb680d7005256ea3aa28c56dfb220da17836753d2",
+      "method": "imagegen",
+      "reviewedAt": "2026-11-16",
+      "prompt": "Create a new standalone photorealistic premium cafe menu photograph, square composition. One whole appropriate serving cup (as specified in the recipe below) centered, fully visible with 8% breathing room, warm off-white seamless studio background, soft natural side lighting and realistic cold condensation for iced drinks or a clean dry ceramic surface for hot drinks. Recipe to depict (do not print its name): Cucumber Lime Soda:50ml STRAINED cucumber juice,20ml lime/lemon juice,20ml simple syrup,120ml soda water,180g ice. Mixed slightly hazy very pale fresh green sparkling drink with fine bubbles. No cucumber slices, seeds, skin, lime wedges, mint, milk or garnish. One clear16oz takeaway cup. Show ONLY the actual finished drink. Coffee grounds are for brewing and must not appear in the cup. Reproduce the exact dark-green 9 FLOOR COFFEE logo from the attached logo-only reference on a centered white cup label. No people, hands, third-party logos, extra captions, surrounding props or ingredients not specified. This must be a fresh individual photograph, not a reuse of another menu image.",
+      "visual": "Cucumber Lime Soda:50ml STRAINED cucumber juice,20ml lime/lemon juice,20ml simple syrup,120ml soda water,180g ice. Mixed slightly hazy very pale fresh green sparkling drink with fine bubbles. No cucumber slices, seeds, skin, lime wedges, mint, milk or garnish. One clear16oz takeaway cup."
     }
   ]
 }
