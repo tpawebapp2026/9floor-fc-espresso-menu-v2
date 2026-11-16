@@ -1,0 +1,527 @@
+{
+  "video-series-coffee-01": {
+    "key": "black-coffee-layered",
+    "file": "generated-video/black-coffee-layered.webp",
+    "width": 768,
+    "height": 768,
+    "sha256": "07aa021a1e8bedde9de8fd7665aeb13457995fe363ce42eb4b5d5b9a0f38ec71"
+  },
+  "video-series-coffee-02": {
+    "key": "orange-black-coffee",
+    "file": "generated-video/orange-black-coffee.webp",
+    "width": 768,
+    "height": 768,
+    "sha256": "771196078402cd03838cdff37af9d65d0cb9b6534963b9ffd117e2876d0e00aa"
+  },
+  "video-series-coffee-03": {
+    "key": "iced-coffee-latte",
+    "file": "generated-video/iced-coffee-latte.webp",
+    "width": 768,
+    "height": 768,
+    "sha256": "7594039e21ee3ad9fa0b310374c19a2fd5d822bfa05a0b89b7d6a232da7692b8"
+  },
+  "video-series-coffee-04": {
+    "key": "iced-cappuccino",
+    "file": "generated-video/iced-cappuccino.webp",
+    "width": 768,
+    "height": 768,
+    "sha256": "cf911fedbfd76a1496c72acbb7b75692b04cce2f3c9309ea00ec605bfa1efbeb"
+  },
+  "video-series-coffee-05": {
+    "key": "iced-mocha-foam",
+    "file": "generated-video/iced-mocha-foam.webp",
+    "width": 768,
+    "height": 768,
+    "sha256": "6e45164c9a12e070b51c77297ba047e8b93e99319d2663d8a500ad6abe9c956b"
+  },
+  "video-series-coffee-06": {
+    "key": "coffee-foam-latte",
+    "file": "generated-video/coffee-foam-latte.webp",
+    "width": 768,
+    "height": 768,
+    "sha256": "88a26d67bde20087f1a3cb72537643c2cd827c9c606aef5dc294f64931a4122f"
+  },
+  "video-series-coffee-07": {
+    "key": "cocoa-coffee-foam",
+    "file": "generated-video/cocoa-coffee-foam.webp",
+    "width": 768,
+    "height": 768,
+    "sha256": "5dfbefc307ce7d576107fe261f8d27baf6f522b93d88276c388fd23e16e8771e"
+  },
+  "video-series-coffee-08": {
+    "key": "black-coffee-layered",
+    "file": "generated-video/black-coffee-layered.webp",
+    "width": 768,
+    "height": 768,
+    "sha256": "07aa021a1e8bedde9de8fd7665aeb13457995fe363ce42eb4b5d5b9a0f38ec71"
+  },
+  "video-series-coffee-09": {
+    "key": "es-yen",
+    "file": "generated-video/es-yen.webp",
+    "width": 768,
+    "height": 768,
+    "sha256": "7a81bab6f0c853d17e8ef176266580a63fb7fb7e631e25a7326bb7f0a3909004"
+  },
+  "video-series-coffee-10": {
+    "key": "cocoa-coffee-foam",
+    "file": "generated-video/cocoa-coffee-foam.webp",
+    "width": 768,
+    "height": 768,
+    "sha256": "5dfbefc307ce7d576107fe261f8d27baf6f522b93d88276c388fd23e16e8771e"
+  },
+  "video-series-coffee-11": {
+    "key": "bear-milk-coffee",
+    "file": "generated-video/bear-milk-coffee.webp",
+    "width": 768,
+    "height": 768,
+    "sha256": "711ed27e78d46daca21ea2cd169a14d9f6062b72242f6d62960fbe78dbdd8e4a"
+  },
+  "video-series-coffee-13": {
+    "key": "bear-milk-coffee",
+    "file": "generated-video/bear-milk-coffee.webp",
+    "width": 768,
+    "height": 768,
+    "sha256": "711ed27e78d46daca21ea2cd169a14d9f6062b72242f6d62960fbe78dbdd8e4a"
+  },
+  "video-series-coffee-12": {
+    "key": "es-yen",
+    "file": "generated-video/es-yen.webp",
+    "width": 768,
+    "height": 768,
+    "sha256": "7a81bab6f0c853d17e8ef176266580a63fb7fb7e631e25a7326bb7f0a3909004"
+  },
+  "video-series-coffee-14": {
+    "key": "black-coffee-layered",
+    "file": "generated-video/black-coffee-layered.webp",
+    "width": 768,
+    "height": 768,
+    "sha256": "07aa021a1e8bedde9de8fd7665aeb13457995fe363ce42eb4b5d5b9a0f38ec71"
+  },
+  "video-series-coffee-15": {
+    "key": "caramel-coffee-foam",
+    "file": "generated-video/caramel-coffee-foam.webp",
+    "width": 768,
+    "height": 768,
+    "sha256": "9cd8b98784ec865314ad9b6275e9dd3b9eace952d0f83fca8f575435732c39b1"
+  },
+  "video-series-coffee-16": {
+    "key": "green-tea-coffee",
+    "file": "generated-video/green-tea-coffee.webp",
+    "width": 768,
+    "height": 768,
+    "sha256": "08648179aa30b740a51559d558173ec8b751dc24ea4b92604220fdf490dc7ad9"
+  },
+  "video-series-coffee-17": {
+    "key": "iced-coffee-latte",
+    "file": "generated-video/iced-coffee-latte.webp",
+    "width": 768,
+    "height": 768,
+    "sha256": "7594039e21ee3ad9fa0b310374c19a2fd5d822bfa05a0b89b7d6a232da7692b8"
+  },
+  "video-series-coffee-18": {
+    "key": "black-coffee-plain",
+    "file": "generated-video/black-coffee-plain.webp",
+    "width": 768,
+    "height": 768,
+    "sha256": "2e897c4fc9f501bbc21cc21d9a3b819e11009daadf86f02b0ce006bff5316875"
+  },
+  "video-series-coffee-18b": {
+    "key": "black-coffee-plain",
+    "file": "generated-video/black-coffee-plain.webp",
+    "width": 768,
+    "height": 768,
+    "sha256": "2e897c4fc9f501bbc21cc21d9a3b819e11009daadf86f02b0ce006bff5316875"
+  },
+  "video-series-coffee-19": {
+    "key": "orange-black-coffee",
+    "file": "generated-video/orange-black-coffee.webp",
+    "width": 768,
+    "height": 768,
+    "sha256": "771196078402cd03838cdff37af9d65d0cb9b6534963b9ffd117e2876d0e00aa"
+  },
+  "video-series-coffee-20": {
+    "key": "caramel-macchiato-foam",
+    "file": "generated-video/caramel-macchiato-foam.webp",
+    "width": 768,
+    "height": 768,
+    "sha256": "2e756b24d39d431424f2313e0970108e315e6559f100d56694a62e27171de929"
+  },
+  "video-series-coffee-21": {
+    "key": "nutella-coffee-milk",
+    "file": "generated-video/nutella-coffee-milk.webp",
+    "width": 768,
+    "height": 768,
+    "sha256": "d33bd76b3cbdf598cdc4189767c482c70f03d971eb63213b63706ce49fcfb297"
+  },
+  "video-series-berry-01": {
+    "key": "strawberry-milk",
+    "file": "generated-video/strawberry-milk.webp",
+    "width": 768,
+    "height": 768,
+    "sha256": "2c0414cee4c604927c86608c76f5a0684ce771c299bb20f28123c4251f30c6f6"
+  },
+  "video-series-berry-02": {
+    "key": "strawberry-cocoa",
+    "file": "generated-video/strawberry-cocoa.webp",
+    "width": 768,
+    "height": 768,
+    "sha256": "f72e0ba41c6a9c08415b27d292a0c0916039342d7757a4668d158c98524ed56e"
+  },
+  "video-series-berry-03": {
+    "key": "strawberry-thai-tea",
+    "file": "generated-video/strawberry-thai-tea.webp",
+    "width": 768,
+    "height": 768,
+    "sha256": "cba72f3574de8595bd27f6b2345b9c5b3426a6a57f3a53c3c517ede30603c9ff"
+  },
+  "video-series-berry-04": {
+    "key": "strawberry-matcha",
+    "file": "generated-video/strawberry-matcha.webp",
+    "width": 768,
+    "height": 768,
+    "sha256": "43a4c3eea1ef10f79189958f2712e5bbea45e35c7eecdf8c778b976ce513eda4"
+  },
+  "video-series-berry-05": {
+    "key": "strawberry-coffee",
+    "file": "generated-video/strawberry-coffee.webp",
+    "width": 768,
+    "height": 768,
+    "sha256": "9533561842ae4c28d9ea0156a6b3f84334efd0aebbefd4ab1e6b0db868b02698"
+  },
+  "video-series-berry-06": {
+    "key": "strawberry-milk",
+    "file": "generated-video/strawberry-milk.webp",
+    "width": 768,
+    "height": 768,
+    "sha256": "2c0414cee4c604927c86608c76f5a0684ce771c299bb20f28123c4251f30c6f6"
+  },
+  "video-series-berry-07": {
+    "key": "strawberry-green-tea",
+    "file": "generated-video/strawberry-green-tea.webp",
+    "width": 768,
+    "height": 768,
+    "sha256": "bab79bef2aeb9d0542799375ae7c94909e6ed173ddc2cd76339f0ef4ba258973"
+  },
+  "video-series-berry-08": {
+    "key": "mixed-berry-milk",
+    "file": "generated-video/mixed-berry-milk.webp",
+    "width": 768,
+    "height": 768,
+    "sha256": "97e2b4c7d8773e3a9b69264802affb6239d8ffd0d68e2e87c799dd6ca9c1524a"
+  },
+  "video-series-berry-09": {
+    "key": "strawberry-water",
+    "file": "generated-video/strawberry-water.webp",
+    "width": 768,
+    "height": 768,
+    "sha256": "1a2105aba41e7b5717e7759e8588cf4adcb9881df648005423de328b03e148f7"
+  },
+  "video-series-berry-9b": {
+    "key": "strawberry-water",
+    "file": "generated-video/strawberry-water.webp",
+    "width": 768,
+    "height": 768,
+    "sha256": "1a2105aba41e7b5717e7759e8588cf4adcb9881df648005423de328b03e148f7"
+  },
+  "video-series-berry-10": {
+    "key": "mixed-berry-cocoa",
+    "file": "generated-video/mixed-berry-cocoa.webp",
+    "width": 768,
+    "height": 768,
+    "sha256": "848319c9bb1435c6ccc3ec8ddab95fd10cea5b239f3ad5026c82089fbac92c84"
+  },
+  "video-series-berry-11": {
+    "key": "mixed-berry-matcha",
+    "file": "generated-video/mixed-berry-matcha.webp",
+    "width": 768,
+    "height": 768,
+    "sha256": "82200afb0c13d5bbc67a0e8bf1f53c7de07f99904bc26ddf90d143a16f3c7d30"
+  },
+  "video-series-berry-12": {
+    "key": "strawberry-black-coffee",
+    "file": "generated-video/strawberry-black-coffee.webp",
+    "width": 768,
+    "height": 768,
+    "sha256": "1acdf0243edf7708a50c5cf0dce461e64e92b225aaf9c54a2d82a420ca7fb65d"
+  },
+  "video-series-berry-13": {
+    "key": "mixed-berry-thai-tea",
+    "file": "generated-video/mixed-berry-thai-tea.webp",
+    "width": 768,
+    "height": 768,
+    "sha256": "d7c08907d555a72c6c183b7381a822002f78a6adf2ee562e7e29fc7f4c4a0d6e"
+  },
+  "video-series-berry-14": {
+    "key": "strawberry-clear-matcha",
+    "file": "generated-video/strawberry-clear-matcha.webp",
+    "width": 768,
+    "height": 768,
+    "sha256": "ba37df0d311d3a9b460b014dfb150dc90febe56ab3e0fb34787a215fae4e4b0c"
+  },
+  "video-series-berry-15": {
+    "key": "mixed-berry-green-tea",
+    "file": "generated-video/mixed-berry-green-tea.webp",
+    "width": 768,
+    "height": 768,
+    "sha256": "2780cef0e7b6ea3d9df120c5d0920a54563ff1000dd3a2b61b1dec20766d14b4"
+  },
+  "video-series-berry-16": {
+    "key": "strawberry-yogurt-smoothie",
+    "file": "generated-video/strawberry-yogurt-smoothie.webp",
+    "width": 768,
+    "height": 768,
+    "sha256": "391a26a0f82da9ad545b537d79dd587524cea0d617a80b177e330df890235cb6"
+  },
+  "video-series-twotone-01": {
+    "key": "mint-cocoa",
+    "file": "generated-video/mint-cocoa.webp",
+    "width": 768,
+    "height": 768,
+    "sha256": "69219a08f777162e4bc61ae44a92e6e8b24982f989b99a8061d18f3ba321fc56"
+  },
+  "video-series-twotone-02": {
+    "key": "layered-thai-tea",
+    "file": "generated-video/layered-thai-tea.webp",
+    "width": 768,
+    "height": 768,
+    "sha256": "87cf390f2ea890f1d14f4377009ea65265d47c778200d6b4329e2e25ae3492d1"
+  },
+  "video-series-twotone-2b": {
+    "key": "layered-green-tea",
+    "file": "generated-video/layered-green-tea.webp",
+    "width": 768,
+    "height": 768,
+    "sha256": "462231616a1a3c840f0d06725b4ab6a46b3c7dab901205859ea9eb29164b702d"
+  },
+  "video-series-twotone-03": {
+    "key": "layered-cocoa-milk",
+    "file": "generated-video/layered-cocoa-milk.webp",
+    "width": 768,
+    "height": 768,
+    "sha256": "7aa1252f28474ca50c1adaa0b7bf0061d8a02c3047ea4aa93c8a87c1cc3da10d"
+  },
+  "video-series-twotone-04": {
+    "key": "layered-thai-tea",
+    "file": "generated-video/layered-thai-tea.webp",
+    "width": 768,
+    "height": 768,
+    "sha256": "87cf390f2ea890f1d14f4377009ea65265d47c778200d6b4329e2e25ae3492d1"
+  },
+  "video-series-twotone-05": {
+    "key": "layered-thai-tea",
+    "file": "generated-video/layered-thai-tea.webp",
+    "width": 768,
+    "height": 768,
+    "sha256": "87cf390f2ea890f1d14f4377009ea65265d47c778200d6b4329e2e25ae3492d1"
+  },
+  "video-series-twotone-5b": {
+    "key": "matcha-no-ice",
+    "file": "generated-video/matcha-no-ice.webp",
+    "width": 768,
+    "height": 768,
+    "sha256": "d10ec44e51ea3dc63fabc9150a0d00c826c4ce2b9c6d8614fd517e566e391f59"
+  },
+  "video-series-twotone-06": {
+    "key": "pink-milk-layered",
+    "file": "generated-video/pink-milk-layered.webp",
+    "width": 768,
+    "height": 768,
+    "sha256": "b008b2791038bf2582dd8de048263f7f23c2efed406a12bc56fc844c541de409"
+  },
+  "video-series-twotone-07": {
+    "key": "taro-milk-layered",
+    "file": "generated-video/taro-milk-layered.webp",
+    "width": 768,
+    "height": 768,
+    "sha256": "16daec4018bd60d34235d5afec76fab7abaa2ecbe9e6f1c17e662f1653dc4fbe"
+  },
+  "video-series-twotone-08": {
+    "key": "mint-milk",
+    "file": "generated-video/mint-milk.webp",
+    "width": 768,
+    "height": 768,
+    "sha256": "2c1bc9cb228c5e86b11534075d4cfcb475816517a007b39405adda1174440c1b"
+  },
+  "video-series-twotone-09": {
+    "key": "mint-cocoa",
+    "file": "generated-video/mint-cocoa.webp",
+    "width": 768,
+    "height": 768,
+    "sha256": "69219a08f777162e4bc61ae44a92e6e8b24982f989b99a8061d18f3ba321fc56"
+  },
+  "video-series-twotone-10": {
+    "key": "cocoa-bear-milk",
+    "file": "generated-video/cocoa-bear-milk.webp",
+    "width": 768,
+    "height": 768,
+    "sha256": "f1d06ccd741bad64b8445d45254d4f6975938f59b6ac8c6b9ff5454031e7fd91"
+  },
+  "video-series-twotone-11": {
+    "key": "taro-matcha",
+    "file": "generated-video/taro-matcha.webp",
+    "width": 768,
+    "height": 768,
+    "sha256": "4bc2f14de0a37805985a9fe8218b498a186e7bfbbb0bc3d210ff3b0e2949fc1b"
+  },
+  "video-series-twotone-12": {
+    "key": "thai-tea-cocoa",
+    "file": "generated-video/thai-tea-cocoa.webp",
+    "width": 768,
+    "height": 768,
+    "sha256": "7194efbf32596ed7f1d0864d121e29357e9977f3b59d44b2a1f064e740423846"
+  },
+  "video-series-twotone-13": {
+    "key": "cocoa-lava-oat",
+    "file": "generated-video/cocoa-lava-oat.webp",
+    "width": 768,
+    "height": 768,
+    "sha256": "3a5c6953e28812e044e8058926fa4b74887bd255a0ec1b2f540e87b151fcd554"
+  },
+  "video-series-twotone-14": {
+    "key": "mint-pink-cloud",
+    "file": "generated-video/mint-pink-cloud.webp",
+    "width": 768,
+    "height": 768,
+    "sha256": "ce6522a8ee82c14cf7814953cc74f930f6890956cad6822c7da8eb868f38f411"
+  },
+  "video-series-matcha-01": {
+    "key": "matcha-latte",
+    "file": "generated-video/matcha-latte.webp",
+    "width": 768,
+    "height": 768,
+    "sha256": "d14d87cab75508b8c49b7a64ef3f5185b61eaaf732d1e74ff0aa63ad2fc620fb"
+  },
+  "video-series-matcha-02": {
+    "key": "matcha-bear-milk",
+    "file": "generated-video/matcha-bear-milk.webp",
+    "width": 768,
+    "height": 768,
+    "sha256": "54c452ae54e40ad9405007df557363ce3d76e8e93edd0c60ab88c554d171ee67"
+  },
+  "video-series-matcha-03": {
+    "key": "matcha-latte",
+    "file": "generated-video/matcha-latte.webp",
+    "width": 768,
+    "height": 768,
+    "sha256": "d14d87cab75508b8c49b7a64ef3f5185b61eaaf732d1e74ff0aa63ad2fc620fb"
+  },
+  "video-series-matcha-04": {
+    "key": "matcha-honey",
+    "file": "generated-video/matcha-honey.webp",
+    "width": 768,
+    "height": 768,
+    "sha256": "98be9278ec287a017a40e4ea14c42b6fd666bca49d89e26d12efb81c4ddf56ae"
+  },
+  "video-series-matcha-05": {
+    "key": "matcha-pink-milk",
+    "file": "generated-video/matcha-pink-milk.webp",
+    "width": 768,
+    "height": 768,
+    "sha256": "09f4af6407ed606a98e69da39b57c52a4d99ab2c2a6ba54fd20fcf8662dee1e2"
+  },
+  "video-series-matcha-06": {
+    "key": "matcha-latte",
+    "file": "generated-video/matcha-latte.webp",
+    "width": 768,
+    "height": 768,
+    "sha256": "d14d87cab75508b8c49b7a64ef3f5185b61eaaf732d1e74ff0aa63ad2fc620fb"
+  },
+  "video-series-matcha-07": {
+    "key": "matcha-latte",
+    "file": "generated-video/matcha-latte.webp",
+    "width": 768,
+    "height": 768,
+    "sha256": "d14d87cab75508b8c49b7a64ef3f5185b61eaaf732d1e74ff0aa63ad2fc620fb"
+  },
+  "video-series-matcha-08": {
+    "key": "matcha-honey-lime",
+    "file": "generated-video/matcha-honey-lime.webp",
+    "width": 768,
+    "height": 768,
+    "sha256": "07b75ea88a4887db93158c1bbe3f5de3ca2a25481fff8d98eeb66792486e5c67"
+  },
+  "video-series-matcha-8b": {
+    "key": "black-honey-small",
+    "file": "generated-video/black-honey-small.webp",
+    "width": 768,
+    "height": 768,
+    "sha256": "0756d9976e3723a522e4b6efd7761142ad2a33e500b863c401f9d9363ffe7f71"
+  },
+  "video-series-matcha-09": {
+    "key": "matcha-latte",
+    "file": "generated-video/matcha-latte.webp",
+    "width": 768,
+    "height": 768,
+    "sha256": "d14d87cab75508b8c49b7a64ef3f5185b61eaaf732d1e74ff0aa63ad2fc620fb"
+  },
+  "video-series-matcha-10": {
+    "key": "matcha-caramel-oat",
+    "file": "generated-video/matcha-caramel-oat.webp",
+    "width": 768,
+    "height": 768,
+    "sha256": "047615ba378245e428cd6f1db69603a27e8b3ef0f955c78bba368ebe3e9cf409"
+  },
+  "video-series-matcha-11": {
+    "key": "matcha-coconut-clear",
+    "file": "generated-video/matcha-coconut-clear.webp",
+    "width": 768,
+    "height": 768,
+    "sha256": "104a79d4c355d06a58962c41cbc87385c626eb09ea829da941557f33e44acc5a"
+  },
+  "video-series-matcha-12": {
+    "key": "matcha-latte",
+    "file": "generated-video/matcha-latte.webp",
+    "width": 768,
+    "height": 768,
+    "sha256": "d14d87cab75508b8c49b7a64ef3f5185b61eaaf732d1e74ff0aa63ad2fc620fb"
+  },
+  "video-series-matcha-13": {
+    "key": "matcha-orange",
+    "file": "generated-video/matcha-orange.webp",
+    "width": 768,
+    "height": 768,
+    "sha256": "11429ca26c9dcf089ad002bcfa3877543274ebceda0bf6d446b34fb01c1900dc"
+  },
+  "video-series-matcha-14": {
+    "key": "matcha-clear",
+    "file": "generated-video/matcha-clear.webp",
+    "width": 768,
+    "height": 768,
+    "sha256": "470bc9c89d1d75fc7fba86b9abd2136142e2ae4ed0f646996aa2b544de6e2384"
+  },
+  "video-series-matcha-15": {
+    "key": "matcha-latte",
+    "file": "generated-video/matcha-latte.webp",
+    "width": 768,
+    "height": 768,
+    "sha256": "d14d87cab75508b8c49b7a64ef3f5185b61eaaf732d1e74ff0aa63ad2fc620fb"
+  },
+  "video-series-matcha-16": {
+    "key": "matcha-latte",
+    "file": "generated-video/matcha-latte.webp",
+    "width": 768,
+    "height": 768,
+    "sha256": "d14d87cab75508b8c49b7a64ef3f5185b61eaaf732d1e74ff0aa63ad2fc620fb"
+  },
+  "video-series-matcha-16b": {
+    "key": "matcha-latte",
+    "file": "generated-video/matcha-latte.webp",
+    "width": 768,
+    "height": 768,
+    "sha256": "d14d87cab75508b8c49b7a64ef3f5185b61eaaf732d1e74ff0aa63ad2fc620fb"
+  },
+  "video-series-matcha-17": {
+    "key": "matcha-yuzu",
+    "file": "generated-video/matcha-yuzu.webp",
+    "width": 768,
+    "height": 768,
+    "sha256": "38ee44b65c48a503cc8738cd6edff6fe1977ae9d240c0f750b5076f413bd50e9"
+  },
+  "video-series-matcha-18": {
+    "key": "matcha-biscoff",
+    "file": "generated-video/matcha-biscoff.webp",
+    "width": 768,
+    "height": 768,
+    "sha256": "9753ceae627d880cbc44a2237c4c87d96fbc098869b29df42cf3b3c3e95dc9da"
+  }
+}

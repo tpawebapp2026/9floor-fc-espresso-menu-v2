@@ -1,0 +1,34 @@
+{
+  "method": "Built-in imagegen",
+  "style": "Photorealistic 9 FLOOR COFFEE labeled clear cup, warm off-white seamless background, no people or third-party branding. Match drink color, layering, ice and recipe toppings.",
+  "specifications": [
+    {
+      "key": "matcha-caramel-oat",
+      "visual": "Iced matcha caramel oat latte: white/ivory oat milk lower two thirds with thin golden caramel sauce streaks on inside cup walls, a deep green whisked matcha layer on top around clear ice. No foam topping or garnish."
+    },
+    {
+      "key": "matcha-coconut-clear",
+      "visual": "Iced matcha coconut syrup water, NO MILK: almost clear very pale translucent syrup-water in bottom two thirds, deep green matcha layer diffusing over top around clear ice. Must remain translucent, not white or milky. No garnish or foam."
+    },
+    {
+      "key": "matcha-orange",
+      "visual": "Iced matcha orange: bright orange juice-like diluted orange concentrate lower two thirds, dark green matcha upper third with clear ice and gentle diffusion at boundary. NO milk, NO foam, NO garnish."
+    },
+    {
+      "key": "matcha-clear",
+      "visual": "Plain iced matcha with water, entirely uniform translucent natural deep green liquid with clear ice, no separate milk layer, NO milk, NO foam, NO garnish."
+    },
+    {
+      "key": "matcha-yuzu",
+      "visual": "Iced matcha yuzu: translucent golden-yellow diluted yuzu fruit preparation with a small amount of tiny yuzu pulp in lower two thirds, deep green matcha layer over clear ice in upper third. No milk, foam, fresh fruit slices or garnish."
+    },
+    {
+      "key": "matcha-biscoff",
+      "visual": "Iced matcha Biscoff latte: warm caramel-brown cookie butter spread smeared thickly on inner cup sides, ivory milk bottom and dark green matcha layer over clear ice on top. One small rectangular caramel biscuit partly inserted on the rim; biscuit has NO embossed brand name. No foam, whipped cream or other toppings."
+    },
+    {
+      "key": "matcha-bear-milk",
+      "visual": "Recipe order puts green matcha below ivory milk poured last, reversed from standard matcha latte."
+    }
+  ]
+}

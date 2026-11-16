@@ -657,7 +657,7 @@ test("new uploaded series expose all 75 additions, exact variants, photos and of
     await expect(page.locator(".recipe-card")).toHaveCount(count);
     await expect(page.locator(".recipe-card img").first()).toHaveAttribute(
       "src",
-      /video-series/,
+      /generated-video/,
     );
   }
   await page.goto("./#/recipe/video-series-matcha-16");
