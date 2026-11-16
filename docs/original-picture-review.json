@@ -1,6 +1,6 @@
 {
   "scope": "Original 260 recipes",
-  "reviewed": 98,
+  "reviewed": 100,
   "target": 260,
   "method": "imagegen",
   "rows": [
@@ -1473,6 +1473,36 @@
       "reviewedAt": "2026-11-16",
       "prompt": "Create a new standalone photorealistic premium cafe menu photograph, square composition. One whole appropriate serving cup (as specified in the recipe below) centered, fully visible with 8% breathing room, warm off-white seamless studio background, soft natural side lighting and realistic cold condensation for iced drinks or a clean dry ceramic surface for hot drinks. Recipe to depict (do not print its name): Blue Lagoon Mocktail, NONALCOHOLIC:25ml blue curacao SYRUP,20ml lemon juice,160ml soda water,180g ice. Translucent bright blue sparkling drink with fine bubbles and slight lemon haze. No vodka, alcohol, lemon slice, cherry, orange peel or garnish. One clear16oz takeaway cup. Show ONLY the actual finished drink. Coffee grounds are for brewing and must not appear in the cup. Reproduce the exact dark-green 9 FLOOR COFFEE logo from the attached logo-only reference on a centered white cup label. No people, hands, third-party logos, extra captions, surrounding props or ingredients not specified. This must be a fresh individual photograph, not a reuse of another menu image.",
       "visual": "Blue Lagoon Mocktail, NONALCOHOLIC:25ml blue curacao SYRUP,20ml lemon juice,160ml soda water,180g ice. Translucent bright blue sparkling drink with fine bubbles and slight lemon haze. No vodka, alcohol, lemon slice, cherry, orange peel or garnish. One clear16oz takeaway cup."
+    },
+    {
+      "key": "v8-11-03",
+      "file": "recipe-photos/v8-11-03.webp",
+      "width": 768,
+      "height": 768,
+      "bytes": 43106,
+      "sha256": "71a56f46a92fa8a91c19e26688a883726317126144b1afa7e228c22c35218fab",
+      "gitSha": "e7f30aeebf50b56d43b451e2fe9db0143f058e81",
+      "recipeName": "Sunrise Mocktail",
+      "ingredientsSha256": "edde625af84eba6d67c8f8ddbd71ff6d5e7f7d9bc5161745815284ab5661f334",
+      "method": "imagegen",
+      "reviewedAt": "2026-11-16",
+      "prompt": "Create one new photorealistic premium cafe menu photograph, square composition, warm off-white seamless studio background, soft natural side lighting. One clear16oz takeaway cup, fully visible and centered with8% breathing room, realistic condensation. Exact recipe: Sunrise Mocktail, NONALCOHOLIC:130ml orange juice first,20ml dense red grenadine syrup next,170g ice,40ml soda last. Orange juice above a red grenadine lower gradient as syrup sinks naturally, subtle carbonation. No alcohol, orange slices, cherries, milk or garnish. Reproduce the attached dark-green 9 FLOOR COFFEE logo on a centered white cup label. Show only the finished drink. No people, hands, third-party logos, surrounding props, extra captions or unlisted ingredients. Fresh individual photograph for this recipe.",
+      "visual": "Sunrise Mocktail, NONALCOHOLIC:130ml orange juice first,20ml dense red grenadine syrup next,170g ice,40ml soda last. Orange juice above a red grenadine lower gradient as syrup sinks naturally, subtle carbonation. No alcohol, orange slices, cherries, milk or garnish."
+    },
+    {
+      "key": "v8-11-04",
+      "file": "recipe-photos/v8-11-04.webp",
+      "width": 768,
+      "height": 768,
+      "bytes": 35908,
+      "sha256": "7c6fbdb74bbcf9d928f696406e28541f062af51b05f142cd40ad9f48bb7e1b7f",
+      "gitSha": "9a32c7ff3fc61593a95630f4205f0c057bcef86d",
+      "recipeName": "Tropical Punch",
+      "ingredientsSha256": "920c6673d5e11ac73cd823ac7c45368208df8dba2d5bd15820220b3259994b7f",
+      "method": "imagegen",
+      "reviewedAt": "2026-11-16",
+      "prompt": "Create one new photorealistic premium cafe menu photograph, square composition, warm off-white seamless studio background, soft natural side lighting. One clear16oz takeaway cup, fully visible and centered with8% breathing room, realistic condensation. Exact recipe: Tropical Punch:70ml pineapple juice,70ml orange juice,30g mango puree,15ml lemon juice mixed thoroughly over170g clear ice. Opaque hazy golden-orange tropical juice with fine puree body, not a smoothie. No carbonation, milk, fruit wedges, chunks, umbrella or garnish. Reproduce the attached dark-green 9 FLOOR COFFEE logo on a centered white cup label. Show only the finished drink. No people, hands, third-party logos, surrounding props, extra captions or unlisted ingredients. Fresh individual photograph for this recipe.",
+      "visual": "Tropical Punch:70ml pineapple juice,70ml orange juice,30g mango puree,15ml lemon juice mixed thoroughly over170g clear ice. Opaque hazy golden-orange tropical juice with fine puree body, not a smoothie. No carbonation, milk, fruit wedges, chunks, umbrella or garnish."
     }
   ]
 }
