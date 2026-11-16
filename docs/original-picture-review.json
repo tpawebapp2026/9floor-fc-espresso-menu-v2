@@ -1,6 +1,6 @@
 {
   "scope": "Original 260 recipes",
-  "reviewed": 118,
+  "reviewed": 120,
   "target": 260,
   "method": "imagegen",
   "rows": [
@@ -1773,6 +1773,36 @@
       "reviewedAt": "2026-11-16",
       "prompt": "Create one new photorealistic premium cafe menu photograph, square composition, warm off-white seamless studio background, soft natural side lighting. One clear16oz takeaway cup, fully visible and centered with8% breathing room, realistic condensation. Exact recipe: Thai Basil Lemon Soda:6 Thai basil leaves INSIDE drink,20ml lemon/lime juice,20ml simple syrup,160ml soda water,180g ice. Almost clear slightly hazy pale citrus sparkling drink with fine bubbles, recognizable pointed Thai basil leaves among the ice and lower cup. Leaves are ingredients, not a decorative bouquet. No mint, lime wedges, cucumber slices, milk or other garnish. Reproduce the attached dark-green 9 FLOOR COFFEE logo on a centered white cup label. Show only the finished drink. No people, hands, third-party logos, surrounding props, extra captions or unlisted ingredients. Fresh individual photograph for this recipe.",
       "visual": "Thai Basil Lemon Soda:6 Thai basil leaves INSIDE drink,20ml lemon/lime juice,20ml simple syrup,160ml soda water,180g ice. Almost clear slightly hazy pale citrus sparkling drink with fine bubbles, recognizable pointed Thai basil leaves among the ice and lower cup. Leaves are ingredients, not a decorative bouquet. No mint, lime wedges, cucumber slices, milk or other garnish."
+    },
+    {
+      "key": "v8-13-07",
+      "file": "recipe-photos/v8-13-07.webp",
+      "width": 768,
+      "height": 768,
+      "bytes": 47196,
+      "sha256": "f0efabbd711ad4bfa2d0c80481107982f63cf498210444440f8333e975cc62f4",
+      "gitSha": "6acd5e7179ff2c91e1d6a2dbe20eba2327c1b4ac",
+      "recipeName": "Tamarind Honey Cooler",
+      "ingredientsSha256": "13a884ccd7f169b2f5530bd345b27f7afc98dc3c5f6ba8d19f3bbe3d8b174676",
+      "method": "imagegen",
+      "reviewedAt": "2026-11-16",
+      "prompt": "Create one new photorealistic premium cafe menu photograph, square composition, warm off-white seamless studio background, soft natural side lighting. One clear16oz takeaway cup, fully visible and centered with8% breathing room, realistic condensation. Exact recipe: Tamarind Honey Cooler:50ml STRAINED tamarind juice,25ml honey and140ml still cold water mixed over170g ice. Natural hazy light tamarind-brown drink, translucent around edges. No carbonation, tamarind pods, seeds, fruit pulp chunks, honey dipper, lemon slices, milk or garnish. Reproduce the attached dark-green 9 FLOOR COFFEE logo on a centered white cup label. Show only the finished drink. No people, hands, third-party logos, surrounding props, extra captions or unlisted ingredients. Fresh individual photograph for this recipe.",
+      "visual": "Tamarind Honey Cooler:50ml STRAINED tamarind juice,25ml honey and140ml still cold water mixed over170g ice. Natural hazy light tamarind-brown drink, translucent around edges. No carbonation, tamarind pods, seeds, fruit pulp chunks, honey dipper, lemon slices, milk or garnish."
+    },
+    {
+      "key": "v8-13-08",
+      "file": "recipe-photos/v8-13-08.webp",
+      "width": 768,
+      "height": 768,
+      "bytes": 39384,
+      "sha256": "8c8cb88aec96c3c4b12ab81721a20b7a2263eb010f76f9bfb626e40b15e0c7d0",
+      "gitSha": "d69b03d6109c3c8bb0639d92570c130d106760a2",
+      "recipeName": "Cucumber Mint Refresher",
+      "ingredientsSha256": "5e88ed1a485e23aebaca50c00b66dcd906c5d7f11d5cf2cda2ebba8a6dfd9bda",
+      "method": "imagegen",
+      "reviewedAt": "2026-11-16",
+      "prompt": "Create one new photorealistic premium cafe menu photograph, square composition, warm off-white seamless studio background, soft natural side lighting. One clear16oz takeaway cup, fully visible and centered with8% breathing room, realistic condensation. Exact recipe: Cucumber Mint Refresher:80ml STRAINED cucumber juice,6 mint leaves inside drink,20ml lemon/lime juice,20ml simple syrup,70ml STILL water,170g ice. Slightly hazy very pale green drink with mint leaves among the ice. No carbonation, cucumber slices or seeds, lime wedges, decorative mint bouquet, milk or garnish. Reproduce the attached dark-green 9 FLOOR COFFEE logo on a centered white cup label. Show only the finished drink. No people, hands, third-party logos, surrounding props, extra captions or unlisted ingredients. Fresh individual photograph for this recipe.",
+      "visual": "Cucumber Mint Refresher:80ml STRAINED cucumber juice,6 mint leaves inside drink,20ml lemon/lime juice,20ml simple syrup,70ml STILL water,170g ice. Slightly hazy very pale green drink with mint leaves among the ice. No carbonation, cucumber slices or seeds, lime wedges, decorative mint bouquet, milk or garnish."
     }
   ]
 }
