@@ -1,6 +1,6 @@
 {
   "scope": "Original 260 recipes",
-  "reviewed": 88,
+  "reviewed": 90,
   "target": 260,
   "method": "imagegen",
   "rows": [
@@ -1323,6 +1323,36 @@
       "reviewedAt": "2026-11-16",
       "prompt": "Create a new standalone photorealistic premium cafe menu photograph, square composition. One whole appropriate serving cup (as specified in the recipe below) centered, fully visible with 8% breathing room, warm off-white seamless studio background, soft natural side lighting and realistic cold condensation for iced drinks or a clean dry ceramic surface for hot drinks. Recipe to depict (do not print its name): Roselle Lemon Tea:140ml cold filtered roselle infusion,15ml lemon juice,25ml simple syrup,20ml cold water,170g ice. Mixed clear deep ruby-red hibiscus tea with ice. No milk, soda, flower petals, tea leaves, lemon slices or garnish. One clear16oz takeaway cup. Show ONLY the actual finished drink. Coffee grounds are for brewing and must not appear in the cup. Reproduce the exact dark-green 9 FLOOR COFFEE logo from the attached logo-only reference on a centered white cup label. No people, hands, third-party logos, extra captions, surrounding props or ingredients not specified. This must be a fresh individual photograph, not a reuse of another menu image.",
       "visual": "Roselle Lemon Tea:140ml cold filtered roselle infusion,15ml lemon juice,25ml simple syrup,20ml cold water,170g ice. Mixed clear deep ruby-red hibiscus tea with ice. No milk, soda, flower petals, tea leaves, lemon slices or garnish. One clear16oz takeaway cup."
+    },
+    {
+      "key": "v8-10-01",
+      "file": "recipe-photos/v8-10-01.webp",
+      "width": 768,
+      "height": 768,
+      "bytes": 47302,
+      "sha256": "02ccd8db11b576f6080b8de8f623c084fab662b642c4e8b0c6ee59c6a2cceb29",
+      "gitSha": "1b9517a8adc379cd172e4b18accb3ee1da4c71d8",
+      "recipeName": "Green Apple Soda",
+      "ingredientsSha256": "dd9b5fd3a24ce459b055c5dd4e5d026c35c64a6f1a9290eafacfdd270c8a2157",
+      "method": "imagegen",
+      "reviewedAt": "2026-11-16",
+      "prompt": "Create a new standalone photorealistic premium cafe menu photograph, square composition. One whole appropriate serving cup (as specified in the recipe below) centered, fully visible with 8% breathing room, warm off-white seamless studio background, soft natural side lighting and realistic cold condensation for iced drinks or a clean dry ceramic surface for hot drinks. Recipe to depict (do not print its name): Green Apple Soda:25ml green apple SYRUP,10ml lemon juice,160ml soda water,180g ice. Mixed translucent light apple-green sparkling soda with fine carbonation bubbles. No fruit pieces, apple slices, mint, milk or garnish. One clear16oz takeaway cup. Show ONLY the actual finished drink. Coffee grounds are for brewing and must not appear in the cup. Reproduce the exact dark-green 9 FLOOR COFFEE logo from the attached logo-only reference on a centered white cup label. No people, hands, third-party logos, extra captions, surrounding props or ingredients not specified. This must be a fresh individual photograph, not a reuse of another menu image.",
+      "visual": "Green Apple Soda:25ml green apple SYRUP,10ml lemon juice,160ml soda water,180g ice. Mixed translucent light apple-green sparkling soda with fine carbonation bubbles. No fruit pieces, apple slices, mint, milk or garnish. One clear16oz takeaway cup."
+    },
+    {
+      "key": "v8-10-02",
+      "file": "recipe-photos/v8-10-02.webp",
+      "width": 768,
+      "height": 768,
+      "bytes": 46264,
+      "sha256": "f72eaabaa637cf0752a4c82bcd9ee5311d85e2915e01089146350583244abdc8",
+      "gitSha": "dad029aa1308c1933cf403e16e8f41f051a4067c",
+      "recipeName": "Mango Soda",
+      "ingredientsSha256": "bba0cda60566cec40498271ac13a0e7a2e25a6b4fb9d00d38fd4911a3d14fd3e",
+      "method": "imagegen",
+      "reviewedAt": "2026-11-16",
+      "prompt": "Create a new standalone photorealistic premium cafe menu photograph, square composition. One whole appropriate serving cup (as specified in the recipe below) centered, fully visible with 8% breathing room, warm off-white seamless studio background, soft natural side lighting and realistic cold condensation for iced drinks or a clean dry ceramic surface for hot drinks. Recipe to depict (do not print its name): Mango Soda:25ml mango SYRUP,10ml lemon juice,160ml soda water,180g ice. Mixed translucent golden-yellow sparkling soda with fine bubbles. This is SYRUP not puree: no opaque mango flesh, chunks, fruit garnish or milk. One clear16oz takeaway cup. Show ONLY the actual finished drink. Coffee grounds are for brewing and must not appear in the cup. Reproduce the exact dark-green 9 FLOOR COFFEE logo from the attached logo-only reference on a centered white cup label. No people, hands, third-party logos, extra captions, surrounding props or ingredients not specified. This must be a fresh individual photograph, not a reuse of another menu image.",
+      "visual": "Mango Soda:25ml mango SYRUP,10ml lemon juice,160ml soda water,180g ice. Mixed translucent golden-yellow sparkling soda with fine bubbles. This is SYRUP not puree: no opaque mango flesh, chunks, fruit garnish or milk. One clear16oz takeaway cup."
     }
   ]
 }
