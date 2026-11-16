@@ -1,6 +1,6 @@
 {
   "scope": "Original 260 recipes",
-  "reviewed": 29,
+  "reviewed": 31,
   "target": 260,
   "method": "imagegen",
   "rows": [
@@ -438,6 +438,36 @@
       "reviewedAt": "2026-11-16",
       "prompt": "Create a new standalone photorealistic premium cafe menu photograph, square composition. One whole appropriate serving cup (as specified in the recipe below) centered, fully visible with 8% breathing room, warm off-white seamless studio background, soft natural side lighting and realistic cold condensation for iced drinks or a clean dry ceramic surface for hot drinks. Recipe to depict (do not print its name): Hot Mocha:20ml chocolate sauce dissolved into32g espresso,180ml steamed milk, served in12oz white ceramic cafe cup with handle. Rich warm medium chocolate-brown coffee with thin silky pale microfoam surface. No whipped cream, chocolate chips, drizzle, cocoa powder or ice. Show ONLY the actual finished drink. Coffee grounds are for brewing and must not appear in the cup. Reproduce the exact dark-green 9 FLOOR COFFEE logo from the attached logo-only reference on a centered white cup label. No people, hands, third-party logos, extra captions, surrounding props or ingredients not specified. This must be a fresh individual photograph, not a reuse of another menu image.",
       "visual": "Hot Mocha:20ml chocolate sauce dissolved into32g espresso,180ml steamed milk, served in12oz white ceramic cafe cup with handle. Rich warm medium chocolate-brown coffee with thin silky pale microfoam surface. No whipped cream, chocolate chips, drizzle, cocoa powder or ice."
+    },
+    {
+      "key": "v8-02-09",
+      "file": "recipe-photos/v8-02-09.webp",
+      "width": 768,
+      "height": 768,
+      "bytes": 22476,
+      "sha256": "c2e2e60874e145bb85eee5a8e860c799d14e7c71c8a2c27e047fd5541984a9ae",
+      "gitSha": "c08a88c4dcb25cdab29032621d4ece8307c5f73e",
+      "recipeName": "Hot Vanilla Latte",
+      "ingredientsSha256": "1a960b5bf7593074bef756cb46d9ed22bb08501f7d891c56c8973e8cb8c7e0f3",
+      "method": "imagegen",
+      "reviewedAt": "2026-11-16",
+      "prompt": "Create a new standalone photorealistic premium cafe menu photograph, square composition. One whole appropriate serving cup (as specified in the recipe below) centered, fully visible with 8% breathing room, warm off-white seamless studio background, soft natural side lighting and realistic cold condensation for iced drinks or a clean dry ceramic surface for hot drinks. Recipe to depict (do not print its name): Hot Vanilla Latte:15ml vanilla syrup dissolved into32g espresso and180ml steamed milk,12oz white ceramic cup with handle. Pale caramel coffee, thin silky white microfoam heart. No vanilla pods, flowers, whipped cream, dusting or ice. Show ONLY the actual finished drink. Coffee grounds are for brewing and must not appear in the cup. Reproduce the exact dark-green 9 FLOOR COFFEE logo from the attached logo-only reference on a centered white cup label. No people, hands, third-party logos, extra captions, surrounding props or ingredients not specified. This must be a fresh individual photograph, not a reuse of another menu image.",
+      "visual": "Hot Vanilla Latte:15ml vanilla syrup dissolved into32g espresso and180ml steamed milk,12oz white ceramic cup with handle. Pale caramel coffee, thin silky white microfoam heart. No vanilla pods, flowers, whipped cream, dusting or ice."
+    },
+    {
+      "key": "v8-02-10",
+      "file": "recipe-photos/v8-02-10.webp",
+      "width": 768,
+      "height": 768,
+      "bytes": 20692,
+      "sha256": "062ba5b75a6e9ca7f111ef6d8570c01dba73d068c90e9e54fc945a58e382180b",
+      "gitSha": "8bc2fe30f113896c8eaee48cf72580ea979d259b",
+      "recipeName": "Hot Caramel Latte",
+      "ingredientsSha256": "e9d2bfdac35aa3682cdb3537a0406a6d7f22a05bbfcab08d03c0a50484843ec2",
+      "method": "imagegen",
+      "reviewedAt": "2026-11-16",
+      "prompt": "Create a new standalone photorealistic premium cafe menu photograph, square composition. One whole appropriate serving cup (as specified in the recipe below) centered, fully visible with 8% breathing room, warm off-white seamless studio background, soft natural side lighting and realistic cold condensation for iced drinks or a clean dry ceramic surface for hot drinks. Recipe to depict (do not print its name): Hot Caramel Latte:15ml caramel SYRUP dissolved into32g espresso and180ml steamed milk,12oz white ceramic cup with handle. Warm caramel-tan coffee topped with thin silky white microfoam. No caramel sauce drizzle, whipped cream, dusting or ice. Show ONLY the actual finished drink. Coffee grounds are for brewing and must not appear in the cup. Reproduce the exact dark-green 9 FLOOR COFFEE logo from the attached logo-only reference on a centered white cup label. No people, hands, third-party logos, extra captions, surrounding props or ingredients not specified. This must be a fresh individual photograph, not a reuse of another menu image.",
+      "visual": "Hot Caramel Latte:15ml caramel SYRUP dissolved into32g espresso and180ml steamed milk,12oz white ceramic cup with handle. Warm caramel-tan coffee topped with thin silky white microfoam. No caramel sauce drizzle, whipped cream, dusting or ice."
     }
   ]
 }
