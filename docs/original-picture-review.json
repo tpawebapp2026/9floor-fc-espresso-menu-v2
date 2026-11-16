@@ -1,6 +1,6 @@
 {
   "scope": "Original 260 recipes",
-  "reviewed": 102,
+  "reviewed": 104,
   "target": 260,
   "method": "imagegen",
   "rows": [
@@ -1533,6 +1533,36 @@
       "reviewedAt": "2026-11-16",
       "prompt": "Create one new photorealistic premium cafe menu photograph, square composition, warm off-white seamless studio background, soft natural side lighting. One clear16oz takeaway cup, fully visible and centered with8% breathing room, realistic condensation. Exact recipe: Strawberry Mint Cooler:45g strawberry puree,6 mint leaves,20ml lemon juice,130ml soda water,180g ice. Red-pink cloudy sparkling drink with fine puree pulp and natural tiny strawberry seeds; green mint leaves INSIDE drink among ice. No whole strawberries, fruit slices, decorative mint bouquet, milk or extra garnish. Reproduce the attached dark-green 9 FLOOR COFFEE logo on a centered white cup label. Show only the finished drink. No people, hands, third-party logos, surrounding props, extra captions or unlisted ingredients. Fresh individual photograph for this recipe.",
       "visual": "Strawberry Mint Cooler:45g strawberry puree,6 mint leaves,20ml lemon juice,130ml soda water,180g ice. Red-pink cloudy sparkling drink with fine puree pulp and natural tiny strawberry seeds; green mint leaves INSIDE drink among ice. No whole strawberries, fruit slices, decorative mint bouquet, milk or extra garnish."
+    },
+    {
+      "key": "v8-11-07",
+      "file": "recipe-photos/v8-11-07.webp",
+      "width": 768,
+      "height": 768,
+      "bytes": 39584,
+      "sha256": "39b066292a03abacebe21e87442c47634094fc501da84470026712effccdc06c",
+      "gitSha": "c4c699248760f5b0bed139a05029818f2b75379b",
+      "recipeName": "Passion Sunrise",
+      "ingredientsSha256": "92f26ca810b7f0b2b5dde14c249892621775da44bc0ad975597d78c54a24fcf1",
+      "method": "imagegen",
+      "reviewedAt": "2026-11-16",
+      "prompt": "Create one new photorealistic premium cafe menu photograph, square composition, warm off-white seamless studio background, soft natural side lighting. One clear16oz takeaway cup, fully visible and centered with8% breathing room, realistic condensation. Exact recipe: Passion Sunrise:35g passion fruit puree,100ml orange juice,15ml dense grenadine syrup,170g ice,50ml soda last. Hazy golden-orange juice with fine passion puree pulp and sparse tiny dark seed flecks, sinking red grenadine lower gradient, subtle carbonation. No alcohol, fruit halves, citrus slices, cherry, milk or garnish. Reproduce the attached dark-green 9 FLOOR COFFEE logo on a centered white cup label. Show only the finished drink. No people, hands, third-party logos, surrounding props, extra captions or unlisted ingredients. Fresh individual photograph for this recipe.",
+      "visual": "Passion Sunrise:35g passion fruit puree,100ml orange juice,15ml dense grenadine syrup,170g ice,50ml soda last. Hazy golden-orange juice with fine passion puree pulp and sparse tiny dark seed flecks, sinking red grenadine lower gradient, subtle carbonation. No alcohol, fruit halves, citrus slices, cherry, milk or garnish."
+    },
+    {
+      "key": "v8-11-08",
+      "file": "recipe-photos/v8-11-08.webp",
+      "width": 768,
+      "height": 768,
+      "bytes": 37304,
+      "sha256": "dfa43d7b4cefd096778f9d752e7f45522e3390c6647521b4a80d8449f7fef69a",
+      "gitSha": "9cf89198dacf1e198500fbc3961e09c614ba5642",
+      "recipeName": "Ginger Lime Fizz",
+      "ingredientsSha256": "d9ab272cd848d8c15d435a600a9e9f5766f19212bdbaeb40fcdcce1d8517be28",
+      "method": "imagegen",
+      "reviewedAt": "2026-11-16",
+      "prompt": "Create one new photorealistic premium cafe menu photograph, square composition, warm off-white seamless studio background, soft natural side lighting. One clear16oz takeaway cup, fully visible and centered with8% breathing room, realistic condensation. Exact recipe: Ginger Lime Fizz:20ml ginger SYRUP,25ml lemon/lime juice,160ml soda water,180g ice. Mixed slightly hazy pale golden citrus sparkling drink with fine bubbles. No ginger chunks or slices, lime wedges, mint leaves, milk or garnish. Reproduce the attached dark-green 9 FLOOR COFFEE logo on a centered white cup label. Show only the finished drink. No people, hands, third-party logos, surrounding props, extra captions or unlisted ingredients. Fresh individual photograph for this recipe.",
+      "visual": "Ginger Lime Fizz:20ml ginger SYRUP,25ml lemon/lime juice,160ml soda water,180g ice. Mixed slightly hazy pale golden citrus sparkling drink with fine bubbles. No ginger chunks or slices, lime wedges, mint leaves, milk or garnish."
     }
   ]
 }
