@@ -1,0 +1,18 @@
+{
+  "v8-01-01": {
+    "key": "v8-01-01",
+    "file": "recipe-photos/v8-01-01.webp",
+    "width": 768,
+    "height": 768,
+    "sha256": "ba7c9b48eaa40f96557ae552b50a9e22eb8658e10f661ff7d51a8191ce357e27",
+    "ingredientsSha256": "0536c64f0168e63553188133f699f0fd51d3bffc7abbc35a29e9c0997e9e71cd"
+  },
+  "v8-01-02": {
+    "key": "v8-01-02",
+    "file": "recipe-photos/v8-01-02.webp",
+    "width": 768,
+    "height": 768,
+    "sha256": "b390de9bfb4656b18f74a6b59f3295eac11d0b42b024fdcb764f90b9414b0a7a",
+    "ingredientsSha256": "a474cf10d6e28e507d6d2a953554a073ee7824d12fd775e04660a116abfb7974"
+  }
+}
