@@ -1,6 +1,6 @@
 {
   "scope": "Original 260 recipes",
-  "reviewed": 120,
+  "reviewed": 122,
   "target": 260,
   "method": "imagegen",
   "rows": [
@@ -1803,6 +1803,36 @@
       "reviewedAt": "2026-11-16",
       "prompt": "Create one new photorealistic premium cafe menu photograph, square composition, warm off-white seamless studio background, soft natural side lighting. One clear16oz takeaway cup, fully visible and centered with8% breathing room, realistic condensation. Exact recipe: Cucumber Mint Refresher:80ml STRAINED cucumber juice,6 mint leaves inside drink,20ml lemon/lime juice,20ml simple syrup,70ml STILL water,170g ice. Slightly hazy very pale green drink with mint leaves among the ice. No carbonation, cucumber slices or seeds, lime wedges, decorative mint bouquet, milk or garnish. Reproduce the attached dark-green 9 FLOOR COFFEE logo on a centered white cup label. Show only the finished drink. No people, hands, third-party logos, surrounding props, extra captions or unlisted ingredients. Fresh individual photograph for this recipe.",
       "visual": "Cucumber Mint Refresher:80ml STRAINED cucumber juice,6 mint leaves inside drink,20ml lemon/lime juice,20ml simple syrup,70ml STILL water,170g ice. Slightly hazy very pale green drink with mint leaves among the ice. No carbonation, cucumber slices or seeds, lime wedges, decorative mint bouquet, milk or garnish."
+    },
+    {
+      "key": "v8-14-01",
+      "file": "recipe-photos/v8-14-01.webp",
+      "width": 768,
+      "height": 768,
+      "bytes": 22142,
+      "sha256": "359f604802f6536b7f043edcd059cdef728e73b518ecbb8d712008816212a20d",
+      "gitSha": "315175a87527bfa5764a54f3450b97d5a7ae58b7",
+      "recipeName": "Ristretto",
+      "ingredientsSha256": "0ab8076fac406e1a53b8e3ae416cfbef7aadae1aca734f0004c1b71d2c585376",
+      "method": "imagegen",
+      "reviewedAt": "2026-11-16",
+      "prompt": "Create one new photorealistic premium cafe menu photograph, square composition, warm off-white seamless studio background, soft natural side lighting. One appropriate serving cup as described in the recipe, fully visible and centered with 8% breathing room. Hot cups must be dry, without ice or condensation. Exact recipe: Ristretto: a single freshly extracted 20–24g concentrated dark espresso with rich hazelnut crema, from 16g grounds. A very small 60ml white ceramic demitasse viewed slightly from above so low-volume espresso is visible. No milk, foam, ice, sugar, toppings or extra water. Reproduce the attached dark-green 9 FLOOR COFFEE logo on a centered white cup label. Show only the finished drink. No people, hands, third-party logos, surrounding props, extra captions or unlisted ingredients. Fresh individual photograph for this recipe.",
+      "visual": "Ristretto: a single freshly extracted 20–24g concentrated dark espresso with rich hazelnut crema, from 16g grounds. A very small 60ml white ceramic demitasse viewed slightly from above so low-volume espresso is visible. No milk, foam, ice, sugar, toppings or extra water."
+    },
+    {
+      "key": "v8-14-02",
+      "file": "recipe-photos/v8-14-02.webp",
+      "width": 768,
+      "height": 768,
+      "bytes": 22246,
+      "sha256": "97fa46aca6e201b06fa49b820f66ff621310f685f002a0e54ad994a473e3963c",
+      "gitSha": "219bf31fbcbc4c104dd70969ebbb059344575f4b",
+      "recipeName": "Lungo",
+      "ingredientsSha256": "82c1cb7fdd8e80fe157053146ed7d99379de1bc4d5b425e804daceca58829f43",
+      "method": "imagegen",
+      "reviewedAt": "2026-11-16",
+      "prompt": "Create one new photorealistic premium cafe menu photograph, square composition, warm off-white seamless studio background, soft natural side lighting. One appropriate serving cup as described in the recipe, fully visible and centered with 8% breathing room. Hot cups must be dry, without ice or condensation. Exact recipe: Lungo: 45–55g freshly extracted espresso with a thinner golden-brown crema in a small 90ml white ceramic espresso cup, slightly elevated angle showing the surface. No milk, whipped cream, ice, sugar or garnish. Reproduce the attached dark-green 9 FLOOR COFFEE logo on a centered white cup label. Show only the finished drink. No people, hands, third-party logos, surrounding props, extra captions or unlisted ingredients. Fresh individual photograph for this recipe.",
+      "visual": "Lungo: 45–55g freshly extracted espresso with a thinner golden-brown crema in a small 90ml white ceramic espresso cup, slightly elevated angle showing the surface. No milk, whipped cream, ice, sugar or garnish."
     }
   ]
 }
