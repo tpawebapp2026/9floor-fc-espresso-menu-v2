@@ -151,7 +151,7 @@ test.describe("mocked missing photo", () => {
     page,
   }) => {
     let intercepted = 0;
-    await page.route("**/photos/iced-americano-*", (r) => {
+    await page.route("**/recipe-photos/v8-01-02.webp", (r) => {
       intercepted++;
       return r.fulfill({ status: 404, body: "missing" });
     });
@@ -524,7 +524,7 @@ test("Album groups, exact crop images, recipes and favorites work on mobile and 
     await expect(images.nth(i)).toHaveCSS("object-fit", "contain");
     await expect(images.nth(i)).toHaveAttribute(
       "src",
-      /^data:image\/jpeg;base64,/,
+      /^(data:image\/jpeg;base64,|.*\/recipe-photos\/v8-[\w-]+\.webp$)/,
     );
   }
   const groups = page.getByRole("combobox", { name: "အမျိုးအစား ရွေးရန်" });
