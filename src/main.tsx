@@ -56,6 +56,7 @@ function App() {
     [worldStyle, setWorldStyle] = useState(""),
     [matchaCountry, setMatchaCountry] = useState(""),
     [view, setView] = useState("menu"),
+    [family, setFamily] = useState(""),
     [path, setPath] = useState(readRoute()),
     [fav, setFav] = useState<string[]>(() => stored("9floor-v2-favorites", [])),
     [recent, setRecent] = useState<string[]>(() =>
@@ -63,7 +64,20 @@ function App() {
     ),
     [theme, setTheme] = useState(() => stored("9floor-v2-theme", "light")),
     [update, setUpdate] = useState<null | (() => void)>(null),
-    [install, setInstall] = useState<any>(null);
+    [install, setInstall] = useState<any>(null),
+    [menuOpen, setMenuOpen] = useState(false);
+  const menuRef = useRef<HTMLDialogElement>(null);
+  useEffect(() => {
+    const dialog = menuRef.current;
+    if (!dialog) return;
+    if (menuOpen && !dialog.open) dialog.showModal();
+    if (!menuOpen && dialog.open) dialog.close();
+    const previous = document.body.style.overflow;
+    if (menuOpen) document.body.style.overflow = "hidden";
+    return () => {
+      document.body.style.overflow = previous;
+    };
+  }, [menuOpen]);
   const ref = useRef<Catalog | null>(null);
   const busy = useRef(false);
   const navigate = (p: string) => {
@@ -74,6 +88,7 @@ function App() {
       !confirm("မသိမ်းရသေးသော ပြင်ဆင်မှုများ ရှိပါသည်။ ထွက်မလား။")
     )
       return;
+    setMenuOpen(false);
     history.pushState({}, "", routeURL(p));
     setPath(p);
     window.scrollTo({ top: 0 });
@@ -185,6 +200,7 @@ function App() {
   };
   const selectView = (v: string) => {
     setView(v);
+    setFamily("");
     setQuery("");
     setCategory("");
     setCountry("");
@@ -203,7 +219,7 @@ function App() {
           (r) => !isPreparation(r) && !!posterImageForName(r.englishName),
         )
       : view === "styles"
-        ? source
+        ? source.filter((r) => !family || recipeFamily(r) === family)
         : view === "preparations"
           ? source.filter(isPreparation)
           : view === "matcha"
@@ -248,48 +264,17 @@ function App() {
             9 FLOOR COFFEE<small>COFFEE & COLD DRINKS</small>
           </span>
         </button>
-        <nav className="desktop-nav" aria-label="အဓိကမီနူး">
-          <button
-            className={view === "menu" ? "active" : ""}
-            onClick={() => selectView("menu")}
-          >
-            မီနူးစာအုပ်
-          </button>
-          <button
-            className={view === "album" ? "active" : ""}
-            onClick={() => selectView("album")}
-          >
-            9 FLOOR Album
-          </button>
-          <button
-            className={view === "world" ? "active" : ""}
-            onClick={() => selectView("world")}
-          >
-            နိုင်ငံတကာစတိုင်
-          </button>
-          <button onClick={() => selectView("favorites")}>အကြိုက်ဆုံး ♡</button>
-          <button
-            className={view === "preparations" ? "active" : ""}
-            onClick={() => selectView("preparations")}
-          >
-            အခြေခံပြင်ဆင်မှု
-          </button>
-        </nav>
+
         <button
-          className="icon-button"
-          aria-label="အလင်းအမှောင် ပြောင်းရန်"
-          onClick={() => setTheme(theme === "light" ? "dark" : "light")}
+          className="icon-button menu-trigger"
+          aria-label="Menu ဖွင့်ရန်"
+          aria-expanded={menuOpen}
+          aria-controls="app-menu"
+          onClick={() => setMenuOpen(true)}
         >
-          {theme === "light" ? "☾" : "☀"}
+          ☰
         </button>
       </header>
-      <div className="connection">
-        <span className={online ? "dot" : "dot offline"} />
-        {online ? "အွန်လိုင်း" : "အော့ဖ်လိုင်း · သိမ်းထားသော မီနူးများ"}
-        <span className="status">
-          {status} {catalog && `· R${catalog.revision}`}
-        </span>
-      </div>
       {update && (
         <div className="update" role="status">
           ဗားရှင်းအသစ် ရရှိပါပြီ။ ပြန်တင်ရန် မလိုပါ။
@@ -307,6 +292,554 @@ function App() {
           </button>
         </div>
       )}
+
+      <dialog
+        id="app-menu"
+        ref={menuRef}
+        className="side-menu"
+        aria-labelledby="side-menu-title"
+        onCancel={() => setMenuOpen(false)}
+        onClick={(e) => {
+          if (e.target === e.currentTarget) setMenuOpen(false);
+        }}
+      >
+        <div className="side-menu-content">
+          <div className="side-menu-heading">
+            <h2 id="side-menu-title">Menu</h2>
+            <button
+              className="icon-button"
+              aria-label="Menu ပိတ်ရန်"
+              onClick={() => setMenuOpen(false)}
+            >
+              ×
+            </button>
+          </div>
+          <nav className="desktop-nav" aria-label="အဓိကမီနူး">
+            <button
+              className={view === "menu" ? "active" : ""}
+              onClick={() => selectView("menu")}
+            >
+              မီနူးစာအုပ်
+            </button>
+            <button
+              className={view === "album" ? "active" : ""}
+              onClick={() => selectView("album")}
+            >
+              9 FLOOR Album
+            </button>
+            <button
+              className={view === "world" ? "active" : ""}
+              onClick={() => selectView("world")}
+            >
+              နိုင်ငံတကာစတိုင်
+            </button>
+            <button onClick={() => selectView("favorites")}>
+              အကြိုက်ဆုံး ♡
+            </button>
+            <button
+              className={view === "preparations" ? "active" : ""}
+              onClick={() => selectView("preparations")}
+            >
+              အခြေခံပြင်ဆင်မှု
+            </button>
+          </nav>
+          <div className="drawer-category">
+            <label htmlFor="recipe-category">အမျိုးအစား</label>{" "}
+            <select
+              id="recipe-category"
+              aria-label="အမျိုးအစား ရွေးရန်"
+              value={category}
+              onChange={(e) => {
+                setCategory(e.target.value);
+                setMenuOpen(false);
+              }}
+            >
+              <option value="">အမျိုးအစား အားလုံး</option>
+              {(view === "album" ? posterGroups : catalog?.categories || [])
+                .filter((c) =>
+                  currentRecipes.some((r) =>
+                    view === "album"
+                      ? posterGroupForName(r.englishName) === c.id
+                      : r.categoryId === c.id,
+                  ),
+                )
+                .map((c) => (
+                  <option key={c.id} value={c.id}>
+                    {c.name}
+                  </option>
+                ))}
+            </select>
+          </div>
+          <div
+            className="drawer-filters"
+            onClick={(e) => {
+              const target = e.target as HTMLElement;
+              if (target.closest("button") && !target.closest(".world-lines"))
+                setMenuOpen(false);
+            }}
+          >
+            {" "}
+            <div className="section-intro">
+              <div>
+                <span className="eyebrow">YOUR RECIPE LIBRARY</span>
+                <h2>
+                  {view === "album"
+                    ? "9 FLOOR COFFEE — Menu Album"
+                    : view === "styles"
+                      ? "အမျိုးအစားအလိုက် စတိုင်စုံ"
+                      : view === "matcha"
+                        ? "Matcha — နိုင်ငံတကာစတိုင်များ"
+                        : view === "preparations"
+                          ? "ဖျော်ရည်၏ အခြေခံလက်ရာများ"
+                          : view === "world"
+                            ? "နိုင်ငံတကာ နာမည်ကြီးစတိုင်များ"
+                            : view === "favorites"
+                              ? "အကြိုက်ဆုံး မီနူးများ"
+                              : view === "recent"
+                                ? "မကြာသေးမီက ကြည့်ထားသောမီနူးများ"
+                                : "ဒီနေ့ ဘာဖျော်မလဲ။"}
+                </h2>
+              </div>
+              <span className="muted">သင်ယူ · စမ်းသပ် · ဖန်တီး</span>
+            </div>
+            {view === "menu" && (
+              <>
+                <button
+                  className="video-recipes-shortcut"
+                  onClick={() => {
+                    setLine("cold");
+                    setCategory("video-tea-refreshing");
+                    setQuery("");
+                  }}
+                >
+                  ▶ Video Recipe · Part 01–20{" "}
+                  <small>ဖျော်နည်း ၂၂ မျိုး · Video မူရင်းခွက်ပုံများ</small>
+                </button>
+                {[
+                  [
+                    "coffee",
+                    "Coffee · Part 01–21",
+                    "ကော်ဖီနှင့် အမြှုပ် · ၂၂ မျိုး",
+                    "barista",
+                  ],
+                  [
+                    "berry",
+                    "Berry Series · Part 01–16",
+                    "စတော်ဘယ်ရီနှင့် မစ်စ်ဘယ်ရီ · ၁၇ မျိုး",
+                    "cold",
+                  ],
+                  [
+                    "twotone",
+                    "Two Tone · Part 01–14",
+                    "အလွှာဖျော်ရည် · ၁၆ မျိုး",
+                    "cold",
+                  ],
+                  [
+                    "matcha",
+                    "Matcha · Part 01–18",
+                    "မတ်ချာစတိုင် · ၂၀ မျိုး",
+                    "cold",
+                  ],
+                ].map(([id, title, description, recipeLine]) => (
+                  <button
+                    key={id}
+                    className="video-recipes-shortcut"
+                    onClick={() => {
+                      setLine(recipeLine);
+                      setCategory("video-series-" + id);
+                      setQuery("");
+                    }}
+                  >
+                    ▶ Video {title}
+                    <small>{description} · 9 Floor ပုံအသစ်များ</small>
+                  </button>
+                ))}
+                <div className="line-tabs">
+                  <button
+                    className={line === "barista" ? "selected" : ""}
+                    onClick={() => {
+                      setLine("barista");
+                      setCategory("");
+                      setQuery("");
+                    }}
+                  >
+                    <span className="tab-icon">☕</span>
+                    <span>
+                      <b>Barista ကော်ဖီလိုင်း</b>
+                      <small>Espresso · Brew · Signature</small>
+                    </span>
+                    <span className="tab-count">
+                      {
+                        source.filter(
+                          (r) => r.line === "barista" && !isPreparation(r),
+                        ).length
+                      }
+                    </span>
+                  </button>
+                  <button
+                    className={line === "cold" ? "selected cold" : ""}
+                    onClick={() => {
+                      setLine("cold");
+                      setCategory("");
+                      setQuery("");
+                    }}
+                  >
+                    <span className="tab-icon">◒</span>
+                    <span>
+                      <b>အအေးစုံလိုင်း</b>
+                      <small>Tea · Soda · Smoothie · Milk</small>
+                    </span>
+                    <span className="tab-count">
+                      {
+                        source.filter(
+                          (r) => r.line === "cold" && !isPreparation(r),
+                        ).length
+                      }
+                    </span>
+                  </button>
+                </div>
+                <button
+                  className="matcha-shortcut"
+                  onClick={() => selectView("album")}
+                >
+                  📸 9 FLOOR COFFEE Poster Album မီနူးများ ကြည့်ရန် ↗
+                </button>
+                <button
+                  className="matcha-shortcut"
+                  onClick={() => selectView("matcha")}
+                >
+                  🍵 Matcha သီးသန့်ကြည့်ရန် · {source.filter(isMatcha).length}{" "}
+                  မျိုး <span>ထိုင်းနှင့် နိုင်ငံတကာစတိုင်များ ↗</span>
+                </button>
+                <button
+                  className="matcha-shortcut"
+                  onClick={() => selectView("styles")}
+                >
+                  အမျိုးအစားအားလုံး၏ စတိုင်စုံ ကြည့်ရန် ↗
+                </button>
+                {query.trim() && (
+                  <p className="muted search-scope">
+                    ကော်ဖီနှင့် အအေးစုံ နှစ်လိုင်းလုံးမှ ရှာဖွေထားသည်။
+                  </p>
+                )}
+              </>
+            )}
+            {view === "album" && (
+              <p className="muted">
+                Menu Album ထဲက ပုံများကို မီနူးအမည်အတိုင်း ချိတ်ထားသည်။
+                ပုံများသည် Poster ဒီဇိုင်းနမူနာများ ဖြစ်ပြီး Recipe များကို
+                ဆိုင်မရောင်းမီ စမ်းသပ်အတည်ပြုပါ။
+              </p>
+            )}
+            {view === "styles" && (
+              <div className="matcha-styles" aria-label="စတိုင်အုပ်စုများ">
+                {Object.entries(familyNames).map(([id, name]) => (
+                  <button
+                    key={id}
+                    onClick={() => {
+                      setQuery("");
+                      setCategory("");
+                      setFamily(id);
+                    }}
+                  >
+                    {name}
+                    <small>
+                      {source.filter((r) => recipeFamily(r) === id).length}{" "}
+                      မျိုး
+                    </small>
+                  </button>
+                ))}
+              </div>
+            )}
+            {view === "styles" &&
+              Object.entries(familyNames).map(([id, name]) => (
+                <details className="detail-panel" id={"family-" + id} key={id}>
+                  <summary>{name}</summary>
+                  <div className="related-styles">
+                    {source
+                      .filter((r) => recipeFamily(r) === id)
+                      .map((r) => (
+                        <button
+                          key={r.id}
+                          onClick={() => navigate("/recipe/" + r.id)}
+                        >
+                          {r.menuNumber || ""} {r.englishName}
+                        </button>
+                      ))}
+                  </div>
+                </details>
+              ))}
+            {view === "matcha" && (
+              <>
+                <p className="muted">
+                  Pure matcha နှင့် premix ကို ပမာဏတူ အစားမထိုးပါနှင့်။
+                  နိုင်ငံအမည်များသည် စတိုင်ရည်ညွှန်းချက်ဖြစ်ပြီး အသစ်များကို
+                  ဆိုင်မရောင်းမီ အရသာစမ်းပါ။
+                </p>
+                <div
+                  className="matcha-styles"
+                  aria-label="Matcha စတိုင်ရွေးရန်"
+                >
+                  <button
+                    className={!matchaCountry ? "selected" : ""}
+                    onClick={() => {
+                      setMatchaCountry("");
+                      setCategory("");
+                      setQuery("");
+                    }}
+                  >
+                    စတိုင်အားလုံး
+                  </button>
+                  {matchaStyles.map((s) => (
+                    <button
+                      key={s.id}
+                      className={matchaCountry === s.id ? "selected" : ""}
+                      onClick={() => {
+                        setMatchaCountry(s.id);
+                        setCategory("");
+                        setQuery("");
+                      }}
+                    >
+                      {s.flag} {s.name}
+                      <small>
+                        {
+                          source.filter((r) => matchaStyle(r)?.id === s.id)
+                            .length
+                        }{" "}
+                        မျိုး
+                      </small>
+                    </button>
+                  ))}
+                </div>
+              </>
+            )}
+            {view === "preparations" && (
+              <>
+                <p className="muted">
+                  Syrup · Sauce · Fruit Concentrate · Fruit Purée —
+                  မူရင်းဖျော်ရည်များနှင့် သီးခြား။ အသစ်ရေးဆွဲထားသော စမ်းသပ်
+                  batch များဖြစ်ပြီး ဆိုင်မရောင်းမီ အရသာနှင့် လုပ်ငန်းစဉ်ကို
+                  အတည်ပြုပါ။
+                </p>
+                <div className="preparation-groups">
+                  <button
+                    className={!category ? "selected" : ""}
+                    onClick={() => {
+                      setCategory("");
+                      setQuery("");
+                    }}
+                  >
+                    အားလုံး
+                  </button>
+                  {preparationGroups.map((g) => (
+                    <button
+                      key={g.id}
+                      className={category === g.id ? "selected" : ""}
+                      onClick={() => {
+                        setCategory(g.id);
+                        setQuery("");
+                      }}
+                    >
+                      <span aria-hidden="true">{g.icon}</span>
+                      <b>{g.name}</b>
+                      <small>
+                        {g.mm} ·{" "}
+                        {source.filter((r) => r.categoryId === g.id).length}{" "}
+                        မျိုး
+                      </small>
+                    </button>
+                  ))}
+                </div>
+              </>
+            )}
+            {view === "world" && (
+              <>
+                <p className="muted">
+                  လက်ရှိကော်ဖီနှင့် အအေးမီနူးများကို ပြန်လည်စုစည်းထားသည်။
+                  နိုင်ငံအမည်များသည် စတိုင်ရည်ညွှန်းချက်ဖြစ်ပြီး
+                  ဒေသမူရင်းစစ်မှန်မှုကို အတည်ပြုထားခြင်း မရှိသေးပါ။
+                </p>
+                <div
+                  className="world-lines"
+                  aria-label="နိုင်ငံတကာ မီနူးလိုင်းရွေးရန်"
+                >
+                  {[
+                    ["", "အစုံ"],
+                    ["barista", "Barista ကော်ဖီ"],
+                    ["cold", "အအေးစုံ"],
+                  ].map(([value, label]) => (
+                    <button
+                      key={value}
+                      aria-pressed={worldLine === value}
+                      onClick={() => {
+                        setWorldLine(value);
+                        setWorldStyle("");
+                        setCountry("");
+                        setCategory("");
+                        setQuery("");
+                      }}
+                    >
+                      {label}
+                      <small>
+                        {internationalRecipes(source, value).length} မီနူး
+                      </small>
+                    </button>
+                  ))}
+                </div>
+                {worldLine === "cold" && (
+                  <div
+                    className="cold-style-grid"
+                    aria-label="နိုင်ငံတကာ အအေးစတိုင်များ"
+                  >
+                    <button
+                      className={!worldStyle ? "selected" : ""}
+                      onClick={() => {
+                        setWorldStyle("");
+                        setCountry("");
+                        setCategory("");
+                        setQuery("");
+                      }}
+                    >
+                      အအေးစုံ အားလုံး ·{" "}
+                      {internationalRecipes(source, "cold").length}
+                    </button>
+                    {coldStyles.map((s) => (
+                      <button
+                        key={s.id}
+                        className={worldStyle === s.id ? "selected" : ""}
+                        onClick={() => {
+                          setWorldStyle(s.id);
+                          setCountry("");
+                          setCategory("");
+                          setQuery("");
+                        }}
+                      >
+                        <b>{s.name}</b>
+                        <span>{s.mm}</span>
+                        <small>
+                          {
+                            internationalRecipes(source, "cold", "", s.id)
+                              .length
+                          }{" "}
+                          မီနူး
+                        </small>
+                      </button>
+                    ))}
+                  </div>
+                )}
+                <div className="country-grid">
+                  <button
+                    className={!country ? "selected" : ""}
+                    onClick={() => {
+                      setCountry("");
+                      setWorldStyle("");
+                      setCategory("");
+                      setQuery("");
+                    }}
+                  >
+                    🌐 အားလုံး
+                  </button>
+                  {countries.map((c) => (
+                    <button
+                      key={c.name}
+                      disabled={
+                        !internationalRecipes(source, worldLine, c.name).length
+                      }
+                      className={country === c.name ? "selected" : ""}
+                      onClick={() => {
+                        setCountry(c.name);
+                        setWorldStyle("");
+                        setCategory("");
+                        setQuery("");
+                      }}
+                    >
+                      <span>{c.flag}</span>
+                      <b>{c.name}</b>
+                      <small>
+                        {internationalRecipes(source, worldLine, c.name).length}{" "}
+                        မီနူး
+                      </small>
+                    </button>
+                  ))}
+                </div>
+              </>
+            )}
+          </div>{" "}
+          <div className="list-meta">
+            <span>{results.length} မီနူး တွေ့ရှိသည်</span>
+            <button
+              className="text-button"
+              onClick={() => selectView("recent")}
+            >
+              မကြာသေးမီက ကြည့်ထားသည် ↗
+            </button>
+          </div>
+          <div className="drawer-tools">
+            {" "}
+            <button
+              className="icon-button"
+              aria-label="အလင်းအမှောင် ပြောင်းရန်"
+              onClick={() => setTheme(theme === "light" ? "dark" : "light")}
+            >
+              {theme === "light" ? "☾" : "☀"}
+            </button>
+            <button className="text-button" onClick={() => void sync()}>
+              မီနူးများ Update စစ်ရန် ↻
+            </button>
+          </div>{" "}
+          <div className="connection">
+            <span className={online ? "dot" : "dot offline"} />
+            {online ? "အွန်လိုင်း" : "အော့ဖ်လိုင်း · သိမ်းထားသော မီနူးများ"}
+            <span className="status">
+              {status} {catalog && `· R${catalog.revision}`}
+            </span>
+          </div>
+          <footer>
+            <div>
+              <b>9FLOOR FC</b>
+              <p>ကော်ဖီတစ်ခွက်။ လက်ရာတစ်ခု။</p>
+            </div>
+            <div>
+              {!STATIC_READER && (
+                <button
+                  className="text-button"
+                  onClick={() => navigate("/admin")}
+                >
+                  စီမံခန့်ခွဲသူ ဝင်ရန် ↗
+                </button>
+              )}
+              <button
+                className="text-button"
+                onClick={() =>
+                  install
+                    ? install.prompt()
+                    : alert(
+                        "iPhone: Safari → Share → Add to Home Screen။ Android: Chrome menu → Add to Home Screen / Install app။",
+                      )
+                }
+              >
+                ဖုန်း Home Screen တွင် ထည့်ရန် ＋
+              </button>
+            </div>
+            <small>
+              မူရင်းဖိုင်ပါ ဖျော်နည်းများ၏ အတည်ပြုအဆင့်ကို မီနူးတစ်ခုချင်းစီတွင်
+              ကြည့်ပါ။ အော့ဖ်လိုင်းဖုန်းများ အင်တာနက်ပြန်ရမှ Update ရနိုင်ပါသည်။{" "}
+              <a
+                href={asset("photo-credits.html")}
+                target="_blank"
+                rel="noreferrer"
+              >
+                ဓာတ်ပုံရှင်များနှင့် အသုံးပြုခွင့်
+              </a>
+            </small>
+          </footer>
+          <div className="drawer-apply">
+            <button className="primary" onClick={() => setMenuOpen(false)}>
+              မီနူးပုံများ ကြည့်မည် →
+            </button>
+          </div>
+        </div>
+      </dialog>
       {path === "/admin" && !STATIC_READER ? (
         <Admin
           catalog={catalog}
@@ -333,438 +866,7 @@ function App() {
           <button onClick={() => navigate("/")}>မီနူးများသို့</button>
         </main>
       ) : (
-        <main>
-          <section
-            className="hero coffee-banner"
-            aria-label="9 FLOOR COFFEE ဘန်နာ"
-          >
-            <div className="hero-copy">
-              <span className="eyebrow">9 FLOOR COFFEE · THE DAILY RITUAL</span>
-              <h1>
-                တစ်ခွက်ချင်းစီမှာ
-                <br />
-                <em>သင့်လက်ရာ ပါစေ။</em>
-              </h1>
-              <p>
-                ကော်ဖီနဲ့ အအေးဖျော်နည်းတွေကို တစ်နေရာတည်းမှာ။
-                <br />
-                ကိုယ့်စိတ်ကြိုက် တစ်ခွက်ကို အတူဖန်တီးမယ်။
-              </p>
-              <div className="hero-tags">
-                <span>Signature Coffee</span>
-                <span>Matcha & Cream</span>
-                <span>Cold Drinks</span>
-              </div>
-              <div className="hero-stats">
-                <span>
-                  <strong>{catalog?.recipes.length || "—"}</strong>{" "}
-                  ဖျော်နည်းများ
-                </span>
-                <span>
-                  <strong>{catalog?.categories.length || "—"}</strong>{" "}
-                  အမျိုးအစားများ
-                </span>
-                <span>
-                  <strong>16 → 32g</strong> Espresso အခြေခံ
-                </span>
-              </div>
-            </div>
-            <div className="brand-showcase">
-              <span
-                className="brand-orbit brand-orbit-one"
-                aria-hidden="true"
-              />
-              <span
-                className="brand-orbit brand-orbit-two"
-                aria-hidden="true"
-              />
-              <div className="logo-plaque">
-                <img
-                  src={asset("brand/9floor-coffee-logo.jpg")}
-                  alt="9 FLOOR COFFEE မူရင်းလိုဂို"
-                  width="1254"
-                  height="1254"
-                  fetchPriority="high"
-                />
-              </div>
-              <span className="showcase-caption">
-                CRAFTED ONE CUP AT A TIME
-              </span>
-            </div>
-          </section>
-          <div className="section-intro">
-            <div>
-              <span className="eyebrow">YOUR RECIPE LIBRARY</span>
-              <h2>
-                {view === "album"
-                  ? "9 FLOOR COFFEE — Menu Album"
-                  : view === "styles"
-                    ? "အမျိုးအစားအလိုက် စတိုင်စုံ"
-                    : view === "matcha"
-                      ? "Matcha — နိုင်ငံတကာစတိုင်များ"
-                      : view === "preparations"
-                        ? "ဖျော်ရည်၏ အခြေခံလက်ရာများ"
-                        : view === "world"
-                          ? "နိုင်ငံတကာ နာမည်ကြီးစတိုင်များ"
-                          : view === "favorites"
-                            ? "အကြိုက်ဆုံး မီနူးများ"
-                            : view === "recent"
-                              ? "မကြာသေးမီက ကြည့်ထားသောမီနူးများ"
-                              : "ဒီနေ့ ဘာဖျော်မလဲ။"}
-              </h2>
-            </div>
-            <span className="muted">သင်ယူ · စမ်းသပ် · ဖန်တီး</span>
-          </div>
-          {view === "menu" && (
-            <>
-              <button
-                className="video-recipes-shortcut"
-                onClick={() => {
-                  setLine("cold");
-                  setCategory("video-tea-refreshing");
-                  setQuery("");
-                }}
-              >
-                ▶ Video Recipe · Part 01–20{" "}
-                <small>ဖျော်နည်း ၂၂ မျိုး · Video မူရင်းခွက်ပုံများ</small>
-              </button>
-              {[
-                [
-                  "coffee",
-                  "Coffee · Part 01–21",
-                  "ကော်ဖီနှင့် အမြှုပ် · ၂၂ မျိုး",
-                  "barista",
-                ],
-                [
-                  "berry",
-                  "Berry Series · Part 01–16",
-                  "စတော်ဘယ်ရီနှင့် မစ်စ်ဘယ်ရီ · ၁၇ မျိုး",
-                  "cold",
-                ],
-                [
-                  "twotone",
-                  "Two Tone · Part 01–14",
-                  "အလွှာဖျော်ရည် · ၁၆ မျိုး",
-                  "cold",
-                ],
-                [
-                  "matcha",
-                  "Matcha · Part 01–18",
-                  "မတ်ချာစတိုင် · ၂၀ မျိုး",
-                  "cold",
-                ],
-              ].map(([id, title, description, recipeLine]) => (
-                <button
-                  key={id}
-                  className="video-recipes-shortcut"
-                  onClick={() => {
-                    setLine(recipeLine);
-                    setCategory("video-series-" + id);
-                    setQuery("");
-                  }}
-                >
-                  ▶ Video {title}
-                  <small>{description} · 9 Floor ပုံအသစ်များ</small>
-                </button>
-              ))}
-              <div className="line-tabs">
-                <button
-                  className={line === "barista" ? "selected" : ""}
-                  onClick={() => {
-                    setLine("barista");
-                    setCategory("");
-                    setQuery("");
-                  }}
-                >
-                  <span className="tab-icon">☕</span>
-                  <span>
-                    <b>Barista ကော်ဖီလိုင်း</b>
-                    <small>Espresso · Brew · Signature</small>
-                  </span>
-                  <span className="tab-count">
-                    {
-                      source.filter(
-                        (r) => r.line === "barista" && !isPreparation(r),
-                      ).length
-                    }
-                  </span>
-                </button>
-                <button
-                  className={line === "cold" ? "selected cold" : ""}
-                  onClick={() => {
-                    setLine("cold");
-                    setCategory("");
-                    setQuery("");
-                  }}
-                >
-                  <span className="tab-icon">◒</span>
-                  <span>
-                    <b>အအေးစုံလိုင်း</b>
-                    <small>Tea · Soda · Smoothie · Milk</small>
-                  </span>
-                  <span className="tab-count">
-                    {
-                      source.filter(
-                        (r) => r.line === "cold" && !isPreparation(r),
-                      ).length
-                    }
-                  </span>
-                </button>
-              </div>
-              <button
-                className="matcha-shortcut"
-                onClick={() => selectView("album")}
-              >
-                📸 9 FLOOR COFFEE Poster Album မီနူးများ ကြည့်ရန် ↗
-              </button>
-              <button
-                className="matcha-shortcut"
-                onClick={() => selectView("matcha")}
-              >
-                🍵 Matcha သီးသန့်ကြည့်ရန် · {source.filter(isMatcha).length}{" "}
-                မျိုး <span>ထိုင်းနှင့် နိုင်ငံတကာစတိုင်များ ↗</span>
-              </button>
-              <button
-                className="matcha-shortcut"
-                onClick={() => selectView("styles")}
-              >
-                အမျိုးအစားအားလုံး၏ စတိုင်စုံ ကြည့်ရန် ↗
-              </button>
-              {query.trim() && (
-                <p className="muted search-scope">
-                  ကော်ဖီနှင့် အအေးစုံ နှစ်လိုင်းလုံးမှ ရှာဖွေထားသည်။
-                </p>
-              )}
-            </>
-          )}
-          {view === "album" && (
-            <p className="muted">
-              Menu Album ထဲက ပုံများကို မီနူးအမည်အတိုင်း ချိတ်ထားသည်။ ပုံများသည်
-              Poster ဒီဇိုင်းနမူနာများ ဖြစ်ပြီး Recipe များကို ဆိုင်မရောင်းမီ
-              စမ်းသပ်အတည်ပြုပါ။
-            </p>
-          )}
-          {view === "styles" && (
-            <div className="matcha-styles" aria-label="စတိုင်အုပ်စုများ">
-              {Object.entries(familyNames).map(([id, name]) => (
-                <button
-                  key={id}
-                  onClick={() => {
-                    setQuery("");
-                    setCategory("");
-                    document.getElementById("family-" + id)?.scrollIntoView();
-                  }}
-                >
-                  {name}
-                  <small>
-                    {source.filter((r) => recipeFamily(r) === id).length} မျိုး
-                  </small>
-                </button>
-              ))}
-            </div>
-          )}
-          {view === "styles" &&
-            Object.entries(familyNames).map(([id, name]) => (
-              <details className="detail-panel" id={"family-" + id} key={id}>
-                <summary>{name}</summary>
-                <div className="related-styles">
-                  {source
-                    .filter((r) => recipeFamily(r) === id)
-                    .map((r) => (
-                      <button
-                        key={r.id}
-                        onClick={() => navigate("/recipe/" + r.id)}
-                      >
-                        {r.menuNumber || ""} {r.englishName}
-                      </button>
-                    ))}
-                </div>
-              </details>
-            ))}
-          {view === "matcha" && (
-            <>
-              <p className="muted">
-                Pure matcha နှင့် premix ကို ပမာဏတူ အစားမထိုးပါနှင့်။
-                နိုင်ငံအမည်များသည် စတိုင်ရည်ညွှန်းချက်ဖြစ်ပြီး အသစ်များကို
-                ဆိုင်မရောင်းမီ အရသာစမ်းပါ။
-              </p>
-              <div className="matcha-styles" aria-label="Matcha စတိုင်ရွေးရန်">
-                <button
-                  className={!matchaCountry ? "selected" : ""}
-                  onClick={() => {
-                    setMatchaCountry("");
-                    setCategory("");
-                    setQuery("");
-                  }}
-                >
-                  စတိုင်အားလုံး
-                </button>
-                {matchaStyles.map((s) => (
-                  <button
-                    key={s.id}
-                    className={matchaCountry === s.id ? "selected" : ""}
-                    onClick={() => {
-                      setMatchaCountry(s.id);
-                      setCategory("");
-                      setQuery("");
-                    }}
-                  >
-                    {s.flag} {s.name}
-                    <small>
-                      {source.filter((r) => matchaStyle(r)?.id === s.id).length}{" "}
-                      မျိုး
-                    </small>
-                  </button>
-                ))}
-              </div>
-            </>
-          )}
-          {view === "preparations" && (
-            <>
-              <p className="muted">
-                Syrup · Sauce · Fruit Concentrate · Fruit Purée —
-                မူရင်းဖျော်ရည်များနှင့် သီးခြား။ အသစ်ရေးဆွဲထားသော စမ်းသပ် batch
-                များဖြစ်ပြီး ဆိုင်မရောင်းမီ အရသာနှင့် လုပ်ငန်းစဉ်ကို အတည်ပြုပါ။
-              </p>
-              <div className="preparation-groups">
-                <button
-                  className={!category ? "selected" : ""}
-                  onClick={() => {
-                    setCategory("");
-                    setQuery("");
-                  }}
-                >
-                  အားလုံး
-                </button>
-                {preparationGroups.map((g) => (
-                  <button
-                    key={g.id}
-                    className={category === g.id ? "selected" : ""}
-                    onClick={() => {
-                      setCategory(g.id);
-                      setQuery("");
-                    }}
-                  >
-                    <span aria-hidden="true">{g.icon}</span>
-                    <b>{g.name}</b>
-                    <small>
-                      {g.mm} ·{" "}
-                      {source.filter((r) => r.categoryId === g.id).length} မျိုး
-                    </small>
-                  </button>
-                ))}
-              </div>
-            </>
-          )}
-          {view === "world" && (
-            <>
-              <p className="muted">
-                လက်ရှိကော်ဖီနှင့် အအေးမီနူးများကို ပြန်လည်စုစည်းထားသည်။
-                နိုင်ငံအမည်များသည် စတိုင်ရည်ညွှန်းချက်ဖြစ်ပြီး
-                ဒေသမူရင်းစစ်မှန်မှုကို အတည်ပြုထားခြင်း မရှိသေးပါ။
-              </p>
-              <div
-                className="world-lines"
-                aria-label="နိုင်ငံတကာ မီနူးလိုင်းရွေးရန်"
-              >
-                {[
-                  ["", "အစုံ"],
-                  ["barista", "Barista ကော်ဖီ"],
-                  ["cold", "အအေးစုံ"],
-                ].map(([value, label]) => (
-                  <button
-                    key={value}
-                    aria-pressed={worldLine === value}
-                    onClick={() => {
-                      setWorldLine(value);
-                      setWorldStyle("");
-                      setCountry("");
-                      setCategory("");
-                      setQuery("");
-                    }}
-                  >
-                    {label}
-                    <small>
-                      {internationalRecipes(source, value).length} မီနူး
-                    </small>
-                  </button>
-                ))}
-              </div>
-              {worldLine === "cold" && (
-                <div
-                  className="cold-style-grid"
-                  aria-label="နိုင်ငံတကာ အအေးစတိုင်များ"
-                >
-                  <button
-                    className={!worldStyle ? "selected" : ""}
-                    onClick={() => {
-                      setWorldStyle("");
-                      setCountry("");
-                      setCategory("");
-                      setQuery("");
-                    }}
-                  >
-                    အအေးစုံ အားလုံး ·{" "}
-                    {internationalRecipes(source, "cold").length}
-                  </button>
-                  {coldStyles.map((s) => (
-                    <button
-                      key={s.id}
-                      className={worldStyle === s.id ? "selected" : ""}
-                      onClick={() => {
-                        setWorldStyle(s.id);
-                        setCountry("");
-                        setCategory("");
-                        setQuery("");
-                      }}
-                    >
-                      <b>{s.name}</b>
-                      <span>{s.mm}</span>
-                      <small>
-                        {internationalRecipes(source, "cold", "", s.id).length}{" "}
-                        မီနူး
-                      </small>
-                    </button>
-                  ))}
-                </div>
-              )}
-              <div className="country-grid">
-                <button
-                  className={!country ? "selected" : ""}
-                  onClick={() => {
-                    setCountry("");
-                    setWorldStyle("");
-                    setCategory("");
-                    setQuery("");
-                  }}
-                >
-                  🌐 အားလုံး
-                </button>
-                {countries.map((c) => (
-                  <button
-                    key={c.name}
-                    disabled={
-                      !internationalRecipes(source, worldLine, c.name).length
-                    }
-                    className={country === c.name ? "selected" : ""}
-                    onClick={() => {
-                      setCountry(c.name);
-                      setWorldStyle("");
-                      setCategory("");
-                      setQuery("");
-                    }}
-                  >
-                    <span>{c.flag}</span>
-                    <b>{c.name}</b>
-                    <small>
-                      {internationalRecipes(source, worldLine, c.name).length}{" "}
-                      မီနူး
-                    </small>
-                  </button>
-                ))}
-              </div>
-            </>
-          )}
+        <main className="photo-gallery">
           <div className="search-row">
             <label className="search">
               <span>⌕</span>
@@ -776,35 +878,6 @@ function App() {
                 onChange={(e) => setQuery(e.target.value)}
               />
             </label>
-            <select
-              aria-label="အမျိုးအစား ရွေးရန်"
-              value={category}
-              onChange={(e) => setCategory(e.target.value)}
-            >
-              <option value="">အမျိုးအစား အားလုံး</option>
-              {(view === "album" ? posterGroups : catalog?.categories || [])
-                .filter((c) =>
-                  currentRecipes.some((r) =>
-                    view === "album"
-                      ? posterGroupForName(r.englishName) === c.id
-                      : r.categoryId === c.id,
-                  ),
-                )
-                .map((c) => (
-                  <option key={c.id} value={c.id}>
-                    {c.name}
-                  </option>
-                ))}
-            </select>
-          </div>
-          <div className="list-meta">
-            <span>{results.length} မီနူး တွေ့ရှိသည်</span>
-            <button
-              className="text-button"
-              onClick={() => selectView("recent")}
-            >
-              မကြာသေးမီက ကြည့်ထားသည် ↗
-            </button>
           </div>
           {error && (
             <div className="notice">
@@ -870,74 +943,8 @@ function App() {
               မီနူး မတွေ့ပါ။ အခြားနာမည်ဖြင့် ရှာကြည့်ပါ။
             </div>
           )}
-          {view === "world" && (
-            <aside className="proposal">
-              <span className="eyebrow">COMING TO THE RECIPE BOOK</span>
-              <h3>Vietnamese Egg Coffee · Hot & Iced</h3>
-              <p>
-                မူရင်း Egg Coffee ကို ထိန်းသိမ်းထားပါသည်။ အပူ/အအေး
-                ဖျော်နည်းအသစ်နှစ်မျိုးကို ပိုင်ရှင်အတည်ပြုမှ ထည့်ပါမည်။
-              </p>
-            </aside>
-          )}
-          <footer>
-            <div>
-              <b>9FLOOR FC</b>
-              <p>ကော်ဖီတစ်ခွက်။ လက်ရာတစ်ခု။</p>
-            </div>
-            <div>
-              {!STATIC_READER && (
-                <button
-                  className="text-button"
-                  onClick={() => navigate("/admin")}
-                >
-                  စီမံခန့်ခွဲသူ ဝင်ရန် ↗
-                </button>
-              )}
-              <button
-                className="text-button"
-                onClick={() =>
-                  install
-                    ? install.prompt()
-                    : alert(
-                        "iPhone: Safari → Share → Add to Home Screen။ Android: Chrome menu → Add to Home Screen / Install app။",
-                      )
-                }
-              >
-                ဖုန်း Home Screen တွင် ထည့်ရန် ＋
-              </button>
-            </div>
-            <small>
-              မူရင်းဖိုင်ပါ ဖျော်နည်းများ၏ အတည်ပြုအဆင့်ကို မီနူးတစ်ခုချင်းစီတွင်
-              ကြည့်ပါ။ အော့ဖ်လိုင်းဖုန်းများ အင်တာနက်ပြန်ရမှ Update ရနိုင်ပါသည်။{" "}
-              <a
-                href={asset("photo-credits.html")}
-                target="_blank"
-                rel="noreferrer"
-              >
-                ဓာတ်ပုံရှင်များနှင့် အသုံးပြုခွင့်
-              </a>
-            </small>
-          </footer>
         </main>
       )}
-      <nav className="bottom-nav" aria-label="အမြန်မီနူး">
-        <button onClick={() => selectView("preparations")}>
-          ◈<span>အခြေခံ</span>
-        </button>
-        <button onClick={() => selectView("menu")}>
-          ☕<span>မီနူး</span>
-        </button>
-        <button onClick={() => selectView("world")}>
-          ◎<span>နိုင်ငံတကာ</span>
-        </button>
-        <button onClick={() => selectView("favorites")}>
-          ♡<span>အကြိုက်ဆုံး</span>
-        </button>
-        <button onClick={() => selectView("album")}>
-          ▣<span>9 FLOOR Album</span>
-        </button>
-      </nav>
     </>
   );
 }
