@@ -1,6 +1,6 @@
 {
   "scope": "Original 260 recipes",
-  "reviewed": 104,
+  "reviewed": 106,
   "target": 260,
   "method": "imagegen",
   "rows": [
@@ -1563,6 +1563,36 @@
       "reviewedAt": "2026-11-16",
       "prompt": "Create one new photorealistic premium cafe menu photograph, square composition, warm off-white seamless studio background, soft natural side lighting. One clear16oz takeaway cup, fully visible and centered with8% breathing room, realistic condensation. Exact recipe: Ginger Lime Fizz:20ml ginger SYRUP,25ml lemon/lime juice,160ml soda water,180g ice. Mixed slightly hazy pale golden citrus sparkling drink with fine bubbles. No ginger chunks or slices, lime wedges, mint leaves, milk or garnish. Reproduce the attached dark-green 9 FLOOR COFFEE logo on a centered white cup label. Show only the finished drink. No people, hands, third-party logos, surrounding props, extra captions or unlisted ingredients. Fresh individual photograph for this recipe.",
       "visual": "Ginger Lime Fizz:20ml ginger SYRUP,25ml lemon/lime juice,160ml soda water,180g ice. Mixed slightly hazy pale golden citrus sparkling drink with fine bubbles. No ginger chunks or slices, lime wedges, mint leaves, milk or garnish."
+    },
+    {
+      "key": "v8-12-01",
+      "file": "recipe-photos/v8-12-01.webp",
+      "width": 768,
+      "height": 768,
+      "bytes": 26802,
+      "sha256": "46a66857ed75e433d4786c88a7ccab62137f30050dd54aa44fde7ade28c3cceb",
+      "gitSha": "2205c8987836b5eb258be696c1112c020f78fc3e",
+      "recipeName": "Mango Yogurt Drink",
+      "ingredientsSha256": "f756d8bf98600403913084a9110984aefccda818a5ffb2f9b5402bb6032f758a",
+      "method": "imagegen",
+      "reviewedAt": "2026-11-16",
+      "prompt": "Create one new photorealistic premium cafe menu photograph, square composition, warm off-white seamless studio background, soft natural side lighting. One clear16oz takeaway cup, fully visible and centered with8% breathing room, realistic condensation. Exact recipe: Mango Yogurt Drink:120ml drinkable yogurt,50g mango PUREE,40ml cold milk,15ml simple syrup mixed thoroughly over140g ice. Creamy opaque pale mango-yellow yogurt beverage with clear ice, not frozen slush. No mango cubes, fruit garnish, whipped cream, sauce stripes or distinct unmixed white layer. Reproduce the attached dark-green 9 FLOOR COFFEE logo on a centered white cup label. Show only the finished drink. No people, hands, third-party logos, surrounding props, extra captions or unlisted ingredients. Fresh individual photograph for this recipe.",
+      "visual": "Mango Yogurt Drink:120ml drinkable yogurt,50g mango PUREE,40ml cold milk,15ml simple syrup mixed thoroughly over140g ice. Creamy opaque pale mango-yellow yogurt beverage with clear ice, not frozen slush. No mango cubes, fruit garnish, whipped cream, sauce stripes or distinct unmixed white layer."
+    },
+    {
+      "key": "v8-12-02",
+      "file": "recipe-photos/v8-12-02.webp",
+      "width": 768,
+      "height": 768,
+      "bytes": 36976,
+      "sha256": "d7b4e0b3c3658f6a6e9dd3f384f3aaddb815346834e53ee1fba39c0c27a6c6ec",
+      "gitSha": "0fb1f91ef3721cbfee5aa7caa26879ff948d3c5e",
+      "recipeName": "Strawberry Yogurt Drink",
+      "ingredientsSha256": "b862a8356cbfd4efeff81000ae3c02db8dccdab04d6bca1c93997024682aebf9",
+      "method": "imagegen",
+      "reviewedAt": "2026-11-16",
+      "prompt": "Create one new photorealistic premium cafe menu photograph, square composition, warm off-white seamless studio background, soft natural side lighting. One clear16oz takeaway cup, fully visible and centered with8% breathing room, realistic condensation. Exact recipe: Strawberry Yogurt Drink:120ml drinkable yogurt,50g strawberry PUREE,40ml cold milk,15ml simple syrup mixed thoroughly over140g ice. Creamy opaque pastel strawberry-pink yogurt drink with fine natural puree seed specks and clear ice. No whole strawberries, fruit garnish, whipped cream, sauce stripes or distinct unmixed white layer. Reproduce the attached dark-green 9 FLOOR COFFEE logo on a centered white cup label. Show only the finished drink. No people, hands, third-party logos, surrounding props, extra captions or unlisted ingredients. Fresh individual photograph for this recipe.",
+      "visual": "Strawberry Yogurt Drink:120ml drinkable yogurt,50g strawberry PUREE,40ml cold milk,15ml simple syrup mixed thoroughly over140g ice. Creamy opaque pastel strawberry-pink yogurt drink with fine natural puree seed specks and clear ice. No whole strawberries, fruit garnish, whipped cream, sauce stripes or distinct unmixed white layer."
     }
   ]
 }
