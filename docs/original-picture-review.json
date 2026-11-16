@@ -1,6 +1,6 @@
 {
   "scope": "Original 260 recipes",
-  "reviewed": 33,
+  "reviewed": 35,
   "target": 260,
   "method": "imagegen",
   "rows": [
@@ -498,6 +498,36 @@
       "reviewedAt": "2026-11-16",
       "prompt": "Create a new standalone photorealistic premium cafe menu photograph, square composition. One whole appropriate serving cup (as specified in the recipe below) centered, fully visible with 8% breathing room, warm off-white seamless studio background, soft natural side lighting and realistic cold condensation for iced drinks or a clean dry ceramic surface for hot drinks. Recipe to depict (do not print its name): Hot Macchiato:32g espresso marked only with foam made from20ml milk. Small4oz white ceramic demitasse with handle, shallow dark espresso with golden crema and a SMALL central white milk-foam dollop. NOT a full milky latte. No ice, caramel drizzle or garnish. Show ONLY the actual finished drink. Coffee grounds are for brewing and must not appear in the cup. Reproduce the exact dark-green 9 FLOOR COFFEE logo from the attached logo-only reference on a centered white cup label. No people, hands, third-party logos, extra captions, surrounding props or ingredients not specified. This must be a fresh individual photograph, not a reuse of another menu image.",
       "visual": "Hot Macchiato:32g espresso marked only with foam made from20ml milk. Small4oz white ceramic demitasse with handle, shallow dark espresso with golden crema and a SMALL central white milk-foam dollop. NOT a full milky latte. No ice, caramel drizzle or garnish."
+    },
+    {
+      "key": "v8-03-01",
+      "file": "recipe-photos/v8-03-01.webp",
+      "width": 768,
+      "height": 768,
+      "bytes": 36400,
+      "sha256": "7bdc959ff2caa0a0f268576c51841a6f74b6bfeb85c4c122a4815b777fa82916",
+      "gitSha": "8308559eac70a99f8c7e080823b40c24f8ffed84",
+      "recipeName": "Coffee Frappe",
+      "ingredientsSha256": "2703eeaf123d18df7ee920c874fe3e9c3e8191def77506742c01ef7592ca1622",
+      "method": "imagegen",
+      "reviewedAt": "2026-11-16",
+      "prompt": "Create a new standalone photorealistic premium cafe menu photograph, square composition. One whole appropriate serving cup (as specified in the recipe below) centered, fully visible with 8% breathing room, warm off-white seamless studio background, soft natural side lighting and realistic cold condensation for iced drinks or a clean dry ceramic surface for hot drinks. Recipe to depict (do not print its name): Recipe: Coffee Frappe. Published serving sizes: [16] oz. Exact ingredient list: [{\"name\": \"Espresso အတွက် ကော်ဖီမှုန့်\", \"quantity\": \"16 g\"}, {\"name\": \"ထုတ်ယူမည့် Espresso\", \"quantity\": \"32 g (double shot)\"}, {\"name\": \"နို့အေး\", \"quantity\": \"100 ml\"}, {\"name\": \"ရေခဲ\", \"quantity\": \"180 g\"}, {\"name\": \"သကြားရည်\", \"quantity\": \"10 ml\"}]. Preparation order: [\"1. 16 oz အအေးခွက်နဲ့ Blender ကို သန့်ရှင်းမှု စစ်ပါ။\", \"2. Espresso 16 g → 32 g ထုတ်ပြီး ခဏအေးအောင်ထားပါ။\", \"3. Blender ထဲ နို့ 100 ml၊ Espresso 32 g၊ သကြားရည် 10 ml ထည့်ပါ။\", \"4. ရေခဲ 180 g ထည့်ပြီး အဖုံးပိတ်ကာ ချောမွေ့သည်အထိ ကြိတ်ပါ။\", \"5. 16 oz ခွက်ထဲ လောင်း၊ dome lid/အဖုံးတပ်၊ လိုအပ်လျှင် စုပ်တံထည့်ပါ။\"]. Depict only the finished drink with its actual color, mixing, layers, foam and listed garnish. Hot drinks in appropriate white ceramic cups; iced drinks in clear takeaway cups. Do NOT invent whipped cream, fruit chunks, toppings, drizzles or garnish absent from these ingredients and steps. Dissolved flavor syrups alone do not justify fruit pieces or sauce stripes. Show ONLY the actual finished drink. Coffee grounds are for brewing and must not appear in the cup. Reproduce the exact dark-green 9 FLOOR COFFEE logo from the attached logo-only reference on a centered white cup label. No people, hands, third-party logos, extra captions, surrounding props or ingredients not specified. This must be a fresh individual photograph, not a reuse of another menu image.",
+      "visual": "Recipe: Coffee Frappe. Published serving sizes: [16] oz. Exact ingredient list: [{\"name\": \"Espresso အတွက် ကော်ဖီမှုန့်\", \"quantity\": \"16 g\"}, {\"name\": \"ထုတ်ယူမည့် Espresso\", \"quantity\": \"32 g (double shot)\"}, {\"name\": \"နို့အေး\", \"quantity\": \"100 ml\"}, {\"name\": \"ရေခဲ\", \"quantity\": \"180 g\"}, {\"name\": \"သကြားရည်\", \"quantity\": \"10 ml\"}]. Preparation order: [\"1. 16 oz အအေးခွက်နဲ့ Blender ကို သန့်ရှင်းမှု စစ်ပါ။\", \"2. Espresso 16 g → 32 g ထုတ်ပြီး ခဏအေးအောင်ထားပါ။\", \"3. Blender ထဲ နို့ 100 ml၊ Espresso 32 g၊ သကြားရည် 10 ml ထည့်ပါ။\", \"4. ရေခဲ 180 g ထည့်ပြီး အဖုံးပိတ်ကာ ချောမွေ့သည်အထိ ကြိတ်ပါ။\", \"5. 16 oz ခွက်ထဲ လောင်း၊ dome lid/အဖုံးတပ်၊ လိုအပ်လျှင် စုပ်တံထည့်ပါ။\"]. Depict only the finished drink with its actual color, mixing, layers, foam and listed garnish. Hot drinks in appropriate white ceramic cups; iced drinks in clear takeaway cups. Do NOT invent whipped cream, fruit chunks, toppings, drizzles or garnish absent from these ingredients and steps. Dissolved flavor syrups alone do not justify fruit pieces or sauce stripes."
+    },
+    {
+      "key": "v8-03-02",
+      "file": "recipe-photos/v8-03-02.webp",
+      "width": 768,
+      "height": 768,
+      "bytes": 31970,
+      "sha256": "7fcf76dca0c62ffb8929f5b0d1ada211312df5b5be79925fd9f6e5d95dbd45d1",
+      "gitSha": "8ba67d01cabb2824f63a31a5fa5c295249f948e2",
+      "recipeName": "Caramel Coffee Frappe",
+      "ingredientsSha256": "d3237ff939d7aa0c5edd6d90b7834d47d064a7d0187cae4e908458d465e770c6",
+      "method": "imagegen",
+      "reviewedAt": "2026-11-16",
+      "prompt": "Create a new standalone photorealistic premium cafe menu photograph, square composition. One whole appropriate serving cup (as specified in the recipe below) centered, fully visible with 8% breathing room, warm off-white seamless studio background, soft natural side lighting and realistic cold condensation for iced drinks or a clean dry ceramic surface for hot drinks. Recipe to depict (do not print its name): Recipe: Caramel Coffee Frappe. Published serving sizes: [16] oz. Exact ingredient list: [{\"name\": \"Espresso အတွက် ကော်ဖီမှုန့်\", \"quantity\": \"16 g\"}, {\"name\": \"ထုတ်ယူမည့် Espresso\", \"quantity\": \"32 g (double shot)\"}, {\"name\": \"နို့အေး\", \"quantity\": \"100 ml\"}, {\"name\": \"ရေခဲ\", \"quantity\": \"180 g\"}, {\"name\": \"သကြားရည်\", \"quantity\": \"10 ml\"}, {\"name\": \"Caramel Syrup\", \"quantity\": \"20 ml\"}]. Preparation order: [\"1. 16 oz အအေးခွက်နဲ့ Blender ကို သန့်ရှင်းမှု စစ်ပါ။\", \"2. Espresso 16 g → 32 g ထုတ်ပြီး ခဏအေးအောင်ထားပါ။\", \"3. Blender ထဲ နို့ 100 ml၊ Espresso 32 g၊ သကြားရည် 10 ml ထည့်ပါ။\", \"4. Caramel Syrup 20 ml ထည့်ပါ။\", \"5. ရေခဲ 180 g ထည့်ပြီး အဖုံးပိတ်ကာ ချောမွေ့သည်အထိ ကြိတ်ပါ။\", \"6. 16 oz ခွက်ထဲ လောင်း၊ dome lid/အဖုံးတပ်၊ လိုအပ်လျှင် စုပ်တံထည့်ပါ။\"]. Depict only the finished drink with its actual color, mixing, layers, foam and listed garnish. Hot drinks in appropriate white ceramic cups; iced drinks in clear takeaway cups. Do NOT invent whipped cream, fruit chunks, toppings, drizzles or garnish absent from these ingredients and steps. Dissolved flavor syrups alone do not justify fruit pieces or sauce stripes. Show ONLY the actual finished drink. Coffee grounds are for brewing and must not appear in the cup. Reproduce the exact dark-green 9 FLOOR COFFEE logo from the attached logo-only reference on a centered white cup label. No people, hands, third-party logos, extra captions, surrounding props or ingredients not specified. This must be a fresh individual photograph, not a reuse of another menu image.",
+      "visual": "Recipe: Caramel Coffee Frappe. Published serving sizes: [16] oz. Exact ingredient list: [{\"name\": \"Espresso အတွက် ကော်ဖီမှုန့်\", \"quantity\": \"16 g\"}, {\"name\": \"ထုတ်ယူမည့် Espresso\", \"quantity\": \"32 g (double shot)\"}, {\"name\": \"နို့အေး\", \"quantity\": \"100 ml\"}, {\"name\": \"ရေခဲ\", \"quantity\": \"180 g\"}, {\"name\": \"သကြားရည်\", \"quantity\": \"10 ml\"}, {\"name\": \"Caramel Syrup\", \"quantity\": \"20 ml\"}]. Preparation order: [\"1. 16 oz အအေးခွက်နဲ့ Blender ကို သန့်ရှင်းမှု စစ်ပါ။\", \"2. Espresso 16 g → 32 g ထုတ်ပြီး ခဏအေးအောင်ထားပါ။\", \"3. Blender ထဲ နို့ 100 ml၊ Espresso 32 g၊ သကြားရည် 10 ml ထည့်ပါ။\", \"4. Caramel Syrup 20 ml ထည့်ပါ။\", \"5. ရေခဲ 180 g ထည့်ပြီး အဖုံးပိတ်ကာ ချောမွေ့သည်အထိ ကြိတ်ပါ။\", \"6. 16 oz ခွက်ထဲ လောင်း၊ dome lid/အဖုံးတပ်၊ လိုအပ်လျှင် စုပ်တံထည့်ပါ။\"]. Depict only the finished drink with its actual color, mixing, layers, foam and listed garnish. Hot drinks in appropriate white ceramic cups; iced drinks in clear takeaway cups. Do NOT invent whipped cream, fruit chunks, toppings, drizzles or garnish absent from these ingredients and steps. Dissolved flavor syrups alone do not justify fruit pieces or sauce stripes."
     }
   ]
 }
