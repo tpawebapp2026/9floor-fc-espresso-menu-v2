@@ -1,6 +1,6 @@
 {
   "scope": "Original 260 recipes",
-  "reviewed": 126,
+  "reviewed": 128,
   "target": 260,
   "method": "imagegen",
   "rows": [
@@ -1893,6 +1893,36 @@
       "reviewedAt": "2026-11-16",
       "prompt": "Create one new photorealistic premium cafe menu photograph, square composition, warm off-white seamless studio background, soft natural side lighting. One appropriate serving cup as described in the recipe, fully visible and centered with 8% breathing room. Hot cups must be dry, without ice or condensation. Exact recipe: Cortado: 32g espresso mixed with 40ml steamed milk microfoam, uniform medium caramel brown with a very thin white microfoam surface. Small 90ml clear short glass; hot, no condensation or ice. No layers, whipped cream, syrup, cocoa or garnish. Reproduce the attached dark-green 9 FLOOR COFFEE logo on a centered white cup label. Show only the finished drink. No people, hands, third-party logos, surrounding props, extra captions or unlisted ingredients. Fresh individual photograph for this recipe.",
       "visual": "Cortado: 32g espresso mixed with 40ml steamed milk microfoam, uniform medium caramel brown with a very thin white microfoam surface. Small 90ml clear short glass; hot, no condensation or ice. No layers, whipped cream, syrup, cocoa or garnish."
+    },
+    {
+      "key": "v8-14-07",
+      "file": "recipe-photos/v8-14-07.webp",
+      "width": 768,
+      "height": 768,
+      "bytes": 27502,
+      "sha256": "3126f8331990abab92b8193afbe4bc2c964eca5d6ef8f341e1704ab806e4cd73",
+      "gitSha": "5468ae9a8a521065ed1247a8422b56f09f75e8d0",
+      "recipeName": "Piccolo Latte",
+      "ingredientsSha256": "78e0dc65dfcbeb1fa3365145f362512fdf28f8ec74db5c96d441a1ab4a5acb52",
+      "method": "imagegen",
+      "reviewedAt": "2026-11-16",
+      "prompt": "Create one new photorealistic premium cafe menu photograph, square composition, warm off-white seamless studio background, soft natural side lighting. One appropriate serving cup as described in the recipe, fully visible and centered with 8% breathing room. Hot cups must be dry, without ice or condensation. Exact recipe: Piccolo Latte: 32g espresso mixed with 80ml steamed milk microfoam in a small 130ml clear narrow latte glass. Uniform light caramel tan, thin fine-textured white microfoam with a simple small milk heart. Hot, no ice, condensation, syrup, cocoa or whipped cream. Reproduce the attached dark-green 9 FLOOR COFFEE logo on a centered white cup label. Show only the finished drink. No people, hands, third-party logos, surrounding props, extra captions or unlisted ingredients. Fresh individual photograph for this recipe.",
+      "visual": "Piccolo Latte: 32g espresso mixed with 80ml steamed milk microfoam in a small 130ml clear narrow latte glass. Uniform light caramel tan, thin fine-textured white microfoam with a simple small milk heart. Hot, no ice, condensation, syrup, cocoa or whipped cream."
+    },
+    {
+      "key": "v8-14-08",
+      "file": "recipe-photos/v8-14-08.webp",
+      "width": 768,
+      "height": 768,
+      "bytes": 31140,
+      "sha256": "ef9e8f6670c4317d816c322c74a42eb8ddf271a4aa5d12879ddab1debe082397",
+      "gitSha": "7ad0542f882d79349201680cbbf7cb00a6e2714e",
+      "recipeName": "Gibraltar Coffee",
+      "ingredientsSha256": "da6fd224eda593fcab88300fb9059f16fa8d5ec02e265c607d2ab27abcbaf475",
+      "method": "imagegen",
+      "reviewedAt": "2026-11-16",
+      "prompt": "Create one new photorealistic premium cafe menu photograph, square composition, warm off-white seamless studio background, soft natural side lighting. One appropriate serving cup as described in the recipe, fully visible and centered with 8% breathing room. Hot cups must be dry, without ice or condensation. Exact recipe: Gibraltar Coffee: 32g espresso mixed with 60ml steamed milk microfoam in a small 130ml faceted Gibraltar glass, about three-quarters full. Uniform caramel tan coffee, very thin microfoam cap. Hot, dry glass, no ice, syrup, cocoa, whipped cream or garnish. Reproduce the attached dark-green 9 FLOOR COFFEE logo on a centered white cup label. Show only the finished drink. No people, hands, third-party logos, surrounding props, extra captions or unlisted ingredients. Fresh individual photograph for this recipe.",
+      "visual": "Gibraltar Coffee: 32g espresso mixed with 60ml steamed milk microfoam in a small 130ml faceted Gibraltar glass, about three-quarters full. Uniform caramel tan coffee, very thin microfoam cap. Hot, dry glass, no ice, syrup, cocoa, whipped cream or garnish."
     }
   ]
 }
