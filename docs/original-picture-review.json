@@ -1,6 +1,6 @@
 {
   "scope": "Original 260 recipes",
-  "reviewed": 122,
+  "reviewed": 124,
   "target": 260,
   "method": "imagegen",
   "rows": [
@@ -1833,6 +1833,36 @@
       "reviewedAt": "2026-11-16",
       "prompt": "Create one new photorealistic premium cafe menu photograph, square composition, warm off-white seamless studio background, soft natural side lighting. One appropriate serving cup as described in the recipe, fully visible and centered with 8% breathing room. Hot cups must be dry, without ice or condensation. Exact recipe: Lungo: 45–55g freshly extracted espresso with a thinner golden-brown crema in a small 90ml white ceramic espresso cup, slightly elevated angle showing the surface. No milk, whipped cream, ice, sugar or garnish. Reproduce the attached dark-green 9 FLOOR COFFEE logo on a centered white cup label. Show only the finished drink. No people, hands, third-party logos, surrounding props, extra captions or unlisted ingredients. Fresh individual photograph for this recipe.",
       "visual": "Lungo: 45–55g freshly extracted espresso with a thinner golden-brown crema in a small 90ml white ceramic espresso cup, slightly elevated angle showing the surface. No milk, whipped cream, ice, sugar or garnish."
+    },
+    {
+      "key": "v8-14-03",
+      "file": "recipe-photos/v8-14-03.webp",
+      "width": 768,
+      "height": 768,
+      "bytes": 23962,
+      "sha256": "0dcf888b44512e69f7fc6f7f5c77c9152f2e371fab457b728df5a1f0c0a9493d",
+      "gitSha": "855f27c7003f847ca8abccad81ba0e04c67d3360",
+      "recipeName": "Doppio Ristretto",
+      "ingredientsSha256": "800ac584a0eb99d1b86b0decb3e78282d93237292f92a0ed7dc65e25bd81f9f4",
+      "method": "imagegen",
+      "reviewedAt": "2026-11-16",
+      "prompt": "Create one new photorealistic premium cafe menu photograph, square composition, warm off-white seamless studio background, soft natural side lighting. One appropriate serving cup as described in the recipe, fully visible and centered with 8% breathing room. Hot cups must be dry, without ice or condensation. Exact recipe: Doppio Ristretto: two 20–24g extractions combined, total 40–48g concentrated espresso in a small 90ml white ceramic demitasse, rich dark brown with thick tawny crema. No milk, cream, ice, sugar, garnish or extra water. Reproduce the attached dark-green 9 FLOOR COFFEE logo on a centered white cup label. Show only the finished drink. No people, hands, third-party logos, surrounding props, extra captions or unlisted ingredients. Fresh individual photograph for this recipe.",
+      "visual": "Doppio Ristretto: two 20–24g extractions combined, total 40–48g concentrated espresso in a small 90ml white ceramic demitasse, rich dark brown with thick tawny crema. No milk, cream, ice, sugar, garnish or extra water."
+    },
+    {
+      "key": "v8-14-04",
+      "file": "recipe-photos/v8-14-04.webp",
+      "width": 768,
+      "height": 768,
+      "bytes": 25096,
+      "sha256": "9d14293eae0558a8b13cab22f58d18dc398c6420f5881996a5351d6c74108cb6",
+      "gitSha": "17a4f704f4907b5ba0f23936144e4e43e4b3741e",
+      "recipeName": "Espresso Con Panna",
+      "ingredientsSha256": "ab8e9b5c77889e06a80b454e4d617c45f2078a2ae8318addaa29db3f42e31fbd",
+      "method": "imagegen",
+      "reviewedAt": "2026-11-16",
+      "prompt": "Create one new photorealistic premium cafe menu photograph, square composition, warm off-white seamless studio background, soft natural side lighting. One appropriate serving cup as described in the recipe, fully visible and centered with 8% breathing room. Hot cups must be dry, without ice or condensation. Exact recipe: Espresso Con Panna: 32g dark espresso topped with 25ml softly piped white whipped cream in a small 90ml clear espresso glass. Dark espresso remains visible below a modest soft whipped cream mound. No cocoa, chocolate, caramel, milk, ice or garnish. Reproduce the attached dark-green 9 FLOOR COFFEE logo on a centered white cup label. Show only the finished drink. No people, hands, third-party logos, surrounding props, extra captions or unlisted ingredients. Fresh individual photograph for this recipe.",
+      "visual": "Espresso Con Panna: 32g dark espresso topped with 25ml softly piped white whipped cream in a small 90ml clear espresso glass. Dark espresso remains visible below a modest soft whipped cream mound. No cocoa, chocolate, caramel, milk, ice or garnish."
     }
   ]
 }
