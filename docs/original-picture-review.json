@@ -1,6 +1,6 @@
 {
   "scope": "Original 260 recipes",
-  "reviewed": 136,
+  "reviewed": 138,
   "target": 260,
   "method": "imagegen",
   "rows": [
@@ -2043,6 +2043,36 @@
       "reviewedAt": "2026-11-16",
       "prompt": "Create one new photorealistic premium cafe menu photograph, square composition, warm off-white seamless studio background, soft natural side lighting. One appropriate serving cup as described in the recipe, fully visible and centered with 8% breathing room. Hot cups must be dry, without ice or condensation. Exact recipe: Iced Lavender Latte. Exactly 32g espresso plus 150ml dairy milk and 15ml lavender syrup. 180g visible ice cubes, clear 16oz takeaway cup with condensation. Finished drink stirred to homogeneous creamy coffee tan; no dramatic separate colored layers. No flower petals, lavender sprigs, whole nuts, nut crumbs, maple leaves, syrup drizzles, whipped cream, cocoa, food coloring, surrounding props or garnish. Syrup flavor alone does not turn the coffee purple, pink or green. Reproduce the attached dark-green 9 FLOOR COFFEE logo on a centered white cup label. Show only the finished drink. No people, hands, third-party logos, surrounding props, extra captions or unlisted ingredients. Fresh individual photograph for this recipe.",
       "visual": "Iced Lavender Latte. Exactly 32g espresso plus 150ml dairy milk and 15ml lavender syrup. 180g visible ice cubes, clear 16oz takeaway cup with condensation. Finished drink stirred to homogeneous creamy coffee tan; no dramatic separate colored layers. No flower petals, lavender sprigs, whole nuts, nut crumbs, maple leaves, syrup drizzles, whipped cream, cocoa, food coloring, surrounding props or garnish. Syrup flavor alone does not turn the coffee purple, pink or green."
+    },
+    {
+      "key": "v8-15-07",
+      "file": "recipe-photos/v8-15-07.webp",
+      "width": 768,
+      "height": 768,
+      "bytes": 23804,
+      "sha256": "fd28378f2e817c11d4e25422959ef6674d2999c7462ed5212c726af1dbec306b",
+      "gitSha": "4999dcee2a308097c39b52275bf64092eb05fd2e",
+      "recipeName": "Pistachio Latte",
+      "ingredientsSha256": "23f6e8b849f4616c47125a15aa661b32fa6d60ce67f2023046847bb31f890577",
+      "method": "imagegen",
+      "reviewedAt": "2026-11-16",
+      "prompt": "Create one new photorealistic premium cafe menu photograph, square composition, warm off-white seamless studio background, soft natural side lighting. One appropriate serving cup as described in the recipe, fully visible and centered with 8% breathing room. Hot cups must be dry, without ice or condensation. Exact recipe: Hot Pistachio Latte. Exactly 32g espresso plus 150ml dairy milk and 15ml pistachio syrup. A 220ml white ceramic latte cup, fine steamed milk microfoam, warm creamy coffee tan with a subtle simple milk heart. Hot, dry cup, no ice. No flower petals, lavender sprigs, whole nuts, nut crumbs, maple leaves, syrup drizzles, whipped cream, cocoa, food coloring, surrounding props or garnish. Syrup flavor alone does not turn the coffee purple, pink or green. Reproduce the attached dark-green 9 FLOOR COFFEE logo on a centered white cup label. Show only the finished drink. No people, hands, third-party logos, surrounding props, extra captions or unlisted ingredients. Fresh individual photograph for this recipe.",
+      "visual": "Hot Pistachio Latte. Exactly 32g espresso plus 150ml dairy milk and 15ml pistachio syrup. A 220ml white ceramic latte cup, fine steamed milk microfoam, warm creamy coffee tan with a subtle simple milk heart. Hot, dry cup, no ice. No flower petals, lavender sprigs, whole nuts, nut crumbs, maple leaves, syrup drizzles, whipped cream, cocoa, food coloring, surrounding props or garnish. Syrup flavor alone does not turn the coffee purple, pink or green."
+    },
+    {
+      "key": "v8-15-08",
+      "file": "recipe-photos/v8-15-08.webp",
+      "width": 768,
+      "height": 768,
+      "bytes": 38986,
+      "sha256": "c303b585a027b2eb7ce71da36cc702c52e79a8a4c5b14a49d8d571d46fdd4b7c",
+      "gitSha": "c907c8f3c8494891c4925e2ccd9811dbd536cb8e",
+      "recipeName": "Iced Pistachio Latte",
+      "ingredientsSha256": "9385cb212cfecf95be4047c5ee16c6581a1fde11683a1f126d427088b5ea0873",
+      "method": "imagegen",
+      "reviewedAt": "2026-11-16",
+      "prompt": "Create one new photorealistic premium cafe menu photograph, square composition, warm off-white seamless studio background, soft natural side lighting. One appropriate serving cup as described in the recipe, fully visible and centered with 8% breathing room. Hot cups must be dry, without ice or condensation. Exact recipe: Iced Pistachio Latte. Exactly 32g espresso plus 150ml dairy milk and 20ml pistachio syrup. 180g visible ice cubes, clear 16oz takeaway cup with condensation. Finished drink stirred to homogeneous creamy coffee tan; no dramatic separate colored layers. No flower petals, lavender sprigs, whole nuts, nut crumbs, maple leaves, syrup drizzles, whipped cream, cocoa, food coloring, surrounding props or garnish. Syrup flavor alone does not turn the coffee purple, pink or green. Reproduce the attached dark-green 9 FLOOR COFFEE logo on a centered white cup label. Show only the finished drink. No people, hands, third-party logos, surrounding props, extra captions or unlisted ingredients. Fresh individual photograph for this recipe.",
+      "visual": "Iced Pistachio Latte. Exactly 32g espresso plus 150ml dairy milk and 20ml pistachio syrup. 180g visible ice cubes, clear 16oz takeaway cup with condensation. Finished drink stirred to homogeneous creamy coffee tan; no dramatic separate colored layers. No flower petals, lavender sprigs, whole nuts, nut crumbs, maple leaves, syrup drizzles, whipped cream, cocoa, food coloring, surrounding props or garnish. Syrup flavor alone does not turn the coffee purple, pink or green."
     }
   ]
 }
