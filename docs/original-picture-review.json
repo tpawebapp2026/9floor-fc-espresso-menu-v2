@@ -1,6 +1,6 @@
 {
   "scope": "Original 260 recipes",
-  "reviewed": 106,
+  "reviewed": 108,
   "target": 260,
   "method": "imagegen",
   "rows": [
@@ -1593,6 +1593,36 @@
       "reviewedAt": "2026-11-16",
       "prompt": "Create one new photorealistic premium cafe menu photograph, square composition, warm off-white seamless studio background, soft natural side lighting. One clear16oz takeaway cup, fully visible and centered with8% breathing room, realistic condensation. Exact recipe: Strawberry Yogurt Drink:120ml drinkable yogurt,50g strawberry PUREE,40ml cold milk,15ml simple syrup mixed thoroughly over140g ice. Creamy opaque pastel strawberry-pink yogurt drink with fine natural puree seed specks and clear ice. No whole strawberries, fruit garnish, whipped cream, sauce stripes or distinct unmixed white layer. Reproduce the attached dark-green 9 FLOOR COFFEE logo on a centered white cup label. Show only the finished drink. No people, hands, third-party logos, surrounding props, extra captions or unlisted ingredients. Fresh individual photograph for this recipe.",
       "visual": "Strawberry Yogurt Drink:120ml drinkable yogurt,50g strawberry PUREE,40ml cold milk,15ml simple syrup mixed thoroughly over140g ice. Creamy opaque pastel strawberry-pink yogurt drink with fine natural puree seed specks and clear ice. No whole strawberries, fruit garnish, whipped cream, sauce stripes or distinct unmixed white layer."
+    },
+    {
+      "key": "v8-12-03",
+      "file": "recipe-photos/v8-12-03.webp",
+      "width": 768,
+      "height": 768,
+      "bytes": 25294,
+      "sha256": "5b4cff32d4de11ac92f5843266f374bfe7bce5f5dbf64f933dab02510c6edee5",
+      "gitSha": "79d6c31b54484c2d77bfdf6f4d31b3d61bcec336",
+      "recipeName": "Peach Yogurt Drink",
+      "ingredientsSha256": "40ffc5c9f0773e7f658b2e28440f5150c614083a90910706b938371d0c579559",
+      "method": "imagegen",
+      "reviewedAt": "2026-11-16",
+      "prompt": "Create one new photorealistic premium cafe menu photograph, square composition, warm off-white seamless studio background, soft natural side lighting. One clear16oz takeaway cup, fully visible and centered with8% breathing room, realistic condensation. Exact recipe: Peach Yogurt Drink:120ml drinkable yogurt,50g peach PUREE,40ml cold milk,15ml simple syrup mixed thoroughly over140g ice. Creamy opaque very pale peach-cream yogurt drink with ice, not orange juice or frozen slush. No peach pieces, fruit garnish, cream piping or unmixed layers. Reproduce the attached dark-green 9 FLOOR COFFEE logo on a centered white cup label. Show only the finished drink. No people, hands, third-party logos, surrounding props, extra captions or unlisted ingredients. Fresh individual photograph for this recipe.",
+      "visual": "Peach Yogurt Drink:120ml drinkable yogurt,50g peach PUREE,40ml cold milk,15ml simple syrup mixed thoroughly over140g ice. Creamy opaque very pale peach-cream yogurt drink with ice, not orange juice or frozen slush. No peach pieces, fruit garnish, cream piping or unmixed layers."
+    },
+    {
+      "key": "v8-12-04",
+      "file": "recipe-photos/v8-12-04.webp",
+      "width": 768,
+      "height": 768,
+      "bytes": 24238,
+      "sha256": "5d4b3ad1cc53dbca850a3c3d9c13f5f6f470fe5c446b047fbb5bc7355608cbf2",
+      "gitSha": "a9c9a2d413dc8d1e271da630e02bbb6c6912e54e",
+      "recipeName": "Lychee Yogurt Drink",
+      "ingredientsSha256": "0a2a3f82de29faf41ea46ea0cee4a594bd27b4a0a139ea7b3d509924dcb454c2",
+      "method": "imagegen",
+      "reviewedAt": "2026-11-16",
+      "prompt": "Create one new photorealistic premium cafe menu photograph, square composition, warm off-white seamless studio background, soft natural side lighting. One clear16oz takeaway cup, fully visible and centered with8% breathing room, realistic condensation. Exact recipe: Lychee Yogurt Drink:120ml drinkable yogurt,25ml clear lychee SYRUP,50ml cold milk mixed over140g ice. Uniform opaque ivory-white yogurt milk with visible ice. No whole lychees, fruit chunks, flowers, whipped cream or garnish. Reproduce the attached dark-green 9 FLOOR COFFEE logo on a centered white cup label. Show only the finished drink. No people, hands, third-party logos, surrounding props, extra captions or unlisted ingredients. Fresh individual photograph for this recipe.",
+      "visual": "Lychee Yogurt Drink:120ml drinkable yogurt,25ml clear lychee SYRUP,50ml cold milk mixed over140g ice. Uniform opaque ivory-white yogurt milk with visible ice. No whole lychees, fruit chunks, flowers, whipped cream or garnish."
     }
   ]
 }
