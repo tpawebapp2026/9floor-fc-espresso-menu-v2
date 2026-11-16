@@ -1,6 +1,6 @@
 {
   "scope": "Original 260 recipes",
-  "reviewed": 78,
+  "reviewed": 80,
   "target": 260,
   "method": "imagegen",
   "rows": [
@@ -1173,6 +1173,36 @@
       "reviewedAt": "2026-11-16",
       "prompt": "Create a new standalone photorealistic premium cafe menu photograph, square composition. One whole appropriate serving cup (as specified in the recipe below) centered, fully visible with 8% breathing room, warm off-white seamless studio background, soft natural side lighting and realistic cold condensation for iced drinks or a clean dry ceramic surface for hot drinks. Recipe to depict (do not print its name): Lychee Cooler:25ml smooth lychee syrup diluted with140ml STILL cold water,150–180g clear ice. Almost clear extremely pale pink-white translucent water drink. Clear16oz cup. NO carbonation bubbles, milky opacity, whole lychee, fruit, flowers or garnish. Show ONLY the actual finished drink. Coffee grounds are for brewing and must not appear in the cup. Reproduce the exact dark-green 9 FLOOR COFFEE logo from the attached logo-only reference on a centered white cup label. No people, hands, third-party logos, extra captions, surrounding props or ingredients not specified. This must be a fresh individual photograph, not a reuse of another menu image.",
       "visual": "Lychee Cooler:25ml smooth lychee syrup diluted with140ml STILL cold water,150–180g clear ice. Almost clear extremely pale pink-white translucent water drink. Clear16oz cup. NO carbonation bubbles, milky opacity, whole lychee, fruit, flowers or garnish."
+    },
+    {
+      "key": "v8-08-05",
+      "file": "recipe-photos/v8-08-05.webp",
+      "width": 768,
+      "height": 768,
+      "bytes": 37766,
+      "sha256": "14a8a0bee5b7bb7c5db2b0bb7325524061a579cf2593b0cdfe91058fb76e5773",
+      "gitSha": "be9009708b73f417e03e96dcc4532b0ad2c3d799",
+      "recipeName": "Peach Cooler",
+      "ingredientsSha256": "2b7fb139e746f7819ee8f3303a84a72c546be4674e1c6d3544f38d08da7ef63e",
+      "method": "imagegen",
+      "reviewedAt": "2026-11-16",
+      "prompt": "Create a new standalone photorealistic premium cafe menu photograph, square composition. One whole appropriate serving cup (as specified in the recipe below) centered, fully visible with 8% breathing room, warm off-white seamless studio background, soft natural side lighting and realistic cold condensation for iced drinks or a clean dry ceramic surface for hot drinks. Recipe to depict (do not print its name): Peach Cooler:25ml peach syrup diluted with140ml STILL cold water,150–180g clear ice. Translucent very pale warm peach-gold water drink. Clear16oz cup. NO carbonation bubbles, peach pieces, mint, milk, foam or garnish. Show ONLY the actual finished drink. Coffee grounds are for brewing and must not appear in the cup. Reproduce the exact dark-green 9 FLOOR COFFEE logo from the attached logo-only reference on a centered white cup label. No people, hands, third-party logos, extra captions, surrounding props or ingredients not specified. This must be a fresh individual photograph, not a reuse of another menu image.",
+      "visual": "Peach Cooler:25ml peach syrup diluted with140ml STILL cold water,150–180g clear ice. Translucent very pale warm peach-gold water drink. Clear16oz cup. NO carbonation bubbles, peach pieces, mint, milk, foam or garnish."
+    },
+    {
+      "key": "v8-08-06",
+      "file": "recipe-photos/v8-08-06.webp",
+      "width": 768,
+      "height": 768,
+      "bytes": 33216,
+      "sha256": "181a0115792ece78b01c779f60a55ff33a67c364afca3b358a94c5296dc83793",
+      "gitSha": "d858d94d80ad572b559707bd2a7d6ee2ceba4bf1",
+      "recipeName": "Honey Lemon Cooler",
+      "ingredientsSha256": "4a26a2c73782bfc5ff758015fc39d7bd1baf84f407cdbefeaa30a2221d5aaef3",
+      "method": "imagegen",
+      "reviewedAt": "2026-11-16",
+      "prompt": "Create a new standalone photorealistic premium cafe menu photograph, square composition. One whole appropriate serving cup (as specified in the recipe below) centered, fully visible with 8% breathing room, warm off-white seamless studio background, soft natural side lighting and realistic cold condensation for iced drinks or a clean dry ceramic surface for hot drinks. Recipe to depict (do not print its name): Honey Lemon Cooler:20ml honey dissolved with20ml lemon juice and140ml STILL cold water,150–180g clear ice. Slightly hazy pale honey-yellow drink. Clear16oz cup. NO carbonation bubbles, honey pool, lemon slices, mint, milk or garnish. Show ONLY the actual finished drink. Coffee grounds are for brewing and must not appear in the cup. Reproduce the exact dark-green 9 FLOOR COFFEE logo from the attached logo-only reference on a centered white cup label. No people, hands, third-party logos, extra captions, surrounding props or ingredients not specified. This must be a fresh individual photograph, not a reuse of another menu image.",
+      "visual": "Honey Lemon Cooler:20ml honey dissolved with20ml lemon juice and140ml STILL cold water,150–180g clear ice. Slightly hazy pale honey-yellow drink. Clear16oz cup. NO carbonation bubbles, honey pool, lemon slices, mint, milk or garnish."
     }
   ]
 }
