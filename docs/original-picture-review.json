@@ -1,6 +1,6 @@
 {
   "scope": "Original 260 recipes",
-  "reviewed": 50,
+  "reviewed": 52,
   "target": 260,
   "method": "imagegen",
   "rows": [
@@ -753,6 +753,36 @@
       "reviewedAt": "2026-11-16",
       "prompt": "Create a new standalone photorealistic premium cafe menu photograph, square composition. One whole appropriate serving cup (as specified in the recipe below) centered, fully visible with 8% breathing room, warm off-white seamless studio background, soft natural side lighting and realistic cold condensation for iced drinks or a clean dry ceramic surface for hot drinks. Recipe to depict (do not print its name): Iced Brown Sugar Milk:25ml brown sugar SYRUP dissolved into60ml warm water then120ml cold milk,150–180g ice. Uniformly mixed pale beige caramel-tinted milk,16oz clear cup. NO espresso, boba, black pearls, tiger-wall syrup stripes, whipped cream or garnish. Show ONLY the actual finished drink. Coffee grounds are for brewing and must not appear in the cup. Reproduce the exact dark-green 9 FLOOR COFFEE logo from the attached logo-only reference on a centered white cup label. No people, hands, third-party logos, extra captions, surrounding props or ingredients not specified. This must be a fresh individual photograph, not a reuse of another menu image.",
       "visual": "Iced Brown Sugar Milk:25ml brown sugar SYRUP dissolved into60ml warm water then120ml cold milk,150–180g ice. Uniformly mixed pale beige caramel-tinted milk,16oz clear cup. NO espresso, boba, black pearls, tiger-wall syrup stripes, whipped cream or garnish."
+    },
+    {
+      "key": "v8-04-13",
+      "file": "recipe-photos/v8-04-13.webp",
+      "width": 768,
+      "height": 768,
+      "bytes": 19080,
+      "sha256": "4c4d8699efe6fb839539fc656351931b55510cf081e8d95b911f84684cf1a203",
+      "gitSha": "81130462ca98dc2d19a79e11c89feacddce39bb9",
+      "recipeName": "Hot Thai Milk Tea",
+      "ingredientsSha256": "ae1531d4b679cecadc9d1d919fe38e70a05e234173940c5f18458591ef02de5c",
+      "method": "imagegen",
+      "reviewedAt": "2026-11-16",
+      "prompt": "Create a new standalone photorealistic premium cafe menu photograph, square composition. One whole appropriate serving cup (as specified in the recipe below) centered, fully visible with 8% breathing room, warm off-white seamless studio background, soft natural side lighting and realistic cold condensation for iced drinks or a clean dry ceramic surface for hot drinks. Recipe to depict (do not print its name): Hot Thai Milk Tea:8g Thai tea steeped in60ml hot water and filtered;20ml condensed milk dissolved;120ml warmed milk added. Uniform creamy orange Thai milk tea,12oz white ceramic cup with handle. NO ice, tea leaves, latte art, whipped cream or garnish. Show ONLY the actual finished drink. Coffee grounds are for brewing and must not appear in the cup. Reproduce the exact dark-green 9 FLOOR COFFEE logo from the attached logo-only reference on a centered white cup label. No people, hands, third-party logos, extra captions, surrounding props or ingredients not specified. This must be a fresh individual photograph, not a reuse of another menu image.",
+      "visual": "Hot Thai Milk Tea:8g Thai tea steeped in60ml hot water and filtered;20ml condensed milk dissolved;120ml warmed milk added. Uniform creamy orange Thai milk tea,12oz white ceramic cup with handle. NO ice, tea leaves, latte art, whipped cream or garnish."
+    },
+    {
+      "key": "v8-04-14",
+      "file": "recipe-photos/v8-04-14.webp",
+      "width": 768,
+      "height": 768,
+      "bytes": 27298,
+      "sha256": "c57defb06eeeab78136fa81d823143619bbf81c819bae4fe506c0f1232f8420c",
+      "gitSha": "e32a016d5c872647633fa00b4bdc819e11649634",
+      "recipeName": "Hot Matcha Latte",
+      "ingredientsSha256": "77a97d26bb713627c46d2a9cd9d54f48a85c4b56abd64f94eb5ea3563866710a",
+      "method": "imagegen",
+      "reviewedAt": "2026-11-16",
+      "prompt": "Create a new standalone photorealistic premium cafe menu photograph, square composition. One whole appropriate serving cup (as specified in the recipe below) centered, fully visible with 8% breathing room, warm off-white seamless studio background, soft natural side lighting and realistic cold condensation for iced drinks or a clean dry ceramic surface for hot drinks. Recipe to depict (do not print its name): Hot Matcha Latte:3g matcha powder whisked with60ml hot water,15ml simple syrup and120ml warmed milk. Uniform naturally green opaque matcha milk,12oz white ceramic cup with handle, modest fine matcha whisking bubbles on surface. NO espresso, thick foam, powder dust or garnish. Show ONLY the actual finished drink. Coffee grounds are for brewing and must not appear in the cup. Reproduce the exact dark-green 9 FLOOR COFFEE logo from the attached logo-only reference on a centered white cup label. No people, hands, third-party logos, extra captions, surrounding props or ingredients not specified. This must be a fresh individual photograph, not a reuse of another menu image.",
+      "visual": "Hot Matcha Latte:3g matcha powder whisked with60ml hot water,15ml simple syrup and120ml warmed milk. Uniform naturally green opaque matcha milk,12oz white ceramic cup with handle, modest fine matcha whisking bubbles on surface. NO espresso, thick foam, powder dust or garnish."
     }
   ]
 }
