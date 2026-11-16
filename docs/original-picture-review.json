@@ -1,6 +1,6 @@
 {
   "scope": "Original 260 recipes",
-  "reviewed": 144,
+  "reviewed": 146,
   "target": 260,
   "method": "imagegen",
   "rows": [
@@ -2163,6 +2163,36 @@
       "reviewedAt": "2026-11-16",
       "prompt": "Create one new photorealistic premium cafe menu photograph, square composition, warm off-white seamless studio background, soft natural side lighting. One appropriate serving cup as described in the recipe, fully visible and centered with 8% breathing room. Hot cups must be dry, without ice or condensation. Exact recipe: Iced Unsweetened almond milk Latte: exactly 32g espresso and 150ml Unsweetened almond milk. 180g visible ice cubes, clear 16oz takeaway cup with condensation. All liquids stirred to uniform creamy coffee beige tan. No dairy milk, whole oats, nuts, coconut pieces, chocolate garnish, cinnamon, caramel drizzle, whipped cream, flowers or surrounding props. The plant milk is blended into the coffee; no fake green or purple color. Reproduce the attached dark-green 9 FLOOR COFFEE logo on a centered white cup label. Show only the finished drink. No people, hands, third-party logos, surrounding props, extra captions or unlisted ingredients. Fresh individual photograph for this recipe.",
       "visual": "Iced Unsweetened almond milk Latte: exactly 32g espresso and 150ml Unsweetened almond milk. 180g visible ice cubes, clear 16oz takeaway cup with condensation. All liquids stirred to uniform creamy coffee beige tan. No dairy milk, whole oats, nuts, coconut pieces, chocolate garnish, cinnamon, caramel drizzle, whipped cream, flowers or surrounding props. The plant milk is blended into the coffee; no fake green or purple color."
+    },
+    {
+      "key": "v8-16-05",
+      "file": "recipe-photos/v8-16-05.webp",
+      "width": 768,
+      "height": 768,
+      "bytes": 24032,
+      "sha256": "fe59207739fa68b94c4f72bd9db10e3ef9d4f5d8c028c6b306fb9758aea6f39c",
+      "gitSha": "7580c57b2aa1c0d6ef6ce40547c8802eafb68e3b",
+      "recipeName": "Soy Milk Latte",
+      "ingredientsSha256": "8f868214a03641603ec53f052daec9c77faf4cc905cefc3c86175703a05ad0fb",
+      "method": "imagegen",
+      "reviewedAt": "2026-11-16",
+      "prompt": "Create one new photorealistic premium cafe menu photograph, square composition, warm off-white seamless studio background, soft natural side lighting. One appropriate serving cup as described in the recipe, fully visible and centered with 8% breathing room. Hot cups must be dry, without ice or condensation. Exact recipe: Hot Soy milk Latte: exactly 32g espresso and 150ml Soy milk. A small 220ml white ceramic cup, fine steamed plant milk microfoam and a simple white milk heart over creamy light coffee tan. Hot, dry cup, no ice. No dairy milk, whole oats, nuts, coconut pieces, chocolate garnish, cinnamon, caramel drizzle, whipped cream, flowers or surrounding props. The plant milk is blended into the coffee; no fake green or purple color. Reproduce the attached dark-green 9 FLOOR COFFEE logo on a centered white cup label. Show only the finished drink. No people, hands, third-party logos, surrounding props, extra captions or unlisted ingredients. Fresh individual photograph for this recipe.",
+      "visual": "Hot Soy milk Latte: exactly 32g espresso and 150ml Soy milk. A small 220ml white ceramic cup, fine steamed plant milk microfoam and a simple white milk heart over creamy light coffee tan. Hot, dry cup, no ice. No dairy milk, whole oats, nuts, coconut pieces, chocolate garnish, cinnamon, caramel drizzle, whipped cream, flowers or surrounding props. The plant milk is blended into the coffee; no fake green or purple color."
+    },
+    {
+      "key": "v8-16-06",
+      "file": "recipe-photos/v8-16-06.webp",
+      "width": 768,
+      "height": 768,
+      "bytes": 39240,
+      "sha256": "bba05831438904226d1ab102fbde2449449ea224e001db055fdef5ee819cf160",
+      "gitSha": "1cd2de9fe0bd38f9f595dfef57cd567ce6e718a0",
+      "recipeName": "Iced Soy Milk Latte",
+      "ingredientsSha256": "5519e6874f2b73d8c904117dec3db3a77e2d5aed13001d0e98fe99c3fcabbb2a",
+      "method": "imagegen",
+      "reviewedAt": "2026-11-16",
+      "prompt": "Create one new photorealistic premium cafe menu photograph, square composition, warm off-white seamless studio background, soft natural side lighting. One appropriate serving cup as described in the recipe, fully visible and centered with 8% breathing room. Hot cups must be dry, without ice or condensation. Exact recipe: Iced Soy milk Latte: exactly 32g espresso and 150ml Soy milk. 180g visible ice cubes, clear 16oz takeaway cup with condensation. All liquids stirred to uniform creamy coffee beige tan. No dairy milk, whole oats, nuts, coconut pieces, chocolate garnish, cinnamon, caramel drizzle, whipped cream, flowers or surrounding props. The plant milk is blended into the coffee; no fake green or purple color. Reproduce the attached dark-green 9 FLOOR COFFEE logo on a centered white cup label. Show only the finished drink. No people, hands, third-party logos, surrounding props, extra captions or unlisted ingredients. Fresh individual photograph for this recipe.",
+      "visual": "Iced Soy milk Latte: exactly 32g espresso and 150ml Soy milk. 180g visible ice cubes, clear 16oz takeaway cup with condensation. All liquids stirred to uniform creamy coffee beige tan. No dairy milk, whole oats, nuts, coconut pieces, chocolate garnish, cinnamon, caramel drizzle, whipped cream, flowers or surrounding props. The plant milk is blended into the coffee; no fake green or purple color."
     }
   ]
 }
