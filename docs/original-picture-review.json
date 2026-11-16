@@ -1,6 +1,6 @@
 {
   "scope": "Original 260 recipes",
-  "reviewed": 114,
+  "reviewed": 116,
   "target": 260,
   "method": "imagegen",
   "rows": [
@@ -1713,6 +1713,36 @@
       "reviewedAt": "2026-11-16",
       "prompt": "Create one new photorealistic premium cafe menu photograph, square composition, warm off-white seamless studio background, soft natural side lighting. One clear16oz takeaway cup, fully visible and centered with8% breathing room, realistic condensation. Exact recipe: Honey Yuzu Sparkler:25ml yuzu JUICE and25ml honey dissolved,150ml soda water,180g ice. Slightly hazy pale honey-gold yellow sparkling drink with fine carbonation bubbles. No yuzu pieces, citrus slices, peel, honey dipper, milk or garnish. Reproduce the attached dark-green 9 FLOOR COFFEE logo on a centered white cup label. Show only the finished drink. No people, hands, third-party logos, surrounding props, extra captions or unlisted ingredients. Fresh individual photograph for this recipe.",
       "visual": "Honey Yuzu Sparkler:25ml yuzu JUICE and25ml honey dissolved,150ml soda water,180g ice. Slightly hazy pale honey-gold yellow sparkling drink with fine carbonation bubbles. No yuzu pieces, citrus slices, peel, honey dipper, milk or garnish."
+    },
+    {
+      "key": "v8-13-03",
+      "file": "recipe-photos/v8-13-03.webp",
+      "width": 768,
+      "height": 768,
+      "bytes": 52082,
+      "sha256": "ee8e33ca9322843be74027afe71abf317462b5e8ed10c2ca88aa2c309d0cd2ae",
+      "gitSha": "0627bc8320d9ef7e5b76c4f38ead56541fd98e42",
+      "recipeName": "Salted Plum Soda",
+      "ingredientsSha256": "fdb547f594469bd4b3f4d4a79c8b07ab341e1d7fb0a5f32251596ed3a18ff3c9",
+      "method": "imagegen",
+      "reviewedAt": "2026-11-16",
+      "prompt": "Create one new photorealistic premium cafe menu photograph, square composition, warm off-white seamless studio background, soft natural side lighting. One clear16oz takeaway cup, fully visible and centered with8% breathing room, realistic condensation. Exact recipe: Salted Plum Soda:25ml smooth salted plum CONCENTRATE,15ml lemon juice,10ml simple syrup,150ml soda water,180g ice. Mixed translucent pale amber-brown sparkling drink with fine carbonation bubbles. No whole salted plums, fruit pulp, stones, salt rim, lemon slices, milk or garnish. Reproduce the attached dark-green 9 FLOOR COFFEE logo on a centered white cup label. Show only the finished drink. No people, hands, third-party logos, surrounding props, extra captions or unlisted ingredients. Fresh individual photograph for this recipe.",
+      "visual": "Salted Plum Soda:25ml smooth salted plum CONCENTRATE,15ml lemon juice,10ml simple syrup,150ml soda water,180g ice. Mixed translucent pale amber-brown sparkling drink with fine carbonation bubbles. No whole salted plums, fruit pulp, stones, salt rim, lemon slices, milk or garnish."
+    },
+    {
+      "key": "v8-13-04",
+      "file": "recipe-photos/v8-13-04.webp",
+      "width": 768,
+      "height": 768,
+      "bytes": 37196,
+      "sha256": "85cfc14c861fe57aa82ae1889d53478241d770bb57289888272d3d5b2af99411",
+      "gitSha": "c060da20b53204e0edad6e5888b5b62ea7114a61",
+      "recipeName": "Lemongrass Lime Cooler",
+      "ingredientsSha256": "a45e6e569fb4fc796295d14a9ac832043949a50b6b38314dc5bd6f12d263806e",
+      "method": "imagegen",
+      "reviewedAt": "2026-11-16",
+      "prompt": "Create one new photorealistic premium cafe menu photograph, square composition, warm off-white seamless studio background, soft natural side lighting. One clear16oz takeaway cup, fully visible and centered with8% breathing room, realistic condensation. Exact recipe: Lemongrass Lime Cooler:140ml cold FILTERED lemongrass infusion,20ml lemon/lime juice,25ml simple syrup mixed over170g ice. Translucent very pale straw-gold drink with slight citrus haze, STILL not carbonated. No lemongrass stalks, leaves, citrus slices, milk, mint or garnish. Reproduce the attached dark-green 9 FLOOR COFFEE logo on a centered white cup label. Show only the finished drink. No people, hands, third-party logos, surrounding props, extra captions or unlisted ingredients. Fresh individual photograph for this recipe.",
+      "visual": "Lemongrass Lime Cooler:140ml cold FILTERED lemongrass infusion,20ml lemon/lime juice,25ml simple syrup mixed over170g ice. Translucent very pale straw-gold drink with slight citrus haze, STILL not carbonated. No lemongrass stalks, leaves, citrus slices, milk, mint or garnish."
     }
   ]
 }
