@@ -1,6 +1,6 @@
 {
   "scope": "Original 260 recipes",
-  "reviewed": 54,
+  "reviewed": 56,
   "target": 260,
   "method": "imagegen",
   "rows": [
@@ -813,6 +813,36 @@
       "reviewedAt": "2026-11-16",
       "prompt": "Create a new standalone photorealistic premium cafe menu photograph, square composition. One whole appropriate serving cup (as specified in the recipe below) centered, fully visible with 8% breathing room, warm off-white seamless studio background, soft natural side lighting and realistic cold condensation for iced drinks or a clean dry ceramic surface for hot drinks. Recipe to depict (do not print its name): Hot Chocolate:20g chocolate powder dissolved in60ml hot water,10ml simple syrup and120ml warmed milk. Uniform medium chocolate-brown hot milk,12oz white ceramic cup with handle, smooth creamy surface with slight fine bubbles. No coffee, chocolate chunks, marshmallows, whipped cream or garnish. Show ONLY the actual finished drink. Coffee grounds are for brewing and must not appear in the cup. Reproduce the exact dark-green 9 FLOOR COFFEE logo from the attached logo-only reference on a centered white cup label. No people, hands, third-party logos, extra captions, surrounding props or ingredients not specified. This must be a fresh individual photograph, not a reuse of another menu image.",
       "visual": "Hot Chocolate:20g chocolate powder dissolved in60ml hot water,10ml simple syrup and120ml warmed milk. Uniform medium chocolate-brown hot milk,12oz white ceramic cup with handle, smooth creamy surface with slight fine bubbles. No coffee, chocolate chunks, marshmallows, whipped cream or garnish."
+    },
+    {
+      "key": "v8-04-17",
+      "file": "recipe-photos/v8-04-17.webp",
+      "width": 768,
+      "height": 768,
+      "bytes": 17898,
+      "sha256": "bf4cc9ada4db782df1f05fedcab10dd6715d6235b0a9165aea4cf498fdaf71c2",
+      "gitSha": "b5ca7a21287b53c4e045d5d42bf1a1751d66a969",
+      "recipeName": "Hot Lemon Tea",
+      "ingredientsSha256": "224b3112204120c22206bdcc5d619b9bcdf6fca40f8cd916ffe1a9da6ebbb6ff",
+      "method": "imagegen",
+      "reviewedAt": "2026-11-16",
+      "prompt": "Create a new standalone photorealistic premium cafe menu photograph, square composition. One whole appropriate serving cup (as specified in the recipe below) centered, fully visible with 8% breathing room, warm off-white seamless studio background, soft natural side lighting and realistic cold condensation for iced drinks or a clean dry ceramic surface for hot drinks. Recipe to depict (do not print its name): Hot Lemon Tea:6g black tea steeped in60ml hot water and FILTERED,20ml lemon juice and10ml simple syrup. A small90ml serving of translucent amber-black tea in a partly filled white heatproof cup. NO MILK (the generic milk field in source applies only to milk drinks), no ice, tea leaves, lemon slices or garnish. Show ONLY the actual finished drink. Coffee grounds are for brewing and must not appear in the cup. Reproduce the exact dark-green 9 FLOOR COFFEE logo from the attached logo-only reference on a centered white cup label. No people, hands, third-party logos, extra captions, surrounding props or ingredients not specified. This must be a fresh individual photograph, not a reuse of another menu image.",
+      "visual": "Hot Lemon Tea:6g black tea steeped in60ml hot water and FILTERED,20ml lemon juice and10ml simple syrup. A small90ml serving of translucent amber-black tea in a partly filled white heatproof cup. NO MILK (the generic milk field in source applies only to milk drinks), no ice, tea leaves, lemon slices or garnish."
+    },
+    {
+      "key": "v8-04-18",
+      "file": "recipe-photos/v8-04-18.webp",
+      "width": 768,
+      "height": 768,
+      "bytes": 18930,
+      "sha256": "24667ac1ce653b61f693911e97b8b7dcbea0af3a4de2804e618abb2a59141b96",
+      "gitSha": "07f35b163d6bb452e8d02fe751a2b9d6c033adb3",
+      "recipeName": "Hot Honey Lemon",
+      "ingredientsSha256": "48ebd5ffbf9fbbf8ac4540ba9ba1759d4cda2f472c6b0300b371640aa0c23d60",
+      "method": "imagegen",
+      "reviewedAt": "2026-11-16",
+      "prompt": "Create a new standalone photorealistic premium cafe menu photograph, square composition. One whole appropriate serving cup (as specified in the recipe below) centered, fully visible with 8% breathing room, warm off-white seamless studio background, soft natural side lighting and realistic cold condensation for iced drinks or a clean dry ceramic surface for hot drinks. Recipe to depict (do not print its name): Hot Honey Lemon:5g black tea steeped in60ml hot water and FILTERED,15ml honey dissolved and15ml lemon juice. A small90ml serving of translucent warm amber-black tea in a partly filled white heatproof cup. This original recipe explicitly includes black tea; show that tea color. NO MILK, ice, tea leaves, lemon slices, honey dipper or garnish. Show ONLY the actual finished drink. Coffee grounds are for brewing and must not appear in the cup. Reproduce the exact dark-green 9 FLOOR COFFEE logo from the attached logo-only reference on a centered white cup label. No people, hands, third-party logos, extra captions, surrounding props or ingredients not specified. This must be a fresh individual photograph, not a reuse of another menu image.",
+      "visual": "Hot Honey Lemon:5g black tea steeped in60ml hot water and FILTERED,15ml honey dissolved and15ml lemon juice. A small90ml serving of translucent warm amber-black tea in a partly filled white heatproof cup. This original recipe explicitly includes black tea; show that tea color. NO MILK, ice, tea leaves, lemon slices, honey dipper or garnish."
     }
   ]
 }
