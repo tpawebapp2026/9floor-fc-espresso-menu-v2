@@ -446,5 +446,53 @@
     "height": 768,
     "sha256": "24667ac1ce653b61f693911e97b8b7dcbea0af3a4de2804e618abb2a59141b96",
     "ingredientsSha256": "48ebd5ffbf9fbbf8ac4540ba9ba1759d4cda2f472c6b0300b371640aa0c23d60"
+  },
+  "v8-05-01": {
+    "key": "v8-05-01",
+    "file": "recipe-photos/v8-05-01.webp",
+    "width": 768,
+    "height": 768,
+    "sha256": "d4748d004fe0026264792694f304b2e4aab910ad46d3e90643102ce02dfec9ff",
+    "ingredientsSha256": "e53e643ec3ec859b7ad6bff58c1165258a4bd51becbd989f4d0fa153b3ac7da2"
+  },
+  "v8-05-02": {
+    "key": "v8-05-02",
+    "file": "recipe-photos/v8-05-02.webp",
+    "width": 768,
+    "height": 768,
+    "sha256": "70e1ecc777880998a2c27780c30505ed806e4365e9b60afc425a1fff336e22f4",
+    "ingredientsSha256": "ac87d2f89d537a794cee35d3b07d9e77d65e8878e03497ccbd55b4cb222b4752"
+  },
+  "v8-05-03": {
+    "key": "v8-05-03",
+    "file": "recipe-photos/v8-05-03.webp",
+    "width": 768,
+    "height": 768,
+    "sha256": "ea6fb91d3ccf82a3fe55af9dd875e6e26df19762e88009e6a8df594c6ea32ac4",
+    "ingredientsSha256": "d851562e1bacf31d47ca4f90cb03c6cad836241218b7c5b83e1f2cba13df429b"
+  },
+  "v8-05-04": {
+    "key": "v8-05-04",
+    "file": "recipe-photos/v8-05-04.webp",
+    "width": 768,
+    "height": 768,
+    "sha256": "fd38e530006d9ba053c3af858115d2782768cd6e3e444705489c363f57288e31",
+    "ingredientsSha256": "92f35553146231e957a66d4e94c3bf3fe059cd2795b7aa50c756cb5747d42306"
+  },
+  "v8-05-05": {
+    "key": "v8-05-05",
+    "file": "recipe-photos/v8-05-05.webp",
+    "width": 768,
+    "height": 768,
+    "sha256": "28b7c364481e821cc2aad8e196ebd296779c94477cab301dab1c562b81d0c48f",
+    "ingredientsSha256": "a45a23057f56c298db625a8b86aa2aa9dd8f7d061c9d3f32335d1b0ee868ce03"
+  },
+  "v8-05-06": {
+    "key": "v8-05-06",
+    "file": "recipe-photos/v8-05-06.webp",
+    "width": 768,
+    "height": 768,
+    "sha256": "cdbab61114c12ee5476c4d29939524fef7a95d7aae098acd5fa0cc297f3e335f",
+    "ingredientsSha256": "db599aaa7ece6c4c410eedc187684178211f24f3f648be73be17245508d0d8e1"
   }
 }
