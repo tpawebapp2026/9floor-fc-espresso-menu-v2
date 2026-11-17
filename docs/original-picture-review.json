@@ -1,6 +1,6 @@
 {
   "scope": "Original 260 recipes",
-  "reviewed": 178,
+  "reviewed": 183,
   "target": 260,
   "method": "imagegen",
   "rows": [
@@ -2673,6 +2673,81 @@
       "reviewedAt": "2026-11-17",
       "prompt": "Use case: product-mockup. Create ONE new photorealistic square cafe menu photograph of White Chocolate Pistachio Latte. Warm off-white seamless studio background, soft natural side lighting, fully visible centered vessel with 8% breathing room. The attached image is a LOGO reference only: reproduce its dark-green 9 FLOOR COFFEE logo accurately on a centered white label on clear cups or printed on ceramic. Recipe ingredients with exact quantities: Espresso double shot 32 g; နို့အေး 130 ml; White chocolate sauce 20 ml; Pistachio syrup 10 ml; ရေခဲ 170 g. Exact final appearance and order: White chocolate sauce and pistachio syrup mixed with cold milk over ice, espresso above. Ivory milk with only a VERY faint green tint. No nuts, chocolate pieces, foam or neon green. Unless a different vessel is specified, use clear 16oz takeaway cup. Hot drinks dry with NO ice or condensation. Cold drinks realistic ice and condensation as specified. Show only one finished drink; no people, hands, equipment, extra captions or surrounding props. No garnish, topping or ingredient not explicitly listed. No carbonation except recipes explicitly containing tonic, soda or ginger ale/beer. Match natural proportions, no artificial perfect color blocks. Each image must be a fresh individual photograph.",
       "visual": "White chocolate sauce and pistachio syrup mixed with cold milk over ice, espresso above. Ivory milk with only a VERY faint green tint. No nuts, chocolate pieces, foam or neon green."
+    },
+    {
+      "key": "v8-19-06",
+      "file": "recipe-photos/v8-19-06.webp",
+      "width": 768,
+      "height": 768,
+      "sha256": "da3dc0434e83ab6f9c25173cdeee7f8d846226310a93f5c614981d979294c5e0",
+      "ingredientsSha256": "8afcec1c0f12047b9254a831fea9a741a4a4f00a51d89030227afde0cbfcf3be",
+      "bytes": 57564,
+      "gitSha": "5405e24fe59473b301fba824277f0fae7b2ad17d",
+      "recipeName": "Nutella Latte",
+      "method": "imagegen",
+      "reviewedAt": "2026-11-17",
+      "prompt": "Use case: product-mockup. Create ONE new photorealistic square cafe menu photograph of Nutella Latte. Warm off-white seamless studio background, soft natural side lighting, fully visible centered vessel with 8% breathing room. The attached image is a LOGO reference only: reproduce its dark-green 9 FLOOR COFFEE logo accurately on a centered white label on clear cups or printed on ceramic. Recipe ingredients with exact quantities: Espresso double shot 32 g; နို့အေး 130 ml; Hazelnut cocoa spread 20 g; ရေခဲ 170 g. Exact final appearance and order: Hazelnut cocoa spread blended with cold milk over ice, espresso above. Cocoa-brown latte with subtle spread streaks inside. No nuts, chocolate pieces or cream. Unless a different vessel is specified, use clear 16oz takeaway cup. Hot drinks dry with NO ice or condensation. Cold drinks realistic ice and condensation as specified. Show only one finished drink; no people, hands, equipment, extra captions or surrounding props. No garnish, topping or ingredient not explicitly listed. No carbonation except recipes explicitly containing tonic, soda or ginger ale/beer. Match natural proportions, no artificial perfect color blocks. Each image must be a fresh individual photograph.",
+      "visual": "Hazelnut cocoa spread blended with cold milk over ice, espresso above. Cocoa-brown latte with subtle spread streaks inside. No nuts, chocolate pieces or cream."
+    },
+    {
+      "key": "v8-19-10",
+      "file": "recipe-photos/v8-19-10.webp",
+      "width": 768,
+      "height": 768,
+      "sha256": "f3a10ee8bf50db3d9797c063c840d4dad34e9188e8dbac803ea1a7971068c3be",
+      "ingredientsSha256": "24a5a750d3900dbadb0d2f6c6986aee280b83d8514774a4cce2a6c9327042465",
+      "bytes": 36718,
+      "gitSha": "b966b81d6196e02b54ae3bb283fd492541485603",
+      "recipeName": "Coconut Cream Espresso",
+      "method": "imagegen",
+      "reviewedAt": "2026-11-17",
+      "prompt": "Use case: product-mockup. Create ONE new photorealistic square cafe menu photograph of Coconut Cream Espresso. Warm off-white seamless studio background, soft natural side lighting, fully visible centered vessel with 8% breathing room. The attached image is a LOGO reference only: reproduce its dark-green 9 FLOOR COFFEE logo accurately on a centered white label on clear cups or printed on ceramic. Recipe ingredients with exact quantities: Espresso double shot 32 g; နို့အေး 130 ml; Coconut cream 40 ml; သကြားရည် 10 ml; ရေခဲ 170 g. Exact final appearance and order: Cold milk with simple syrup over ice, espresso above, soft white coconut cream top. No coconut shavings. Unless a different vessel is specified, use clear 16oz takeaway cup. Hot drinks dry with NO ice or condensation. Cold drinks realistic ice and condensation as specified. Show only one finished drink; no people, hands, equipment, extra captions or surrounding props. No garnish, topping or ingredient not explicitly listed. No carbonation except recipes explicitly containing tonic, soda or ginger ale/beer. Match natural proportions, no artificial perfect color blocks. Each image must be a fresh individual photograph.",
+      "visual": "Cold milk with simple syrup over ice, espresso above, soft white coconut cream top. No coconut shavings."
+    },
+    {
+      "key": "v8-20-01",
+      "file": "recipe-photos/v8-20-01.webp",
+      "width": 768,
+      "height": 768,
+      "sha256": "e2faa6099973fe6c5c986bcbcc795c2b35b25b2b02f6c1d0f1eb902c0b2c33b2",
+      "ingredientsSha256": "55c9f2cf9c092ff9043f3e3de51befe9460f339cec107802487990704525598f",
+      "bytes": 61172,
+      "gitSha": "f75c7ed4f7eb32e41e493ac7c0c4b41181f932fa",
+      "recipeName": "Classic Espresso Tonic",
+      "method": "imagegen",
+      "reviewedAt": "2026-11-17",
+      "prompt": "Use case: product-mockup. Create ONE new photorealistic square cafe menu photograph of Classic Espresso Tonic. Warm off-white seamless studio background, soft natural side lighting, fully visible centered vessel with 8% breathing room. The attached image is a LOGO reference only: reproduce its dark-green 9 FLOOR COFFEE logo accurately on a centered white label on clear cups or printed on ceramic. Recipe ingredients with exact quantities: Espresso double shot 32 g; Tonic water 160 ml; ရေခဲ 180 g. Exact final appearance and order: Nearly clear tonic base with fine carbonation under dark espresso poured last over ice. No milk or garnish. Unless a different vessel is specified, use clear 16oz takeaway cup. Hot drinks dry with NO ice or condensation. Cold drinks realistic ice and condensation as specified. Show only one finished drink; no people, hands, equipment, extra captions or surrounding props. No garnish, topping or ingredient not explicitly listed. No carbonation except recipes explicitly containing tonic, soda or ginger ale/beer. Match natural proportions, no artificial perfect color blocks. Each image must be a fresh individual photograph.",
+      "visual": "Nearly clear tonic base with fine carbonation under dark espresso poured last over ice. No milk or garnish."
+    },
+    {
+      "key": "v8-19-09",
+      "file": "recipe-photos/v8-19-09.webp",
+      "width": 768,
+      "height": 768,
+      "sha256": "47d7ad8baa230831f9ea9d111edbf3814076a501e727bcd54df5ee868da808a6",
+      "ingredientsSha256": "dce011839cfbbcf25c83c0b042dc2df92b3e0131dc846a68e273417396c29a7d",
+      "bytes": 35854,
+      "gitSha": "1576b45d180c90c57c1ef85e714fcb15ae97c471",
+      "recipeName": "Vanilla Bean Cream Cold Coffee",
+      "method": "imagegen",
+      "reviewedAt": "2026-11-17",
+      "prompt": "Use case: product-mockup. Create ONE new photorealistic square cafe menu photograph of Vanilla Bean Cream Cold Coffee. Warm off-white seamless studio background, soft natural side lighting, fully visible centered vessel with 8% breathing room. The attached image is a LOGO reference only: reproduce its dark-green 9 FLOOR COFFEE logo accurately on a centered white label on clear cups or printed on ceramic. Recipe ingredients with exact quantities: Espresso double shot 32 g; နို့အေး 130 ml; Vanilla bean syrup 15 ml; Cream 35 ml; ရေခဲ 170 g. Exact final appearance and order: Vanilla bean syrup mixed with cold milk over ice, espresso above, soft white cream cap. No vanilla pod, extra toppings or whipped peaks. Unless a different vessel is specified, use clear 16oz takeaway cup. Hot drinks dry with NO ice or condensation. Cold drinks realistic ice and condensation as specified. Show only one finished drink; no people, hands, equipment, extra captions or surrounding props. No garnish, topping or ingredient not explicitly listed. No carbonation except recipes explicitly containing tonic, soda or ginger ale/beer. Match natural proportions, no artificial perfect color blocks. Each image must be a fresh individual photograph.",
+      "visual": "Vanilla bean syrup mixed with cold milk over ice, espresso above, soft white cream cap. No vanilla pod, extra toppings or whipped peaks."
+    },
+    {
+      "key": "v8-20-02",
+      "file": "recipe-photos/v8-20-02.webp",
+      "width": 768,
+      "height": 768,
+      "sha256": "279c8bee4897b8811cd7c005924756705727dce09c49df1add3da8fb83ce8cf5",
+      "ingredientsSha256": "8aaace11c1f0b04afb5a2e92e9f7b9e714c62b3e0c9e89c5b143343e2a0eea44",
+      "bytes": 62034,
+      "gitSha": "ff31a4eed3b2d88ac9b6d6d9dee7c112d394c734",
+      "recipeName": "Lemon Espresso Tonic",
+      "method": "imagegen",
+      "reviewedAt": "2026-11-17",
+      "prompt": "Use case: product-mockup. Create ONE new photorealistic square cafe menu photograph of Lemon Espresso Tonic. Warm off-white seamless studio background, soft natural side lighting, fully visible centered vessel with 8% breathing room. The attached image is a LOGO reference only: reproduce its dark-green 9 FLOOR COFFEE logo accurately on a centered white label on clear cups or printed on ceramic. Recipe ingredients with exact quantities: Espresso double shot 32 g; Tonic water 140 ml; သံပုရာရည် 15 ml; ရေခဲ 180 g. Exact final appearance and order: Nearly clear pale lemon tonic under dark espresso poured last over ice, fine bubbles. No citrus slices. Unless a different vessel is specified, use clear 16oz takeaway cup. Hot drinks dry with NO ice or condensation. Cold drinks realistic ice and condensation as specified. Show only one finished drink; no people, hands, equipment, extra captions or surrounding props. No garnish, topping or ingredient not explicitly listed. No carbonation except recipes explicitly containing tonic, soda or ginger ale/beer. Match natural proportions, no artificial perfect color blocks. Each image must be a fresh individual photograph.",
+      "visual": "Nearly clear pale lemon tonic under dark espresso poured last over ice, fine bubbles. No citrus slices."
     }
   ]
 }
