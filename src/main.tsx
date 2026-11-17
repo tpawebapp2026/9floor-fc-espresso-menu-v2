@@ -1,3 +1,5 @@
+import { Ingredients } from "./Ingredients";
+import { ingredients, ingredientForName } from "./ingredients";
 import { phaseNames } from "./assembly";
 import React, { useState, useEffect, useRef } from "react";
 import { createRoot } from "react-dom/client";
@@ -89,7 +91,7 @@ function App() {
     )
       return;
     setMenuOpen(false);
-    history.pushState({}, "", routeURL(p));
+    history.pushState({ from: readRoute() }, "", routeURL(p));
     setPath(p);
     window.scrollTo({ top: 0 });
   };
@@ -315,6 +317,12 @@ function App() {
             </button>
           </div>
           <nav className="desktop-nav" aria-label="အဓိကမီနူး">
+            <button
+              className={path.startsWith("/ingredient") ? "active" : ""}
+              onClick={() => navigate("/ingredients")}
+            >
+              ကုန်ကြမ်းများ
+            </button>
             <button
               className={view === "menu" ? "active" : ""}
               onClick={() => selectView("menu")}
@@ -846,15 +854,40 @@ function App() {
           onPublished={() => void sync()}
           onExit={() => navigate("/")}
         />
+      ) : path === "/ingredients" || path.startsWith("/ingredient/") ? (
+        <Ingredients
+          key={path}
+          recipes={source}
+          id={
+            path.startsWith("/ingredient/")
+              ? path.slice("/ingredient/".length)
+              : undefined
+          }
+          navigate={navigate}
+        />
       ) : selected ? (
         <RecipeDetail
           key={selected.id}
           recipe={selected}
           related={relatedStyles(selected, source)}
+          openIngredient={(id) => navigate("/ingredient/" + id)}
+          backLabel={
+            typeof history.state?.from === "string" &&
+            history.state.from.startsWith("/ingredient/")
+              ? "← ကုန်ကြမ်းသို့ ပြန်ရန်"
+              : undefined
+          }
           open={(id) => navigate("/recipe/" + id)}
           favorite={fav.includes(selected.id)}
           toggle={() => toggle(selected.id)}
-          back={() => navigate("/")}
+          back={() =>
+            navigate(
+              typeof history.state?.from === "string" &&
+                history.state.from.startsWith("/ingredient/")
+                ? history.state.from
+                : "/",
+            )
+          }
           categoryName={
             catalog?.categories.find((c) => c.id === selected.categoryId)
               ?.name || ""
@@ -971,7 +1004,11 @@ function RecipeDetail({
   categoryName,
   related,
   open,
+  openIngredient,
+  backLabel = "← မီနူးများသို့ ပြန်ရန်",
 }: {
+  backLabel?: string;
+  openIngredient: (id: string) => void;
   recipe: Recipe;
   favorite: boolean;
   toggle: () => void;
@@ -989,7 +1026,7 @@ function RecipeDetail({
   return (
     <main className="detail">
       <button className="text-button" onClick={back}>
-        ← မီနူးများသို့ ပြန်ရန်
+        {backLabel}
       </button>
       <div className="detail-heading">
         <div>
@@ -1088,6 +1125,22 @@ function RecipeDetail({
                 </b>
               </div>
             ))}
+            <details>
+              <summary>ကုန်ကြမ်းပုံအစစ်နှင့် အသုံးပြုပုံ ကြည့်ရန်</summary>
+              <div className="ingredient-profile-links">
+                {ingredients
+                  .filter((p) =>
+                    r.ingredients.some((i) =>
+                      ingredientForName(i.name).some((m) => m.id === p.id),
+                    ),
+                  )
+                  .map((p) => (
+                    <button key={p.id} onClick={() => openIngredient(p.id)}>
+                      {p.name} →
+                    </button>
+                  ))}
+              </div>
+            </details>
             {servings > 1 && (
               <p className="notice">
                 {isPreparation(r) ? (
