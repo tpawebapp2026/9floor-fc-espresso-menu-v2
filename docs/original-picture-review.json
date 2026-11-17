@@ -1,6 +1,6 @@
 {
   "scope": "Original 260 recipes",
-  "reviewed": 173,
+  "reviewed": 178,
   "target": 260,
   "method": "imagegen",
   "rows": [
@@ -2598,6 +2598,81 @@
       "reviewedAt": "2026-11-17",
       "prompt": "Use case: product-mockup. Create ONE new photorealistic square cafe menu photograph of Pomegranate Coffee Spritz. Warm off-white seamless studio background, soft natural side lighting, fully visible centered vessel with 8% breathing room. The attached image is a LOGO reference only: reproduce its dark-green 9 FLOOR COFFEE logo accurately on a centered white label on clear cups or printed on ceramic. Recipe ingredients with exact quantities: Espresso double shot 32 g; Soda water 110 ml; Pomegranate juice 60 ml; ရေခဲ 180 g. Exact final appearance and order: Pomegranate juice and soda base: ruby-pink translucent lower liquid under dark espresso poured last, ice, fine bubbles. No seeds or fresh fruit. Unless a different vessel is specified, use clear 16oz takeaway cup. Hot drinks dry with NO ice or condensation. Cold drinks realistic ice and condensation as specified. Show only one finished drink; no people, hands, equipment, extra captions or surrounding props. No garnish, topping or ingredient not explicitly listed. No carbonation except recipes explicitly containing tonic, soda or ginger ale/beer. Match natural proportions, no artificial perfect color blocks. Each image must be a fresh individual photograph.",
       "visual": "Pomegranate juice and soda base: ruby-pink translucent lower liquid under dark espresso poured last, ice, fine bubbles. No seeds or fresh fruit."
+    },
+    {
+      "key": "v8-19-01",
+      "file": "recipe-photos/v8-19-01.webp",
+      "width": 768,
+      "height": 768,
+      "sha256": "2ffaac87341dc520521bebed59cc3d500317c9668c256478c9a2e92aed0e63d3",
+      "ingredientsSha256": "da6c024841e0ff470248f8a7abe7a845a13ac64089e3bec836f81e61cbe52a14",
+      "bytes": 30250,
+      "gitSha": "ae580265b1374001b1458757aab539c59fc41c26",
+      "recipeName": "Einspänner Coffee",
+      "method": "imagegen",
+      "reviewedAt": "2026-11-17",
+      "prompt": "Use case: product-mockup. Create ONE new photorealistic square cafe menu photograph of Einspänner Coffee. Warm off-white seamless studio background, soft natural side lighting, fully visible centered vessel with 8% breathing room. The attached image is a LOGO reference only: reproduce its dark-green 9 FLOOR COFFEE logo accurately on a centered white label on clear cups or printed on ceramic. Recipe ingredients with exact quantities: Espresso double shot 32 g; ရေပူ 90 ml; Whipping cream 45 ml; သကြား 5 g. Exact final appearance and order: Hot black coffee diluted with hot water; soft thick sweet white whipped cream cap. Small clear heatproof handled glass; no ice, no milk base. Unless a different vessel is specified, use clear 16oz takeaway cup. Hot drinks dry with NO ice or condensation. Cold drinks realistic ice and condensation as specified. Show only one finished drink; no people, hands, equipment, extra captions or surrounding props. No garnish, topping or ingredient not explicitly listed. No carbonation except recipes explicitly containing tonic, soda or ginger ale/beer. Match natural proportions, no artificial perfect color blocks. Each image must be a fresh individual photograph.",
+      "visual": "Hot black coffee diluted with hot water; soft thick sweet white whipped cream cap. Small clear heatproof handled glass; no ice, no milk base."
+    },
+    {
+      "key": "v8-19-03",
+      "file": "recipe-photos/v8-19-03.webp",
+      "width": 768,
+      "height": 768,
+      "sha256": "7b2d787b3f0c0dc4eb38267e7288c34d9f22110fa208287110214ae80e3b43ce",
+      "ingredientsSha256": "490605b26a0464be36eabde6c873162c91a8436db99bc00ed6a607d8010e1ebb",
+      "bytes": 59006,
+      "gitSha": "ca2be20cadd27273f023991de78765fb032bb032",
+      "recipeName": "Tiramisu Latte",
+      "method": "imagegen",
+      "reviewedAt": "2026-11-17",
+      "prompt": "Use case: product-mockup. Create ONE new photorealistic square cafe menu photograph of Tiramisu Latte. Warm off-white seamless studio background, soft natural side lighting, fully visible centered vessel with 8% breathing room. The attached image is a LOGO reference only: reproduce its dark-green 9 FLOOR COFFEE logo accurately on a centered white label on clear cups or printed on ceramic. Recipe ingredients with exact quantities: Espresso double shot 32 g; နို့အေး 130 ml; Mascarpone cream 40 g; Cocoa powder 2 g; ရေခဲ 170 g. Exact final appearance and order: Cold milk and ice below espresso; thick mascarpone cream cap with light cocoa powder dusting. No cake or biscuit. Unless a different vessel is specified, use clear 16oz takeaway cup. Hot drinks dry with NO ice or condensation. Cold drinks realistic ice and condensation as specified. Show only one finished drink; no people, hands, equipment, extra captions or surrounding props. No garnish, topping or ingredient not explicitly listed. No carbonation except recipes explicitly containing tonic, soda or ginger ale/beer. Match natural proportions, no artificial perfect color blocks. Each image must be a fresh individual photograph.",
+      "visual": "Cold milk and ice below espresso; thick mascarpone cream cap with light cocoa powder dusting. No cake or biscuit."
+    },
+    {
+      "key": "v8-19-08",
+      "file": "recipe-photos/v8-19-08.webp",
+      "width": 768,
+      "height": 768,
+      "sha256": "4a31690f237d17b18c8cebc7d25b4df67893a22405bf83d22fa331c4d5798b10",
+      "ingredientsSha256": "227571d05a3bfe6a73b90e6aafe7a2d73a9621df8b259f8acee0bfff625a36ef",
+      "bytes": 34234,
+      "gitSha": "1b217e2799c5f7c198557f88952a3d819f15b5c6",
+      "recipeName": "Salted Honey Cream Coffee",
+      "method": "imagegen",
+      "reviewedAt": "2026-11-17",
+      "prompt": "Use case: product-mockup. Create ONE new photorealistic square cafe menu photograph of Salted Honey Cream Coffee. Warm off-white seamless studio background, soft natural side lighting, fully visible centered vessel with 8% breathing room. The attached image is a LOGO reference only: reproduce its dark-green 9 FLOOR COFFEE logo accurately on a centered white label on clear cups or printed on ceramic. Recipe ingredients with exact quantities: Espresso double shot 32 g; နို့အေး 130 ml; ပျားရည် 20 ml; Salted cream 35 ml; ရေခဲ 170 g. Exact final appearance and order: Honey mixed with cold milk over ice, espresso above, soft white salted cream cap. No honeycomb, salt crystals or drizzle. Unless a different vessel is specified, use clear 16oz takeaway cup. Hot drinks dry with NO ice or condensation. Cold drinks realistic ice and condensation as specified. Show only one finished drink; no people, hands, equipment, extra captions or surrounding props. No garnish, topping or ingredient not explicitly listed. No carbonation except recipes explicitly containing tonic, soda or ginger ale/beer. Match natural proportions, no artificial perfect color blocks. Each image must be a fresh individual photograph.",
+      "visual": "Honey mixed with cold milk over ice, espresso above, soft white salted cream cap. No honeycomb, salt crystals or drizzle."
+    },
+    {
+      "key": "v8-19-04",
+      "file": "recipe-photos/v8-19-04.webp",
+      "width": 768,
+      "height": 768,
+      "sha256": "35e8cdcf989aeb79f2c8c05e2722d1d9c3247683a8aaf305ee21ca323ab6ff21",
+      "ingredientsSha256": "81b93c3142d3708dec7c06577c00c4174fa60a92fa4158c256ab3f86e1022d38",
+      "bytes": 38348,
+      "gitSha": "f668c15a7cfe53e8001f48df4ae7bec22cfe28cf",
+      "recipeName": "Crème Brûlée Latte",
+      "method": "imagegen",
+      "reviewedAt": "2026-11-17",
+      "prompt": "Use case: product-mockup. Create ONE new photorealistic square cafe menu photograph of Crème Brûlée Latte. Warm off-white seamless studio background, soft natural side lighting, fully visible centered vessel with 8% breathing room. The attached image is a LOGO reference only: reproduce its dark-green 9 FLOOR COFFEE logo accurately on a centered white label on clear cups or printed on ceramic. Recipe ingredients with exact quantities: Espresso double shot 32 g; နို့အေး 130 ml; Caramel syrup 20 ml; Custard cream 25 ml; ရေခဲ 170 g. Exact final appearance and order: Caramel-flavored cold milk and ice below espresso; pale yellow custard cream cap. NO burnt sugar crust, extra sugar, flame or whipped cream. Unless a different vessel is specified, use clear 16oz takeaway cup. Hot drinks dry with NO ice or condensation. Cold drinks realistic ice and condensation as specified. Show only one finished drink; no people, hands, equipment, extra captions or surrounding props. No garnish, topping or ingredient not explicitly listed. No carbonation except recipes explicitly containing tonic, soda or ginger ale/beer. Match natural proportions, no artificial perfect color blocks. Each image must be a fresh individual photograph.",
+      "visual": "Caramel-flavored cold milk and ice below espresso; pale yellow custard cream cap. NO burnt sugar crust, extra sugar, flame or whipped cream."
+    },
+    {
+      "key": "v8-19-07",
+      "file": "recipe-photos/v8-19-07.webp",
+      "width": 768,
+      "height": 768,
+      "sha256": "3cf5a34dad2f957650b911c79c6fe75f12433064373ec2569d5205c19614babd",
+      "ingredientsSha256": "379aa9e6a8514eefccf59063ea1c67ad9d543c1d0aa487be707ef08b41601937",
+      "bytes": 41636,
+      "gitSha": "8d5bd17a088a3039d456196093b93f97ac19ed7f",
+      "recipeName": "White Chocolate Pistachio Latte",
+      "method": "imagegen",
+      "reviewedAt": "2026-11-17",
+      "prompt": "Use case: product-mockup. Create ONE new photorealistic square cafe menu photograph of White Chocolate Pistachio Latte. Warm off-white seamless studio background, soft natural side lighting, fully visible centered vessel with 8% breathing room. The attached image is a LOGO reference only: reproduce its dark-green 9 FLOOR COFFEE logo accurately on a centered white label on clear cups or printed on ceramic. Recipe ingredients with exact quantities: Espresso double shot 32 g; နို့အေး 130 ml; White chocolate sauce 20 ml; Pistachio syrup 10 ml; ရေခဲ 170 g. Exact final appearance and order: White chocolate sauce and pistachio syrup mixed with cold milk over ice, espresso above. Ivory milk with only a VERY faint green tint. No nuts, chocolate pieces, foam or neon green. Unless a different vessel is specified, use clear 16oz takeaway cup. Hot drinks dry with NO ice or condensation. Cold drinks realistic ice and condensation as specified. Show only one finished drink; no people, hands, equipment, extra captions or surrounding props. No garnish, topping or ingredient not explicitly listed. No carbonation except recipes explicitly containing tonic, soda or ginger ale/beer. Match natural proportions, no artificial perfect color blocks. Each image must be a fresh individual photograph.",
+      "visual": "White chocolate sauce and pistachio syrup mixed with cold milk over ice, espresso above. Ivory milk with only a VERY faint green tint. No nuts, chocolate pieces, foam or neon green."
     }
   ]
 }
