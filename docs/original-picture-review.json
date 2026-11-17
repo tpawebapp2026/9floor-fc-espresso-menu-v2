@@ -1,6 +1,6 @@
 {
   "scope": "Original 260 recipes",
-  "reviewed": 208,
+  "reviewed": 213,
   "target": 260,
   "method": "imagegen",
   "rows": [
@@ -3123,6 +3123,81 @@
       "reviewedAt": "2026-11-17",
       "prompt": "Use case: product-mockup. Create ONE new photorealistic square cafe menu photograph of Cold Brew With Vanilla Cold Foam. Warm off-white seamless studio background, soft natural side lighting, fully visible centered vessel with 8% breathing room. The attached image is a LOGO reference only: reproduce its dark-green 9 FLOOR COFFEE logo accurately on a centered white label on clear cups or printed on ceramic. Recipe ingredients with exact quantities: Cold brew concentrate 100 ml; ရေအေး 70 ml; Vanilla cold foam 50 ml; ရေခဲ 160 g. Exact final appearance and order: Cold brew diluted with still water over ice, topped with thick flat white vanilla cold foam. Dark coffee below white foam, no milk base or drizzle. Unless a different vessel is specified, use clear 16oz takeaway cup. Hot drinks dry with NO ice or condensation. Cold drinks realistic ice and condensation as specified. Show only one finished drink; no people, hands, equipment, extra captions or surrounding props. No garnish, topping or ingredient not explicitly listed. No carbonation except recipes explicitly containing tonic, soda or ginger ale/beer. Match natural proportions, no artificial perfect color blocks. Each image must be a fresh individual photograph.",
       "visual": "Cold brew diluted with still water over ice, topped with thick flat white vanilla cold foam. Dark coffee below white foam, no milk base or drizzle."
+    },
+    {
+      "key": "v8-22-10",
+      "file": "recipe-photos/v8-22-10.webp",
+      "width": 768,
+      "height": 768,
+      "sha256": "98ece5c4949fa07f822e3dfd24db1b47f1834efedd9ffb62f0d7b07f854ee368",
+      "ingredientsSha256": "42714c9506b12a00febbd7fe11b9d3846758d8e3acc4c8d1ae4c6587fb38aefc",
+      "bytes": 55176,
+      "gitSha": "bf0a980a935b51d86802da834bde0944ccd93d21",
+      "recipeName": "Nitro-Style Cold Brew (No Nitrogen)",
+      "method": "imagegen",
+      "reviewedAt": "2026-11-17",
+      "prompt": "Use case: product-mockup. Create ONE new photorealistic square cafe menu photograph of Nitro-Style Cold Brew (No Nitrogen). Warm off-white seamless studio background, soft natural side lighting, fully visible centered vessel with 8% breathing room. The attached image is a LOGO reference only: reproduce its dark-green 9 FLOOR COFFEE logo accurately on a centered white label on clear cups or printed on ceramic. Recipe ingredients with exact quantities: Cold brew concentrate 100 ml; ရေအေး 90 ml; ရေခဲ 170 g. Exact final appearance and order: Ordinary cold brew diluted with still water over ice. Recipe has NO nitrogen: no cascading nitrogen bubbles, stout-like head, foam, milk or carbonation. Unless a different vessel is specified, use clear 16oz takeaway cup. Hot drinks dry with NO ice or condensation. Cold drinks realistic ice and condensation as specified. Show only one finished drink; no people, hands, equipment, extra captions or surrounding props. No garnish, topping or ingredient not explicitly listed. No carbonation except recipes explicitly containing tonic, soda or ginger ale/beer. Match natural proportions, no artificial perfect color blocks. Each image must be a fresh individual photograph.",
+      "visual": "Ordinary cold brew diluted with still water over ice. Recipe has NO nitrogen: no cascading nitrogen bubbles, stout-like head, foam, milk or carbonation."
+    },
+    {
+      "key": "v8-23-05",
+      "file": "recipe-photos/v8-23-05.webp",
+      "width": 768,
+      "height": 768,
+      "sha256": "8cd0caaf74c4bc770f3a54558c7f43e958a8effb702abeb1618ae71c21eb7995",
+      "ingredientsSha256": "c9eb89d6bdb47f430fc7530c744c7d459367d94b7685b1d2ce8b8ace2c4926c3",
+      "bytes": 32482,
+      "gitSha": "6084212a5c01665b86aa4fdc1e68cac91564e3f4",
+      "recipeName": "Moka Pot Coffee",
+      "method": "imagegen",
+      "reviewedAt": "2026-11-17",
+      "prompt": "Use case: product-mockup. Create ONE new photorealistic square cafe menu photograph of Moka Pot Coffee. Warm off-white seamless studio background, soft natural side lighting, fully visible centered vessel with 8% breathing room. The attached image is a LOGO reference only: reproduce its dark-green 9 FLOOR COFFEE logo accurately on a centered white label on clear cups or printed on ceramic. Recipe ingredients with exact quantities: Moka pot အရွယ်အစားအလိုက် ကော်ဖီ/ရေ . Exact final appearance and order: Finished hot concentrated Moka pot coffee in SMALL 90ml heatproof clear glass. Dark coffee, minimal surface bubbles, no milk, ice, espresso crema or equipment. Unless a different vessel is specified, use clear 16oz takeaway cup. Hot drinks dry with NO ice or condensation. Cold drinks realistic ice and condensation as specified. Show only one finished drink; no people, hands, equipment, extra captions or surrounding props. No garnish, topping or ingredient not explicitly listed. No carbonation except recipes explicitly containing tonic, soda or ginger ale/beer. Match natural proportions, no artificial perfect color blocks. Each image must be a fresh individual photograph.",
+      "visual": "Finished hot concentrated Moka pot coffee in SMALL 90ml heatproof clear glass. Dark coffee, minimal surface bubbles, no milk, ice, espresso crema or equipment."
+    },
+    {
+      "key": "v8-22-05",
+      "file": "recipe-photos/v8-22-05.webp",
+      "width": 768,
+      "height": 768,
+      "sha256": "bdc9e293da30a928e1d592019d5641b6df0b02a16d7cf4176c70ab4b33485389",
+      "ingredientsSha256": "9c434ff0c48cbc3f1149fdae0fff746e7ff28340220022f669eb175cecc2080f",
+      "bytes": 62806,
+      "gitSha": "c57c086036652a01413bc8d422859082dcd53dfe",
+      "recipeName": "Coconut Cold Brew",
+      "method": "imagegen",
+      "reviewedAt": "2026-11-17",
+      "prompt": "Use case: product-mockup. Create ONE new photorealistic square cafe menu photograph of Coconut Cold Brew. Warm off-white seamless studio background, soft natural side lighting, fully visible centered vessel with 8% breathing room. The attached image is a LOGO reference only: reproduce its dark-green 9 FLOOR COFFEE logo accurately on a centered white label on clear cups or printed on ceramic. Recipe ingredients with exact quantities: Cold brew concentrate 100 ml; အုန်းရည် 100 ml; ရေခဲ 170 g. Exact final appearance and order: Cold brew with clear COCONUT WATER over ice, translucent dark amber black coffee. NO coconut MILK, no white layer or fruit. Unless a different vessel is specified, use clear 16oz takeaway cup. Hot drinks dry with NO ice or condensation. Cold drinks realistic ice and condensation as specified. Show only one finished drink; no people, hands, equipment, extra captions or surrounding props. No garnish, topping or ingredient not explicitly listed. No carbonation except recipes explicitly containing tonic, soda or ginger ale/beer. Match natural proportions, no artificial perfect color blocks. Each image must be a fresh individual photograph.",
+      "visual": "Cold brew with clear COCONUT WATER over ice, translucent dark amber black coffee. NO coconut MILK, no white layer or fruit."
+    },
+    {
+      "key": "v8-22-07",
+      "file": "recipe-photos/v8-22-07.webp",
+      "width": 768,
+      "height": 768,
+      "sha256": "d32dcf244d5ea9d141016a832e0cf78b36a191725f2d0c68ca3573b0a58e3977",
+      "ingredientsSha256": "b1fe62349cfab51497d1f186792715fa04e5b7c044bb84b0a1fc31769138a957",
+      "bytes": 74816,
+      "gitSha": "c2f2c2b9266754b7532a1aabd024e716ec211168",
+      "recipeName": "Cold Brew Tonic",
+      "method": "imagegen",
+      "reviewedAt": "2026-11-17",
+      "prompt": "Use case: product-mockup. Create ONE new photorealistic square cafe menu photograph of Cold Brew Tonic. Warm off-white seamless studio background, soft natural side lighting, fully visible centered vessel with 8% breathing room. The attached image is a LOGO reference only: reproduce its dark-green 9 FLOOR COFFEE logo accurately on a centered white label on clear cups or printed on ceramic. Recipe ingredients with exact quantities: Cold brew concentrate 90 ml; Tonic water 120 ml; ရေခဲ 170 g. Exact final appearance and order: Cold brew over ice, tonic poured LAST. Naturally combined translucent carbonated amber-brown drink with fine bubbles, no layered espresso cap, milk or crema. Unless a different vessel is specified, use clear 16oz takeaway cup. Hot drinks dry with NO ice or condensation. Cold drinks realistic ice and condensation as specified. Show only one finished drink; no people, hands, equipment, extra captions or surrounding props. No garnish, topping or ingredient not explicitly listed. No carbonation except recipes explicitly containing tonic, soda or ginger ale/beer. Match natural proportions, no artificial perfect color blocks. Each image must be a fresh individual photograph.",
+      "visual": "Cold brew over ice, tonic poured LAST. Naturally combined translucent carbonated amber-brown drink with fine bubbles, no layered espresso cap, milk or crema."
+    },
+    {
+      "key": "v8-23-08",
+      "file": "recipe-photos/v8-23-08.webp",
+      "width": 768,
+      "height": 768,
+      "sha256": "a85ccdd8307b65512915066300652d405a59e219c0e8f3a2832a87e108491366",
+      "ingredientsSha256": "2eb2234f893aa11cafc7875ead6d8feb175cc3f9c03a9b6023f4ef199ee25fb7",
+      "bytes": 39430,
+      "gitSha": "dca62c18380d13684b1b3e537516b84518b8cfc5",
+      "recipeName": "Honey V60",
+      "method": "imagegen",
+      "reviewedAt": "2026-11-17",
+      "prompt": "Use case: product-mockup. Create ONE new photorealistic square cafe menu photograph of Honey V60. Warm off-white seamless studio background, soft natural side lighting, fully visible centered vessel with 8% breathing room. The attached image is a LOGO reference only: reproduce its dark-green 9 FLOOR COFFEE logo accurately on a centered white label on clear cups or printed on ceramic. Recipe ingredients with exact quantities: ကော်ဖီစေ့ 15 g; ရေပူ 240 g; ပျားရည် 10 ml. Exact final appearance and order: Finished hot V60 black coffee with honey dissolved after brewing. Medium clear heatproof handled glass, amber-brown, no honeycomb, honey drizzle, milk, ice or equipment. Unless a different vessel is specified, use clear 16oz takeaway cup. Hot drinks dry with NO ice or condensation. Cold drinks realistic ice and condensation as specified. Show only one finished drink; no people, hands, equipment, extra captions or surrounding props. No garnish, topping or ingredient not explicitly listed. No carbonation except recipes explicitly containing tonic, soda or ginger ale/beer. Match natural proportions, no artificial perfect color blocks. Each image must be a fresh individual photograph.",
+      "visual": "Finished hot V60 black coffee with honey dissolved after brewing. Medium clear heatproof handled glass, amber-brown, no honeycomb, honey drizzle, milk, ice or equipment."
     }
   ]
 }
