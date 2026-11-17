@@ -1,6 +1,6 @@
 {
   "scope": "Original 260 recipes",
-  "reviewed": 188,
+  "reviewed": 193,
   "target": 260,
   "method": "imagegen",
   "rows": [
@@ -2823,6 +2823,81 @@
       "reviewedAt": "2026-11-17",
       "prompt": "Use case: product-mockup. Create ONE new photorealistic square cafe menu photograph of Cherry Coffee Soda. Warm off-white seamless studio background, soft natural side lighting, fully visible centered vessel with 8% breathing room. The attached image is a LOGO reference only: reproduce its dark-green 9 FLOOR COFFEE logo accurately on a centered white label on clear cups or printed on ceramic. Recipe ingredients with exact quantities: Espresso double shot 32 g; Soda water 140 ml; Cherry syrup 20 ml; ရေခဲ 180 g. Exact final appearance and order: Cherry syrup and soda base: translucent cherry red under dark espresso poured last over ice, fine bubbles. No cherries. Unless a different vessel is specified, use clear 16oz takeaway cup. Hot drinks dry with NO ice or condensation. Cold drinks realistic ice and condensation as specified. Show only one finished drink; no people, hands, equipment, extra captions or surrounding props. No garnish, topping or ingredient not explicitly listed. No carbonation except recipes explicitly containing tonic, soda or ginger ale/beer. Match natural proportions, no artificial perfect color blocks. Each image must be a fresh individual photograph.",
       "visual": "Cherry syrup and soda base: translucent cherry red under dark espresso poured last over ice, fine bubbles. No cherries."
+    },
+    {
+      "key": "v8-20-08",
+      "file": "recipe-photos/v8-20-08.webp",
+      "width": 768,
+      "height": 768,
+      "sha256": "59eaad3ae290914e02696457691b493600294141be277d8b99fd75ff60401a69",
+      "ingredientsSha256": "489877aa0f4b500447b26477a5d65ba8579bbe08cf3d81a95fb01d7f88f7da47",
+      "bytes": 70140,
+      "gitSha": "ad3f70b4a8f3c245774bbd69f125989ec3775ffc",
+      "recipeName": "Blackcurrant Espresso Fizz",
+      "method": "imagegen",
+      "reviewedAt": "2026-11-17",
+      "prompt": "Use case: product-mockup. Create ONE new photorealistic square cafe menu photograph of Blackcurrant Espresso Fizz. Warm off-white seamless studio background, soft natural side lighting, fully visible centered vessel with 8% breathing room. The attached image is a LOGO reference only: reproduce its dark-green 9 FLOOR COFFEE logo accurately on a centered white label on clear cups or printed on ceramic. Recipe ingredients with exact quantities: Espresso double shot 32 g; Soda water 140 ml; Blackcurrant syrup 20 ml; ရေခဲ 180 g. Exact final appearance and order: Blackcurrant syrup and soda base: translucent dark red-purple under dark espresso poured last over ice, fine bubbles. No berries. Unless a different vessel is specified, use clear 16oz takeaway cup. Hot drinks dry with NO ice or condensation. Cold drinks realistic ice and condensation as specified. Show only one finished drink; no people, hands, equipment, extra captions or surrounding props. No garnish, topping or ingredient not explicitly listed. No carbonation except recipes explicitly containing tonic, soda or ginger ale/beer. Match natural proportions, no artificial perfect color blocks. Each image must be a fresh individual photograph.",
+      "visual": "Blackcurrant syrup and soda base: translucent dark red-purple under dark espresso poured last over ice, fine bubbles. No berries."
+    },
+    {
+      "key": "v8-20-10",
+      "file": "recipe-photos/v8-20-10.webp",
+      "width": 768,
+      "height": 768,
+      "sha256": "dfb35c95ef9dd327f455fcb34e71902e9d80ca80799cf6f251dbe33895064dda",
+      "ingredientsSha256": "c060e4b340c23e4ef5b5c86c85f1846943af9f2541961343caac23cb13a3d862",
+      "bytes": 67134,
+      "gitSha": "dc9895dfdd680ec3e38cb6565174395da0e89e97",
+      "recipeName": "Lime Mint Espresso Soda",
+      "method": "imagegen",
+      "reviewedAt": "2026-11-17",
+      "prompt": "Use case: product-mockup. Create ONE new photorealistic square cafe menu photograph of Lime Mint Espresso Soda. Warm off-white seamless studio background, soft natural side lighting, fully visible centered vessel with 8% breathing room. The attached image is a LOGO reference only: reproduce its dark-green 9 FLOOR COFFEE logo accurately on a centered white label on clear cups or printed on ceramic. Recipe ingredients with exact quantities: Espresso double shot 32 g; Soda water 140 ml; Lime juice 15 ml; Mint 4 ရွက်; ရေခဲ 180 g. Exact final appearance and order: Nearly clear pale lime soda under dark espresso poured last over ice; exactly FOUR small mint leaves inside. Fine bubbles, no lime slices. Unless a different vessel is specified, use clear 16oz takeaway cup. Hot drinks dry with NO ice or condensation. Cold drinks realistic ice and condensation as specified. Show only one finished drink; no people, hands, equipment, extra captions or surrounding props. No garnish, topping or ingredient not explicitly listed. No carbonation except recipes explicitly containing tonic, soda or ginger ale/beer. Match natural proportions, no artificial perfect color blocks. Each image must be a fresh individual photograph.",
+      "visual": "Nearly clear pale lime soda under dark espresso poured last over ice; exactly FOUR small mint leaves inside. Fine bubbles, no lime slices."
+    },
+    {
+      "key": "v8-21-01",
+      "file": "recipe-photos/v8-21-01.webp",
+      "width": 768,
+      "height": 768,
+      "sha256": "bef9fec90b51ccb1d17fa18ab995bca384a33cbecad6b3f8c1a4cb11308ca397",
+      "ingredientsSha256": "9ef3472b1af6aeaf0700f2f412008ae3c81babae5e264951b739474c266b02ff",
+      "bytes": 48280,
+      "gitSha": "4be59b3de99ee7775244ff33b097201cb48ac7c6",
+      "recipeName": "Vietnamese Iced Coffee",
+      "method": "imagegen",
+      "reviewedAt": "2026-11-17",
+      "prompt": "Use case: product-mockup. Create ONE new photorealistic square cafe menu photograph of Vietnamese Iced Coffee. Warm off-white seamless studio background, soft natural side lighting, fully visible centered vessel with 8% breathing room. The attached image is a LOGO reference only: reproduce its dark-green 9 FLOOR COFFEE logo accurately on a centered white label on clear cups or printed on ceramic. Recipe ingredients with exact quantities: Espresso double shot 32 g; နို့ဆီ 30 ml; ရေခဲ 170 g. Exact final appearance and order: Espresso and condensed milk thoroughly mixed BEFORE ice: uniform rich caramel-brown strong milk coffee, compact clear serving glass over ice. No separate condensed milk bottom layer. Unless a different vessel is specified, use clear 16oz takeaway cup. Hot drinks dry with NO ice or condensation. Cold drinks realistic ice and condensation as specified. Show only one finished drink; no people, hands, equipment, extra captions or surrounding props. No garnish, topping or ingredient not explicitly listed. No carbonation except recipes explicitly containing tonic, soda or ginger ale/beer. Match natural proportions, no artificial perfect color blocks. Each image must be a fresh individual photograph.",
+      "visual": "Espresso and condensed milk thoroughly mixed BEFORE ice: uniform rich caramel-brown strong milk coffee, compact clear serving glass over ice. No separate condensed milk bottom layer."
+    },
+    {
+      "key": "v8-21-03",
+      "file": "recipe-photos/v8-21-03.webp",
+      "width": 768,
+      "height": 768,
+      "sha256": "80cd4ccd10dedfe497091f70202028e5c4268c751936abaf5f119f4676653718",
+      "ingredientsSha256": "d33608ba2e39b1eba9cfeeff10581bdc5e0c8fa8642bf952193a4f0c112ea22a",
+      "bytes": 60608,
+      "gitSha": "663da54ddbd83f90151509f9a7b5596c933d00ee",
+      "recipeName": "Thai Oliang Coffee",
+      "method": "imagegen",
+      "reviewedAt": "2026-11-17",
+      "prompt": "Use case: product-mockup. Create ONE new photorealistic square cafe menu photograph of Thai Oliang Coffee. Warm off-white seamless studio background, soft natural side lighting, fully visible centered vessel with 8% breathing room. The attached image is a LOGO reference only: reproduce its dark-green 9 FLOOR COFFEE logo accurately on a centered white label on clear cups or printed on ceramic. Recipe ingredients with exact quantities: Thai oliang coffee powder 20 g; သကြား 15 g; ရေခဲ 170 g. Exact final appearance and order: Strained strong black Oliang brewed with about 220ml water, sugar dissolved, cooled over ice. Dark translucent coffee, no milk, foam or garnish. Unless a different vessel is specified, use clear 16oz takeaway cup. Hot drinks dry with NO ice or condensation. Cold drinks realistic ice and condensation as specified. Show only one finished drink; no people, hands, equipment, extra captions or surrounding props. No garnish, topping or ingredient not explicitly listed. No carbonation except recipes explicitly containing tonic, soda or ginger ale/beer. Match natural proportions, no artificial perfect color blocks. Each image must be a fresh individual photograph.",
+      "visual": "Strained strong black Oliang brewed with about 220ml water, sugar dissolved, cooled over ice. Dark translucent coffee, no milk, foam or garnish."
+    },
+    {
+      "key": "v8-21-02",
+      "file": "recipe-photos/v8-21-02.webp",
+      "width": 768,
+      "height": 768,
+      "sha256": "270e75211770dae650a60d4f8a469e0a061d0015da98df2aebe19612461b4b01",
+      "ingredientsSha256": "ff711a703828d762be329863e59ceba16e40a5ceb9994fadab89b767dacf6b46",
+      "bytes": 42184,
+      "gitSha": "c7f20fdb847a53c389133d9d8457dd9e661d5215",
+      "recipeName": "Vietnamese Egg Coffee",
+      "method": "imagegen",
+      "reviewedAt": "2026-11-17",
+      "prompt": "Use case: product-mockup. Create ONE new photorealistic square cafe menu photograph of Vietnamese Egg Coffee. Warm off-white seamless studio background, soft natural side lighting, fully visible centered vessel with 8% breathing room. The attached image is a LOGO reference only: reproduce its dark-green 9 FLOOR COFFEE logo accurately on a centered white label on clear cups or printed on ceramic. Recipe ingredients with exact quantities: Espresso double shot 32 g; ကြက်ဥအနှစ် 1 လုံး; နို့ဆီ 15 ml. Exact final appearance and order: Hot espresso topped with thick fluffy pale golden egg cream made from pasteurized egg yolk and condensed milk. Small clear heatproof handled glass. No ice, cocoa or cinnamon. Unless a different vessel is specified, use clear 16oz takeaway cup. Hot drinks dry with NO ice or condensation. Cold drinks realistic ice and condensation as specified. Show only one finished drink; no people, hands, equipment, extra captions or surrounding props. No garnish, topping or ingredient not explicitly listed. No carbonation except recipes explicitly containing tonic, soda or ginger ale/beer. Match natural proportions, no artificial perfect color blocks. Each image must be a fresh individual photograph.",
+      "visual": "Hot espresso topped with thick fluffy pale golden egg cream made from pasteurized egg yolk and condensed milk. Small clear heatproof handled glass. No ice, cocoa or cinnamon."
     }
   ]
 }
