@@ -1,6 +1,6 @@
 {
   "scope": "Original 260 recipes",
-  "reviewed": 218,
+  "reviewed": 223,
   "target": 260,
   "method": "imagegen",
   "rows": [
@@ -3273,6 +3273,81 @@
       "reviewedAt": "2026-11-17",
       "prompt": "Use case: product-mockup. Create ONE new photorealistic square cafe menu photograph of Shakerato. Warm off-white seamless studio background, soft natural side lighting, fully visible centered vessel with 8% breathing room. The attached image is a LOGO reference only: reproduce its dark-green 9 FLOOR COFFEE logo accurately on a centered white label on clear cups or printed on ceramic. Recipe ingredients with exact quantities: Espresso 32 g; သကြားရည် 10 ml; ရေခဲ 140 g. Exact final appearance and order: Espresso shaken with syrup and ice then STRAINED into small chilled clear stemmed coupe, fine tan shaken coffee foam cap. NO ICE remains, no milk. Logo small on bowl. Unless a different vessel is specified, use clear 16oz takeaway cup. Hot drinks dry with NO ice or condensation. Cold drinks realistic ice and condensation as specified. Show only one finished drink; no people, hands, equipment, extra captions or surrounding props. No garnish, topping or ingredient not explicitly listed. No carbonation except recipes explicitly containing tonic, soda or ginger ale/beer. Match natural proportions, no artificial perfect color blocks. Each image must be a fresh individual photograph.",
       "visual": "Espresso shaken with syrup and ice then STRAINED into small chilled clear stemmed coupe, fine tan shaken coffee foam cap. NO ICE remains, no milk. Logo small on bowl."
+    },
+    {
+      "key": "v8-23-06",
+      "file": "recipe-photos/v8-23-06.webp",
+      "width": 768,
+      "height": 768,
+      "sha256": "90cdb35cc92fbdfad8be8263ce18802ac5a4a541bb0fdbec3ab251727858b667",
+      "ingredientsSha256": "ed28188d6cfe6c6b52f65fa220d8e56b627476c06609acd34c826a69046bb24e",
+      "bytes": 21426,
+      "gitSha": "48e609cfdfdbc182436b7e68e4d4553949d9fb43",
+      "recipeName": "Café au Lait",
+      "method": "imagegen",
+      "reviewedAt": "2026-11-17",
+      "prompt": "Use case: product-mockup. Create ONE new photorealistic square cafe menu photograph of Café au Lait. Warm off-white seamless studio background, soft natural side lighting, fully visible centered vessel with 8% breathing room. The attached image is a LOGO reference only: reproduce its dark-green 9 FLOOR COFFEE logo accurately on a centered white label on clear cups or printed on ceramic. Recipe ingredients with exact quantities: Brewed coffee 110 ml; နို့ပူ 110 ml. Exact final appearance and order: Hot brewed coffee and hot milk mixed in equal volumes, uniform light coffee-tan. White ceramic handled cup with logo, thin smooth surface, no ice, latte art or whipped cream. Unless a different vessel is specified, use clear 16oz takeaway cup. Hot drinks dry with NO ice or condensation. Cold drinks realistic ice and condensation as specified. Show only one finished drink; no people, hands, equipment, extra captions or surrounding props. No garnish, topping or ingredient not explicitly listed. No carbonation except recipes explicitly containing tonic, soda or ginger ale/beer. Match natural proportions, no artificial perfect color blocks. Each image must be a fresh individual photograph.",
+      "visual": "Hot brewed coffee and hot milk mixed in equal volumes, uniform light coffee-tan. White ceramic handled cup with logo, thin smooth surface, no ice, latte art or whipped cream."
+    },
+    {
+      "key": "v8-23-07",
+      "file": "recipe-photos/v8-23-07.webp",
+      "width": 768,
+      "height": 768,
+      "sha256": "185b09dd6d0d562f469f4fc326c3922aae7fe2c86df0a508950863bfc3c27b9b",
+      "ingredientsSha256": "1d326135018f4890676dcb6ae9aa6609269a1657f87c63cb9fd4c42b1030c2ba",
+      "bytes": 70226,
+      "gitSha": "33dfefc5ad444a0a8bda9cda70743d12bc4766e8",
+      "recipeName": "Iced Filter Coffee",
+      "method": "imagegen",
+      "reviewedAt": "2026-11-17",
+      "prompt": "Use case: product-mockup. Create ONE new photorealistic square cafe menu photograph of Iced Filter Coffee. Warm off-white seamless studio background, soft natural side lighting, fully visible centered vessel with 8% breathing room. The attached image is a LOGO reference only: reproduce its dark-green 9 FLOOR COFFEE logo accurately on a centered white label on clear cups or printed on ceramic. Recipe ingredients with exact quantities: Filter coffee 150 ml; ရေခဲ 170 g. Exact final appearance and order: Cooled filter black coffee over ice in clear 16oz cup. Translucent medium-dark brown, no espresso crema, milk or toppings. Unless a different vessel is specified, use clear 16oz takeaway cup. Hot drinks dry with NO ice or condensation. Cold drinks realistic ice and condensation as specified. Show only one finished drink; no people, hands, equipment, extra captions or surrounding props. No garnish, topping or ingredient not explicitly listed. No carbonation except recipes explicitly containing tonic, soda or ginger ale/beer. Match natural proportions, no artificial perfect color blocks. Each image must be a fresh individual photograph.",
+      "visual": "Cooled filter black coffee over ice in clear 16oz cup. Translucent medium-dark brown, no espresso crema, milk or toppings."
+    },
+    {
+      "key": "v8-23-09",
+      "file": "recipe-photos/v8-23-09.webp",
+      "width": 768,
+      "height": 768,
+      "sha256": "76671c675062fe8adaa192573283abf03cc931f6023912c3f36f8ed2596f8ae0",
+      "ingredientsSha256": "c407f591fb32104098f02f2872a3e4e4fc7f66dd38f182f0a398d569cb34522f",
+      "bytes": 35708,
+      "gitSha": "fa5081684ee6a6ef7adc47b8a281504dc55ac2b7",
+      "recipeName": "Cinnamon French Press",
+      "method": "imagegen",
+      "reviewedAt": "2026-11-17",
+      "prompt": "Use case: product-mockup. Create ONE new photorealistic square cafe menu photograph of Cinnamon French Press. Warm off-white seamless studio background, soft natural side lighting, fully visible centered vessel with 8% breathing room. The attached image is a LOGO reference only: reproduce its dark-green 9 FLOOR COFFEE logo accurately on a centered white label on clear cups or printed on ceramic. Recipe ingredients with exact quantities: ကော်ဖီကြမ်းမှုန့် 18 g; ရေပူ 270 g; သစ်ကြံပိုး 1 ချောင်း. Exact final appearance and order: Hot French press black coffee infused with cinnamon and STRAINED before serving. Clear heatproof handled glass. No cinnamon stick or dusting in finished cup, milk or ice. Unless a different vessel is specified, use clear 16oz takeaway cup. Hot drinks dry with NO ice or condensation. Cold drinks realistic ice and condensation as specified. Show only one finished drink; no people, hands, equipment, extra captions or surrounding props. No garnish, topping or ingredient not explicitly listed. No carbonation except recipes explicitly containing tonic, soda or ginger ale/beer. Match natural proportions, no artificial perfect color blocks. Each image must be a fresh individual photograph.",
+      "visual": "Hot French press black coffee infused with cinnamon and STRAINED before serving. Clear heatproof handled glass. No cinnamon stick or dusting in finished cup, milk or ice."
+    },
+    {
+      "key": "v8-24-05",
+      "file": "recipe-photos/v8-24-05.webp",
+      "width": 768,
+      "height": 768,
+      "sha256": "bc64178b339b446309cfb3d847803b8ba052230413d2ad6c5b653df83fad3094",
+      "ingredientsSha256": "b791c8c880c5f2cfbdd9dea1b8ebf17453fce4157872609da36a33b8ea2a4650",
+      "bytes": 29532,
+      "gitSha": "16ca9ca1d324a2ad4fc6aad9ec4a71ebad28c213",
+      "recipeName": "Café Bombón",
+      "method": "imagegen",
+      "reviewedAt": "2026-11-17",
+      "prompt": "Use case: product-mockup. Create ONE new photorealistic square cafe menu photograph of Café Bombón. Warm off-white seamless studio background, soft natural side lighting, fully visible centered vessel with 8% breathing room. The attached image is a LOGO reference only: reproduce its dark-green 9 FLOOR COFFEE logo accurately on a centered white label on clear cups or printed on ceramic. Recipe ingredients with exact quantities: Espresso 32 g; နို့ဆီချို 30 ml. Exact final appearance and order: Small narrow clear heatproof glass, white condensed milk 30ml on BOTTOM and dark espresso 32g on TOP. Distinct equal-volume layers and a little crema. No ice or extra milk. Unless a different vessel is specified, use clear 16oz takeaway cup. Hot drinks dry with NO ice or condensation. Cold drinks realistic ice and condensation as specified. Show only one finished drink; no people, hands, equipment, extra captions or surrounding props. No garnish, topping or ingredient not explicitly listed. No carbonation except recipes explicitly containing tonic, soda or ginger ale/beer. Match natural proportions, no artificial perfect color blocks. Each image must be a fresh individual photograph.",
+      "visual": "Small narrow clear heatproof glass, white condensed milk 30ml on BOTTOM and dark espresso 32g on TOP. Distinct equal-volume layers and a little crema. No ice or extra milk."
+    },
+    {
+      "key": "v8-24-07",
+      "file": "recipe-photos/v8-24-07.webp",
+      "width": 768,
+      "height": 768,
+      "sha256": "124b9955e45eb065f48e92bcbfa3b83bef687ce36ee7f21fd72b800185295d62",
+      "ingredientsSha256": "7635bae7277004572b8f16501df2576131004c515ef6e899c40bfc6069cbb6f3",
+      "bytes": 47320,
+      "gitSha": "c8bf6be09ee7d80ec502ef8233eb28288254a1c9",
+      "recipeName": "Marocchino",
+      "method": "imagegen",
+      "reviewedAt": "2026-11-17",
+      "prompt": "Use case: product-mockup. Create ONE new photorealistic square cafe menu photograph of Marocchino. Warm off-white seamless studio background, soft natural side lighting, fully visible centered vessel with 8% breathing room. The attached image is a LOGO reference only: reproduce its dark-green 9 FLOOR COFFEE logo accurately on a centered white label on clear cups or printed on ceramic. Recipe ingredients with exact quantities: Espresso 32 g; Cocoa powder 3 g; နို့အမြှုပ် 60 ml. Exact final appearance and order: Tiny clear heatproof demitasse, espresso below white milk foam, light cocoa powder dusting on top and some cocoa inside. No sauce, ice or cream. Unless a different vessel is specified, use clear 16oz takeaway cup. Hot drinks dry with NO ice or condensation. Cold drinks realistic ice and condensation as specified. Show only one finished drink; no people, hands, equipment, extra captions or surrounding props. No garnish, topping or ingredient not explicitly listed. No carbonation except recipes explicitly containing tonic, soda or ginger ale/beer. Match natural proportions, no artificial perfect color blocks. Each image must be a fresh individual photograph.",
+      "visual": "Tiny clear heatproof demitasse, espresso below white milk foam, light cocoa powder dusting on top and some cocoa inside. No sauce, ice or cream."
     }
   ]
 }
