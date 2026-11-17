@@ -1,6 +1,6 @@
 {
   "scope": "Original 260 recipes",
-  "reviewed": 258,
+  "reviewed": 260,
   "target": 260,
   "method": "imagegen",
   "rows": [
@@ -3873,6 +3873,36 @@
       "reviewedAt": "2026-11-17",
       "prompt": "Use case: product-mockup. Create ONE new photorealistic square cafe menu photograph of Iced Ube Espresso Latte. Warm off-white seamless studio background, soft natural side lighting, fully visible centered vessel with 8% breathing room. The attached image is a LOGO reference only: reproduce its dark-green 9 FLOOR COFFEE logo accurately on a centered white label on clear cups or printed on ceramic. Recipe ingredients with exact quantities: Ube paste 25 g; နို့အေး 150 ml; Espresso 32 g; သကြားရည် 10 ml; ရေခဲ 180 g. Exact final appearance and order: Ube paste fully mixed with cold milk and syrup, ice, espresso LAST. Natural lavender milk below dark espresso diffusion. No white milk middle layer or cream. Unless a different vessel is specified, use clear 16oz takeaway cup. Hot drinks dry with NO ice or condensation. Cold drinks realistic ice and condensation as specified. Show only one finished drink; no people, hands, equipment, extra captions or surrounding props. No garnish, topping or ingredient not explicitly listed. No carbonation except recipes explicitly containing tonic, soda or ginger ale/beer. Match natural proportions, no artificial perfect color blocks. Each image must be a fresh individual photograph.",
       "visual": "Ube paste fully mixed with cold milk and syrup, ice, espresso LAST. Natural lavender milk below dark espresso diffusion. No white milk middle layer or cream."
+    },
+    {
+      "key": "v8-28-06",
+      "file": "recipe-photos/v8-28-06.webp",
+      "width": 768,
+      "height": 768,
+      "sha256": "ec1ea72e6bf9ac1990ae16b419cdcf6b3ef366ad2da25bd8f1d720c06c1c0e13",
+      "ingredientsSha256": "d20fb34538ec571ba5b4713277b8291a4ebdab21dcb67cc698e8256d00a6d4a2",
+      "bytes": 40376,
+      "gitSha": "f9d10b8faf361d0d7beadb5bc156c5bb71a068a1",
+      "recipeName": "Iced Ube Latte",
+      "method": "imagegen",
+      "reviewedAt": "2026-11-17",
+      "prompt": "Use case: product-mockup. Create ONE new photorealistic square cafe menu photograph of Iced Ube Latte. Warm off-white seamless studio background, soft natural side lighting, fully visible centered vessel with 8% breathing room. The attached image is a LOGO reference only: reproduce its dark-green 9 FLOOR COFFEE logo accurately on a centered white label on clear cups or printed on ceramic. Recipe ingredients with exact quantities: Ube paste 25 g; နို့အေး 170 ml; သကြားရည် 10 ml; ရေခဲ 180 g. Exact final appearance and order: Ube paste fully mixed throughout cold milk and syrup over ice, UNIFORM natural lavender-purple. No coffee, separate purple syrup bottom, cream, ube chunks or garnish. Unless a different vessel is specified, use clear 16oz takeaway cup. Hot drinks dry with NO ice or condensation. Cold drinks realistic ice and condensation as specified. Show only one finished drink; no people, hands, equipment, extra captions or surrounding props. No garnish, topping or ingredient not explicitly listed. No carbonation except recipes explicitly containing tonic, soda or ginger ale/beer. Match natural proportions, no artificial perfect color blocks. Each image must be a fresh individual photograph.",
+      "visual": "Ube paste fully mixed throughout cold milk and syrup over ice, UNIFORM natural lavender-purple. No coffee, separate purple syrup bottom, cream, ube chunks or garnish."
+    },
+    {
+      "key": "v8-23-10",
+      "file": "recipe-photos/v8-23-10.webp",
+      "width": 768,
+      "height": 768,
+      "sha256": "0ed8ae244c0090dcb083aeadcc5bbce3f8c556e4a7e06e9c2199f643f158f854",
+      "ingredientsSha256": "f97a9842679c72f6f2ddf667d043d9e67d35e9fe1b7f44ec6178c9e2b82bc38a",
+      "bytes": 54422,
+      "gitSha": "eb6214855d80a697752066caf1e7b6cd385bb4ef",
+      "recipeName": "Cold Drip Coffee",
+      "method": "imagegen",
+      "reviewedAt": "2026-11-17",
+      "prompt": "Use case: product-mockup. Create ONE new photorealistic square cafe menu photograph of Cold Drip Coffee. Warm off-white seamless studio background, soft natural side lighting, fully visible centered vessel with 8% breathing room. The attached image is a LOGO reference only: reproduce its dark-green 9 FLOOR COFFEE logo accurately on a centered white label on clear cups or printed on ceramic. Recipe ingredients with exact quantities: Cold drip concentrate 90 ml; ရေအေး 100 ml; ရေခဲ 170 g. Exact final appearance and order: Cold drip concentrate diluted with still water over ice. Uniform translucent deep brown black coffee in clear 16oz cup. No equipment, milk, foam or bubbles. Unless a different vessel is specified, use clear 16oz takeaway cup. Hot drinks dry with NO ice or condensation. Cold drinks realistic ice and condensation as specified. Show only one finished drink; no people, hands, equipment, extra captions or surrounding props. No garnish, topping or ingredient not explicitly listed. No carbonation except recipes explicitly containing tonic, soda or ginger ale/beer. Match natural proportions, no artificial perfect color blocks. Each image must be a fresh individual photograph.",
+      "visual": "Cold drip concentrate diluted with still water over ice. Uniform translucent deep brown black coffee in clear 16oz cup. No equipment, milk, foam or bubbles."
     }
   ]
 }
