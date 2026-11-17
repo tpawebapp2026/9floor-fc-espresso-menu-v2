@@ -1,6 +1,6 @@
 {
   "scope": "Original 260 recipes",
-  "reviewed": 213,
+  "reviewed": 218,
   "target": 260,
   "method": "imagegen",
   "rows": [
@@ -3198,6 +3198,81 @@
       "reviewedAt": "2026-11-17",
       "prompt": "Use case: product-mockup. Create ONE new photorealistic square cafe menu photograph of Honey V60. Warm off-white seamless studio background, soft natural side lighting, fully visible centered vessel with 8% breathing room. The attached image is a LOGO reference only: reproduce its dark-green 9 FLOOR COFFEE logo accurately on a centered white label on clear cups or printed on ceramic. Recipe ingredients with exact quantities: ကော်ဖီစေ့ 15 g; ရေပူ 240 g; ပျားရည် 10 ml. Exact final appearance and order: Finished hot V60 black coffee with honey dissolved after brewing. Medium clear heatproof handled glass, amber-brown, no honeycomb, honey drizzle, milk, ice or equipment. Unless a different vessel is specified, use clear 16oz takeaway cup. Hot drinks dry with NO ice or condensation. Cold drinks realistic ice and condensation as specified. Show only one finished drink; no people, hands, equipment, extra captions or surrounding props. No garnish, topping or ingredient not explicitly listed. No carbonation except recipes explicitly containing tonic, soda or ginger ale/beer. Match natural proportions, no artificial perfect color blocks. Each image must be a fresh individual photograph.",
       "visual": "Finished hot V60 black coffee with honey dissolved after brewing. Medium clear heatproof handled glass, amber-brown, no honeycomb, honey drizzle, milk, ice or equipment."
+    },
+    {
+      "key": "v8-24-04",
+      "file": "recipe-photos/v8-24-04.webp",
+      "width": 768,
+      "height": 768,
+      "sha256": "52dbae3ce5a7baa5ff7403fa5b04092218a9465837a3486bb7445ccca25c31f8",
+      "ingredientsSha256": "637eec34a6a65ddfc6529074ab8295191144121c9c50c6d0f415763868b9353b",
+      "bytes": 40320,
+      "gitSha": "8e80e9e245de9ce7862a709edbff46acb00d09b3",
+      "recipeName": "Espresso Romano",
+      "method": "imagegen",
+      "reviewedAt": "2026-11-17",
+      "prompt": "Use case: product-mockup. Create ONE new photorealistic square cafe menu photograph of Espresso Romano. Warm off-white seamless studio background, soft natural side lighting, fully visible centered vessel with 8% breathing room. The attached image is a LOGO reference only: reproduce its dark-green 9 FLOOR COFFEE logo accurately on a centered white label on clear cups or printed on ceramic. Recipe ingredients with exact quantities: Espresso 32 g; သံပရာ/လီမွန်အခွံ 1 စိတ်. Exact final appearance and order: Hot espresso 32g in tiny clear demitasse with golden crema and ONE small curl of lemon PEEL on rim or saucer. No lemon wedge, juice, milk or ice. Saucer allowed. Unless a different vessel is specified, use clear 16oz takeaway cup. Hot drinks dry with NO ice or condensation. Cold drinks realistic ice and condensation as specified. Show only one finished drink; no people, hands, equipment, extra captions or surrounding props. No garnish, topping or ingredient not explicitly listed. No carbonation except recipes explicitly containing tonic, soda or ginger ale/beer. Match natural proportions, no artificial perfect color blocks. Each image must be a fresh individual photograph.",
+      "visual": "Hot espresso 32g in tiny clear demitasse with golden crema and ONE small curl of lemon PEEL on rim or saucer. No lemon wedge, juice, milk or ice. Saucer allowed."
+    },
+    {
+      "key": "v8-23-04",
+      "file": "recipe-photos/v8-23-04.webp",
+      "width": 768,
+      "height": 768,
+      "sha256": "f3a55b0f44c2047ff4ee834465e07920c0e3f39526fb6f8c6cc1baf9b2cd1ae6",
+      "ingredientsSha256": "a74a9a6d22072968dae2c012bdf1c468e64add8d6e578be1212fe7c111e406f0",
+      "bytes": 34580,
+      "gitSha": "ef7acbb322440994fb00a99b325bcfa35cef9d40",
+      "recipeName": "AeroPress Coffee",
+      "method": "imagegen",
+      "reviewedAt": "2026-11-17",
+      "prompt": "Use case: product-mockup. Create ONE new photorealistic square cafe menu photograph of AeroPress Coffee. Warm off-white seamless studio background, soft natural side lighting, fully visible centered vessel with 8% breathing room. The attached image is a LOGO reference only: reproduce its dark-green 9 FLOOR COFFEE logo accurately on a centered white label on clear cups or printed on ceramic. Recipe ingredients with exact quantities: ကော်ဖီမှုန့် 15 g; ရေပူ 200 g. Exact final appearance and order: Finished hot AeroPress filtered coffee, medium clear heatproof handled glass, rich brown black coffee. No equipment, milk, ice or crema. Unless a different vessel is specified, use clear 16oz takeaway cup. Hot drinks dry with NO ice or condensation. Cold drinks realistic ice and condensation as specified. Show only one finished drink; no people, hands, equipment, extra captions or surrounding props. No garnish, topping or ingredient not explicitly listed. No carbonation except recipes explicitly containing tonic, soda or ginger ale/beer. Match natural proportions, no artificial perfect color blocks. Each image must be a fresh individual photograph.",
+      "visual": "Finished hot AeroPress filtered coffee, medium clear heatproof handled glass, rich brown black coffee. No equipment, milk, ice or crema."
+    },
+    {
+      "key": "v8-23-03",
+      "file": "recipe-photos/v8-23-03.webp",
+      "width": 768,
+      "height": 768,
+      "sha256": "1842f3bab47a26f8f242889e807505d477d64b793e127bc9d49bffad1901a161",
+      "ingredientsSha256": "24471d2d96a1cc750ee4320b3b2c0205870f51168bca042ae119b581b61c34ff",
+      "bytes": 31134,
+      "gitSha": "ed69b086be5bba86cd01070fae0bdab6d88d78e6",
+      "recipeName": "French Press Coffee",
+      "method": "imagegen",
+      "reviewedAt": "2026-11-17",
+      "prompt": "Use case: product-mockup. Create ONE new photorealistic square cafe menu photograph of French Press Coffee. Warm off-white seamless studio background, soft natural side lighting, fully visible centered vessel with 8% breathing room. The attached image is a LOGO reference only: reproduce its dark-green 9 FLOOR COFFEE logo accurately on a centered white label on clear cups or printed on ceramic. Recipe ingredients with exact quantities: ကော်ဖီကြမ်းမှုန့် 18 g; ရေပူ 270 g. Exact final appearance and order: Finished hot French press coffee, pressed and decanted, 300ml clear heatproof handled glass. Rich slightly opaque dark brown, no floating grounds, milk, ice or foam. Unless a different vessel is specified, use clear 16oz takeaway cup. Hot drinks dry with NO ice or condensation. Cold drinks realistic ice and condensation as specified. Show only one finished drink; no people, hands, equipment, extra captions or surrounding props. No garnish, topping or ingredient not explicitly listed. No carbonation except recipes explicitly containing tonic, soda or ginger ale/beer. Match natural proportions, no artificial perfect color blocks. Each image must be a fresh individual photograph.",
+      "visual": "Finished hot French press coffee, pressed and decanted, 300ml clear heatproof handled glass. Rich slightly opaque dark brown, no floating grounds, milk, ice or foam."
+    },
+    {
+      "key": "v8-23-01",
+      "file": "recipe-photos/v8-23-01.webp",
+      "width": 768,
+      "height": 768,
+      "sha256": "8c9727c21df021c59c54771e18e475847944ef4b133c6525583efa460af5cbd1",
+      "ingredientsSha256": "467af1c96730b6c18a1effa9a83f29f7a003d7616fa56737cc2ed2891a8e646b",
+      "bytes": 39332,
+      "gitSha": "b6aff9d30db7cc858e3d855ac756d78024deb37a",
+      "recipeName": "V60 Pour Over",
+      "method": "imagegen",
+      "reviewedAt": "2026-11-17",
+      "prompt": "Use case: product-mockup. Create ONE new photorealistic square cafe menu photograph of V60 Pour Over. Warm off-white seamless studio background, soft natural side lighting, fully visible centered vessel with 8% breathing room. The attached image is a LOGO reference only: reproduce its dark-green 9 FLOOR COFFEE logo accurately on a centered white label on clear cups or printed on ceramic. Recipe ingredients with exact quantities: ကော်ဖီစေ့ 15 g; ရေပူ 240 g. Exact final appearance and order: Finished hot V60 filtered black coffee in medium 280ml clear heatproof handled glass, translucent amber-brown. No brewing device, ice, milk or crema. Unless a different vessel is specified, use clear 16oz takeaway cup. Hot drinks dry with NO ice or condensation. Cold drinks realistic ice and condensation as specified. Show only one finished drink; no people, hands, equipment, extra captions or surrounding props. No garnish, topping or ingredient not explicitly listed. No carbonation except recipes explicitly containing tonic, soda or ginger ale/beer. Match natural proportions, no artificial perfect color blocks. Each image must be a fresh individual photograph.",
+      "visual": "Finished hot V60 filtered black coffee in medium 280ml clear heatproof handled glass, translucent amber-brown. No brewing device, ice, milk or crema."
+    },
+    {
+      "key": "v8-24-01",
+      "file": "recipe-photos/v8-24-01.webp",
+      "width": 768,
+      "height": 768,
+      "sha256": "57457f8a4c321715d5624e1f6837d161c8fad9fbe94c08d14225391220cb682b",
+      "ingredientsSha256": "5a36b68a4b237a4cc44c293e5accfcfe51b4e270cc6e64532533a4206b4920c7",
+      "bytes": 35112,
+      "gitSha": "3f3ac06d53875971b684c1e39f73bb41741f3146",
+      "recipeName": "Shakerato",
+      "method": "imagegen",
+      "reviewedAt": "2026-11-17",
+      "prompt": "Use case: product-mockup. Create ONE new photorealistic square cafe menu photograph of Shakerato. Warm off-white seamless studio background, soft natural side lighting, fully visible centered vessel with 8% breathing room. The attached image is a LOGO reference only: reproduce its dark-green 9 FLOOR COFFEE logo accurately on a centered white label on clear cups or printed on ceramic. Recipe ingredients with exact quantities: Espresso 32 g; သကြားရည် 10 ml; ရေခဲ 140 g. Exact final appearance and order: Espresso shaken with syrup and ice then STRAINED into small chilled clear stemmed coupe, fine tan shaken coffee foam cap. NO ICE remains, no milk. Logo small on bowl. Unless a different vessel is specified, use clear 16oz takeaway cup. Hot drinks dry with NO ice or condensation. Cold drinks realistic ice and condensation as specified. Show only one finished drink; no people, hands, equipment, extra captions or surrounding props. No garnish, topping or ingredient not explicitly listed. No carbonation except recipes explicitly containing tonic, soda or ginger ale/beer. Match natural proportions, no artificial perfect color blocks. Each image must be a fresh individual photograph.",
+      "visual": "Espresso shaken with syrup and ice then STRAINED into small chilled clear stemmed coupe, fine tan shaken coffee foam cap. NO ICE remains, no milk. Logo small on bowl."
     }
   ]
 }
