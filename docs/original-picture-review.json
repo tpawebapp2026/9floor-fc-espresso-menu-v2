@@ -3714,14 +3714,14 @@
       "file": "recipe-photos/v8-28-01.webp",
       "width": 768,
       "height": 768,
-      "sha256": "aa87957dce11b5f752e1dda8a82969adb4d1bbbfb360758e0fe6079448c96a52",
+      "sha256": "d1a25c59f2eaf909bcae57a0b2de11267cee05df0fe5b1e46ef952a6a6ab3fc9",
       "ingredientsSha256": "fddc8280730987684b583afc3c475a95c2eabbd97a93663e9bffbc1afeb09544",
-      "bytes": 46798,
-      "gitSha": "71bba67fcec2196fc20666e749f10357c008ac87",
+      "bytes": 45494,
+      "gitSha": "9b7d6501018018a9999999fe420d988ead28e354",
       "recipeName": "Iced Saffron Latte",
       "method": "imagegen",
       "reviewedAt": "2026-11-17",
-      "prompt": "Use case: product-mockup. Create ONE new photorealistic square cafe menu photograph of Iced Saffron Latte. Warm off-white seamless studio background, soft natural side lighting, fully visible centered vessel with 8% breathing room. The attached image is a LOGO reference only: reproduce its dark-green 9 FLOOR COFFEE logo accurately on a centered white label on clear cups or printed on ceramic. Recipe ingredients with exact quantities: Espresso 32 g; နို့အေး 150 ml; Saffron အနည်းငယ် 3–5 strands; ရေနွေး 20 ml; ပျားရည် 10 ml; ရေခဲ 180 g. Exact final appearance and order: Saffron infusion mixed with cold milk and honey, ice, espresso poured LAST. Very pale golden-yellow milk below dark espresso diffusion. No saffron garnish or cream. Unless a different vessel is specified, use clear 16oz takeaway cup. Hot drinks dry with NO ice or condensation. Cold drinks realistic ice and condensation as specified. Show only one finished drink; no people, hands, equipment, extra captions or surrounding props. No garnish, topping or ingredient not explicitly listed. No carbonation except recipes explicitly containing tonic, soda or ginger ale/beer. Match natural proportions, no artificial perfect color blocks. Each image must be a fresh individual photograph.",
+      "prompt": "Use case: product-mockup. Create ONE new photorealistic square cafe menu photograph of Iced Saffron Latte. Warm off-white seamless studio background, soft natural side lighting, fully visible centered vessel with 8% breathing room. The attached image is a LOGO reference only: reproduce its dark-green 9 FLOOR COFFEE logo accurately on a centered white label on clear cups or printed on ceramic. Recipe ingredients with exact quantities: Espresso 32 g; နို့အေး 150 ml; Saffron အနည်းငယ် 3–5 strands; ရေနွေး 20 ml; ပျားရည် 10 ml; ရေခဲ 180 g. Exact final appearance and order: Saffron infusion mixed with cold milk and honey, ice, espresso poured LAST. Very pale golden-yellow milk below dark espresso diffusion. No saffron garnish or cream. Unless a different vessel is specified, use clear 16oz takeaway cup. Hot drinks dry with NO ice or condensation. Cold drinks realistic ice and condensation as specified. Show only one finished drink; no people, hands, equipment, extra captions or surrounding props. No garnish, topping or ingredient not explicitly listed. No carbonation except recipes explicitly containing tonic, soda or ginger ale/beer. Match natural proportions, no artificial perfect color blocks. Each image must be a fresh individual photograph. Refinement: reduced excessive yellow saturation in milk to a pale warm ivory-gold while preserving the cup, logo, ice and espresso layer.",
       "visual": "Saffron infusion mixed with cold milk and honey, ice, espresso poured LAST. Very pale golden-yellow milk below dark espresso diffusion. No saffron garnish or cream."
     },
     {

@@ -6,8 +6,14 @@ import photos from "../src/recipePhotos.json";
 import review from "../docs/original-picture-review.json";
 import { generatedPhotoFor } from "../src/RecipePhoto";
 import { CatalogSchema } from "../src/model";
+import originalRecipes from "./fixtures/original-260-sha256.json";
 
 const catalog = CatalogSchema.parse(JSON.parse(readFileSync("public/recipes.json", "utf8")));
+it("covers every original recipe with its own reviewed image", () => {
+  expect(Object.keys(photos).sort()).toEqual(Object.keys(originalRecipes).sort());
+  expect(review.reviewed).toBe(review.target);
+  expect(review.rows).toHaveLength(review.target);
+});
 it("binds each reviewed original recipe to its own verified image and preserves owner uploads", async () => {
   const rows = Object.values(photos);
   expect(new Set(rows.map(p => p.file)).size).toBe(rows.length);
