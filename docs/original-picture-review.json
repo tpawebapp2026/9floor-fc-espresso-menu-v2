@@ -1,6 +1,6 @@
 {
   "scope": "Original 260 recipes",
-  "reviewed": 248,
+  "reviewed": 253,
   "target": 260,
   "method": "imagegen",
   "rows": [
@@ -3723,6 +3723,81 @@
       "reviewedAt": "2026-11-17",
       "prompt": "Use case: product-mockup. Create ONE new photorealistic square cafe menu photograph of Iced Saffron Latte. Warm off-white seamless studio background, soft natural side lighting, fully visible centered vessel with 8% breathing room. The attached image is a LOGO reference only: reproduce its dark-green 9 FLOOR COFFEE logo accurately on a centered white label on clear cups or printed on ceramic. Recipe ingredients with exact quantities: Espresso 32 g; နို့အေး 150 ml; Saffron အနည်းငယ် 3–5 strands; ရေနွေး 20 ml; ပျားရည် 10 ml; ရေခဲ 180 g. Exact final appearance and order: Saffron infusion mixed with cold milk and honey, ice, espresso poured LAST. Very pale golden-yellow milk below dark espresso diffusion. No saffron garnish or cream. Unless a different vessel is specified, use clear 16oz takeaway cup. Hot drinks dry with NO ice or condensation. Cold drinks realistic ice and condensation as specified. Show only one finished drink; no people, hands, equipment, extra captions or surrounding props. No garnish, topping or ingredient not explicitly listed. No carbonation except recipes explicitly containing tonic, soda or ginger ale/beer. Match natural proportions, no artificial perfect color blocks. Each image must be a fresh individual photograph.",
       "visual": "Saffron infusion mixed with cold milk and honey, ice, espresso poured LAST. Very pale golden-yellow milk below dark espresso diffusion. No saffron garnish or cream."
+    },
+    {
+      "key": "v8-27-04",
+      "file": "recipe-photos/v8-27-04.webp",
+      "width": 768,
+      "height": 768,
+      "sha256": "9e358764d82a969ac3facdc451fd6187e8ffd327c30e550b0881c21adc49e69f",
+      "ingredientsSha256": "c697c6c3108f7236caeb1ec2b06599df00d60fa09fe234bb3fd9a5555ee3f1fc",
+      "bytes": 56838,
+      "gitSha": "c6f5b88aa172943fe35ffc1792e93fb61d34a930",
+      "recipeName": "Tamarind Espresso Soda",
+      "method": "imagegen",
+      "reviewedAt": "2026-11-17",
+      "prompt": "Use case: product-mockup. Create ONE new photorealistic square cafe menu photograph of Tamarind Espresso Soda. Warm off-white seamless studio background, soft natural side lighting, fully visible centered vessel with 8% breathing room. The attached image is a LOGO reference only: reproduce its dark-green 9 FLOOR COFFEE logo accurately on a centered white label on clear cups or printed on ceramic. Recipe ingredients with exact quantities: Espresso 32 g; မန်ကျည်းအနှစ်ရည် 30 ml; သကြားရည် 15 ml; Soda water 130 ml; ရေခဲ 180 g. Exact final appearance and order: Tamarind preparation with syrup, ice and soda, espresso poured LAST. Amber-brown tamarind base below darker coffee, fine bubbles. No tamarind pods or milk. Unless a different vessel is specified, use clear 16oz takeaway cup. Hot drinks dry with NO ice or condensation. Cold drinks realistic ice and condensation as specified. Show only one finished drink; no people, hands, equipment, extra captions or surrounding props. No garnish, topping or ingredient not explicitly listed. No carbonation except recipes explicitly containing tonic, soda or ginger ale/beer. Match natural proportions, no artificial perfect color blocks. Each image must be a fresh individual photograph.",
+      "visual": "Tamarind preparation with syrup, ice and soda, espresso poured LAST. Amber-brown tamarind base below darker coffee, fine bubbles. No tamarind pods or milk."
+    },
+    {
+      "key": "v8-28-02",
+      "file": "recipe-photos/v8-28-02.webp",
+      "width": 768,
+      "height": 768,
+      "sha256": "0ac98e75cf256e41445255d58401fda130e3def3aa2c1a871762a2eaa3812922",
+      "ingredientsSha256": "946a9d24f968377d4e6fbc6b0215442c9f8483d247a9c185c9dab781b67cdd46",
+      "bytes": 45658,
+      "gitSha": "435ba184c11c229a8978a04a4067a16fbdc27602",
+      "recipeName": "Honey Cardamom Iced Latte",
+      "method": "imagegen",
+      "reviewedAt": "2026-11-17",
+      "prompt": "Use case: product-mockup. Create ONE new photorealistic square cafe menu photograph of Honey Cardamom Iced Latte. Warm off-white seamless studio background, soft natural side lighting, fully visible centered vessel with 8% breathing room. The attached image is a LOGO reference only: reproduce its dark-green 9 FLOOR COFFEE logo accurately on a centered white label on clear cups or printed on ceramic. Recipe ingredients with exact quantities: Espresso 32 g; နို့အေး 150 ml; ပျားရည် 15 ml; Cardamom powder 0.2 g; ရေခဲ 180 g. Exact final appearance and order: Honey and tiny cardamom powder mixed throughout cold milk, ice, espresso LAST. Ivory milk with barely visible spice flecks below dark espresso diffusion. No pods or cream. Unless a different vessel is specified, use clear 16oz takeaway cup. Hot drinks dry with NO ice or condensation. Cold drinks realistic ice and condensation as specified. Show only one finished drink; no people, hands, equipment, extra captions or surrounding props. No garnish, topping or ingredient not explicitly listed. No carbonation except recipes explicitly containing tonic, soda or ginger ale/beer. Match natural proportions, no artificial perfect color blocks. Each image must be a fresh individual photograph.",
+      "visual": "Honey and tiny cardamom powder mixed throughout cold milk, ice, espresso LAST. Ivory milk with barely visible spice flecks below dark espresso diffusion. No pods or cream."
+    },
+    {
+      "key": "v8-27-08",
+      "file": "recipe-photos/v8-27-08.webp",
+      "width": 768,
+      "height": 768,
+      "sha256": "c0d54ec7c43811d61c1befca711800aac3371c52e5d9685d734df4fc15a567aa",
+      "ingredientsSha256": "2d9a066dd370b7d3bf7619c84ca3f8cab6f4448f58e2d9ba177e608060950bb5",
+      "bytes": 54844,
+      "gitSha": "d40826fbd3672fce5f67657cb5b10f4c7f0e3c6d",
+      "recipeName": "Yuzu Matcha Sparkler",
+      "method": "imagegen",
+      "reviewedAt": "2026-11-17",
+      "prompt": "Use case: product-mockup. Create ONE new photorealistic square cafe menu photograph of Yuzu Matcha Sparkler. Warm off-white seamless studio background, soft natural side lighting, fully visible centered vessel with 8% breathing room. The attached image is a LOGO reference only: reproduce its dark-green 9 FLOOR COFFEE logo accurately on a centered white label on clear cups or printed on ceramic. Recipe ingredients with exact quantities: Matcha powder 4 g; ရေ 35 ml; Yuzu juice 20 ml; သကြားရည် 15 ml; Soda water 120 ml; ရေခဲ 180 g. Exact final appearance and order: Yuzu juice with syrup, ice and soda, matcha whisked with water poured LAST. Pale translucent yuzu-gold fizzy base under natural deep green matcha diffusion. Fine bubbles, no milk, foam or fruit slices. Unless a different vessel is specified, use clear 16oz takeaway cup. Hot drinks dry with NO ice or condensation. Cold drinks realistic ice and condensation as specified. Show only one finished drink; no people, hands, equipment, extra captions or surrounding props. No garnish, topping or ingredient not explicitly listed. No carbonation except recipes explicitly containing tonic, soda or ginger ale/beer. Match natural proportions, no artificial perfect color blocks. Each image must be a fresh individual photograph.",
+      "visual": "Yuzu juice with syrup, ice and soda, matcha whisked with water poured LAST. Pale translucent yuzu-gold fizzy base under natural deep green matcha diffusion. Fine bubbles, no milk, foam or fruit slices."
+    },
+    {
+      "key": "v8-27-06",
+      "file": "recipe-photos/v8-27-06.webp",
+      "width": 768,
+      "height": 768,
+      "sha256": "665c07d869f0c348a55866bebaefd429f6f338a555406eea5c5456c5f79302d7",
+      "ingredientsSha256": "7b483ad0cadef7f60b16b9b0c2d0f9533f652c5c3b5e1743dc5e2a3130bca011",
+      "bytes": 59508,
+      "gitSha": "94b23fbc8c6090fac1e0c8329d8c3ffcef36bf18",
+      "recipeName": "Iced Hibiscus Tea",
+      "method": "imagegen",
+      "reviewedAt": "2026-11-17",
+      "prompt": "Use case: product-mockup. Create ONE new photorealistic square cafe menu photograph of Iced Hibiscus Tea. Warm off-white seamless studio background, soft natural side lighting, fully visible centered vessel with 8% breathing room. The attached image is a LOGO reference only: reproduce its dark-green 9 FLOOR COFFEE logo accurately on a centered white label on clear cups or printed on ceramic. Recipe ingredients with exact quantities: Hibiscus အခြောက် 5 g; ရေနွေး 180 ml; သကြားရည် 15 ml; ရေခဲ 180 g. Exact final appearance and order: Hibiscus steeped, STRAINED, cooled and sweetened over ice. Clear ruby-red crimson tea. No flowers, fruit, coffee, milk or bubbles. Unless a different vessel is specified, use clear 16oz takeaway cup. Hot drinks dry with NO ice or condensation. Cold drinks realistic ice and condensation as specified. Show only one finished drink; no people, hands, equipment, extra captions or surrounding props. No garnish, topping or ingredient not explicitly listed. No carbonation except recipes explicitly containing tonic, soda or ginger ale/beer. Match natural proportions, no artificial perfect color blocks. Each image must be a fresh individual photograph.",
+      "visual": "Hibiscus steeped, STRAINED, cooled and sweetened over ice. Clear ruby-red crimson tea. No flowers, fruit, coffee, milk or bubbles."
+    },
+    {
+      "key": "v8-27-07",
+      "file": "recipe-photos/v8-27-07.webp",
+      "width": 768,
+      "height": 768,
+      "sha256": "d178f3add376c3e4e6553fb0886ea3d0c8f4b14f5d754339898a5593872eaf9b",
+      "ingredientsSha256": "9e0a3301cc409e63108d72d0627fca365b5d19ccff083030f7d0d1070d876efc",
+      "bytes": 49526,
+      "gitSha": "510db5c8603802d71fd66487d51d9134aa0c26cb",
+      "recipeName": "Iced Chamomile Honey",
+      "method": "imagegen",
+      "reviewedAt": "2026-11-17",
+      "prompt": "Use case: product-mockup. Create ONE new photorealistic square cafe menu photograph of Iced Chamomile Honey. Warm off-white seamless studio background, soft natural side lighting, fully visible centered vessel with 8% breathing room. The attached image is a LOGO reference only: reproduce its dark-green 9 FLOOR COFFEE logo accurately on a centered white label on clear cups or printed on ceramic. Recipe ingredients with exact quantities: Chamomile tea 4 g; ရေနွေး 180 ml; ပျားရည် 15 ml; ရေခဲ 180 g. Exact final appearance and order: Chamomile steeped and STRAINED, honey dissolved then cooled over ice. Clear pale honey-gold tea, no flowers, leaves, coffee, milk or bubbles. Unless a different vessel is specified, use clear 16oz takeaway cup. Hot drinks dry with NO ice or condensation. Cold drinks realistic ice and condensation as specified. Show only one finished drink; no people, hands, equipment, extra captions or surrounding props. No garnish, topping or ingredient not explicitly listed. No carbonation except recipes explicitly containing tonic, soda or ginger ale/beer. Match natural proportions, no artificial perfect color blocks. Each image must be a fresh individual photograph.",
+      "visual": "Chamomile steeped and STRAINED, honey dissolved then cooled over ice. Clear pale honey-gold tea, no flowers, leaves, coffee, milk or bubbles."
     }
   ]
 }
