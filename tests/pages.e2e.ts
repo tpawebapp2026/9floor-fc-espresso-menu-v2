@@ -129,7 +129,9 @@ test("locally hosted photographs load with accurate credits and survive an offli
     )
     .toBe(true);
   await expect(image).toHaveAttribute("src", /recipe-photos\/v8-01-11\.webp$/);
-  await expect(page.locator(".photo-credit")).toContainText("Iced Caramel Latte");
+  await expect(page.locator(".photo-credit")).toContainText(
+    "Iced Caramel Latte",
+  );
   await expect(page.locator(".photo-credit")).toContainText("AI");
   await context.setOffline(true);
   await page.reload();
@@ -716,4 +718,71 @@ test("new uploaded series expose all 75 additions, exact variants, photos and of
       () => document.documentElement.scrollWidth <= innerWidth,
     ),
   ).toBe(true);
+});
+
+test("ingredients tab links real photos, exact recipe variants and works offline on mobile", async ({
+  page,
+  context,
+}) => {
+  await page.setViewportSize({ width: 390, height: 844 });
+  await page.goto("./");
+  await openMenu(page);
+  await page
+    .getByRole("button", { name: "ကုန်ကြမ်းများ", exact: true })
+    .click();
+  await expect(page).toHaveURL(/#\/ingredients$/);
+  await page
+    .getByRole("searchbox", { name: "ကုန်ကြမ်းရှာရန်" })
+    .fill("Nature Taste");
+  await expect(page.locator(".ingredient-card")).toHaveCount(3);
+  await page
+    .locator(".ingredient-card")
+    .filter({ hasText: "Strawberry" })
+    .click();
+  await expect(page.locator("h1")).toHaveText("စတော်ဘယ်ရီ");
+  await page
+    .getByRole("combobox", { name: "ကုန်ကြမ်းပုံစံ ရွေးရန်" })
+    .selectOption("Strawberry Purée");
+  expect(await page.locator(".ingredient-recipe-link").count()).toBeGreaterThan(
+    0,
+  );
+  for (const item of await page
+    .locator(".ingredient-recipe-list dt")
+    .allTextContents())
+    expect(item).toBe("Strawberry Purée");
+  await expect
+    .poll(() =>
+      page
+        .locator(".ingredient-intro img")
+        .evaluate((i: HTMLImageElement) => i.complete && i.naturalWidth > 0),
+    )
+    .toBe(true);
+  await page.locator(".ingredient-recipe-link").first().click();
+  await expect(page.locator(".detail-heading h1")).toBeVisible();
+  await page.locator("main.detail > .text-button").click();
+  await expect(page.locator("h1")).toHaveText("စတော်ဘယ်ရီ");
+  await page.locator(".ingredient-recipe-link").first().click();
+  await page.goBack();
+  await expect(page.locator("h1")).toHaveText("စတော်ဘယ်ရီ");
+  await page.evaluate(() => navigator.serviceWorker.ready);
+  await page.reload();
+  await context.setOffline(true);
+  await page.reload();
+  await expect(page.locator("h1")).toHaveText("စတော်ဘယ်ရီ");
+  await expect
+    .poll(() =>
+      page
+        .locator(".ingredient-intro img")
+        .evaluate((i: HTMLImageElement) => i.complete && i.naturalWidth > 0),
+    )
+    .toBe(true);
+  expect(
+    await page.evaluate(
+      () => document.documentElement.scrollWidth <= innerWidth,
+    ),
+  ).toBe(true);
+  await page.screenshot({
+    path: "/tmp/9floor-ingredients-mobile.png",
+    fullPage: true,
+  });
 });

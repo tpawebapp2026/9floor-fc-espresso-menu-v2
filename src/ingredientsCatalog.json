@@ -1,0 +1,1138 @@
+[
+  {
+    "id": "rosemary",
+    "name": "ရို့စ်မေရီ",
+    "englishName": "Rosemary",
+    "category": "herbs",
+    "photoKey": "Rosemary sprig",
+    "guide": "သန့်စင်ထားသောအရွက်ကို အနံ့နှင့် အလှဆင်ရန် Recipe အတိုင်း သုံးပါ။",
+    "aliases": ["Rosemary"]
+  },
+  {
+    "id": "hibiscus",
+    "name": "ချဉ်ပေါင်ဖူးခြောက်",
+    "englishName": "Hibiscus / roselle",
+    "category": "herbs",
+    "photoKey": "Dried hibiscus calyces",
+    "guide": "ဖူးခြောက်ကို နှပ်ပြီး စစ်ထားသောအရည်က အနီရောင်နှင့် ချဉ်အရသာပေးသည်။",
+    "aliases": ["Hibiscus အခြောက်", "ချဉ်ပေါင်ဖူး (Roselle) ရေနွေးကြမ်းအေး"]
+  },
+  {
+    "id": "ice-cream",
+    "name": "ဗနီလာရေခဲမုန့်",
+    "englishName": "Vanilla ice cream",
+    "category": "milk",
+    "photoKey": "Vanilla ice cream scoop",
+    "guide": "Affogato နှင့် အအေးဖျော်ရည်တွင် ချိုမှုနှင့် ပျစ်မှု ပေးသည်။ အရည်ခရင်မ်နှင့် မတူပါ။",
+    "aliases": ["Vanilla ice cream"]
+  },
+  {
+    "id": "gingerbread",
+    "name": "ဂျင်းဘရက်ဆီရပ်",
+    "englishName": "Gingerbread syrup",
+    "category": "herbs",
+    "photoKey": "Gingerbread spices",
+    "guide": "ဂျင်းဘရက်အနံ့သာ အချိုဆီရပ်ဖြစ်သည်။ ပုံသည် အနံ့သာ နမူနာဖြစ်ပြီး ဘီစကွတ်မှုန့်နှင့် အစားမထိုးပါနှင့်။",
+    "aliases": ["Gingerbread syrup"]
+  },
+  {
+    "id": "milk-powder",
+    "name": "အသင့်ဖျော်နို့မှုန့်",
+    "englishName": "Instant milk drink powder",
+    "category": "powder",
+    "photoKey": "Milk powder",
+    "guide": "Recipe တွင် Diamond Ice Milk ဟု သတ်မှတ်ထားသော ဖျော်မှုန့်သည် ရိုးရိုးနို့မှုန့်နှင့် မတူနိုင်ပါ။ ပုံသည် နို့မှုန့် နမူနာသာဖြစ်ပြီး ဘူးပေါ်အမည်ကို အတည်ပြုပါ။",
+    "aliases": ["Diamond Ice Milk Instant Powder"]
+  },
+  {
+    "id": "thai-tea",
+    "name": "ထိုင်းအနီလက်ဖက်",
+    "englishName": "Thai tea",
+    "category": "tea",
+    "photoKey": "Thai tea leaves",
+    "guide": "လက်ဖက်ခြောက်နှင့် နှပ်ပြီးသားအနှစ်ရည်ကို ခွဲပါ။ အနှစ်ရည်ကို လိုအပ်သလိုနှပ်စစ်ပြီးမှ နို့၊ နို့ဆီနှင့် ရောပါ။",
+    "aliases": [
+      "Thai Tea အနှစ်",
+      "Thai Tea အရွက်",
+      "စစ်ပြီး Thai Tea အရည်",
+      "ထိုင်းလက်ဖက်ခြောက် (အချိုမပါ)",
+      "ထိုင်းလက်ဖက်ရည်ရည်",
+      "ထိုင်းလက်ဖက်ရည်အနှစ်"
+    ]
+  },
+  {
+    "id": "green-tea",
+    "name": "လက်ဖက်စိမ်း / ထိုင်းလက်ဖက်စိမ်း",
+    "englishName": "Green tea",
+    "category": "tea",
+    "photoKey": "Green tea leaves",
+    "guide": "Matcha မှုန့်နှင့် မတူပါ။ အရွက်ကို နှပ်ပြီး စစ်ထားသောအရည်ကို သုံးပါ။ Instant green-tea mix ဆိုလျှင် အောက်ပါ Recipe အမည်အတိုင်း အချိုပါ mix ကို ရွေးပါ။",
+    "aliases": [
+      "Diamond Milk Green Tea Instant Powder",
+      "Green Tea အရွက်",
+      "စစ်ပြီး Thai Green Tea အရည်",
+      "ထိုင်းလက်ဖက်စိမ်းရည်",
+      "လက်ဖက်ရည်စိမ်းအေး"
+    ]
+  },
+  {
+    "id": "coconut-milk",
+    "name": "အုန်းနို့ / အုန်းခရင်မ်",
+    "englishName": "Coconut milk & cream",
+    "category": "milk",
+    "photoKey": "existing:coconut",
+    "guide": "အုန်းရည်၊ အုန်းနို့၊ အုန်းခရင်မ်နှင့် အုန်းဆီရပ်တို့ မတူပါ။ ပုံသည် အုန်းသီးအစစ်ဖြစ်ပြီး သုံးရမည့် နို့ / ခရင်မ်ပုံစံကို အောက်ပါ Recipe အမည်တွင် စစ်ပါ။",
+    "aliases": [
+      "Coconut barista milk",
+      "Coconut cream",
+      "အချိုမပါ coconut milk",
+      "အုန်းနို့"
+    ]
+  },
+  {
+    "id": "cold-foam",
+    "name": "နို့အမြှုပ် / Cold foam",
+    "englishName": "Milk foam & cold foam",
+    "category": "milk",
+    "photoKey": "Milk froth",
+    "guide": "ဖျော်ရည်အပေါ်တင်သည့် အမြှုပ်ဖြစ်သည်။ နို့ပူ microfoam၊ နို့အေး cold foam နှင့် vanilla foam ကို Recipe အလိုက် သီးခြားပြင်ပါ။",
+    "aliases": [
+      "Vanilla cold foam",
+      "ကြိုပြင်ပြီး နို့အမြှုပ် (Cold foam)",
+      "နို့ပူ microfoam",
+      "နို့အမြှုပ်"
+    ]
+  },
+  {
+    "id": "cocoa",
+    "name": "ကိုကိုးမှုန့် / ချောကလက်",
+    "englishName": "Cocoa & chocolate",
+    "category": "powder",
+    "photoKey": "Cocoa powder bowl",
+    "guide": "ကိုကိုးမှုန့်၊ အချိုအသင့်ပါ chocolate drink powder၊ sauce နှင့် spread တို့သည် မတူပါ။ အောက်တွင် ပြထားသော ပုံစံအတိုင်း ဝယ်ပြီး Recipe ပါ g / ml ကို သုံးပါ။ ပုံသည် ကိုကိုးမှုန့်အစစ် နမူနာဖြစ်သည်။",
+    "aliases": [
+      "Chocolate Powder",
+      "Cocoa Powder",
+      "Cocoa powder",
+      "Diamond Chocolate Instant Drink Powder",
+      "Dutch Cocoa Powder",
+      "Dutch Cocoa Powder (Foam)",
+      "Hazelnut cocoa spread",
+      "Nutella spread",
+      "ကိုကိုးမှုန့်",
+      "ကိုကိုးမှုန့် အလှဆင်",
+      "သကြားမပါ Cocoa powder"
+    ]
+  },
+  {
+    "id": "palm-sugar",
+    "name": "ထန်းသကြားရည်",
+    "englishName": "Palm sugar syrup",
+    "category": "sweet",
+    "photoKey": "Palm sugar",
+    "guide": "ပုံသည် ထန်းသကြားအစစ်ဖြစ်သည်။ ဖျော်ရည်ထဲတွင် ပျော်ပြီးသားအရည်ကို Recipe အတိုင်း သုံးပါ။",
+    "aliases": ["Palm sugar syrup"]
+  },
+  {
+    "id": "ice",
+    "name": "ရေခဲ",
+    "englishName": "Ice",
+    "category": "water",
+    "photoKey": "Ice cubes",
+    "guide": "ရေခဲပမာဏက ခွက်ပြည့်မှုနှင့် အရည်ပျော့သွားမှုကို ပြောင်းစေသည်။ Recipe ပါ g ပမာဏအတိုင်း ချိန်ပြီး နောက်ဆုံးထည့်ပါ။",
+    "aliases": ["Ice", "ရေခဲ", "ရေခဲတုံးအသေး"]
+  },
+  {
+    "id": "water",
+    "name": "သောက်ရေသန့်",
+    "englishName": "Water",
+    "category": "water",
+    "photoKey": "Water glass",
+    "guide": "နှပ်ရန် ရေနွေးနှင့် အေးဖျော်ရန် ရေအေးကို Recipe အတိုင်း ခွဲသုံးပါ။ ရေပမာဏကို နို့ပမာဏနှင့် မရောတွက်ပါနှင့်။",
+    "aliases": [
+      "Moka pot အရွယ်အစားအလိုက် ကော်ဖီ/ရေ",
+      "Taro ဖျော်ရန် ရေနွေးနွေး",
+      "နို့အေး / ရေအေး",
+      "နို့အေး / သောက်ရေသန့်",
+      "နောက်ဆုံးဖြည့်ရန် ရေသန့် (သီးခြားပူထား)",
+      "နှပ်ရန် ရေနွေး 90–95°C",
+      "နှပ်ရန်ရေနွေး 85–90°C",
+      "နှပ်ရန်ရေနွေး 90–95°C",
+      "ရိုးရိုးရေ",
+      "ရေ",
+      "ရေနွေး",
+      "ရေနွေး (သောက်ရေသန့်)",
+      "ရေနွေး 70–80°C",
+      "ရေနွေး 75–80°C",
+      "ရေနွေး — ပျားရည်ပျော်ရန်",
+      "ရေနွေးနွေး",
+      "ရေပူ",
+      "ရေသန့်",
+      "ရေသန့်အေး (ဤ starter formula တွင် ပါဝင်သည်)",
+      "ရေအေး",
+      "သကြားစိုရန် ရေသန့်",
+      "သောက်ရေသန့် အေး",
+      "သောက်ရေသန့်အေး"
+    ]
+  },
+  {
+    "id": "coffee-beans",
+    "name": "ကော်ဖီစေ့ / ကော်ဖီမှုန့်",
+    "englishName": "Coffee beans & grounds",
+    "category": "coffee",
+    "photoKey": "Roasted coffee beans",
+    "guide": "Espresso၊ Filter နှင့် Moka pot တို့အတွက် ကြိတ်အရွယ် မတူပါ။ Recipe ပါ dose နှင့် ထုတ်ယူရည်ပမာဏကို သီးခြားချိန်ပါ။",
+    "aliases": [
+      "Espresso ကော်ဖီစေ့",
+      "Espresso အတွက် ကော်ဖီမှုန့်",
+      "Ground coffee",
+      "Moka pot အရွယ်အစားအလိုက် ကော်ဖီ/ရေ",
+      "ကော်ဖီကြမ်းမှုန့်",
+      "ကော်ဖီစေ့",
+      "ကော်ဖီမှုန့်",
+      "အလွန်နူးညံ့သော ကော်ဖီမှုန့်"
+    ]
+  },
+  {
+    "id": "instant-coffee",
+    "name": "အင်စတန့်ကော်ဖီ",
+    "englishName": "Instant coffee",
+    "category": "coffee",
+    "photoKey": "Instant coffee granules",
+    "guide": "ရေတွင်ပျော်သည့် ကော်ဖီမှုန့်ဖြစ်သည်။ Espresso ကြိတ်မှုန့်နှင့် မတူပါ။ Dalgona အမြှုပ်အတွက် သကြားနှင့် ရေပမာဏကို သက်ဆိုင်ရာ Recipe အတိုင်း တိတိကျကျသုံးပါ။",
+    "aliases": ["Instant Coffee", "Instant coffee"]
+  },
+  {
+    "id": "oliang",
+    "name": "အိုလျန် ထိုင်းကော်ဖီမှုန့်",
+    "englishName": "Thai oliang coffee",
+    "category": "coffee",
+    "photoKey": "Thai coffee powder",
+    "guide": "ထိုင်းအိုလျန်အတွက် ရောစပ်ကော်ဖီမှုန့်ဖြစ်သည်။ နှပ်ပြီး စစ်ထားသောကော်ဖီရည်ကိုသာ ဖျော်ရည်ထဲထည့်ပါ။",
+    "aliases": ["Thai oliang coffee powder"]
+  },
+  {
+    "id": "chicory",
+    "name": "ချီကိုရီကော်ဖီရည်",
+    "englishName": "Chicory coffee",
+    "category": "coffee",
+    "photoKey": "Chicory root coffee",
+    "guide": "Chicory ပါသော ကော်ဖီအနှစ်ရည်ဖြစ်သည်။ ပုံမှန် Espresso နှင့် အနံ့အရသာ မတူသဖြင့် Recipe ပါအနှစ်ရည်ကို သုံးပါ။",
+    "aliases": ["Chicory coffee concentrate"]
+  },
+  {
+    "id": "cold-coffee",
+    "name": "အအေးနှပ်ကော်ဖီအနှစ်ရည်",
+    "englishName": "Cold brew / cold drip",
+    "category": "coffee",
+    "photoKey": "existing:cold-brew",
+    "guide": "Cold brew နှင့် Cold drip အနှစ်ရည်တို့၏ ပြင်းအား မတူနိုင်ပါ။ သက်ဆိုင်ရာ Recipe ပါ အမျိုးအစားနှင့် ပမာဏကို ရွေးသုံးပါ။",
+    "aliases": ["Cold brew concentrate", "Cold drip concentrate"]
+  },
+  {
+    "id": "espresso",
+    "name": "ထုတ်ယူပြီး ကော်ဖီရည်",
+    "englishName": "Espresso & brewed coffee",
+    "category": "coffee",
+    "photoKey": "existing:espresso",
+    "guide": "Recipe တွင် Espresso၊ Filter သို့မဟုတ် ကော်ဖီရည်ဟု ရေးထားသည့်အတိုင်း ရွေးပါ။ Espresso shot နှင့် ရေများများပါသော Filter coffee ကို ml တူတိုင်း အစားမထိုးပါနှင့်။",
+    "aliases": [
+      "Black coffee",
+      "Black coffee အေး",
+      "Brewed coffee",
+      "Café Cubano",
+      "Espresso",
+      "Espresso (Double Shot)",
+      "Espresso double shot",
+      "Filter coffee",
+      "ကော်ဖီရည်",
+      "ကော်ဖီရည် — အမြှုပ်အတွက်",
+      "ထုတ်ယူမည့် Espresso",
+      "ထုတ်ယူရမည့် ကော်ဖီရည်"
+    ]
+  },
+  {
+    "id": "evaporated-milk",
+    "name": "နို့စိမ်းဘူး",
+    "englishName": "Evaporated milk",
+    "category": "milk",
+    "photoKey": "Evaporated milk",
+    "guide": "ရေဓာတ်လျှော့ထားသော ဘူးနို့ဖြစ်ပြီး နို့ဆီအချိုနှင့် မတူပါ။ ထိုင်းနို့ကော်ဖီ၊ ထိုင်းလက်ဖက်ရည်တို့တွင် နို့အရသာအပြည့်ရရန် သုံးသည်။",
+    "aliases": [
+      "နို့စိမ်း",
+      "နို့စိမ်း evaporated milk",
+      "နို့စိမ်းဘူး (Evaporated milk)"
+    ]
+  },
+  {
+    "id": "condensed-milk",
+    "name": "နို့ဆီအချို",
+    "englishName": "Sweetened condensed milk / creamer",
+    "category": "milk",
+    "photoKey": "Condensed milk spoon",
+    "guide": "အချိုနှင့် နို့အရသာ နှစ်မျိုးလုံး ထည့်ပေးသည်။ နို့ဆီထည့်ပြီးမှ သကြားရည်ကို Recipe အတိုင်း ချိန်ပါ။ Condensed creamer နှင့် dairy condensed milk တံဆိပ်ဖော်မြူလာ ကွာနိုင်သည်။",
+    "aliases": [
+      "နို့ဆီ",
+      "နို့ဆီချို",
+      "နို့ဆီအချို",
+      "နို့ဆီအချို (Sweetened condensed creamer)"
+    ]
+  },
+  {
+    "id": "oat-milk",
+    "name": "အုတ်နို့",
+    "englishName": "Oat milk",
+    "category": "milk",
+    "photoKey": "Oat milk carton",
+    "guide": "အုတ်မှလုပ်သည့် နို့အစားထိုးအရည်ဖြစ်သည်။ Latte အမြှုပ်အတွက် Recipe က Barista oat milk ဟု သတ်မှတ်ထားလျှင် ထိုအမျိုးအစားကို ရွေးပါ။",
+    "aliases": [
+      "Barista oat milk",
+      "Oat milk 90 ml",
+      "အုတ်နို့",
+      "အုတ်နို့ (Video: Oatside)"
+    ]
+  },
+  {
+    "id": "almond-milk",
+    "name": "အယ်လ်မွန်နို့",
+    "englishName": "Almond milk",
+    "category": "milk",
+    "photoKey": "Almond milk",
+    "guide": "အချိုပါ / မပါကို ဘူးစာတွင် စစ်ပါ။ Recipe က unsweetened ဟုရေးထားလျှင် အချိုမပါသောအမျိုးအစားကို သုံးပါ။",
+    "aliases": ["Almond milk", "Unsweetened almond milk"]
+  },
+  {
+    "id": "soy-milk",
+    "name": "ပဲနို့",
+    "englishName": "Soy milk",
+    "category": "milk",
+    "photoKey": "Soy milk",
+    "guide": "ပဲအရသာရှိသော နို့အစားထိုးအရည်ဖြစ်သည်။ အချိုပါပြီးသားဆိုလျှင် Recipe နှင့် အချိုချိန်ညှိရန် လိုသည်။",
+    "aliases": ["Soy milk"]
+  },
+  {
+    "id": "cream-cheese",
+    "name": "မတ်စကာပိုနေးခရင်မ်",
+    "englishName": "Mascarpone cream",
+    "category": "milk",
+    "photoKey": "Mascarpone",
+    "guide": "ထူပြီး နို့အဆီအရသာရှိသော ခရင်မ်ဖြစ်သည်။ အရည် whipping cream နှင့် အစားမထိုးဘဲ Recipe ပါ အသင့်ပြင်ထားသောခရင်မ်ကို သုံးပါ။",
+    "aliases": ["Mascarpone cream"]
+  },
+  {
+    "id": "custard",
+    "name": "ကတ်စတတ်ခရင်မ်",
+    "englishName": "Custard cream",
+    "category": "milk",
+    "photoKey": "Custard cream bowl",
+    "guide": "ဥနှင့် နို့အခြေခံ ချိုသောခရင်မ်ဖြစ်သည်။ Recipe ပါ ပြင်ဆင်ပြီးသား custard ကို သုံးပါ။",
+    "aliases": ["Custard cream"]
+  },
+  {
+    "id": "salted-cream",
+    "name": "ဆားပါခရင်မ်",
+    "englishName": "Salted cream",
+    "category": "milk",
+    "photoKey": "Whipped cream bowl",
+    "guide": "ဖျော်ရည်အပေါ်တင်သည့် ဆားအရသာခရင်မ်ဖြစ်သည်။ ပုံသည် ခရင်မ်အစစ် နမူနာဖြစ်ပြီး ဆားပမာဏကို ဆက်စပ် Recipe တွင်ကြည့်ပါ။",
+    "aliases": ["Salted cream"]
+  },
+  {
+    "id": "whipping-cream",
+    "name": "အရည်ခရင်မ် / ခေါက်ထားသောခရင်မ်",
+    "englishName": "Whipping / whipped cream",
+    "category": "milk",
+    "photoKey": "Whipping cream",
+    "guide": "Whipping cream က အရည်၊ whipped cream က ခေါက်ပြီး အမြှုပ်ဖြစ်သည်။ Half-and-half သည် အဆီနည်းပြီး ခရင်မာမှုန့်သည် နို့မှုန့်အစားထိုးဖြစ်သဖြင့် အမည်အတိုင်း သီးခြားရွေးပါ။",
+    "aliases": [
+      "Cream",
+      "Half-and-half cream",
+      "Vanilla cream",
+      "Whipped cream",
+      "Whipping Cream (အေးထားသော၊ မချိုသော dairy cream)",
+      "Whipping cream",
+      "ခရင်မာမှုန့်"
+    ]
+  },
+  {
+    "id": "yogurt",
+    "name": "ဒိန်ချဉ်",
+    "englishName": "Yogurt",
+    "category": "milk",
+    "photoKey": "Plain yogurt bowl",
+    "guide": "Plain yogurt၊ ဒိန်ချဉ်အရည်နှင့် အချိုပါဒိန်ချဉ်တို့ကို Recipe အတိုင်း ခွဲရွေးပါ။ အသီး smoothie တွင် အရသာချဉ်နူးနှင့် ပျစ်မှုရစေသည်။",
+    "aliases": ["Plain Yogurt", "ဒိန်ချဉ်", "ဒိန်ချဉ်အရည်"]
+  },
+  {
+    "id": "milk",
+    "name": "နို့လတ်",
+    "englishName": "Fresh milk",
+    "category": "milk",
+    "photoKey": "Milk glass",
+    "guide": "နို့အေး၊ နို့ပူ သို့မဟုတ် pasteurized နို့ကို Recipe အတိုင်း ရွေးသုံးပါ။ အချိုမပါသောနို့နှင့် နို့ဆီအချိုကို သီးခြားချိန်ပါ။",
+    "aliases": [
+      "Bear Brand နို့",
+      "Cold Foam အတွက် နို့အေး",
+      "Fresh Milk",
+      "Fresh Milk (Foam)",
+      "နို့",
+      "နို့ (နို့လက်ဖက်ရည်/Matcha/Cocoa)",
+      "နို့စိမ်း (Fresh milk)",
+      "နို့ပူ",
+      "နို့အပူ",
+      "နို့အေး",
+      "နို့အေး (pasteurized)",
+      "နို့အေး (အောက်ခံ)",
+      "နို့အေး / ရေအေး",
+      "နို့အေး / သောက်ရေသန့်",
+      "အချိုမပါ နို့ (Video: Sunkist)",
+      "အမြှုပ်ဖောက်ရန် နို့",
+      "အအေးထိန်းထားသော နို့",
+      "အအေးထိန်းထားသော နို့လတ်",
+      "အေးစက်နေသောနို့"
+    ]
+  },
+  {
+    "id": "matcha",
+    "name": "မတ်ချာမှုန့်",
+    "englishName": "Pure matcha powder",
+    "category": "tea",
+    "photoKey": "Matcha powder",
+    "guide": "သကြားမပါသော pure matcha နှင့် အချိုအသင့်ပါ matcha mix မတူပါ။ ပထမဆုံး ရေနွေးအနည်းငယ်ဖြင့် အဖုမကျန်အောင် ပျော်ပြီး နို့ သို့မဟုတ် ရေကို ထည့်ပါ။",
+    "aliases": [
+      "Matcha Powder",
+      "Matcha powder",
+      "Pure matcha powder",
+      "မတ်ချာမှုန့်"
+    ]
+  },
+  {
+    "id": "hojicha",
+    "name": "ဟိုဂျီချာမှုန့်",
+    "englishName": "Hojicha powder",
+    "category": "tea",
+    "photoKey": "Hojicha tea leaves",
+    "guide": "လှော်ထားသော လက်ဖက်အရသာဖြစ်သည်။ ပုံသည် လက်ဖက်ခြောက် နမူနာဖြစ်ပြီး Recipe က powder ဟုရေးထားလျှင် အမှုန့်ပုံစံကို ဝယ်ပါ။",
+    "aliases": ["Hojicha powder", "အချိုမပါ pure hojicha powder"]
+  },
+  {
+    "id": "earl-grey",
+    "name": "အာလ်ဂရေးလက်ဖက်",
+    "englishName": "Earl Grey tea",
+    "category": "tea",
+    "photoKey": "Earl Grey tea leaves",
+    "guide": "ဘာဂမော့အနံ့ရှိသော လက်ဖက်ခြောက်ဖြစ်သည်။ လက်ဖက်ကို နှပ်ပြီး စစ်ကာ London Fog စတိုင်နို့လက်ဖက်ရည် ဖျော်ရန်သုံးသည်။",
+    "aliases": ["Earl Grey tea"]
+  },
+  {
+    "id": "oolong",
+    "name": "အူလုံလက်ဖက်",
+    "englishName": "Oolong tea",
+    "category": "tea",
+    "photoKey": "Oolong tea leaves",
+    "guide": "Recipe ပါ ရေအပူချိန်နှင့် နှပ်ချိန်အတိုင်း နှပ်ပြီး စစ်ပါ။ လက်ဖက်ခြောက်ကို နောက်ဆုံးဖျော်ရည်ထဲ တိုက်ရိုက်မထည့်ပါနှင့်။",
+    "aliases": ["အချိုမပါ oolong အရွက်ခြောက်"]
+  },
+  {
+    "id": "genmaicha",
+    "name": "ဆန်လှော်လက်ဖက်စိမ်း",
+    "englishName": "Genmaicha tea",
+    "category": "tea",
+    "photoKey": "Genmaicha tea leaves",
+    "guide": "ဆန်လှော်နှင့် လက်ဖက်စိမ်းရောထားသော လက်ဖက်ဖြစ်သည်။ ဆန်လှော်အနံ့ရှိသည့် နို့လက်ဖက်ရည်အတွက် သုံးသည်။",
+    "aliases": ["Genmaicha tea"]
+  },
+  {
+    "id": "cascara",
+    "name": "ကက်စကာရာ ကော်ဖီသီးခွံ",
+    "englishName": "Cascara",
+    "category": "tea",
+    "photoKey": "Cascara coffee cherry tea",
+    "guide": "စားသောက်ရန်သတ်မှတ်ထားသော food-grade ကော်ဖီသီးခွံခြောက်ဖြစ်သည်။ နှပ်ပြီး စစ်ထားသောအရည်ကို cooler အတွက် သုံးသည်။",
+    "aliases": ["Cascara tea အေး", "Food-grade cascara"]
+  },
+  {
+    "id": "black-tea",
+    "name": "လက်ဖက်အနက်",
+    "englishName": "Black tea",
+    "category": "tea",
+    "photoKey": "Black tea leaves",
+    "guide": "နှပ်ပြီး စစ်ထားသော လက်ဖက်ရည်ဖြစ်သည်။ အနှပ်ပြင်းအားက နို့လက်ဖက်ရည်၏ အရသာကို ပြောင်းစေသဖြင့် မူရင်း Recipe အတိုင်း ချိန်ပါ။",
+    "aliases": [
+      "Black Tea အရွက်",
+      "Black tea အရွက်ခြောက်",
+      "လက်ဖက်ရည်ပြင်း",
+      "လက်ဖက်ရည်အနက်အေး"
+    ]
+  },
+  {
+    "id": "taro",
+    "name": "ပိန်းဥဖျော်မှုန့်",
+    "englishName": "Taro mix powder",
+    "category": "powder",
+    "photoKey": "Taro roots",
+    "guide": "ပုံသည် ပိန်းဥအစစ် နမူနာဖြစ်သည်။ Recipe များတွင် သုံးသည့် Taro mix သည် အချိုနှင့် နို့မှုန့် ပါနိုင်သော ဖျော်မှုန့်ဖြစ်ပြီး ပိန်းဥအစိမ်းကို တိုက်ရိုက်အစားမထိုးပါနှင့်။",
+    "aliases": ["Taro Powder", "ပိန်းဥအရသာဖျော်မှုန့် (Taro mix)"]
+  },
+  {
+    "id": "ube",
+    "name": "ခရမ်းရောင်ဥအနှစ်",
+    "englishName": "Ube paste",
+    "category": "powder",
+    "photoKey": "Ube halaya",
+    "guide": "Ube အနှစ်သည် ခရမ်းရောင်ဥအရသာနှင့် ပျစ်မှုကို ပေးသည်။ Taro powder နှင့် မတူပါ။ အချိုပါပြီးသား အနှစ်လားဆိုတာ စစ်ပြီး Recipe ပမာဏအတိုင်း သုံးပါ။",
+    "aliases": ["Ube paste"]
+  },
+  {
+    "id": "honey",
+    "name": "ပျားရည်",
+    "englishName": "Honey",
+    "category": "sweet",
+    "photoKey": "Honey jar",
+    "guide": "ရေနွေးနွေးအနည်းငယ်ဖြင့် ပျော်ပြီးမှ ရေခဲထည့်ပါ။ သကြားရည်နှင့် ပြင်းအားမတူသဖြင့် ml တူတိုင်း အစားမထိုးပါနှင့်။",
+    "aliases": ["Honey", "ပျားရည်"]
+  },
+  {
+    "id": "sugar",
+    "name": "သကြား / သကြားရည်",
+    "englishName": "Sugar & simple syrup",
+    "category": "sweet",
+    "photoKey": "existing:sugar-syrup",
+    "guide": "သကြားမှုန့် g နှင့် သကြားရည် ml ကို မရောပါနှင့်။ Simple syrup 1:1 ဟုရေးထားလျှင် သကြားနှင့်ရေကို အလေးချိန်တူပြင်ပါ။ Brown sugar သည် အနံ့နှင့်အရောင် ပိုရှိသည်။",
+    "aliases": [
+      "SYR-01 Simple Syrup",
+      "Simple Syrup 1:1 by weight (SYR-01)",
+      "Sugar Syrup (1:1 အချိုးအတည်ပြုပြီးမှ)",
+      "ကြံသကြား",
+      "သကြား",
+      "သကြား (optional)",
+      "သကြားဖြူ",
+      "သကြားရည်",
+      "သကြားရည် (Cane syrup)",
+      "သကြားရည် (optional)",
+      "သကြားရည် (စမ်းသပ်ပမာဏ)",
+      "သကြားရည် (ရွေးချယ်နိုင်)"
+    ]
+  },
+  {
+    "id": "vanilla",
+    "name": "ဗနီလာ",
+    "englishName": "Vanilla bean & syrup",
+    "category": "sweet",
+    "photoKey": "existing:vanilla",
+    "guide": "ပုံသည် ဗနီလာတောင့်အစစ်ဖြစ်သည်။ ဖျော်ရည်အများစုတွင် အသင့်ပြင်ထားသော vanilla syrup သုံးရပြီး အတောင့်ကို ml တူတိုင်း အစားမထိုးရပါ။",
+    "aliases": [
+      "Vanilla Bean Syrup Base (SYR-03)",
+      "Vanilla Syrup",
+      "Vanilla Syrup (Foam)",
+      "Vanilla bean (အတောင့်)",
+      "Vanilla bean syrup",
+      "Vanilla syrup"
+    ]
+  },
+  {
+    "id": "caramel",
+    "name": "ကာရာမယ်ဆီရပ် / ဆော့စ်",
+    "englishName": "Caramel syrup & sauce",
+    "category": "sweet",
+    "photoKey": "existing:caramel-sauce",
+    "guide": "Syrup က ပျော်ရောရန်၊ sauce က အနံ့အရသာထည့်ရန်နှင့် ခွက်ကပ်အလှဆင်ရန် သုံးသည်။ Salted caramel မှာ ဆားပါပြီးသားဖြစ်သည်။ Recipe ပါပုံစံကို စစ်ပါ။",
+    "aliases": [
+      "Caramel Syrup",
+      "Caramel syrup",
+      "Salted Caramel Syrup",
+      "Salted caramel syrup",
+      "ကာရာမယ်ဆီရပ်",
+      "ကာရာမယ်ဆော့စ်",
+      "ကာရာမယ်ဆော့စ် အလှဆင်"
+    ]
+  },
+  {
+    "id": "hazelnut",
+    "name": "ဟေဇယ်နတ်ဆီရပ်",
+    "englishName": "Hazelnut syrup",
+    "category": "sweet",
+    "photoKey": "Hazelnuts shelled",
+    "guide": "ပုံသည် ဟေဇယ်နတ်အစစ်ဖြစ်သည်။ ဖျော်ရည်တွင် hazelnut syrup သုံးရပြီး အစေ့ကို တိုက်ရိုက်အစားမထိုးပါနှင့်။",
+    "aliases": ["Hazelnut Syrup"]
+  },
+  {
+    "id": "pistachio",
+    "name": "ပစ္စတာချိုဆီရပ်",
+    "englishName": "Pistachio syrup",
+    "category": "sweet",
+    "photoKey": "Pistachios shelled",
+    "guide": "ပုံသည် ပစ္စတာချိုအစေ့ဖြစ်သည်။ Recipe တွင် ဆီရပ်ပုံစံသုံးပြီး အချိုနှင့် အစေ့အနံ့ ပေးသည်။",
+    "aliases": ["Pistachio syrup"]
+  },
+  {
+    "id": "maple",
+    "name": "မေပယ်ဆီရပ်",
+    "englishName": "Maple syrup",
+    "category": "sweet",
+    "photoKey": "Maple syrup bottle",
+    "guide": "သဘာဝချိုမှုနှင့် မေပယ်အနံ့ ရစေရန် သုံးသည်။ Vanilla syrup နှင့် အနံ့အရသာ မတူပါ။",
+    "aliases": ["Maple syrup"]
+  },
+  {
+    "id": "strawberry",
+    "name": "စတော်ဘယ်ရီ",
+    "englishName": "Strawberry",
+    "category": "fruit",
+    "photoKey": "existing:strawberry-puree",
+    "guide": "အသီး၊ purée၊ fruit preparation၊ concentrate နှင့် syrup ဟူ၍ ပုံစံကွဲရှိသည်။ Purée က ပျစ်ပြီး အသီးအသားပါနိုင်သည်၊ syrup က အချိုရည်ဖြစ်သည်။ Recipe ပါပုံစံကို ရွေးပါ။",
+    "aliases": [
+      "Nature Taste Strawberry Fruit Based Preparation",
+      "Strawberry Concentrate",
+      "Strawberry Purée",
+      "Strawberry Syrup",
+      "Strawberry အသားသန့်",
+      "စတော်ဘယ်ရီ puree",
+      "စတော်ဘယ်ရီ အသီးအနှစ်",
+      "စတော်ဘယ်ရီ အသီးအနှစ် (Fruit preparation)",
+      "စတော်ဘယ်ရီသီး",
+      "ရေဆေးပြီး အညှာဖယ်ထားသော strawberry",
+      "အအေးခံထားသော Strawberry Dessert Sauce Base (SAU-03)"
+    ]
+  },
+  {
+    "id": "mixed-berry",
+    "name": "မစ်စ်ဘယ်ရီ",
+    "englishName": "Mixed berries",
+    "category": "fruit",
+    "photoKey": "existing:berries",
+    "guide": "ပုံသည် ဘယ်ရီအသီးအစစ်များဖြစ်သည်။ Recipe က purée သို့မဟုတ် fruit preparation ဆိုလျှင် ထိုအနှစ်ပုံစံကို သုံးပါ။ အသီးသန့်နှင့် အချိုရည်ထပ်ထည့်ပမာဏ မတူနိုင်ပါ။",
+    "aliases": [
+      "Mixed Berry",
+      "Mixed Berry Purée",
+      "Nature Taste Mixed Berry Fruit Based Preparation",
+      "မစ်စ်ဘယ်ရီ အသီးအနှစ် (Fruit preparation)"
+    ]
+  },
+  {
+    "id": "orange",
+    "name": "လိမ္မော်",
+    "englishName": "Orange",
+    "category": "fruit",
+    "photoKey": "existing:orange-juice",
+    "guide": "ပုံသည် အသီး / အသီးအနှစ်အစစ် နမူနာဖြစ်သည်။ အောက်ပါ Recipe များတွင် ရည်၊ အနှစ်၊ purée၊ concentrate သို့မဟုတ် syrup ဟု သတ်မှတ်ထားသည့် ပုံစံကို သုံးပါ။ အသီးအစိမ်းနှင့် အသင့်ဖျော်အချိုရည်ကို ပမာဏတူ အစားမထိုးပါနှင့်။",
+    "aliases": [
+      "Mandarin juice",
+      "လိမ္မော်ဖျော်ရည်",
+      "လိမ္မော်ဖျော်ရည်အနှစ် (Orange concentrate)",
+      "လိမ္မော်ရည်",
+      "လိမ္မော်ရည် (100% juice)",
+      "လိမ္မော်အနှစ်",
+      "လိမ္မော်အရည် (အစေ့စစ်ပြီး)"
+    ]
+  },
+  {
+    "id": "lime-lemon",
+    "name": "သံပုရာ / လီမွန်",
+    "englishName": "Lime & lemon",
+    "category": "fruit",
+    "photoKey": "existing:citrus",
+    "guide": "ပုံသည် အသီး / အသီးအနှစ်အစစ် နမူနာဖြစ်သည်။ အောက်ပါ Recipe များတွင် ရည်၊ အနှစ်၊ purée၊ concentrate သို့မဟုတ် syrup ဟု သတ်မှတ်ထားသည့် ပုံစံကို သုံးပါ။ အသီးအစိမ်းနှင့် အသင့်ဖျော်အချိုရည်ကို ပမာဏတူ အစားမထိုးပါနှင့်။",
+    "aliases": [
+      "Lemon/Lime Juice",
+      "Lime juice",
+      "လီမွန်ရည်",
+      "လီမွန်အရည် (အစေ့စစ်ပြီး)",
+      "သံပရာ/လီမွန်အခွံ",
+      "သံပရာရည်သန့်",
+      "သံပရာအရည် (အစေ့စစ်ပြီး)",
+      "သံပုရာရည်",
+      "သံပုရာရည် (Lime juice)",
+      "သံပုရာအဝိုင်း အလှဆင်",
+      "သံပုရာအဝိုင်း — အလှဆင်"
+    ]
+  },
+  {
+    "id": "yuzu",
+    "name": "ယူဇူး",
+    "englishName": "Yuzu",
+    "category": "fruit",
+    "photoKey": "existing:yuzu",
+    "guide": "ပုံသည် အသီး / အသီးအနှစ်အစစ် နမူနာဖြစ်သည်။ အောက်ပါ Recipe များတွင် ရည်၊ အနှစ်၊ purée၊ concentrate သို့မဟုတ် syrup ဟု သတ်မှတ်ထားသည့် ပုံစံကို သုံးပါ။ အသီးအစိမ်းနှင့် အသင့်ဖျော်အချိုရည်ကို ပမာဏတူ အစားမထိုးပါနှင့်။",
+    "aliases": [
+      "Nature Taste Yuzu Fruit Based Preparation",
+      "Yuzu Juice",
+      "Yuzu Syrup",
+      "Yuzu juice",
+      "ယူဇူးအသီးအနှစ် (Yuzu fruit preparation)"
+    ]
+  },
+  {
+    "id": "mango",
+    "name": "သရက်",
+    "englishName": "Mango",
+    "category": "fruit",
+    "photoKey": "existing:mango",
+    "guide": "ပုံသည် အသီး / အသီးအနှစ်အစစ် နမူနာဖြစ်သည်။ အောက်ပါ Recipe များတွင် ရည်၊ အနှစ်၊ purée၊ concentrate သို့မဟုတ် syrup ဟု သတ်မှတ်ထားသည့် ပုံစံကို သုံးပါ။ အသီးအစိမ်းနှင့် အသင့်ဖျော်အချိုရည်ကို ပမာဏတူ အစားမထိုးပါနှင့်။",
+    "aliases": [
+      "Mango Purée",
+      "Mango Syrup",
+      "သရက်သီး",
+      "သရက်သီး အသားသန့်",
+      "သရက်သီးရည်"
+    ]
+  },
+  {
+    "id": "pineapple",
+    "name": "နာနတ်သီး",
+    "englishName": "Pineapple",
+    "category": "fruit",
+    "photoKey": "existing:pineapple",
+    "guide": "ပုံသည် အသီး / အသီးအနှစ်အစစ် နမူနာဖြစ်သည်။ အောက်ပါ Recipe များတွင် ရည်၊ အနှစ်၊ purée၊ concentrate သို့မဟုတ် syrup ဟု သတ်မှတ်ထားသည့် ပုံစံကို သုံးပါ။ အသီးအစိမ်းနှင့် အသင့်ဖျော်အချိုရည်ကို ပမာဏတူ အစားမထိုးပါနှင့်။",
+    "aliases": [
+      "Ding Fong နာနတ်သီးအနှစ် (Pineapple squash)",
+      "Pineapple Syrup",
+      "နာနတ်သီး အသားသန့်",
+      "နာနတ်သီးရည်"
+    ]
+  },
+  {
+    "id": "passion-fruit",
+    "name": "ပက်ရှင်ဖရုသီး",
+    "englishName": "Passion fruit",
+    "category": "fruit",
+    "photoKey": "existing:passion-fruit",
+    "guide": "ပုံသည် အသီး / အသီးအနှစ်အစစ် နမူနာဖြစ်သည်။ အောက်ပါ Recipe များတွင် ရည်၊ အနှစ်၊ purée၊ concentrate သို့မဟုတ် syrup ဟု သတ်မှတ်ထားသည့် ပုံစံကို သုံးပါ။ အသီးအစိမ်းနှင့် အသင့်ဖျော်အချိုရည်ကို ပမာဏတူ အစားမထိုးပါနှင့်။",
+    "aliases": [
+      "Passion Fruit Concentrate",
+      "Passion Fruit Purée",
+      "Passion Fruit Syrup",
+      "Passion fruit puree",
+      "အေးထားသော Passion fruit purée"
+    ]
+  },
+  {
+    "id": "lychee",
+    "name": "လိုင်ချီး",
+    "englishName": "Lychee",
+    "category": "fruit",
+    "photoKey": "existing:lychee",
+    "guide": "ပုံသည် အသီး / အသီးအနှစ်အစစ် နမူနာဖြစ်သည်။ အောက်ပါ Recipe များတွင် ရည်၊ အနှစ်၊ purée၊ concentrate သို့မဟုတ် syrup ဟု သတ်မှတ်ထားသည့် ပုံစံကို သုံးပါ။ အသီးအစိမ်းနှင့် အသင့်ဖျော်အချိုရည်ကို ပမာဏတူ အစားမထိုးပါနှင့်။",
+    "aliases": [
+      "Lychee Concentrate",
+      "Lychee Syrup",
+      "Lychee juice",
+      "ရေစစ်ထားသော လိုင်ချီးအသီးအသား"
+    ]
+  },
+  {
+    "id": "peach",
+    "name": "မက်မွန်",
+    "englishName": "Peach",
+    "category": "fruit",
+    "photoKey": "existing:peach",
+    "guide": "ပုံသည် အသီး / အသီးအနှစ်အစစ် နမူနာဖြစ်သည်။ အောက်ပါ Recipe များတွင် ရည်၊ အနှစ်၊ purée၊ concentrate သို့မဟုတ် syrup ဟု သတ်မှတ်ထားသည့် ပုံစံကို သုံးပါ။ အသီးအစိမ်းနှင့် အသင့်ဖျော်အချိုရည်ကို ပမာဏတူ အစားမထိုးပါနှင့်။",
+    "aliases": ["Peach Purée", "Peach Syrup", "Peach syrup"]
+  },
+  {
+    "id": "kiwi",
+    "name": "ကီဝီ",
+    "englishName": "Kiwi",
+    "category": "fruit",
+    "photoKey": "existing:kiwi",
+    "guide": "ပုံသည် အသီး / အသီးအနှစ်အစစ် နမူနာဖြစ်သည်။ အောက်ပါ Recipe များတွင် ရည်၊ အနှစ်၊ purée၊ concentrate သို့မဟုတ် syrup ဟု သတ်မှတ်ထားသည့် ပုံစံကို သုံးပါ။ အသီးအစိမ်းနှင့် အသင့်ဖျော်အချိုရည်ကို ပမာဏတူ အစားမထိုးပါနှင့်။",
+    "aliases": ["Kiwi Purée"]
+  },
+  {
+    "id": "apple",
+    "name": "ပန်းသီး",
+    "englishName": "Apple",
+    "category": "fruit",
+    "photoKey": "existing:apple",
+    "guide": "ပုံသည် အသီး / အသီးအနှစ်အစစ် နမူနာဖြစ်သည်။ အောက်ပါ Recipe များတွင် ရည်၊ အနှစ်၊ purée၊ concentrate သို့မဟုတ် syrup ဟု သတ်မှတ်ထားသည့် ပုံစံကို သုံးပါ။ အသီးအစိမ်းနှင့် အသင့်ဖျော်အချိုရည်ကို ပမာဏတူ အစားမထိုးပါနှင့်။",
+    "aliases": ["Green Apple Syrup", "ပန်းသီးရည်"]
+  },
+  {
+    "id": "grapefruit",
+    "name": "ဂရိတ်ဖရု",
+    "englishName": "Grapefruit",
+    "category": "fruit",
+    "photoKey": "existing:grapefruit",
+    "guide": "ပုံသည် အသီး / အသီးအနှစ်အစစ် နမူနာဖြစ်သည်။ အောက်ပါ Recipe များတွင် ရည်၊ အနှစ်၊ purée၊ concentrate သို့မဟုတ် syrup ဟု သတ်မှတ်ထားသည့် ပုံစံကို သုံးပါ။ အသီးအစိမ်းနှင့် အသင့်ဖျော်အချိုရည်ကို ပမာဏတူ အစားမထိုးပါနှင့်။",
+    "aliases": ["Grapefruit Juice", "Grapefruit juice"]
+  },
+  {
+    "id": "pomelo",
+    "name": "ကျွဲကော",
+    "englishName": "Pomelo",
+    "category": "fruit",
+    "photoKey": "Pomelo fruit",
+    "guide": "ပုံသည် အသီး / အသီးအနှစ်အစစ် နမူနာဖြစ်သည်။ အောက်ပါ Recipe များတွင် ရည်၊ အနှစ်၊ purée၊ concentrate သို့မဟုတ် syrup ဟု သတ်မှတ်ထားသည့် ပုံစံကို သုံးပါ။ အသီးအစိမ်းနှင့် အသင့်ဖျော်အချိုရည်ကို ပမာဏတူ အစားမထိုးပါနှင့်။",
+    "aliases": ["ကျွဲကောရည်"]
+  },
+  {
+    "id": "watermelon",
+    "name": "ဖရဲသီး",
+    "englishName": "Watermelon",
+    "category": "fruit",
+    "photoKey": "existing:watermelon",
+    "guide": "ပုံသည် အသီး / အသီးအနှစ်အစစ် နမူနာဖြစ်သည်။ အောက်ပါ Recipe များတွင် ရည်၊ အနှစ်၊ purée၊ concentrate သို့မဟုတ် syrup ဟု သတ်မှတ်ထားသည့် ပုံစံကို သုံးပါ။ အသီးအစိမ်းနှင့် အသင့်ဖျော်အချိုရည်ကို ပမာဏတူ အစားမထိုးပါနှင့်။",
+    "aliases": ["Watermelon Syrup", "ဖရဲသီးရည်", "ဖရဲသီးရည်စစ်"]
+  },
+  {
+    "id": "banana",
+    "name": "ငှက်ပျော",
+    "englishName": "Banana",
+    "category": "fruit",
+    "photoKey": "Banana fruit",
+    "guide": "ပုံသည် အသီး / အသီးအနှစ်အစစ် နမူနာဖြစ်သည်။ အောက်ပါ Recipe များတွင် ရည်၊ အနှစ်၊ purée၊ concentrate သို့မဟုတ် syrup ဟု သတ်မှတ်ထားသည့် ပုံစံကို သုံးပါ။ အသီးအစိမ်းနှင့် အသင့်ဖျော်အချိုရည်ကို ပမာဏတူ အစားမထိုးပါနှင့်။",
+    "aliases": ["ငှက်ပျောသီး", "ငှက်ပျောသီးမှည့်"]
+  },
+  {
+    "id": "raspberry",
+    "name": "ရာစ်ဘယ်ရီ",
+    "englishName": "Raspberry",
+    "category": "fruit",
+    "photoKey": "Raspberries fruit",
+    "guide": "ပုံသည် အသီး / အသီးအနှစ်အစစ် နမူနာဖြစ်သည်။ အောက်ပါ Recipe များတွင် ရည်၊ အနှစ်၊ purée၊ concentrate သို့မဟုတ် syrup ဟု သတ်မှတ်ထားသည့် ပုံစံကို သုံးပါ။ အသီးအစိမ်းနှင့် အသင့်ဖျော်အချိုရည်ကို ပမာဏတူ အစားမထိုးပါနှင့်။",
+    "aliases": ["Raspberry Syrup", "အရက်မပါ Raspberry syrup"]
+  },
+  {
+    "id": "blueberry",
+    "name": "ဘလူးဘယ်ရီ",
+    "englishName": "Blueberry",
+    "category": "fruit",
+    "photoKey": "Blueberries fruit",
+    "guide": "ပုံသည် အသီး / အသီးအနှစ်အစစ် နမူနာဖြစ်သည်။ အောက်ပါ Recipe များတွင် ရည်၊ အနှစ်၊ purée၊ concentrate သို့မဟုတ် syrup ဟု သတ်မှတ်ထားသည့် ပုံစံကို သုံးပါ။ အသီးအစိမ်းနှင့် အသင့်ဖျော်အချိုရည်ကို ပမာဏတူ အစားမထိုးပါနှင့်။",
+    "aliases": ["Blueberry Syrup"]
+  },
+  {
+    "id": "cherry",
+    "name": "ချယ်ရီ",
+    "englishName": "Cherry",
+    "category": "fruit",
+    "photoKey": "Cherries fruit",
+    "guide": "ပုံသည် အသီး / အသီးအနှစ်အစစ် နမူနာဖြစ်သည်။ အောက်ပါ Recipe များတွင် ရည်၊ အနှစ်၊ purée၊ concentrate သို့မဟုတ် syrup ဟု သတ်မှတ်ထားသည့် ပုံစံကို သုံးပါ။ အသီးအစိမ်းနှင့် အသင့်ဖျော်အချိုရည်ကို ပမာဏတူ အစားမထိုးပါနှင့်။",
+    "aliases": ["Cherry syrup"]
+  },
+  {
+    "id": "blackcurrant",
+    "name": "ဘလက်ကာရန့်",
+    "englishName": "Blackcurrant",
+    "category": "fruit",
+    "photoKey": "Blackcurrant berries",
+    "guide": "ပုံသည် အသီး / အသီးအနှစ်အစစ် နမူနာဖြစ်သည်။ အောက်ပါ Recipe များတွင် ရည်၊ အနှစ်၊ purée၊ concentrate သို့မဟုတ် syrup ဟု သတ်မှတ်ထားသည့် ပုံစံကို သုံးပါ။ အသီးအစိမ်းနှင့် အသင့်ဖျော်အချိုရည်ကို ပမာဏတူ အစားမထိုးပါနှင့်။",
+    "aliases": ["Blackcurrant syrup"]
+  },
+  {
+    "id": "pomegranate",
+    "name": "သလဲ",
+    "englishName": "Pomegranate / grenadine",
+    "category": "fruit",
+    "photoKey": "Pomegranate fruit",
+    "guide": "ပုံသည် အသီး / အသီးအနှစ်အစစ် နမူနာဖြစ်သည်။ အောက်ပါ Recipe များတွင် ရည်၊ အနှစ်၊ purée၊ concentrate သို့မဟုတ် syrup ဟု သတ်မှတ်ထားသည့် ပုံစံကို သုံးပါ။ အသီးအစိမ်းနှင့် အသင့်ဖျော်အချိုရည်ကို ပမာဏတူ အစားမထိုးပါနှင့်။",
+    "aliases": ["Grenadine Syrup (non-alcoholic)", "Pomegranate juice"]
+  },
+  {
+    "id": "coconut-water",
+    "name": "အုန်းရည် / အုန်းဆီရပ်",
+    "englishName": "Coconut water & syrup",
+    "category": "fruit",
+    "photoKey": "existing:coconut",
+    "guide": "ပုံသည် အသီး / အသီးအနှစ်အစစ် နမူနာဖြစ်သည်။ အောက်ပါ Recipe များတွင် ရည်၊ အနှစ်၊ purée၊ concentrate သို့မဟုတ် syrup ဟု သတ်မှတ်ထားသည့် ပုံစံကို သုံးပါ။ အသီးအစိမ်းနှင့် အသင့်ဖျော်အချိုရည်ကို ပမာဏတူ အစားမထိုးပါနှင့်။",
+    "aliases": ["အုန်းဆီရပ်", "အုန်းရည်", "အုန်းအရသာ ဆီရပ်", "အုန်းအရသာဆီရပ်"]
+  },
+  {
+    "id": "plum",
+    "name": "ဆားစိမ်ဇီးသီး",
+    "englishName": "Salted plum",
+    "category": "fruit",
+    "photoKey": "Salted preserved plums",
+    "guide": "ပုံသည် အသီး / အသီးအနှစ်အစစ် နမူနာဖြစ်သည်။ အောက်ပါ Recipe များတွင် ရည်၊ အနှစ်၊ purée၊ concentrate သို့မဟုတ် syrup ဟု သတ်မှတ်ထားသည့် ပုံစံကို သုံးပါ။ အသီးအစိမ်းနှင့် အသင့်ဖျော်အချိုရည်ကို ပမာဏတူ အစားမထိုးပါနှင့်။",
+    "aliases": [
+      "ဆားစိမ်ဇီးသီး (Pickled plum)",
+      "ဇီးဆားရည် (Salted Plum Concentrate)",
+      "ဇီးသီးစိမ်ရည်"
+    ]
+  },
+  {
+    "id": "tamarind",
+    "name": "မန်ကျည်း",
+    "englishName": "Tamarind",
+    "category": "fruit",
+    "photoKey": "Tamarind pods",
+    "guide": "ပုံသည် အသီး / အသီးအနှစ်အစစ် နမူနာဖြစ်သည်။ အောက်ပါ Recipe များတွင် ရည်၊ အနှစ်၊ purée၊ concentrate သို့မဟုတ် syrup ဟု သတ်မှတ်ထားသည့် ပုံစံကို သုံးပါ။ အသီးအစိမ်းနှင့် အသင့်ဖျော်အချိုရည်ကို ပမာဏတူ အစားမထိုးပါနှင့်။",
+    "aliases": ["မန်ကျည်းရည်စစ်", "မန်ကျည်းအနှစ်ရည်"]
+  },
+  {
+    "id": "cucumber",
+    "name": "သခွားသီး",
+    "englishName": "Cucumber",
+    "category": "fruit",
+    "photoKey": "existing:cucumber",
+    "guide": "ပုံသည် အသီး / အသီးအနှစ်အစစ် နမူနာဖြစ်သည်။ အောက်ပါ Recipe များတွင် ရည်၊ အနှစ်၊ purée၊ concentrate သို့မဟုတ် syrup ဟု သတ်မှတ်ထားသည့် ပုံစံကို သုံးပါ။ အသီးအစိမ်းနှင့် အသင့်ဖျော်အချိုရည်ကို ပမာဏတူ အစားမထိုးပါနှင့်။",
+    "aliases": ["သခွားသီးရည်စစ်"]
+  },
+  {
+    "id": "mint",
+    "name": "ပူဒီနာ",
+    "englishName": "Mint",
+    "category": "herbs",
+    "photoKey": "Mint leaves",
+    "guide": "ပူဒီနာရွက်နှင့် mint syrup ကို ခွဲရွေးပါ။ ရွက်ကို အနံ့ထွက်ရန် ပေါ့ပေါ့ဖိပြီး သုံးသည့် Recipe ရှိသလို ဆီရပ်သာသုံးသည့် Recipe လည်းရှိသည်။",
+    "aliases": [
+      "LongBeach Mint Syrup",
+      "Mint",
+      "Mint syrup",
+      "Mint အရွက်သန့် (ပင်စည်ဖယ်)",
+      "ပူဒီနာရွက်",
+      "မင့်တ်ဆီရပ်"
+    ]
+  },
+  {
+    "id": "basil",
+    "name": "ပင်စိမ်း",
+    "englishName": "Basil",
+    "category": "herbs",
+    "photoKey": "Basil leaves",
+    "guide": "သန့်စင်ထားသော ရွက်ကို အနံ့ထွက်စေရန် သုံးသည်။ အညှာကြမ်းများဖယ်ပြီး Recipe ပမာဏအတိုင်း ထည့်ပါ။",
+    "aliases": ["ပင်စိမ်းရွက်"]
+  },
+  {
+    "id": "ginger",
+    "name": "ဂျင်း",
+    "englishName": "Ginger",
+    "category": "herbs",
+    "photoKey": "Ginger root",
+    "guide": "ဂျင်းရည်၊ ginger syrup၊ ginger ale နှင့် အရက်မပါ ginger beer ကို သီးခြားခွဲသုံးပါ။ ပုံသည် ဂျင်းအစစ်ဖြစ်သည်။ ဆိုဒါအရည်ကို ဂျင်းအနှစ်နှင့် မအစားထိုးပါနှင့်။",
+    "aliases": [
+      "Alcohol-free ginger beer",
+      "Ginger Syrup",
+      "Ginger ale",
+      "ဂျင်းရည်"
+    ]
+  },
+  {
+    "id": "cinnamon",
+    "name": "သစ်ကြံပိုး",
+    "englishName": "Cinnamon",
+    "category": "herbs",
+    "photoKey": "Cinnamon sticks powder",
+    "guide": "အချောင်းနှင့် အမှုန့်ပုံစံရှိသည်။ အနံ့ပြင်းသဖြင့် Recipe ပါပမာဏအတိုင်းသာ သုံးပါ။",
+    "aliases": ["သစ်ကြံပိုး", "သစ်ကြံပိုးမှုန့်"]
+  },
+  {
+    "id": "cardamom",
+    "name": "ဖာလာ",
+    "englishName": "Cardamom",
+    "category": "herbs",
+    "photoKey": "Cardamom pods",
+    "guide": "ပုံသည် ဖာလာသီးအစစ်ဖြစ်သည်။ Recipe က powder ဆိုလျှင် အမှုန့်ပုံစံကို သုံးပါ။",
+    "aliases": ["Cardamom powder", "ဖာလာမှုန့်"]
+  },
+  {
+    "id": "saffron",
+    "name": "ဆာဖရန်",
+    "englishName": "Saffron",
+    "category": "herbs",
+    "photoKey": "Saffron threads",
+    "guide": "အရောင်နှင့် ပန်းအနံ့ပေးသည့် အမွေးမျှင်ဖြစ်သည်။ Recipe ပါ အနည်းငယ်ကို နှပ်ပြီး သုံးပါ။",
+    "aliases": ["Saffron အနည်းငယ်"]
+  },
+  {
+    "id": "chamomile",
+    "name": "ကမိုမိုင်းလ်လက်ဖက်",
+    "englishName": "Chamomile tea",
+    "category": "herbs",
+    "photoKey": "Dried chamomile flowers",
+    "guide": "သောက်ရန်သတ်မှတ်ထားသော ပန်းခြောက်လက်ဖက်ကို နှပ်စစ်ပြီး ပျားရည်နှင့် ရောဖျော်သည်။",
+    "aliases": ["Chamomile tea"]
+  },
+  {
+    "id": "chrysanthemum",
+    "name": "ဂန္ဓမာဖျော်မှုန့်",
+    "englishName": "Chrysanthemum drink powder",
+    "category": "herbs",
+    "photoKey": "Chrysanthemum tea dried flowers",
+    "guide": "ပုံသည် ပန်းခြောက်နမူနာဖြစ်သည်။ လက်ရှိ Recipe က အချိုအသင့်ပါ ဂန္ဓမာမှုန့်ဖြစ်သဖြင့် အမှုန့်ကိုသာ သတ်မှတ်ပမာဏအတိုင်း သုံးပါ။",
+    "aliases": ["အချိုအသင့်ပါ ဂန္ဓမာအမှုန့် (Chrysanthemum powder)"]
+  },
+  {
+    "id": "butterfly-pea",
+    "name": "ပဲပန်းပြာ",
+    "englishName": "Butterfly pea",
+    "category": "herbs",
+    "photoKey": "Dried butterfly pea flowers",
+    "guide": "ပန်းကို နှပ်ပြီး စစ်ထားသောအရည်ကို သုံးသည်။ သံပုရာနှင့် တွေ့လျှင် အရောင်ပြောင်းနိုင်သဖြင့် Recipe အဆင့်လိုက် လောင်းပါ။",
+    "aliases": ["စစ်ပြီး ပဲပန်းပြာရည် (Butterfly pea tea)", "ပဲပြာပန်းရည်အေး"]
+  },
+  {
+    "id": "rose",
+    "name": "နှင်းဆီဆီရပ်",
+    "englishName": "Rose syrup",
+    "category": "herbs",
+    "photoKey": "Rose petals food",
+    "guide": "ပုံသည် နှင်းဆီပွင့် နမူနာဖြစ်သည်။ ဖျော်ရည်ထဲတွင် စားသောက်ရန်ပြုလုပ်ထားသော rose syrup ကို သုံးပါ။ အလှစိုက်ပန်းနှင့် မအစားထိုးပါနှင့်။",
+    "aliases": ["Rose Syrup", "နှင်းဆီ syrup"]
+  },
+  {
+    "id": "lavender",
+    "name": "လာဗင်ဒါဆီရပ်",
+    "englishName": "Lavender syrup",
+    "category": "herbs",
+    "photoKey": "Dried lavender flowers",
+    "guide": "ပုံသည် လာဗင်ဒါပန်းခြောက် နမူနာဖြစ်သည်။ Recipe တွင် စားသောက်ရန်ပြုလုပ်ထားသော lavender syrup သုံးရသည်။",
+    "aliases": ["Lavender syrup"]
+  },
+  {
+    "id": "jasmine",
+    "name": "စံပယ်နှပ်ရည်",
+    "englishName": "Jasmine infusion",
+    "category": "herbs",
+    "photoKey": "Jasmine tea leaves",
+    "guide": "သောက်ရန်ရည်ရွယ်သော စံပယ်လက်ဖက် / နှပ်ရည်ကို သုံးပါ။ ပန်းအလှစိုက်သည့် ပစ္စည်းကို မသုံးပါနှင့်။",
+    "aliases": ["စံပယ်ရည်"]
+  },
+  {
+    "id": "lemongrass",
+    "name": "စပါးလင်",
+    "englishName": "Lemongrass",
+    "category": "herbs",
+    "photoKey": "Lemongrass stalks",
+    "guide": "စပါးလင်ပြုတ်ရည်ကို အေးပြီး စစ်ကာ ဖျော်ရည်ထဲ ထည့်ပါ။",
+    "aliases": ["စပါးလင်ပြုတ်ရည်အေး"]
+  },
+  {
+    "id": "pandan",
+    "name": "ပန်ဒန်ဆီရပ်",
+    "englishName": "Pandan syrup",
+    "category": "herbs",
+    "photoKey": "Pandan leaves",
+    "guide": "ပုံသည် ပန်ဒန်ရွက်အစစ်ဖြစ်သည်။ Recipe တွင် pandan syrup ကို သုံးပြီး အရွက်နှင့် အစားမထိုးပါနှင့်။",
+    "aliases": ["Pandan Syrup"]
+  },
+  {
+    "id": "sesame",
+    "name": "နှမ်းနက်",
+    "englishName": "Black sesame",
+    "category": "herbs",
+    "photoKey": "Black sesame seeds",
+    "guide": "နှမ်းနက်ကင်မှုန့်နှင့် နှမ်းနက် paste သည် ပျစ်မှုမတူပါ။ Recipe ပါပုံစံကို ရွေးပါ။",
+    "aliases": ["Black sesame paste", "နှမ်းနက်မှုန့်ကင်"]
+  },
+  {
+    "id": "pumpkin",
+    "name": "ရွှေဖရုံအနှစ် / စပိုင်စ်",
+    "englishName": "Pumpkin purée & spice",
+    "category": "herbs",
+    "photoKey": "Pumpkin puree",
+    "guide": "Pumpkin purée က အသီးအနှစ်ဖြစ်ပြီး pumpkin spice က အနံ့သာမှုန့်ရောဖြစ်သည်။ နှစ်မျိုးလုံး ပါသည့် Recipe တွင် သီးခြားချိန်ပါ။",
+    "aliases": ["Pumpkin purée", "Pumpkin spice"]
+  },
+  {
+    "id": "oreo",
+    "name": "အော်ရီယိုဘီစကွတ်",
+    "englishName": "Oreo biscuits",
+    "category": "extras",
+    "photoKey": "Oreo cookies",
+    "guide": "Oreo Original သို့မဟုတ် Recipe ပါ ဘီစကွတ်ကို ချေပြီး သုံးသည်။ Hot / Iced အလိုက် ပျော်ဖျော်ခြင်းနှင့် blender သုံးခြင်း မတူပါ။",
+    "aliases": ["Oreo Biscuit", "Oreo Original"]
+  },
+  {
+    "id": "biscoff",
+    "name": "ဘစ်စကော့ဖ်ဘီစကွတ် / စပရက်",
+    "englishName": "Biscoff biscuit & spread",
+    "category": "extras",
+    "photoKey": "Biscoff biscuits spread",
+    "guide": "Spread က အနှစ်၊ biscuit က ဘီစကွတ်ဖြစ်သည်။ Recipe ပါပုံစံကို ရွေးပြီး အလှဆင်သုံးခြင်းနှင့် ရောဖျော်ခြင်းကို ခွဲပါ။",
+    "aliases": ["Biscoff spread", "Biscoff ဘီစကွတ်"]
+  },
+  {
+    "id": "egg",
+    "name": "ကြက်ဥအနှစ်",
+    "englishName": "Egg yolk",
+    "category": "extras",
+    "photoKey": "Egg yolk bowl",
+    "guide": "Vietnam Egg Coffee အမြှုပ်အတွက် သုံးသည်။ သက်ဆိုင်ရာ Recipe ထဲက ဥအနှစ်ပြင်ဆင်ပုံနှင့် အပူပေးအဆင့်ကို လိုက်နာပါ။",
+    "aliases": ["ကြက်ဥအနှစ်"]
+  },
+  {
+    "id": "salt",
+    "name": "ဆား",
+    "englishName": "Salt",
+    "category": "extras",
+    "photoKey": "Table salt",
+    "guide": "အချိုအရသာကို ထိန်းရန် သို့မဟုတ် salted topping အတွက် သုံးသည်။ Recipe ပါပမာဏ အနည်းငယ်ကို ချိန်ပါ။",
+    "aliases": ["အိမ်သုံးဆား"]
+  },
+  {
+    "id": "soda",
+    "name": "ဆိုဒါရေ",
+    "englishName": "Soda water",
+    "category": "water",
+    "photoKey": "Carbonated water glass",
+    "guide": "အချိုမပါသော ဆိုဒါရေဖြစ်သည်။ အအေးထိန်းပြီး ဖျော်ရည်နောက်ဆုံးအဆင့်တွင် ဖြည်းဖြည်းလောင်းပါ။ သကြားပါ soft drink နှင့် မတူပါ။",
+    "aliases": [
+      "Soda Water",
+      "Soda water",
+      "ဆိုဒါရည် — ရေခဲပေါ်ဖြည့်ရန်",
+      "ဆိုဒါရည် — အောက်ခံရောရန်",
+      "အေးထားသော ဆိုဒါရေ"
+    ]
+  },
+  {
+    "id": "tonic",
+    "name": "တိုနစ်ရေ",
+    "englishName": "Tonic water",
+    "category": "water",
+    "photoKey": "Tonic water bottle",
+    "guide": "ခါးချိုအရသာရှိသော tonic ကို Espresso tonic အတွက် သုံးသည်။ ရိုးရိုးဆိုဒါရေထက် အချိုနှင့် အရသာ မတူပါ။",
+    "aliases": ["Tonic Water", "Tonic water"]
+  },
+  {
+    "id": "blue-syrup",
+    "name": "အရက်မပါ ဘလူးဆီရပ်",
+    "englishName": "Blue syrup / blue curaçao",
+    "category": "sweet",
+    "photoKey": "Blue curacao syrup non alcoholic",
+    "guide": "Blue syrup / concentrate နှင့် non-alcoholic blue curaçao ကို Recipe ပါအမည်အတိုင်း ရွေးပါ။ အရက်ပါ Curaçao liqueur ကို မသုံးပါနှင့်။ ပုံကို အောက်ပါစာတန်းနှင့် တွဲကြည့်ပါ။",
+    "aliases": [
+      "Blue Curaçao (အရက်မပါသော Syrup)",
+      "Blue Curaçao Syrup (non-alcoholic)",
+      "Blue Syrup / Concentrate"
+    ]
+  },
+  {
+    "id": "sala",
+    "name": "ဆာလာအနီဆီရပ်",
+    "englishName": "Thai red sala syrup",
+    "category": "sweet",
+    "photoKey": "Sala syrup bottle",
+    "guide": "ထိုင်းနို့ပန်းရောင်နှင့် အနီဆိုဒါအတွက် သုံးသည့် ချိုသောဆီရပ်ဖြစ်သည်။ Strawberry syrup နှင့် အနံ့မတူပါ။",
+    "aliases": ["Sala အနီဆီရပ်", "Thai Red Syrup (Sala)"]
+  },
+  {
+    "id": "chocolate-sauce",
+    "name": "ချောကလက်ဆော့စ်",
+    "englishName": "Chocolate sauce & topping",
+    "category": "sweet",
+    "photoKey": "existing:chocolate-sauce",
+    "aliases": [
+      "Chocolate Sauce",
+      "Chocolate Topping Sauce",
+      "Chocolate sauce",
+      "White Chocolate Sauce",
+      "White chocolate sauce"
+    ],
+    "guide": "ချောကလက်အရည်ဆော့စ်ကို ဖျော်ရည်ထဲရောရန်၊ ခွက်ကပ်အလှဆင်ရန်နှင့် အပေါ်တင်ရန် သုံးသည်။ White chocolate sauce က ကိုကိုးညိုဆော့စ်နှင့် မတူသဖြင့် အောက်ပါ Recipe ပါအမည်အတိုင်း ရွေးပါ။ ပုံသည် ချောကလက်ညိုဆော့စ် နမူနာဖြစ်သည်။"
+  },
+  {
+    "id": "brown-sugar",
+    "name": "သကြားညို / သကြားညိုဆီရပ်",
+    "englishName": "Brown sugar & syrup",
+    "category": "sweet",
+    "photoKey": "existing:brown-sugar",
+    "aliases": [
+      "Brown Sugar Syrup",
+      "Brown Sugar Syrup Base (SYR-02)",
+      "Brown sugar",
+      "Brown sugar syrup"
+    ],
+    "guide": "သကြားညိုအခဲ / အမှုန့် g နှင့် သကြားညိုဆီရပ် ml ကို မရောပါနှင့်။ ပုံသည် သကြားညိုအစစ်ဖြစ်သည်။ ဆီရပ်ကို သုံးရမည့် Recipe တွင် ပျော်ပြီးသားအရည်ကို အချိုးအတိုင်း သုံးပါ။"
+  }
+]

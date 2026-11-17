@@ -3,7 +3,14 @@ const base = process.env.VITE_BASE_PATH || "/";
 if (!/^\/(?:[a-zA-Z0-9_-]+\/)*$/.test(base)) throw Error("Invalid base path");
 const { version } = JSON.parse(await readFile("dist/version.json", "utf8"));
 const assets = (await readdir("dist/assets")).map((n) => base + "assets/" + n);
+const ingredientPhotos = JSON.parse(
+  await readFile("src/ingredientPhotos.json", "utf8"),
+);
+const ingredientAssets = [
+  ...new Set(Object.values(ingredientPhotos).map((p) => base + p.file)),
+];
 const precache = [
+  ...ingredientAssets,
   base,
   base + "index.html",
   base + "manifest.webmanifest",
