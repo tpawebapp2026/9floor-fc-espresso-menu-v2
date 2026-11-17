@@ -1,6 +1,6 @@
 {
   "scope": "Original 260 recipes",
-  "reviewed": 170,
+  "reviewed": 173,
   "target": 260,
   "method": "imagegen",
   "rows": [
@@ -2553,6 +2553,51 @@
       "reviewedAt": "2026-11-16",
       "prompt": "Create ONE square photorealistic premium cafe menu photograph. Warm off-white seamless background, soft natural side lighting. One centered fully visible clear 16oz takeaway cup with ice and natural condensation, white label reproducing the attached dark-green 9 FLOOR COFFEE logo. Exact drink: Lemon Basil Espresso: 20ml lemon juice mixed with 15ml sugar syrup and 110ml still water plus 3 small basil leaves inside cup, then 180g ice, then 32g espresso. Nearly clear pale yellow lower region with basil leaves submerged inside, dark brown espresso upper region. No lemon slices. Natural gentle diffusion at liquid boundary; juice volume much greater than espresso. No milk, cream, whipped cream, decorative garnish, fruit slices, surrounding props, hands, people, straw, or extra captions. No carbonation unless tonic water explicitly listed. Show only the finished drink; individual fresh photograph.",
       "visual": "Lemon Basil Espresso: 20ml lemon juice mixed with 15ml sugar syrup and 110ml still water plus 3 small basil leaves inside cup, then 180g ice, then 32g espresso. Nearly clear pale yellow lower region with basil leaves submerged inside, dark brown espresso upper region. No lemon slices."
+    },
+    {
+      "key": "v8-19-02",
+      "file": "recipe-photos/v8-19-02.webp",
+      "width": 768,
+      "height": 768,
+      "sha256": "755fc224af004d2a682cdbac2b8b4e4cbf650433f5072baa87fd78dee5d86d80",
+      "ingredientsSha256": "5dda8508a73b0e99dbd72a0667f1a7033a7341a1d70c9edade993de31d00dae0",
+      "bytes": 41128,
+      "gitSha": "2df8e86a1e4747f516feb3c43a4d9850bffd038e",
+      "recipeName": "Iced Einspänner",
+      "method": "imagegen",
+      "reviewedAt": "2026-11-17",
+      "prompt": "Use case: product-mockup. Create ONE new photorealistic square cafe menu photograph of Iced Einspänner. Warm off-white seamless studio background, soft natural side lighting, fully visible centered vessel with 8% breathing room. The attached image is a LOGO reference only: reproduce its dark-green 9 FLOOR COFFEE logo accurately on a centered white label on clear cups or printed on ceramic. Recipe ingredients with exact quantities: Espresso double shot 32 g; နို့အေး 130 ml; Whipping cream 45 ml; သကြား 5 g; ရေခဲ 170 g. Exact final appearance and order: Cold milk and ice below espresso diffusion; thick sweet white whipped cream cap. Unless a different vessel is specified, use clear 16oz takeaway cup. Hot drinks dry with NO ice or condensation. Cold drinks realistic ice and condensation as specified. Show only one finished drink; no people, hands, equipment, extra captions or surrounding props. No garnish, topping or ingredient not explicitly listed. No carbonation except recipes explicitly containing tonic, soda or ginger ale/beer. Match natural proportions, no artificial perfect color blocks. Each image must be a fresh individual photograph.",
+      "visual": "Cold milk and ice below espresso diffusion; thick sweet white whipped cream cap."
+    },
+    {
+      "key": "v8-19-05",
+      "file": "recipe-photos/v8-19-05.webp",
+      "width": 768,
+      "height": 768,
+      "sha256": "4dd870cd10612954ca5097cfd8e6f11c13d0b42add1edd572776547b43da7a5e",
+      "ingredientsSha256": "9ceb191452e46f9358b9097e5bdfd37653f51e8bf036b2412df0eb47c1c8ee99",
+      "bytes": 61554,
+      "gitSha": "37934c87f89b97badb007a8f45dafa70a7f2f6ad",
+      "recipeName": "Biscoff Latte",
+      "method": "imagegen",
+      "reviewedAt": "2026-11-17",
+      "prompt": "Use case: product-mockup. Create ONE new photorealistic square cafe menu photograph of Biscoff Latte. Warm off-white seamless studio background, soft natural side lighting, fully visible centered vessel with 8% breathing room. The attached image is a LOGO reference only: reproduce its dark-green 9 FLOOR COFFEE logo accurately on a centered white label on clear cups or printed on ceramic. Recipe ingredients with exact quantities: Espresso double shot 32 g; နို့အေး 130 ml; Biscoff spread 20 g; ရေခဲ 170 g. Exact final appearance and order: Caramel biscuit spread blended into cold milk over ice, espresso above. Natural caramel-tan drink, some spread traces inside cup. No biscuit garnish or cream. Unless a different vessel is specified, use clear 16oz takeaway cup. Hot drinks dry with NO ice or condensation. Cold drinks realistic ice and condensation as specified. Show only one finished drink; no people, hands, equipment, extra captions or surrounding props. No garnish, topping or ingredient not explicitly listed. No carbonation except recipes explicitly containing tonic, soda or ginger ale/beer. Match natural proportions, no artificial perfect color blocks. Each image must be a fresh individual photograph.",
+      "visual": "Caramel biscuit spread blended into cold milk over ice, espresso above. Natural caramel-tan drink, some spread traces inside cup. No biscuit garnish or cream."
+    },
+    {
+      "key": "v8-20-09",
+      "file": "recipe-photos/v8-20-09.webp",
+      "width": 768,
+      "height": 768,
+      "sha256": "d0192132b9aaba59a7666270ed951637957f20b8b60625a2be98f43dc1d83e2f",
+      "ingredientsSha256": "dea3d591f904b102b7303ffd9044866467581b723c78f0123cc044952123a446",
+      "bytes": 90272,
+      "gitSha": "9f21f23c422257f2a59308622915d1a5dcb858ee",
+      "recipeName": "Pomegranate Coffee Spritz",
+      "method": "imagegen",
+      "reviewedAt": "2026-11-17",
+      "prompt": "Use case: product-mockup. Create ONE new photorealistic square cafe menu photograph of Pomegranate Coffee Spritz. Warm off-white seamless studio background, soft natural side lighting, fully visible centered vessel with 8% breathing room. The attached image is a LOGO reference only: reproduce its dark-green 9 FLOOR COFFEE logo accurately on a centered white label on clear cups or printed on ceramic. Recipe ingredients with exact quantities: Espresso double shot 32 g; Soda water 110 ml; Pomegranate juice 60 ml; ရေခဲ 180 g. Exact final appearance and order: Pomegranate juice and soda base: ruby-pink translucent lower liquid under dark espresso poured last, ice, fine bubbles. No seeds or fresh fruit. Unless a different vessel is specified, use clear 16oz takeaway cup. Hot drinks dry with NO ice or condensation. Cold drinks realistic ice and condensation as specified. Show only one finished drink; no people, hands, equipment, extra captions or surrounding props. No garnish, topping or ingredient not explicitly listed. No carbonation except recipes explicitly containing tonic, soda or ginger ale/beer. Match natural proportions, no artificial perfect color blocks. Each image must be a fresh individual photograph.",
+      "visual": "Pomegranate juice and soda base: ruby-pink translucent lower liquid under dark espresso poured last, ice, fine bubbles. No seeds or fresh fruit."
     }
   ]
 }

@@ -1,0 +1,2089 @@
+{
+  "scope": "Final 90 original recipes",
+  "specifications": [
+    {
+      "id": "v8-19-01",
+      "name": "Einspänner Coffee",
+      "ingredients": [
+        {
+          "name": "Espresso double shot",
+          "quantity": "32 g"
+        },
+        {
+          "name": "ရေပူ",
+          "quantity": "90 ml"
+        },
+        {
+          "name": "Whipping cream",
+          "quantity": "45 ml"
+        },
+        {
+          "name": "သကြား",
+          "quantity": "5 g"
+        }
+      ],
+      "visual": "Hot black coffee diluted with hot water; soft thick sweet white whipped cream cap. Small clear heatproof handled glass; no ice, no milk base.",
+      "prompt": "Use case: product-mockup. Create ONE new photorealistic square cafe menu photograph of Einspänner Coffee. Warm off-white seamless studio background, soft natural side lighting, fully visible centered vessel with 8% breathing room. The attached image is a LOGO reference only: reproduce its dark-green 9 FLOOR COFFEE logo accurately on a centered white label on clear cups or printed on ceramic. Recipe ingredients with exact quantities: Espresso double shot 32 g; ရေပူ 90 ml; Whipping cream 45 ml; သကြား 5 g. Exact final appearance and order: Hot black coffee diluted with hot water; soft thick sweet white whipped cream cap. Small clear heatproof handled glass; no ice, no milk base. Unless a different vessel is specified, use clear 16oz takeaway cup. Hot drinks dry with NO ice or condensation. Cold drinks realistic ice and condensation as specified. Show only one finished drink; no people, hands, equipment, extra captions or surrounding props. No garnish, topping or ingredient not explicitly listed. No carbonation except recipes explicitly containing tonic, soda or ginger ale/beer. Match natural proportions, no artificial perfect color blocks. Each image must be a fresh individual photograph."
+    },
+    {
+      "id": "v8-19-02",
+      "name": "Iced Einspänner",
+      "ingredients": [
+        {
+          "name": "Espresso double shot",
+          "quantity": "32 g"
+        },
+        {
+          "name": "နို့အေး",
+          "quantity": "130 ml"
+        },
+        {
+          "name": "Whipping cream",
+          "quantity": "45 ml"
+        },
+        {
+          "name": "သကြား",
+          "quantity": "5 g"
+        },
+        {
+          "name": "ရေခဲ",
+          "quantity": "170 g"
+        }
+      ],
+      "visual": "Cold milk and ice below espresso diffusion; thick sweet white whipped cream cap.",
+      "prompt": "Use case: product-mockup. Create ONE new photorealistic square cafe menu photograph of Iced Einspänner. Warm off-white seamless studio background, soft natural side lighting, fully visible centered vessel with 8% breathing room. The attached image is a LOGO reference only: reproduce its dark-green 9 FLOOR COFFEE logo accurately on a centered white label on clear cups or printed on ceramic. Recipe ingredients with exact quantities: Espresso double shot 32 g; နို့အေး 130 ml; Whipping cream 45 ml; သကြား 5 g; ရေခဲ 170 g. Exact final appearance and order: Cold milk and ice below espresso diffusion; thick sweet white whipped cream cap. Unless a different vessel is specified, use clear 16oz takeaway cup. Hot drinks dry with NO ice or condensation. Cold drinks realistic ice and condensation as specified. Show only one finished drink; no people, hands, equipment, extra captions or surrounding props. No garnish, topping or ingredient not explicitly listed. No carbonation except recipes explicitly containing tonic, soda or ginger ale/beer. Match natural proportions, no artificial perfect color blocks. Each image must be a fresh individual photograph."
+    },
+    {
+      "id": "v8-19-03",
+      "name": "Tiramisu Latte",
+      "ingredients": [
+        {
+          "name": "Espresso double shot",
+          "quantity": "32 g"
+        },
+        {
+          "name": "နို့အေး",
+          "quantity": "130 ml"
+        },
+        {
+          "name": "Mascarpone cream",
+          "quantity": "40 g"
+        },
+        {
+          "name": "Cocoa powder",
+          "quantity": "2 g"
+        },
+        {
+          "name": "ရေခဲ",
+          "quantity": "170 g"
+        }
+      ],
+      "visual": "Cold milk and ice below espresso; thick mascarpone cream cap with light cocoa powder dusting. No cake or biscuit.",
+      "prompt": "Use case: product-mockup. Create ONE new photorealistic square cafe menu photograph of Tiramisu Latte. Warm off-white seamless studio background, soft natural side lighting, fully visible centered vessel with 8% breathing room. The attached image is a LOGO reference only: reproduce its dark-green 9 FLOOR COFFEE logo accurately on a centered white label on clear cups or printed on ceramic. Recipe ingredients with exact quantities: Espresso double shot 32 g; နို့အေး 130 ml; Mascarpone cream 40 g; Cocoa powder 2 g; ရေခဲ 170 g. Exact final appearance and order: Cold milk and ice below espresso; thick mascarpone cream cap with light cocoa powder dusting. No cake or biscuit. Unless a different vessel is specified, use clear 16oz takeaway cup. Hot drinks dry with NO ice or condensation. Cold drinks realistic ice and condensation as specified. Show only one finished drink; no people, hands, equipment, extra captions or surrounding props. No garnish, topping or ingredient not explicitly listed. No carbonation except recipes explicitly containing tonic, soda or ginger ale/beer. Match natural proportions, no artificial perfect color blocks. Each image must be a fresh individual photograph."
+    },
+    {
+      "id": "v8-19-04",
+      "name": "Crème Brûlée Latte",
+      "ingredients": [
+        {
+          "name": "Espresso double shot",
+          "quantity": "32 g"
+        },
+        {
+          "name": "နို့အေး",
+          "quantity": "130 ml"
+        },
+        {
+          "name": "Caramel syrup",
+          "quantity": "20 ml"
+        },
+        {
+          "name": "Custard cream",
+          "quantity": "25 ml"
+        },
+        {
+          "name": "ရေခဲ",
+          "quantity": "170 g"
+        }
+      ],
+      "visual": "Caramel-flavored cold milk and ice below espresso; pale yellow custard cream cap. NO burnt sugar crust, extra sugar, flame or whipped cream.",
+      "prompt": "Use case: product-mockup. Create ONE new photorealistic square cafe menu photograph of Crème Brûlée Latte. Warm off-white seamless studio background, soft natural side lighting, fully visible centered vessel with 8% breathing room. The attached image is a LOGO reference only: reproduce its dark-green 9 FLOOR COFFEE logo accurately on a centered white label on clear cups or printed on ceramic. Recipe ingredients with exact quantities: Espresso double shot 32 g; နို့အေး 130 ml; Caramel syrup 20 ml; Custard cream 25 ml; ရေခဲ 170 g. Exact final appearance and order: Caramel-flavored cold milk and ice below espresso; pale yellow custard cream cap. NO burnt sugar crust, extra sugar, flame or whipped cream. Unless a different vessel is specified, use clear 16oz takeaway cup. Hot drinks dry with NO ice or condensation. Cold drinks realistic ice and condensation as specified. Show only one finished drink; no people, hands, equipment, extra captions or surrounding props. No garnish, topping or ingredient not explicitly listed. No carbonation except recipes explicitly containing tonic, soda or ginger ale/beer. Match natural proportions, no artificial perfect color blocks. Each image must be a fresh individual photograph."
+    },
+    {
+      "id": "v8-19-05",
+      "name": "Biscoff Latte",
+      "ingredients": [
+        {
+          "name": "Espresso double shot",
+          "quantity": "32 g"
+        },
+        {
+          "name": "နို့အေး",
+          "quantity": "130 ml"
+        },
+        {
+          "name": "Biscoff spread",
+          "quantity": "20 g"
+        },
+        {
+          "name": "ရေခဲ",
+          "quantity": "170 g"
+        }
+      ],
+      "visual": "Caramel biscuit spread blended into cold milk over ice, espresso above. Natural caramel-tan drink, some spread traces inside cup. No biscuit garnish or cream.",
+      "prompt": "Use case: product-mockup. Create ONE new photorealistic square cafe menu photograph of Biscoff Latte. Warm off-white seamless studio background, soft natural side lighting, fully visible centered vessel with 8% breathing room. The attached image is a LOGO reference only: reproduce its dark-green 9 FLOOR COFFEE logo accurately on a centered white label on clear cups or printed on ceramic. Recipe ingredients with exact quantities: Espresso double shot 32 g; နို့အေး 130 ml; Biscoff spread 20 g; ရေခဲ 170 g. Exact final appearance and order: Caramel biscuit spread blended into cold milk over ice, espresso above. Natural caramel-tan drink, some spread traces inside cup. No biscuit garnish or cream. Unless a different vessel is specified, use clear 16oz takeaway cup. Hot drinks dry with NO ice or condensation. Cold drinks realistic ice and condensation as specified. Show only one finished drink; no people, hands, equipment, extra captions or surrounding props. No garnish, topping or ingredient not explicitly listed. No carbonation except recipes explicitly containing tonic, soda or ginger ale/beer. Match natural proportions, no artificial perfect color blocks. Each image must be a fresh individual photograph."
+    },
+    {
+      "id": "v8-19-06",
+      "name": "Nutella Latte",
+      "ingredients": [
+        {
+          "name": "Espresso double shot",
+          "quantity": "32 g"
+        },
+        {
+          "name": "နို့အေး",
+          "quantity": "130 ml"
+        },
+        {
+          "name": "Hazelnut cocoa spread",
+          "quantity": "20 g"
+        },
+        {
+          "name": "ရေခဲ",
+          "quantity": "170 g"
+        }
+      ],
+      "visual": "Hazelnut cocoa spread blended with cold milk over ice, espresso above. Cocoa-brown latte with subtle spread streaks inside. No nuts, chocolate pieces or cream.",
+      "prompt": "Use case: product-mockup. Create ONE new photorealistic square cafe menu photograph of Nutella Latte. Warm off-white seamless studio background, soft natural side lighting, fully visible centered vessel with 8% breathing room. The attached image is a LOGO reference only: reproduce its dark-green 9 FLOOR COFFEE logo accurately on a centered white label on clear cups or printed on ceramic. Recipe ingredients with exact quantities: Espresso double shot 32 g; နို့အေး 130 ml; Hazelnut cocoa spread 20 g; ရေခဲ 170 g. Exact final appearance and order: Hazelnut cocoa spread blended with cold milk over ice, espresso above. Cocoa-brown latte with subtle spread streaks inside. No nuts, chocolate pieces or cream. Unless a different vessel is specified, use clear 16oz takeaway cup. Hot drinks dry with NO ice or condensation. Cold drinks realistic ice and condensation as specified. Show only one finished drink; no people, hands, equipment, extra captions or surrounding props. No garnish, topping or ingredient not explicitly listed. No carbonation except recipes explicitly containing tonic, soda or ginger ale/beer. Match natural proportions, no artificial perfect color blocks. Each image must be a fresh individual photograph."
+    },
+    {
+      "id": "v8-19-07",
+      "name": "White Chocolate Pistachio Latte",
+      "ingredients": [
+        {
+          "name": "Espresso double shot",
+          "quantity": "32 g"
+        },
+        {
+          "name": "နို့အေး",
+          "quantity": "130 ml"
+        },
+        {
+          "name": "White chocolate sauce",
+          "quantity": "20 ml"
+        },
+        {
+          "name": "Pistachio syrup",
+          "quantity": "10 ml"
+        },
+        {
+          "name": "ရေခဲ",
+          "quantity": "170 g"
+        }
+      ],
+      "visual": "White chocolate sauce and pistachio syrup mixed with cold milk over ice, espresso above. Ivory milk with only a VERY faint green tint. No nuts, chocolate pieces, foam or neon green.",
+      "prompt": "Use case: product-mockup. Create ONE new photorealistic square cafe menu photograph of White Chocolate Pistachio Latte. Warm off-white seamless studio background, soft natural side lighting, fully visible centered vessel with 8% breathing room. The attached image is a LOGO reference only: reproduce its dark-green 9 FLOOR COFFEE logo accurately on a centered white label on clear cups or printed on ceramic. Recipe ingredients with exact quantities: Espresso double shot 32 g; နို့အေး 130 ml; White chocolate sauce 20 ml; Pistachio syrup 10 ml; ရေခဲ 170 g. Exact final appearance and order: White chocolate sauce and pistachio syrup mixed with cold milk over ice, espresso above. Ivory milk with only a VERY faint green tint. No nuts, chocolate pieces, foam or neon green. Unless a different vessel is specified, use clear 16oz takeaway cup. Hot drinks dry with NO ice or condensation. Cold drinks realistic ice and condensation as specified. Show only one finished drink; no people, hands, equipment, extra captions or surrounding props. No garnish, topping or ingredient not explicitly listed. No carbonation except recipes explicitly containing tonic, soda or ginger ale/beer. Match natural proportions, no artificial perfect color blocks. Each image must be a fresh individual photograph."
+    },
+    {
+      "id": "v8-19-08",
+      "name": "Salted Honey Cream Coffee",
+      "ingredients": [
+        {
+          "name": "Espresso double shot",
+          "quantity": "32 g"
+        },
+        {
+          "name": "နို့အေး",
+          "quantity": "130 ml"
+        },
+        {
+          "name": "ပျားရည်",
+          "quantity": "20 ml"
+        },
+        {
+          "name": "Salted cream",
+          "quantity": "35 ml"
+        },
+        {
+          "name": "ရေခဲ",
+          "quantity": "170 g"
+        }
+      ],
+      "visual": "Honey mixed with cold milk over ice, espresso above, soft white salted cream cap. No honeycomb, salt crystals or drizzle.",
+      "prompt": "Use case: product-mockup. Create ONE new photorealistic square cafe menu photograph of Salted Honey Cream Coffee. Warm off-white seamless studio background, soft natural side lighting, fully visible centered vessel with 8% breathing room. The attached image is a LOGO reference only: reproduce its dark-green 9 FLOOR COFFEE logo accurately on a centered white label on clear cups or printed on ceramic. Recipe ingredients with exact quantities: Espresso double shot 32 g; နို့အေး 130 ml; ပျားရည် 20 ml; Salted cream 35 ml; ရေခဲ 170 g. Exact final appearance and order: Honey mixed with cold milk over ice, espresso above, soft white salted cream cap. No honeycomb, salt crystals or drizzle. Unless a different vessel is specified, use clear 16oz takeaway cup. Hot drinks dry with NO ice or condensation. Cold drinks realistic ice and condensation as specified. Show only one finished drink; no people, hands, equipment, extra captions or surrounding props. No garnish, topping or ingredient not explicitly listed. No carbonation except recipes explicitly containing tonic, soda or ginger ale/beer. Match natural proportions, no artificial perfect color blocks. Each image must be a fresh individual photograph."
+    },
+    {
+      "id": "v8-19-09",
+      "name": "Vanilla Bean Cream Cold Coffee",
+      "ingredients": [
+        {
+          "name": "Espresso double shot",
+          "quantity": "32 g"
+        },
+        {
+          "name": "နို့အေး",
+          "quantity": "130 ml"
+        },
+        {
+          "name": "Vanilla bean syrup",
+          "quantity": "15 ml"
+        },
+        {
+          "name": "Cream",
+          "quantity": "35 ml"
+        },
+        {
+          "name": "ရေခဲ",
+          "quantity": "170 g"
+        }
+      ],
+      "visual": "Vanilla bean syrup mixed with cold milk over ice, espresso above, soft white cream cap. No vanilla pod, extra toppings or whipped peaks.",
+      "prompt": "Use case: product-mockup. Create ONE new photorealistic square cafe menu photograph of Vanilla Bean Cream Cold Coffee. Warm off-white seamless studio background, soft natural side lighting, fully visible centered vessel with 8% breathing room. The attached image is a LOGO reference only: reproduce its dark-green 9 FLOOR COFFEE logo accurately on a centered white label on clear cups or printed on ceramic. Recipe ingredients with exact quantities: Espresso double shot 32 g; နို့အေး 130 ml; Vanilla bean syrup 15 ml; Cream 35 ml; ရေခဲ 170 g. Exact final appearance and order: Vanilla bean syrup mixed with cold milk over ice, espresso above, soft white cream cap. No vanilla pod, extra toppings or whipped peaks. Unless a different vessel is specified, use clear 16oz takeaway cup. Hot drinks dry with NO ice or condensation. Cold drinks realistic ice and condensation as specified. Show only one finished drink; no people, hands, equipment, extra captions or surrounding props. No garnish, topping or ingredient not explicitly listed. No carbonation except recipes explicitly containing tonic, soda or ginger ale/beer. Match natural proportions, no artificial perfect color blocks. Each image must be a fresh individual photograph."
+    },
+    {
+      "id": "v8-19-10",
+      "name": "Coconut Cream Espresso",
+      "ingredients": [
+        {
+          "name": "Espresso double shot",
+          "quantity": "32 g"
+        },
+        {
+          "name": "နို့အေး",
+          "quantity": "130 ml"
+        },
+        {
+          "name": "Coconut cream",
+          "quantity": "40 ml"
+        },
+        {
+          "name": "သကြားရည်",
+          "quantity": "10 ml"
+        },
+        {
+          "name": "ရေခဲ",
+          "quantity": "170 g"
+        }
+      ],
+      "visual": "Cold milk with simple syrup over ice, espresso above, soft white coconut cream top. No coconut shavings.",
+      "prompt": "Use case: product-mockup. Create ONE new photorealistic square cafe menu photograph of Coconut Cream Espresso. Warm off-white seamless studio background, soft natural side lighting, fully visible centered vessel with 8% breathing room. The attached image is a LOGO reference only: reproduce its dark-green 9 FLOOR COFFEE logo accurately on a centered white label on clear cups or printed on ceramic. Recipe ingredients with exact quantities: Espresso double shot 32 g; နို့အေး 130 ml; Coconut cream 40 ml; သကြားရည် 10 ml; ရေခဲ 170 g. Exact final appearance and order: Cold milk with simple syrup over ice, espresso above, soft white coconut cream top. No coconut shavings. Unless a different vessel is specified, use clear 16oz takeaway cup. Hot drinks dry with NO ice or condensation. Cold drinks realistic ice and condensation as specified. Show only one finished drink; no people, hands, equipment, extra captions or surrounding props. No garnish, topping or ingredient not explicitly listed. No carbonation except recipes explicitly containing tonic, soda or ginger ale/beer. Match natural proportions, no artificial perfect color blocks. Each image must be a fresh individual photograph."
+    },
+    {
+      "id": "v8-20-01",
+      "name": "Classic Espresso Tonic",
+      "ingredients": [
+        {
+          "name": "Espresso double shot",
+          "quantity": "32 g"
+        },
+        {
+          "name": "Tonic water",
+          "quantity": "160 ml"
+        },
+        {
+          "name": "ရေခဲ",
+          "quantity": "180 g"
+        }
+      ],
+      "visual": "Nearly clear tonic base with fine carbonation under dark espresso poured last over ice. No milk or garnish.",
+      "prompt": "Use case: product-mockup. Create ONE new photorealistic square cafe menu photograph of Classic Espresso Tonic. Warm off-white seamless studio background, soft natural side lighting, fully visible centered vessel with 8% breathing room. The attached image is a LOGO reference only: reproduce its dark-green 9 FLOOR COFFEE logo accurately on a centered white label on clear cups or printed on ceramic. Recipe ingredients with exact quantities: Espresso double shot 32 g; Tonic water 160 ml; ရေခဲ 180 g. Exact final appearance and order: Nearly clear tonic base with fine carbonation under dark espresso poured last over ice. No milk or garnish. Unless a different vessel is specified, use clear 16oz takeaway cup. Hot drinks dry with NO ice or condensation. Cold drinks realistic ice and condensation as specified. Show only one finished drink; no people, hands, equipment, extra captions or surrounding props. No garnish, topping or ingredient not explicitly listed. No carbonation except recipes explicitly containing tonic, soda or ginger ale/beer. Match natural proportions, no artificial perfect color blocks. Each image must be a fresh individual photograph."
+    },
+    {
+      "id": "v8-20-02",
+      "name": "Lemon Espresso Tonic",
+      "ingredients": [
+        {
+          "name": "Espresso double shot",
+          "quantity": "32 g"
+        },
+        {
+          "name": "Tonic water",
+          "quantity": "140 ml"
+        },
+        {
+          "name": "သံပုရာရည်",
+          "quantity": "15 ml"
+        },
+        {
+          "name": "ရေခဲ",
+          "quantity": "180 g"
+        }
+      ],
+      "visual": "Nearly clear pale lemon tonic under dark espresso poured last over ice, fine bubbles. No citrus slices.",
+      "prompt": "Use case: product-mockup. Create ONE new photorealistic square cafe menu photograph of Lemon Espresso Tonic. Warm off-white seamless studio background, soft natural side lighting, fully visible centered vessel with 8% breathing room. The attached image is a LOGO reference only: reproduce its dark-green 9 FLOOR COFFEE logo accurately on a centered white label on clear cups or printed on ceramic. Recipe ingredients with exact quantities: Espresso double shot 32 g; Tonic water 140 ml; သံပုရာရည် 15 ml; ရေခဲ 180 g. Exact final appearance and order: Nearly clear pale lemon tonic under dark espresso poured last over ice, fine bubbles. No citrus slices. Unless a different vessel is specified, use clear 16oz takeaway cup. Hot drinks dry with NO ice or condensation. Cold drinks realistic ice and condensation as specified. Show only one finished drink; no people, hands, equipment, extra captions or surrounding props. No garnish, topping or ingredient not explicitly listed. No carbonation except recipes explicitly containing tonic, soda or ginger ale/beer. Match natural proportions, no artificial perfect color blocks. Each image must be a fresh individual photograph."
+    },
+    {
+      "id": "v8-20-03",
+      "name": "Orange Espresso Tonic",
+      "ingredients": [
+        {
+          "name": "Espresso double shot",
+          "quantity": "32 g"
+        },
+        {
+          "name": "Tonic water",
+          "quantity": "100 ml"
+        },
+        {
+          "name": "လိမ္မော်ရည်",
+          "quantity": "60 ml"
+        },
+        {
+          "name": "ရေခဲ",
+          "quantity": "180 g"
+        }
+      ],
+      "visual": "Translucent muted orange juice and tonic under dark espresso poured last over ice, fine bubbles. No orange slices.",
+      "prompt": "Use case: product-mockup. Create ONE new photorealistic square cafe menu photograph of Orange Espresso Tonic. Warm off-white seamless studio background, soft natural side lighting, fully visible centered vessel with 8% breathing room. The attached image is a LOGO reference only: reproduce its dark-green 9 FLOOR COFFEE logo accurately on a centered white label on clear cups or printed on ceramic. Recipe ingredients with exact quantities: Espresso double shot 32 g; Tonic water 100 ml; လိမ္မော်ရည် 60 ml; ရေခဲ 180 g. Exact final appearance and order: Translucent muted orange juice and tonic under dark espresso poured last over ice, fine bubbles. No orange slices. Unless a different vessel is specified, use clear 16oz takeaway cup. Hot drinks dry with NO ice or condensation. Cold drinks realistic ice and condensation as specified. Show only one finished drink; no people, hands, equipment, extra captions or surrounding props. No garnish, topping or ingredient not explicitly listed. No carbonation except recipes explicitly containing tonic, soda or ginger ale/beer. Match natural proportions, no artificial perfect color blocks. Each image must be a fresh individual photograph."
+    },
+    {
+      "id": "v8-20-04",
+      "name": "Rosemary Espresso Tonic",
+      "ingredients": [
+        {
+          "name": "Espresso double shot",
+          "quantity": "32 g"
+        },
+        {
+          "name": "Tonic water",
+          "quantity": "150 ml"
+        },
+        {
+          "name": "Rosemary",
+          "quantity": "1 sprig"
+        },
+        {
+          "name": "ရေခဲ",
+          "quantity": "180 g"
+        }
+      ],
+      "visual": "Clear tonic base under dark espresso poured last over ice. ONE small rosemary sprig inside cup, fine bubbles; no citrus.",
+      "prompt": "Use case: product-mockup. Create ONE new photorealistic square cafe menu photograph of Rosemary Espresso Tonic. Warm off-white seamless studio background, soft natural side lighting, fully visible centered vessel with 8% breathing room. The attached image is a LOGO reference only: reproduce its dark-green 9 FLOOR COFFEE logo accurately on a centered white label on clear cups or printed on ceramic. Recipe ingredients with exact quantities: Espresso double shot 32 g; Tonic water 150 ml; Rosemary 1 sprig; ရေခဲ 180 g. Exact final appearance and order: Clear tonic base under dark espresso poured last over ice. ONE small rosemary sprig inside cup, fine bubbles; no citrus. Unless a different vessel is specified, use clear 16oz takeaway cup. Hot drinks dry with NO ice or condensation. Cold drinks realistic ice and condensation as specified. Show only one finished drink; no people, hands, equipment, extra captions or surrounding props. No garnish, topping or ingredient not explicitly listed. No carbonation except recipes explicitly containing tonic, soda or ginger ale/beer. Match natural proportions, no artificial perfect color blocks. Each image must be a fresh individual photograph."
+    },
+    {
+      "id": "v8-20-05",
+      "name": "Peach Espresso Tonic",
+      "ingredients": [
+        {
+          "name": "Espresso double shot",
+          "quantity": "32 g"
+        },
+        {
+          "name": "Tonic water",
+          "quantity": "120 ml"
+        },
+        {
+          "name": "Peach syrup",
+          "quantity": "20 ml"
+        },
+        {
+          "name": "ရေခဲ",
+          "quantity": "180 g"
+        }
+      ],
+      "visual": "Pale peach-gold translucent peach syrup and tonic under dark espresso over ice, fine bubbles. No peach pieces.",
+      "prompt": "Use case: product-mockup. Create ONE new photorealistic square cafe menu photograph of Peach Espresso Tonic. Warm off-white seamless studio background, soft natural side lighting, fully visible centered vessel with 8% breathing room. The attached image is a LOGO reference only: reproduce its dark-green 9 FLOOR COFFEE logo accurately on a centered white label on clear cups or printed on ceramic. Recipe ingredients with exact quantities: Espresso double shot 32 g; Tonic water 120 ml; Peach syrup 20 ml; ရေခဲ 180 g. Exact final appearance and order: Pale peach-gold translucent peach syrup and tonic under dark espresso over ice, fine bubbles. No peach pieces. Unless a different vessel is specified, use clear 16oz takeaway cup. Hot drinks dry with NO ice or condensation. Cold drinks realistic ice and condensation as specified. Show only one finished drink; no people, hands, equipment, extra captions or surrounding props. No garnish, topping or ingredient not explicitly listed. No carbonation except recipes explicitly containing tonic, soda or ginger ale/beer. Match natural proportions, no artificial perfect color blocks. Each image must be a fresh individual photograph."
+    },
+    {
+      "id": "v8-20-06",
+      "name": "Ginger Ale Espresso",
+      "ingredients": [
+        {
+          "name": "Espresso double shot",
+          "quantity": "32 g"
+        },
+        {
+          "name": "Ginger ale",
+          "quantity": "150 ml"
+        },
+        {
+          "name": "ရေခဲ",
+          "quantity": "180 g"
+        }
+      ],
+      "visual": "Pale golden ginger ale base under dark espresso poured last over ice, fine bubbles. No ginger pieces.",
+      "prompt": "Use case: product-mockup. Create ONE new photorealistic square cafe menu photograph of Ginger Ale Espresso. Warm off-white seamless studio background, soft natural side lighting, fully visible centered vessel with 8% breathing room. The attached image is a LOGO reference only: reproduce its dark-green 9 FLOOR COFFEE logo accurately on a centered white label on clear cups or printed on ceramic. Recipe ingredients with exact quantities: Espresso double shot 32 g; Ginger ale 150 ml; ရေခဲ 180 g. Exact final appearance and order: Pale golden ginger ale base under dark espresso poured last over ice, fine bubbles. No ginger pieces. Unless a different vessel is specified, use clear 16oz takeaway cup. Hot drinks dry with NO ice or condensation. Cold drinks realistic ice and condensation as specified. Show only one finished drink; no people, hands, equipment, extra captions or surrounding props. No garnish, topping or ingredient not explicitly listed. No carbonation except recipes explicitly containing tonic, soda or ginger ale/beer. Match natural proportions, no artificial perfect color blocks. Each image must be a fresh individual photograph."
+    },
+    {
+      "id": "v8-20-07",
+      "name": "Cherry Coffee Soda",
+      "ingredients": [
+        {
+          "name": "Espresso double shot",
+          "quantity": "32 g"
+        },
+        {
+          "name": "Soda water",
+          "quantity": "140 ml"
+        },
+        {
+          "name": "Cherry syrup",
+          "quantity": "20 ml"
+        },
+        {
+          "name": "ရေခဲ",
+          "quantity": "180 g"
+        }
+      ],
+      "visual": "Cherry syrup and soda base: translucent cherry red under dark espresso poured last over ice, fine bubbles. No cherries.",
+      "prompt": "Use case: product-mockup. Create ONE new photorealistic square cafe menu photograph of Cherry Coffee Soda. Warm off-white seamless studio background, soft natural side lighting, fully visible centered vessel with 8% breathing room. The attached image is a LOGO reference only: reproduce its dark-green 9 FLOOR COFFEE logo accurately on a centered white label on clear cups or printed on ceramic. Recipe ingredients with exact quantities: Espresso double shot 32 g; Soda water 140 ml; Cherry syrup 20 ml; ရေခဲ 180 g. Exact final appearance and order: Cherry syrup and soda base: translucent cherry red under dark espresso poured last over ice, fine bubbles. No cherries. Unless a different vessel is specified, use clear 16oz takeaway cup. Hot drinks dry with NO ice or condensation. Cold drinks realistic ice and condensation as specified. Show only one finished drink; no people, hands, equipment, extra captions or surrounding props. No garnish, topping or ingredient not explicitly listed. No carbonation except recipes explicitly containing tonic, soda or ginger ale/beer. Match natural proportions, no artificial perfect color blocks. Each image must be a fresh individual photograph."
+    },
+    {
+      "id": "v8-20-08",
+      "name": "Blackcurrant Espresso Fizz",
+      "ingredients": [
+        {
+          "name": "Espresso double shot",
+          "quantity": "32 g"
+        },
+        {
+          "name": "Soda water",
+          "quantity": "140 ml"
+        },
+        {
+          "name": "Blackcurrant syrup",
+          "quantity": "20 ml"
+        },
+        {
+          "name": "ရေခဲ",
+          "quantity": "180 g"
+        }
+      ],
+      "visual": "Blackcurrant syrup and soda base: translucent dark red-purple under dark espresso poured last over ice, fine bubbles. No berries.",
+      "prompt": "Use case: product-mockup. Create ONE new photorealistic square cafe menu photograph of Blackcurrant Espresso Fizz. Warm off-white seamless studio background, soft natural side lighting, fully visible centered vessel with 8% breathing room. The attached image is a LOGO reference only: reproduce its dark-green 9 FLOOR COFFEE logo accurately on a centered white label on clear cups or printed on ceramic. Recipe ingredients with exact quantities: Espresso double shot 32 g; Soda water 140 ml; Blackcurrant syrup 20 ml; ရေခဲ 180 g. Exact final appearance and order: Blackcurrant syrup and soda base: translucent dark red-purple under dark espresso poured last over ice, fine bubbles. No berries. Unless a different vessel is specified, use clear 16oz takeaway cup. Hot drinks dry with NO ice or condensation. Cold drinks realistic ice and condensation as specified. Show only one finished drink; no people, hands, equipment, extra captions or surrounding props. No garnish, topping or ingredient not explicitly listed. No carbonation except recipes explicitly containing tonic, soda or ginger ale/beer. Match natural proportions, no artificial perfect color blocks. Each image must be a fresh individual photograph."
+    },
+    {
+      "id": "v8-20-09",
+      "name": "Pomegranate Coffee Spritz",
+      "ingredients": [
+        {
+          "name": "Espresso double shot",
+          "quantity": "32 g"
+        },
+        {
+          "name": "Soda water",
+          "quantity": "110 ml"
+        },
+        {
+          "name": "Pomegranate juice",
+          "quantity": "60 ml"
+        },
+        {
+          "name": "ရေခဲ",
+          "quantity": "180 g"
+        }
+      ],
+      "visual": "Pomegranate juice and soda base: ruby-pink translucent lower liquid under dark espresso poured last, ice, fine bubbles. No seeds or fresh fruit.",
+      "prompt": "Use case: product-mockup. Create ONE new photorealistic square cafe menu photograph of Pomegranate Coffee Spritz. Warm off-white seamless studio background, soft natural side lighting, fully visible centered vessel with 8% breathing room. The attached image is a LOGO reference only: reproduce its dark-green 9 FLOOR COFFEE logo accurately on a centered white label on clear cups or printed on ceramic. Recipe ingredients with exact quantities: Espresso double shot 32 g; Soda water 110 ml; Pomegranate juice 60 ml; ရေခဲ 180 g. Exact final appearance and order: Pomegranate juice and soda base: ruby-pink translucent lower liquid under dark espresso poured last, ice, fine bubbles. No seeds or fresh fruit. Unless a different vessel is specified, use clear 16oz takeaway cup. Hot drinks dry with NO ice or condensation. Cold drinks realistic ice and condensation as specified. Show only one finished drink; no people, hands, equipment, extra captions or surrounding props. No garnish, topping or ingredient not explicitly listed. No carbonation except recipes explicitly containing tonic, soda or ginger ale/beer. Match natural proportions, no artificial perfect color blocks. Each image must be a fresh individual photograph."
+    },
+    {
+      "id": "v8-20-10",
+      "name": "Lime Mint Espresso Soda",
+      "ingredients": [
+        {
+          "name": "Espresso double shot",
+          "quantity": "32 g"
+        },
+        {
+          "name": "Soda water",
+          "quantity": "140 ml"
+        },
+        {
+          "name": "Lime juice",
+          "quantity": "15 ml"
+        },
+        {
+          "name": "Mint",
+          "quantity": "4 ရွက်"
+        },
+        {
+          "name": "ရေခဲ",
+          "quantity": "180 g"
+        }
+      ],
+      "visual": "Nearly clear pale lime soda under dark espresso poured last over ice; exactly FOUR small mint leaves inside. Fine bubbles, no lime slices.",
+      "prompt": "Use case: product-mockup. Create ONE new photorealistic square cafe menu photograph of Lime Mint Espresso Soda. Warm off-white seamless studio background, soft natural side lighting, fully visible centered vessel with 8% breathing room. The attached image is a LOGO reference only: reproduce its dark-green 9 FLOOR COFFEE logo accurately on a centered white label on clear cups or printed on ceramic. Recipe ingredients with exact quantities: Espresso double shot 32 g; Soda water 140 ml; Lime juice 15 ml; Mint 4 ရွက်; ရေခဲ 180 g. Exact final appearance and order: Nearly clear pale lime soda under dark espresso poured last over ice; exactly FOUR small mint leaves inside. Fine bubbles, no lime slices. Unless a different vessel is specified, use clear 16oz takeaway cup. Hot drinks dry with NO ice or condensation. Cold drinks realistic ice and condensation as specified. Show only one finished drink; no people, hands, equipment, extra captions or surrounding props. No garnish, topping or ingredient not explicitly listed. No carbonation except recipes explicitly containing tonic, soda or ginger ale/beer. Match natural proportions, no artificial perfect color blocks. Each image must be a fresh individual photograph."
+    },
+    {
+      "id": "v8-21-01",
+      "name": "Vietnamese Iced Coffee",
+      "ingredients": [
+        {
+          "name": "Espresso double shot",
+          "quantity": "32 g"
+        },
+        {
+          "name": "နို့ဆီ",
+          "quantity": "30 ml"
+        },
+        {
+          "name": "ရေခဲ",
+          "quantity": "170 g"
+        }
+      ],
+      "visual": "Espresso and condensed milk thoroughly mixed BEFORE ice: uniform rich caramel-brown strong milk coffee, compact clear serving glass over ice. No separate condensed milk bottom layer.",
+      "prompt": "Use case: product-mockup. Create ONE new photorealistic square cafe menu photograph of Vietnamese Iced Coffee. Warm off-white seamless studio background, soft natural side lighting, fully visible centered vessel with 8% breathing room. The attached image is a LOGO reference only: reproduce its dark-green 9 FLOOR COFFEE logo accurately on a centered white label on clear cups or printed on ceramic. Recipe ingredients with exact quantities: Espresso double shot 32 g; နို့ဆီ 30 ml; ရေခဲ 170 g. Exact final appearance and order: Espresso and condensed milk thoroughly mixed BEFORE ice: uniform rich caramel-brown strong milk coffee, compact clear serving glass over ice. No separate condensed milk bottom layer. Unless a different vessel is specified, use clear 16oz takeaway cup. Hot drinks dry with NO ice or condensation. Cold drinks realistic ice and condensation as specified. Show only one finished drink; no people, hands, equipment, extra captions or surrounding props. No garnish, topping or ingredient not explicitly listed. No carbonation except recipes explicitly containing tonic, soda or ginger ale/beer. Match natural proportions, no artificial perfect color blocks. Each image must be a fresh individual photograph."
+    },
+    {
+      "id": "v8-21-02",
+      "name": "Vietnamese Egg Coffee",
+      "ingredients": [
+        {
+          "name": "Espresso double shot",
+          "quantity": "32 g"
+        },
+        {
+          "name": "ကြက်ဥအနှစ်",
+          "quantity": "1 လုံး"
+        },
+        {
+          "name": "နို့ဆီ",
+          "quantity": "15 ml"
+        }
+      ],
+      "visual": "Hot espresso topped with thick fluffy pale golden egg cream made from pasteurized egg yolk and condensed milk. Small clear heatproof handled glass. No ice, cocoa or cinnamon.",
+      "prompt": "Use case: product-mockup. Create ONE new photorealistic square cafe menu photograph of Vietnamese Egg Coffee. Warm off-white seamless studio background, soft natural side lighting, fully visible centered vessel with 8% breathing room. The attached image is a LOGO reference only: reproduce its dark-green 9 FLOOR COFFEE logo accurately on a centered white label on clear cups or printed on ceramic. Recipe ingredients with exact quantities: Espresso double shot 32 g; ကြက်ဥအနှစ် 1 လုံး; နို့ဆီ 15 ml. Exact final appearance and order: Hot espresso topped with thick fluffy pale golden egg cream made from pasteurized egg yolk and condensed milk. Small clear heatproof handled glass. No ice, cocoa or cinnamon. Unless a different vessel is specified, use clear 16oz takeaway cup. Hot drinks dry with NO ice or condensation. Cold drinks realistic ice and condensation as specified. Show only one finished drink; no people, hands, equipment, extra captions or surrounding props. No garnish, topping or ingredient not explicitly listed. No carbonation except recipes explicitly containing tonic, soda or ginger ale/beer. Match natural proportions, no artificial perfect color blocks. Each image must be a fresh individual photograph."
+    },
+    {
+      "id": "v8-21-03",
+      "name": "Thai Oliang Coffee",
+      "ingredients": [
+        {
+          "name": "Thai oliang coffee powder",
+          "quantity": "20 g"
+        },
+        {
+          "name": "သကြား",
+          "quantity": "15 g"
+        },
+        {
+          "name": "ရေခဲ",
+          "quantity": "170 g"
+        }
+      ],
+      "visual": "Strained strong black Oliang brewed with about 220ml water, sugar dissolved, cooled over ice. Dark translucent coffee, no milk, foam or garnish.",
+      "prompt": "Use case: product-mockup. Create ONE new photorealistic square cafe menu photograph of Thai Oliang Coffee. Warm off-white seamless studio background, soft natural side lighting, fully visible centered vessel with 8% breathing room. The attached image is a LOGO reference only: reproduce its dark-green 9 FLOOR COFFEE logo accurately on a centered white label on clear cups or printed on ceramic. Recipe ingredients with exact quantities: Thai oliang coffee powder 20 g; သကြား 15 g; ရေခဲ 170 g. Exact final appearance and order: Strained strong black Oliang brewed with about 220ml water, sugar dissolved, cooled over ice. Dark translucent coffee, no milk, foam or garnish. Unless a different vessel is specified, use clear 16oz takeaway cup. Hot drinks dry with NO ice or condensation. Cold drinks realistic ice and condensation as specified. Show only one finished drink; no people, hands, equipment, extra captions or surrounding props. No garnish, topping or ingredient not explicitly listed. No carbonation except recipes explicitly containing tonic, soda or ginger ale/beer. Match natural proportions, no artificial perfect color blocks. Each image must be a fresh individual photograph."
+    },
+    {
+      "id": "v8-21-04",
+      "name": "Thai Es Yen",
+      "ingredients": [
+        {
+          "name": "Espresso double shot",
+          "quantity": "32 g"
+        },
+        {
+          "name": "နို့ဆီ",
+          "quantity": "25 ml"
+        },
+        {
+          "name": "နို့စိမ်း",
+          "quantity": "35 ml"
+        },
+        {
+          "name": "ရေခဲ",
+          "quantity": "170 g"
+        }
+      ],
+      "visual": "Espresso, condensed milk and evaporated milk thoroughly mixed BEFORE ice. Uniform rich caramel-tan Thai coffee over ice. No separate milk layer or cream.",
+      "prompt": "Use case: product-mockup. Create ONE new photorealistic square cafe menu photograph of Thai Es Yen. Warm off-white seamless studio background, soft natural side lighting, fully visible centered vessel with 8% breathing room. The attached image is a LOGO reference only: reproduce its dark-green 9 FLOOR COFFEE logo accurately on a centered white label on clear cups or printed on ceramic. Recipe ingredients with exact quantities: Espresso double shot 32 g; နို့ဆီ 25 ml; နို့စိမ်း 35 ml; ရေခဲ 170 g. Exact final appearance and order: Espresso, condensed milk and evaporated milk thoroughly mixed BEFORE ice. Uniform rich caramel-tan Thai coffee over ice. No separate milk layer or cream. Unless a different vessel is specified, use clear 16oz takeaway cup. Hot drinks dry with NO ice or condensation. Cold drinks realistic ice and condensation as specified. Show only one finished drink; no people, hands, equipment, extra captions or surrounding props. No garnish, topping or ingredient not explicitly listed. No carbonation except recipes explicitly containing tonic, soda or ginger ale/beer. Match natural proportions, no artificial perfect color blocks. Each image must be a fresh individual photograph."
+    },
+    {
+      "id": "v8-21-05",
+      "name": "Kopi Susu Gula Aren",
+      "ingredients": [
+        {
+          "name": "Espresso double shot",
+          "quantity": "32 g"
+        },
+        {
+          "name": "Palm sugar syrup",
+          "quantity": "25 ml"
+        },
+        {
+          "name": "နို့",
+          "quantity": "130 ml"
+        },
+        {
+          "name": "ရေခဲ",
+          "quantity": "170 g"
+        }
+      ],
+      "visual": "Palm sugar syrup mixed into cold milk, then ice, then espresso on top. Pale caramel milk under dark espresso diffusion, NO thick syrup bottom.",
+      "prompt": "Use case: product-mockup. Create ONE new photorealistic square cafe menu photograph of Kopi Susu Gula Aren. Warm off-white seamless studio background, soft natural side lighting, fully visible centered vessel with 8% breathing room. The attached image is a LOGO reference only: reproduce its dark-green 9 FLOOR COFFEE logo accurately on a centered white label on clear cups or printed on ceramic. Recipe ingredients with exact quantities: Espresso double shot 32 g; Palm sugar syrup 25 ml; နို့ 130 ml; ရေခဲ 170 g. Exact final appearance and order: Palm sugar syrup mixed into cold milk, then ice, then espresso on top. Pale caramel milk under dark espresso diffusion, NO thick syrup bottom. Unless a different vessel is specified, use clear 16oz takeaway cup. Hot drinks dry with NO ice or condensation. Cold drinks realistic ice and condensation as specified. Show only one finished drink; no people, hands, equipment, extra captions or surrounding props. No garnish, topping or ingredient not explicitly listed. No carbonation except recipes explicitly containing tonic, soda or ginger ale/beer. Match natural proportions, no artificial perfect color blocks. Each image must be a fresh individual photograph."
+    },
+    {
+      "id": "v8-21-06",
+      "name": "Kopi Tubruk",
+      "ingredients": [
+        {
+          "name": "ကော်ဖီမှုန့်",
+          "quantity": "15 g"
+        },
+        {
+          "name": "ရေပူ",
+          "quantity": "180 ml"
+        }
+      ],
+      "visual": "Hot unfiltered black ground coffee steeped and settled. Plain clear heatproof handled small glass with dark coffee and settled grounds. No ice, milk or cream.",
+      "prompt": "Use case: product-mockup. Create ONE new photorealistic square cafe menu photograph of Kopi Tubruk. Warm off-white seamless studio background, soft natural side lighting, fully visible centered vessel with 8% breathing room. The attached image is a LOGO reference only: reproduce its dark-green 9 FLOOR COFFEE logo accurately on a centered white label on clear cups or printed on ceramic. Recipe ingredients with exact quantities: ကော်ဖီမှုန့် 15 g; ရေပူ 180 ml. Exact final appearance and order: Hot unfiltered black ground coffee steeped and settled. Plain clear heatproof handled small glass with dark coffee and settled grounds. No ice, milk or cream. Unless a different vessel is specified, use clear 16oz takeaway cup. Hot drinks dry with NO ice or condensation. Cold drinks realistic ice and condensation as specified. Show only one finished drink; no people, hands, equipment, extra captions or surrounding props. No garnish, topping or ingredient not explicitly listed. No carbonation except recipes explicitly containing tonic, soda or ginger ale/beer. Match natural proportions, no artificial perfect color blocks. Each image must be a fresh individual photograph."
+    },
+    {
+      "id": "v8-21-07",
+      "name": "Dalgona Coffee",
+      "ingredients": [
+        {
+          "name": "Instant coffee",
+          "quantity": "10 g"
+        },
+        {
+          "name": "သကြား",
+          "quantity": "10 g"
+        },
+        {
+          "name": "ရေပူ",
+          "quantity": "10 ml"
+        },
+        {
+          "name": "နို့",
+          "quantity": "150 ml"
+        },
+        {
+          "name": "ရေခဲ",
+          "quantity": "170 g"
+        }
+      ],
+      "visual": "Cold white milk and ice below thick fluffy caramel-brown whipped instant coffee foam. Distinct brown dalgona foam on white milk. No cocoa dust.",
+      "prompt": "Use case: product-mockup. Create ONE new photorealistic square cafe menu photograph of Dalgona Coffee. Warm off-white seamless studio background, soft natural side lighting, fully visible centered vessel with 8% breathing room. The attached image is a LOGO reference only: reproduce its dark-green 9 FLOOR COFFEE logo accurately on a centered white label on clear cups or printed on ceramic. Recipe ingredients with exact quantities: Instant coffee 10 g; သကြား 10 g; ရေပူ 10 ml; နို့ 150 ml; ရေခဲ 170 g. Exact final appearance and order: Cold white milk and ice below thick fluffy caramel-brown whipped instant coffee foam. Distinct brown dalgona foam on white milk. No cocoa dust. Unless a different vessel is specified, use clear 16oz takeaway cup. Hot drinks dry with NO ice or condensation. Cold drinks realistic ice and condensation as specified. Show only one finished drink; no people, hands, equipment, extra captions or surrounding props. No garnish, topping or ingredient not explicitly listed. No carbonation except recipes explicitly containing tonic, soda or ginger ale/beer. Match natural proportions, no artificial perfect color blocks. Each image must be a fresh individual photograph."
+    },
+    {
+      "id": "v8-21-08",
+      "name": "Korean Iced Cream Latte",
+      "ingredients": [
+        {
+          "name": "Espresso double shot",
+          "quantity": "32 g"
+        },
+        {
+          "name": "နို့အေး",
+          "quantity": "130 ml"
+        },
+        {
+          "name": "Vanilla cream",
+          "quantity": "40 ml"
+        },
+        {
+          "name": "ရေခဲ",
+          "quantity": "170 g"
+        }
+      ],
+      "visual": "Cold milk and ice below espresso diffusion; soft white vanilla cream top, no garnish.",
+      "prompt": "Use case: product-mockup. Create ONE new photorealistic square cafe menu photograph of Korean Iced Cream Latte. Warm off-white seamless studio background, soft natural side lighting, fully visible centered vessel with 8% breathing room. The attached image is a LOGO reference only: reproduce its dark-green 9 FLOOR COFFEE logo accurately on a centered white label on clear cups or printed on ceramic. Recipe ingredients with exact quantities: Espresso double shot 32 g; နို့အေး 130 ml; Vanilla cream 40 ml; ရေခဲ 170 g. Exact final appearance and order: Cold milk and ice below espresso diffusion; soft white vanilla cream top, no garnish. Unless a different vessel is specified, use clear 16oz takeaway cup. Hot drinks dry with NO ice or condensation. Cold drinks realistic ice and condensation as specified. Show only one finished drink; no people, hands, equipment, extra captions or surrounding props. No garnish, topping or ingredient not explicitly listed. No carbonation except recipes explicitly containing tonic, soda or ginger ale/beer. Match natural proportions, no artificial perfect color blocks. Each image must be a fresh individual photograph."
+    },
+    {
+      "id": "v8-21-09",
+      "name": "Dirty Coffee",
+      "ingredients": [
+        {
+          "name": "Espresso double shot",
+          "quantity": "32 g"
+        },
+        {
+          "name": "အေးစက်နေသောနို့",
+          "quantity": "100 ml"
+        }
+      ],
+      "visual": "Short small chilled clear glass, very cold milk below espresso extracted directly on top. Dark coffee top with descending wisps in white milk. NO ICE, no cream or added water.",
+      "prompt": "Use case: product-mockup. Create ONE new photorealistic square cafe menu photograph of Dirty Coffee. Warm off-white seamless studio background, soft natural side lighting, fully visible centered vessel with 8% breathing room. The attached image is a LOGO reference only: reproduce its dark-green 9 FLOOR COFFEE logo accurately on a centered white label on clear cups or printed on ceramic. Recipe ingredients with exact quantities: Espresso double shot 32 g; အေးစက်နေသောနို့ 100 ml. Exact final appearance and order: Short small chilled clear glass, very cold milk below espresso extracted directly on top. Dark coffee top with descending wisps in white milk. NO ICE, no cream or added water. Unless a different vessel is specified, use clear 16oz takeaway cup. Hot drinks dry with NO ice or condensation. Cold drinks realistic ice and condensation as specified. Show only one finished drink; no people, hands, equipment, extra captions or surrounding props. No garnish, topping or ingredient not explicitly listed. No carbonation except recipes explicitly containing tonic, soda or ginger ale/beer. Match natural proportions, no artificial perfect color blocks. Each image must be a fresh individual photograph."
+    },
+    {
+      "id": "v8-21-10",
+      "name": "Coconut Vietnamese Coffee",
+      "ingredients": [
+        {
+          "name": "Espresso double shot",
+          "quantity": "32 g"
+        },
+        {
+          "name": "နို့ဆီ",
+          "quantity": "20 ml"
+        },
+        {
+          "name": "အုန်းနို့",
+          "quantity": "90 ml"
+        },
+        {
+          "name": "ရေခဲ",
+          "quantity": "170 g"
+        }
+      ],
+      "visual": "Espresso and condensed milk mixed first, ice, coconut milk poured LAST. Brown coffee below with white coconut milk cascading downward from TOP. Not a frappe, no coconut pieces.",
+      "prompt": "Use case: product-mockup. Create ONE new photorealistic square cafe menu photograph of Coconut Vietnamese Coffee. Warm off-white seamless studio background, soft natural side lighting, fully visible centered vessel with 8% breathing room. The attached image is a LOGO reference only: reproduce its dark-green 9 FLOOR COFFEE logo accurately on a centered white label on clear cups or printed on ceramic. Recipe ingredients with exact quantities: Espresso double shot 32 g; နို့ဆီ 20 ml; အုန်းနို့ 90 ml; ရေခဲ 170 g. Exact final appearance and order: Espresso and condensed milk mixed first, ice, coconut milk poured LAST. Brown coffee below with white coconut milk cascading downward from TOP. Not a frappe, no coconut pieces. Unless a different vessel is specified, use clear 16oz takeaway cup. Hot drinks dry with NO ice or condensation. Cold drinks realistic ice and condensation as specified. Show only one finished drink; no people, hands, equipment, extra captions or surrounding props. No garnish, topping or ingredient not explicitly listed. No carbonation except recipes explicitly containing tonic, soda or ginger ale/beer. Match natural proportions, no artificial perfect color blocks. Each image must be a fresh individual photograph."
+    },
+    {
+      "id": "v8-22-01",
+      "name": "Classic Cold Brew",
+      "ingredients": [
+        {
+          "name": "Cold brew concentrate",
+          "quantity": "100 ml"
+        },
+        {
+          "name": "ရေအေး",
+          "quantity": "90 ml"
+        },
+        {
+          "name": "ရေခဲ",
+          "quantity": "170 g"
+        }
+      ],
+      "visual": "Cold brew diluted with still water over ice, uniform translucent dark brown black coffee. No milk, crema, foam or carbonation.",
+      "prompt": "Use case: product-mockup. Create ONE new photorealistic square cafe menu photograph of Classic Cold Brew. Warm off-white seamless studio background, soft natural side lighting, fully visible centered vessel with 8% breathing room. The attached image is a LOGO reference only: reproduce its dark-green 9 FLOOR COFFEE logo accurately on a centered white label on clear cups or printed on ceramic. Recipe ingredients with exact quantities: Cold brew concentrate 100 ml; ရေအေး 90 ml; ရေခဲ 170 g. Exact final appearance and order: Cold brew diluted with still water over ice, uniform translucent dark brown black coffee. No milk, crema, foam or carbonation. Unless a different vessel is specified, use clear 16oz takeaway cup. Hot drinks dry with NO ice or condensation. Cold drinks realistic ice and condensation as specified. Show only one finished drink; no people, hands, equipment, extra captions or surrounding props. No garnish, topping or ingredient not explicitly listed. No carbonation except recipes explicitly containing tonic, soda or ginger ale/beer. Match natural proportions, no artificial perfect color blocks. Each image must be a fresh individual photograph."
+    },
+    {
+      "id": "v8-22-02",
+      "name": "Cold Brew Latte",
+      "ingredients": [
+        {
+          "name": "Cold brew concentrate",
+          "quantity": "90 ml"
+        },
+        {
+          "name": "နို့",
+          "quantity": "120 ml"
+        },
+        {
+          "name": "ရေခဲ",
+          "quantity": "170 g"
+        }
+      ],
+      "visual": "Cold brew over ice with milk poured into it, naturally blended medium tan latte with gentle milk swirls, no espresso crema or foam.",
+      "prompt": "Use case: product-mockup. Create ONE new photorealistic square cafe menu photograph of Cold Brew Latte. Warm off-white seamless studio background, soft natural side lighting, fully visible centered vessel with 8% breathing room. The attached image is a LOGO reference only: reproduce its dark-green 9 FLOOR COFFEE logo accurately on a centered white label on clear cups or printed on ceramic. Recipe ingredients with exact quantities: Cold brew concentrate 90 ml; နို့ 120 ml; ရေခဲ 170 g. Exact final appearance and order: Cold brew over ice with milk poured into it, naturally blended medium tan latte with gentle milk swirls, no espresso crema or foam. Unless a different vessel is specified, use clear 16oz takeaway cup. Hot drinks dry with NO ice or condensation. Cold drinks realistic ice and condensation as specified. Show only one finished drink; no people, hands, equipment, extra captions or surrounding props. No garnish, topping or ingredient not explicitly listed. No carbonation except recipes explicitly containing tonic, soda or ginger ale/beer. Match natural proportions, no artificial perfect color blocks. Each image must be a fresh individual photograph."
+    },
+    {
+      "id": "v8-22-03",
+      "name": "Vanilla Cold Brew",
+      "ingredients": [
+        {
+          "name": "Cold brew concentrate",
+          "quantity": "100 ml"
+        },
+        {
+          "name": "Vanilla syrup",
+          "quantity": "15 ml"
+        },
+        {
+          "name": "ရေအေး",
+          "quantity": "80 ml"
+        },
+        {
+          "name": "ရေခဲ",
+          "quantity": "170 g"
+        }
+      ],
+      "visual": "Cold brew with vanilla syrup and still water over ice. Uniform dark brown black coffee, no milk, vanilla pod or foam.",
+      "prompt": "Use case: product-mockup. Create ONE new photorealistic square cafe menu photograph of Vanilla Cold Brew. Warm off-white seamless studio background, soft natural side lighting, fully visible centered vessel with 8% breathing room. The attached image is a LOGO reference only: reproduce its dark-green 9 FLOOR COFFEE logo accurately on a centered white label on clear cups or printed on ceramic. Recipe ingredients with exact quantities: Cold brew concentrate 100 ml; Vanilla syrup 15 ml; ရေအေး 80 ml; ရေခဲ 170 g. Exact final appearance and order: Cold brew with vanilla syrup and still water over ice. Uniform dark brown black coffee, no milk, vanilla pod or foam. Unless a different vessel is specified, use clear 16oz takeaway cup. Hot drinks dry with NO ice or condensation. Cold drinks realistic ice and condensation as specified. Show only one finished drink; no people, hands, equipment, extra captions or surrounding props. No garnish, topping or ingredient not explicitly listed. No carbonation except recipes explicitly containing tonic, soda or ginger ale/beer. Match natural proportions, no artificial perfect color blocks. Each image must be a fresh individual photograph."
+    },
+    {
+      "id": "v8-22-04",
+      "name": "Honey Cold Brew",
+      "ingredients": [
+        {
+          "name": "Cold brew concentrate",
+          "quantity": "100 ml"
+        },
+        {
+          "name": "ပျားရည်",
+          "quantity": "15 ml"
+        },
+        {
+          "name": "ရေအေး",
+          "quantity": "80 ml"
+        },
+        {
+          "name": "ရေခဲ",
+          "quantity": "170 g"
+        }
+      ],
+      "visual": "Cold brew with dissolved honey and still water over ice. Uniform translucent amber-brown black coffee. No honeycomb or milk.",
+      "prompt": "Use case: product-mockup. Create ONE new photorealistic square cafe menu photograph of Honey Cold Brew. Warm off-white seamless studio background, soft natural side lighting, fully visible centered vessel with 8% breathing room. The attached image is a LOGO reference only: reproduce its dark-green 9 FLOOR COFFEE logo accurately on a centered white label on clear cups or printed on ceramic. Recipe ingredients with exact quantities: Cold brew concentrate 100 ml; ပျားရည် 15 ml; ရေအေး 80 ml; ရေခဲ 170 g. Exact final appearance and order: Cold brew with dissolved honey and still water over ice. Uniform translucent amber-brown black coffee. No honeycomb or milk. Unless a different vessel is specified, use clear 16oz takeaway cup. Hot drinks dry with NO ice or condensation. Cold drinks realistic ice and condensation as specified. Show only one finished drink; no people, hands, equipment, extra captions or surrounding props. No garnish, topping or ingredient not explicitly listed. No carbonation except recipes explicitly containing tonic, soda or ginger ale/beer. Match natural proportions, no artificial perfect color blocks. Each image must be a fresh individual photograph."
+    },
+    {
+      "id": "v8-22-05",
+      "name": "Coconut Cold Brew",
+      "ingredients": [
+        {
+          "name": "Cold brew concentrate",
+          "quantity": "100 ml"
+        },
+        {
+          "name": "အုန်းရည်",
+          "quantity": "100 ml"
+        },
+        {
+          "name": "ရေခဲ",
+          "quantity": "170 g"
+        }
+      ],
+      "visual": "Cold brew with clear COCONUT WATER over ice, translucent dark amber black coffee. NO coconut MILK, no white layer or fruit.",
+      "prompt": "Use case: product-mockup. Create ONE new photorealistic square cafe menu photograph of Coconut Cold Brew. Warm off-white seamless studio background, soft natural side lighting, fully visible centered vessel with 8% breathing room. The attached image is a LOGO reference only: reproduce its dark-green 9 FLOOR COFFEE logo accurately on a centered white label on clear cups or printed on ceramic. Recipe ingredients with exact quantities: Cold brew concentrate 100 ml; အုန်းရည် 100 ml; ရေခဲ 170 g. Exact final appearance and order: Cold brew with clear COCONUT WATER over ice, translucent dark amber black coffee. NO coconut MILK, no white layer or fruit. Unless a different vessel is specified, use clear 16oz takeaway cup. Hot drinks dry with NO ice or condensation. Cold drinks realistic ice and condensation as specified. Show only one finished drink; no people, hands, equipment, extra captions or surrounding props. No garnish, topping or ingredient not explicitly listed. No carbonation except recipes explicitly containing tonic, soda or ginger ale/beer. Match natural proportions, no artificial perfect color blocks. Each image must be a fresh individual photograph."
+    },
+    {
+      "id": "v8-22-06",
+      "name": "Orange Cold Brew",
+      "ingredients": [
+        {
+          "name": "Cold brew concentrate",
+          "quantity": "100 ml"
+        },
+        {
+          "name": "လိမ္မော်ရည်",
+          "quantity": "100 ml"
+        },
+        {
+          "name": "ရေခဲ",
+          "quantity": "170 g"
+        }
+      ],
+      "visual": "Cold brew with orange juice added after coffee over ice. Naturally combined orange-brown liquid with orange juice swirls. No espresso cap, milk or fruit slices.",
+      "prompt": "Use case: product-mockup. Create ONE new photorealistic square cafe menu photograph of Orange Cold Brew. Warm off-white seamless studio background, soft natural side lighting, fully visible centered vessel with 8% breathing room. The attached image is a LOGO reference only: reproduce its dark-green 9 FLOOR COFFEE logo accurately on a centered white label on clear cups or printed on ceramic. Recipe ingredients with exact quantities: Cold brew concentrate 100 ml; လိမ္မော်ရည် 100 ml; ရေခဲ 170 g. Exact final appearance and order: Cold brew with orange juice added after coffee over ice. Naturally combined orange-brown liquid with orange juice swirls. No espresso cap, milk or fruit slices. Unless a different vessel is specified, use clear 16oz takeaway cup. Hot drinks dry with NO ice or condensation. Cold drinks realistic ice and condensation as specified. Show only one finished drink; no people, hands, equipment, extra captions or surrounding props. No garnish, topping or ingredient not explicitly listed. No carbonation except recipes explicitly containing tonic, soda or ginger ale/beer. Match natural proportions, no artificial perfect color blocks. Each image must be a fresh individual photograph."
+    },
+    {
+      "id": "v8-22-07",
+      "name": "Cold Brew Tonic",
+      "ingredients": [
+        {
+          "name": "Cold brew concentrate",
+          "quantity": "90 ml"
+        },
+        {
+          "name": "Tonic water",
+          "quantity": "120 ml"
+        },
+        {
+          "name": "ရေခဲ",
+          "quantity": "170 g"
+        }
+      ],
+      "visual": "Cold brew over ice, tonic poured LAST. Naturally combined translucent carbonated amber-brown drink with fine bubbles, no layered espresso cap, milk or crema.",
+      "prompt": "Use case: product-mockup. Create ONE new photorealistic square cafe menu photograph of Cold Brew Tonic. Warm off-white seamless studio background, soft natural side lighting, fully visible centered vessel with 8% breathing room. The attached image is a LOGO reference only: reproduce its dark-green 9 FLOOR COFFEE logo accurately on a centered white label on clear cups or printed on ceramic. Recipe ingredients with exact quantities: Cold brew concentrate 90 ml; Tonic water 120 ml; ရေခဲ 170 g. Exact final appearance and order: Cold brew over ice, tonic poured LAST. Naturally combined translucent carbonated amber-brown drink with fine bubbles, no layered espresso cap, milk or crema. Unless a different vessel is specified, use clear 16oz takeaway cup. Hot drinks dry with NO ice or condensation. Cold drinks realistic ice and condensation as specified. Show only one finished drink; no people, hands, equipment, extra captions or surrounding props. No garnish, topping or ingredient not explicitly listed. No carbonation except recipes explicitly containing tonic, soda or ginger ale/beer. Match natural proportions, no artificial perfect color blocks. Each image must be a fresh individual photograph."
+    },
+    {
+      "id": "v8-22-08",
+      "name": "Salted Caramel Cold Brew",
+      "ingredients": [
+        {
+          "name": "Cold brew concentrate",
+          "quantity": "90 ml"
+        },
+        {
+          "name": "နို့",
+          "quantity": "110 ml"
+        },
+        {
+          "name": "Salted caramel syrup",
+          "quantity": "20 ml"
+        },
+        {
+          "name": "ရေခဲ",
+          "quantity": "170 g"
+        }
+      ],
+      "visual": "Cold brew, milk and salted caramel syrup over ice, blended caramel-tan latte, no cream topping, caramel drizzle or salt crystals.",
+      "prompt": "Use case: product-mockup. Create ONE new photorealistic square cafe menu photograph of Salted Caramel Cold Brew. Warm off-white seamless studio background, soft natural side lighting, fully visible centered vessel with 8% breathing room. The attached image is a LOGO reference only: reproduce its dark-green 9 FLOOR COFFEE logo accurately on a centered white label on clear cups or printed on ceramic. Recipe ingredients with exact quantities: Cold brew concentrate 90 ml; နို့ 110 ml; Salted caramel syrup 20 ml; ရေခဲ 170 g. Exact final appearance and order: Cold brew, milk and salted caramel syrup over ice, blended caramel-tan latte, no cream topping, caramel drizzle or salt crystals. Unless a different vessel is specified, use clear 16oz takeaway cup. Hot drinks dry with NO ice or condensation. Cold drinks realistic ice and condensation as specified. Show only one finished drink; no people, hands, equipment, extra captions or surrounding props. No garnish, topping or ingredient not explicitly listed. No carbonation except recipes explicitly containing tonic, soda or ginger ale/beer. Match natural proportions, no artificial perfect color blocks. Each image must be a fresh individual photograph."
+    },
+    {
+      "id": "v8-22-09",
+      "name": "Cold Brew With Vanilla Cold Foam",
+      "ingredients": [
+        {
+          "name": "Cold brew concentrate",
+          "quantity": "100 ml"
+        },
+        {
+          "name": "ရေအေး",
+          "quantity": "70 ml"
+        },
+        {
+          "name": "Vanilla cold foam",
+          "quantity": "50 ml"
+        },
+        {
+          "name": "ရေခဲ",
+          "quantity": "160 g"
+        }
+      ],
+      "visual": "Cold brew diluted with still water over ice, topped with thick flat white vanilla cold foam. Dark coffee below white foam, no milk base or drizzle.",
+      "prompt": "Use case: product-mockup. Create ONE new photorealistic square cafe menu photograph of Cold Brew With Vanilla Cold Foam. Warm off-white seamless studio background, soft natural side lighting, fully visible centered vessel with 8% breathing room. The attached image is a LOGO reference only: reproduce its dark-green 9 FLOOR COFFEE logo accurately on a centered white label on clear cups or printed on ceramic. Recipe ingredients with exact quantities: Cold brew concentrate 100 ml; ရေအေး 70 ml; Vanilla cold foam 50 ml; ရေခဲ 160 g. Exact final appearance and order: Cold brew diluted with still water over ice, topped with thick flat white vanilla cold foam. Dark coffee below white foam, no milk base or drizzle. Unless a different vessel is specified, use clear 16oz takeaway cup. Hot drinks dry with NO ice or condensation. Cold drinks realistic ice and condensation as specified. Show only one finished drink; no people, hands, equipment, extra captions or surrounding props. No garnish, topping or ingredient not explicitly listed. No carbonation except recipes explicitly containing tonic, soda or ginger ale/beer. Match natural proportions, no artificial perfect color blocks. Each image must be a fresh individual photograph."
+    },
+    {
+      "id": "v8-22-10",
+      "name": "Nitro-Style Cold Brew (No Nitrogen)",
+      "ingredients": [
+        {
+          "name": "Cold brew concentrate",
+          "quantity": "100 ml"
+        },
+        {
+          "name": "ရေအေး",
+          "quantity": "90 ml"
+        },
+        {
+          "name": "ရေခဲ",
+          "quantity": "170 g"
+        }
+      ],
+      "visual": "Ordinary cold brew diluted with still water over ice. Recipe has NO nitrogen: no cascading nitrogen bubbles, stout-like head, foam, milk or carbonation.",
+      "prompt": "Use case: product-mockup. Create ONE new photorealistic square cafe menu photograph of Nitro-Style Cold Brew (No Nitrogen). Warm off-white seamless studio background, soft natural side lighting, fully visible centered vessel with 8% breathing room. The attached image is a LOGO reference only: reproduce its dark-green 9 FLOOR COFFEE logo accurately on a centered white label on clear cups or printed on ceramic. Recipe ingredients with exact quantities: Cold brew concentrate 100 ml; ရေအေး 90 ml; ရေခဲ 170 g. Exact final appearance and order: Ordinary cold brew diluted with still water over ice. Recipe has NO nitrogen: no cascading nitrogen bubbles, stout-like head, foam, milk or carbonation. Unless a different vessel is specified, use clear 16oz takeaway cup. Hot drinks dry with NO ice or condensation. Cold drinks realistic ice and condensation as specified. Show only one finished drink; no people, hands, equipment, extra captions or surrounding props. No garnish, topping or ingredient not explicitly listed. No carbonation except recipes explicitly containing tonic, soda or ginger ale/beer. Match natural proportions, no artificial perfect color blocks. Each image must be a fresh individual photograph."
+    },
+    {
+      "id": "v8-23-01",
+      "name": "V60 Pour Over",
+      "ingredients": [
+        {
+          "name": "ကော်ဖီစေ့",
+          "quantity": "15 g"
+        },
+        {
+          "name": "ရေပူ",
+          "quantity": "240 g"
+        }
+      ],
+      "visual": "Finished hot V60 filtered black coffee in medium 280ml clear heatproof handled glass, translucent amber-brown. No brewing device, ice, milk or crema.",
+      "prompt": "Use case: product-mockup. Create ONE new photorealistic square cafe menu photograph of V60 Pour Over. Warm off-white seamless studio background, soft natural side lighting, fully visible centered vessel with 8% breathing room. The attached image is a LOGO reference only: reproduce its dark-green 9 FLOOR COFFEE logo accurately on a centered white label on clear cups or printed on ceramic. Recipe ingredients with exact quantities: ကော်ဖီစေ့ 15 g; ရေပူ 240 g. Exact final appearance and order: Finished hot V60 filtered black coffee in medium 280ml clear heatproof handled glass, translucent amber-brown. No brewing device, ice, milk or crema. Unless a different vessel is specified, use clear 16oz takeaway cup. Hot drinks dry with NO ice or condensation. Cold drinks realistic ice and condensation as specified. Show only one finished drink; no people, hands, equipment, extra captions or surrounding props. No garnish, topping or ingredient not explicitly listed. No carbonation except recipes explicitly containing tonic, soda or ginger ale/beer. Match natural proportions, no artificial perfect color blocks. Each image must be a fresh individual photograph."
+    },
+    {
+      "id": "v8-23-02",
+      "name": "Iced V60 Japanese Style",
+      "ingredients": [
+        {
+          "name": "ကော်ဖီစေ့",
+          "quantity": "18 g"
+        },
+        {
+          "name": "ရေပူ",
+          "quantity": "150 g"
+        },
+        {
+          "name": "ရေခဲ",
+          "quantity": "100 g"
+        }
+      ],
+      "visual": "Finished Japanese iced filter coffee brewed over 100g ice. Medium clear serving glass, amber-brown black coffee with modest partially melted ice. No milk or crema.",
+      "prompt": "Use case: product-mockup. Create ONE new photorealistic square cafe menu photograph of Iced V60 Japanese Style. Warm off-white seamless studio background, soft natural side lighting, fully visible centered vessel with 8% breathing room. The attached image is a LOGO reference only: reproduce its dark-green 9 FLOOR COFFEE logo accurately on a centered white label on clear cups or printed on ceramic. Recipe ingredients with exact quantities: ကော်ဖီစေ့ 18 g; ရေပူ 150 g; ရေခဲ 100 g. Exact final appearance and order: Finished Japanese iced filter coffee brewed over 100g ice. Medium clear serving glass, amber-brown black coffee with modest partially melted ice. No milk or crema. Unless a different vessel is specified, use clear 16oz takeaway cup. Hot drinks dry with NO ice or condensation. Cold drinks realistic ice and condensation as specified. Show only one finished drink; no people, hands, equipment, extra captions or surrounding props. No garnish, topping or ingredient not explicitly listed. No carbonation except recipes explicitly containing tonic, soda or ginger ale/beer. Match natural proportions, no artificial perfect color blocks. Each image must be a fresh individual photograph."
+    },
+    {
+      "id": "v8-23-03",
+      "name": "French Press Coffee",
+      "ingredients": [
+        {
+          "name": "ကော်ဖီကြမ်းမှုန့်",
+          "quantity": "18 g"
+        },
+        {
+          "name": "ရေပူ",
+          "quantity": "270 g"
+        }
+      ],
+      "visual": "Finished hot French press coffee, pressed and decanted, 300ml clear heatproof handled glass. Rich slightly opaque dark brown, no floating grounds, milk, ice or foam.",
+      "prompt": "Use case: product-mockup. Create ONE new photorealistic square cafe menu photograph of French Press Coffee. Warm off-white seamless studio background, soft natural side lighting, fully visible centered vessel with 8% breathing room. The attached image is a LOGO reference only: reproduce its dark-green 9 FLOOR COFFEE logo accurately on a centered white label on clear cups or printed on ceramic. Recipe ingredients with exact quantities: ကော်ဖီကြမ်းမှုန့် 18 g; ရေပူ 270 g. Exact final appearance and order: Finished hot French press coffee, pressed and decanted, 300ml clear heatproof handled glass. Rich slightly opaque dark brown, no floating grounds, milk, ice or foam. Unless a different vessel is specified, use clear 16oz takeaway cup. Hot drinks dry with NO ice or condensation. Cold drinks realistic ice and condensation as specified. Show only one finished drink; no people, hands, equipment, extra captions or surrounding props. No garnish, topping or ingredient not explicitly listed. No carbonation except recipes explicitly containing tonic, soda or ginger ale/beer. Match natural proportions, no artificial perfect color blocks. Each image must be a fresh individual photograph."
+    },
+    {
+      "id": "v8-23-04",
+      "name": "AeroPress Coffee",
+      "ingredients": [
+        {
+          "name": "ကော်ဖီမှုန့်",
+          "quantity": "15 g"
+        },
+        {
+          "name": "ရေပူ",
+          "quantity": "200 g"
+        }
+      ],
+      "visual": "Finished hot AeroPress filtered coffee, medium clear heatproof handled glass, rich brown black coffee. No equipment, milk, ice or crema.",
+      "prompt": "Use case: product-mockup. Create ONE new photorealistic square cafe menu photograph of AeroPress Coffee. Warm off-white seamless studio background, soft natural side lighting, fully visible centered vessel with 8% breathing room. The attached image is a LOGO reference only: reproduce its dark-green 9 FLOOR COFFEE logo accurately on a centered white label on clear cups or printed on ceramic. Recipe ingredients with exact quantities: ကော်ဖီမှုန့် 15 g; ရေပူ 200 g. Exact final appearance and order: Finished hot AeroPress filtered coffee, medium clear heatproof handled glass, rich brown black coffee. No equipment, milk, ice or crema. Unless a different vessel is specified, use clear 16oz takeaway cup. Hot drinks dry with NO ice or condensation. Cold drinks realistic ice and condensation as specified. Show only one finished drink; no people, hands, equipment, extra captions or surrounding props. No garnish, topping or ingredient not explicitly listed. No carbonation except recipes explicitly containing tonic, soda or ginger ale/beer. Match natural proportions, no artificial perfect color blocks. Each image must be a fresh individual photograph."
+    },
+    {
+      "id": "v8-23-05",
+      "name": "Moka Pot Coffee",
+      "ingredients": [
+        {
+          "name": "Moka pot အရွယ်အစားအလိုက် ကော်ဖီ/ရေ",
+          "quantity": ""
+        }
+      ],
+      "visual": "Finished hot concentrated Moka pot coffee in SMALL 90ml heatproof clear glass. Dark coffee, minimal surface bubbles, no milk, ice, espresso crema or equipment.",
+      "prompt": "Use case: product-mockup. Create ONE new photorealistic square cafe menu photograph of Moka Pot Coffee. Warm off-white seamless studio background, soft natural side lighting, fully visible centered vessel with 8% breathing room. The attached image is a LOGO reference only: reproduce its dark-green 9 FLOOR COFFEE logo accurately on a centered white label on clear cups or printed on ceramic. Recipe ingredients with exact quantities: Moka pot အရွယ်အစားအလိုက် ကော်ဖီ/ရေ . Exact final appearance and order: Finished hot concentrated Moka pot coffee in SMALL 90ml heatproof clear glass. Dark coffee, minimal surface bubbles, no milk, ice, espresso crema or equipment. Unless a different vessel is specified, use clear 16oz takeaway cup. Hot drinks dry with NO ice or condensation. Cold drinks realistic ice and condensation as specified. Show only one finished drink; no people, hands, equipment, extra captions or surrounding props. No garnish, topping or ingredient not explicitly listed. No carbonation except recipes explicitly containing tonic, soda or ginger ale/beer. Match natural proportions, no artificial perfect color blocks. Each image must be a fresh individual photograph."
+    },
+    {
+      "id": "v8-23-06",
+      "name": "Café au Lait",
+      "ingredients": [
+        {
+          "name": "Brewed coffee",
+          "quantity": "110 ml"
+        },
+        {
+          "name": "နို့ပူ",
+          "quantity": "110 ml"
+        }
+      ],
+      "visual": "Hot brewed coffee and hot milk mixed in equal volumes, uniform light coffee-tan. White ceramic handled cup with logo, thin smooth surface, no ice, latte art or whipped cream.",
+      "prompt": "Use case: product-mockup. Create ONE new photorealistic square cafe menu photograph of Café au Lait. Warm off-white seamless studio background, soft natural side lighting, fully visible centered vessel with 8% breathing room. The attached image is a LOGO reference only: reproduce its dark-green 9 FLOOR COFFEE logo accurately on a centered white label on clear cups or printed on ceramic. Recipe ingredients with exact quantities: Brewed coffee 110 ml; နို့ပူ 110 ml. Exact final appearance and order: Hot brewed coffee and hot milk mixed in equal volumes, uniform light coffee-tan. White ceramic handled cup with logo, thin smooth surface, no ice, latte art or whipped cream. Unless a different vessel is specified, use clear 16oz takeaway cup. Hot drinks dry with NO ice or condensation. Cold drinks realistic ice and condensation as specified. Show only one finished drink; no people, hands, equipment, extra captions or surrounding props. No garnish, topping or ingredient not explicitly listed. No carbonation except recipes explicitly containing tonic, soda or ginger ale/beer. Match natural proportions, no artificial perfect color blocks. Each image must be a fresh individual photograph."
+    },
+    {
+      "id": "v8-23-07",
+      "name": "Iced Filter Coffee",
+      "ingredients": [
+        {
+          "name": "Filter coffee",
+          "quantity": "150 ml"
+        },
+        {
+          "name": "ရေခဲ",
+          "quantity": "170 g"
+        }
+      ],
+      "visual": "Cooled filter black coffee over ice in clear 16oz cup. Translucent medium-dark brown, no espresso crema, milk or toppings.",
+      "prompt": "Use case: product-mockup. Create ONE new photorealistic square cafe menu photograph of Iced Filter Coffee. Warm off-white seamless studio background, soft natural side lighting, fully visible centered vessel with 8% breathing room. The attached image is a LOGO reference only: reproduce its dark-green 9 FLOOR COFFEE logo accurately on a centered white label on clear cups or printed on ceramic. Recipe ingredients with exact quantities: Filter coffee 150 ml; ရေခဲ 170 g. Exact final appearance and order: Cooled filter black coffee over ice in clear 16oz cup. Translucent medium-dark brown, no espresso crema, milk or toppings. Unless a different vessel is specified, use clear 16oz takeaway cup. Hot drinks dry with NO ice or condensation. Cold drinks realistic ice and condensation as specified. Show only one finished drink; no people, hands, equipment, extra captions or surrounding props. No garnish, topping or ingredient not explicitly listed. No carbonation except recipes explicitly containing tonic, soda or ginger ale/beer. Match natural proportions, no artificial perfect color blocks. Each image must be a fresh individual photograph."
+    },
+    {
+      "id": "v8-23-08",
+      "name": "Honey V60",
+      "ingredients": [
+        {
+          "name": "ကော်ဖီစေ့",
+          "quantity": "15 g"
+        },
+        {
+          "name": "ရေပူ",
+          "quantity": "240 g"
+        },
+        {
+          "name": "ပျားရည်",
+          "quantity": "10 ml"
+        }
+      ],
+      "visual": "Finished hot V60 black coffee with honey dissolved after brewing. Medium clear heatproof handled glass, amber-brown, no honeycomb, honey drizzle, milk, ice or equipment.",
+      "prompt": "Use case: product-mockup. Create ONE new photorealistic square cafe menu photograph of Honey V60. Warm off-white seamless studio background, soft natural side lighting, fully visible centered vessel with 8% breathing room. The attached image is a LOGO reference only: reproduce its dark-green 9 FLOOR COFFEE logo accurately on a centered white label on clear cups or printed on ceramic. Recipe ingredients with exact quantities: ကော်ဖီစေ့ 15 g; ရေပူ 240 g; ပျားရည် 10 ml. Exact final appearance and order: Finished hot V60 black coffee with honey dissolved after brewing. Medium clear heatproof handled glass, amber-brown, no honeycomb, honey drizzle, milk, ice or equipment. Unless a different vessel is specified, use clear 16oz takeaway cup. Hot drinks dry with NO ice or condensation. Cold drinks realistic ice and condensation as specified. Show only one finished drink; no people, hands, equipment, extra captions or surrounding props. No garnish, topping or ingredient not explicitly listed. No carbonation except recipes explicitly containing tonic, soda or ginger ale/beer. Match natural proportions, no artificial perfect color blocks. Each image must be a fresh individual photograph."
+    },
+    {
+      "id": "v8-23-09",
+      "name": "Cinnamon French Press",
+      "ingredients": [
+        {
+          "name": "ကော်ဖီကြမ်းမှုန့်",
+          "quantity": "18 g"
+        },
+        {
+          "name": "ရေပူ",
+          "quantity": "270 g"
+        },
+        {
+          "name": "သစ်ကြံပိုး",
+          "quantity": "1 ချောင်း"
+        }
+      ],
+      "visual": "Hot French press black coffee infused with cinnamon and STRAINED before serving. Clear heatproof handled glass. No cinnamon stick or dusting in finished cup, milk or ice.",
+      "prompt": "Use case: product-mockup. Create ONE new photorealistic square cafe menu photograph of Cinnamon French Press. Warm off-white seamless studio background, soft natural side lighting, fully visible centered vessel with 8% breathing room. The attached image is a LOGO reference only: reproduce its dark-green 9 FLOOR COFFEE logo accurately on a centered white label on clear cups or printed on ceramic. Recipe ingredients with exact quantities: ကော်ဖီကြမ်းမှုန့် 18 g; ရေပူ 270 g; သစ်ကြံပိုး 1 ချောင်း. Exact final appearance and order: Hot French press black coffee infused with cinnamon and STRAINED before serving. Clear heatproof handled glass. No cinnamon stick or dusting in finished cup, milk or ice. Unless a different vessel is specified, use clear 16oz takeaway cup. Hot drinks dry with NO ice or condensation. Cold drinks realistic ice and condensation as specified. Show only one finished drink; no people, hands, equipment, extra captions or surrounding props. No garnish, topping or ingredient not explicitly listed. No carbonation except recipes explicitly containing tonic, soda or ginger ale/beer. Match natural proportions, no artificial perfect color blocks. Each image must be a fresh individual photograph."
+    },
+    {
+      "id": "v8-23-10",
+      "name": "Cold Drip Coffee",
+      "ingredients": [
+        {
+          "name": "Cold drip concentrate",
+          "quantity": "90 ml"
+        },
+        {
+          "name": "ရေအေး",
+          "quantity": "100 ml"
+        },
+        {
+          "name": "ရေခဲ",
+          "quantity": "170 g"
+        }
+      ],
+      "visual": "Cold drip concentrate diluted with still water over ice. Uniform translucent deep brown black coffee in clear 16oz cup. No equipment, milk, foam or bubbles.",
+      "prompt": "Use case: product-mockup. Create ONE new photorealistic square cafe menu photograph of Cold Drip Coffee. Warm off-white seamless studio background, soft natural side lighting, fully visible centered vessel with 8% breathing room. The attached image is a LOGO reference only: reproduce its dark-green 9 FLOOR COFFEE logo accurately on a centered white label on clear cups or printed on ceramic. Recipe ingredients with exact quantities: Cold drip concentrate 90 ml; ရေအေး 100 ml; ရေခဲ 170 g. Exact final appearance and order: Cold drip concentrate diluted with still water over ice. Uniform translucent deep brown black coffee in clear 16oz cup. No equipment, milk, foam or bubbles. Unless a different vessel is specified, use clear 16oz takeaway cup. Hot drinks dry with NO ice or condensation. Cold drinks realistic ice and condensation as specified. Show only one finished drink; no people, hands, equipment, extra captions or surrounding props. No garnish, topping or ingredient not explicitly listed. No carbonation except recipes explicitly containing tonic, soda or ginger ale/beer. Match natural proportions, no artificial perfect color blocks. Each image must be a fresh individual photograph."
+    },
+    {
+      "id": "v8-24-01",
+      "name": "Shakerato",
+      "ingredients": [
+        {
+          "name": "Espresso",
+          "quantity": "32 g"
+        },
+        {
+          "name": "သကြားရည်",
+          "quantity": "10 ml"
+        },
+        {
+          "name": "ရေခဲ",
+          "quantity": "140 g"
+        }
+      ],
+      "visual": "Espresso shaken with syrup and ice then STRAINED into small chilled clear stemmed coupe, fine tan shaken coffee foam cap. NO ICE remains, no milk. Logo small on bowl.",
+      "prompt": "Use case: product-mockup. Create ONE new photorealistic square cafe menu photograph of Shakerato. Warm off-white seamless studio background, soft natural side lighting, fully visible centered vessel with 8% breathing room. The attached image is a LOGO reference only: reproduce its dark-green 9 FLOOR COFFEE logo accurately on a centered white label on clear cups or printed on ceramic. Recipe ingredients with exact quantities: Espresso 32 g; သကြားရည် 10 ml; ရေခဲ 140 g. Exact final appearance and order: Espresso shaken with syrup and ice then STRAINED into small chilled clear stemmed coupe, fine tan shaken coffee foam cap. NO ICE remains, no milk. Logo small on bowl. Unless a different vessel is specified, use clear 16oz takeaway cup. Hot drinks dry with NO ice or condensation. Cold drinks realistic ice and condensation as specified. Show only one finished drink; no people, hands, equipment, extra captions or surrounding props. No garnish, topping or ingredient not explicitly listed. No carbonation except recipes explicitly containing tonic, soda or ginger ale/beer. Match natural proportions, no artificial perfect color blocks. Each image must be a fresh individual photograph."
+    },
+    {
+      "id": "v8-24-02",
+      "name": "Freddo Espresso",
+      "ingredients": [
+        {
+          "name": "Espresso",
+          "quantity": "64 g (double double shot)"
+        },
+        {
+          "name": "ရေခဲ",
+          "quantity": "180 g"
+        },
+        {
+          "name": "သကြားရည် (optional)",
+          "quantity": "0–10 ml"
+        }
+      ],
+      "visual": "Shaken double-double espresso served over fresh ice in medium clear glass, rich dark coffee with thick fine tan coffee foam. No milk or cream.",
+      "prompt": "Use case: product-mockup. Create ONE new photorealistic square cafe menu photograph of Freddo Espresso. Warm off-white seamless studio background, soft natural side lighting, fully visible centered vessel with 8% breathing room. The attached image is a LOGO reference only: reproduce its dark-green 9 FLOOR COFFEE logo accurately on a centered white label on clear cups or printed on ceramic. Recipe ingredients with exact quantities: Espresso 64 g (double double shot); ရေခဲ 180 g; သကြားရည် (optional) 0–10 ml. Exact final appearance and order: Shaken double-double espresso served over fresh ice in medium clear glass, rich dark coffee with thick fine tan coffee foam. No milk or cream. Unless a different vessel is specified, use clear 16oz takeaway cup. Hot drinks dry with NO ice or condensation. Cold drinks realistic ice and condensation as specified. Show only one finished drink; no people, hands, equipment, extra captions or surrounding props. No garnish, topping or ingredient not explicitly listed. No carbonation except recipes explicitly containing tonic, soda or ginger ale/beer. Match natural proportions, no artificial perfect color blocks. Each image must be a fresh individual photograph."
+    },
+    {
+      "id": "v8-24-03",
+      "name": "Freddo Cappuccino",
+      "ingredients": [
+        {
+          "name": "Espresso",
+          "quantity": "64 g"
+        },
+        {
+          "name": "နို့အေး",
+          "quantity": "90 ml"
+        },
+        {
+          "name": "ရေခဲ",
+          "quantity": "160 g"
+        }
+      ],
+      "visual": "Shaken espresso over ice below thick smooth WHITE COLD MILK FOAM, no liquid milk base, cocoa powder or cream.",
+      "prompt": "Use case: product-mockup. Create ONE new photorealistic square cafe menu photograph of Freddo Cappuccino. Warm off-white seamless studio background, soft natural side lighting, fully visible centered vessel with 8% breathing room. The attached image is a LOGO reference only: reproduce its dark-green 9 FLOOR COFFEE logo accurately on a centered white label on clear cups or printed on ceramic. Recipe ingredients with exact quantities: Espresso 64 g; နို့အေး 90 ml; ရေခဲ 160 g. Exact final appearance and order: Shaken espresso over ice below thick smooth WHITE COLD MILK FOAM, no liquid milk base, cocoa powder or cream. Unless a different vessel is specified, use clear 16oz takeaway cup. Hot drinks dry with NO ice or condensation. Cold drinks realistic ice and condensation as specified. Show only one finished drink; no people, hands, equipment, extra captions or surrounding props. No garnish, topping or ingredient not explicitly listed. No carbonation except recipes explicitly containing tonic, soda or ginger ale/beer. Match natural proportions, no artificial perfect color blocks. Each image must be a fresh individual photograph."
+    },
+    {
+      "id": "v8-24-04",
+      "name": "Espresso Romano",
+      "ingredients": [
+        {
+          "name": "Espresso",
+          "quantity": "32 g"
+        },
+        {
+          "name": "သံပရာ/လီမွန်အခွံ",
+          "quantity": "1 စိတ်"
+        }
+      ],
+      "visual": "Hot espresso 32g in tiny clear demitasse with golden crema and ONE small curl of lemon PEEL on rim or saucer. No lemon wedge, juice, milk or ice. Saucer allowed.",
+      "prompt": "Use case: product-mockup. Create ONE new photorealistic square cafe menu photograph of Espresso Romano. Warm off-white seamless studio background, soft natural side lighting, fully visible centered vessel with 8% breathing room. The attached image is a LOGO reference only: reproduce its dark-green 9 FLOOR COFFEE logo accurately on a centered white label on clear cups or printed on ceramic. Recipe ingredients with exact quantities: Espresso 32 g; သံပရာ/လီမွန်အခွံ 1 စိတ်. Exact final appearance and order: Hot espresso 32g in tiny clear demitasse with golden crema and ONE small curl of lemon PEEL on rim or saucer. No lemon wedge, juice, milk or ice. Saucer allowed. Unless a different vessel is specified, use clear 16oz takeaway cup. Hot drinks dry with NO ice or condensation. Cold drinks realistic ice and condensation as specified. Show only one finished drink; no people, hands, equipment, extra captions or surrounding props. No garnish, topping or ingredient not explicitly listed. No carbonation except recipes explicitly containing tonic, soda or ginger ale/beer. Match natural proportions, no artificial perfect color blocks. Each image must be a fresh individual photograph."
+    },
+    {
+      "id": "v8-24-05",
+      "name": "Café Bombón",
+      "ingredients": [
+        {
+          "name": "Espresso",
+          "quantity": "32 g"
+        },
+        {
+          "name": "နို့ဆီချို",
+          "quantity": "30 ml"
+        }
+      ],
+      "visual": "Small narrow clear heatproof glass, white condensed milk 30ml on BOTTOM and dark espresso 32g on TOP. Distinct equal-volume layers and a little crema. No ice or extra milk.",
+      "prompt": "Use case: product-mockup. Create ONE new photorealistic square cafe menu photograph of Café Bombón. Warm off-white seamless studio background, soft natural side lighting, fully visible centered vessel with 8% breathing room. The attached image is a LOGO reference only: reproduce its dark-green 9 FLOOR COFFEE logo accurately on a centered white label on clear cups or printed on ceramic. Recipe ingredients with exact quantities: Espresso 32 g; နို့ဆီချို 30 ml. Exact final appearance and order: Small narrow clear heatproof glass, white condensed milk 30ml on BOTTOM and dark espresso 32g on TOP. Distinct equal-volume layers and a little crema. No ice or extra milk. Unless a different vessel is specified, use clear 16oz takeaway cup. Hot drinks dry with NO ice or condensation. Cold drinks realistic ice and condensation as specified. Show only one finished drink; no people, hands, equipment, extra captions or surrounding props. No garnish, topping or ingredient not explicitly listed. No carbonation except recipes explicitly containing tonic, soda or ginger ale/beer. Match natural proportions, no artificial perfect color blocks. Each image must be a fresh individual photograph."
+    },
+    {
+      "id": "v8-24-06",
+      "name": "Bicerin",
+      "ingredients": [
+        {
+          "name": "Espresso",
+          "quantity": "32 g"
+        },
+        {
+          "name": "Chocolate sauce",
+          "quantity": "25 ml"
+        },
+        {
+          "name": "နို့အပူ",
+          "quantity": "90 ml"
+        },
+        {
+          "name": "Whipped cream",
+          "quantity": "25 g"
+        }
+      ],
+      "visual": "Chocolate sauce bottom, hot espresso and milk middle, soft whipped cream on top, clear heatproof handled glass. No cocoa dust or chocolate shavings.",
+      "prompt": "Use case: product-mockup. Create ONE new photorealistic square cafe menu photograph of Bicerin. Warm off-white seamless studio background, soft natural side lighting, fully visible centered vessel with 8% breathing room. The attached image is a LOGO reference only: reproduce its dark-green 9 FLOOR COFFEE logo accurately on a centered white label on clear cups or printed on ceramic. Recipe ingredients with exact quantities: Espresso 32 g; Chocolate sauce 25 ml; နို့အပူ 90 ml; Whipped cream 25 g. Exact final appearance and order: Chocolate sauce bottom, hot espresso and milk middle, soft whipped cream on top, clear heatproof handled glass. No cocoa dust or chocolate shavings. Unless a different vessel is specified, use clear 16oz takeaway cup. Hot drinks dry with NO ice or condensation. Cold drinks realistic ice and condensation as specified. Show only one finished drink; no people, hands, equipment, extra captions or surrounding props. No garnish, topping or ingredient not explicitly listed. No carbonation except recipes explicitly containing tonic, soda or ginger ale/beer. Match natural proportions, no artificial perfect color blocks. Each image must be a fresh individual photograph."
+    },
+    {
+      "id": "v8-24-07",
+      "name": "Marocchino",
+      "ingredients": [
+        {
+          "name": "Espresso",
+          "quantity": "32 g"
+        },
+        {
+          "name": "Cocoa powder",
+          "quantity": "3 g"
+        },
+        {
+          "name": "နို့အမြှုပ်",
+          "quantity": "60 ml"
+        }
+      ],
+      "visual": "Tiny clear heatproof demitasse, espresso below white milk foam, light cocoa powder dusting on top and some cocoa inside. No sauce, ice or cream.",
+      "prompt": "Use case: product-mockup. Create ONE new photorealistic square cafe menu photograph of Marocchino. Warm off-white seamless studio background, soft natural side lighting, fully visible centered vessel with 8% breathing room. The attached image is a LOGO reference only: reproduce its dark-green 9 FLOOR COFFEE logo accurately on a centered white label on clear cups or printed on ceramic. Recipe ingredients with exact quantities: Espresso 32 g; Cocoa powder 3 g; နို့အမြှုပ် 60 ml. Exact final appearance and order: Tiny clear heatproof demitasse, espresso below white milk foam, light cocoa powder dusting on top and some cocoa inside. No sauce, ice or cream. Unless a different vessel is specified, use clear 16oz takeaway cup. Hot drinks dry with NO ice or condensation. Cold drinks realistic ice and condensation as specified. Show only one finished drink; no people, hands, equipment, extra captions or surrounding props. No garnish, topping or ingredient not explicitly listed. No carbonation except recipes explicitly containing tonic, soda or ginger ale/beer. Match natural proportions, no artificial perfect color blocks. Each image must be a fresh individual photograph."
+    },
+    {
+      "id": "v8-24-08",
+      "name": "Café Noisette",
+      "ingredients": [
+        {
+          "name": "Espresso",
+          "quantity": "32 g"
+        },
+        {
+          "name": "နို့အပူ",
+          "quantity": "20 ml"
+        }
+      ],
+      "visual": "Small 4oz cup with only 32g espresso and 20ml hot milk. Rich hazelnut-brown coffee and little crema; no nuts, syrup, foam mound or ice.",
+      "prompt": "Use case: product-mockup. Create ONE new photorealistic square cafe menu photograph of Café Noisette. Warm off-white seamless studio background, soft natural side lighting, fully visible centered vessel with 8% breathing room. The attached image is a LOGO reference only: reproduce its dark-green 9 FLOOR COFFEE logo accurately on a centered white label on clear cups or printed on ceramic. Recipe ingredients with exact quantities: Espresso 32 g; နို့အပူ 20 ml. Exact final appearance and order: Small 4oz cup with only 32g espresso and 20ml hot milk. Rich hazelnut-brown coffee and little crema; no nuts, syrup, foam mound or ice. Unless a different vessel is specified, use clear 16oz takeaway cup. Hot drinks dry with NO ice or condensation. Cold drinks realistic ice and condensation as specified. Show only one finished drink; no people, hands, equipment, extra captions or surrounding props. No garnish, topping or ingredient not explicitly listed. No carbonation except recipes explicitly containing tonic, soda or ginger ale/beer. Match natural proportions, no artificial perfect color blocks. Each image must be a fresh individual photograph."
+    },
+    {
+      "id": "v8-25-01",
+      "name": "Mazagran Iced Coffee",
+      "ingredients": [
+        {
+          "name": "Black coffee အေး",
+          "quantity": "120 ml"
+        },
+        {
+          "name": "လီမွန်ရည်",
+          "quantity": "15 ml"
+        },
+        {
+          "name": "သကြားရည်",
+          "quantity": "15 ml"
+        },
+        {
+          "name": "ရေခဲ",
+          "quantity": "180 g"
+        }
+      ],
+      "visual": "Cooled black coffee, lemon juice and sugar syrup over ice, translucent dark amber-brown. No citrus slices, milk or bubbles.",
+      "prompt": "Use case: product-mockup. Create ONE new photorealistic square cafe menu photograph of Mazagran Iced Coffee. Warm off-white seamless studio background, soft natural side lighting, fully visible centered vessel with 8% breathing room. The attached image is a LOGO reference only: reproduce its dark-green 9 FLOOR COFFEE logo accurately on a centered white label on clear cups or printed on ceramic. Recipe ingredients with exact quantities: Black coffee အေး 120 ml; လီမွန်ရည် 15 ml; သကြားရည် 15 ml; ရေခဲ 180 g. Exact final appearance and order: Cooled black coffee, lemon juice and sugar syrup over ice, translucent dark amber-brown. No citrus slices, milk or bubbles. Unless a different vessel is specified, use clear 16oz takeaway cup. Hot drinks dry with NO ice or condensation. Cold drinks realistic ice and condensation as specified. Show only one finished drink; no people, hands, equipment, extra captions or surrounding props. No garnish, topping or ingredient not explicitly listed. No carbonation except recipes explicitly containing tonic, soda or ginger ale/beer. Match natural proportions, no artificial perfect color blocks. Each image must be a fresh individual photograph."
+    },
+    {
+      "id": "v8-25-02",
+      "name": "Café de Olla",
+      "ingredients": [
+        {
+          "name": "Ground coffee",
+          "quantity": "18 g"
+        },
+        {
+          "name": "ရေ",
+          "quantity": "260 ml"
+        },
+        {
+          "name": "သစ်ကြံပိုး",
+          "quantity": "1 ချောင်း"
+        },
+        {
+          "name": "ကြံသကြား",
+          "quantity": "15 g"
+        }
+      ],
+      "visual": "Hot coffee infused with cinnamon and cane sugar then STRAINED, earthy brown ceramic handled cup bearing 9 FLOOR logo. No stick, grounds, milk or ice.",
+      "prompt": "Use case: product-mockup. Create ONE new photorealistic square cafe menu photograph of Café de Olla. Warm off-white seamless studio background, soft natural side lighting, fully visible centered vessel with 8% breathing room. The attached image is a LOGO reference only: reproduce its dark-green 9 FLOOR COFFEE logo accurately on a centered white label on clear cups or printed on ceramic. Recipe ingredients with exact quantities: Ground coffee 18 g; ရေ 260 ml; သစ်ကြံပိုး 1 ချောင်း; ကြံသကြား 15 g. Exact final appearance and order: Hot coffee infused with cinnamon and cane sugar then STRAINED, earthy brown ceramic handled cup bearing 9 FLOOR logo. No stick, grounds, milk or ice. Unless a different vessel is specified, use clear 16oz takeaway cup. Hot drinks dry with NO ice or condensation. Cold drinks realistic ice and condensation as specified. Show only one finished drink; no people, hands, equipment, extra captions or surrounding props. No garnish, topping or ingredient not explicitly listed. No carbonation except recipes explicitly containing tonic, soda or ginger ale/beer. Match natural proportions, no artificial perfect color blocks. Each image must be a fresh individual photograph."
+    },
+    {
+      "id": "v8-25-03",
+      "name": "Turkish Coffee",
+      "ingredients": [
+        {
+          "name": "အလွန်နူးညံ့သော ကော်ဖီမှုန့်",
+          "quantity": "8 g"
+        },
+        {
+          "name": "ရေ",
+          "quantity": "70 ml"
+        },
+        {
+          "name": "သကြား (optional)",
+          "quantity": "0–5 g"
+        }
+      ],
+      "visual": "Tiny 80ml ceramic demitasse with saucer, very dark hot Turkish coffee with thin fine natural tan foam and settled grounds. No milk, ice, cinnamon or equipment.",
+      "prompt": "Use case: product-mockup. Create ONE new photorealistic square cafe menu photograph of Turkish Coffee. Warm off-white seamless studio background, soft natural side lighting, fully visible centered vessel with 8% breathing room. The attached image is a LOGO reference only: reproduce its dark-green 9 FLOOR COFFEE logo accurately on a centered white label on clear cups or printed on ceramic. Recipe ingredients with exact quantities: အလွန်နူးညံ့သော ကော်ဖီမှုန့် 8 g; ရေ 70 ml; သကြား (optional) 0–5 g. Exact final appearance and order: Tiny 80ml ceramic demitasse with saucer, very dark hot Turkish coffee with thin fine natural tan foam and settled grounds. No milk, ice, cinnamon or equipment. Unless a different vessel is specified, use clear 16oz takeaway cup. Hot drinks dry with NO ice or condensation. Cold drinks realistic ice and condensation as specified. Show only one finished drink; no people, hands, equipment, extra captions or surrounding props. No garnish, topping or ingredient not explicitly listed. No carbonation except recipes explicitly containing tonic, soda or ginger ale/beer. Match natural proportions, no artificial perfect color blocks. Each image must be a fresh individual photograph."
+    },
+    {
+      "id": "v8-25-04",
+      "name": "Greek Frappé",
+      "ingredients": [
+        {
+          "name": "Instant coffee",
+          "quantity": "4 g"
+        },
+        {
+          "name": "ရေ",
+          "quantity": "30 ml"
+        },
+        {
+          "name": "သကြား",
+          "quantity": "10 g"
+        },
+        {
+          "name": "ရေအေး",
+          "quantity": "120 ml"
+        },
+        {
+          "name": "ရေခဲ",
+          "quantity": "160 g"
+        }
+      ],
+      "visual": "Instant coffee with sugar whipped using little water, then cold water and ice. Tall clear glass with brown watery coffee below THICK tan coffee foam. No milk or cream.",
+      "prompt": "Use case: product-mockup. Create ONE new photorealistic square cafe menu photograph of Greek Frappé. Warm off-white seamless studio background, soft natural side lighting, fully visible centered vessel with 8% breathing room. The attached image is a LOGO reference only: reproduce its dark-green 9 FLOOR COFFEE logo accurately on a centered white label on clear cups or printed on ceramic. Recipe ingredients with exact quantities: Instant coffee 4 g; ရေ 30 ml; သကြား 10 g; ရေအေး 120 ml; ရေခဲ 160 g. Exact final appearance and order: Instant coffee with sugar whipped using little water, then cold water and ice. Tall clear glass with brown watery coffee below THICK tan coffee foam. No milk or cream. Unless a different vessel is specified, use clear 16oz takeaway cup. Hot drinks dry with NO ice or condensation. Cold drinks realistic ice and condensation as specified. Show only one finished drink; no people, hands, equipment, extra captions or surrounding props. No garnish, topping or ingredient not explicitly listed. No carbonation except recipes explicitly containing tonic, soda or ginger ale/beer. Match natural proportions, no artificial perfect color blocks. Each image must be a fresh individual photograph."
+    },
+    {
+      "id": "v8-25-05",
+      "name": "New Orleans Chicory Iced Coffee",
+      "ingredients": [
+        {
+          "name": "Chicory coffee concentrate",
+          "quantity": "90 ml"
+        },
+        {
+          "name": "နို့အေး",
+          "quantity": "100 ml"
+        },
+        {
+          "name": "သကြားရည်",
+          "quantity": "15 ml"
+        },
+        {
+          "name": "ရေခဲ",
+          "quantity": "180 g"
+        }
+      ],
+      "visual": "Cold milk mixed with syrup, ice, chicory coffee concentrate poured above. Creamy tan milk under dark coffee diffusion. No chicory flowers, garnish or foam.",
+      "prompt": "Use case: product-mockup. Create ONE new photorealistic square cafe menu photograph of New Orleans Chicory Iced Coffee. Warm off-white seamless studio background, soft natural side lighting, fully visible centered vessel with 8% breathing room. The attached image is a LOGO reference only: reproduce its dark-green 9 FLOOR COFFEE logo accurately on a centered white label on clear cups or printed on ceramic. Recipe ingredients with exact quantities: Chicory coffee concentrate 90 ml; နို့အေး 100 ml; သကြားရည် 15 ml; ရေခဲ 180 g. Exact final appearance and order: Cold milk mixed with syrup, ice, chicory coffee concentrate poured above. Creamy tan milk under dark coffee diffusion. No chicory flowers, garnish or foam. Unless a different vessel is specified, use clear 16oz takeaway cup. Hot drinks dry with NO ice or condensation. Cold drinks realistic ice and condensation as specified. Show only one finished drink; no people, hands, equipment, extra captions or surrounding props. No garnish, topping or ingredient not explicitly listed. No carbonation except recipes explicitly containing tonic, soda or ginger ale/beer. Match natural proportions, no artificial perfect color blocks. Each image must be a fresh individual photograph."
+    },
+    {
+      "id": "v8-25-06",
+      "name": "Café Cubano",
+      "ingredients": [
+        {
+          "name": "Espresso",
+          "quantity": "32 g"
+        },
+        {
+          "name": "သကြား",
+          "quantity": "10 g"
+        }
+      ],
+      "visual": "Tiny ceramic espresso demitasse, dark hot coffee with thick golden fine sugar-coffee espumita. No milk, cream or ice.",
+      "prompt": "Use case: product-mockup. Create ONE new photorealistic square cafe menu photograph of Café Cubano. Warm off-white seamless studio background, soft natural side lighting, fully visible centered vessel with 8% breathing room. The attached image is a LOGO reference only: reproduce its dark-green 9 FLOOR COFFEE logo accurately on a centered white label on clear cups or printed on ceramic. Recipe ingredients with exact quantities: Espresso 32 g; သကြား 10 g. Exact final appearance and order: Tiny ceramic espresso demitasse, dark hot coffee with thick golden fine sugar-coffee espumita. No milk, cream or ice. Unless a different vessel is specified, use clear 16oz takeaway cup. Hot drinks dry with NO ice or condensation. Cold drinks realistic ice and condensation as specified. Show only one finished drink; no people, hands, equipment, extra captions or surrounding props. No garnish, topping or ingredient not explicitly listed. No carbonation except recipes explicitly containing tonic, soda or ginger ale/beer. Match natural proportions, no artificial perfect color blocks. Each image must be a fresh individual photograph."
+    },
+    {
+      "id": "v8-25-07",
+      "name": "Iced Café Cubano",
+      "ingredients": [
+        {
+          "name": "Café Cubano",
+          "quantity": "42 g"
+        },
+        {
+          "name": "ရေအေး",
+          "quantity": "90 ml"
+        },
+        {
+          "name": "ရေခဲ",
+          "quantity": "180 g"
+        }
+      ],
+      "visual": "Prepared sweet Cafe Cubano over cold still water and ice, translucent dark coffee with fine tan sweet coffee foam edge. No milk or soda.",
+      "prompt": "Use case: product-mockup. Create ONE new photorealistic square cafe menu photograph of Iced Café Cubano. Warm off-white seamless studio background, soft natural side lighting, fully visible centered vessel with 8% breathing room. The attached image is a LOGO reference only: reproduce its dark-green 9 FLOOR COFFEE logo accurately on a centered white label on clear cups or printed on ceramic. Recipe ingredients with exact quantities: Café Cubano 42 g; ရေအေး 90 ml; ရေခဲ 180 g. Exact final appearance and order: Prepared sweet Cafe Cubano over cold still water and ice, translucent dark coffee with fine tan sweet coffee foam edge. No milk or soda. Unless a different vessel is specified, use clear 16oz takeaway cup. Hot drinks dry with NO ice or condensation. Cold drinks realistic ice and condensation as specified. Show only one finished drink; no people, hands, equipment, extra captions or surrounding props. No garnish, topping or ingredient not explicitly listed. No carbonation except recipes explicitly containing tonic, soda or ginger ale/beer. Match natural proportions, no artificial perfect color blocks. Each image must be a fresh individual photograph."
+    },
+    {
+      "id": "v8-25-08",
+      "name": "Kopi Cham",
+      "ingredients": [
+        {
+          "name": "Black coffee",
+          "quantity": "80 ml"
+        },
+        {
+          "name": "လက်ဖက်ရည်ပြင်း",
+          "quantity": "80 ml"
+        },
+        {
+          "name": "နို့ဆီချို",
+          "quantity": "20 ml"
+        },
+        {
+          "name": "ရေခဲ",
+          "quantity": "160 g"
+        }
+      ],
+      "visual": "Black coffee and strong black tea mixed with condensed milk BEFORE pouring over ice. Uniform caramel-brown milk tea-coffee, no separate layers or cream.",
+      "prompt": "Use case: product-mockup. Create ONE new photorealistic square cafe menu photograph of Kopi Cham. Warm off-white seamless studio background, soft natural side lighting, fully visible centered vessel with 8% breathing room. The attached image is a LOGO reference only: reproduce its dark-green 9 FLOOR COFFEE logo accurately on a centered white label on clear cups or printed on ceramic. Recipe ingredients with exact quantities: Black coffee 80 ml; လက်ဖက်ရည်ပြင်း 80 ml; နို့ဆီချို 20 ml; ရေခဲ 160 g. Exact final appearance and order: Black coffee and strong black tea mixed with condensed milk BEFORE pouring over ice. Uniform caramel-brown milk tea-coffee, no separate layers or cream. Unless a different vessel is specified, use clear 16oz takeaway cup. Hot drinks dry with NO ice or condensation. Cold drinks realistic ice and condensation as specified. Show only one finished drink; no people, hands, equipment, extra captions or surrounding props. No garnish, topping or ingredient not explicitly listed. No carbonation except recipes explicitly containing tonic, soda or ginger ale/beer. Match natural proportions, no artificial perfect color blocks. Each image must be a fresh individual photograph."
+    },
+    {
+      "id": "v8-26-01",
+      "name": "Iced Hojicha Latte",
+      "ingredients": [
+        {
+          "name": "Hojicha powder",
+          "quantity": "5 g"
+        },
+        {
+          "name": "ရေနွေး",
+          "quantity": "40 ml"
+        },
+        {
+          "name": "နို့အေး",
+          "quantity": "150 ml"
+        },
+        {
+          "name": "သကြားရည်",
+          "quantity": "10 ml"
+        },
+        {
+          "name": "ရေခဲ",
+          "quantity": "180 g"
+        }
+      ],
+      "visual": "Cold milk with syrup over ice, roasted hojicha tea concentrate poured LAST. White milk lower region, roasted TEA BROWN upper region diffusing. NOT green matcha, no cream or garnish.",
+      "prompt": "Use case: product-mockup. Create ONE new photorealistic square cafe menu photograph of Iced Hojicha Latte. Warm off-white seamless studio background, soft natural side lighting, fully visible centered vessel with 8% breathing room. The attached image is a LOGO reference only: reproduce its dark-green 9 FLOOR COFFEE logo accurately on a centered white label on clear cups or printed on ceramic. Recipe ingredients with exact quantities: Hojicha powder 5 g; ရေနွေး 40 ml; နို့အေး 150 ml; သကြားရည် 10 ml; ရေခဲ 180 g. Exact final appearance and order: Cold milk with syrup over ice, roasted hojicha tea concentrate poured LAST. White milk lower region, roasted TEA BROWN upper region diffusing. NOT green matcha, no cream or garnish. Unless a different vessel is specified, use clear 16oz takeaway cup. Hot drinks dry with NO ice or condensation. Cold drinks realistic ice and condensation as specified. Show only one finished drink; no people, hands, equipment, extra captions or surrounding props. No garnish, topping or ingredient not explicitly listed. No carbonation except recipes explicitly containing tonic, soda or ginger ale/beer. Match natural proportions, no artificial perfect color blocks. Each image must be a fresh individual photograph."
+    },
+    {
+      "id": "v8-26-02",
+      "name": "Hot Hojicha Latte",
+      "ingredients": [
+        {
+          "name": "Hojicha powder",
+          "quantity": "5 g"
+        },
+        {
+          "name": "ရေနွေး",
+          "quantity": "40 ml"
+        },
+        {
+          "name": "နို့အပူ",
+          "quantity": "180 ml"
+        },
+        {
+          "name": "သကြားရည်",
+          "quantity": "10 ml"
+        }
+      ],
+      "visual": "Hot hojicha whisked with water and hot milk, uniform roasted-tea beige-brown in white ceramic mug with fine thin milk foam. NOT green, no ice, dusting or latte art.",
+      "prompt": "Use case: product-mockup. Create ONE new photorealistic square cafe menu photograph of Hot Hojicha Latte. Warm off-white seamless studio background, soft natural side lighting, fully visible centered vessel with 8% breathing room. The attached image is a LOGO reference only: reproduce its dark-green 9 FLOOR COFFEE logo accurately on a centered white label on clear cups or printed on ceramic. Recipe ingredients with exact quantities: Hojicha powder 5 g; ရေနွေး 40 ml; နို့အပူ 180 ml; သကြားရည် 10 ml. Exact final appearance and order: Hot hojicha whisked with water and hot milk, uniform roasted-tea beige-brown in white ceramic mug with fine thin milk foam. NOT green, no ice, dusting or latte art. Unless a different vessel is specified, use clear 16oz takeaway cup. Hot drinks dry with NO ice or condensation. Cold drinks realistic ice and condensation as specified. Show only one finished drink; no people, hands, equipment, extra captions or surrounding props. No garnish, topping or ingredient not explicitly listed. No carbonation except recipes explicitly containing tonic, soda or ginger ale/beer. Match natural proportions, no artificial perfect color blocks. Each image must be a fresh individual photograph."
+    },
+    {
+      "id": "v8-26-03",
+      "name": "Iced Genmaicha Latte",
+      "ingredients": [
+        {
+          "name": "Genmaicha tea",
+          "quantity": "6 g"
+        },
+        {
+          "name": "ရေနွေး",
+          "quantity": "80 ml"
+        },
+        {
+          "name": "နို့အေး",
+          "quantity": "130 ml"
+        },
+        {
+          "name": "သကြားရည်",
+          "quantity": "10 ml"
+        },
+        {
+          "name": "ရေခဲ",
+          "quantity": "180 g"
+        }
+      ],
+      "visual": "Genmaicha steeped and STRAINED then mixed with milk and syrup over ice, uniform pale warm beige with very subtle olive tint. NOT bright green, no rice, leaves or foam.",
+      "prompt": "Use case: product-mockup. Create ONE new photorealistic square cafe menu photograph of Iced Genmaicha Latte. Warm off-white seamless studio background, soft natural side lighting, fully visible centered vessel with 8% breathing room. The attached image is a LOGO reference only: reproduce its dark-green 9 FLOOR COFFEE logo accurately on a centered white label on clear cups or printed on ceramic. Recipe ingredients with exact quantities: Genmaicha tea 6 g; ရေနွေး 80 ml; နို့အေး 130 ml; သကြားရည် 10 ml; ရေခဲ 180 g. Exact final appearance and order: Genmaicha steeped and STRAINED then mixed with milk and syrup over ice, uniform pale warm beige with very subtle olive tint. NOT bright green, no rice, leaves or foam. Unless a different vessel is specified, use clear 16oz takeaway cup. Hot drinks dry with NO ice or condensation. Cold drinks realistic ice and condensation as specified. Show only one finished drink; no people, hands, equipment, extra captions or surrounding props. No garnish, topping or ingredient not explicitly listed. No carbonation except recipes explicitly containing tonic, soda or ginger ale/beer. Match natural proportions, no artificial perfect color blocks. Each image must be a fresh individual photograph."
+    },
+    {
+      "id": "v8-26-04",
+      "name": "Iced Earl Grey Milk Tea",
+      "ingredients": [
+        {
+          "name": "Earl Grey tea",
+          "quantity": "5 g"
+        },
+        {
+          "name": "ရေနွေး",
+          "quantity": "100 ml"
+        },
+        {
+          "name": "နို့အေး",
+          "quantity": "110 ml"
+        },
+        {
+          "name": "သကြားရည်",
+          "quantity": "15 ml"
+        },
+        {
+          "name": "ရေခဲ",
+          "quantity": "180 g"
+        }
+      ],
+      "visual": "Earl Grey steeped and STRAINED then mixed with milk and syrup over ice. Uniform pale tea-beige, no leaves, bergamot fruit, foam or coffee layer.",
+      "prompt": "Use case: product-mockup. Create ONE new photorealistic square cafe menu photograph of Iced Earl Grey Milk Tea. Warm off-white seamless studio background, soft natural side lighting, fully visible centered vessel with 8% breathing room. The attached image is a LOGO reference only: reproduce its dark-green 9 FLOOR COFFEE logo accurately on a centered white label on clear cups or printed on ceramic. Recipe ingredients with exact quantities: Earl Grey tea 5 g; ရေနွေး 100 ml; နို့အေး 110 ml; သကြားရည် 15 ml; ရေခဲ 180 g. Exact final appearance and order: Earl Grey steeped and STRAINED then mixed with milk and syrup over ice. Uniform pale tea-beige, no leaves, bergamot fruit, foam or coffee layer. Unless a different vessel is specified, use clear 16oz takeaway cup. Hot drinks dry with NO ice or condensation. Cold drinks realistic ice and condensation as specified. Show only one finished drink; no people, hands, equipment, extra captions or surrounding props. No garnish, topping or ingredient not explicitly listed. No carbonation except recipes explicitly containing tonic, soda or ginger ale/beer. Match natural proportions, no artificial perfect color blocks. Each image must be a fresh individual photograph."
+    },
+    {
+      "id": "v8-26-05",
+      "name": "London Fog Latte",
+      "ingredients": [
+        {
+          "name": "Earl Grey tea",
+          "quantity": "5 g"
+        },
+        {
+          "name": "ရေနွေး",
+          "quantity": "100 ml"
+        },
+        {
+          "name": "နို့အပူ",
+          "quantity": "150 ml"
+        },
+        {
+          "name": "Vanilla syrup",
+          "quantity": "10 ml"
+        }
+      ],
+      "visual": "Hot Earl Grey tea with vanilla syrup and lightly foamed hot milk, white ceramic handled mug, pale beige tea latte and thin milk foam. No coffee, ice, vanilla pod or lavender.",
+      "prompt": "Use case: product-mockup. Create ONE new photorealistic square cafe menu photograph of London Fog Latte. Warm off-white seamless studio background, soft natural side lighting, fully visible centered vessel with 8% breathing room. The attached image is a LOGO reference only: reproduce its dark-green 9 FLOOR COFFEE logo accurately on a centered white label on clear cups or printed on ceramic. Recipe ingredients with exact quantities: Earl Grey tea 5 g; ရေနွေး 100 ml; နို့အပူ 150 ml; Vanilla syrup 10 ml. Exact final appearance and order: Hot Earl Grey tea with vanilla syrup and lightly foamed hot milk, white ceramic handled mug, pale beige tea latte and thin milk foam. No coffee, ice, vanilla pod or lavender. Unless a different vessel is specified, use clear 16oz takeaway cup. Hot drinks dry with NO ice or condensation. Cold drinks realistic ice and condensation as specified. Show only one finished drink; no people, hands, equipment, extra captions or surrounding props. No garnish, topping or ingredient not explicitly listed. No carbonation except recipes explicitly containing tonic, soda or ginger ale/beer. Match natural proportions, no artificial perfect color blocks. Each image must be a fresh individual photograph."
+    },
+    {
+      "id": "v8-26-06",
+      "name": "Iced London Fog",
+      "ingredients": [
+        {
+          "name": "Earl Grey tea",
+          "quantity": "5 g"
+        },
+        {
+          "name": "ရေနွေး",
+          "quantity": "90 ml"
+        },
+        {
+          "name": "နို့အေး",
+          "quantity": "120 ml"
+        },
+        {
+          "name": "Vanilla syrup",
+          "quantity": "15 ml"
+        },
+        {
+          "name": "ရေခဲ",
+          "quantity": "180 g"
+        }
+      ],
+      "visual": "Cold Earl Grey tea mixed with milk and vanilla syrup over ice, uniform pale tea-beige. No coffee, cream, vanilla pods or tea leaves.",
+      "prompt": "Use case: product-mockup. Create ONE new photorealistic square cafe menu photograph of Iced London Fog. Warm off-white seamless studio background, soft natural side lighting, fully visible centered vessel with 8% breathing room. The attached image is a LOGO reference only: reproduce its dark-green 9 FLOOR COFFEE logo accurately on a centered white label on clear cups or printed on ceramic. Recipe ingredients with exact quantities: Earl Grey tea 5 g; ရေနွေး 90 ml; နို့အေး 120 ml; Vanilla syrup 15 ml; ရေခဲ 180 g. Exact final appearance and order: Cold Earl Grey tea mixed with milk and vanilla syrup over ice, uniform pale tea-beige. No coffee, cream, vanilla pods or tea leaves. Unless a different vessel is specified, use clear 16oz takeaway cup. Hot drinks dry with NO ice or condensation. Cold drinks realistic ice and condensation as specified. Show only one finished drink; no people, hands, equipment, extra captions or surrounding props. No garnish, topping or ingredient not explicitly listed. No carbonation except recipes explicitly containing tonic, soda or ginger ale/beer. Match natural proportions, no artificial perfect color blocks. Each image must be a fresh individual photograph."
+    },
+    {
+      "id": "v8-26-07",
+      "name": "Black Sesame Latte",
+      "ingredients": [
+        {
+          "name": "Black sesame paste",
+          "quantity": "20 g"
+        },
+        {
+          "name": "နို့အပူ",
+          "quantity": "180 ml"
+        },
+        {
+          "name": "ပျားရည်",
+          "quantity": "10 ml"
+        }
+      ],
+      "visual": "Black sesame paste and honey thoroughly mixed with hot milk. White ceramic mug, smooth warm gray sesame milk with tiny natural dark sesame speckles. No seed garnish, coffee layer, ice or cream.",
+      "prompt": "Use case: product-mockup. Create ONE new photorealistic square cafe menu photograph of Black Sesame Latte. Warm off-white seamless studio background, soft natural side lighting, fully visible centered vessel with 8% breathing room. The attached image is a LOGO reference only: reproduce its dark-green 9 FLOOR COFFEE logo accurately on a centered white label on clear cups or printed on ceramic. Recipe ingredients with exact quantities: Black sesame paste 20 g; နို့အပူ 180 ml; ပျားရည် 10 ml. Exact final appearance and order: Black sesame paste and honey thoroughly mixed with hot milk. White ceramic mug, smooth warm gray sesame milk with tiny natural dark sesame speckles. No seed garnish, coffee layer, ice or cream. Unless a different vessel is specified, use clear 16oz takeaway cup. Hot drinks dry with NO ice or condensation. Cold drinks realistic ice and condensation as specified. Show only one finished drink; no people, hands, equipment, extra captions or surrounding props. No garnish, topping or ingredient not explicitly listed. No carbonation except recipes explicitly containing tonic, soda or ginger ale/beer. Match natural proportions, no artificial perfect color blocks. Each image must be a fresh individual photograph."
+    },
+    {
+      "id": "v8-26-08",
+      "name": "Iced Black Sesame Latte",
+      "ingredients": [
+        {
+          "name": "Black sesame paste",
+          "quantity": "20 g"
+        },
+        {
+          "name": "နို့အေး",
+          "quantity": "160 ml"
+        },
+        {
+          "name": "သကြားရည်",
+          "quantity": "10 ml"
+        },
+        {
+          "name": "ရေခဲ",
+          "quantity": "180 g"
+        }
+      ],
+      "visual": "Black sesame paste thoroughly mixed with cold milk and syrup over ice, uniform pale gray with tiny sesame speckles. No coffee, black syrup layer or cream.",
+      "prompt": "Use case: product-mockup. Create ONE new photorealistic square cafe menu photograph of Iced Black Sesame Latte. Warm off-white seamless studio background, soft natural side lighting, fully visible centered vessel with 8% breathing room. The attached image is a LOGO reference only: reproduce its dark-green 9 FLOOR COFFEE logo accurately on a centered white label on clear cups or printed on ceramic. Recipe ingredients with exact quantities: Black sesame paste 20 g; နို့အေး 160 ml; သကြားရည် 10 ml; ရေခဲ 180 g. Exact final appearance and order: Black sesame paste thoroughly mixed with cold milk and syrup over ice, uniform pale gray with tiny sesame speckles. No coffee, black syrup layer or cream. Unless a different vessel is specified, use clear 16oz takeaway cup. Hot drinks dry with NO ice or condensation. Cold drinks realistic ice and condensation as specified. Show only one finished drink; no people, hands, equipment, extra captions or surrounding props. No garnish, topping or ingredient not explicitly listed. No carbonation except recipes explicitly containing tonic, soda or ginger ale/beer. Match natural proportions, no artificial perfect color blocks. Each image must be a fresh individual photograph."
+    },
+    {
+      "id": "v8-27-01",
+      "name": "Cascara Iced Tea",
+      "ingredients": [
+        {
+          "name": "Food-grade cascara",
+          "quantity": "12 g"
+        },
+        {
+          "name": "ရေနွေး",
+          "quantity": "220 ml"
+        },
+        {
+          "name": "လီမွန်ရည်",
+          "quantity": "10 ml"
+        },
+        {
+          "name": "သကြားရည်",
+          "quantity": "10 ml"
+        },
+        {
+          "name": "ရေခဲ",
+          "quantity": "180 g"
+        }
+      ],
+      "visual": "Cascara steeped, STRAINED and cooled, mixed with lemon juice and syrup over ice. Uniform translucent reddish amber tea, no husks, citrus slices, milk or bubbles.",
+      "prompt": "Use case: product-mockup. Create ONE new photorealistic square cafe menu photograph of Cascara Iced Tea. Warm off-white seamless studio background, soft natural side lighting, fully visible centered vessel with 8% breathing room. The attached image is a LOGO reference only: reproduce its dark-green 9 FLOOR COFFEE logo accurately on a centered white label on clear cups or printed on ceramic. Recipe ingredients with exact quantities: Food-grade cascara 12 g; ရေနွေး 220 ml; လီမွန်ရည် 10 ml; သကြားရည် 10 ml; ရေခဲ 180 g. Exact final appearance and order: Cascara steeped, STRAINED and cooled, mixed with lemon juice and syrup over ice. Uniform translucent reddish amber tea, no husks, citrus slices, milk or bubbles. Unless a different vessel is specified, use clear 16oz takeaway cup. Hot drinks dry with NO ice or condensation. Cold drinks realistic ice and condensation as specified. Show only one finished drink; no people, hands, equipment, extra captions or surrounding props. No garnish, topping or ingredient not explicitly listed. No carbonation except recipes explicitly containing tonic, soda or ginger ale/beer. Match natural proportions, no artificial perfect color blocks. Each image must be a fresh individual photograph."
+    },
+    {
+      "id": "v8-27-02",
+      "name": "Cascara Sparkling Cooler",
+      "ingredients": [
+        {
+          "name": "Cascara tea အေး",
+          "quantity": "100 ml"
+        },
+        {
+          "name": "Soda water",
+          "quantity": "100 ml"
+        },
+        {
+          "name": "လီမွန်ရည်",
+          "quantity": "10 ml"
+        },
+        {
+          "name": "ရေခဲ",
+          "quantity": "180 g"
+        }
+      ],
+      "visual": "Cooled cascara tea with lemon juice and soda over ice, translucent copper-red amber with fine carbonation. No husks, citrus slices or milk.",
+      "prompt": "Use case: product-mockup. Create ONE new photorealistic square cafe menu photograph of Cascara Sparkling Cooler. Warm off-white seamless studio background, soft natural side lighting, fully visible centered vessel with 8% breathing room. The attached image is a LOGO reference only: reproduce its dark-green 9 FLOOR COFFEE logo accurately on a centered white label on clear cups or printed on ceramic. Recipe ingredients with exact quantities: Cascara tea အေး 100 ml; Soda water 100 ml; လီမွန်ရည် 10 ml; ရေခဲ 180 g. Exact final appearance and order: Cooled cascara tea with lemon juice and soda over ice, translucent copper-red amber with fine carbonation. No husks, citrus slices or milk. Unless a different vessel is specified, use clear 16oz takeaway cup. Hot drinks dry with NO ice or condensation. Cold drinks realistic ice and condensation as specified. Show only one finished drink; no people, hands, equipment, extra captions or surrounding props. No garnish, topping or ingredient not explicitly listed. No carbonation except recipes explicitly containing tonic, soda or ginger ale/beer. Match natural proportions, no artificial perfect color blocks. Each image must be a fresh individual photograph."
+    },
+    {
+      "id": "v8-27-03",
+      "name": "Espresso Ginger Beer",
+      "ingredients": [
+        {
+          "name": "Espresso",
+          "quantity": "32 g"
+        },
+        {
+          "name": "Alcohol-free ginger beer",
+          "quantity": "160 ml"
+        },
+        {
+          "name": "ရေခဲ",
+          "quantity": "180 g"
+        },
+        {
+          "name": "လီမွန်ရည်",
+          "quantity": "10 ml"
+        }
+      ],
+      "visual": "Lemon juice, ice, alcohol-free ginger beer, then espresso poured LAST. Pale ginger-gold slightly cloudy carbonated base under dark coffee, fine bubbles. No ginger pieces or citrus slices.",
+      "prompt": "Use case: product-mockup. Create ONE new photorealistic square cafe menu photograph of Espresso Ginger Beer. Warm off-white seamless studio background, soft natural side lighting, fully visible centered vessel with 8% breathing room. The attached image is a LOGO reference only: reproduce its dark-green 9 FLOOR COFFEE logo accurately on a centered white label on clear cups or printed on ceramic. Recipe ingredients with exact quantities: Espresso 32 g; Alcohol-free ginger beer 160 ml; ရေခဲ 180 g; လီမွန်ရည် 10 ml. Exact final appearance and order: Lemon juice, ice, alcohol-free ginger beer, then espresso poured LAST. Pale ginger-gold slightly cloudy carbonated base under dark coffee, fine bubbles. No ginger pieces or citrus slices. Unless a different vessel is specified, use clear 16oz takeaway cup. Hot drinks dry with NO ice or condensation. Cold drinks realistic ice and condensation as specified. Show only one finished drink; no people, hands, equipment, extra captions or surrounding props. No garnish, topping or ingredient not explicitly listed. No carbonation except recipes explicitly containing tonic, soda or ginger ale/beer. Match natural proportions, no artificial perfect color blocks. Each image must be a fresh individual photograph."
+    },
+    {
+      "id": "v8-27-04",
+      "name": "Tamarind Espresso Soda",
+      "ingredients": [
+        {
+          "name": "Espresso",
+          "quantity": "32 g"
+        },
+        {
+          "name": "မန်ကျည်းအနှစ်ရည်",
+          "quantity": "30 ml"
+        },
+        {
+          "name": "သကြားရည်",
+          "quantity": "15 ml"
+        },
+        {
+          "name": "Soda water",
+          "quantity": "130 ml"
+        },
+        {
+          "name": "ရေခဲ",
+          "quantity": "180 g"
+        }
+      ],
+      "visual": "Tamarind preparation with syrup, ice and soda, espresso poured LAST. Amber-brown tamarind base below darker coffee, fine bubbles. No tamarind pods or milk.",
+      "prompt": "Use case: product-mockup. Create ONE new photorealistic square cafe menu photograph of Tamarind Espresso Soda. Warm off-white seamless studio background, soft natural side lighting, fully visible centered vessel with 8% breathing room. The attached image is a LOGO reference only: reproduce its dark-green 9 FLOOR COFFEE logo accurately on a centered white label on clear cups or printed on ceramic. Recipe ingredients with exact quantities: Espresso 32 g; မန်ကျည်းအနှစ်ရည် 30 ml; သကြားရည် 15 ml; Soda water 130 ml; ရေခဲ 180 g. Exact final appearance and order: Tamarind preparation with syrup, ice and soda, espresso poured LAST. Amber-brown tamarind base below darker coffee, fine bubbles. No tamarind pods or milk. Unless a different vessel is specified, use clear 16oz takeaway cup. Hot drinks dry with NO ice or condensation. Cold drinks realistic ice and condensation as specified. Show only one finished drink; no people, hands, equipment, extra captions or surrounding props. No garnish, topping or ingredient not explicitly listed. No carbonation except recipes explicitly containing tonic, soda or ginger ale/beer. Match natural proportions, no artificial perfect color blocks. Each image must be a fresh individual photograph."
+    },
+    {
+      "id": "v8-27-05",
+      "name": "Honey Pomelo Refresher",
+      "ingredients": [
+        {
+          "name": "ကျွဲကောရည်",
+          "quantity": "110 ml"
+        },
+        {
+          "name": "ပျားရည်",
+          "quantity": "15 ml"
+        },
+        {
+          "name": "ရေအေး",
+          "quantity": "70 ml"
+        },
+        {
+          "name": "ရေခဲ",
+          "quantity": "180 g"
+        }
+      ],
+      "visual": "Strained pomelo juice with honey and cold STILL water over ice, pale cloudy yellow-gold fruit drink. No coffee, milk, bubbles, fruit slices or pulp chunks.",
+      "prompt": "Use case: product-mockup. Create ONE new photorealistic square cafe menu photograph of Honey Pomelo Refresher. Warm off-white seamless studio background, soft natural side lighting, fully visible centered vessel with 8% breathing room. The attached image is a LOGO reference only: reproduce its dark-green 9 FLOOR COFFEE logo accurately on a centered white label on clear cups or printed on ceramic. Recipe ingredients with exact quantities: ကျွဲကောရည် 110 ml; ပျားရည် 15 ml; ရေအေး 70 ml; ရေခဲ 180 g. Exact final appearance and order: Strained pomelo juice with honey and cold STILL water over ice, pale cloudy yellow-gold fruit drink. No coffee, milk, bubbles, fruit slices or pulp chunks. Unless a different vessel is specified, use clear 16oz takeaway cup. Hot drinks dry with NO ice or condensation. Cold drinks realistic ice and condensation as specified. Show only one finished drink; no people, hands, equipment, extra captions or surrounding props. No garnish, topping or ingredient not explicitly listed. No carbonation except recipes explicitly containing tonic, soda or ginger ale/beer. Match natural proportions, no artificial perfect color blocks. Each image must be a fresh individual photograph."
+    },
+    {
+      "id": "v8-27-06",
+      "name": "Iced Hibiscus Tea",
+      "ingredients": [
+        {
+          "name": "Hibiscus အခြောက်",
+          "quantity": "5 g"
+        },
+        {
+          "name": "ရေနွေး",
+          "quantity": "180 ml"
+        },
+        {
+          "name": "သကြားရည်",
+          "quantity": "15 ml"
+        },
+        {
+          "name": "ရေခဲ",
+          "quantity": "180 g"
+        }
+      ],
+      "visual": "Hibiscus steeped, STRAINED, cooled and sweetened over ice. Clear ruby-red crimson tea. No flowers, fruit, coffee, milk or bubbles.",
+      "prompt": "Use case: product-mockup. Create ONE new photorealistic square cafe menu photograph of Iced Hibiscus Tea. Warm off-white seamless studio background, soft natural side lighting, fully visible centered vessel with 8% breathing room. The attached image is a LOGO reference only: reproduce its dark-green 9 FLOOR COFFEE logo accurately on a centered white label on clear cups or printed on ceramic. Recipe ingredients with exact quantities: Hibiscus အခြောက် 5 g; ရေနွေး 180 ml; သကြားရည် 15 ml; ရေခဲ 180 g. Exact final appearance and order: Hibiscus steeped, STRAINED, cooled and sweetened over ice. Clear ruby-red crimson tea. No flowers, fruit, coffee, milk or bubbles. Unless a different vessel is specified, use clear 16oz takeaway cup. Hot drinks dry with NO ice or condensation. Cold drinks realistic ice and condensation as specified. Show only one finished drink; no people, hands, equipment, extra captions or surrounding props. No garnish, topping or ingredient not explicitly listed. No carbonation except recipes explicitly containing tonic, soda or ginger ale/beer. Match natural proportions, no artificial perfect color blocks. Each image must be a fresh individual photograph."
+    },
+    {
+      "id": "v8-27-07",
+      "name": "Iced Chamomile Honey",
+      "ingredients": [
+        {
+          "name": "Chamomile tea",
+          "quantity": "4 g"
+        },
+        {
+          "name": "ရေနွေး",
+          "quantity": "180 ml"
+        },
+        {
+          "name": "ပျားရည်",
+          "quantity": "15 ml"
+        },
+        {
+          "name": "ရေခဲ",
+          "quantity": "180 g"
+        }
+      ],
+      "visual": "Chamomile steeped and STRAINED, honey dissolved then cooled over ice. Clear pale honey-gold tea, no flowers, leaves, coffee, milk or bubbles.",
+      "prompt": "Use case: product-mockup. Create ONE new photorealistic square cafe menu photograph of Iced Chamomile Honey. Warm off-white seamless studio background, soft natural side lighting, fully visible centered vessel with 8% breathing room. The attached image is a LOGO reference only: reproduce its dark-green 9 FLOOR COFFEE logo accurately on a centered white label on clear cups or printed on ceramic. Recipe ingredients with exact quantities: Chamomile tea 4 g; ရေနွေး 180 ml; ပျားရည် 15 ml; ရေခဲ 180 g. Exact final appearance and order: Chamomile steeped and STRAINED, honey dissolved then cooled over ice. Clear pale honey-gold tea, no flowers, leaves, coffee, milk or bubbles. Unless a different vessel is specified, use clear 16oz takeaway cup. Hot drinks dry with NO ice or condensation. Cold drinks realistic ice and condensation as specified. Show only one finished drink; no people, hands, equipment, extra captions or surrounding props. No garnish, topping or ingredient not explicitly listed. No carbonation except recipes explicitly containing tonic, soda or ginger ale/beer. Match natural proportions, no artificial perfect color blocks. Each image must be a fresh individual photograph."
+    },
+    {
+      "id": "v8-27-08",
+      "name": "Yuzu Matcha Sparkler",
+      "ingredients": [
+        {
+          "name": "Matcha powder",
+          "quantity": "4 g"
+        },
+        {
+          "name": "ရေ",
+          "quantity": "35 ml"
+        },
+        {
+          "name": "Yuzu juice",
+          "quantity": "20 ml"
+        },
+        {
+          "name": "သကြားရည်",
+          "quantity": "15 ml"
+        },
+        {
+          "name": "Soda water",
+          "quantity": "120 ml"
+        },
+        {
+          "name": "ရေခဲ",
+          "quantity": "180 g"
+        }
+      ],
+      "visual": "Yuzu juice with syrup, ice and soda, matcha whisked with water poured LAST. Pale translucent yuzu-gold fizzy base under natural deep green matcha diffusion. Fine bubbles, no milk, foam or fruit slices.",
+      "prompt": "Use case: product-mockup. Create ONE new photorealistic square cafe menu photograph of Yuzu Matcha Sparkler. Warm off-white seamless studio background, soft natural side lighting, fully visible centered vessel with 8% breathing room. The attached image is a LOGO reference only: reproduce its dark-green 9 FLOOR COFFEE logo accurately on a centered white label on clear cups or printed on ceramic. Recipe ingredients with exact quantities: Matcha powder 4 g; ရေ 35 ml; Yuzu juice 20 ml; သကြားရည် 15 ml; Soda water 120 ml; ရေခဲ 180 g. Exact final appearance and order: Yuzu juice with syrup, ice and soda, matcha whisked with water poured LAST. Pale translucent yuzu-gold fizzy base under natural deep green matcha diffusion. Fine bubbles, no milk, foam or fruit slices. Unless a different vessel is specified, use clear 16oz takeaway cup. Hot drinks dry with NO ice or condensation. Cold drinks realistic ice and condensation as specified. Show only one finished drink; no people, hands, equipment, extra captions or surrounding props. No garnish, topping or ingredient not explicitly listed. No carbonation except recipes explicitly containing tonic, soda or ginger ale/beer. Match natural proportions, no artificial perfect color blocks. Each image must be a fresh individual photograph."
+    },
+    {
+      "id": "v8-28-01",
+      "name": "Iced Saffron Latte",
+      "ingredients": [
+        {
+          "name": "Espresso",
+          "quantity": "32 g"
+        },
+        {
+          "name": "နို့အေး",
+          "quantity": "150 ml"
+        },
+        {
+          "name": "Saffron အနည်းငယ်",
+          "quantity": "3–5 strands"
+        },
+        {
+          "name": "ရေနွေး",
+          "quantity": "20 ml"
+        },
+        {
+          "name": "ပျားရည်",
+          "quantity": "10 ml"
+        },
+        {
+          "name": "ရေခဲ",
+          "quantity": "180 g"
+        }
+      ],
+      "visual": "Saffron infusion mixed with cold milk and honey, ice, espresso poured LAST. Very pale golden-yellow milk below dark espresso diffusion. No saffron garnish or cream.",
+      "prompt": "Use case: product-mockup. Create ONE new photorealistic square cafe menu photograph of Iced Saffron Latte. Warm off-white seamless studio background, soft natural side lighting, fully visible centered vessel with 8% breathing room. The attached image is a LOGO reference only: reproduce its dark-green 9 FLOOR COFFEE logo accurately on a centered white label on clear cups or printed on ceramic. Recipe ingredients with exact quantities: Espresso 32 g; နို့အေး 150 ml; Saffron အနည်းငယ် 3–5 strands; ရေနွေး 20 ml; ပျားရည် 10 ml; ရေခဲ 180 g. Exact final appearance and order: Saffron infusion mixed with cold milk and honey, ice, espresso poured LAST. Very pale golden-yellow milk below dark espresso diffusion. No saffron garnish or cream. Unless a different vessel is specified, use clear 16oz takeaway cup. Hot drinks dry with NO ice or condensation. Cold drinks realistic ice and condensation as specified. Show only one finished drink; no people, hands, equipment, extra captions or surrounding props. No garnish, topping or ingredient not explicitly listed. No carbonation except recipes explicitly containing tonic, soda or ginger ale/beer. Match natural proportions, no artificial perfect color blocks. Each image must be a fresh individual photograph."
+    },
+    {
+      "id": "v8-28-02",
+      "name": "Honey Cardamom Iced Latte",
+      "ingredients": [
+        {
+          "name": "Espresso",
+          "quantity": "32 g"
+        },
+        {
+          "name": "နို့အေး",
+          "quantity": "150 ml"
+        },
+        {
+          "name": "ပျားရည်",
+          "quantity": "15 ml"
+        },
+        {
+          "name": "Cardamom powder",
+          "quantity": "0.2 g"
+        },
+        {
+          "name": "ရေခဲ",
+          "quantity": "180 g"
+        }
+      ],
+      "visual": "Honey and tiny cardamom powder mixed throughout cold milk, ice, espresso LAST. Ivory milk with barely visible spice flecks below dark espresso diffusion. No pods or cream.",
+      "prompt": "Use case: product-mockup. Create ONE new photorealistic square cafe menu photograph of Honey Cardamom Iced Latte. Warm off-white seamless studio background, soft natural side lighting, fully visible centered vessel with 8% breathing room. The attached image is a LOGO reference only: reproduce its dark-green 9 FLOOR COFFEE logo accurately on a centered white label on clear cups or printed on ceramic. Recipe ingredients with exact quantities: Espresso 32 g; နို့အေး 150 ml; ပျားရည် 15 ml; Cardamom powder 0.2 g; ရေခဲ 180 g. Exact final appearance and order: Honey and tiny cardamom powder mixed throughout cold milk, ice, espresso LAST. Ivory milk with barely visible spice flecks below dark espresso diffusion. No pods or cream. Unless a different vessel is specified, use clear 16oz takeaway cup. Hot drinks dry with NO ice or condensation. Cold drinks realistic ice and condensation as specified. Show only one finished drink; no people, hands, equipment, extra captions or surrounding props. No garnish, topping or ingredient not explicitly listed. No carbonation except recipes explicitly containing tonic, soda or ginger ale/beer. Match natural proportions, no artificial perfect color blocks. Each image must be a fresh individual photograph."
+    },
+    {
+      "id": "v8-28-03",
+      "name": "Iced Gingerbread Latte",
+      "ingredients": [
+        {
+          "name": "Espresso",
+          "quantity": "32 g"
+        },
+        {
+          "name": "နို့အေး",
+          "quantity": "150 ml"
+        },
+        {
+          "name": "Gingerbread syrup",
+          "quantity": "20 ml"
+        },
+        {
+          "name": "ရေခဲ",
+          "quantity": "180 g"
+        }
+      ],
+      "visual": "Gingerbread syrup mixed with cold milk, ice, espresso LAST. Pale warm tan milk below darker espresso diffusion. No biscuit, ginger pieces, dusting or cream.",
+      "prompt": "Use case: product-mockup. Create ONE new photorealistic square cafe menu photograph of Iced Gingerbread Latte. Warm off-white seamless studio background, soft natural side lighting, fully visible centered vessel with 8% breathing room. The attached image is a LOGO reference only: reproduce its dark-green 9 FLOOR COFFEE logo accurately on a centered white label on clear cups or printed on ceramic. Recipe ingredients with exact quantities: Espresso 32 g; နို့အေး 150 ml; Gingerbread syrup 20 ml; ရေခဲ 180 g. Exact final appearance and order: Gingerbread syrup mixed with cold milk, ice, espresso LAST. Pale warm tan milk below darker espresso diffusion. No biscuit, ginger pieces, dusting or cream. Unless a different vessel is specified, use clear 16oz takeaway cup. Hot drinks dry with NO ice or condensation. Cold drinks realistic ice and condensation as specified. Show only one finished drink; no people, hands, equipment, extra captions or surrounding props. No garnish, topping or ingredient not explicitly listed. No carbonation except recipes explicitly containing tonic, soda or ginger ale/beer. Match natural proportions, no artificial perfect color blocks. Each image must be a fresh individual photograph."
+    },
+    {
+      "id": "v8-28-04",
+      "name": "Pumpkin Spice Latte",
+      "ingredients": [
+        {
+          "name": "Espresso",
+          "quantity": "32 g"
+        },
+        {
+          "name": "နို့အပူ",
+          "quantity": "180 ml"
+        },
+        {
+          "name": "Pumpkin purée",
+          "quantity": "20 g"
+        },
+        {
+          "name": "Pumpkin spice",
+          "quantity": "0.5 g"
+        },
+        {
+          "name": "သကြားရည်",
+          "quantity": "10 ml"
+        }
+      ],
+      "visual": "Pumpkin puree, spice and syrup combined with espresso and hot milk, white ceramic handled mug. Uniform soft pumpkin-tan with restrained fine foam. No pumpkin pieces, cream or spice dusting.",
+      "prompt": "Use case: product-mockup. Create ONE new photorealistic square cafe menu photograph of Pumpkin Spice Latte. Warm off-white seamless studio background, soft natural side lighting, fully visible centered vessel with 8% breathing room. The attached image is a LOGO reference only: reproduce its dark-green 9 FLOOR COFFEE logo accurately on a centered white label on clear cups or printed on ceramic. Recipe ingredients with exact quantities: Espresso 32 g; နို့အပူ 180 ml; Pumpkin purée 20 g; Pumpkin spice 0.5 g; သကြားရည် 10 ml. Exact final appearance and order: Pumpkin puree, spice and syrup combined with espresso and hot milk, white ceramic handled mug. Uniform soft pumpkin-tan with restrained fine foam. No pumpkin pieces, cream or spice dusting. Unless a different vessel is specified, use clear 16oz takeaway cup. Hot drinks dry with NO ice or condensation. Cold drinks realistic ice and condensation as specified. Show only one finished drink; no people, hands, equipment, extra captions or surrounding props. No garnish, topping or ingredient not explicitly listed. No carbonation except recipes explicitly containing tonic, soda or ginger ale/beer. Match natural proportions, no artificial perfect color blocks. Each image must be a fresh individual photograph."
+    },
+    {
+      "id": "v8-28-05",
+      "name": "Iced Pumpkin Spice Latte",
+      "ingredients": [
+        {
+          "name": "Espresso",
+          "quantity": "32 g"
+        },
+        {
+          "name": "နို့အေး",
+          "quantity": "150 ml"
+        },
+        {
+          "name": "Pumpkin purée",
+          "quantity": "20 g"
+        },
+        {
+          "name": "Pumpkin spice",
+          "quantity": "0.5 g"
+        },
+        {
+          "name": "သကြားရည်",
+          "quantity": "15 ml"
+        },
+        {
+          "name": "ရေခဲ",
+          "quantity": "180 g"
+        }
+      ],
+      "visual": "Pumpkin puree, spice and syrup mixed throughout cold milk, ice, espresso LAST. Smooth pale pumpkin-orange tan below dark espresso diffusion. No pumpkin pieces, cream or spice dusting.",
+      "prompt": "Use case: product-mockup. Create ONE new photorealistic square cafe menu photograph of Iced Pumpkin Spice Latte. Warm off-white seamless studio background, soft natural side lighting, fully visible centered vessel with 8% breathing room. The attached image is a LOGO reference only: reproduce its dark-green 9 FLOOR COFFEE logo accurately on a centered white label on clear cups or printed on ceramic. Recipe ingredients with exact quantities: Espresso 32 g; နို့အေး 150 ml; Pumpkin purée 20 g; Pumpkin spice 0.5 g; သကြားရည် 15 ml; ရေခဲ 180 g. Exact final appearance and order: Pumpkin puree, spice and syrup mixed throughout cold milk, ice, espresso LAST. Smooth pale pumpkin-orange tan below dark espresso diffusion. No pumpkin pieces, cream or spice dusting. Unless a different vessel is specified, use clear 16oz takeaway cup. Hot drinks dry with NO ice or condensation. Cold drinks realistic ice and condensation as specified. Show only one finished drink; no people, hands, equipment, extra captions or surrounding props. No garnish, topping or ingredient not explicitly listed. No carbonation except recipes explicitly containing tonic, soda or ginger ale/beer. Match natural proportions, no artificial perfect color blocks. Each image must be a fresh individual photograph."
+    },
+    {
+      "id": "v8-28-06",
+      "name": "Iced Ube Latte",
+      "ingredients": [
+        {
+          "name": "Ube paste",
+          "quantity": "25 g"
+        },
+        {
+          "name": "နို့အေး",
+          "quantity": "170 ml"
+        },
+        {
+          "name": "သကြားရည်",
+          "quantity": "10 ml"
+        },
+        {
+          "name": "ရေခဲ",
+          "quantity": "180 g"
+        }
+      ],
+      "visual": "Ube paste fully mixed throughout cold milk and syrup over ice, UNIFORM natural lavender-purple. No coffee, separate purple syrup bottom, cream, ube chunks or garnish.",
+      "prompt": "Use case: product-mockup. Create ONE new photorealistic square cafe menu photograph of Iced Ube Latte. Warm off-white seamless studio background, soft natural side lighting, fully visible centered vessel with 8% breathing room. The attached image is a LOGO reference only: reproduce its dark-green 9 FLOOR COFFEE logo accurately on a centered white label on clear cups or printed on ceramic. Recipe ingredients with exact quantities: Ube paste 25 g; နို့အေး 170 ml; သကြားရည် 10 ml; ရေခဲ 180 g. Exact final appearance and order: Ube paste fully mixed throughout cold milk and syrup over ice, UNIFORM natural lavender-purple. No coffee, separate purple syrup bottom, cream, ube chunks or garnish. Unless a different vessel is specified, use clear 16oz takeaway cup. Hot drinks dry with NO ice or condensation. Cold drinks realistic ice and condensation as specified. Show only one finished drink; no people, hands, equipment, extra captions or surrounding props. No garnish, topping or ingredient not explicitly listed. No carbonation except recipes explicitly containing tonic, soda or ginger ale/beer. Match natural proportions, no artificial perfect color blocks. Each image must be a fresh individual photograph."
+    },
+    {
+      "id": "v8-28-07",
+      "name": "Iced Ube Espresso Latte",
+      "ingredients": [
+        {
+          "name": "Ube paste",
+          "quantity": "25 g"
+        },
+        {
+          "name": "နို့အေး",
+          "quantity": "150 ml"
+        },
+        {
+          "name": "Espresso",
+          "quantity": "32 g"
+        },
+        {
+          "name": "သကြားရည်",
+          "quantity": "10 ml"
+        },
+        {
+          "name": "ရေခဲ",
+          "quantity": "180 g"
+        }
+      ],
+      "visual": "Ube paste fully mixed with cold milk and syrup, ice, espresso LAST. Natural lavender milk below dark espresso diffusion. No white milk middle layer or cream.",
+      "prompt": "Use case: product-mockup. Create ONE new photorealistic square cafe menu photograph of Iced Ube Espresso Latte. Warm off-white seamless studio background, soft natural side lighting, fully visible centered vessel with 8% breathing room. The attached image is a LOGO reference only: reproduce its dark-green 9 FLOOR COFFEE logo accurately on a centered white label on clear cups or printed on ceramic. Recipe ingredients with exact quantities: Ube paste 25 g; နို့အေး 150 ml; Espresso 32 g; သကြားရည် 10 ml; ရေခဲ 180 g. Exact final appearance and order: Ube paste fully mixed with cold milk and syrup, ice, espresso LAST. Natural lavender milk below dark espresso diffusion. No white milk middle layer or cream. Unless a different vessel is specified, use clear 16oz takeaway cup. Hot drinks dry with NO ice or condensation. Cold drinks realistic ice and condensation as specified. Show only one finished drink; no people, hands, equipment, extra captions or surrounding props. No garnish, topping or ingredient not explicitly listed. No carbonation except recipes explicitly containing tonic, soda or ginger ale/beer. Match natural proportions, no artificial perfect color blocks. Each image must be a fresh individual photograph."
+    },
+    {
+      "id": "v8-28-08",
+      "name": "Iced Dalgona Matcha",
+      "ingredients": [
+        {
+          "name": "Instant coffee",
+          "quantity": "4 g"
+        },
+        {
+          "name": "သကြား",
+          "quantity": "12 g"
+        },
+        {
+          "name": "ရေနွေး",
+          "quantity": "12 ml"
+        },
+        {
+          "name": "နို့အေး",
+          "quantity": "150 ml"
+        },
+        {
+          "name": "Matcha powder",
+          "quantity": "3 g"
+        },
+        {
+          "name": "ရေ",
+          "quantity": "30 ml"
+        },
+        {
+          "name": "ရေခဲ",
+          "quantity": "170 g"
+        }
+      ],
+      "visual": "Matcha fully mixed into cold milk over ice, topped with thick fluffy caramel-brown Dalgona coffee foam. UNIFORM pastel matcha-green milk BELOW distinct brown foam, no white milk layer or dusting.",
+      "prompt": "Use case: product-mockup. Create ONE new photorealistic square cafe menu photograph of Iced Dalgona Matcha. Warm off-white seamless studio background, soft natural side lighting, fully visible centered vessel with 8% breathing room. The attached image is a LOGO reference only: reproduce its dark-green 9 FLOOR COFFEE logo accurately on a centered white label on clear cups or printed on ceramic. Recipe ingredients with exact quantities: Instant coffee 4 g; သကြား 12 g; ရေနွေး 12 ml; နို့အေး 150 ml; Matcha powder 3 g; ရေ 30 ml; ရေခဲ 170 g. Exact final appearance and order: Matcha fully mixed into cold milk over ice, topped with thick fluffy caramel-brown Dalgona coffee foam. UNIFORM pastel matcha-green milk BELOW distinct brown foam, no white milk layer or dusting. Unless a different vessel is specified, use clear 16oz takeaway cup. Hot drinks dry with NO ice or condensation. Cold drinks realistic ice and condensation as specified. Show only one finished drink; no people, hands, equipment, extra captions or surrounding props. No garnish, topping or ingredient not explicitly listed. No carbonation except recipes explicitly containing tonic, soda or ginger ale/beer. Match natural proportions, no artificial perfect color blocks. Each image must be a fresh individual photograph."
+    }
+  ]
+}
