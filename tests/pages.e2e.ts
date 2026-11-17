@@ -786,3 +786,47 @@ test("ingredients tab links real photos, exact recipe variants and works offline
     fullPage: true,
   });
 });
+
+test("ready ingredient directory shows packaged products and separates syrup, puree and powder", async ({
+  page,
+}) => {
+  await page.setViewportSize({ width: 390, height: 844 });
+  await page.goto("./#/ingredients");
+  await expect(
+    page.getByRole("heading", { name: "အသင့်သုံးကုန်ကြမ်းများ", exact: true }),
+  ).toBeVisible();
+  await expect(page.locator(".ingredient-card")).toHaveCount(33);
+  await page
+    .getByRole("button", { name: "အသင့်သုံးဖျော်မှုန့်", exact: true })
+    .click();
+  await expect(page.locator(".ingredient-card")).toHaveCount(2);
+  await expect(page.locator(".ingredient-card").first()).toContainText(
+    "LongBeach",
+  );
+  await page.getByRole("button", { name: "အားလုံး", exact: true }).click();
+  await page
+    .getByRole("searchbox", { name: "ကုန်ကြမ်းရှာရန်" })
+    .fill("Vanilla");
+  await page
+    .locator(".ingredient-card")
+    .filter({ hasText: "Vanilla bean & syrup" })
+    .click();
+  await expect(page.locator(".ingredient-intro img")).toHaveAttribute(
+    "src",
+    /ready-products\/vanilla/,
+  );
+  await expect(
+    page
+      .getByRole("combobox", { name: "ကုန်ကြမ်းပုံစံ ရွေးရန်" })
+      .locator("option")
+      .filter({ hasText: /Vanilla bean \(အတောင့်\)/ }),
+  ).toHaveCount(0);
+  await expect(page.locator(".ready-product-list")).toContainText(
+    "MONIN Vanilla",
+  );
+  expect(
+    await page.evaluate(
+      () => document.documentElement.scrollWidth <= innerWidth,
+    ),
+  ).toBe(true);
+});
