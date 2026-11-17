@@ -1,6 +1,6 @@
 {
   "scope": "Original 260 recipes",
-  "reviewed": 228,
+  "reviewed": 233,
   "target": 260,
   "method": "imagegen",
   "rows": [
@@ -3423,6 +3423,81 @@
       "reviewedAt": "2026-11-17",
       "prompt": "Use case: product-mockup. Create ONE new photorealistic square cafe menu photograph of New Orleans Chicory Iced Coffee. Warm off-white seamless studio background, soft natural side lighting, fully visible centered vessel with 8% breathing room. The attached image is a LOGO reference only: reproduce its dark-green 9 FLOOR COFFEE logo accurately on a centered white label on clear cups or printed on ceramic. Recipe ingredients with exact quantities: Chicory coffee concentrate 90 ml; နို့အေး 100 ml; သကြားရည် 15 ml; ရေခဲ 180 g. Exact final appearance and order: Cold milk mixed with syrup, ice, chicory coffee concentrate poured above. Creamy tan milk under dark coffee diffusion. No chicory flowers, garnish or foam. Unless a different vessel is specified, use clear 16oz takeaway cup. Hot drinks dry with NO ice or condensation. Cold drinks realistic ice and condensation as specified. Show only one finished drink; no people, hands, equipment, extra captions or surrounding props. No garnish, topping or ingredient not explicitly listed. No carbonation except recipes explicitly containing tonic, soda or ginger ale/beer. Match natural proportions, no artificial perfect color blocks. Each image must be a fresh individual photograph.",
       "visual": "Cold milk mixed with syrup, ice, chicory coffee concentrate poured above. Creamy tan milk under dark coffee diffusion. No chicory flowers, garnish or foam."
+    },
+    {
+      "key": "v8-25-01",
+      "file": "recipe-photos/v8-25-01.webp",
+      "width": 768,
+      "height": 768,
+      "sha256": "f9845606458ab7dfba25b41154294d46b0c1eba82157c86b805aabe51cbb742e",
+      "ingredientsSha256": "062128ed2246c49ba83fdc35f418660b2fcab3fd16307e675d48e5d8bbdd23e7",
+      "bytes": 56308,
+      "gitSha": "16725a75ec1076416004915736e2c3e543bd10a0",
+      "recipeName": "Mazagran Iced Coffee",
+      "method": "imagegen",
+      "reviewedAt": "2026-11-17",
+      "prompt": "Use case: product-mockup. Create ONE new photorealistic square cafe menu photograph of Mazagran Iced Coffee. Warm off-white seamless studio background, soft natural side lighting, fully visible centered vessel with 8% breathing room. The attached image is a LOGO reference only: reproduce its dark-green 9 FLOOR COFFEE logo accurately on a centered white label on clear cups or printed on ceramic. Recipe ingredients with exact quantities: Black coffee အေး 120 ml; လီမွန်ရည် 15 ml; သကြားရည် 15 ml; ရေခဲ 180 g. Exact final appearance and order: Cooled black coffee, lemon juice and sugar syrup over ice, translucent dark amber-brown. No citrus slices, milk or bubbles. Unless a different vessel is specified, use clear 16oz takeaway cup. Hot drinks dry with NO ice or condensation. Cold drinks realistic ice and condensation as specified. Show only one finished drink; no people, hands, equipment, extra captions or surrounding props. No garnish, topping or ingredient not explicitly listed. No carbonation except recipes explicitly containing tonic, soda or ginger ale/beer. Match natural proportions, no artificial perfect color blocks. Each image must be a fresh individual photograph.",
+      "visual": "Cooled black coffee, lemon juice and sugar syrup over ice, translucent dark amber-brown. No citrus slices, milk or bubbles."
+    },
+    {
+      "key": "v8-25-08",
+      "file": "recipe-photos/v8-25-08.webp",
+      "width": 768,
+      "height": 768,
+      "sha256": "b2f157fe93cae1d082417129890227901c746f82991604d6c61dea03cfbf816b",
+      "ingredientsSha256": "61cddb9acf91d6d75c1ea3ef52d29857b5c9b88d4a708ee008103e896285ec5a",
+      "bytes": 55984,
+      "gitSha": "84e39811c6cc9a770b8c0251b8618abbe47a7050",
+      "recipeName": "Kopi Cham",
+      "method": "imagegen",
+      "reviewedAt": "2026-11-17",
+      "prompt": "Use case: product-mockup. Create ONE new photorealistic square cafe menu photograph of Kopi Cham. Warm off-white seamless studio background, soft natural side lighting, fully visible centered vessel with 8% breathing room. The attached image is a LOGO reference only: reproduce its dark-green 9 FLOOR COFFEE logo accurately on a centered white label on clear cups or printed on ceramic. Recipe ingredients with exact quantities: Black coffee 80 ml; လက်ဖက်ရည်ပြင်း 80 ml; နို့ဆီချို 20 ml; ရေခဲ 160 g. Exact final appearance and order: Black coffee and strong black tea mixed with condensed milk BEFORE pouring over ice. Uniform caramel-brown milk tea-coffee, no separate layers or cream. Unless a different vessel is specified, use clear 16oz takeaway cup. Hot drinks dry with NO ice or condensation. Cold drinks realistic ice and condensation as specified. Show only one finished drink; no people, hands, equipment, extra captions or surrounding props. No garnish, topping or ingredient not explicitly listed. No carbonation except recipes explicitly containing tonic, soda or ginger ale/beer. Match natural proportions, no artificial perfect color blocks. Each image must be a fresh individual photograph.",
+      "visual": "Black coffee and strong black tea mixed with condensed milk BEFORE pouring over ice. Uniform caramel-brown milk tea-coffee, no separate layers or cream."
+    },
+    {
+      "key": "v8-25-03",
+      "file": "recipe-photos/v8-25-03.webp",
+      "width": 768,
+      "height": 768,
+      "sha256": "c52daa549a81c333944ee756224e184b92523ae7f281ab0707f1b3a14834ea91",
+      "ingredientsSha256": "a523f8a6994f260e593b2c06691e9942744e9b875201d348efd17e2a8732a142",
+      "bytes": 28858,
+      "gitSha": "212c5ba4143c4b410392a3e443117645e88c5ecc",
+      "recipeName": "Turkish Coffee",
+      "method": "imagegen",
+      "reviewedAt": "2026-11-17",
+      "prompt": "Use case: product-mockup. Create ONE new photorealistic square cafe menu photograph of Turkish Coffee. Warm off-white seamless studio background, soft natural side lighting, fully visible centered vessel with 8% breathing room. The attached image is a LOGO reference only: reproduce its dark-green 9 FLOOR COFFEE logo accurately on a centered white label on clear cups or printed on ceramic. Recipe ingredients with exact quantities: အလွန်နူးညံ့သော ကော်ဖီမှုန့် 8 g; ရေ 70 ml; သကြား (optional) 0–5 g. Exact final appearance and order: Tiny 80ml ceramic demitasse with saucer, very dark hot Turkish coffee with thin fine natural tan foam and settled grounds. No milk, ice, cinnamon or equipment. Unless a different vessel is specified, use clear 16oz takeaway cup. Hot drinks dry with NO ice or condensation. Cold drinks realistic ice and condensation as specified. Show only one finished drink; no people, hands, equipment, extra captions or surrounding props. No garnish, topping or ingredient not explicitly listed. No carbonation except recipes explicitly containing tonic, soda or ginger ale/beer. Match natural proportions, no artificial perfect color blocks. Each image must be a fresh individual photograph.",
+      "visual": "Tiny 80ml ceramic demitasse with saucer, very dark hot Turkish coffee with thin fine natural tan foam and settled grounds. No milk, ice, cinnamon or equipment."
+    },
+    {
+      "key": "v8-25-02",
+      "file": "recipe-photos/v8-25-02.webp",
+      "width": 768,
+      "height": 768,
+      "sha256": "6f4489f4dca55a25dee50fdebc5cec23047e0723ff31cfbfbcdff0d60c052153",
+      "ingredientsSha256": "11ec14d399924f5685216ab2cb09b55fa0b7995f308b38bdb34169da2329960a",
+      "bytes": 66134,
+      "gitSha": "e25b85bef06444b0a8670b5a6e1c7fec4a3eb1bc",
+      "recipeName": "Café de Olla",
+      "method": "imagegen",
+      "reviewedAt": "2026-11-17",
+      "prompt": "Use case: product-mockup. Create ONE new photorealistic square cafe menu photograph of Café de Olla. Warm off-white seamless studio background, soft natural side lighting, fully visible centered vessel with 8% breathing room. The attached image is a LOGO reference only: reproduce its dark-green 9 FLOOR COFFEE logo accurately on a centered white label on clear cups or printed on ceramic. Recipe ingredients with exact quantities: Ground coffee 18 g; ရေ 260 ml; သစ်ကြံပိုး 1 ချောင်း; ကြံသကြား 15 g. Exact final appearance and order: Hot coffee infused with cinnamon and cane sugar then STRAINED, earthy brown ceramic handled cup bearing 9 FLOOR logo. No stick, grounds, milk or ice. Unless a different vessel is specified, use clear 16oz takeaway cup. Hot drinks dry with NO ice or condensation. Cold drinks realistic ice and condensation as specified. Show only one finished drink; no people, hands, equipment, extra captions or surrounding props. No garnish, topping or ingredient not explicitly listed. No carbonation except recipes explicitly containing tonic, soda or ginger ale/beer. Match natural proportions, no artificial perfect color blocks. Each image must be a fresh individual photograph.",
+      "visual": "Hot coffee infused with cinnamon and cane sugar then STRAINED, earthy brown ceramic handled cup bearing 9 FLOOR logo. No stick, grounds, milk or ice."
+    },
+    {
+      "key": "v8-26-02",
+      "file": "recipe-photos/v8-26-02.webp",
+      "width": 768,
+      "height": 768,
+      "sha256": "99d5ca6698198d888c3fd934a4380458b31677a02c4375209be992f42320f811",
+      "ingredientsSha256": "c918a3186dbed756dbcbb235c894379303e3c1ca61a2799cd7c75f7783135471",
+      "bytes": 27786,
+      "gitSha": "8e9aa76639b9ac67116622ff8496f4d870f6ab28",
+      "recipeName": "Hot Hojicha Latte",
+      "method": "imagegen",
+      "reviewedAt": "2026-11-17",
+      "prompt": "Use case: product-mockup. Create ONE new photorealistic square cafe menu photograph of Hot Hojicha Latte. Warm off-white seamless studio background, soft natural side lighting, fully visible centered vessel with 8% breathing room. The attached image is a LOGO reference only: reproduce its dark-green 9 FLOOR COFFEE logo accurately on a centered white label on clear cups or printed on ceramic. Recipe ingredients with exact quantities: Hojicha powder 5 g; ရေနွေး 40 ml; နို့အပူ 180 ml; သကြားရည် 10 ml. Exact final appearance and order: Hot hojicha whisked with water and hot milk, uniform roasted-tea beige-brown in white ceramic mug with fine thin milk foam. NOT green, no ice, dusting or latte art. Unless a different vessel is specified, use clear 16oz takeaway cup. Hot drinks dry with NO ice or condensation. Cold drinks realistic ice and condensation as specified. Show only one finished drink; no people, hands, equipment, extra captions or surrounding props. No garnish, topping or ingredient not explicitly listed. No carbonation except recipes explicitly containing tonic, soda or ginger ale/beer. Match natural proportions, no artificial perfect color blocks. Each image must be a fresh individual photograph.",
+      "visual": "Hot hojicha whisked with water and hot milk, uniform roasted-tea beige-brown in white ceramic mug with fine thin milk foam. NOT green, no ice, dusting or latte art."
     }
   ]
 }
