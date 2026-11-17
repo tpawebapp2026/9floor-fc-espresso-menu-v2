@@ -818,8 +818,9 @@ test("ready ingredient directory shows packaged products and separates syrup, pu
   await expect(
     page
       .getByRole("combobox", { name: "ကုန်ကြမ်းပုံစံ ရွေးရန်" })
-      .locator("option"),
-  ).not.toHaveText(/Vanilla bean \(အတောင့်\)/);
+      .locator("option")
+      .filter({ hasText: /Vanilla bean \(အတောင့်\)/ }),
+  ).toHaveCount(0);
   await expect(page.locator(".ready-product-list")).toContainText(
     "MONIN Vanilla",
   );
