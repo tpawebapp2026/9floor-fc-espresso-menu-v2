@@ -6,7 +6,11 @@ const assets = (await readdir("dist/assets")).map((n) => base + "assets/" + n);
 const ingredientPhotos = JSON.parse(
   await readFile("src/ingredientPhotos.json", "utf8"),
 );
+const readyProducts = JSON.parse(
+  await readFile("src/readyProducts.json", "utf8"),
+);
 const ingredientAssets = [
+  ...new Set(readyProducts.map((p) => base + p.file)),
   ...new Set(Object.values(ingredientPhotos).map((p) => base + p.file)),
 ];
 const precache = [

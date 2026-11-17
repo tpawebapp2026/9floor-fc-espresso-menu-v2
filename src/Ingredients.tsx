@@ -8,19 +8,9 @@ import {
   findIngredients,
 } from "./ingredients";
 import { isPreparation } from "./preparations";
-import photoData from "./ingredientPhotos.json";
+import { productsFor, readyForms, productKinds } from "./readyProducts";
 import "./ingredients.css";
 
-type Photo = {
-  file: string;
-  sourceUrl: string;
-  license: string;
-  licenseUrl: string;
-  author: string;
-  caption: string;
-  changes: string;
-};
-const photos: Record<string, Photo> = photoData;
 export function Ingredients({
   recipes,
   id,
@@ -33,9 +23,14 @@ export function Ingredients({
   const [query, setQuery] = useState("");
   const [category, setCategory] = useState("");
   const [variant, setVariant] = useState("");
+  const [kind, setKind] = useState("");
   const [recipeQuery, setRecipeQuery] = useState("");
   const p = ingredients.find((p) => p.id === id);
-  const photo = p ? photos[p.id] : undefined;
+  const products = p ? productsFor(p.id) : [];
+  const forms = p ? readyForms(p) : [];
+  const photo = products.find(
+    (product) => !variant || product.forms.includes(variant),
+  );
   if (id && !p)
     return (
       <main className="ingredient-library">
@@ -46,11 +41,23 @@ export function Ingredients({
       </main>
     );
   if (p) {
-    const uses = ingredientUses(p, recipes, variant).filter((u) =>
-      [u.recipe.englishName, u.recipe.burmeseName || ""].some((s) =>
-        s.toLocaleLowerCase().includes(recipeQuery.trim().toLocaleLowerCase()),
-      ),
-    );
+    const uses = ingredientUses(p, recipes, variant)
+      .filter(
+        (u) => !forms.length || u.items.some((i) => forms.includes(i.name)),
+      )
+      .map((u) => ({
+        ...u,
+        items: forms.length
+          ? u.items.filter((i) => forms.includes(i.name))
+          : u.items,
+      }))
+      .filter((u) =>
+        [u.recipe.englishName, u.recipe.burmeseName || ""].some((s) =>
+          s
+            .toLocaleLowerCase()
+            .includes(recipeQuery.trim().toLocaleLowerCase()),
+        ),
+      );
     const drinks = uses.filter((u) => !isPreparation(u.recipe));
     const preparations = uses.filter((u) => isPreparation(u.recipe));
     return (
@@ -82,12 +89,45 @@ export function Ingredients({
             <h2>ဘာအတွက်သုံးသလဲ</h2>
             <p>{p.guide}</p>
             <p className="ingredient-form-note">
-              အောက်ပါအမည်များက Recipe ထဲတွင် တကယ်သုံးထားသော ပုံစံများဖြစ်သည်။
-              တူညီသောအရသာဖြစ်သော်လည်း အသီး၊ အနှစ်၊ ဆီရပ်နှင့် ဖျော်မှုန့်ကို
-              ပမာဏတူ အစားမထိုးပါနှင့်။
+              ဘူး / အထုပ်ပုံများသည် ဝယ်ယူရာတွင် ပုံစံခွဲသိရန်
+              နမူနာတံဆိပ်များဖြစ်သည်။ Recipe ထဲက တံဆိပ်နှင့် ကွာနိုင်သည်။ အချို၊
+              အနှစ်ပါဝင်မှုကို စစ်ပြီး အသေးစားစမ်းဖျော်ပါ။ ဆီရပ်၊ အသီးအနှစ်၊
+              ဆော့စ်နှင့် ဖျော်မှုန့်ကို ပမာဏတူ အစားမထိုးပါနှင့်။
             </p>
           </div>
         </header>
+        {!!products.length && (
+          <section aria-label="အသင့်သုံးကုန်ကြမ်း နမူနာများ">
+            <h2>ဝယ်သုံးနိုင်သော ဘူး / အထုပ်ပုံစံ</h2>
+            <div className="ready-product-list">
+              {products.map((product) => (
+                <article key={product.id}>
+                  <img
+                    src={asset(product.file)}
+                    alt={product.caption}
+                    width="240"
+                    height="240"
+                  />
+                  <div>
+                    <small>{productKinds[product.kind]}</small>
+                    <h3>{product.name}</h3>
+                    <p>သုံးရမည့်ပုံစံ — {product.forms.join(" / ")}</p>
+                    <button onClick={() => setVariant(product.forms[0])}>
+                      ဒီပုံစံနဲ့ ဖျော်မည့် မီနူးများ ↓
+                    </button>
+                    <a
+                      href={product.sourceUrl}
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      မူရင်းပစ္စည်း ကြည့်ရန် ↗
+                    </a>
+                  </div>
+                </article>
+              ))}
+            </div>
+          </section>
+        )}
         <section aria-labelledby="ingredient-uses">
           <h2 id="ingredient-uses">ဘာတွေဖျော်လို့ရလဲ</h2>
           <div className="ingredient-controls">
@@ -98,8 +138,10 @@ export function Ingredients({
                 value={variant}
                 onChange={(e) => setVariant(e.target.value)}
               >
-                <option value="">ပုံစံအားလုံး ({p.aliases.length})</option>
-                {p.aliases.map((a) => (
+                <option value="">
+                  ပုံစံအားလုံး ({forms.length || p.aliases.length})
+                </option>
+                {(forms.length ? forms : p.aliases).map((a) => (
                   <option key={a}>{a}</option>
                 ))}
               </select>
@@ -198,15 +240,34 @@ export function Ingredients({
       </main>
     );
   }
-  const results = findIngredients(recipes, query, category);
+  const results = findIngredients(recipes, "", category).filter((p) => {
+    const samples = productsFor(p.id);
+    const q = query.trim().normalize("NFKC").toLocaleLowerCase();
+    return (
+      samples.length &&
+      (!kind || samples.some((s) => s.kind === kind)) &&
+      (!q ||
+        [
+          p.name,
+          p.englishName,
+          ...p.aliases,
+          ...samples.map((s) => s.name),
+          ...ingredientUses(p, recipes).flatMap((u) => [
+            u.recipe.englishName,
+            u.recipe.burmeseName || "",
+          ]),
+        ].some((s) => s.normalize("NFKC").toLocaleLowerCase().includes(q)))
+    );
+  });
   return (
     <main className="ingredient-library">
       <header>
         <p className="ingredient-eyebrow">9 FLOOR · INGREDIENT GUIDE</p>
-        <h1>ကုန်ကြမ်းများ</h1>
+        <h1>အသင့်သုံးကုန်ကြမ်းများ</h1>
         <p>
-          ကုန်ကြမ်းကို ရွေးပြီး အသုံးပြုပုံ၊ Recipe ထဲက အမျိုးအစားအတိအကျနှင့်
-          ဖျော်လို့ရသည့် မီနူးများကို ကြည့်ပါ။
+          ဆိုင်မှာဝယ်သုံးမည့် ဆီရပ်ဘူး၊ အသီးအနှစ်ဘူး၊ ဆော့စ်နှင့်
+          ဖျော်မှုန့်အထုပ်များကို ရွေးပါ။ ဘူးပုံအစစ်၊ အသုံးပြုပုံနှင့်
+          သက်ဆိုင်ရာ မီနူးဖျော်နည်းကို တွဲကြည့်နိုင်သည်။
         </p>
       </header>
       <div className="ingredient-controls">
@@ -236,11 +297,28 @@ export function Ingredients({
           </select>
         </label>
       </div>
-      <p role="status">ကုန်ကြမ်းအုပ်စု {results.length} ခု</p>
+      <div className="ready-kind-filters" aria-label="အသင့်သုံးပုံစံ">
+        {[["", "အားလုံး"], ...Object.entries(productKinds)].map(
+          ([value, label]) => (
+            <button
+              key={value}
+              aria-pressed={kind === value}
+              onClick={() => setKind(value)}
+            >
+              {label}
+            </button>
+          ),
+        )}
+      </div>
+      <p role="status">အသင့်သုံးကုန်ကြမ်းအုပ်စု {results.length} ခု</p>
       <div className="ingredient-cards">
         {results.map((p) => {
-          const photo = photos[p.id];
-          const count = ingredientUses(p, recipes).length;
+          const samples = productsFor(p.id);
+          const photo = samples.find((s) => !kind || s.kind === kind)!;
+          const availableForms = readyForms(p);
+          const count = ingredientUses(p, recipes).filter((u) =>
+            u.items.some((i) => availableForms.includes(i.name)),
+          ).length;
           return (
             <button
               className="ingredient-card"
@@ -257,9 +335,14 @@ export function Ingredients({
                 />
               )}
               <span>
-                <small>{ingredientCategories[p.category]}</small>
+                <small>
+                  {[...new Set(samples.map((s) => productKinds[s.kind]))].join(
+                    " · ",
+                  )}
+                </small>
                 <strong>{p.name}</strong>
                 <span lang="en">{p.englishName}</span>
+                <small>{samples.map((s) => s.name).join(" / ")}</small>
                 <small>Recipe {count} မျိုး · အသေးစိတ် →</small>
               </span>
             </button>
@@ -270,9 +353,9 @@ export function Ingredients({
         <p>မတွေ့ပါ။ မြန်မာ / English နာမည်ဖြင့် ပြန်ရှာကြည့်ပါ။</p>
       )}
       <p className="muted">
-        ဓာတ်ပုံများသည် ကုန်ကြမ်း / သဘာဝအရင်းအမြစ်အစစ် နမူနာများဖြစ်သည်။
-        ပုံရှင်းလင်းချက်နှင့် Recipe ပါ ပစ္စည်းပုံစံကို တွဲကြည့်ပါ။
-        ဘူးတံဆိပ်အတိအကျ၏ ပုံဟု မယူဆပါနှင့်။
+        ဘူး / အထုပ်ပုံများသည် ထုတ်လုပ်သူ၏ ပစ္စည်းပုံအစစ်များဖြစ်သည်။
+        နမူနာတံဆိပ်သည် Recipe ထဲကတံဆိပ်နှင့် ကွာနိုင်သည်။ ဘူးတံဆိပ်ပါ
+        ပစ္စည်းအမျိုးအစား၊ အချိုနှင့် ရောစပ်အချိုးကို စစ်ပါ။
       </p>
     </main>
   );

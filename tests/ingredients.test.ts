@@ -92,3 +92,34 @@ describe("ingredient directory", () => {
     }
   });
 });
+
+describe("packaged ready-to-use ingredient examples", () => {
+  it("uses local product photographs and limits each example to actual recipe forms", async () => {
+    const { readyProducts, readyForms } = await import("../src/readyProducts");
+    const sharp = (await import("sharp")).default;
+    expect(readyProducts.length).toBe(40);
+    for (const product of readyProducts) {
+      const profile = ingredients.find((p) => p.id === product.profileId)!;
+      expect(profile).toBeDefined();
+      expect(product.forms.length).toBeGreaterThan(0);
+      for (const form of product.forms) {
+        expect(profile.aliases).toContain(form);
+        expect(
+          ingredientUses(profile, recipes, form).length,
+          form,
+        ).toBeGreaterThan(0);
+      }
+      expect((await sharp("public/" + product.file).metadata()).format).toBe(
+        "webp",
+      );
+      expect(product.license).toContain("©");
+      expect(product.sourceUrl).toMatch(/^https:\/\//);
+      expect(readyForms(profile)).not.toContain("စတော်ဘယ်ရီသီး");
+    }
+    const cocoa = ingredients.find((p) => p.id === "cocoa")!;
+    expect(readyForms(cocoa)).toContain("Chocolate Powder");
+    expect(readyForms(cocoa)).not.toContain("သကြားမပါ Cocoa powder");
+    const vanilla = ingredients.find((p) => p.id === "vanilla")!;
+    expect(readyForms(vanilla)).not.toContain("Vanilla bean (အတောင့်)");
+  });
+});
