@@ -1,6 +1,6 @@
 {
   "scope": "Original 260 recipes",
-  "reviewed": 183,
+  "reviewed": 188,
   "target": 260,
   "method": "imagegen",
   "rows": [
@@ -2748,6 +2748,81 @@
       "reviewedAt": "2026-11-17",
       "prompt": "Use case: product-mockup. Create ONE new photorealistic square cafe menu photograph of Lemon Espresso Tonic. Warm off-white seamless studio background, soft natural side lighting, fully visible centered vessel with 8% breathing room. The attached image is a LOGO reference only: reproduce its dark-green 9 FLOOR COFFEE logo accurately on a centered white label on clear cups or printed on ceramic. Recipe ingredients with exact quantities: Espresso double shot 32 g; Tonic water 140 ml; သံပုရာရည် 15 ml; ရေခဲ 180 g. Exact final appearance and order: Nearly clear pale lemon tonic under dark espresso poured last over ice, fine bubbles. No citrus slices. Unless a different vessel is specified, use clear 16oz takeaway cup. Hot drinks dry with NO ice or condensation. Cold drinks realistic ice and condensation as specified. Show only one finished drink; no people, hands, equipment, extra captions or surrounding props. No garnish, topping or ingredient not explicitly listed. No carbonation except recipes explicitly containing tonic, soda or ginger ale/beer. Match natural proportions, no artificial perfect color blocks. Each image must be a fresh individual photograph.",
       "visual": "Nearly clear pale lemon tonic under dark espresso poured last over ice, fine bubbles. No citrus slices."
+    },
+    {
+      "key": "v8-20-03",
+      "file": "recipe-photos/v8-20-03.webp",
+      "width": 768,
+      "height": 768,
+      "sha256": "a14c171e76cf46eca3fca173487391fdd4d73a85a5b502c6332977cd49b9e201",
+      "ingredientsSha256": "c7fbc8dd99c6fc43305af7b2b93a81783a69aa6ec42af78edcecfb2dc93ddb4c",
+      "bytes": 60830,
+      "gitSha": "b4c5b001130d86891778615893b8d95d7ee2c0f7",
+      "recipeName": "Orange Espresso Tonic",
+      "method": "imagegen",
+      "reviewedAt": "2026-11-17",
+      "prompt": "Use case: product-mockup. Create ONE new photorealistic square cafe menu photograph of Orange Espresso Tonic. Warm off-white seamless studio background, soft natural side lighting, fully visible centered vessel with 8% breathing room. The attached image is a LOGO reference only: reproduce its dark-green 9 FLOOR COFFEE logo accurately on a centered white label on clear cups or printed on ceramic. Recipe ingredients with exact quantities: Espresso double shot 32 g; Tonic water 100 ml; လိမ္မော်ရည် 60 ml; ရေခဲ 180 g. Exact final appearance and order: Translucent muted orange juice and tonic under dark espresso poured last over ice, fine bubbles. No orange slices. Unless a different vessel is specified, use clear 16oz takeaway cup. Hot drinks dry with NO ice or condensation. Cold drinks realistic ice and condensation as specified. Show only one finished drink; no people, hands, equipment, extra captions or surrounding props. No garnish, topping or ingredient not explicitly listed. No carbonation except recipes explicitly containing tonic, soda or ginger ale/beer. Match natural proportions, no artificial perfect color blocks. Each image must be a fresh individual photograph.",
+      "visual": "Translucent muted orange juice and tonic under dark espresso poured last over ice, fine bubbles. No orange slices."
+    },
+    {
+      "key": "v8-20-04",
+      "file": "recipe-photos/v8-20-04.webp",
+      "width": 768,
+      "height": 768,
+      "sha256": "cc070db87b173b2f89f6cffd71f3f68874733d5bd92d98ae507dae2f3056096d",
+      "ingredientsSha256": "1477271b217eb7df5f6280d71baee47705c54f5488bed0124680286317e31fd9",
+      "bytes": 67824,
+      "gitSha": "24056af98c157b82a4ec42ccb36728a5a74c6e23",
+      "recipeName": "Rosemary Espresso Tonic",
+      "method": "imagegen",
+      "reviewedAt": "2026-11-17",
+      "prompt": "Use case: product-mockup. Create ONE new photorealistic square cafe menu photograph of Rosemary Espresso Tonic. Warm off-white seamless studio background, soft natural side lighting, fully visible centered vessel with 8% breathing room. The attached image is a LOGO reference only: reproduce its dark-green 9 FLOOR COFFEE logo accurately on a centered white label on clear cups or printed on ceramic. Recipe ingredients with exact quantities: Espresso double shot 32 g; Tonic water 150 ml; Rosemary 1 sprig; ရေခဲ 180 g. Exact final appearance and order: Clear tonic base under dark espresso poured last over ice. ONE small rosemary sprig inside cup, fine bubbles; no citrus. Unless a different vessel is specified, use clear 16oz takeaway cup. Hot drinks dry with NO ice or condensation. Cold drinks realistic ice and condensation as specified. Show only one finished drink; no people, hands, equipment, extra captions or surrounding props. No garnish, topping or ingredient not explicitly listed. No carbonation except recipes explicitly containing tonic, soda or ginger ale/beer. Match natural proportions, no artificial perfect color blocks. Each image must be a fresh individual photograph.",
+      "visual": "Clear tonic base under dark espresso poured last over ice. ONE small rosemary sprig inside cup, fine bubbles; no citrus."
+    },
+    {
+      "key": "v8-20-06",
+      "file": "recipe-photos/v8-20-06.webp",
+      "width": 768,
+      "height": 768,
+      "sha256": "de97e939a072455ad64e85622ac32f464333b20291bc056687e9e25099488eee",
+      "ingredientsSha256": "c05b4f73ef0d1c90169cc84be5b17a05177f476e08958fe8f9767023b54ffcb1",
+      "bytes": 65436,
+      "gitSha": "2f335b0b17336987effa37c07f7acd1bb02fe38d",
+      "recipeName": "Ginger Ale Espresso",
+      "method": "imagegen",
+      "reviewedAt": "2026-11-17",
+      "prompt": "Use case: product-mockup. Create ONE new photorealistic square cafe menu photograph of Ginger Ale Espresso. Warm off-white seamless studio background, soft natural side lighting, fully visible centered vessel with 8% breathing room. The attached image is a LOGO reference only: reproduce its dark-green 9 FLOOR COFFEE logo accurately on a centered white label on clear cups or printed on ceramic. Recipe ingredients with exact quantities: Espresso double shot 32 g; Ginger ale 150 ml; ရေခဲ 180 g. Exact final appearance and order: Pale golden ginger ale base under dark espresso poured last over ice, fine bubbles. No ginger pieces. Unless a different vessel is specified, use clear 16oz takeaway cup. Hot drinks dry with NO ice or condensation. Cold drinks realistic ice and condensation as specified. Show only one finished drink; no people, hands, equipment, extra captions or surrounding props. No garnish, topping or ingredient not explicitly listed. No carbonation except recipes explicitly containing tonic, soda or ginger ale/beer. Match natural proportions, no artificial perfect color blocks. Each image must be a fresh individual photograph.",
+      "visual": "Pale golden ginger ale base under dark espresso poured last over ice, fine bubbles. No ginger pieces."
+    },
+    {
+      "key": "v8-20-05",
+      "file": "recipe-photos/v8-20-05.webp",
+      "width": 768,
+      "height": 768,
+      "sha256": "aaa073912699d5924cdeb5e7a9d7bdddb2d4a9e8e4569571d3333d43d3f00f37",
+      "ingredientsSha256": "e100316a55aba220dd0a067203391d068ade4fb41e3852cdfddf4b54c4f06444",
+      "bytes": 64894,
+      "gitSha": "aa45bfea2ff1a66024bab4add49612344183bff7",
+      "recipeName": "Peach Espresso Tonic",
+      "method": "imagegen",
+      "reviewedAt": "2026-11-17",
+      "prompt": "Use case: product-mockup. Create ONE new photorealistic square cafe menu photograph of Peach Espresso Tonic. Warm off-white seamless studio background, soft natural side lighting, fully visible centered vessel with 8% breathing room. The attached image is a LOGO reference only: reproduce its dark-green 9 FLOOR COFFEE logo accurately on a centered white label on clear cups or printed on ceramic. Recipe ingredients with exact quantities: Espresso double shot 32 g; Tonic water 120 ml; Peach syrup 20 ml; ရေခဲ 180 g. Exact final appearance and order: Pale peach-gold translucent peach syrup and tonic under dark espresso over ice, fine bubbles. No peach pieces. Unless a different vessel is specified, use clear 16oz takeaway cup. Hot drinks dry with NO ice or condensation. Cold drinks realistic ice and condensation as specified. Show only one finished drink; no people, hands, equipment, extra captions or surrounding props. No garnish, topping or ingredient not explicitly listed. No carbonation except recipes explicitly containing tonic, soda or ginger ale/beer. Match natural proportions, no artificial perfect color blocks. Each image must be a fresh individual photograph.",
+      "visual": "Pale peach-gold translucent peach syrup and tonic under dark espresso over ice, fine bubbles. No peach pieces."
+    },
+    {
+      "key": "v8-20-07",
+      "file": "recipe-photos/v8-20-07.webp",
+      "width": 768,
+      "height": 768,
+      "sha256": "4c5222d73bc3d2395b748eb8e06ae8af57e79978c7c6281914250ead692d40d8",
+      "ingredientsSha256": "8734feda8a43be766ed129cc9e94ed92aa17247db6757598a10f1cc829860fcb",
+      "bytes": 68522,
+      "gitSha": "0eda387e56d8a79f9f78f374ff74c7da6964f504",
+      "recipeName": "Cherry Coffee Soda",
+      "method": "imagegen",
+      "reviewedAt": "2026-11-17",
+      "prompt": "Use case: product-mockup. Create ONE new photorealistic square cafe menu photograph of Cherry Coffee Soda. Warm off-white seamless studio background, soft natural side lighting, fully visible centered vessel with 8% breathing room. The attached image is a LOGO reference only: reproduce its dark-green 9 FLOOR COFFEE logo accurately on a centered white label on clear cups or printed on ceramic. Recipe ingredients with exact quantities: Espresso double shot 32 g; Soda water 140 ml; Cherry syrup 20 ml; ရေခဲ 180 g. Exact final appearance and order: Cherry syrup and soda base: translucent cherry red under dark espresso poured last over ice, fine bubbles. No cherries. Unless a different vessel is specified, use clear 16oz takeaway cup. Hot drinks dry with NO ice or condensation. Cold drinks realistic ice and condensation as specified. Show only one finished drink; no people, hands, equipment, extra captions or surrounding props. No garnish, topping or ingredient not explicitly listed. No carbonation except recipes explicitly containing tonic, soda or ginger ale/beer. Match natural proportions, no artificial perfect color blocks. Each image must be a fresh individual photograph.",
+      "visual": "Cherry syrup and soda base: translucent cherry red under dark espresso poured last over ice, fine bubbles. No cherries."
     }
   ]
 }
