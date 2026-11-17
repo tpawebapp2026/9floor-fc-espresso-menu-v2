@@ -1,6 +1,6 @@
 {
   "scope": "Original 260 recipes",
-  "reviewed": 238,
+  "reviewed": 243,
   "target": 260,
   "method": "imagegen",
   "rows": [
@@ -3573,6 +3573,81 @@
       "reviewedAt": "2026-11-17",
       "prompt": "Use case: product-mockup. Create ONE new photorealistic square cafe menu photograph of Iced Genmaicha Latte. Warm off-white seamless studio background, soft natural side lighting, fully visible centered vessel with 8% breathing room. The attached image is a LOGO reference only: reproduce its dark-green 9 FLOOR COFFEE logo accurately on a centered white label on clear cups or printed on ceramic. Recipe ingredients with exact quantities: Genmaicha tea 6 g; ရေနွေး 80 ml; နို့အေး 130 ml; သကြားရည် 10 ml; ရေခဲ 180 g. Exact final appearance and order: Genmaicha steeped and STRAINED then mixed with milk and syrup over ice, uniform pale warm beige with very subtle olive tint. NOT bright green, no rice, leaves or foam. Unless a different vessel is specified, use clear 16oz takeaway cup. Hot drinks dry with NO ice or condensation. Cold drinks realistic ice and condensation as specified. Show only one finished drink; no people, hands, equipment, extra captions or surrounding props. No garnish, topping or ingredient not explicitly listed. No carbonation except recipes explicitly containing tonic, soda or ginger ale/beer. Match natural proportions, no artificial perfect color blocks. Each image must be a fresh individual photograph.",
       "visual": "Genmaicha steeped and STRAINED then mixed with milk and syrup over ice, uniform pale warm beige with very subtle olive tint. NOT bright green, no rice, leaves or foam."
+    },
+    {
+      "key": "v8-26-06",
+      "file": "recipe-photos/v8-26-06.webp",
+      "width": 768,
+      "height": 768,
+      "sha256": "d28a81bbad3b40b5250a6c941718b6636dd31dfb16de518c34e3fecdb7c05ccb",
+      "ingredientsSha256": "30c1338f0577828ed18c365267a7e185bd02de9b22c8da70c798bab193c71909",
+      "bytes": 33188,
+      "gitSha": "16877e9e6c27b78e6a4fb8f6af7c898281fcf4a1",
+      "recipeName": "Iced London Fog",
+      "method": "imagegen",
+      "reviewedAt": "2026-11-17",
+      "prompt": "Use case: product-mockup. Create ONE new photorealistic square cafe menu photograph of Iced London Fog. Warm off-white seamless studio background, soft natural side lighting, fully visible centered vessel with 8% breathing room. The attached image is a LOGO reference only: reproduce its dark-green 9 FLOOR COFFEE logo accurately on a centered white label on clear cups or printed on ceramic. Recipe ingredients with exact quantities: Earl Grey tea 5 g; ရေနွေး 90 ml; နို့အေး 120 ml; Vanilla syrup 15 ml; ရေခဲ 180 g. Exact final appearance and order: Cold Earl Grey tea mixed with milk and vanilla syrup over ice, uniform pale tea-beige. No coffee, cream, vanilla pods or tea leaves. Unless a different vessel is specified, use clear 16oz takeaway cup. Hot drinks dry with NO ice or condensation. Cold drinks realistic ice and condensation as specified. Show only one finished drink; no people, hands, equipment, extra captions or surrounding props. No garnish, topping or ingredient not explicitly listed. No carbonation except recipes explicitly containing tonic, soda or ginger ale/beer. Match natural proportions, no artificial perfect color blocks. Each image must be a fresh individual photograph.",
+      "visual": "Cold Earl Grey tea mixed with milk and vanilla syrup over ice, uniform pale tea-beige. No coffee, cream, vanilla pods or tea leaves."
+    },
+    {
+      "key": "v8-24-02",
+      "file": "recipe-photos/v8-24-02.webp",
+      "width": 768,
+      "height": 768,
+      "sha256": "bcda96ddad37981b0daf399c4e1da74fdfaf3516c87fb3cd00e1d2f9289ed31b",
+      "ingredientsSha256": "fab337d018517c173fdb8866d9b240dd712c4e1e8e1b8cc722b7deaa34bd3c62",
+      "bytes": 65472,
+      "gitSha": "fab4c5d1034f3540815ffd5581271a9a1d05301e",
+      "recipeName": "Freddo Espresso",
+      "method": "imagegen",
+      "reviewedAt": "2026-11-17",
+      "prompt": "Use case: product-mockup. Create ONE new photorealistic square cafe menu photograph of Freddo Espresso. Warm off-white seamless studio background, soft natural side lighting, fully visible centered vessel with 8% breathing room. The attached image is a LOGO reference only: reproduce its dark-green 9 FLOOR COFFEE logo accurately on a centered white label on clear cups or printed on ceramic. Recipe ingredients with exact quantities: Espresso 64 g (double double shot); ရေခဲ 180 g; သကြားရည် (optional) 0–10 ml. Exact final appearance and order: Shaken double-double espresso served over fresh ice in medium clear glass, rich dark coffee with thick fine tan coffee foam. No milk or cream. Unless a different vessel is specified, use clear 16oz takeaway cup. Hot drinks dry with NO ice or condensation. Cold drinks realistic ice and condensation as specified. Show only one finished drink; no people, hands, equipment, extra captions or surrounding props. No garnish, topping or ingredient not explicitly listed. No carbonation except recipes explicitly containing tonic, soda or ginger ale/beer. Match natural proportions, no artificial perfect color blocks. Each image must be a fresh individual photograph.",
+      "visual": "Shaken double-double espresso served over fresh ice in medium clear glass, rich dark coffee with thick fine tan coffee foam. No milk or cream."
+    },
+    {
+      "key": "v8-27-01",
+      "file": "recipe-photos/v8-27-01.webp",
+      "width": 768,
+      "height": 768,
+      "sha256": "5dd368d6bf1b5748759202accad56b3623641dfaeae32a41aced6a892564872d",
+      "ingredientsSha256": "c50b9d4cfbd2eb6c5acc7eb4f380e77e88582e2f76c9a8a9a56fff988efe0f58",
+      "bytes": 64308,
+      "gitSha": "f0a7bdee9c9dd797159213bfe2b12390a415ecbe",
+      "recipeName": "Cascara Iced Tea",
+      "method": "imagegen",
+      "reviewedAt": "2026-11-17",
+      "prompt": "Use case: product-mockup. Create ONE new photorealistic square cafe menu photograph of Cascara Iced Tea. Warm off-white seamless studio background, soft natural side lighting, fully visible centered vessel with 8% breathing room. The attached image is a LOGO reference only: reproduce its dark-green 9 FLOOR COFFEE logo accurately on a centered white label on clear cups or printed on ceramic. Recipe ingredients with exact quantities: Food-grade cascara 12 g; ရေနွေး 220 ml; လီမွန်ရည် 10 ml; သကြားရည် 10 ml; ရေခဲ 180 g. Exact final appearance and order: Cascara steeped, STRAINED and cooled, mixed with lemon juice and syrup over ice. Uniform translucent reddish amber tea, no husks, citrus slices, milk or bubbles. Unless a different vessel is specified, use clear 16oz takeaway cup. Hot drinks dry with NO ice or condensation. Cold drinks realistic ice and condensation as specified. Show only one finished drink; no people, hands, equipment, extra captions or surrounding props. No garnish, topping or ingredient not explicitly listed. No carbonation except recipes explicitly containing tonic, soda or ginger ale/beer. Match natural proportions, no artificial perfect color blocks. Each image must be a fresh individual photograph.",
+      "visual": "Cascara steeped, STRAINED and cooled, mixed with lemon juice and syrup over ice. Uniform translucent reddish amber tea, no husks, citrus slices, milk or bubbles."
+    },
+    {
+      "key": "v8-26-07",
+      "file": "recipe-photos/v8-26-07.webp",
+      "width": 768,
+      "height": 768,
+      "sha256": "82a33525459ca44f35223408fe2199ef07881fefbe46da90bf930032f5c16564",
+      "ingredientsSha256": "20a155f5d2d01a4fd54da0d1ea7cf3170544eea80d5a2e1920a3744f9dc57c05",
+      "bytes": 27072,
+      "gitSha": "46dcab47129818b157209e4cda6140a8ae7cdfee",
+      "recipeName": "Black Sesame Latte",
+      "method": "imagegen",
+      "reviewedAt": "2026-11-17",
+      "prompt": "Use case: product-mockup. Create ONE new photorealistic square cafe menu photograph of Black Sesame Latte. Warm off-white seamless studio background, soft natural side lighting, fully visible centered vessel with 8% breathing room. The attached image is a LOGO reference only: reproduce its dark-green 9 FLOOR COFFEE logo accurately on a centered white label on clear cups or printed on ceramic. Recipe ingredients with exact quantities: Black sesame paste 20 g; နို့အပူ 180 ml; ပျားရည် 10 ml. Exact final appearance and order: Black sesame paste and honey thoroughly mixed with hot milk. White ceramic mug, smooth warm gray sesame milk with tiny natural dark sesame speckles. No seed garnish, coffee layer, ice or cream. Unless a different vessel is specified, use clear 16oz takeaway cup. Hot drinks dry with NO ice or condensation. Cold drinks realistic ice and condensation as specified. Show only one finished drink; no people, hands, equipment, extra captions or surrounding props. No garnish, topping or ingredient not explicitly listed. No carbonation except recipes explicitly containing tonic, soda or ginger ale/beer. Match natural proportions, no artificial perfect color blocks. Each image must be a fresh individual photograph.",
+      "visual": "Black sesame paste and honey thoroughly mixed with hot milk. White ceramic mug, smooth warm gray sesame milk with tiny natural dark sesame speckles. No seed garnish, coffee layer, ice or cream."
+    },
+    {
+      "key": "v8-27-03",
+      "file": "recipe-photos/v8-27-03.webp",
+      "width": 768,
+      "height": 768,
+      "sha256": "82f4266586f312986a2bede6a33dccb9a2e52ae4ee2a66ee24ad5174b17daea3",
+      "ingredientsSha256": "c9a6dcb414cf96f6ec9ad8a0abb0b806830723b0bca87d93c08475ed9cf27ebb",
+      "bytes": 63294,
+      "gitSha": "ec89af30417f901353ce367e7b677d6aa0d8a5aa",
+      "recipeName": "Espresso Ginger Beer",
+      "method": "imagegen",
+      "reviewedAt": "2026-11-17",
+      "prompt": "Use case: product-mockup. Create ONE new photorealistic square cafe menu photograph of Espresso Ginger Beer. Warm off-white seamless studio background, soft natural side lighting, fully visible centered vessel with 8% breathing room. The attached image is a LOGO reference only: reproduce its dark-green 9 FLOOR COFFEE logo accurately on a centered white label on clear cups or printed on ceramic. Recipe ingredients with exact quantities: Espresso 32 g; Alcohol-free ginger beer 160 ml; ရေခဲ 180 g; လီမွန်ရည် 10 ml. Exact final appearance and order: Lemon juice, ice, alcohol-free ginger beer, then espresso poured LAST. Pale ginger-gold slightly cloudy carbonated base under dark coffee, fine bubbles. No ginger pieces or citrus slices. Unless a different vessel is specified, use clear 16oz takeaway cup. Hot drinks dry with NO ice or condensation. Cold drinks realistic ice and condensation as specified. Show only one finished drink; no people, hands, equipment, extra captions or surrounding props. No garnish, topping or ingredient not explicitly listed. No carbonation except recipes explicitly containing tonic, soda or ginger ale/beer. Match natural proportions, no artificial perfect color blocks. Each image must be a fresh individual photograph.",
+      "visual": "Lemon juice, ice, alcohol-free ginger beer, then espresso poured LAST. Pale ginger-gold slightly cloudy carbonated base under dark coffee, fine bubbles. No ginger pieces or citrus slices."
     }
   ]
 }
