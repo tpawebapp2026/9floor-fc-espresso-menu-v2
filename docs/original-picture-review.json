@@ -1,6 +1,6 @@
 {
   "scope": "Original 260 recipes",
-  "reviewed": 253,
+  "reviewed": 258,
   "target": 260,
   "method": "imagegen",
   "rows": [
@@ -3798,6 +3798,81 @@
       "reviewedAt": "2026-11-17",
       "prompt": "Use case: product-mockup. Create ONE new photorealistic square cafe menu photograph of Iced Chamomile Honey. Warm off-white seamless studio background, soft natural side lighting, fully visible centered vessel with 8% breathing room. The attached image is a LOGO reference only: reproduce its dark-green 9 FLOOR COFFEE logo accurately on a centered white label on clear cups or printed on ceramic. Recipe ingredients with exact quantities: Chamomile tea 4 g; ရေနွေး 180 ml; ပျားရည် 15 ml; ရေခဲ 180 g. Exact final appearance and order: Chamomile steeped and STRAINED, honey dissolved then cooled over ice. Clear pale honey-gold tea, no flowers, leaves, coffee, milk or bubbles. Unless a different vessel is specified, use clear 16oz takeaway cup. Hot drinks dry with NO ice or condensation. Cold drinks realistic ice and condensation as specified. Show only one finished drink; no people, hands, equipment, extra captions or surrounding props. No garnish, topping or ingredient not explicitly listed. No carbonation except recipes explicitly containing tonic, soda or ginger ale/beer. Match natural proportions, no artificial perfect color blocks. Each image must be a fresh individual photograph.",
       "visual": "Chamomile steeped and STRAINED, honey dissolved then cooled over ice. Clear pale honey-gold tea, no flowers, leaves, coffee, milk or bubbles."
+    },
+    {
+      "key": "v8-28-04",
+      "file": "recipe-photos/v8-28-04.webp",
+      "width": 768,
+      "height": 768,
+      "sha256": "c90287043a37f4f12dbc80635a7b0ff32f854a996ae8d1cd03174c3cc118d264",
+      "ingredientsSha256": "c4f74507362783102e4c12edbb32a29ecdbec8c8cbd0931f25aa03970832ee59",
+      "bytes": 32418,
+      "gitSha": "348fd3e53cb51c2656142de4582ea07b177eaf7e",
+      "recipeName": "Pumpkin Spice Latte",
+      "method": "imagegen",
+      "reviewedAt": "2026-11-17",
+      "prompt": "Use case: product-mockup. Create ONE new photorealistic square cafe menu photograph of Pumpkin Spice Latte. Warm off-white seamless studio background, soft natural side lighting, fully visible centered vessel with 8% breathing room. The attached image is a LOGO reference only: reproduce its dark-green 9 FLOOR COFFEE logo accurately on a centered white label on clear cups or printed on ceramic. Recipe ingredients with exact quantities: Espresso 32 g; နို့အပူ 180 ml; Pumpkin purée 20 g; Pumpkin spice 0.5 g; သကြားရည် 10 ml. Exact final appearance and order: Pumpkin puree, spice and syrup combined with espresso and hot milk, white ceramic handled mug. Uniform soft pumpkin-tan with restrained fine foam. No pumpkin pieces, cream or spice dusting. Unless a different vessel is specified, use clear 16oz takeaway cup. Hot drinks dry with NO ice or condensation. Cold drinks realistic ice and condensation as specified. Show only one finished drink; no people, hands, equipment, extra captions or surrounding props. No garnish, topping or ingredient not explicitly listed. No carbonation except recipes explicitly containing tonic, soda or ginger ale/beer. Match natural proportions, no artificial perfect color blocks. Each image must be a fresh individual photograph.",
+      "visual": "Pumpkin puree, spice and syrup combined with espresso and hot milk, white ceramic handled mug. Uniform soft pumpkin-tan with restrained fine foam. No pumpkin pieces, cream or spice dusting."
+    },
+    {
+      "key": "v8-28-03",
+      "file": "recipe-photos/v8-28-03.webp",
+      "width": 768,
+      "height": 768,
+      "sha256": "8a4b4516b3bc244153c057d8ffe63ee11ef1368e18662df069c94a8d2d90a83a",
+      "ingredientsSha256": "ad27244a315d48fa57e84a943db695f702c6c0a18b460807f79d2cb45668e5fd",
+      "bytes": 52844,
+      "gitSha": "13d5b13fe9559b6bd13e03574a2ebad4fd037b25",
+      "recipeName": "Iced Gingerbread Latte",
+      "method": "imagegen",
+      "reviewedAt": "2026-11-17",
+      "prompt": "Use case: product-mockup. Create ONE new photorealistic square cafe menu photograph of Iced Gingerbread Latte. Warm off-white seamless studio background, soft natural side lighting, fully visible centered vessel with 8% breathing room. The attached image is a LOGO reference only: reproduce its dark-green 9 FLOOR COFFEE logo accurately on a centered white label on clear cups or printed on ceramic. Recipe ingredients with exact quantities: Espresso 32 g; နို့အေး 150 ml; Gingerbread syrup 20 ml; ရေခဲ 180 g. Exact final appearance and order: Gingerbread syrup mixed with cold milk, ice, espresso LAST. Pale warm tan milk below darker espresso diffusion. No biscuit, ginger pieces, dusting or cream. Unless a different vessel is specified, use clear 16oz takeaway cup. Hot drinks dry with NO ice or condensation. Cold drinks realistic ice and condensation as specified. Show only one finished drink; no people, hands, equipment, extra captions or surrounding props. No garnish, topping or ingredient not explicitly listed. No carbonation except recipes explicitly containing tonic, soda or ginger ale/beer. Match natural proportions, no artificial perfect color blocks. Each image must be a fresh individual photograph.",
+      "visual": "Gingerbread syrup mixed with cold milk, ice, espresso LAST. Pale warm tan milk below darker espresso diffusion. No biscuit, ginger pieces, dusting or cream."
+    },
+    {
+      "key": "v8-28-05",
+      "file": "recipe-photos/v8-28-05.webp",
+      "width": 768,
+      "height": 768,
+      "sha256": "23762a1ea6c02b1bb889ec27f9757efe2d60ff8ab015fd309b55a57a08d1934f",
+      "ingredientsSha256": "646e38543a8103fc5cc5c62ff28cfb20fd3d5fd004d64a2239f77869af5adfd9",
+      "bytes": 55258,
+      "gitSha": "5d5b0825a87b8c425d5b552f4526467dffeec6ea",
+      "recipeName": "Iced Pumpkin Spice Latte",
+      "method": "imagegen",
+      "reviewedAt": "2026-11-17",
+      "prompt": "Use case: product-mockup. Create ONE new photorealistic square cafe menu photograph of Iced Pumpkin Spice Latte. Warm off-white seamless studio background, soft natural side lighting, fully visible centered vessel with 8% breathing room. The attached image is a LOGO reference only: reproduce its dark-green 9 FLOOR COFFEE logo accurately on a centered white label on clear cups or printed on ceramic. Recipe ingredients with exact quantities: Espresso 32 g; နို့အေး 150 ml; Pumpkin purée 20 g; Pumpkin spice 0.5 g; သကြားရည် 15 ml; ရေခဲ 180 g. Exact final appearance and order: Pumpkin puree, spice and syrup mixed throughout cold milk, ice, espresso LAST. Smooth pale pumpkin-orange tan below dark espresso diffusion. No pumpkin pieces, cream or spice dusting. Unless a different vessel is specified, use clear 16oz takeaway cup. Hot drinks dry with NO ice or condensation. Cold drinks realistic ice and condensation as specified. Show only one finished drink; no people, hands, equipment, extra captions or surrounding props. No garnish, topping or ingredient not explicitly listed. No carbonation except recipes explicitly containing tonic, soda or ginger ale/beer. Match natural proportions, no artificial perfect color blocks. Each image must be a fresh individual photograph.",
+      "visual": "Pumpkin puree, spice and syrup mixed throughout cold milk, ice, espresso LAST. Smooth pale pumpkin-orange tan below dark espresso diffusion. No pumpkin pieces, cream or spice dusting."
+    },
+    {
+      "key": "v8-28-08",
+      "file": "recipe-photos/v8-28-08.webp",
+      "width": 768,
+      "height": 768,
+      "sha256": "0e89507e773a4dc1f8f54ebbd18b96166857273abcab57da84f13e548ea9e9cb",
+      "ingredientsSha256": "675b4e810afae8111b622b5cc1c6820d65c595612dc11da70b3648b6135a001a",
+      "bytes": 49648,
+      "gitSha": "14fe15c499229da2f313716f564e1c0df0d7aa31",
+      "recipeName": "Iced Dalgona Matcha",
+      "method": "imagegen",
+      "reviewedAt": "2026-11-17",
+      "prompt": "Use case: product-mockup. Create ONE new photorealistic square cafe menu photograph of Iced Dalgona Matcha. Warm off-white seamless studio background, soft natural side lighting, fully visible centered vessel with 8% breathing room. The attached image is a LOGO reference only: reproduce its dark-green 9 FLOOR COFFEE logo accurately on a centered white label on clear cups or printed on ceramic. Recipe ingredients with exact quantities: Instant coffee 4 g; သကြား 12 g; ရေနွေး 12 ml; နို့အေး 150 ml; Matcha powder 3 g; ရေ 30 ml; ရေခဲ 170 g. Exact final appearance and order: Matcha fully mixed into cold milk over ice, topped with thick fluffy caramel-brown Dalgona coffee foam. UNIFORM pastel matcha-green milk BELOW distinct brown foam, no white milk layer or dusting. Unless a different vessel is specified, use clear 16oz takeaway cup. Hot drinks dry with NO ice or condensation. Cold drinks realistic ice and condensation as specified. Show only one finished drink; no people, hands, equipment, extra captions or surrounding props. No garnish, topping or ingredient not explicitly listed. No carbonation except recipes explicitly containing tonic, soda or ginger ale/beer. Match natural proportions, no artificial perfect color blocks. Each image must be a fresh individual photograph.",
+      "visual": "Matcha fully mixed into cold milk over ice, topped with thick fluffy caramel-brown Dalgona coffee foam. UNIFORM pastel matcha-green milk BELOW distinct brown foam, no white milk layer or dusting."
+    },
+    {
+      "key": "v8-28-07",
+      "file": "recipe-photos/v8-28-07.webp",
+      "width": 768,
+      "height": 768,
+      "sha256": "7a45e5b07287c4b2cf24bf900a31cf16d094cf9bcd650ba8aa0eb1b259ac284b",
+      "ingredientsSha256": "d900211b8b13c195b4378df523a0e56a3dab33fd4dded43ea48dafd853a783ab",
+      "bytes": 56564,
+      "gitSha": "8bda752eb97f4df6215d8b0431f8e48879642a20",
+      "recipeName": "Iced Ube Espresso Latte",
+      "method": "imagegen",
+      "reviewedAt": "2026-11-17",
+      "prompt": "Use case: product-mockup. Create ONE new photorealistic square cafe menu photograph of Iced Ube Espresso Latte. Warm off-white seamless studio background, soft natural side lighting, fully visible centered vessel with 8% breathing room. The attached image is a LOGO reference only: reproduce its dark-green 9 FLOOR COFFEE logo accurately on a centered white label on clear cups or printed on ceramic. Recipe ingredients with exact quantities: Ube paste 25 g; နို့အေး 150 ml; Espresso 32 g; သကြားရည် 10 ml; ရေခဲ 180 g. Exact final appearance and order: Ube paste fully mixed with cold milk and syrup, ice, espresso LAST. Natural lavender milk below dark espresso diffusion. No white milk middle layer or cream. Unless a different vessel is specified, use clear 16oz takeaway cup. Hot drinks dry with NO ice or condensation. Cold drinks realistic ice and condensation as specified. Show only one finished drink; no people, hands, equipment, extra captions or surrounding props. No garnish, topping or ingredient not explicitly listed. No carbonation except recipes explicitly containing tonic, soda or ginger ale/beer. Match natural proportions, no artificial perfect color blocks. Each image must be a fresh individual photograph.",
+      "visual": "Ube paste fully mixed with cold milk and syrup, ice, espresso LAST. Natural lavender milk below dark espresso diffusion. No white milk middle layer or cream."
     }
   ]
 }
