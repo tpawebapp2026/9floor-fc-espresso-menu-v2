@@ -10,8 +10,10 @@ const readyProducts = JSON.parse(
   await readFile("src/readyProducts.json", "utf8"),
 );
 const ingredientAssets = [
-  ...new Set(readyProducts.map((p) => base + p.file)),
-  ...new Set(Object.values(ingredientPhotos).map((p) => base + p.file)),
+  ...new Set([
+    ...readyProducts.map((p) => base + p.file),
+    ...Object.values(ingredientPhotos).map((p) => base + p.file),
+  ]),
 ];
 const precache = [
   ...ingredientAssets,
@@ -32,6 +34,8 @@ const precache = [
     .map((n) => base + "recipe-photos/" + n),
   ...assets,
 ];
+if (new Set(precache).size !== precache.length)
+  throw Error("Duplicate offline precache URL");
 const manifest = JSON.parse(
   await readFile("dist/manifest.webmanifest", "utf8"),
 );
