@@ -1,6 +1,6 @@
 {
   "scope": "Original 260 recipes",
-  "reviewed": 233,
+  "reviewed": 238,
   "target": 260,
   "method": "imagegen",
   "rows": [
@@ -3498,6 +3498,81 @@
       "reviewedAt": "2026-11-17",
       "prompt": "Use case: product-mockup. Create ONE new photorealistic square cafe menu photograph of Hot Hojicha Latte. Warm off-white seamless studio background, soft natural side lighting, fully visible centered vessel with 8% breathing room. The attached image is a LOGO reference only: reproduce its dark-green 9 FLOOR COFFEE logo accurately on a centered white label on clear cups or printed on ceramic. Recipe ingredients with exact quantities: Hojicha powder 5 g; ရေနွေး 40 ml; နို့အပူ 180 ml; သကြားရည် 10 ml. Exact final appearance and order: Hot hojicha whisked with water and hot milk, uniform roasted-tea beige-brown in white ceramic mug with fine thin milk foam. NOT green, no ice, dusting or latte art. Unless a different vessel is specified, use clear 16oz takeaway cup. Hot drinks dry with NO ice or condensation. Cold drinks realistic ice and condensation as specified. Show only one finished drink; no people, hands, equipment, extra captions or surrounding props. No garnish, topping or ingredient not explicitly listed. No carbonation except recipes explicitly containing tonic, soda or ginger ale/beer. Match natural proportions, no artificial perfect color blocks. Each image must be a fresh individual photograph.",
       "visual": "Hot hojicha whisked with water and hot milk, uniform roasted-tea beige-brown in white ceramic mug with fine thin milk foam. NOT green, no ice, dusting or latte art."
+    },
+    {
+      "key": "v8-26-04",
+      "file": "recipe-photos/v8-26-04.webp",
+      "width": 768,
+      "height": 768,
+      "sha256": "8a5888f79fb74b9b6937f9fc023d78b8ca76466857c0e927dea9f7f69ff5adde",
+      "ingredientsSha256": "c550fb84b18b3f4cab1d92bba9de82af746dead49722567921d5edb1aaf444ec",
+      "bytes": 31438,
+      "gitSha": "13231c8132032dfb2316f5adcb173cf5ffbfb146",
+      "recipeName": "Iced Earl Grey Milk Tea",
+      "method": "imagegen",
+      "reviewedAt": "2026-11-17",
+      "prompt": "Use case: product-mockup. Create ONE new photorealistic square cafe menu photograph of Iced Earl Grey Milk Tea. Warm off-white seamless studio background, soft natural side lighting, fully visible centered vessel with 8% breathing room. The attached image is a LOGO reference only: reproduce its dark-green 9 FLOOR COFFEE logo accurately on a centered white label on clear cups or printed on ceramic. Recipe ingredients with exact quantities: Earl Grey tea 5 g; ရေနွေး 100 ml; နို့အေး 110 ml; သကြားရည် 15 ml; ရေခဲ 180 g. Exact final appearance and order: Earl Grey steeped and STRAINED then mixed with milk and syrup over ice. Uniform pale tea-beige, no leaves, bergamot fruit, foam or coffee layer. Unless a different vessel is specified, use clear 16oz takeaway cup. Hot drinks dry with NO ice or condensation. Cold drinks realistic ice and condensation as specified. Show only one finished drink; no people, hands, equipment, extra captions or surrounding props. No garnish, topping or ingredient not explicitly listed. No carbonation except recipes explicitly containing tonic, soda or ginger ale/beer. Match natural proportions, no artificial perfect color blocks. Each image must be a fresh individual photograph.",
+      "visual": "Earl Grey steeped and STRAINED then mixed with milk and syrup over ice. Uniform pale tea-beige, no leaves, bergamot fruit, foam or coffee layer."
+    },
+    {
+      "key": "v8-26-01",
+      "file": "recipe-photos/v8-26-01.webp",
+      "width": 768,
+      "height": 768,
+      "sha256": "a43e629999205d000b1cac8a6feea03e6e5fc9dd245ac314b06c5f3fa193987a",
+      "ingredientsSha256": "99e56cf7117212984608bdfb1e518e492cec0d7f2897fedd19697ce633c0b8f1",
+      "bytes": 41974,
+      "gitSha": "38caaa6e5cf260a00d2dc370ebbd8bb4e0b63386",
+      "recipeName": "Iced Hojicha Latte",
+      "method": "imagegen",
+      "reviewedAt": "2026-11-17",
+      "prompt": "Use case: product-mockup. Create ONE new photorealistic square cafe menu photograph of Iced Hojicha Latte. Warm off-white seamless studio background, soft natural side lighting, fully visible centered vessel with 8% breathing room. The attached image is a LOGO reference only: reproduce its dark-green 9 FLOOR COFFEE logo accurately on a centered white label on clear cups or printed on ceramic. Recipe ingredients with exact quantities: Hojicha powder 5 g; ရေနွေး 40 ml; နို့အေး 150 ml; သကြားရည် 10 ml; ရေခဲ 180 g. Exact final appearance and order: Cold milk with syrup over ice, roasted hojicha tea concentrate poured LAST. White milk lower region, roasted TEA BROWN upper region diffusing. NOT green matcha, no cream or garnish. Unless a different vessel is specified, use clear 16oz takeaway cup. Hot drinks dry with NO ice or condensation. Cold drinks realistic ice and condensation as specified. Show only one finished drink; no people, hands, equipment, extra captions or surrounding props. No garnish, topping or ingredient not explicitly listed. No carbonation except recipes explicitly containing tonic, soda or ginger ale/beer. Match natural proportions, no artificial perfect color blocks. Each image must be a fresh individual photograph.",
+      "visual": "Cold milk with syrup over ice, roasted hojicha tea concentrate poured LAST. White milk lower region, roasted TEA BROWN upper region diffusing. NOT green matcha, no cream or garnish."
+    },
+    {
+      "key": "v8-25-06",
+      "file": "recipe-photos/v8-25-06.webp",
+      "width": 768,
+      "height": 768,
+      "sha256": "f3aac052ec7d4f1efaacd2fb05b83349785deabc92fb2b51593b1575bbf966f8",
+      "ingredientsSha256": "058a0750cdb549e5f9041ec05a209add2c0cef4410d8513b6696294f9cbefa76",
+      "bytes": 34884,
+      "gitSha": "ba02e4d078b5afcf7a55e1ca0ffc03ab3b07ba10",
+      "recipeName": "Café Cubano",
+      "method": "imagegen",
+      "reviewedAt": "2026-11-17",
+      "prompt": "Use case: product-mockup. Create ONE new photorealistic square cafe menu photograph of Café Cubano. Warm off-white seamless studio background, soft natural side lighting, fully visible centered vessel with 8% breathing room. The attached image is a LOGO reference only: reproduce its dark-green 9 FLOOR COFFEE logo accurately on a centered white label on clear cups or printed on ceramic. Recipe ingredients with exact quantities: Espresso 32 g; သကြား 10 g. Exact final appearance and order: Tiny ceramic espresso demitasse, dark hot coffee with thick golden fine sugar-coffee espumita. No milk, cream or ice. Unless a different vessel is specified, use clear 16oz takeaway cup. Hot drinks dry with NO ice or condensation. Cold drinks realistic ice and condensation as specified. Show only one finished drink; no people, hands, equipment, extra captions or surrounding props. No garnish, topping or ingredient not explicitly listed. No carbonation except recipes explicitly containing tonic, soda or ginger ale/beer. Match natural proportions, no artificial perfect color blocks. Each image must be a fresh individual photograph.",
+      "visual": "Tiny ceramic espresso demitasse, dark hot coffee with thick golden fine sugar-coffee espumita. No milk, cream or ice."
+    },
+    {
+      "key": "v8-24-06",
+      "file": "recipe-photos/v8-24-06.webp",
+      "width": 768,
+      "height": 768,
+      "sha256": "5e4621984af2cbdfa2ee2510772c81b6955f256ae4e00dc2176f12c93c3da6c6",
+      "ingredientsSha256": "5bb13304571496182b0c6449fa5d6b8fad8d25c7b1cb826bca7e750989acb2af",
+      "bytes": 38828,
+      "gitSha": "35e92ce1ab392526cd64b74f121947072ab4f875",
+      "recipeName": "Bicerin",
+      "method": "imagegen",
+      "reviewedAt": "2026-11-17",
+      "prompt": "Use case: product-mockup. Create ONE new photorealistic square cafe menu photograph of Bicerin. Warm off-white seamless studio background, soft natural side lighting, fully visible centered vessel with 8% breathing room. The attached image is a LOGO reference only: reproduce its dark-green 9 FLOOR COFFEE logo accurately on a centered white label on clear cups or printed on ceramic. Recipe ingredients with exact quantities: Espresso 32 g; Chocolate sauce 25 ml; နို့အပူ 90 ml; Whipped cream 25 g. Exact final appearance and order: Chocolate sauce bottom, hot espresso and milk middle, soft whipped cream on top, clear heatproof handled glass. No cocoa dust or chocolate shavings. Unless a different vessel is specified, use clear 16oz takeaway cup. Hot drinks dry with NO ice or condensation. Cold drinks realistic ice and condensation as specified. Show only one finished drink; no people, hands, equipment, extra captions or surrounding props. No garnish, topping or ingredient not explicitly listed. No carbonation except recipes explicitly containing tonic, soda or ginger ale/beer. Match natural proportions, no artificial perfect color blocks. Each image must be a fresh individual photograph.",
+      "visual": "Chocolate sauce bottom, hot espresso and milk middle, soft whipped cream on top, clear heatproof handled glass. No cocoa dust or chocolate shavings."
+    },
+    {
+      "key": "v8-26-03",
+      "file": "recipe-photos/v8-26-03.webp",
+      "width": 768,
+      "height": 768,
+      "sha256": "b156690714f039e2760ef3cfae0d11042e56ea24b20ae03da942f4541df7eaff",
+      "ingredientsSha256": "59361656be9bc329cd4ba1e40ae018c8e9425afca5e94c4590119712d892d7c7",
+      "bytes": 33616,
+      "gitSha": "25ac7e44ab5169d71eda00c0c607ad712ddfd285",
+      "recipeName": "Iced Genmaicha Latte",
+      "method": "imagegen",
+      "reviewedAt": "2026-11-17",
+      "prompt": "Use case: product-mockup. Create ONE new photorealistic square cafe menu photograph of Iced Genmaicha Latte. Warm off-white seamless studio background, soft natural side lighting, fully visible centered vessel with 8% breathing room. The attached image is a LOGO reference only: reproduce its dark-green 9 FLOOR COFFEE logo accurately on a centered white label on clear cups or printed on ceramic. Recipe ingredients with exact quantities: Genmaicha tea 6 g; ရေနွေး 80 ml; နို့အေး 130 ml; သကြားရည် 10 ml; ရေခဲ 180 g. Exact final appearance and order: Genmaicha steeped and STRAINED then mixed with milk and syrup over ice, uniform pale warm beige with very subtle olive tint. NOT bright green, no rice, leaves or foam. Unless a different vessel is specified, use clear 16oz takeaway cup. Hot drinks dry with NO ice or condensation. Cold drinks realistic ice and condensation as specified. Show only one finished drink; no people, hands, equipment, extra captions or surrounding props. No garnish, topping or ingredient not explicitly listed. No carbonation except recipes explicitly containing tonic, soda or ginger ale/beer. Match natural proportions, no artificial perfect color blocks. Each image must be a fresh individual photograph.",
+      "visual": "Genmaicha steeped and STRAINED then mixed with milk and syrup over ice, uniform pale warm beige with very subtle olive tint. NOT bright green, no rice, leaves or foam."
     }
   ]
 }
